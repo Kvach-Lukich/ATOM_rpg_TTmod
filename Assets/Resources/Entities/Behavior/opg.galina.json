@@ -1,0 +1,709 @@
+{ 
+   "states" : { 
+      "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101261", 
+            "y" : "-101016"
+         }, 
+         "child" : [ 
+            "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd"
+         ]
+      }, 
+      "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101262", 
+            "y" : "-100903"
+         }, 
+         "child" : [ 
+            "01b53493-e858-4fd4-a15d-39500d026876", 
+            "4c28939a-229d-450c-a9ea-e9984fb9c8c9"
+         ]
+      }, 
+      "01b53493-e858-4fd4-a15d-39500d026876" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101447", 
+            "y" : "-100818"
+         }, 
+         "child" : [ 
+            "bf8a482f-b088-4fb8-9f9d-5c27833e56a1", 
+            "fe2b4683-4d5e-4272-8c59-818ea34e0dba"
+         ]
+      }, 
+      "bf8a482f-b088-4fb8-9f9d-5c27833e56a1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101506", 
+            "y" : "-100728"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fe2b4683-4d5e-4272-8c59-818ea34e0dba" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-101439", 
+            "y" : "-100601"
+         }, 
+         "child" : [ 
+            "c3033543-6566-48b8-9371-a0f423d30da6"
+         ], 
+         "stateName" : "OUT"
+      }, 
+      "c3033543-6566-48b8-9371-a0f423d30da6" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101445", 
+            "y" : "-100524"
+         }, 
+         "child" : [ 
+            "08777d6e-8b18-4b76-a9bf-df15e2adb208"
+         ], 
+         "pointName" : "ZoneOutPoint", 
+         "waitEnd" : "true", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "true"
+      }, 
+      "08777d6e-8b18-4b76-a9bf-df15e2adb208" : { 
+         "class" : "CharacterInOutNode", 
+         "desc" : { 
+            "x" : "-101439", 
+            "y" : "-100446"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false", 
+         "effectDuration" : "1.5"
+      }, 
+      "4c28939a-229d-450c-a9ea-e9984fb9c8c9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-101123", 
+            "y" : "-100804"
+         }, 
+         "child" : [ 
+            "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
+         ]
+      }, 
+      "b3e6965b-eb1b-4218-a551-fdb967b6ace7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101075", 
+            "y" : "-100614"
+         }, 
+         "child" : [ 
+            "e7f6bef4-d73a-49d2-a438-e911a6c1ec83", 
+            "e881f1ed-cbe5-40c1-8dd0-19c1493a0269"
+         ], 
+         "key" : "TEAMMATE"
+      }, 
+      "e7f6bef4-d73a-49d2-a438-e911a6c1ec83" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101096", 
+            "y" : "-100490"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "75f8f344-e647-40d7-8fff-d9e4571d1a1a"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "dff11213-f260-4db2-b405-488f7cfc2e49" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101202", 
+            "y" : "-100162"
+         }, 
+         "child" : [ 
+            "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0"
+         ], 
+         "waitTimeMin" : "1", 
+         "waitTimeMax" : "3"
+      }, 
+      "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101162", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ]
+      }, 
+      "95b468b6-18cb-4118-8a98-064070ccbf3d" : { 
+         "class" : "CharacterInDialogNode", 
+         "desc" : { 
+            "x" : "-101306", 
+            "y" : "-99927"
+         }, 
+         "child" : [ 
+            "9a485888-7101-49cb-a601-de667d78059c", 
+            "378f74f9-3eef-41fa-8a23-d144e30e3b8e"
+         ]
+      }, 
+      "9a485888-7101-49cb-a601-de667d78059c" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101369", 
+            "y" : "-99838"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "5"
+      }, 
+      "378f74f9-3eef-41fa-8a23-d144e30e3b8e" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101229", 
+            "y" : "-99831"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
+      }, 
+      "75f8f344-e647-40d7-8fff-d9e4571d1a1a" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100981", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd"
+         ]
+      }, 
+      "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100882", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+            "af8a1615-8ee0-4515-9d62-9121bdc04d60", 
+            "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c"
+         ], 
+         "key" : "SWING"
+      }, 
+      "af8a1615-8ee0-4515-9d62-9121bdc04d60" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100957", 
+            "y" : "-100215"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "key" : "SWING"
+      }, 
+      "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c" : { 
+         "class" : "PlayerInDialogNode", 
+         "desc" : { 
+            "x" : "-100909", 
+            "y" : "-100143"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "b2b706ac-fee4-45d1-9e52-b3d9477c087c"
+         ]
+      }, 
+      "b2b706ac-fee4-45d1-9e52-b3d9477c087c" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-100813", 
+            "y" : "-100070"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "pointName" : "Player"
+      }, 
+      "e881f1ed-cbe5-40c1-8dd0-19c1493a0269" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100604", 
+            "y" : "-101201"
+         }, 
+         "child" : [ 
+            "2d48448d-7329-4488-9b32-8e67c7c0f369"
+         ]
+      }, 
+      "2d48448d-7329-4488-9b32-8e67c7c0f369" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100626", 
+            "y" : "-101141"
+         }, 
+         "child" : [ 
+            "d5654d9a-bf1c-4bd8-9bdd-27c5ec0888e0", 
+            "1e530bae-079f-4d26-a9f7-30bb07920ecc"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_dima_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d5654d9a-bf1c-4bd8-9bdd-27c5ec0888e0" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100624", 
+            "y" : "-101027"
+         }, 
+         "child" : [ 
+            "23b142b7-4bc9-4c2a-b1cc-b62a27deeb08", 
+            "1e530bae-079f-4d26-a9f7-30bb07920ecc"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_igor_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "23b142b7-4bc9-4c2a-b1cc-b62a27deeb08" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100618", 
+            "y" : "-100909"
+         }, 
+         "child" : [ 
+            "8836ae46-aee1-4dce-9963-813cab0d89b0", 
+            "1e530bae-079f-4d26-a9f7-30bb07920ecc"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_lena_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8836ae46-aee1-4dce-9963-813cab0d89b0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100077", 
+            "y" : "-101420"
+         }, 
+         "child" : [ 
+            "17d10776-f1ef-4b17-b240-fa542a1ddeef"
+         ]
+      }, 
+      "17d10776-f1ef-4b17-b240-fa542a1ddeef" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100076", 
+            "y" : "-101375"
+         }, 
+         "child" : [ 
+            "f4ea3158-01d2-4665-b3d8-345fb97cc21e"
+         ], 
+         "waitTime" : "4"
+      }, 
+      "f4ea3158-01d2-4665-b3d8-345fb97cc21e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100130", 
+            "y" : "-101308"
+         }, 
+         "child" : [ 
+            "18128cf3-6062-432d-96b7-cfe3ed49286f"
+         ], 
+         "text" : "#opg.galina.f4ea3158-01d2-4665-b3d8-345fb97cc21e", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "18128cf3-6062-432d-96b7-cfe3ed49286f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100076", 
+            "y" : "-101242"
+         }, 
+         "child" : [ 
+            "e20c069d-4ae7-4797-af7f-77131ec5954b"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "e20c069d-4ae7-4797-af7f-77131ec5954b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100127", 
+            "y" : "-101181"
+         }, 
+         "child" : [ 
+            "f6e048d6-01b5-4dc9-b239-604e3e87febe"
+         ], 
+         "text" : "#opg.galina.e20c069d-4ae7-4797-af7f-77131ec5954b", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "f6e048d6-01b5-4dc9-b239-604e3e87febe" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100071", 
+            "y" : "-101122"
+         }, 
+         "child" : [ 
+            "394b2faa-28e2-4f13-97de-7324733eaead"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "394b2faa-28e2-4f13-97de-7324733eaead" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100120", 
+            "y" : "-101062"
+         }, 
+         "child" : [ 
+            "bc3cecb4-6814-4bf4-9115-625e02dbd505"
+         ], 
+         "text" : "#opg.galina.394b2faa-28e2-4f13-97de-7324733eaead", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bc3cecb4-6814-4bf4-9115-625e02dbd505" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100058", 
+            "y" : "-100993"
+         }, 
+         "child" : [ 
+            "82baf771-3a4e-4c8e-9f60-f5e21a3a6fbc"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "82baf771-3a4e-4c8e-9f60-f5e21a3a6fbc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100114", 
+            "y" : "-100929"
+         }, 
+         "child" : [ 
+            "69e13e0b-e429-46b3-abb5-6b4fbf43e429"
+         ], 
+         "text" : "#opg.galina.82baf771-3a4e-4c8e-9f60-f5e21a3a6fbc", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "69e13e0b-e429-46b3-abb5-6b4fbf43e429" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100055", 
+            "y" : "-100864"
+         }, 
+         "child" : [ 
+            "3783e555-c8e1-4513-a66c-b43365f26301"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "3783e555-c8e1-4513-a66c-b43365f26301" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100106", 
+            "y" : "-100798"
+         }, 
+         "child" : [ 
+            "494cc407-3bff-4e60-9f69-c4e3211f39f3"
+         ], 
+         "text" : "#opg.galina.3783e555-c8e1-4513-a66c-b43365f26301", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "494cc407-3bff-4e60-9f69-c4e3211f39f3" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100044", 
+            "y" : "-100716"
+         }, 
+         "child" : [ 
+            "927d7f96-3865-43f4-8658-5a561a310fe9"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "927d7f96-3865-43f4-8658-5a561a310fe9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100089", 
+            "y" : "-100650"
+         }, 
+         "child" : [ 
+            "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
+         ], 
+         "text" : "#opg.galina.927d7f96-3865-43f4-8658-5a561a310fe9", 
+         "waitEnd" : "true", 
+         "customColor" : "ffff00", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "1e530bae-079f-4d26-a9f7-30bb07920ecc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100742", 
+            "y" : "-100969"
+         }, 
+         "child" : [ 
+            "0bb9152c-847b-4c82-8740-d0561c5f698b"
+         ]
+      }, 
+      "0bb9152c-847b-4c82-8740-d0561c5f698b" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100644", 
+            "y" : "-100643"
+         }, 
+         "child" : [ 
+            "6ed356c7-d4d8-41ad-8302-ce2cf68dd20e", 
+            "27a6e0f1-d7f4-4661-9b1b-1870ff9b38df", 
+            "e74f5570-eee2-4a38-9305-fb1d13ce531d"
+         ], 
+         "quest_key" : "CITY.SICK.END"
+      }, 
+      "6ed356c7-d4d8-41ad-8302-ce2cf68dd20e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100625", 
+            "y" : "-100522"
+         }, 
+         "child" : [ 
+            "27a6e0f1-d7f4-4661-9b1b-1870ff9b38df"
+         ]
+      }, 
+      "27a6e0f1-d7f4-4661-9b1b-1870ff9b38df" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100441", 
+            "y" : "-100483"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false"
+      }, 
+      "e74f5570-eee2-4a38-9305-fb1d13ce531d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100821", 
+            "y" : "-100491"
+         }, 
+         "child" : [ 
+            "e7d16234-6f14-4677-adea-7db6dcd7ccaa"
+         ]
+      }, 
+      "e7d16234-6f14-4677-adea-7db6dcd7ccaa" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100605", 
+            "y" : "-100409"
+         }, 
+         "child" : [ 
+            "e8d0d6c0-c287-4ef1-b268-0eae2598c468", 
+            "7ae16f58-d8e6-4b58-905a-e63954d83f28", 
+            "46336eef-3c3f-436c-b58b-54e0a2a524f8", 
+            "d653ebcd-b0b0-4cfb-a511-03fcdb208301", 
+            "bcd22f27-011b-46e2-9d5f-b4c44b5b0cb0", 
+            "f54cce92-d1a7-4169-8d1c-3ef55ee542fb", 
+            "5de91f8a-ac92-42e5-bc36-344d73c61cba", 
+            "9006fa25-f1e7-4c7f-b004-4f6d5105fe2b", 
+            "16189cec-71fe-4ea4-b1a6-c66635a0c096", 
+            "e4b7eb2f-aea2-456a-9ed8-cbfeadf471ea", 
+            "d5837997-b5b7-42e5-b975-19cb26339169", 
+            "c7353b82-d2a1-4e5f-9d63-182d2f96f981"
+         ]
+      }, 
+      "e8d0d6c0-c287-4ef1-b268-0eae2598c468" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100776", 
+            "y" : "-100338"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.e8d0d6c0-c287-4ef1-b268-0eae2598c468", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "d533067b-605e-4b6a-957f-1522ca48ccf7" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100633", 
+            "y" : "-100006"
+         }, 
+         "child" : [ 
+            "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "6"
+      }, 
+      "7ae16f58-d8e6-4b58-905a-e63954d83f28" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100665", 
+            "y" : "-100282"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.7ae16f58-d8e6-4b58-905a-e63954d83f28", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "46336eef-3c3f-436c-b58b-54e0a2a524f8" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100546", 
+            "y" : "-100222"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.46336eef-3c3f-436c-b58b-54e0a2a524f8", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "d653ebcd-b0b0-4cfb-a511-03fcdb208301" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100466", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.d653ebcd-b0b0-4cfb-a511-03fcdb208301", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bcd22f27-011b-46e2-9d5f-b4c44b5b0cb0" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100463", 
+            "y" : "-100352"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.bcd22f27-011b-46e2-9d5f-b4c44b5b0cb0", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "f54cce92-d1a7-4169-8d1c-3ef55ee542fb" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100352", 
+            "y" : "-100296"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.f54cce92-d1a7-4169-8d1c-3ef55ee542fb", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "5de91f8a-ac92-42e5-bc36-344d73c61cba" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100233", 
+            "y" : "-100236"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.5de91f8a-ac92-42e5-bc36-344d73c61cba", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "9006fa25-f1e7-4c7f-b004-4f6d5105fe2b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100154", 
+            "y" : "-100168"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.9006fa25-f1e7-4c7f-b004-4f6d5105fe2b", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "16189cec-71fe-4ea4-b1a6-c66635a0c096" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-100351"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.16189cec-71fe-4ea4-b1a6-c66635a0c096", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "e4b7eb2f-aea2-456a-9ed8-cbfeadf471ea" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100071", 
+            "y" : "-100295"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.e4b7eb2f-aea2-456a-9ed8-cbfeadf471ea", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "d5837997-b5b7-42e5-b975-19cb26339169" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99952", 
+            "y" : "-100235"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.d5837997-b5b7-42e5-b975-19cb26339169", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "c7353b82-d2a1-4e5f-9d63-182d2f96f981" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99872", 
+            "y" : "-100178"
+         }, 
+         "child" : [ 
+            "d533067b-605e-4b6a-957f-1522ca48ccf7"
+         ], 
+         "text" : "#OPG.Galina.c7353b82-d2a1-4e5f-9d63-182d2f96f981", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }
+   }, 
+   "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"
+}

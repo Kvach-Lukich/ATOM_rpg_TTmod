@@ -1,0 +1,2465 @@
+{ 
+   "states" : { 
+      "011f3d02-83f3-4419-be4a-85796423c45e" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102496", 
+            "y" : "-101255"
+         }, 
+         "child" : [ 
+            "140844dc-2f4d-4800-a683-a007cd4ef005", 
+            "c499ea90-cb1e-4bf1-b11f-5792c69e3233"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "140844dc-2f4d-4800-a683-a007cd4ef005" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102680", 
+            "y" : "-101209"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_igor_head"
+         }, 
+         "objectName" : "$SELF$"
+      }, 
+      "c499ea90-cb1e-4bf1-b11f-5792c69e3233" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102497", 
+            "y" : "-101199"
+         }, 
+         "child" : [ 
+            "8cc39118-976a-4c94-b2ce-8f204f1afc7e"
+         ], 
+         "key" : "MEET"
+      }, 
+      "8cc39118-976a-4c94-b2ce-8f204f1afc7e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-101146"
+         }, 
+         "child" : [ 
+            "5aac6d78-4fbd-4016-8046-82aa5c0349d7"
+         ], 
+         "text" : "#OPG_Death_Igor.8cc39118-976a-4c94-b2ce-8f204f1afc7e"
+      }, 
+      "5aac6d78-4fbd-4016-8046-82aa5c0349d7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102553", 
+            "y" : "-101039"
+         }, 
+         "child" : [ 
+            "96ed9004-f2ee-46e8-994b-7496d6c59823"
+         ]
+      }, 
+      "96ed9004-f2ee-46e8-994b-7496d6c59823" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102555", 
+            "y" : "-101003"
+         }, 
+         "child" : [ 
+            "12cd4cc3-0f0e-4ab9-ad51-510fe7f1d60d"
+         ], 
+         "text" : "#OPG_Death_Igor.96ed9004-f2ee-46e8-994b-7496d6c59823"
+      }, 
+      "12cd4cc3-0f0e-4ab9-ad51-510fe7f1d60d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102554", 
+            "y" : "-100897"
+         }, 
+         "child" : [ 
+            "f1f3210e-dd6a-44f3-a7d7-c31b7acb756a"
+         ]
+      }, 
+      "f1f3210e-dd6a-44f3-a7d7-c31b7acb756a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102554", 
+            "y" : "-100855"
+         }, 
+         "child" : [ 
+            "48e22543-56cd-4baf-967b-844b1b1d0a26"
+         ], 
+         "text" : "#OPG_Death_Igor.f1f3210e-dd6a-44f3-a7d7-c31b7acb756a"
+      }, 
+      "48e22543-56cd-4baf-967b-844b1b1d0a26" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102554", 
+            "y" : "-100761"
+         }, 
+         "child" : [ 
+            "1748368d-0bd4-45d1-913d-d787fe95e04c"
+         ]
+      }, 
+      "1748368d-0bd4-45d1-913d-d787fe95e04c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102553", 
+            "y" : "-100722"
+         }, 
+         "child" : [ 
+            "9b28cd2e-3935-4320-8fec-499c1323f3f5"
+         ], 
+         "text" : "#OPG_Death_Igor.1748368d-0bd4-45d1-913d-d787fe95e04c"
+      }, 
+      "9b28cd2e-3935-4320-8fec-499c1323f3f5" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102555", 
+            "y" : "-100614"
+         }, 
+         "child" : [ 
+            "b9ac5615-f47a-4614-b62e-9d35869fe8d3"
+         ]
+      }, 
+      "b9ac5615-f47a-4614-b62e-9d35869fe8d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102555", 
+            "y" : "-100575"
+         }, 
+         "child" : [ 
+            "81478c6d-234c-457f-b8d6-4bf23be6cf38", 
+            "81216288-cf8c-4e0c-979b-9f45eb354d6c", 
+            "f78c88cd-f4ca-49c9-9885-1c6eefd8d0da", 
+            "68ff9941-8749-4375-9de6-5039d613e695", 
+            "17a034eb-6822-4929-838b-71ca2bc2d483"
+         ], 
+         "text" : "#OPG_Death_Igor.b9ac5615-f47a-4614-b62e-9d35869fe8d3"
+      }, 
+      "81478c6d-234c-457f-b8d6-4bf23be6cf38" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102862", 
+            "y" : "-100367", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "7d37bb79-4ce4-4fc8-a954-6525f80bd35c"
+         ], 
+         "text" : "#OPG_Death_Igor.81478c6d-234c-457f-b8d6-4bf23be6cf38"
+      }, 
+      "7d37bb79-4ce4-4fc8-a954-6525f80bd35c" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101567", 
+            "y" : "-98028"
+         }, 
+         "child" : [ 
+            "b0b757da-d1a3-4e68-935f-1f34496da936", 
+            "8336db04-3463-4610-bc4c-f4105c433e21"
+         ], 
+         "value" : "8", 
+         "stat" : "Strength"
+      }, 
+      "b0b757da-d1a3-4e68-935f-1f34496da936" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-97912", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "49931f77-b8bc-430c-b239-d8ebb9c73eae"
+         ], 
+         "text" : "#OPG_Death_Igor.b0b757da-d1a3-4e68-935f-1f34496da936"
+      }, 
+      "49931f77-b8bc-430c-b239-d8ebb9c73eae" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-97812"
+         }, 
+         "child" : [ 
+            "59c46b69-f1f1-4dff-bfde-d1cb37968518"
+         ]
+      }, 
+      "59c46b69-f1f1-4dff-bfde-d1cb37968518" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101752", 
+            "y" : "-97739"
+         }, 
+         "child" : [ 
+            "25e0a388-f845-458d-a748-add6b12c15f4"
+         ], 
+         "text" : "#OPG_Death_Igor.59c46b69-f1f1-4dff-bfde-d1cb37968518"
+      }, 
+      "25e0a388-f845-458d-a748-add6b12c15f4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-97612"
+         }, 
+         "child" : [ 
+            "a7b7ec55-11e5-4ca5-92a4-7ae3130e7ea8"
+         ]
+      }, 
+      "a7b7ec55-11e5-4ca5-92a4-7ae3130e7ea8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101746", 
+            "y" : "-97508"
+         }, 
+         "child" : [ 
+            "e2be4a33-88d8-4881-8d01-9740e8f11c86"
+         ], 
+         "text" : "#OPG_Death_Igor.a7b7ec55-11e5-4ca5-92a4-7ae3130e7ea8"
+      }, 
+      "e2be4a33-88d8-4881-8d01-9740e8f11c86" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101718", 
+            "y" : "-97391"
+         }, 
+         "child" : [ 
+            "ca646fd1-6192-4f3e-b789-6398cb554bef"
+         ], 
+         "exp" : "50"
+      }, 
+      "ca646fd1-6192-4f3e-b789-6398cb554bef" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101751", 
+            "y" : "-97323", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.ca646fd1-6192-4f3e-b789-6398cb554bef"
+      }, 
+      "34b0ba85-fea6-4d17-a419-08891609602e" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-98705", 
+            "y" : "-99370"
+         }, 
+         "child" : [ 
+            "af466c2e-8d7c-445b-8a39-613786b6a2a9"
+         ], 
+         "fraction" : "opg_2", 
+         "value" : "0"
+      }, 
+      "af466c2e-8d7c-445b-8a39-613786b6a2a9" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-98700", 
+            "y" : "-99285"
+         }, 
+         "child" : [ 
+            "9130fda4-5a05-4372-9835-f5e549fbf0fd"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "OPG_1"
+      }, 
+      "9130fda4-5a05-4372-9835-f5e549fbf0fd" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98736", 
+            "y" : "-99192"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8336db04-3463-4610-bc4c-f4105c433e21" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101462", 
+            "y" : "-97909", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "da52f839-d96a-4d61-b24d-7b3b832c208f"
+         ], 
+         "text" : "#OPG_Death_Igor.8336db04-3463-4610-bc4c-f4105c433e21"
+      }, 
+      "da52f839-d96a-4d61-b24d-7b3b832c208f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101463", 
+            "y" : "-97809"
+         }, 
+         "child" : [ 
+            "bce71afb-a3c5-4d7f-ae94-e08097544fc3"
+         ]
+      }, 
+      "bce71afb-a3c5-4d7f-ae94-e08097544fc3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101460", 
+            "y" : "-97738"
+         }, 
+         "child" : [ 
+            "75400c9b-98eb-4564-8158-4d82d7653b4e"
+         ], 
+         "text" : "#OPG_Death_Igor.bce71afb-a3c5-4d7f-ae94-e08097544fc3"
+      }, 
+      "75400c9b-98eb-4564-8158-4d82d7653b4e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101462", 
+            "y" : "-97608", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.75400c9b-98eb-4564-8158-4d82d7653b4e"
+      }, 
+      "3a4c9b45-160c-454f-ba97-3ae8ab236966" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102160", 
+            "y" : "-97924", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "41b85051-fe24-485b-bf91-e38fa97e20bc"
+         ], 
+         "text" : "#OPG_Death_Igor.3a4c9b45-160c-454f-ba97-3ae8ab236966"
+      }, 
+      "41b85051-fe24-485b-bf91-e38fa97e20bc" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102160", 
+            "y" : "-97824"
+         }, 
+         "child" : [ 
+            "788ddb05-38f9-44fb-8c6a-a4df2179bff0"
+         ]
+      }, 
+      "788ddb05-38f9-44fb-8c6a-a4df2179bff0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102159", 
+            "y" : "-97745"
+         }, 
+         "child" : [ 
+            "c5f82b3e-ecef-4118-8084-9c951f8912b0"
+         ], 
+         "text" : "#OPG_Death_Igor.788ddb05-38f9-44fb-8c6a-a4df2179bff0"
+      }, 
+      "c5f82b3e-ecef-4118-8084-9c951f8912b0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102160", 
+            "y" : "-97624"
+         }, 
+         "child" : [ 
+            "533e48bd-3df4-431d-9a91-9c40d28e7f6a"
+         ]
+      }, 
+      "533e48bd-3df4-431d-9a91-9c40d28e7f6a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102160", 
+            "y" : "-97524"
+         }, 
+         "child" : [ 
+            "d4986e81-e049-498e-a943-ef54b11d6f1f"
+         ], 
+         "text" : "#OPG_Death_Igor.533e48bd-3df4-431d-9a91-9c40d28e7f6a"
+      }, 
+      "d4986e81-e049-498e-a943-ef54b11d6f1f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-97364", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.d4986e81-e049-498e-a943-ef54b11d6f1f"
+      }, 
+      "81216288-cf8c-4e0c-979b-9f45eb354d6c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102700", 
+            "y" : "-100263", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "48fa1a8e-0fde-4fee-8f7b-a76aafb9ea4f"
+         ], 
+         "text" : "#OPG_Death_Igor.81216288-cf8c-4e0c-979b-9f45eb354d6c"
+      }, 
+      "48fa1a8e-0fde-4fee-8f7b-a76aafb9ea4f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98713", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "b784a10a-3a9f-47d8-9078-4236f12cac09"
+         ], 
+         "text" : "#OPG_Death_Igor.48fa1a8e-0fde-4fee-8f7b-a76aafb9ea4f"
+      }, 
+      "b784a10a-3a9f-47d8-9078-4236f12cac09" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98613"
+         }, 
+         "child" : [ 
+            "3278d26a-4a02-4901-a16d-99ec6187c1a2"
+         ]
+      }, 
+      "3278d26a-4a02-4901-a16d-99ec6187c1a2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98513"
+         }, 
+         "child" : [ 
+            "45c612ff-23af-4f21-be74-f460ad50f978"
+         ], 
+         "text" : "#OPG_Death_Igor.3278d26a-4a02-4901-a16d-99ec6187c1a2"
+      }, 
+      "45c612ff-23af-4f21-be74-f460ad50f978" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98413"
+         }, 
+         "child" : [ 
+            "d3ccd57e-b94d-43d5-83f8-79062bd3254a"
+         ]
+      }, 
+      "d3ccd57e-b94d-43d5-83f8-79062bd3254a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101956", 
+            "y" : "-98336"
+         }, 
+         "child" : [ 
+            "4e86e279-ec39-4aaf-bd4e-1ba224fda3e1", 
+            "9cd08052-4b25-4850-8928-28d18e69ee9c", 
+            "0ed3ce3b-852a-4b77-b2d6-f6cc126484fd", 
+            "f99f1a3c-9fcd-4f18-9ff3-74d1c883a32f", 
+            "fc72cb9c-a828-487d-a1c7-96b8bcd4fe4b"
+         ], 
+         "text" : "#OPG_Death_Igor.d3ccd57e-b94d-43d5-83f8-79062bd3254a"
+      }, 
+      "4e86e279-ec39-4aaf-bd4e-1ba224fda3e1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102255", 
+            "y" : "-98213", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "2a39abcd-199d-4f40-8ed2-905aa69486a8"
+         ], 
+         "text" : "#OPG_Death_Igor.4e86e279-ec39-4aaf-bd4e-1ba224fda3e1"
+      }, 
+      "2a39abcd-199d-4f40-8ed2-905aa69486a8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102710", 
+            "y" : "-98091", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "5dcdc82d-d34d-4d71-abd1-1dbfc200d7f7"
+         ], 
+         "text" : "#OPG_Death_Igor.2a39abcd-199d-4f40-8ed2-905aa69486a8"
+      }, 
+      "5dcdc82d-d34d-4d71-abd1-1dbfc200d7f7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102710", 
+            "y" : "-97991"
+         }, 
+         "child" : [ 
+            "a0f4d8be-7904-496a-9a31-9afd48d9e05d"
+         ]
+      }, 
+      "a0f4d8be-7904-496a-9a31-9afd48d9e05d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102699", 
+            "y" : "-97922"
+         }, 
+         "child" : [ 
+            "81090a67-a97b-40f9-bd7f-4526475f53a2", 
+            "39e43adf-f42b-452d-b79c-7178b7648fee", 
+            "54b3cd59-50cc-4b38-9815-fe8f641438a4", 
+            "cb18c413-4a05-44ce-b940-9428597c90eb", 
+            "1c1692a3-2eda-4182-90d5-081e21f82838"
+         ], 
+         "text" : "#OPG_Death_Igor.a0f4d8be-7904-496a-9a31-9afd48d9e05d"
+      }, 
+      "81090a67-a97b-40f9-bd7f-4526475f53a2" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-103440", 
+            "y" : "-97980"
+         }, 
+         "child" : [ 
+            "100c05b1-1fd0-46cb-bf3f-08e126310ba1", 
+            "36b49048-e60c-4e54-aee8-93ca77bfb4de"
+         ], 
+         "weaponType" : "Pistol"
+      }, 
+      "100c05b1-1fd0-46cb-bf3f-08e126310ba1" : { 
+         "class" : "CharacterHandHasWeaponNode", 
+         "desc" : { 
+            "x" : "-103495", 
+            "y" : "-97731"
+         }, 
+         "child" : [ 
+            "5785f5ce-e69c-46ff-bead-be087e9a5764", 
+            "95ac52ef-1756-4322-acc6-5de239b5db14"
+         ], 
+         "objectName" : "Player", 
+         "readyToFire" : "true"
+      }, 
+      "5785f5ce-e69c-46ff-bead-be087e9a5764" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103529", 
+            "y" : "-97594", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "7f09e379-fb53-4032-874e-7e76bccdaf22"
+         ], 
+         "text" : "#OPG_Death_Igor.5785f5ce-e69c-46ff-bead-be087e9a5764"
+      }, 
+      "7f09e379-fb53-4032-874e-7e76bccdaf22" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100977", 
+            "y" : "-100620"
+         }, 
+         "child" : [ 
+            "1e4557fc-2b24-4d18-8526-23128e99b2bd", 
+            "b55dd549-99d4-48d4-896f-3d129960ab07"
+         ], 
+         "value" : "8", 
+         "stat" : "Perception"
+      }, 
+      "1e4557fc-2b24-4d18-8526-23128e99b2bd" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-100512"
+         }, 
+         "child" : [ 
+            "2c9e378d-63f0-4ba9-bae3-2a28fc85cf78", 
+            "24153db0-8f2b-4f79-ac6a-87432c211b12"
+         ], 
+         "value" : "7", 
+         "stat" : "Agility"
+      }, 
+      "2c9e378d-63f0-4ba9-bae3-2a28fc85cf78" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-100336", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "5ef0de02-9d8c-4c6a-9ff9-8f9d31404651", 
+            "0a4437e9-1090-490c-8368-df9ddf170fc8"
+         ], 
+         "text" : "#OPG_Death_Igor.2c9e378d-63f0-4ba9-bae3-2a28fc85cf78"
+      }, 
+      "5ef0de02-9d8c-4c6a-9ff9-8f9d31404651" : { 
+         "class" : "CharacterShootHimNode", 
+         "desc" : { 
+            "x" : "-101603", 
+            "y" : "-100174"
+         }, 
+         "child" : [ 
+            "fad2af49-accd-4e48-8a85-061847b85797"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "OPG_3"
+      }, 
+      "fad2af49-accd-4e48-8a85-061847b85797" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-101591", 
+            "y" : "-100078"
+         }, 
+         "child" : [ 
+            "39e4cdca-0385-4700-8417-e39b591e1673"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "39e4cdca-0385-4700-8417-e39b591e1673" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101592", 
+            "y" : "-100017"
+         }, 
+         "child" : [ 
+            "0c99b430-4f0a-4592-9fb5-6544fcc9ab10", 
+            "eef4df33-29be-41fe-b996-2236bd667e95"
+         ]
+      }, 
+      "0c99b430-4f0a-4592-9fb5-6544fcc9ab10" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-101685", 
+            "y" : "-99960"
+         }, 
+         "child" : [ 
+            "b1c83191-85b7-4531-9826-eae293b839f0"
+         ], 
+         "objectName" : "OPG_6"
+      }, 
+      "b1c83191-85b7-4531-9826-eae293b839f0" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101693", 
+            "y" : "-99893"
+         }, 
+         "child" : [ 
+            "cb3ce8bd-9df3-4b19-b959-846fb4d14448"
+         ], 
+         "objectName" : "OPG_2", 
+         "pointName" : "OPG_6"
+      }, 
+      "cb3ce8bd-9df3-4b19-b959-846fb4d14448" : { 
+         "class" : "CharacterSetAIBehaviorNode", 
+         "desc" : { 
+            "x" : "-101723", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "OPG_2", 
+         "onlyActiveAndAlive" : "true", 
+         "aibehavior" : "Escape"
+      }, 
+      "eef4df33-29be-41fe-b996-2236bd667e95" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-99954"
+         }, 
+         "child" : [ 
+            "2d0192a8-aa3f-4891-8c10-7603db632b09"
+         ], 
+         "objectName" : "OPG_5"
+      }, 
+      "2d0192a8-aa3f-4891-8c10-7603db632b09" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101512", 
+            "y" : "-99888"
+         }, 
+         "child" : [ 
+            "c39a45ae-9ebb-4834-84ee-0c209e6b68b1"
+         ], 
+         "objectName" : "OPG_4", 
+         "pointName" : "OPG_5"
+      }, 
+      "c39a45ae-9ebb-4834-84ee-0c209e6b68b1" : { 
+         "class" : "CharacterSetAIBehaviorNode", 
+         "desc" : { 
+            "x" : "-101531", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "OPG_4", 
+         "onlyActiveAndAlive" : "true", 
+         "aibehavior" : "Escape"
+      }, 
+      "0a4437e9-1090-490c-8368-df9ddf170fc8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101376", 
+            "y" : "-100209"
+         }, 
+         "child" : [ 
+            "6c34a259-757b-4549-9fa3-95b7adab66a1"
+         ]
+      }, 
+      "6c34a259-757b-4549-9fa3-95b7adab66a1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101377", 
+            "y" : "-100170"
+         }, 
+         "child" : [ 
+            "e8f9bd69-a100-4d11-85d9-06ded9222d7e"
+         ], 
+         "text" : "#OPG_Death_Igor.6c34a259-757b-4549-9fa3-95b7adab66a1"
+      }, 
+      "e8f9bd69-a100-4d11-85d9-06ded9222d7e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101376", 
+            "y" : "-100064"
+         }, 
+         "child" : [ 
+            "ae58eb73-11a7-408b-999b-1c97ef473e8d"
+         ]
+      }, 
+      "ae58eb73-11a7-408b-999b-1c97ef473e8d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101376", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+            "b32b453b-4d73-4b06-9c71-f5df0291d755"
+         ], 
+         "text" : "#OPG_Death_Igor.ae58eb73-11a7-408b-999b-1c97ef473e8d"
+      }, 
+      "b32b453b-4d73-4b06-9c71-f5df0291d755" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+            "4e596004-7d68-44bf-a5a5-0e287038c288"
+         ], 
+         "exp" : "200"
+      }, 
+      "4e596004-7d68-44bf-a5a5-0e287038c288" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101376", 
+            "y" : "-99901", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.4e596004-7d68-44bf-a5a5-0e287038c288"
+      }, 
+      "24153db0-8f2b-4f79-ac6a-87432c211b12" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101122", 
+            "y" : "-100314", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "84b55534-14b0-4224-a427-1066662bfc65"
+         ], 
+         "text" : "#OPG_Death_Igor.24153db0-8f2b-4f79-ac6a-87432c211b12"
+      }, 
+      "84b55534-14b0-4224-a427-1066662bfc65" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-100215"
+         }, 
+         "child" : [ 
+            "2d43a96b-d86d-4372-aca4-e8e9b0f067d8"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "OPG_3"
+      }, 
+      "2d43a96b-d86d-4372-aca4-e8e9b0f067d8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101123", 
+            "y" : "-100139", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.2d43a96b-d86d-4372-aca4-e8e9b0f067d8"
+      }, 
+      "b55dd549-99d4-48d4-896f-3d129960ab07" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100788", 
+            "y" : "-100490"
+         }, 
+         "child" : [ 
+            "0b91f983-a7c0-4b16-b9cc-b4d7bd64dcb3", 
+            "f257b017-94ec-49b7-a8b4-0c2a422428b4"
+         ], 
+         "value" : "7", 
+         "stat" : "Strength"
+      }, 
+      "0b91f983-a7c0-4b16-b9cc-b4d7bd64dcb3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100852", 
+            "y" : "-100308", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "33fd5440-b1fb-495d-9390-502109b18164"
+         ], 
+         "text" : "#OPG_Death_Igor.0b91f983-a7c0-4b16-b9cc-b4d7bd64dcb3"
+      }, 
+      "33fd5440-b1fb-495d-9390-502109b18164" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-100822", 
+            "y" : "-100198"
+         }, 
+         "child" : [ 
+            "3351dded-af9f-4721-9c47-2645416c872e"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "OPG_3"
+      }, 
+      "3351dded-af9f-4721-9c47-2645416c872e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100853", 
+            "y" : "-100101", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.3351dded-af9f-4721-9c47-2645416c872e"
+      }, 
+      "f257b017-94ec-49b7-a8b4-0c2a422428b4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100603", 
+            "y" : "-100307", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "01d83897-e0c4-4543-8af5-f910b31e0366"
+         ], 
+         "text" : "#OPG_Death_Igor.f257b017-94ec-49b7-a8b4-0c2a422428b4"
+      }, 
+      "01d83897-e0c4-4543-8af5-f910b31e0366" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-100571", 
+            "y" : "-100183"
+         }, 
+         "child" : [ 
+            "9f37266f-ed68-4442-a52c-8bc354c9daa4"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "OPG_3"
+      }, 
+      "9f37266f-ed68-4442-a52c-8bc354c9daa4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100601", 
+            "y" : "-100062", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.9f37266f-ed68-4442-a52c-8bc354c9daa4"
+      }, 
+      "95ac52ef-1756-4322-acc6-5de239b5db14" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103074", 
+            "y" : "-97576"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "36b49048-e60c-4e54-aee8-93ca77bfb4de" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-103343", 
+            "y" : "-97883"
+         }, 
+         "child" : [ 
+            "100c05b1-1fd0-46cb-bf3f-08e126310ba1", 
+            "9580e364-0124-48fc-8dd3-f05a6f0f5a5d"
+         ], 
+         "weaponType" : "Rifle"
+      }, 
+      "9580e364-0124-48fc-8dd3-f05a6f0f5a5d" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-103234", 
+            "y" : "-97778"
+         }, 
+         "child" : [ 
+            "100c05b1-1fd0-46cb-bf3f-08e126310ba1", 
+            "c0522ac3-dffc-4656-86be-c879a357794c"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "c0522ac3-dffc-4656-86be-c879a357794c" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-103150", 
+            "y" : "-97682"
+         }, 
+         "child" : [ 
+            "100c05b1-1fd0-46cb-bf3f-08e126310ba1", 
+            "95ac52ef-1756-4322-acc6-5de239b5db14"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "39e43adf-f42b-452d-b79c-7178b7648fee" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102860", 
+            "y" : "-97691", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "c1bbea3d-c6d5-45f2-a5ed-43a29d15bd04"
+         ], 
+         "text" : "#OPG_Death_Igor.39e43adf-f42b-452d-b79c-7178b7648fee"
+      }, 
+      "c1bbea3d-c6d5-45f2-a5ed-43a29d15bd04" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100066", 
+            "y" : "-98874", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "83a5d7c4-9330-42a9-a93e-8b6702f001b2"
+         ], 
+         "text" : "#OPG_Death_Igor.c1bbea3d-c6d5-45f2-a5ed-43a29d15bd04"
+      }, 
+      "83a5d7c4-9330-42a9-a93e-8b6702f001b2" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100067", 
+            "y" : "-98739"
+         }, 
+         "child" : [ 
+            "d2981055-76af-4d92-87ea-f4987d843364"
+         ]
+      }, 
+      "d2981055-76af-4d92-87ea-f4987d843364" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100067", 
+            "y" : "-98668"
+         }, 
+         "child" : [ 
+            "c46ccb51-8994-4634-87fc-f8bdb17c83aa"
+         ], 
+         "text" : "#OPG_Death_Igor.d2981055-76af-4d92-87ea-f4987d843364"
+      }, 
+      "c46ccb51-8994-4634-87fc-f8bdb17c83aa" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100067", 
+            "y" : "-98539"
+         }, 
+         "child" : [ 
+            "534b16ad-f5be-4dd1-82a0-1a362352e84e"
+         ]
+      }, 
+      "534b16ad-f5be-4dd1-82a0-1a362352e84e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100067", 
+            "y" : "-98439"
+         }, 
+         "child" : [ 
+            "8d4491ca-04df-411c-8252-3167ccee8a3b", 
+            "0bfb9f50-37f1-431c-b5e3-a39f78a44071"
+         ], 
+         "text" : "#OPG_Death_Igor.534b16ad-f5be-4dd1-82a0-1a362352e84e"
+      }, 
+      "8d4491ca-04df-411c-8252-3167ccee8a3b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100217", 
+            "y" : "-98339", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.8d4491ca-04df-411c-8252-3167ccee8a3b"
+      }, 
+      "0bfb9f50-37f1-431c-b5e3-a39f78a44071" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100067", 
+            "y" : "-98239", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "11d743d4-2530-4a7b-a0b2-941481bb876e"
+         ], 
+         "text" : "#OPG_Death_Igor.0bfb9f50-37f1-431c-b5e3-a39f78a44071"
+      }, 
+      "11d743d4-2530-4a7b-a0b2-941481bb876e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-98913", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "e05a822e-8d99-4590-8bf1-230f91688d85"
+         ], 
+         "text" : "#OPG_Death_Igor.11d743d4-2530-4a7b-a0b2-941481bb876e"
+      }, 
+      "e05a822e-8d99-4590-8bf1-230f91688d85" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-98813"
+         }, 
+         "child" : [ 
+            "6e2b6800-ab12-4800-9cdd-fccb2f510cf3"
+         ]
+      }, 
+      "6e2b6800-ab12-4800-9cdd-fccb2f510cf3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-98713"
+         }, 
+         "child" : [ 
+            "3c25ac6e-9a8a-47e8-9125-b3d8a07fa028"
+         ], 
+         "text" : "#OPG_Death_Igor.6e2b6800-ab12-4800-9cdd-fccb2f510cf3"
+      }, 
+      "3c25ac6e-9a8a-47e8-9125-b3d8a07fa028" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-98613"
+         }, 
+         "child" : [ 
+            "7b93e822-3e56-47de-8303-e7707c6993c5"
+         ]
+      }, 
+      "7b93e822-3e56-47de-8303-e7707c6993c5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98356", 
+            "y" : "-98541"
+         }, 
+         "child" : [ 
+            "b0e8ba41-5096-419c-9983-02776cf7fabc"
+         ], 
+         "text" : "#OPG_Death_Igor.7b93e822-3e56-47de-8303-e7707c6993c5"
+      }, 
+      "b0e8ba41-5096-419c-9983-02776cf7fabc" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-98396"
+         }, 
+         "child" : [ 
+            "a2777fcc-2a6e-4a54-acba-7105399f0f62"
+         ]
+      }, 
+      "a2777fcc-2a6e-4a54-acba-7105399f0f62" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98354", 
+            "y" : "-98341"
+         }, 
+         "child" : [ 
+            "e01a14e0-9996-4291-9258-b554fa623d7d"
+         ], 
+         "text" : "#OPG_Death_Igor.a2777fcc-2a6e-4a54-acba-7105399f0f62"
+      }, 
+      "e01a14e0-9996-4291-9258-b554fa623d7d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98352", 
+            "y" : "-98223"
+         }, 
+         "child" : [ 
+            "8ef940af-16db-4b55-b320-6ec655d01245"
+         ]
+      }, 
+      "8ef940af-16db-4b55-b320-6ec655d01245" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98309", 
+            "y" : "-98180"
+         }, 
+         "child" : [ 
+            "8773fd90-b3ec-49ef-9700-495f327a1fbd"
+         ], 
+         "exp" : "100"
+      }, 
+      "8773fd90-b3ec-49ef-9700-495f327a1fbd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98356", 
+            "y" : "-98112"
+         }, 
+         "child" : [ 
+            "78e98123-bc21-43ea-9d96-01d5d215ddbc", 
+            "8c0a0cf0-7d32-4fc4-8929-93a4e09675da"
+         ], 
+         "text" : "#OPG_Death_Igor.8773fd90-b3ec-49ef-9700-495f327a1fbd"
+      }, 
+      "78e98123-bc21-43ea-9d96-01d5d215ddbc" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-98478", 
+            "y" : "-97974", 
+            "comment" : "пропали и отработала логика"
+         }, 
+         "child" : [ 
+            "776389a4-a4a4-4f2c-895a-5118cc5a8039"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "776389a4-a4a4-4f2c-895a-5118cc5a8039" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98617", 
+            "y" : "-97717", 
+            "comment" : "Игорь Смерть"
+         }, 
+         "child" : [ 
+            "1fe1fb28-ce51-4c12-81af-33bba216ea98", 
+            "a52dd208-2b95-4620-8ad1-4fc42e3e9ba1"
+         ], 
+         "note_key" : "REQUEST_OPG_2"
+      }, 
+      "1fe1fb28-ce51-4c12-81af-33bba216ea98" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98673", 
+            "y" : "-97618"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/OPG.Events.End"
+      }, 
+      "a52dd208-2b95-4620-8ad1-4fc42e3e9ba1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98407", 
+            "y" : "-97613"
+         }, 
+         "child" : [ 
+            "1b3b1c7d-9f01-43e0-9b24-7ff518d2dde1"
+         ], 
+         "objectName" : "OPG_6", 
+         "active" : "false"
+      }, 
+      "1b3b1c7d-9f01-43e0-9b24-7ff518d2dde1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98407", 
+            "y" : "-97542"
+         }, 
+         "child" : [ 
+            "cc28cb97-a34e-436f-8088-4e87dec19941"
+         ], 
+         "objectName" : "OPG_5", 
+         "active" : "false"
+      }, 
+      "cc28cb97-a34e-436f-8088-4e87dec19941" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98403", 
+            "y" : "-97468"
+         }, 
+         "child" : [ 
+            "84bb6b79-3fad-4b0f-8d44-7c1af5008d7e"
+         ], 
+         "objectName" : "OPG_4", 
+         "active" : "false"
+      }, 
+      "84bb6b79-3fad-4b0f-8d44-7c1af5008d7e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98400", 
+            "y" : "-97397"
+         }, 
+         "child" : [ 
+            "8239bf07-f4cd-4f9d-930f-fac97ec15644"
+         ], 
+         "objectName" : "OPG_3", 
+         "active" : "false"
+      }, 
+      "8239bf07-f4cd-4f9d-930f-fac97ec15644" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98397", 
+            "y" : "-97324"
+         }, 
+         "child" : [ 
+            "a9d05dda-ccfd-41ca-b53a-f02e6c810258"
+         ], 
+         "objectName" : "OPG_2", 
+         "active" : "false"
+      }, 
+      "a9d05dda-ccfd-41ca-b53a-f02e6c810258" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98397", 
+            "y" : "-97250"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "OPG_1", 
+         "active" : "false"
+      }, 
+      "8c0a0cf0-7d32-4fc4-8929-93a4e09675da" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98254", 
+            "y" : "-97980"
+         }, 
+         "child" : [ 
+            "9b60539e-aa88-4c87-9a3d-63728716e2cb"
+         ], 
+         "text" : "#OPG_Death_Igor.8c0a0cf0-7d32-4fc4-8929-93a4e09675da"
+      }, 
+      "9b60539e-aa88-4c87-9a3d-63728716e2cb" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-98200", 
+            "y" : "-97922"
+         }, 
+         "child" : [ 
+            "ab8552d1-4822-42a2-8c5e-47e6cb0bd4a3"
+         ], 
+         "quest_key" : "OPG.IGOR"
+      }, 
+      "ab8552d1-4822-42a2-8c5e-47e6cb0bd4a3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98199", 
+            "y" : "-97863"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "54b3cd59-50cc-4b38-9815-fe8f641438a4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102710", 
+            "y" : "-97791", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "7d37bb79-4ce4-4fc8-a954-6525f80bd35c"
+         ], 
+         "text" : "#OPG_Death_Igor.54b3cd59-50cc-4b38-9815-fe8f641438a4"
+      }, 
+      "cb18c413-4a05-44ce-b940-9428597c90eb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102560", 
+            "y" : "-97691", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "fce846fb-cde4-4d82-85ff-0c3b27769f47"
+         ], 
+         "text" : "#OPG_Death_Igor.cb18c413-4a05-44ce-b940-9428597c90eb"
+      }, 
+      "fce846fb-cde4-4d82-85ff-0c3b27769f47" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98008", 
+            "y" : "-98879", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "c82355e5-3229-49a1-a33c-9acada2ba203"
+         ], 
+         "text" : "#OPG_Death_Igor.fce846fb-cde4-4d82-85ff-0c3b27769f47"
+      }, 
+      "c82355e5-3229-49a1-a33c-9acada2ba203" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98008", 
+            "y" : "-98779"
+         }, 
+         "child" : [ 
+            "a24e6689-e2fd-408e-88d1-6c69deeea350"
+         ]
+      }, 
+      "a24e6689-e2fd-408e-88d1-6c69deeea350" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98008", 
+            "y" : "-98679"
+         }, 
+         "child" : [ 
+            "28003b4d-d5c9-4d6c-b47c-85867f4acc6e"
+         ], 
+         "text" : "#OPG_Death_Igor.a24e6689-e2fd-408e-88d1-6c69deeea350"
+      }, 
+      "28003b4d-d5c9-4d6c-b47c-85867f4acc6e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98008", 
+            "y" : "-98550", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.28003b4d-d5c9-4d6c-b47c-85867f4acc6e"
+      }, 
+      "1c1692a3-2eda-4182-90d5-081e21f82838" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102410", 
+            "y" : "-97791", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "63f981ba-7d01-4dd3-8eec-f4d9449d234f"
+         ], 
+         "text" : "#OPG_Death_Igor.1c1692a3-2eda-4182-90d5-081e21f82838"
+      }, 
+      "63f981ba-7d01-4dd3-8eec-f4d9449d234f" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100647", 
+            "y" : "-99493"
+         }, 
+         "child" : [ 
+            "7e18ac68-c744-48c0-a0da-3485321f6c46", 
+            "e25632d9-6b03-4875-829e-75b1a48a2ca0"
+         ], 
+         "value" : "8", 
+         "stat" : "Charisma"
+      }, 
+      "7e18ac68-c744-48c0-a0da-3485321f6c46" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-99388", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "09e4a631-b8ae-4bb9-9494-b88925f5acbe"
+         ], 
+         "text" : "#OPG_Death_Igor.7e18ac68-c744-48c0-a0da-3485321f6c46"
+      }, 
+      "09e4a631-b8ae-4bb9-9494-b88925f5acbe" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-99288"
+         }, 
+         "child" : [ 
+            "cc9d90be-7ae6-41d0-a3c3-9eddce8cbe61"
+         ]
+      }, 
+      "cc9d90be-7ae6-41d0-a3c3-9eddce8cbe61" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100795", 
+            "y" : "-99207"
+         }, 
+         "child" : [ 
+            "1d6c87b2-cf41-4926-955b-53cc3dee5c64"
+         ], 
+         "text" : "#OPG_Death_Igor.cc9d90be-7ae6-41d0-a3c3-9eddce8cbe61"
+      }, 
+      "1d6c87b2-cf41-4926-955b-53cc3dee5c64" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-99088"
+         }, 
+         "child" : [ 
+            "9adc01db-8c19-4c49-85dc-77de41bb241a"
+         ]
+      }, 
+      "9adc01db-8c19-4c49-85dc-77de41bb241a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100800", 
+            "y" : "-99023"
+         }, 
+         "child" : [ 
+            "d8965f3a-1ca4-4eb1-bf22-9818291a8e94"
+         ], 
+         "text" : "#OPG_Death_Igor.9adc01db-8c19-4c49-85dc-77de41bb241a"
+      }, 
+      "d8965f3a-1ca4-4eb1-bf22-9818291a8e94" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-98893"
+         }, 
+         "child" : [ 
+            "7423c6b6-3cae-4dd5-bd02-c99ac2f3d349", 
+            "6ae7da97-55d9-41fc-9a8e-251d49b74c4c", 
+            "21d6a5f4-0532-45d6-92f0-c8383d46b814", 
+            "0ee62f6e-293c-46d0-b417-af66ff51777f"
+         ], 
+         "exp" : "100"
+      }, 
+      "7423c6b6-3cae-4dd5-bd02-c99ac2f3d349" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-98818", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.7423c6b6-3cae-4dd5-bd02-c99ac2f3d349"
+      }, 
+      "6ae7da97-55d9-41fc-9a8e-251d49b74c4c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100962", 
+            "y" : "-98718", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "343a605f-7562-4e3a-8f76-c2622846f83a"
+         ], 
+         "text" : "#OPG_Death_Igor.6ae7da97-55d9-41fc-9a8e-251d49b74c4c"
+      }, 
+      "343a605f-7562-4e3a-8f76-c2622846f83a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100513", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "9710c846-a19a-40a2-93fa-d5395cf6d790"
+         ], 
+         "text" : "#OPG_Death_Igor.343a605f-7562-4e3a-8f76-c2622846f83a"
+      }, 
+      "9710c846-a19a-40a2-93fa-d5395cf6d790" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100413"
+         }, 
+         "child" : [ 
+            "c991e385-09d9-47b9-b06c-117b3291d6f9"
+         ]
+      }, 
+      "c991e385-09d9-47b9-b06c-117b3291d6f9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100313"
+         }, 
+         "child" : [ 
+            "76d2ac7f-17d2-4971-bc78-7dd971f2eda0"
+         ], 
+         "text" : "#OPG_Death_Igor.c991e385-09d9-47b9-b06c-117b3291d6f9"
+      }, 
+      "76d2ac7f-17d2-4971-bc78-7dd971f2eda0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100213"
+         }, 
+         "child" : [ 
+            "ce3bd82c-8ccf-4614-b283-c82dc1307da9"
+         ]
+      }, 
+      "ce3bd82c-8ccf-4614-b283-c82dc1307da9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100113"
+         }, 
+         "child" : [ 
+            "6cce238c-ad52-4777-8baa-ea68db0d7298", 
+            "1958a89e-9821-4dea-9458-e66701056d18", 
+            "a7e8743f-d83f-4cc7-b736-9efa44cc9061"
+         ], 
+         "text" : "#OPG_Death_Igor.ce3bd82c-8ccf-4614-b283-c82dc1307da9"
+      }, 
+      "6cce238c-ad52-4777-8baa-ea68db0d7298" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99705", 
+            "y" : "-100013", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "936c2376-ea06-4539-9984-bbeec9e433e3"
+         ], 
+         "text" : "#OPG_Death_Igor.6cce238c-ad52-4777-8baa-ea68db0d7298"
+      }, 
+      "936c2376-ea06-4539-9984-bbeec9e433e3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98879", 
+            "y" : "-100195", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "97436df8-1019-421a-b444-19721b8fecf3"
+         ], 
+         "text" : "#OPG_Death_Igor.936c2376-ea06-4539-9984-bbeec9e433e3"
+      }, 
+      "97436df8-1019-421a-b444-19721b8fecf3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98879", 
+            "y" : "-100095"
+         }, 
+         "child" : [ 
+            "c0da490c-f33a-4e83-8037-2ff8e0c669a6"
+         ]
+      }, 
+      "c0da490c-f33a-4e83-8037-2ff8e0c669a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98879", 
+            "y" : "-99995"
+         }, 
+         "child" : [ 
+            "dc083018-329e-4747-81a5-cad00f5eb9b6"
+         ], 
+         "text" : "#OPG_Death_Igor.c0da490c-f33a-4e83-8037-2ff8e0c669a6"
+      }, 
+      "dc083018-329e-4747-81a5-cad00f5eb9b6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98879", 
+            "y" : "-99853", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.dc083018-329e-4747-81a5-cad00f5eb9b6"
+      }, 
+      "1958a89e-9821-4dea-9458-e66701056d18" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-99913", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "8d13a173-b3fa-4e52-93c9-88d70fcbb04b"
+         ], 
+         "text" : "#OPG_Death_Igor.1958a89e-9821-4dea-9458-e66701056d18"
+      }, 
+      "8d13a173-b3fa-4e52-93c9-88d70fcbb04b" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-98197", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+            "c46c98f7-e2da-4ba6-9fae-75ddec520c82", 
+            "b3b671b6-76ec-47d9-94a6-2ebb086d7bff"
+         ], 
+         "value" : "87", 
+         "skill" : "Outdoorsman"
+      }, 
+      "c46c98f7-e2da-4ba6-9fae-75ddec520c82" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-100013", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "a9b2d707-599f-4c73-b114-da079e68b27c"
+         ], 
+         "text" : "#OPG_Death_Igor.c46c98f7-e2da-4ba6-9fae-75ddec520c82"
+      }, 
+      "a9b2d707-599f-4c73-b114-da079e68b27c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99895"
+         }, 
+         "child" : [ 
+            "8691057a-f898-41ae-a24e-15218e21ac47"
+         ]
+      }, 
+      "8691057a-f898-41ae-a24e-15218e21ac47" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98352", 
+            "y" : "-99836"
+         }, 
+         "child" : [ 
+            "4562a0c4-7b96-455b-80d3-fa15ff4437e5"
+         ], 
+         "text" : "#OPG_Death_Igor.8691057a-f898-41ae-a24e-15218e21ac47"
+      }, 
+      "4562a0c4-7b96-455b-80d3-fa15ff4437e5" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99713"
+         }, 
+         "child" : [ 
+            "ee535cbc-e297-4561-a831-fffae30d03fe"
+         ]
+      }, 
+      "ee535cbc-e297-4561-a831-fffae30d03fe" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99613"
+         }, 
+         "child" : [ 
+            "a87db0da-8824-4f42-816a-0956cc84166b"
+         ], 
+         "text" : "#OPG_Death_Igor.ee535cbc-e297-4561-a831-fffae30d03fe"
+      }, 
+      "a87db0da-8824-4f42-816a-0956cc84166b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99513"
+         }, 
+         "child" : [ 
+            "bb78b304-bad7-45c7-a3df-8fd309b63145"
+         ]
+      }, 
+      "bb78b304-bad7-45c7-a3df-8fd309b63145" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99413"
+         }, 
+         "child" : [ 
+            "1fe29e6e-c479-41e9-a8b4-f572234be2be"
+         ], 
+         "text" : "#OPG_Death_Igor.bb78b304-bad7-45c7-a3df-8fd309b63145"
+      }, 
+      "1fe29e6e-c479-41e9-a8b4-f572234be2be" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98355", 
+            "y" : "-99313"
+         }, 
+         "child" : [ 
+            "bdb73728-63f9-4997-9a99-3afa613e2bf5"
+         ]
+      }, 
+      "bdb73728-63f9-4997-9a99-3afa613e2bf5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98357", 
+            "y" : "-99258"
+         }, 
+         "child" : [ 
+            "ba3e60ea-b061-4084-8e3f-32fa37a2e551", 
+            "eac086d9-13f0-4f96-aef5-27a3dc7f27c9", 
+            "45e38b72-ca94-4fdc-96fd-5b13471e240d"
+         ], 
+         "text" : "#OPG_Death_Igor.bdb73728-63f9-4997-9a99-3afa613e2bf5"
+      }, 
+      "ba3e60ea-b061-4084-8e3f-32fa37a2e551" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98642", 
+            "y" : "-99134", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "d1b27326-a66b-4fea-ba29-7f5c22f56bec"
+         ], 
+         "text" : "#OPG_Death_Igor.ba3e60ea-b061-4084-8e3f-32fa37a2e551"
+      }, 
+      "d1b27326-a66b-4fea-ba29-7f5c22f56bec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98662", 
+            "y" : "-98968", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "dec4dfb8-b793-42e6-a855-aea2d85cda80", 
+            "17e2051a-b5de-42c2-ad81-0bc480fbadf7", 
+            "7bbdd931-d031-453d-8054-cffd87ae836d", 
+            "44bb3c6f-ef41-4288-8cc6-940433272bfe", 
+            "e9935a8f-949e-4c97-9372-1c9dd6bc79fb"
+         ], 
+         "text" : "#OPG_Death_Igor.d1b27326-a66b-4fea-ba29-7f5c22f56bec"
+      }, 
+      "dec4dfb8-b793-42e6-a855-aea2d85cda80" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98907", 
+            "y" : "-98843"
+         }, 
+         "child" : [ 
+            "ad4b9df0-8c3f-40ce-b320-d2a8004d4889", 
+            "15eb311c-db2e-4732-b233-2aec356b6c90"
+         ], 
+         "text" : "#OPG_Death_Igor.dec4dfb8-b793-42e6-a855-aea2d85cda80"
+      }, 
+      "ad4b9df0-8c3f-40ce-b320-d2a8004d4889" : { 
+         "class" : "PlayerSetNameNode", 
+         "desc" : { 
+            "x" : "-99012", 
+            "y" : "-98759"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#OPG_Death_Igor.ad4b9df0-8c3f-40ce-b320-d2a8004d4889"
+      }, 
+      "15eb311c-db2e-4732-b233-2aec356b6c90" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98751", 
+            "y" : "-98477", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "ad13b753-e700-4fb9-899a-ef9b871cfc3f"
+         ], 
+         "text" : "#OPG_Death_Igor.15eb311c-db2e-4732-b233-2aec356b6c90"
+      }, 
+      "ad13b753-e700-4fb9-899a-ef9b871cfc3f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98753", 
+            "y" : "-98379"
+         }, 
+         "child" : [ 
+            "b61bf982-714a-4eb5-a1c7-8b6c6deaf089"
+         ]
+      }, 
+      "b61bf982-714a-4eb5-a1c7-8b6c6deaf089" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98753", 
+            "y" : "-98338"
+         }, 
+         "child" : [ 
+            "928d2d7a-0263-4bbc-9fee-8404053ac21c", 
+            "bb69f781-bd54-41fe-bc9f-af70e8d7d806"
+         ], 
+         "text" : "#OPG_Death_Igor.b61bf982-714a-4eb5-a1c7-8b6c6deaf089"
+      }, 
+      "928d2d7a-0263-4bbc-9fee-8404053ac21c" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98790", 
+            "y" : "-98219"
+         }, 
+         "child" : [ 
+            "680a4ad8-9518-4fd9-a770-a15322994b1e"
+         ], 
+         "exp" : "100"
+      }, 
+      "680a4ad8-9518-4fd9-a770-a15322994b1e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98847", 
+            "y" : "-98156"
+         }, 
+         "child" : [ 
+            "0f582158-b60d-4ca2-bc81-aafe2b56728e"
+         ], 
+         "text" : "#OPG_Death_Igor.680a4ad8-9518-4fd9-a770-a15322994b1e"
+      }, 
+      "0f582158-b60d-4ca2-bc81-aafe2b56728e" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98812", 
+            "y" : "-98102", 
+            "comment" : "Дима Смерть"
+         }, 
+         "child" : [ 
+            "53e6a70f-4566-4932-aa01-289343c3427a"
+         ], 
+         "note_key" : "REQUEST_OPG_1"
+      }, 
+      "53e6a70f-4566-4932-aa01-289343c3427a" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98812", 
+            "y" : "-98045", 
+            "comment" : "Лена Смерть"
+         }, 
+         "child" : [ 
+            "d239de04-a45e-472c-982b-2a080662e918"
+         ], 
+         "note_key" : "REQUEST_OPG_3"
+      }, 
+      "d239de04-a45e-472c-982b-2a080662e918" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-98793", 
+            "y" : "-97988"
+         }, 
+         "child" : [ 
+            "d1df38ef-0a96-4dfc-9b9f-072af9487b9a"
+         ], 
+         "quest_key" : "OPG.IGOR"
+      }, 
+      "d1df38ef-0a96-4dfc-9b9f-072af9487b9a" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-98793", 
+            "y" : "-97927"
+         }, 
+         "child" : [ 
+            "759bd019-4a98-43c6-ac6d-9ece46eaa79d"
+         ], 
+         "quest_key" : "OPG.DIMA"
+      }, 
+      "759bd019-4a98-43c6-ac6d-9ece46eaa79d" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-98792", 
+            "y" : "-97871"
+         }, 
+         "child" : [ 
+            "e6736cbb-d096-4538-adbf-8fe360673bef"
+         ], 
+         "quest_key" : "OPG.LENA"
+      }, 
+      "e6736cbb-d096-4538-adbf-8fe360673bef" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-98793", 
+            "y" : "-97815"
+         }, 
+         "child" : [ 
+            "776389a4-a4a4-4f2c-895a-5118cc5a8039", 
+            "1db8b5f6-93a8-4933-991b-bf00978e357d"
+         ], 
+         "quest_key" : "OPG.GALINA"
+      }, 
+      "1db8b5f6-93a8-4933-991b-bf00978e357d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98776", 
+            "y" : "-97729"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bb69f781-bd54-41fe-bc9f-af70e8d7d806" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-98587", 
+            "y" : "-98201", 
+            "comment" : "пропали"
+         }, 
+         "child" : [ 
+            "a52dd208-2b95-4620-8ad1-4fc42e3e9ba1"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "17e2051a-b5de-42c2-ad81-0bc480fbadf7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98856", 
+            "y" : "-98794"
+         }, 
+         "child" : [ 
+            "faf2187d-6274-468e-aa1f-091d107ea870", 
+            "15eb311c-db2e-4732-b233-2aec356b6c90"
+         ], 
+         "text" : "#OPG_Death_Igor.17e2051a-b5de-42c2-ad81-0bc480fbadf7"
+      }, 
+      "faf2187d-6274-468e-aa1f-091d107ea870" : { 
+         "class" : "PlayerSetNameNode", 
+         "desc" : { 
+            "x" : "-99005", 
+            "y" : "-98709"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#OPG_Death_Igor.faf2187d-6274-468e-aa1f-091d107ea870"
+      }, 
+      "7bbdd931-d031-453d-8054-cffd87ae836d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98778", 
+            "y" : "-98734"
+         }, 
+         "child" : [ 
+            "88457fa8-a720-4deb-9c62-9f38778166fb", 
+            "15eb311c-db2e-4732-b233-2aec356b6c90"
+         ], 
+         "text" : "#OPG_Death_Igor.7bbdd931-d031-453d-8054-cffd87ae836d"
+      }, 
+      "88457fa8-a720-4deb-9c62-9f38778166fb" : { 
+         "class" : "PlayerSetNameNode", 
+         "desc" : { 
+            "x" : "-98958", 
+            "y" : "-98650"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#OPG_Death_Igor.88457fa8-a720-4deb-9c62-9f38778166fb"
+      }, 
+      "44bb3c6f-ef41-4288-8cc6-940433272bfe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98717", 
+            "y" : "-98678"
+         }, 
+         "child" : [ 
+            "66e3de8e-846f-457b-8048-c49f6eacdfe5", 
+            "15eb311c-db2e-4732-b233-2aec356b6c90"
+         ], 
+         "text" : "#OPG_Death_Igor.44bb3c6f-ef41-4288-8cc6-940433272bfe"
+      }, 
+      "66e3de8e-846f-457b-8048-c49f6eacdfe5" : { 
+         "class" : "PlayerSetNameNode", 
+         "desc" : { 
+            "x" : "-98908", 
+            "y" : "-98600"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#OPG_Death_Igor.66e3de8e-846f-457b-8048-c49f6eacdfe5"
+      }, 
+      "e9935a8f-949e-4c97-9372-1c9dd6bc79fb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98669", 
+            "y" : "-98619"
+         }, 
+         "child" : [ 
+            "82ba1e39-0e43-4607-917a-a5bcb61791a7", 
+            "faf2187d-6274-468e-aa1f-091d107ea870", 
+            "15eb311c-db2e-4732-b233-2aec356b6c90"
+         ], 
+         "text" : "#OPG_Death_Igor.e9935a8f-949e-4c97-9372-1c9dd6bc79fb"
+      }, 
+      "82ba1e39-0e43-4607-917a-a5bcb61791a7" : { 
+         "class" : "PlayerSetNameNode", 
+         "desc" : { 
+            "x" : "-98858", 
+            "y" : "-98550"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#OPG_Death_Igor.82ba1e39-0e43-4607-917a-a5bcb61791a7"
+      }, 
+      "eac086d9-13f0-4f96-aef5-27a3dc7f27c9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98363", 
+            "y" : "-99124", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.eac086d9-13f0-4f96-aef5-27a3dc7f27c9"
+      }, 
+      "45e38b72-ca94-4fdc-96fd-5b13471e240d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98057", 
+            "y" : "-99120", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "fce846fb-cde4-4d82-85ff-0c3b27769f47"
+         ], 
+         "text" : "#OPG_Death_Igor.45e38b72-ca94-4fdc-96fd-5b13471e240d"
+      }, 
+      "b3b671b6-76ec-47d9-94a6-2ebb086d7bff" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98101", 
+            "y" : "-100020", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "2ef030d1-47f7-42f9-a06d-bbeef4a4670c"
+         ], 
+         "text" : "#OPG_Death_Igor.b3b671b6-76ec-47d9-94a6-2ebb086d7bff"
+      }, 
+      "2ef030d1-47f7-42f9-a06d-bbeef4a4670c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98098", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+            "3749e5f5-18fe-4654-a993-0d500c7ba05b"
+         ]
+      }, 
+      "3749e5f5-18fe-4654-a993-0d500c7ba05b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98101", 
+            "y" : "-99820"
+         }, 
+         "child" : [ 
+            "884fea50-04c7-4265-9ab2-0f6e037ea186"
+         ], 
+         "text" : "#OPG_Death_Igor.3749e5f5-18fe-4654-a993-0d500c7ba05b"
+      }, 
+      "884fea50-04c7-4265-9ab2-0f6e037ea186" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98101", 
+            "y" : "-99720", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.884fea50-04c7-4265-9ab2-0f6e037ea186"
+      }, 
+      "a7e8743f-d83f-4cc7-b736-9efa44cc9061" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99405", 
+            "y" : "-100013", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "34b0ba85-fea6-4d17-a419-08891609602e"
+         ], 
+         "text" : "#OPG_Death_Igor.a7e8743f-d83f-4cc7-b736-9efa44cc9061"
+      }, 
+      "21d6a5f4-0532-45d6-92f0-c8383d46b814" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100812", 
+            "y" : "-98818", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "950ce6d7-80b5-467f-8993-6f991900e302"
+         ], 
+         "text" : "#OPG_Death_Igor.21d6a5f4-0532-45d6-92f0-c8383d46b814"
+      }, 
+      "950ce6d7-80b5-467f-8993-6f991900e302" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-99397", 
+            "y" : "-99636"
+         }, 
+         "child" : [ 
+            "2f9a4119-5e85-4f32-8224-fb071c4b03f2", 
+            "9a8b22eb-8e4b-4270-ab2a-1a7eafddc79c"
+         ], 
+         "value" : "77", 
+         "skill" : "Speech"
+      }, 
+      "2f9a4119-5e85-4f32-8224-fb071c4b03f2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-99513", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "6dd32751-dc1b-467e-b48f-9b38daefd2c4"
+         ], 
+         "text" : "#OPG_Death_Igor.2f9a4119-5e85-4f32-8224-fb071c4b03f2"
+      }, 
+      "6dd32751-dc1b-467e-b48f-9b38daefd2c4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99556", 
+            "y" : "-99400"
+         }, 
+         "child" : [ 
+            "40ebccda-0ef7-4b26-835b-70780bcbf9fa"
+         ]
+      }, 
+      "40ebccda-0ef7-4b26-835b-70780bcbf9fa" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99550", 
+            "y" : "-99340"
+         }, 
+         "child" : [ 
+            "95195729-fa89-4425-aab5-7cd8d27a2f46"
+         ], 
+         "text" : "#OPG_Death_Igor.40ebccda-0ef7-4b26-835b-70780bcbf9fa"
+      }, 
+      "95195729-fa89-4425-aab5-7cd8d27a2f46" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-99213"
+         }, 
+         "child" : [ 
+            "e01dd03b-c205-4ab3-b515-629fa3624ee8"
+         ]
+      }, 
+      "e01dd03b-c205-4ab3-b515-629fa3624ee8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99564", 
+            "y" : "-99159"
+         }, 
+         "child" : [ 
+            "a5c348bd-a6f3-4700-b11e-ee3e16a24b3b"
+         ], 
+         "text" : "#OPG_Death_Igor.e01dd03b-c205-4ab3-b515-629fa3624ee8"
+      }, 
+      "a5c348bd-a6f3-4700-b11e-ee3e16a24b3b" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99494", 
+            "y" : "-99047"
+         }, 
+         "child" : [ 
+            "800a657d-c2c9-4fdd-9a0d-0deb91db89d3", 
+            "6e1d4655-6383-4de6-961c-1ccbf72089ec"
+         ], 
+         "exp" : "50"
+      }, 
+      "800a657d-c2c9-4fdd-9a0d-0deb91db89d3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99747", 
+            "y" : "-99002", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.800a657d-c2c9-4fdd-9a0d-0deb91db89d3"
+      }, 
+      "6e1d4655-6383-4de6-961c-1ccbf72089ec" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99533", 
+            "y" : "-98915", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "11d743d4-2530-4a7b-a0b2-941481bb876e"
+         ], 
+         "text" : "#OPG_Death_Igor.6e1d4655-6383-4de6-961c-1ccbf72089ec"
+      }, 
+      "9a8b22eb-8e4b-4270-ab2a-1a7eafddc79c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99291", 
+            "y" : "-99497", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "61b98647-f834-4966-9d01-2016150d65a4"
+         ], 
+         "text" : "#OPG_Death_Igor.9a8b22eb-8e4b-4270-ab2a-1a7eafddc79c"
+      }, 
+      "61b98647-f834-4966-9d01-2016150d65a4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99302", 
+            "y" : "-99366", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.61b98647-f834-4966-9d01-2016150d65a4"
+      }, 
+      "0ee62f6e-293c-46d0-b417-af66ff51777f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100662", 
+            "y" : "-98718", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "7d37bb79-4ce4-4fc8-a954-6525f80bd35c"
+         ], 
+         "text" : "#OPG_Death_Igor.0ee62f6e-293c-46d0-b417-af66ff51777f"
+      }, 
+      "e25632d9-6b03-4875-829e-75b1a48a2ca0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-99382", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "577c8c85-dbd5-41b2-934e-ec3d17e81a13"
+         ], 
+         "text" : "#OPG_Death_Igor.e25632d9-6b03-4875-829e-75b1a48a2ca0"
+      }, 
+      "577c8c85-dbd5-41b2-934e-ec3d17e81a13" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-99282"
+         }, 
+         "child" : [ 
+            "a87cdd33-0a84-48de-b671-9ca2eb065608"
+         ]
+      }, 
+      "a87cdd33-0a84-48de-b671-9ca2eb065608" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-99182"
+         }, 
+         "child" : [ 
+            "b9540ea8-6f29-4804-be8e-417384dfc913"
+         ], 
+         "text" : "#OPG_Death_Igor.a87cdd33-0a84-48de-b671-9ca2eb065608"
+      }, 
+      "b9540ea8-6f29-4804-be8e-417384dfc913" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-99082", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.b9540ea8-6f29-4804-be8e-417384dfc913"
+      }, 
+      "9cd08052-4b25-4850-8928-28d18e69ee9c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102105", 
+            "y" : "-98113", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.9cd08052-4b25-4850-8928-28d18e69ee9c"
+      }, 
+      "0ed3ce3b-852a-4b77-b2d6-f6cc126484fd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98213", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "63f981ba-7d01-4dd3-8eec-f4d9449d234f"
+         ], 
+         "text" : "#OPG_Death_Igor.0ed3ce3b-852a-4b77-b2d6-f6cc126484fd"
+      }, 
+      "f99f1a3c-9fcd-4f18-9ff3-74d1c883a32f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-98113", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "7d37bb79-4ce4-4fc8-a954-6525f80bd35c"
+         ], 
+         "text" : "#OPG_Death_Igor.f99f1a3c-9fcd-4f18-9ff3-74d1c883a32f"
+      }, 
+      "fc72cb9c-a828-487d-a1c7-96b8bcd4fe4b" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-101553", 
+            "y" : "-98660"
+         }, 
+         "child" : [ 
+            "6bc016a5-c720-436a-8368-9a984e7f919e", 
+            "a948f4d0-33c9-4630-832c-4347a0eb4606"
+         ], 
+         "weaponType" : "Pistol"
+      }, 
+      "6bc016a5-c720-436a-8368-9a984e7f919e" : { 
+         "class" : "CharacterHandHasWeaponNode", 
+         "desc" : { 
+            "x" : "-101569", 
+            "y" : "-98391"
+         }, 
+         "child" : [ 
+            "7a521211-0b93-494a-8e10-fbc5ee9e777e", 
+            "c64dc1fc-08e8-4bff-b437-115b56267f6e"
+         ], 
+         "objectName" : "Player", 
+         "readyToFire" : "true"
+      }, 
+      "7a521211-0b93-494a-8e10-fbc5ee9e777e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101612", 
+            "y" : "-98264", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "7f09e379-fb53-4032-874e-7e76bccdaf22"
+         ], 
+         "text" : "#OPG_Death_Igor.7a521211-0b93-494a-8e10-fbc5ee9e777e"
+      }, 
+      "c64dc1fc-08e8-4bff-b437-115b56267f6e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101190", 
+            "y" : "-98262"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a948f4d0-33c9-4630-832c-4347a0eb4606" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-101485", 
+            "y" : "-98580"
+         }, 
+         "child" : [ 
+            "6bc016a5-c720-436a-8368-9a984e7f919e", 
+            "37c0745f-58d4-47f5-8bc8-14f900833093"
+         ], 
+         "weaponType" : "Rifle"
+      }, 
+      "37c0745f-58d4-47f5-8bc8-14f900833093" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-101415", 
+            "y" : "-98502"
+         }, 
+         "child" : [ 
+            "6bc016a5-c720-436a-8368-9a984e7f919e", 
+            "6b4f6309-f962-4a7b-ab42-383eddd8c794"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "6b4f6309-f962-4a7b-ab42-383eddd8c794" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-101347", 
+            "y" : "-98424"
+         }, 
+         "child" : [ 
+            "6bc016a5-c720-436a-8368-9a984e7f919e", 
+            "c64dc1fc-08e8-4bff-b437-115b56267f6e"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "f78c88cd-f4ca-49c9-9885-1c6eefd8d0da" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-102547", 
+            "y" : "-100112"
+         }, 
+         "child" : [ 
+            "04bb7bb2-4554-4b57-8298-b3929e956fbf", 
+            "f4569a7c-aa7a-4f20-a5a6-d6e342da6d73"
+         ], 
+         "weaponType" : "Pistol"
+      }, 
+      "04bb7bb2-4554-4b57-8298-b3929e956fbf" : { 
+         "class" : "CharacterHandHasWeaponNode", 
+         "desc" : { 
+            "x" : "-102423", 
+            "y" : "-99686"
+         }, 
+         "child" : [ 
+            "27ccfff9-4526-42f9-89a1-8b0c16adc4c0", 
+            "b4fb4955-c424-409e-8e1a-8f9bd1dc99ac"
+         ], 
+         "objectName" : "Player", 
+         "readyToFire" : "true"
+      }, 
+      "27ccfff9-4526-42f9-89a1-8b0c16adc4c0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102524", 
+            "y" : "-99559", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "7f09e379-fb53-4032-874e-7e76bccdaf22"
+         ], 
+         "text" : "#OPG_Death_Igor.27ccfff9-4526-42f9-89a1-8b0c16adc4c0"
+      }, 
+      "b4fb4955-c424-409e-8e1a-8f9bd1dc99ac" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102217", 
+            "y" : "-99521"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f4569a7c-aa7a-4f20-a5a6-d6e342da6d73" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-102473", 
+            "y" : "-100034"
+         }, 
+         "child" : [ 
+            "04bb7bb2-4554-4b57-8298-b3929e956fbf", 
+            "95d67898-9c2c-409b-8872-a0e71dfe5aff"
+         ], 
+         "weaponType" : "Rifle"
+      }, 
+      "95d67898-9c2c-409b-8872-a0e71dfe5aff" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-102395", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+            "04bb7bb2-4554-4b57-8298-b3929e956fbf", 
+            "996758e6-7c1d-408f-9de7-03e43bf57cec"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "996758e6-7c1d-408f-9de7-03e43bf57cec" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-102321", 
+            "y" : "-99878"
+         }, 
+         "child" : [ 
+            "04bb7bb2-4554-4b57-8298-b3929e956fbf", 
+            "b4fb4955-c424-409e-8e1a-8f9bd1dc99ac"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "68ff9941-8749-4375-9de6-5039d613e695" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102374", 
+            "y" : "-100260", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "63f981ba-7d01-4dd3-8eec-f4d9449d234f"
+         ], 
+         "text" : "#OPG_Death_Igor.68ff9941-8749-4375-9de6-5039d613e695"
+      }, 
+      "17a034eb-6822-4929-838b-71ca2bc2d483" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102221", 
+            "y" : "-100352", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3a4c9b45-160c-454f-ba97-3ae8ab236966"
+         ], 
+         "text" : "#OPG_Death_Igor.17a034eb-6822-4929-838b-71ca2bc2d483"
+      }
+   }, 
+   "entry" : "011f3d02-83f3-4419-be4a-85796423c45e"
+}

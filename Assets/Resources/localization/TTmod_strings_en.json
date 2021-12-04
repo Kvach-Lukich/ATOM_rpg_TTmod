@@ -1,0 +1,108 @@
+{
+    "memo": {
+        "craft_gazmask": {
+            "short": "Gazen Masken",
+            "full": "Gas mask 100%"
+        },
+        "gauss_book": {
+            "short": "Scientific reports",
+            "full": "Scientific developments related to the Gaussian magnetoresistive effect\nThe significance of these works can only be understood by having access to military data servers, for example, in air defense bunkers."
+        },
+        "craft_anarchist_cookbook": {
+            "short": "Anarchist cookbook",
+            "full": "All secret recipes in one book!"
+        },
+        "craft_tt": {
+            "short": "Modification of the TT pistol",
+            "full": "TT higher rate of fire and reload"
+        }
+    },
+    "weapon": {
+        "pps43_m": {
+            "short": "TTS-43 m2",
+            "full": "A lighter version of PPS-43, more speed - less odds! (Ideal for a partner)"
+        },
+        "m24_m": {
+            "short": "Remington 700M without optics",
+            "full": "Break the scope - surprise the enemy, shoot faster without aiming"
+        },
+        "gauss": {
+            "short": "Gauss rifle",
+            "full": "Yes, yes - that same Gauss rifle"
+        }
+    },
+    "character": {
+        "alenka_comp": {
+            "short": "Alyonka",
+            "full": "Alyonka"
+        }
+    },
+    "item": {
+        "opg_igor_head": {
+            "short": "Igor's head",
+            "full": "Igor's head from the organized crime group Death"
+        },
+        "opg_dima_head": {
+            "short": "Dima's head",
+            "full": "Head of Dima from the organized crime group Death"
+        },
+        "opg_lena_head": {
+            "short": "Lena's head",
+            "full": "Lena's head from the organized crime group Death"
+        },
+        "gauss_pt1": {
+            "short": "Parts of an unknown weapon",
+            "full": "It is immediately clear that these are parts of some kind of military development."
+        },
+        "gauss_pt2": {
+            "short": "Parts of an unknown weapon",
+            "full": "It is immediately clear that these are parts of some kind of military development."
+        },
+        "gauss_pt3": {
+            "short": "Parts of an unknown weapon",
+            "full": "It is immediately clear that these are parts of some kind of military development."
+        }
+    },
+    "ammo": {
+        "gauss_nails": {
+            "short": "Gauss cartridges",
+            "full": "Electromagnetic cartridges for Gauss rifles"
+        }
+    },
+    "uniform": {
+        "armor81_m": {
+            "short": "Bulletproof vest with cuirass",
+            "full": "Armor combined with body armor"
+        },
+        "gidrator": {
+            "short": "Hydrator",
+            "full": "Saves from dehydration in the wasteland, despite being hidden under clothes"
+        },
+        "armor81_inviz": {
+            "short": "Bullet-proof vest 6B2 for clothes",
+            "full": "Bullet-proof vest 6B2 - not displayed on the model"
+        }
+    },
+    "consumable": {
+        "cateye": {
+            "short": "Cat's Eye Pickpocket Serum",
+            "full": "You sneak like a cat in the night for sausage, and the pockets of others are completely open for you"
+        },
+        "bearsteel": {
+            "short": "Bugbear",
+            "full": "With the help of this potion, a crowbar and some mother, you can break any lock."
+        },
+        "bearsback": {
+            "short": "Bearish back",
+            "full": "You will be able to carry an extra ton with you"
+        },
+        "pegas": {
+            "short": "Belomor pack",
+            "full": "A drop of nikatin kills a horse, and blows a man to shreds!"
+        }
+    },
+    "quests": {
+        "q_gauss": "[Wasteland] Find and collect 3 parts from the Gauss project (Perhaps you should look in military bunkers and at the bases of large organized crime groups)",
+        "tunnelofdeath_check": "[Driving] Find out why stalkers disappear in the Tunel of Death"
+    }
+}

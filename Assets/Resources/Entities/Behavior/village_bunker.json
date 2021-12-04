@@ -1,0 +1,101 @@
+{ 
+   "states" : { 
+      "2c15c4df-ecc8-40f4-9d74-33857dbf107b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100856", 
+            "y" : "-100562"
+         }, 
+         "child" : [ 
+            "0c827d38-c5b6-4002-b9c5-5f18f5a89d20", 
+            "85785aac-de0c-48f9-a84b-c1a8161fe369"
+         ]
+      }, 
+      "0c827d38-c5b6-4002-b9c5-5f18f5a89d20" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100862", 
+            "y" : "-100492"
+         }, 
+         "child" : [ 
+            "2337b7c7-3449-481e-a8ce-f5497da971e7"
+         ], 
+         "targetName" : "Rat_1", 
+         "targetFractionName" : ""
+      }, 
+      "2337b7c7-3449-481e-a8ce-f5497da971e7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100859", 
+            "y" : "-100403"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "RAT_QUEEN_RIP"
+      }, 
+      "85785aac-de0c-48f9-a84b-c1a8161fe369" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100660", 
+            "y" : "-100495"
+         }, 
+         "child" : [ 
+            "d7aec2df-1d6f-4a8e-8c4c-951b75dcac82", 
+            "8bcbbed7-c676-4f35-aa34-ad4759a8bf78"
+         ], 
+         "key" : "GAZINSAFE"
+      }, 
+      "d7aec2df-1d6f-4a8e-8c4c-951b75dcac82" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100688", 
+            "y" : "-100374"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8bcbbed7-c676-4f35-aa34-ad4759a8bf78" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100556", 
+            "y" : "-100378"
+         }, 
+         "child" : [ 
+            "c315bf78-65b7-46b7-9a97-2e8c87522be4", 
+            "8552c2ae-9960-45b8-864a-7f54aa430845"
+         ], 
+         "key" : "GAZINSAFE"
+      }, 
+      "c315bf78-65b7-46b7-9a97-2e8c87522be4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Gasmask"
+         }, 
+         "objectName" : "Metal_Safe_1"
+      }, 
+      "8552c2ae-9960-45b8-864a-7f54aa430845" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100456", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "bearsback"
+         }, 
+         "objectName" : "Metal_Safe_1"
+      }
+   }, 
+   "entry" : "2c15c4df-ecc8-40f4-9d74-33857dbf107b"
+}

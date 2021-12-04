@@ -1,0 +1,1612 @@
+{ 
+   "states" : { 
+      "15fba6e8-aafe-41eb-ae54-3c386bc2c3f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101404", 
+            "y" : "-101606"
+         }, 
+         "child" : [ 
+            "433b037a-cf06-4f21-b9f4-332c20410838", 
+            "723cf23a-95b7-444d-8130-a42c4ae48011"
+         ]
+      }, 
+      "433b037a-cf06-4f21-b9f4-332c20410838" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101587", 
+            "y" : "-101562"
+         }, 
+         "child" : [ 
+            "ba31ea38-ff93-451a-9402-838f6cb400eb", 
+            "1f4b756a-6801-4804-a80a-6db2934d4ec6"
+         ], 
+         "note_key" : "HARBOR_INSIDE_BUNKER"
+      }, 
+      "ba31ea38-ff93-451a-9402-838f6cb400eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101688", 
+            "y" : "-101551"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1f4b756a-6801-4804-a80a-6db2934d4ec6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101609", 
+            "y" : "-101426"
+         }, 
+         "child" : [ 
+            "91d4e78f-a8a7-4fec-bd4f-e69ff2f1833f", 
+            "ad60d03b-82b9-4149-aade-6cf05be1dc63"
+         ]
+      }, 
+      "91d4e78f-a8a7-4fec-bd4f-e69ff2f1833f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101808", 
+            "y" : "-101370"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt1"
+         }, 
+         "objectName" : "Metal_Shkaf_1 (1)"
+      }, 
+      "ad60d03b-82b9-4149-aade-6cf05be1dc63" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101644", 
+            "y" : "-101369"
+         }, 
+         "child" : [ 
+            "d7ece4ad-6b7e-411c-96d5-3058bf82be37"
+         ], 
+         "note_key" : "HARBOR_INSIDE_BUNKER"
+      }, 
+      "d7ece4ad-6b7e-411c-96d5-3058bf82be37" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101621", 
+            "y" : "-101293"
+         }, 
+         "child" : [ 
+            "00e24690-1488-4068-960c-39d30e28e5be", 
+            "f2a934f2-c061-42e0-9925-35eab908089a", 
+            "4691af12-4199-42ec-b793-d88860367af0"
+         ], 
+         "quest_key" : "CITY.AGIT"
+      }, 
+      "00e24690-1488-4068-960c-39d30e28e5be" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101641", 
+            "y" : "-101137"
+         }, 
+         "child" : [ 
+            "13d05722-9f72-4278-beb4-7da62aa85d42"
+         ], 
+         "quest_key" : "CITY.AGIT"
+      }, 
+      "13d05722-9f72-4278-beb4-7da62aa85d42" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-101645", 
+            "y" : "-101086"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.AGIT_END2"
+      }, 
+      "f2a934f2-c061-42e0-9925-35eab908089a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101611", 
+            "y" : "-101217"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4691af12-4199-42ec-b793-d88860367af0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101582", 
+            "y" : "-101181"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "723cf23a-95b7-444d-8130-a42c4ae48011" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-101261", 
+            "y" : "-101371"
+         }, 
+         "child" : [ 
+            "c1935e76-de6d-43aa-bdf4-4f991647ac50"
+         ]
+      }, 
+      "c1935e76-de6d-43aa-bdf4-4f991647ac50" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101304", 
+            "y" : "-101329"
+         }, 
+         "child" : [ 
+            "d3732847-4c7b-4f94-b407-d02ff40f2259", 
+            "356fc031-a0d1-402c-ac61-34b7bded7910"
+         ], 
+         "fractionA" : "harbor", 
+         "fractionB" : "player"
+      }, 
+      "d3732847-4c7b-4f94-b407-d02ff40f2259" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-101299", 
+            "y" : "-101089"
+         }, 
+         "child" : [ 
+            "04ce6522-8419-4304-8dd2-6592fc618d93", 
+            "b3a69652-4501-4f69-99ac-d03da77cdfe3", 
+            "2aaec78a-d8ae-4c8d-aaea-9dc2685022dd"
+         ], 
+         "objectName" : "Player", 
+         "anim" : "LedderDownStart", 
+         "fade" : "true"
+      }, 
+      "04ce6522-8419-4304-8dd2-6592fc618d93" : { 
+         "class" : "CharacterWaitAnimationNode", 
+         "desc" : { 
+            "x" : "-101743", 
+            "y" : "-100831"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player"
+      }, 
+      "b3a69652-4501-4f69-99ac-d03da77cdfe3" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-101533", 
+            "y" : "-100825"
+         }, 
+         "child" : [ 
+            "c4319161-8790-4a0b-8192-31f4c385484c"
+         ], 
+         "lock" : "true", 
+         "waitingState" : "false"
+      }, 
+      "c4319161-8790-4a0b-8192-31f4c385484c" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101541", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "144e9c63-4d96-4485-958f-82facd5aeba8"
+         ], 
+         "objectName" : "Player", 
+         "pointName" : "", 
+         "waitEnd" : "false"
+      }, 
+      "144e9c63-4d96-4485-958f-82facd5aeba8" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-100721"
+         }, 
+         "child" : [ 
+            "4873c77e-0e97-4aa8-836b-ae797bc89a04"
+         ], 
+         "waitTime" : "0.5"
+      }, 
+      "4873c77e-0e97-4aa8-836b-ae797bc89a04" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-101535", 
+            "y" : "-100667"
+         }, 
+         "child" : [ 
+            "bd8ebf36-3d62-420a-9e4c-9cab89ed216a"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "false"
+      }, 
+      "bd8ebf36-3d62-420a-9e4c-9cab89ed216a" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101583", 
+            "y" : "-100628"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "Harbor_1", 
+         "entrance" : "EnterPointFromBunker"
+      }, 
+      "2aaec78a-d8ae-4c8d-aaea-9dc2685022dd" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "-101382", 
+            "y" : "-100829"
+         }, 
+         "child" : [ 
+         ], 
+         "sound" : "Sounds/SFX/Ledder/LedderDownStart", 
+         "playOnObject" : "false", 
+         "saveStateOnSaveAndLoad" : "false"
+      }, 
+      "356fc031-a0d1-402c-ac61-34b7bded7910" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101101", 
+            "y" : "-101195"
+         }, 
+         "child" : [ 
+            "d3732847-4c7b-4f94-b407-d02ff40f2259", 
+            "dab2c36a-85aa-4295-bf7c-e6d54bcc7849"
+         ], 
+         "key" : "MEET"
+      }, 
+      "dab2c36a-85aa-4295-bf7c-e6d54bcc7849" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100963", 
+            "y" : "-101088"
+         }, 
+         "child" : [ 
+            "6f602eee-962e-4bce-9bd2-fd7900fb4eae", 
+            "99aa6410-9835-4897-a691-4691618940d7"
+         ], 
+         "key" : "MEET"
+      }, 
+      "6f602eee-962e-4bce-9bd2-fd7900fb4eae" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101016", 
+            "y" : "-100997"
+         }, 
+         "child" : [ 
+            "8ef2320e-f8f7-4524-9e48-bf3f081c84be"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "8ef2320e-f8f7-4524-9e48-bf3f081c84be" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-101024", 
+            "y" : "-100945"
+         }, 
+         "child" : [ 
+            "9d8aa498-0faf-4257-8fd4-8042308e269a"
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }, 
+      "9d8aa498-0faf-4257-8fd4-8042308e269a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-100873"
+         }, 
+         "child" : [ 
+            "9e0e6e4e-fbf1-4a6e-95b0-bf05e2e9dc4e"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.9d8aa498-0faf-4257-8fd4-8042308e269a"
+      }, 
+      "9e0e6e4e-fbf1-4a6e-95b0-bf05e2e9dc4e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-100768"
+         }, 
+         "child" : [ 
+            "b30660c4-da95-489a-a4c1-ad6768cad758"
+         ]
+      }, 
+      "b30660c4-da95-489a-a4c1-ad6768cad758" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101206", 
+            "y" : "-100658"
+         }, 
+         "child" : [ 
+            "93961643-ac6f-44a9-8433-427f816366b4"
+         ], 
+         "objectName" : "Player", 
+         "pointName" : "ambush_point"
+      }, 
+      "93961643-ac6f-44a9-8433-427f816366b4" : { 
+         "class" : "PlayerAlignTeamMateNode", 
+         "desc" : { 
+            "x" : "-101218", 
+            "y" : "-100588"
+         }, 
+         "child" : [ 
+            "d924519d-7eb8-4870-9788-4f64252e41da"
+         ]
+      }, 
+      "d924519d-7eb8-4870-9788-4f64252e41da" : { 
+         "class" : "CameraSnapNode", 
+         "desc" : { 
+            "x" : "-101192", 
+            "y" : "-100550"
+         }, 
+         "child" : [ 
+            "d4cfcbd4-21ff-4fa5-ab4b-e7ae04c90086"
+         ]
+      }, 
+      "d4cfcbd4-21ff-4fa5-ab4b-e7ae04c90086" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101192", 
+            "y" : "-100510"
+         }, 
+         "child" : [ 
+            "75619a7f-f560-4218-9685-6faca1604a3a"
+         ], 
+         "active" : "true"
+      }, 
+      "75619a7f-f560-4218-9685-6faca1604a3a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-100655"
+         }, 
+         "child" : [ 
+            "f7a918f5-6188-45a1-baf5-77d2d59405cc"
+         ], 
+         "objectName" : "Harbor_S1", 
+         "active" : "true"
+      }, 
+      "f7a918f5-6188-45a1-baf5-77d2d59405cc" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-100581"
+         }, 
+         "child" : [ 
+            "3941a124-9575-4510-9952-201e9a37c0b0"
+         ], 
+         "objectName" : "Harbor_S2", 
+         "active" : "true"
+      }, 
+      "3941a124-9575-4510-9952-201e9a37c0b0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-100505"
+         }, 
+         "child" : [ 
+            "2cf162d9-e6b3-475b-b93c-54fed67e9102"
+         ], 
+         "objectName" : "Harbor_S3", 
+         "active" : "true"
+      }, 
+      "2cf162d9-e6b3-475b-b93c-54fed67e9102" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100846", 
+            "y" : "-100647"
+         }, 
+         "child" : [ 
+            "574804a2-7adb-4074-a3e6-dbdbf973ecbc"
+         ], 
+         "objectName" : "Harbor_S4", 
+         "active" : "true"
+      }, 
+      "574804a2-7adb-4074-a3e6-dbdbf973ecbc" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100846", 
+            "y" : "-100573"
+         }, 
+         "child" : [ 
+            "c1661318-13ec-49eb-9de8-7ed9dc0b3b6b"
+         ], 
+         "objectName" : "Harbor_S5", 
+         "active" : "true"
+      }, 
+      "c1661318-13ec-49eb-9de8-7ed9dc0b3b6b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100846", 
+            "y" : "-100499"
+         }, 
+         "child" : [ 
+            "6a5270b3-cd48-4ab3-b2fb-dd8caf57b9a7"
+         ], 
+         "objectName" : "Harbor_S6", 
+         "active" : "true"
+      }, 
+      "6a5270b3-cd48-4ab3-b2fb-dd8caf57b9a7" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-100854", 
+            "y" : "-100406"
+         }, 
+         "child" : [ 
+            "eaee7679-9e12-4965-a9ec-5a12772db259"
+         ], 
+         "fade" : "false", 
+         "crossFade" : "false"
+      }, 
+      "eaee7679-9e12-4965-a9ec-5a12772db259" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100901", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+            "33b24368-cc50-4183-8337-be21c18f89ab"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.eaee7679-9e12-4965-a9ec-5a12772db259"
+      }, 
+      "33b24368-cc50-4183-8337-be21c18f89ab" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100901", 
+            "y" : "-100194"
+         }, 
+         "child" : [ 
+            "f23fbb1a-64a8-4c8f-a91b-bff94c48663d"
+         ]
+      }, 
+      "f23fbb1a-64a8-4c8f-a91b-bff94c48663d" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-100913", 
+            "y" : "-100147"
+         }, 
+         "child" : [ 
+            "22004054-b339-4093-b5e2-b9b44b491800", 
+            "db45300d-d5f2-458b-9a82-779144bb2296"
+         ], 
+         "portrait" : "Character/Harbor_S2_Ambush", 
+         "text" : "#Harbor_Bunker_Ladder.f23fbb1a-64a8-4c8f-a91b-bff94c48663d", 
+         "mode" : "SetCustomText"
+      }, 
+      "22004054-b339-4093-b5e2-b9b44b491800" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-99957"
+         }, 
+         "child" : [ 
+            "2764f8d5-8617-450b-8b6b-c52880a03851", 
+            "29a7424d-d9a7-4440-aeab-83798678a51b", 
+            "0e15b946-c006-49ab-b512-bbc98c6eb54b", 
+            "4ab95bb9-31ba-4266-be98-b4eea5534836", 
+            "cd6f6cbe-194b-4d9d-bc74-c27e714dda19"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.22004054-b339-4093-b5e2-b9b44b491800"
+      }, 
+      "2764f8d5-8617-450b-8b6b-c52880a03851" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101248", 
+            "y" : "-99779", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "cf3eb4b9-cac6-44ff-88de-bb2371a0ac24"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.2764f8d5-8617-450b-8b6b-c52880a03851"
+      }, 
+      "cf3eb4b9-cac6-44ff-88de-bb2371a0ac24" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101471", 
+            "y" : "-99446", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "9de764be-f643-4474-aad4-78d5e061324c"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.cf3eb4b9-cac6-44ff-88de-bb2371a0ac24"
+      }, 
+      "9de764be-f643-4474-aad4-78d5e061324c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101471", 
+            "y" : "-99349"
+         }, 
+         "child" : [ 
+            "87f1b46b-31b5-483a-bbec-25825d1fbd53"
+         ]
+      }, 
+      "87f1b46b-31b5-483a-bbec-25825d1fbd53" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100889", 
+            "y" : "-98961"
+         }, 
+         "child" : [ 
+            "121af038-d693-408e-9eae-06573af8aea7", 
+            "f7d3dbea-3126-4b90-9315-649816f82929"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "121af038-d693-408e-9eae-06573af8aea7" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101100", 
+            "y" : "-98855"
+         }, 
+         "child" : [ 
+            "16155dd9-1b5e-44db-9ebd-532947449836"
+         ], 
+         "objectName" : "Fidel", 
+         "portrait" : "Character/Fidel_Bunker_2", 
+         "mode" : "AutoName"
+      }, 
+      "16155dd9-1b5e-44db-9ebd-532947449836" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-98781"
+         }, 
+         "child" : [ 
+            "6ab999e7-5383-41db-8a0e-3cf837b9df69"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.16155dd9-1b5e-44db-9ebd-532947449836"
+      }, 
+      "6ab999e7-5383-41db-8a0e-3cf837b9df69" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101086", 
+            "y" : "-98713"
+         }, 
+         "child" : [ 
+            "119b8226-87a0-407d-b7c9-922c8f063326"
+         ]
+      }, 
+      "119b8226-87a0-407d-b7c9-922c8f063326" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101086", 
+            "y" : "-98673"
+         }, 
+         "child" : [ 
+            "96acb6b7-3381-4865-98ea-1f323477b33d", 
+            "273ef772-90d1-4772-9ee2-4a373e8375ff"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.119b8226-87a0-407d-b7c9-922c8f063326"
+      }, 
+      "96acb6b7-3381-4865-98ea-1f323477b33d" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101292", 
+            "y" : "-98534"
+         }, 
+         "child" : [ 
+         ], 
+         "portrait" : "Character/Harbor_S2_Ambush", 
+         "mode" : "SetOwnerNameIfExist"
+      }, 
+      "273ef772-90d1-4772-9ee2-4a373e8375ff" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100986", 
+            "y" : "-98501"
+         }, 
+         "child" : [ 
+            "f7d3dbea-3126-4b90-9315-649816f82929"
+         ]
+      }, 
+      "f7d3dbea-3126-4b90-9315-649816f82929" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100656", 
+            "y" : "-98737"
+         }, 
+         "child" : [ 
+            "be347a33-2160-4143-912a-7fc50a78e64f", 
+            "fcd48482-7eb5-47d8-ba0a-87f166933c59"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "be347a33-2160-4143-912a-7fc50a78e64f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100852", 
+            "y" : "-98354"
+         }, 
+         "child" : [ 
+            "a6b18b5f-f0af-4b93-bfc4-6d510464f100", 
+            "aa8a965a-23d5-4618-94e5-5fbf813b9a9a"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.be347a33-2160-4143-912a-7fc50a78e64f"
+      }, 
+      "a6b18b5f-f0af-4b93-bfc4-6d510464f100" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101092", 
+            "y" : "-98223"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "portrait" : "Character/Gexgen_Bunker", 
+         "mode" : "AutoName"
+      }, 
+      "aa8a965a-23d5-4618-94e5-5fbf813b9a9a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100816", 
+            "y" : "-98194"
+         }, 
+         "child" : [ 
+            "9c9f9c19-86f5-462c-96dd-93115abe444c"
+         ]
+      }, 
+      "9c9f9c19-86f5-462c-96dd-93115abe444c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100818", 
+            "y" : "-98151"
+         }, 
+         "child" : [ 
+            "adabae4e-95fd-4344-ab64-5f8dd88eaa1a", 
+            "3b8950a3-ba72-4393-85d1-7f855122a3bd"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.9c9f9c19-86f5-462c-96dd-93115abe444c"
+      }, 
+      "adabae4e-95fd-4344-ab64-5f8dd88eaa1a" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101094", 
+            "y" : "-98056"
+         }, 
+         "child" : [ 
+         ], 
+         "portrait" : "Character/Harbor_S2_Ambush", 
+         "text" : "#Harbor_Bunker_Ladder.adabae4e-95fd-4344-ab64-5f8dd88eaa1a", 
+         "mode" : "SetCustomText"
+      }, 
+      "3b8950a3-ba72-4393-85d1-7f855122a3bd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100783", 
+            "y" : "-98058"
+         }, 
+         "child" : [ 
+            "fcd48482-7eb5-47d8-ba0a-87f166933c59"
+         ]
+      }, 
+      "fcd48482-7eb5-47d8-ba0a-87f166933c59" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100692", 
+            "y" : "-97975"
+         }, 
+         "child" : [ 
+            "b384aa20-aeee-4b1f-9ed1-d515a53d1204", 
+            "0d99da59-9013-42e3-9475-e59b6e2a9987", 
+            "034af38e-16e9-407d-af99-aa2fc6618ef1", 
+            "d08d25e8-8afd-4a6b-b32b-265ecbc66ccc"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.fcd48482-7eb5-47d8-ba0a-87f166933c59"
+      }, 
+      "b384aa20-aeee-4b1f-9ed1-d515a53d1204" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102233", 
+            "y" : "-97766", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "84309db2-16c0-48f9-b3d0-743b96a7919b"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.b384aa20-aeee-4b1f-9ed1-d515a53d1204"
+      }, 
+      "84309db2-16c0-48f9-b3d0-743b96a7919b" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-102180", 
+            "y" : "-97600"
+         }, 
+         "child" : [ 
+            "ac078934-e853-4e7b-9baf-6bf7c3b88e47", 
+            "18fbfedd-68ae-46b8-ae2b-620ba473b4d6"
+         ], 
+         "value" : "100", 
+         "skill" : "Speech"
+      }, 
+      "ac078934-e853-4e7b-9baf-6bf7c3b88e47" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-102248", 
+            "y" : "-97473"
+         }, 
+         "child" : [ 
+            "d0474995-a743-48bc-9b15-a4c6b401d43a"
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }, 
+      "d0474995-a743-48bc-9b15-a4c6b401d43a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102394", 
+            "y" : "-97354", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "8e88dd8d-0981-42ea-81fa-b4f6f0a9b5b9", 
+            "2f915e1c-3c26-42b0-9b46-1527f15f78db"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.d0474995-a743-48bc-9b15-a4c6b401d43a"
+      }, 
+      "8e88dd8d-0981-42ea-81fa-b4f6f0a9b5b9" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101761", 
+            "y" : "-96663"
+         }, 
+         "child" : [ 
+            "2f9f529f-8afb-48de-a330-25d89a3769d4"
+         ], 
+         "objectName" : "Harbor_S4", 
+         "active" : "false"
+      }, 
+      "2f9f529f-8afb-48de-a330-25d89a3769d4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101761", 
+            "y" : "-96589"
+         }, 
+         "child" : [ 
+            "05251bd6-83fb-498b-8914-d96a605a9b58"
+         ], 
+         "objectName" : "Harbor_S5", 
+         "active" : "false"
+      }, 
+      "05251bd6-83fb-498b-8914-d96a605a9b58" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101759", 
+            "y" : "-96517"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Harbor_S6", 
+         "active" : "false"
+      }, 
+      "2f915e1c-3c26-42b0-9b46-1527f15f78db" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102359", 
+            "y" : "-97229"
+         }, 
+         "child" : [ 
+            "6806a443-5700-4748-81eb-986bc3831f41"
+         ]
+      }, 
+      "6806a443-5700-4748-81eb-986bc3831f41" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102359", 
+            "y" : "-97191"
+         }, 
+         "child" : [ 
+            "4e526492-2158-4eb5-a769-788be9131a2b"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.6806a443-5700-4748-81eb-986bc3831f41"
+      }, 
+      "4e526492-2158-4eb5-a769-788be9131a2b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102358", 
+            "y" : "-97121"
+         }, 
+         "child" : [ 
+            "0b321fff-51fc-4171-9a87-7c47cc83b361"
+         ]
+      }, 
+      "0b321fff-51fc-4171-9a87-7c47cc83b361" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102358", 
+            "y" : "-97077"
+         }, 
+         "child" : [ 
+            "fcb9dddd-07df-4aa8-a967-86bf602847de", 
+            "030e27b2-4ac2-4634-ab4e-0998843c7ec8"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.0b321fff-51fc-4171-9a87-7c47cc83b361"
+      }, 
+      "fcb9dddd-07df-4aa8-a967-86bf602847de" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-101631", 
+            "y" : "-96657"
+         }, 
+         "child" : [ 
+            "f08edce3-a74b-4bc4-b5c4-a526ee892bc6"
+         ], 
+         "fade" : "false", 
+         "crossFade" : "false"
+      }, 
+      "f08edce3-a74b-4bc4-b5c4-a526ee892bc6" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101617", 
+            "y" : "-96581"
+         }, 
+         "child" : [ 
+         ], 
+         "exp" : "80"
+      }, 
+      "030e27b2-4ac2-4634-ab4e-0998843c7ec8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102323", 
+            "y" : "-96836"
+         }, 
+         "child" : [ 
+            "39c1eef6-46ec-4745-8b6c-e4ad5d8618db"
+         ]
+      }, 
+      "39c1eef6-46ec-4745-8b6c-e4ad5d8618db" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102322", 
+            "y" : "-96790"
+         }, 
+         "child" : [ 
+            "0f2a289c-297a-4310-b56d-8267067db47f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.39c1eef6-46ec-4745-8b6c-e4ad5d8618db"
+      }, 
+      "0f2a289c-297a-4310-b56d-8267067db47f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102323", 
+            "y" : "-96714", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "8a82fe9a-56b5-47df-b604-f7e48dc6056f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.0f2a289c-297a-4310-b56d-8267067db47f"
+      }, 
+      "8a82fe9a-56b5-47df-b604-f7e48dc6056f" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100133", 
+            "y" : "-96298"
+         }, 
+         "child" : [ 
+            "26720152-cad9-4fba-ae95-eaec103aadcc"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "Harbor_S2"
+      }, 
+      "26720152-cad9-4fba-ae95-eaec103aadcc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99967", 
+            "y" : "-96167"
+         }, 
+         "child" : [ 
+            "d260719e-f5d9-476b-8617-48e5bbf2307f"
+         ]
+      }, 
+      "d260719e-f5d9-476b-8617-48e5bbf2307f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99431", 
+            "y" : "-96008"
+         }, 
+         "child" : [ 
+            "affeda6e-fd21-4ecc-8ca6-78cf477f5e93"
+         ]
+      }, 
+      "affeda6e-fd21-4ecc-8ca6-78cf477f5e93" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99461", 
+            "y" : "-95969"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "harbor_bunker", 
+         "value" : "0"
+      }, 
+      "18fbfedd-68ae-46b8-ae2b-620ba473b4d6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-97414", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "0ee9de08-b0e4-43de-b264-95bd34cc6447"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.18fbfedd-68ae-46b8-ae2b-620ba473b4d6"
+      }, 
+      "0ee9de08-b0e4-43de-b264-95bd34cc6447" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-97314"
+         }, 
+         "child" : [ 
+            "038acf77-ada7-4e0a-8294-7f0596bb463e"
+         ]
+      }, 
+      "038acf77-ada7-4e0a-8294-7f0596bb463e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101840", 
+            "y" : "-97270"
+         }, 
+         "child" : [ 
+            "85614b28-cf46-4038-9e2c-78162eeaafe3", 
+            "30ac0273-8924-4134-abb1-a30b82e5015c"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.038acf77-ada7-4e0a-8294-7f0596bb463e"
+      }, 
+      "85614b28-cf46-4038-9e2c-78162eeaafe3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101970", 
+            "y" : "-97128", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "38cf63d7-0dc5-43bc-a1e0-1b43a06e3bb4"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.85614b28-cf46-4038-9e2c-78162eeaafe3"
+      }, 
+      "38cf63d7-0dc5-43bc-a1e0-1b43a06e3bb4" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-99903", 
+            "y" : "-97450"
+         }, 
+         "child" : [ 
+            "e03051fa-3bab-49a2-babf-8d4cee10d8d3", 
+            "6ec6df3e-cb90-41dd-8900-fc5e7d15734e"
+         ], 
+         "value" : "6", 
+         "stat" : "Agility"
+      }, 
+      "e03051fa-3bab-49a2-babf-8d4cee10d8d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-97234", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "34527be0-39dc-4dcb-ad6f-348c3ce6e311"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.e03051fa-3bab-49a2-babf-8d4cee10d8d3"
+      }, 
+      "34527be0-39dc-4dcb-ad6f-348c3ce6e311" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100068", 
+            "y" : "-97134"
+         }, 
+         "child" : [ 
+            "8c050b8a-f589-4f12-bd30-7dc314458b02"
+         ], 
+         "exp" : "20"
+      }, 
+      "8c050b8a-f589-4f12-bd30-7dc314458b02" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-97067", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "8a82fe9a-56b5-47df-b604-f7e48dc6056f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.8c050b8a-f589-4f12-bd30-7dc314458b02"
+      }, 
+      "6ec6df3e-cb90-41dd-8900-fc5e7d15734e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99728", 
+            "y" : "-97239", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "afe29e41-3f0f-4a91-aeaf-fdad49cb7dae"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.6ec6df3e-cb90-41dd-8900-fc5e7d15734e"
+      }, 
+      "afe29e41-3f0f-4a91-aeaf-fdad49cb7dae" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99727", 
+            "y" : "-97133"
+         }, 
+         "child" : [ 
+            "49540efe-dd04-4e2e-95df-059706f71ced"
+         ]
+      }, 
+      "49540efe-dd04-4e2e-95df-059706f71ced" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99728", 
+            "y" : "-97094"
+         }, 
+         "child" : [ 
+            "8ba000b8-0d83-43e0-9613-09193dfcf21b"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.49540efe-dd04-4e2e-95df-059706f71ced"
+      }, 
+      "8ba000b8-0d83-43e0-9613-09193dfcf21b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99729", 
+            "y" : "-97033", 
+            "comment" : "(начинается бой, Бандиты ходят первые)"
+         }, 
+         "child" : [ 
+            "26720152-cad9-4fba-ae95-eaec103aadcc"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.8ba000b8-0d83-43e0-9613-09193dfcf21b"
+      }, 
+      "30ac0273-8924-4134-abb1-a30b82e5015c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101628", 
+            "y" : "-97128", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2cfa6e21-4179-49a6-8dd8-fbd9a358ab39"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.30ac0273-8924-4134-abb1-a30b82e5015c"
+      }, 
+      "2cfa6e21-4179-49a6-8dd8-fbd9a358ab39" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-99391", 
+            "y" : "-96560"
+         }, 
+         "child" : [ 
+            "34dc5df4-3f83-4f24-903f-9cb943cd484a", 
+            "50edfe3b-f195-4ba6-9fa7-54c9c12c3cf3"
+         ], 
+         "value" : "10", 
+         "stat" : "Luck"
+      }, 
+      "34dc5df4-3f83-4f24-903f-9cb943cd484a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99630", 
+            "y" : "-96420", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "ce186182-e30f-4a39-84b0-32241450898f", 
+            "d35c9472-c755-45aa-8f87-6e86779b3850"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.34dc5df4-3f83-4f24-903f-9cb943cd484a"
+      }, 
+      "ce186182-e30f-4a39-84b0-32241450898f" : { 
+         "class" : "ExplosionNode", 
+         "desc" : { 
+            "x" : "-99784", 
+            "y" : "-96286"
+         }, 
+         "child" : [ 
+         ], 
+         "damageRadius" : "6", 
+         "damageMin" : "30", 
+         "damageMax" : "30", 
+         "damageType" : "Explosion", 
+         "attackerIsPlayer" : "True", 
+         "objectName" : "boom_point"
+      }, 
+      "d35c9472-c755-45aa-8f87-6e86779b3850" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99541", 
+            "y" : "-96291"
+         }, 
+         "child" : [ 
+            "83d2fab7-5e92-4521-b02a-8889ff838981"
+         ], 
+         "exp" : "1000"
+      }, 
+      "83d2fab7-5e92-4521-b02a-8889ff838981" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99595", 
+            "y" : "-96216", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "d260719e-f5d9-476b-8617-48e5bbf2307f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.83d2fab7-5e92-4521-b02a-8889ff838981"
+      }, 
+      "50edfe3b-f195-4ba6-9fa7-54c9c12c3cf3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99311", 
+            "y" : "-96428", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "338b9395-dc29-4b50-b82a-b065d7e2ab6b"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.50edfe3b-f195-4ba6-9fa7-54c9c12c3cf3"
+      }, 
+      "338b9395-dc29-4b50-b82a-b065d7e2ab6b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99311", 
+            "y" : "-96322"
+         }, 
+         "child" : [ 
+            "fddb3b60-daa6-4fc5-90c5-338538bd9993"
+         ]
+      }, 
+      "fddb3b60-daa6-4fc5-90c5-338538bd9993" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99310", 
+            "y" : "-96283"
+         }, 
+         "child" : [ 
+            "1ef8c60e-7236-4e21-a839-d7df4c6f75c2"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.fddb3b60-daa6-4fc5-90c5-338538bd9993"
+      }, 
+      "1ef8c60e-7236-4e21-a839-d7df4c6f75c2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99309", 
+            "y" : "-96152", 
+            "comment" : "(начинается бой, Бандиты ходят первые)"
+         }, 
+         "child" : [ 
+            "d260719e-f5d9-476b-8617-48e5bbf2307f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.1ef8c60e-7236-4e21-a839-d7df4c6f75c2"
+      }, 
+      "0d99da59-9013-42e3-9475-e59b6e2a9987" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100944", 
+            "y" : "-97740", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "fc56257f-5e5d-4ad6-9b51-d39004c03751"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.0d99da59-9013-42e3-9475-e59b6e2a9987"
+      }, 
+      "fc56257f-5e5d-4ad6-9b51-d39004c03751" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100888", 
+            "y" : "-97439"
+         }, 
+         "child" : [ 
+            "958aab49-e264-4310-9267-1ee0526af100", 
+            "7c8829f6-7ab5-45ff-a49c-af6fbeb266d9"
+         ], 
+         "value" : "10", 
+         "stat" : "Strength"
+      }, 
+      "958aab49-e264-4310-9267-1ee0526af100" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-101130", 
+            "y" : "-97282"
+         }, 
+         "child" : [ 
+            "f976fd58-5648-439f-b135-b84214ecc45e"
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }, 
+      "f976fd58-5648-439f-b135-b84214ecc45e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101171", 
+            "y" : "-97141", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "8e88dd8d-0981-42ea-81fa-b4f6f0a9b5b9", 
+            "12421fd9-3a5f-4c68-803c-7ef656787735"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.f976fd58-5648-439f-b135-b84214ecc45e"
+      }, 
+      "12421fd9-3a5f-4c68-803c-7ef656787735" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101136", 
+            "y" : "-96981"
+         }, 
+         "child" : [ 
+            "b5b2327f-5353-4ed8-a7c8-555b28a7987e"
+         ]
+      }, 
+      "b5b2327f-5353-4ed8-a7c8-555b28a7987e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-96938"
+         }, 
+         "child" : [ 
+            "24544840-c968-4216-8683-108d6e66fc8f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.b5b2327f-5353-4ed8-a7c8-555b28a7987e"
+      }, 
+      "24544840-c968-4216-8683-108d6e66fc8f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-96865"
+         }, 
+         "child" : [ 
+            "cb7e0be8-46c6-4936-a032-4a42f3678440"
+         ]
+      }, 
+      "cb7e0be8-46c6-4936-a032-4a42f3678440" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101140", 
+            "y" : "-96822"
+         }, 
+         "child" : [ 
+            "fcb9dddd-07df-4aa8-a967-86bf602847de", 
+            "89e12be0-95a3-42bd-b416-3c99478e620a"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.cb7e0be8-46c6-4936-a032-4a42f3678440"
+      }, 
+      "89e12be0-95a3-42bd-b416-3c99478e620a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101106", 
+            "y" : "-96667"
+         }, 
+         "child" : [ 
+            "ad5251ca-ab35-4156-b823-fd9ef4d1574d"
+         ]
+      }, 
+      "ad5251ca-ab35-4156-b823-fd9ef4d1574d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101106", 
+            "y" : "-96626"
+         }, 
+         "child" : [ 
+            "992438d4-5467-4aac-a94c-80e9b013edf1"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.ad5251ca-ab35-4156-b823-fd9ef4d1574d"
+      }, 
+      "992438d4-5467-4aac-a94c-80e9b013edf1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101108", 
+            "y" : "-96553", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "8a82fe9a-56b5-47df-b604-f7e48dc6056f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.992438d4-5467-4aac-a94c-80e9b013edf1"
+      }, 
+      "7c8829f6-7ab5-45ff-a49c-af6fbeb266d9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100696", 
+            "y" : "-97215", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "4fae2d90-ce8a-4d8b-9674-ddc1ac53d474"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.7c8829f6-7ab5-45ff-a49c-af6fbeb266d9"
+      }, 
+      "4fae2d90-ce8a-4d8b-9674-ddc1ac53d474" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100696", 
+            "y" : "-97115"
+         }, 
+         "child" : [ 
+            "bbc1b061-e549-4769-9baa-3afaae737681"
+         ]
+      }, 
+      "bbc1b061-e549-4769-9baa-3afaae737681" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100698", 
+            "y" : "-97070"
+         }, 
+         "child" : [ 
+            "95bf3a10-60b4-4bb3-a77e-9120bf2c4f6d", 
+            "fd337a9a-861a-401b-8f75-61066aab9ee9"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.bbc1b061-e549-4769-9baa-3afaae737681"
+      }, 
+      "95bf3a10-60b4-4bb3-a77e-9120bf2c4f6d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100826", 
+            "y" : "-96915", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "38cf63d7-0dc5-43bc-a1e0-1b43a06e3bb4"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.95bf3a10-60b4-4bb3-a77e-9120bf2c4f6d"
+      }, 
+      "fd337a9a-861a-401b-8f75-61066aab9ee9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100486", 
+            "y" : "-96914", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2cfa6e21-4179-49a6-8dd8-fbd9a358ab39"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.fd337a9a-861a-401b-8f75-61066aab9ee9"
+      }, 
+      "034af38e-16e9-407d-af99-aa2fc6618ef1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99958", 
+            "y" : "-97702", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "38cf63d7-0dc5-43bc-a1e0-1b43a06e3bb4"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.034af38e-16e9-407d-af99-aa2fc6618ef1"
+      }, 
+      "d08d25e8-8afd-4a6b-b32b-265ecbc66ccc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99444", 
+            "y" : "-97702", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2cfa6e21-4179-49a6-8dd8-fbd9a358ab39"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.d08d25e8-8afd-4a6b-b32b-265ecbc66ccc"
+      }, 
+      "29a7424d-d9a7-4440-aeab-83798678a51b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101098", 
+            "y" : "-99679", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "993117d5-be3a-4649-bff3-5cee289b2bc8"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.29a7424d-d9a7-4440-aeab-83798678a51b"
+      }, 
+      "993117d5-be3a-4649-bff3-5cee289b2bc8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101211", 
+            "y" : "-99446", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "2670d745-2ab4-4088-827a-ac7c43831913"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.993117d5-be3a-4649-bff3-5cee289b2bc8"
+      }, 
+      "2670d745-2ab4-4088-827a-ac7c43831913" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101207", 
+            "y" : "-99340"
+         }, 
+         "child" : [ 
+            "ed0eb685-15d6-4061-94ac-c7b4893d2f73"
+         ]
+      }, 
+      "ed0eb685-15d6-4061-94ac-c7b4893d2f73" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101207", 
+            "y" : "-99294"
+         }, 
+         "child" : [ 
+            "e381fcb8-50ba-497e-8763-ed3756e7a8d8"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.ed0eb685-15d6-4061-94ac-c7b4893d2f73"
+      }, 
+      "e381fcb8-50ba-497e-8763-ed3756e7a8d8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101207", 
+            "y" : "-99222"
+         }, 
+         "child" : [ 
+            "87f1b46b-31b5-483a-bbec-25825d1fbd53"
+         ]
+      }, 
+      "0e15b946-c006-49ab-b512-bbc98c6eb54b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-99557", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "2492e2a3-bcc1-4165-bc3c-ebcd45c7a411"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.0e15b946-c006-49ab-b512-bbc98c6eb54b"
+      }, 
+      "2492e2a3-bcc1-4165-bc3c-ebcd45c7a411" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-99448", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "e27d8939-81f8-42d5-bab0-d0304632cb4f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.2492e2a3-bcc1-4165-bc3c-ebcd45c7a411"
+      }, 
+      "e27d8939-81f8-42d5-bab0-d0304632cb4f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-99348"
+         }, 
+         "child" : [ 
+            "87f1b46b-31b5-483a-bbec-25825d1fbd53"
+         ]
+      }, 
+      "4ab95bb9-31ba-4266-be98-b4eea5534836" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100798", 
+            "y" : "-99679", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "9f720a36-5480-4b1f-937b-4af203fc0ff1"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.4ab95bb9-31ba-4266-be98-b4eea5534836"
+      }, 
+      "9f720a36-5480-4b1f-937b-4af203fc0ff1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99452", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "929f5a43-2e9b-4d5b-a8bf-eaff47043e9d"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.9f720a36-5480-4b1f-937b-4af203fc0ff1"
+      }, 
+      "929f5a43-2e9b-4d5b-a8bf-eaff47043e9d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99368"
+         }, 
+         "child" : [ 
+            "81acac99-95a7-42f6-b580-2bb4e465edcd"
+         ]
+      }, 
+      "81acac99-95a7-42f6-b580-2bb4e465edcd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99324"
+         }, 
+         "child" : [ 
+            "3ac3fe2f-5553-4307-ba3c-c0f054f566ab"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.81acac99-95a7-42f6-b580-2bb4e465edcd"
+      }, 
+      "3ac3fe2f-5553-4307-ba3c-c0f054f566ab" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99252"
+         }, 
+         "child" : [ 
+            "5b03b698-b382-4b36-beb7-eacb967bb0df"
+         ]
+      }, 
+      "5b03b698-b382-4b36-beb7-eacb967bb0df" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99208"
+         }, 
+         "child" : [ 
+            "50221b48-35e8-4140-a27c-4735ba2bf3b1"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.5b03b698-b382-4b36-beb7-eacb967bb0df"
+      }, 
+      "50221b48-35e8-4140-a27c-4735ba2bf3b1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-99100"
+         }, 
+         "child" : [ 
+            "87f1b46b-31b5-483a-bbec-25825d1fbd53"
+         ]
+      }, 
+      "cd6f6cbe-194b-4d9d-bc74-c27e714dda19" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100648", 
+            "y" : "-99779", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "cfa98f38-72f8-4887-b38b-e84f3f0c318f"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.cd6f6cbe-194b-4d9d-bc74-c27e714dda19"
+      }, 
+      "cfa98f38-72f8-4887-b38b-e84f3f0c318f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100409", 
+            "y" : "-99448", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "a7b252ae-1f13-4efe-83ef-a82860dc6b0d"
+         ], 
+         "text" : "#Harbor_Bunker_Ladder.cfa98f38-72f8-4887-b38b-e84f3f0c318f"
+      }, 
+      "a7b252ae-1f13-4efe-83ef-a82860dc6b0d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100409", 
+            "y" : "-99348"
+         }, 
+         "child" : [ 
+            "87f1b46b-31b5-483a-bbec-25825d1fbd53"
+         ]
+      }, 
+      "db45300d-d5f2-458b-9a82-779144bb2296" : { 
+         "class" : "DialogAvatarNode", 
+         "desc" : { 
+            "x" : "-100808", 
+            "y" : "-100067"
+         }, 
+         "child" : [ 
+         ], 
+         "fade" : "false", 
+         "crossFade" : "true"
+      }, 
+      "99aa6410-9835-4897-a691-4691618940d7" : { 
+         "class" : "DialogAvatarNode", 
+         "desc" : { 
+            "x" : "-100886", 
+            "y" : "-101001"
+         }, 
+         "child" : [ 
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }
+   }, 
+   "entry" : "15fba6e8-aafe-41eb-ae54-3c386bc2c3f2"
+}

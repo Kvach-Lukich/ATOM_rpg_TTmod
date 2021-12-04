@@ -1,0 +1,323 @@
+{ 
+   "states" : { 
+      "23973998-23d6-448a-8e36-c334ad9c2911" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-100741"
+         }, 
+         "child" : [ 
+            "84be1130-5be4-4abd-b8a4-68474eb9eebd", 
+            "5d30f7d0-e1ca-40bc-8bf7-968cb666167d", 
+            "eb8f763e-8f19-4a91-8522-78d20e7f7aef", 
+            "740dd522-583a-4d6e-9257-162a559b5495", 
+            "bf257a70-69f3-4a7e-934a-df47737e038d"
+         ]
+      }, 
+      "84be1130-5be4-4abd-b8a4-68474eb9eebd" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101590", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "60c961b3-ac62-4ac0-bfe0-56e64d2107d5", 
+            "9caee38d-07af-481c-9b4b-518c3624393c"
+         ], 
+         "note_key" : "BUNKER_MARAUDER_AWAY"
+      }, 
+      "60c961b3-ac62-4ac0-bfe0-56e64d2107d5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101678", 
+            "y" : "-100687"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9caee38d-07af-481c-9b4b-518c3624393c" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-100675"
+         }, 
+         "child" : [ 
+            "f69c806d-fdad-49b1-b3e8-69f3529a8fad", 
+            "9625306e-09bd-452a-866c-f68bdc58ee46"
+         ], 
+         "note_key" : "RUINS.MARAUDER.INSIDE"
+      }, 
+      "f69c806d-fdad-49b1-b3e8-69f3529a8fad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101575", 
+            "y" : "-100532"
+         }, 
+         "child" : [ 
+            "6392a07e-4c8a-4bdf-ae3f-cc3bbbeda2b4"
+         ]
+      }, 
+      "6392a07e-4c8a-4bdf-ae3f-cc3bbbeda2b4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101575", 
+            "y" : "-100473"
+         }, 
+         "child" : [ 
+            "751819d5-b232-4321-a365-3f7aedbb511d"
+         ], 
+         "objectName" : "Usatiy2", 
+         "active" : "true"
+      }, 
+      "751819d5-b232-4321-a365-3f7aedbb511d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101571", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+            "729ce3fa-638f-4d68-b29d-56f8d6aa12f2"
+         ], 
+         "objectName" : "Liznia2", 
+         "active" : "true"
+      }, 
+      "729ce3fa-638f-4d68-b29d-56f8d6aa12f2" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101555", 
+            "y" : "-100298"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Kozir2", 
+         "active" : "true"
+      }, 
+      "9625306e-09bd-452a-866c-f68bdc58ee46" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101402", 
+            "y" : "-100507"
+         }, 
+         "child" : [ 
+            "fc2c2634-0b9b-4bb4-9e16-0c118b7a6e4d"
+         ]
+      }, 
+      "fc2c2634-0b9b-4bb4-9e16-0c118b7a6e4d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101423", 
+            "y" : "-100457"
+         }, 
+         "child" : [ 
+            "6ecbff4a-7f9d-4af6-9b78-513c6da49aa1"
+         ], 
+         "objectName" : "Usatiy2", 
+         "active" : "false"
+      }, 
+      "6ecbff4a-7f9d-4af6-9b78-513c6da49aa1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101414", 
+            "y" : "-100378"
+         }, 
+         "child" : [ 
+            "3f1340c0-b01d-40a8-9d8a-4411ca15ae70"
+         ], 
+         "objectName" : "Liznia2", 
+         "active" : "false"
+      }, 
+      "3f1340c0-b01d-40a8-9d8a-4411ca15ae70" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-100295"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Kozir2", 
+         "active" : "false"
+      }, 
+      "5d30f7d0-e1ca-40bc-8bf7-968cb666167d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101185", 
+            "y" : "-100661"
+         }, 
+         "child" : [ 
+            "d764b23a-915b-41f6-a1f9-ad719a99c956", 
+            "63287d6c-6c08-428b-8fa0-940964500c7a"
+         ], 
+         "note_key" : "RUINS.MARADER.KNOW"
+      }, 
+      "d764b23a-915b-41f6-a1f9-ad719a99c956" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101284", 
+            "y" : "-100540"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "RUINS.BUNKER.VISITED"
+      }, 
+      "63287d6c-6c08-428b-8fa0-940964500c7a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101057", 
+            "y" : "-100537"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "eb8f763e-8f19-4a91-8522-78d20e7f7aef" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100879", 
+            "y" : "-100577"
+         }, 
+         "child" : [ 
+            "0116c1e2-4aef-4913-99e4-37084a574692", 
+            "23ee287f-68ae-4abd-8ed1-4bc9213a995f"
+         ], 
+         "note_key" : "RUINS.DOOR.BOOM"
+      }, 
+      "0116c1e2-4aef-4913-99e4-37084a574692" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100941", 
+            "y" : "-100493"
+         }, 
+         "child" : [ 
+            "b1b38dbb-e17b-4c75-9325-ce74558a9aef"
+         ], 
+         "objectName" : "Boom.Results", 
+         "active" : "true"
+      }, 
+      "b1b38dbb-e17b-4c75-9325-ce74558a9aef" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100953", 
+            "y" : "-100393"
+         }, 
+         "child" : [ 
+            "0df1b71d-5157-41a2-b164-80765788b8e5"
+         ], 
+         "objectName" : "Boom.No", 
+         "active" : "false"
+      }, 
+      "0df1b71d-5157-41a2-b164-80765788b8e5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101005", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "RUINS.BUNKER.VISITED"
+      }, 
+      "23ee287f-68ae-4abd-8ed1-4bc9213a995f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100800", 
+            "y" : "-100489"
+         }, 
+         "child" : [ 
+            "90620338-dfe0-48e0-9010-0d0b796d507f"
+         ], 
+         "objectName" : "Boom.Results", 
+         "active" : "false"
+      }, 
+      "90620338-dfe0-48e0-9010-0d0b796d507f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100783", 
+            "y" : "-100404"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Boom.No", 
+         "active" : "true"
+      }, 
+      "740dd522-583a-4d6e-9257-162a559b5495" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100864", 
+            "y" : "-100695"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "MAIN.EXPLORE_BUNKER"
+      }, 
+      "bf257a70-69f3-4a7e-934a-df47737e038d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100589", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "9380b44b-380f-4ac6-ba00-dcfde920c12e", 
+            "d0732d0d-d469-4b8f-982f-a539bbfb76f1"
+         ], 
+         "key" : "LOG_1"
+      }, 
+      "9380b44b-380f-4ac6-ba00-dcfde920c12e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100677", 
+            "y" : "-100662"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0732d0d-d469-4b8f-982f-a539bbfb76f1" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-100449", 
+            "y" : "-100669"
+         }, 
+         "child" : [ 
+            "fa9d9f4d-dcfe-4e58-9827-516b18e1a49d"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "10", 
+         "objectName" : "Ant_Dead_1"
+      }, 
+      "fa9d9f4d-dcfe-4e58-9827-516b18e1a49d" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100622", 
+            "y" : "-100525"
+         }, 
+         "child" : [ 
+            "aa8a5489-d1ad-429d-8438-e5333f93c695", 
+            "a3a79664-7d25-4ef8-844c-95a28d03be2a"
+         ], 
+         "text" : "#Ruins.Bunker.Level1.fa9d9f4d-dcfe-4e58-9827-516b18e1a49d"
+      }, 
+      "aa8a5489-d1ad-429d-8438-e5333f93c695" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100464", 
+            "y" : "-100418"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "LOG_1"
+      }, 
+      "a3a79664-7d25-4ef8-844c-95a28d03be2a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100257", 
+            "y" : "-100425"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Gasmask"
+         }, 
+         "objectName" : "Mebel_1"
+      }
+   }, 
+   "entry" : "23973998-23d6-448a-8e36-c334ad9c2911"
+}

@@ -1,0 +1,99 @@
+{ 
+   "states" : { 
+      "80bd164a-9aae-4d1a-8de8-8fc8f6105468" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-100765"
+         }, 
+         "child" : [ 
+            "ead53deb-c3af-4508-90b3-02a45a9aa7f3"
+         ]
+      }, 
+      "ead53deb-c3af-4508-90b3-02a45a9aa7f3" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-100718"
+         }, 
+         "child" : [ 
+            "cc8a2fb2-c2c9-4a6b-8210-5a0aaf0c0c57", 
+            "ba6af60a-bbb3-4be1-be60-7e9598387566"
+         ]
+      }, 
+      "cc8a2fb2-c2c9-4a6b-8210-5a0aaf0c0c57" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101283", 
+            "y" : "-100624"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ba6af60a-bbb3-4be1-be60-7e9598387566" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101136", 
+            "y" : "-100605"
+         }, 
+         "child" : [ 
+            "3fdc89bc-c836-4ca2-81ba-6cd0f0ec38c0", 
+            "3941fde4-8c47-4204-9b56-b0ab7ed14547"
+         ], 
+         "key" : "MEET"
+      }, 
+      "3fdc89bc-c836-4ca2-81ba-6cd0f0ec38c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101236", 
+            "y" : "-100503"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3941fde4-8c47-4204-9b56-b0ab7ed14547" : { 
+         "class" : "PlayerHasHallucinationsNode", 
+         "desc" : { 
+            "x" : "-101126", 
+            "y" : "-100477"
+         }, 
+         "child" : [ 
+            "8924c381-9e8c-43c3-84da-3af33a6be98b", 
+            "e3f8bebe-c918-4d64-bf7e-ff0c2c02908d"
+         ]
+      }, 
+      "8924c381-9e8c-43c3-84da-3af33a6be98b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101212", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "591e18ff-3c17-4591-850a-ea6aa3a543c7"
+         ], 
+         "key" : "MEET"
+      }, 
+      "591e18ff-3c17-4591-850a-ea6aa3a543c7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101274", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#BusStop_4_Alenka.AutoDialog.591e18ff-3c17-4591-850a-ea6aa3a543c7", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e3f8bebe-c918-4d64-bf7e-ff0c2c02908d" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-101038", 
+            "y" : "-100363"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "80bd164a-9aae-4d1a-8de8-8fc8f6105468"
+}

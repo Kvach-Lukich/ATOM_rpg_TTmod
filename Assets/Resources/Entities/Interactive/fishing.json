@@ -1,0 +1,2762 @@
+{ 
+   "states" : { 
+      "24d666f1-dc46-404f-9f0e-9bd65acc62a9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100272", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "4a9d4052-5f2f-4fc3-92d6-25d3014d0ec3"
+         ]
+      }, 
+      "4a9d4052-5f2f-4fc3-92d6-25d3014d0ec3" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-100240", 
+            "y" : "-100169"
+         }, 
+         "child" : [ 
+            "0afd7410-7b72-4792-b12c-48fcbd862add"
+         ]
+      }, 
+      "0afd7410-7b72-4792-b12c-48fcbd862add" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-100220", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+            "76b95fa5-298b-4e7d-9042-2cfbf0617722"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "76b95fa5-298b-4e7d-9042-2cfbf0617722" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-100184", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+            "cdccdac1-87db-47d3-923a-57b408bef08f", 
+            "35edb589-8dcb-4147-816c-3efb3efa06bf"
+         ], 
+         "perk" : "Entomologist"
+      }, 
+      "cdccdac1-87db-47d3-923a-57b408bef08f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99947", 
+            "y" : "-100044"
+         }, 
+         "child" : [ 
+            "e7d4fee7-8f93-4827-b496-68179fb64606", 
+            "9e850c37-b543-4207-ad18-a1dc9c1c7063", 
+            "992b98cd-5ade-42eb-ad14-2a35022ac60b", 
+            "b91c922e-9f05-4490-b3e4-66657f27ecbe", 
+            "2c3c7538-d5f8-4110-bfae-abc076aec837"
+         ], 
+         "text" : "#Fishing.cdccdac1-87db-47d3-923a-57b408bef08f"
+      }, 
+      "e7d4fee7-8f93-4827-b496-68179fb64606" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100382", 
+            "y" : "-99733"
+         }, 
+         "child" : [ 
+            "c6217d09-0bc6-4278-848c-aef24dab9158", 
+            "5de27435-53a4-4b26-a607-ffd60563b95e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Makuha"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c6217d09-0bc6-4278-848c-aef24dab9158" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100527", 
+            "y" : "-99621"
+         }, 
+         "child" : [ 
+            "8b738cd6-b296-41a0-a504-6d68ece0e314"
+         ], 
+         "text" : "#Fishing.c6217d09-0bc6-4278-848c-aef24dab9158"
+      }, 
+      "8b738cd6-b296-41a0-a504-6d68ece0e314" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100472", 
+            "y" : "-99541"
+         }, 
+         "child" : [ 
+            "79d05b4a-ccb3-439c-bb32-dc85e2546dab"
+         ], 
+         "key" : "BAIT", 
+         "value" : "4"
+      }, 
+      "79d05b4a-ccb3-439c-bb32-dc85e2546dab" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-99858", 
+            "y" : "-99287"
+         }, 
+         "child" : [ 
+            "935d72ac-a0ef-4711-b3fb-c0749358addf"
+         ], 
+         "time" : "5", 
+         "timeMode" : "Minute"
+      }, 
+      "935d72ac-a0ef-4711-b3fb-c0749358addf" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100354", 
+            "y" : "-99357"
+         }, 
+         "child" : [ 
+            "ec20a2ad-58db-463b-aaf2-28846030227d", 
+            "072d864a-6c72-4296-8a51-635302e3d1d2"
+         ], 
+         "value" : "11", 
+         "stat" : "Luck"
+      }, 
+      "ec20a2ad-58db-463b-aaf2-28846030227d" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100679", 
+            "y" : "-99237"
+         }, 
+         "child" : [ 
+            "dd90ed31-8972-4313-b4a2-2d860bfa5f38", 
+            "072d864a-6c72-4296-8a51-635302e3d1d2"
+         ], 
+         "max" : "100", 
+         "value" : "46"
+      }, 
+      "dd90ed31-8972-4313-b4a2-2d860bfa5f38" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101191", 
+            "y" : "-99185"
+         }, 
+         "child" : [ 
+            "aa3c5b22-97b9-4379-a02e-d6aa831ec33c", 
+            "6b73a85f-8de2-48a3-8e0b-01724020dea4"
+         ], 
+         "key" : "GOT_GOLD"
+      }, 
+      "aa3c5b22-97b9-4379-a02e-d6aa831ec33c" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-101182", 
+            "y" : "-98868"
+         }, 
+         "child" : [ 
+            "2be57441-a7b5-4f25-acd0-ed5893a364aa", 
+            "9b01f18a-45b6-4034-9546-a948ef022b1d"
+         ], 
+         "key" : "BAIT", 
+         "value" : "3"
+      }, 
+      "2be57441-a7b5-4f25-acd0-ed5893a364aa" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-101484", 
+            "y" : "-98745"
+         }, 
+         "child" : [ 
+            "91a3dcc4-afa2-463f-8b25-68c47caf5aa1", 
+            "09f6d7aa-70e6-4c15-b3a9-e7bef452b650"
+         ], 
+         "max" : "100", 
+         "value" : "50"
+      }, 
+      "91a3dcc4-afa2-463f-8b25-68c47caf5aa1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101285", 
+            "y" : "-98425", 
+            "comment" : "А6 (20%)"
+         }, 
+         "child" : [ 
+            "f47cc62d-1e76-4e26-806a-fd55e3d6415b", 
+            "04b416b3-1338-4018-a7ff-5b428e646b19"
+         ], 
+         "text" : "#Fishing.91a3dcc4-afa2-463f-8b25-68c47caf5aa1"
+      }, 
+      "f47cc62d-1e76-4e26-806a-fd55e3d6415b" : { 
+         "class" : "CharacterAddResultsNode", 
+         "desc" : { 
+            "x" : "-101404", 
+            "y" : "-98264"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "data" : "CatchFish"
+      }, 
+      "04b416b3-1338-4018-a7ff-5b428e646b19" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101115", 
+            "y" : "-98259"
+         }, 
+         "child" : [ 
+            "44ce35d5-2dea-4fe0-afa4-987dc5945227"
+         ], 
+         "exp" : "30"
+      }, 
+      "44ce35d5-2dea-4fe0-afa4-987dc5945227" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101192", 
+            "y" : "-98157"
+         }, 
+         "child" : [ 
+            "437dc7e6-5829-432e-b389-af7a0b85b337"
+         ], 
+         "text" : "#Fishing.44ce35d5-2dea-4fe0-afa4-987dc5945227"
+      }, 
+      "437dc7e6-5829-432e-b389-af7a0b85b337" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101171", 
+            "y" : "-98044"
+         }, 
+         "child" : [ 
+            "20835f39-114a-414d-baf4-9a0e96092278"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Som"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "20835f39-114a-414d-baf4-9a0e96092278" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100847", 
+            "y" : "-97924"
+         }, 
+         "child" : [ 
+            "e8918717-2a02-43d7-ad3d-1c59385f0c33"
+         ]
+      }, 
+      "e8918717-2a02-43d7-ad3d-1c59385f0c33" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-101142", 
+            "y" : "-97902"
+         }, 
+         "child" : [ 
+            "c60669c2-eb1f-490a-8a4d-7b43b6edf26e", 
+            "6973d08d-c55b-4023-bac1-9690f83b743e"
+         ], 
+         "key" : "BAIT", 
+         "value" : "4"
+      }, 
+      "c60669c2-eb1f-490a-8a4d-7b43b6edf26e" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101340", 
+            "y" : "-97689"
+         }, 
+         "child" : [ 
+            "9baa230f-27a7-45a1-88df-9f0ec07a5e3d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Makuha"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9baa230f-27a7-45a1-88df-9f0ec07a5e3d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100980", 
+            "y" : "-97466"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6973d08d-c55b-4023-bac1-9690f83b743e" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-100930", 
+            "y" : "-97817"
+         }, 
+         "child" : [ 
+            "dd365b21-151f-4646-ab94-c793ad8c0e14", 
+            "109532e3-3501-4a25-b6a4-7f86f1cd3130"
+         ], 
+         "key" : "BAIT", 
+         "value" : "3"
+      }, 
+      "dd365b21-151f-4646-ab94-c793ad8c0e14" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101149", 
+            "y" : "-97642"
+         }, 
+         "child" : [ 
+            "9baa230f-27a7-45a1-88df-9f0ec07a5e3d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "SpiderBrain"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "109532e3-3501-4a25-b6a4-7f86f1cd3130" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-100843", 
+            "y" : "-97741"
+         }, 
+         "child" : [ 
+            "e679d5fd-1693-4d6e-8358-51d768a1ef58", 
+            "6f39c196-4908-4fd2-889a-8ae536477f3d"
+         ], 
+         "key" : "BAIT", 
+         "value" : "2"
+      }, 
+      "e679d5fd-1693-4d6e-8358-51d768a1ef58" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-97642"
+         }, 
+         "child" : [ 
+            "9baa230f-27a7-45a1-88df-9f0ec07a5e3d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "WaspFeet"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6f39c196-4908-4fd2-889a-8ae536477f3d" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100806", 
+            "y" : "-97640"
+         }, 
+         "child" : [ 
+            "9baa230f-27a7-45a1-88df-9f0ec07a5e3d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "AntGland"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "09f6d7aa-70e6-4c15-b3a9-e7bef452b650" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-101418", 
+            "y" : "-98595"
+         }, 
+         "child" : [ 
+            "cc21e0c6-40ff-4074-b52c-d37c8636cb76", 
+            "7a2e84bc-ac32-424e-a790-959776b9323e"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "cc21e0c6-40ff-4074-b52c-d37c8636cb76" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100915", 
+            "y" : "-98414", 
+            "comment" : "А6 (20%)"
+         }, 
+         "child" : [ 
+            "a2a749a2-c048-4feb-a920-1de4f3133282", 
+            "a5e8b5df-465d-4214-b7db-719dfbf882be"
+         ], 
+         "text" : "#Fishing.cc21e0c6-40ff-4074-b52c-d37c8636cb76"
+      }, 
+      "a2a749a2-c048-4feb-a920-1de4f3133282" : { 
+         "class" : "CharacterAddResultsNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-98276"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "data" : "CatchFish"
+      }, 
+      "a5e8b5df-465d-4214-b7db-719dfbf882be" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100825", 
+            "y" : "-98259"
+         }, 
+         "child" : [ 
+            "7ed21969-264d-4b07-8924-122155616628"
+         ], 
+         "exp" : "20"
+      }, 
+      "7ed21969-264d-4b07-8924-122155616628" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100902", 
+            "y" : "-98157"
+         }, 
+         "child" : [ 
+            "66e27ddb-1ce7-4ccf-9e99-7831fb435707"
+         ], 
+         "text" : "#Fishing.7ed21969-264d-4b07-8924-122155616628"
+      }, 
+      "66e27ddb-1ce7-4ccf-9e99-7831fb435707" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100875", 
+            "y" : "-98051"
+         }, 
+         "child" : [ 
+            "20835f39-114a-414d-baf4-9a0e96092278"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Gorbach"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7a2e84bc-ac32-424e-a790-959776b9323e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100642", 
+            "y" : "-98413", 
+            "comment" : "А6 (20%)"
+         }, 
+         "child" : [ 
+            "9d5b4373-8773-440e-9f90-1964cbb47349", 
+            "1aa4adf4-f246-4826-8434-8a4a0ba00951"
+         ], 
+         "text" : "#Fishing.7a2e84bc-ac32-424e-a790-959776b9323e"
+      }, 
+      "9d5b4373-8773-440e-9f90-1964cbb47349" : { 
+         "class" : "CharacterAddResultsNode", 
+         "desc" : { 
+            "x" : "-100700", 
+            "y" : "-98287"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "data" : "CatchFish"
+      }, 
+      "1aa4adf4-f246-4826-8434-8a4a0ba00951" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100552", 
+            "y" : "-98258"
+         }, 
+         "child" : [ 
+            "68c08467-10b8-4647-a4c6-13bdf741319b"
+         ], 
+         "exp" : "10"
+      }, 
+      "68c08467-10b8-4647-a4c6-13bdf741319b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100629", 
+            "y" : "-98156"
+         }, 
+         "child" : [ 
+            "89aa2c39-685c-4fc2-bb98-31cc1f1354b2"
+         ], 
+         "text" : "#Fishing.68c08467-10b8-4647-a4c6-13bdf741319b"
+      }, 
+      "89aa2c39-685c-4fc2-bb98-31cc1f1354b2" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100655", 
+            "y" : "-98054"
+         }, 
+         "child" : [ 
+            "20835f39-114a-414d-baf4-9a0e96092278"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Korushka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9b01f18a-45b6-4034-9546-a948ef022b1d" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-101040", 
+            "y" : "-98756"
+         }, 
+         "child" : [ 
+            "429bb5ae-bfec-40b6-ba30-37fb4ea0ee64", 
+            "61fd1c0c-1a58-478e-90fc-86fac5cce52d"
+         ], 
+         "key" : "BAIT", 
+         "value" : "2"
+      }, 
+      "429bb5ae-bfec-40b6-ba30-37fb4ea0ee64" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-101135", 
+            "y" : "-98647"
+         }, 
+         "child" : [ 
+            "cc21e0c6-40ff-4074-b52c-d37c8636cb76", 
+            "dcfd2657-3385-4ab2-9dd0-187038013d97"
+         ], 
+         "max" : "100", 
+         "value" : "50"
+      }, 
+      "dcfd2657-3385-4ab2-9dd0-187038013d97" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-98562"
+         }, 
+         "child" : [ 
+            "91a3dcc4-afa2-463f-8b25-68c47caf5aa1", 
+            "7a2e84bc-ac32-424e-a790-959776b9323e"
+         ], 
+         "max" : "100", 
+         "value" : "5"
+      }, 
+      "61fd1c0c-1a58-478e-90fc-86fac5cce52d" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100895", 
+            "y" : "-98682"
+         }, 
+         "child" : [ 
+            "7a2e84bc-ac32-424e-a790-959776b9323e", 
+            "fa3a333e-5338-4dc2-bcc0-29bb5b37be45"
+         ], 
+         "max" : "100", 
+         "value" : "50"
+      }, 
+      "fa3a333e-5338-4dc2-bcc0-29bb5b37be45" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-98557"
+         }, 
+         "child" : [ 
+            "91a3dcc4-afa2-463f-8b25-68c47caf5aa1", 
+            "cc21e0c6-40ff-4074-b52c-d37c8636cb76"
+         ], 
+         "max" : "100", 
+         "value" : "5"
+      }, 
+      "6b73a85f-8de2-48a3-8e0b-01724020dea4" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101102", 
+            "y" : "-99089"
+         }, 
+         "child" : [ 
+            "aa3c5b22-97b9-4379-a02e-d6aa831ec33c", 
+            "a85c7a47-61b0-4e91-9153-cfca5be8f18d"
+         ], 
+         "note_key" : "GOLDFISH"
+      }, 
+      "a85c7a47-61b0-4e91-9153-cfca5be8f18d" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100903", 
+            "y" : "-99114"
+         }, 
+         "child" : [ 
+            "e1d0545e-f9a0-4f03-9334-b600d0836bf1", 
+            "9b9b6adb-0ac4-4c91-8691-8e221d7389da"
+         ], 
+         "value" : "11", 
+         "stat" : "Luck"
+      }, 
+      "e1d0545e-f9a0-4f03-9334-b600d0836bf1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99207", 
+            "y" : "-98477"
+         }, 
+         "child" : [ 
+            "14339daa-c092-420e-994b-b1d0c141cd9e"
+         ]
+      }, 
+      "14339daa-c092-420e-994b-b1d0c141cd9e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99169", 
+            "y" : "-98415", 
+            "comment" : "А6 (1%)"
+         }, 
+         "child" : [ 
+            "5826d0f0-8d32-4b36-85dd-14a5e95664fe", 
+            "bac3f3e5-f078-4426-be70-25c57b9d9c28", 
+            "2e7bde51-f2bf-4e83-9b79-3c1283e0036f"
+         ], 
+         "text" : "#Fishing.14339daa-c092-420e-994b-b1d0c141cd9e"
+      }, 
+      "5826d0f0-8d32-4b36-85dd-14a5e95664fe" : { 
+         "class" : "CharacterAddResultsNode", 
+         "desc" : { 
+            "x" : "-99268", 
+            "y" : "-98302"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "data" : "CatchFish"
+      }, 
+      "bac3f3e5-f078-4426-be70-25c57b9d9c28" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99098", 
+            "y" : "-98297"
+         }, 
+         "child" : [ 
+            "f7d51e05-818f-4d3e-8a70-79997466c477", 
+            "74203298-1b36-42e1-8855-86f867e1a88c"
+         ], 
+         "key" : "GOT_GOLD"
+      }, 
+      "f7d51e05-818f-4d3e-8a70-79997466c477" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99137", 
+            "y" : "-98237"
+         }, 
+         "child" : [ 
+            "5846ed50-fb8d-4a44-85da-bc9958974255"
+         ], 
+         "exp" : "100"
+      }, 
+      "5846ed50-fb8d-4a44-85da-bc9958974255" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99227", 
+            "y" : "-98177"
+         }, 
+         "child" : [ 
+            "767a38ad-4abf-4643-b755-50f21337e418"
+         ], 
+         "text" : "#Fishing.5846ed50-fb8d-4a44-85da-bc9958974255"
+      }, 
+      "767a38ad-4abf-4643-b755-50f21337e418" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99197", 
+            "y" : "-98110"
+         }, 
+         "child" : [ 
+            "8220ea71-370c-418d-a39c-6ca096d0f126", 
+            "149fba2d-1bd2-40ca-9c68-c353e08574f9", 
+            "8c6ad93e-75a1-4eac-a26b-1528b56073ac"
+         ], 
+         "text" : "#Fishing.767a38ad-4abf-4643-b755-50f21337e418"
+      }, 
+      "8220ea71-370c-418d-a39c-6ca096d0f126" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99359", 
+            "y" : "-97995"
+         }, 
+         "child" : [ 
+            "6f7b122f-478f-492f-bc88-bd7a291a5c98"
+         ], 
+         "text" : "#Fishing.8220ea71-370c-418d-a39c-6ca096d0f126"
+      }, 
+      "6f7b122f-478f-492f-bc88-bd7a291a5c98" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99379", 
+            "y" : "-97893"
+         }, 
+         "child" : [ 
+            "e68133bf-5d4d-40fa-b678-fc9876d0552c", 
+            "9168d659-e6b3-44c7-a8d1-0390d07a2117"
+         ], 
+         "text" : "#Fishing.6f7b122f-478f-492f-bc88-bd7a291a5c98"
+      }, 
+      "e68133bf-5d4d-40fa-b678-fc9876d0552c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99452", 
+            "y" : "-97793"
+         }, 
+         "child" : [ 
+            "5f1db672-54c2-4aea-95cf-534df1f7ac48"
+         ], 
+         "text" : "#Fishing.e68133bf-5d4d-40fa-b678-fc9876d0552c"
+      }, 
+      "5f1db672-54c2-4aea-95cf-534df1f7ac48" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99349", 
+            "y" : "-97549"
+         }, 
+         "child" : [ 
+            "3d73be1f-5da9-4dc6-909c-8354812ab72b", 
+            "4fab2623-f015-4a3e-9aca-2aba6c489012"
+         ], 
+         "text" : "#Fishing.5f1db672-54c2-4aea-95cf-534df1f7ac48"
+      }, 
+      "3d73be1f-5da9-4dc6-909c-8354812ab72b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99389", 
+            "y" : "-97414"
+         }, 
+         "child" : [ 
+            "a5cf456a-10f4-4c01-8c97-a659eebafd82"
+         ], 
+         "text" : "#Fishing.3d73be1f-5da9-4dc6-909c-8354812ab72b"
+      }, 
+      "a5cf456a-10f4-4c01-8c97-a659eebafd82" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99424", 
+            "y" : "-97298"
+         }, 
+         "child" : [ 
+            "d20a90d1-24c8-4e14-81d5-3cc4a43a7dbe", 
+            "2888a13b-2adf-4b70-98ce-508687977104", 
+            "c912daaa-b43d-4225-b2c0-01c33b23ecbf", 
+            "765e7e45-b72c-4e90-a52f-5fe9a59eccda", 
+            "9de00af8-eda9-43b3-90d2-17ae5810b705"
+         ], 
+         "text" : "#Fishing.a5cf456a-10f4-4c01-8c97-a659eebafd82"
+      }, 
+      "d20a90d1-24c8-4e14-81d5-3cc4a43a7dbe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99522", 
+            "y" : "-97218"
+         }, 
+         "child" : [ 
+            "44766f76-add6-48ec-b344-bbf996c5f52a"
+         ], 
+         "text" : "#Fishing.d20a90d1-24c8-4e14-81d5-3cc4a43a7dbe"
+      }, 
+      "44766f76-add6-48ec-b344-bbf996c5f52a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99609", 
+            "y" : "-97113"
+         }, 
+         "child" : [ 
+            "62c419dd-08ec-443d-8d4a-5ada09967ffe"
+         ], 
+         "text" : "#Fishing.44766f76-add6-48ec-b344-bbf996c5f52a"
+      }, 
+      "62c419dd-08ec-443d-8d4a-5ada09967ffe" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-99578", 
+            "y" : "-96939"
+         }, 
+         "child" : [ 
+            "8326265d-5c8f-4a2e-9871-692cb0397bb5"
+         ], 
+         "value" : "1", 
+         "stat" : "Strength"
+      }, 
+      "8326265d-5c8f-4a2e-9871-692cb0397bb5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99552", 
+            "y" : "-96780"
+         }, 
+         "child" : [ 
+            "d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+         ]
+      }, 
+      "d9f2dc7c-246b-4e1c-ac04-98c6ca266031" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99088", 
+            "y" : "-96427"
+         }, 
+         "child" : [ 
+            "a740403e-6f53-4e47-a93c-d473207f18a9"
+         ], 
+         "text" : "#Fishing.d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+      }, 
+      "a740403e-6f53-4e47-a93c-d473207f18a9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98833", 
+            "y" : "-97342"
+         }, 
+         "child" : [ 
+            "5ed7b168-b323-4886-81e1-254f6a8137cb"
+         ], 
+         "text" : "#Fishing.a740403e-6f53-4e47-a93c-d473207f18a9"
+      }, 
+      "5ed7b168-b323-4886-81e1-254f6a8137cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98808", 
+            "y" : "-97201"
+         }, 
+         "child" : [ 
+            "75dfb835-25bb-4854-86df-065a9e8744de"
+         ], 
+         "text" : "#Fishing.5ed7b168-b323-4886-81e1-254f6a8137cb"
+      }, 
+      "75dfb835-25bb-4854-86df-065a9e8744de" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98787", 
+            "y" : "-97134"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2888a13b-2adf-4b70-98ce-508687977104" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99400", 
+            "y" : "-97162"
+         }, 
+         "child" : [ 
+            "ec5a263d-7c4b-4dc4-9da0-d06cb416dbcf"
+         ], 
+         "text" : "#Fishing.2888a13b-2adf-4b70-98ce-508687977104"
+      }, 
+      "ec5a263d-7c4b-4dc4-9da0-d06cb416dbcf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99421", 
+            "y" : "-97009"
+         }, 
+         "child" : [ 
+            "e9764d6a-ebd6-45ee-ab26-dc69c4e803e0"
+         ], 
+         "text" : "#Fishing.ec5a263d-7c4b-4dc4-9da0-d06cb416dbcf"
+      }, 
+      "e9764d6a-ebd6-45ee-ab26-dc69c4e803e0" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-99384", 
+            "y" : "-96820"
+         }, 
+         "child" : [ 
+            "95a8cf82-6961-4cab-af96-0c61aa2acb0b"
+         ], 
+         "value" : "1", 
+         "stat" : "Perception"
+      }, 
+      "95a8cf82-6961-4cab-af96-0c61aa2acb0b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99368", 
+            "y" : "-96670"
+         }, 
+         "child" : [ 
+            "d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+         ]
+      }, 
+      "c912daaa-b43d-4225-b2c0-01c33b23ecbf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99282", 
+            "y" : "-97111"
+         }, 
+         "child" : [ 
+            "ae3f21d5-a790-44c1-9651-85fa170730a6"
+         ], 
+         "text" : "#Fishing.c912daaa-b43d-4225-b2c0-01c33b23ecbf"
+      }, 
+      "ae3f21d5-a790-44c1-9651-85fa170730a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99255", 
+            "y" : "-96902"
+         }, 
+         "child" : [ 
+            "5b548883-14ec-499d-8518-a04716bcd71c"
+         ], 
+         "text" : "#Fishing.ae3f21d5-a790-44c1-9651-85fa170730a6"
+      }, 
+      "5b548883-14ec-499d-8518-a04716bcd71c" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-99211", 
+            "y" : "-96693"
+         }, 
+         "child" : [ 
+            "16757e20-e136-4620-9596-3124e885f208"
+         ], 
+         "value" : "1", 
+         "stat" : "Endurance"
+      }, 
+      "16757e20-e136-4620-9596-3124e885f208" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99185", 
+            "y" : "-96590"
+         }, 
+         "child" : [ 
+            "d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+         ]
+      }, 
+      "765e7e45-b72c-4e90-a52f-5fe9a59eccda" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99161", 
+            "y" : "-97060"
+         }, 
+         "child" : [ 
+            "79455623-9e34-4cde-9707-1374be2b4162"
+         ], 
+         "text" : "#Fishing.765e7e45-b72c-4e90-a52f-5fe9a59eccda"
+      }, 
+      "79455623-9e34-4cde-9707-1374be2b4162" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99106", 
+            "y" : "-96798"
+         }, 
+         "child" : [ 
+            "840a4402-9666-49cb-aaa0-40dc1611f36c"
+         ], 
+         "text" : "#Fishing.79455623-9e34-4cde-9707-1374be2b4162"
+      }, 
+      "840a4402-9666-49cb-aaa0-40dc1611f36c" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-99057", 
+            "y" : "-96673"
+         }, 
+         "child" : [ 
+            "d94ae8de-0023-4310-aef8-8662a3196685"
+         ], 
+         "value" : "1", 
+         "stat" : "Charisma"
+      }, 
+      "d94ae8de-0023-4310-aef8-8662a3196685" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99054", 
+            "y" : "-96554"
+         }, 
+         "child" : [ 
+            "d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+         ]
+      }, 
+      "9de00af8-eda9-43b3-90d2-17ae5810b705" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99008", 
+            "y" : "-97001"
+         }, 
+         "child" : [ 
+            "5c242262-fec0-4f45-b6a8-0b8a07a2e376"
+         ], 
+         "text" : "#Fishing.9de00af8-eda9-43b3-90d2-17ae5810b705"
+      }, 
+      "5c242262-fec0-4f45-b6a8-0b8a07a2e376" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98760", 
+            "y" : "-96919"
+         }, 
+         "child" : [ 
+            "568341f8-0728-496c-84ed-8b4964608c4e", 
+            "99949ef1-52db-4bf7-bc46-3aacb1702c51", 
+            "2a0683b7-48c3-4540-9827-2c91868af952"
+         ], 
+         "text" : "#Fishing.5c242262-fec0-4f45-b6a8-0b8a07a2e376"
+      }, 
+      "568341f8-0728-496c-84ed-8b4964608c4e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98828", 
+            "y" : "-96831"
+         }, 
+         "child" : [ 
+            "dfcc5d04-456a-4e5b-9f42-ca4af2ff8767"
+         ], 
+         "text" : "#Fishing.568341f8-0728-496c-84ed-8b4964608c4e"
+      }, 
+      "dfcc5d04-456a-4e5b-9f42-ca4af2ff8767" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98848", 
+            "y" : "-96754"
+         }, 
+         "child" : [ 
+            "7acbd4d2-48f9-42e3-b4db-ad1fbd68d95a"
+         ], 
+         "text" : "#Fishing.dfcc5d04-456a-4e5b-9f42-ca4af2ff8767"
+      }, 
+      "7acbd4d2-48f9-42e3-b4db-ad1fbd68d95a" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-98733", 
+            "y" : "-96643"
+         }, 
+         "child" : [ 
+            "d4889ccf-2ade-482b-9f24-3bf2ce83bea9"
+         ], 
+         "value" : "1", 
+         "stat" : "Intelligence"
+      }, 
+      "d4889ccf-2ade-482b-9f24-3bf2ce83bea9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98847", 
+            "y" : "-96568"
+         }, 
+         "child" : [ 
+            "a740403e-6f53-4e47-a93c-d473207f18a9"
+         ], 
+         "text" : "#Fishing.d4889ccf-2ade-482b-9f24-3bf2ce83bea9"
+      }, 
+      "99949ef1-52db-4bf7-bc46-3aacb1702c51" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98551", 
+            "y" : "-96833"
+         }, 
+         "child" : [ 
+            "ea5cde03-7c36-479b-8f3a-44b328d2ccc4"
+         ], 
+         "text" : "#Fishing.99949ef1-52db-4bf7-bc46-3aacb1702c51"
+      }, 
+      "ea5cde03-7c36-479b-8f3a-44b328d2ccc4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98598", 
+            "y" : "-96738"
+         }, 
+         "child" : [ 
+            "14e142ee-ad25-4367-8c4e-4aef9cf38ad6"
+         ], 
+         "text" : "#Fishing.ea5cde03-7c36-479b-8f3a-44b328d2ccc4"
+      }, 
+      "14e142ee-ad25-4367-8c4e-4aef9cf38ad6" : { 
+         "class" : "PlayerAddStatNode", 
+         "desc" : { 
+            "x" : "-98558", 
+            "y" : "-96598"
+         }, 
+         "child" : [ 
+            "590acbb3-fadb-4175-a7ca-0de80f93e8c2"
+         ], 
+         "value" : "1", 
+         "stat" : "Agility"
+      }, 
+      "590acbb3-fadb-4175-a7ca-0de80f93e8c2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98557", 
+            "y" : "-96520"
+         }, 
+         "child" : [ 
+            "d9f2dc7c-246b-4e1c-ac04-98c6ca266031"
+         ]
+      }, 
+      "2a0683b7-48c3-4540-9827-2c91868af952" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98358", 
+            "y" : "-96887"
+         }, 
+         "child" : [ 
+            "a5cf456a-10f4-4c01-8c97-a659eebafd82"
+         ], 
+         "text" : "#Fishing.9de00af8-eda9-43b3-90d2-17ae5810b705"
+      }, 
+      "4fab2623-f015-4a3e-9aca-2aba6c489012" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99164", 
+            "y" : "-97416"
+         }, 
+         "child" : [ 
+            "a740403e-6f53-4e47-a93c-d473207f18a9"
+         ], 
+         "text" : "#Fishing.4fab2623-f015-4a3e-9aca-2aba6c489012"
+      }, 
+      "9168d659-e6b3-44c7-a8d1-0390d07a2117" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99226", 
+            "y" : "-97791"
+         }, 
+         "child" : [ 
+            "a740403e-6f53-4e47-a93c-d473207f18a9"
+         ], 
+         "text" : "#Fishing.9168d659-e6b3-44c7-a8d1-0390d07a2117"
+      }, 
+      "149fba2d-1bd2-40ca-9c68-c353e08574f9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99137", 
+            "y" : "-97992"
+         }, 
+         "child" : [ 
+            "5f1db672-54c2-4aea-95cf-534df1f7ac48"
+         ], 
+         "text" : "#Fishing.149fba2d-1bd2-40ca-9c68-c353e08574f9"
+      }, 
+      "8c6ad93e-75a1-4eac-a26b-1528b56073ac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98896", 
+            "y" : "-98009"
+         }, 
+         "child" : [ 
+            "a740403e-6f53-4e47-a93c-d473207f18a9"
+         ], 
+         "text" : "#Fishing.8c6ad93e-75a1-4eac-a26b-1528b56073ac"
+      }, 
+      "74203298-1b36-42e1-8855-86f867e1a88c" : { 
+         "class" : "SteamAchievementNode", 
+         "desc" : { 
+            "x" : "-98907", 
+            "y" : "-98221"
+         }, 
+         "child" : [ 
+         ], 
+         "achievement" : "WISHMASTER_1"
+      }, 
+      "2e7bde51-f2bf-4e83-9b79-3c1283e0036f" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98985", 
+            "y" : "-98305"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "GOLDFISH"
+      }, 
+      "9b9b6adb-0ac4-4c91-8691-8e221d7389da" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-100842", 
+            "y" : "-99006"
+         }, 
+         "child" : [ 
+            "9db631c3-7c5e-43e2-97ee-be92eafd5e39", 
+            "52bd8e31-13fd-4d9e-8059-569074ef8a7f"
+         ], 
+         "key" : "BAIT", 
+         "value" : "4"
+      }, 
+      "9db631c3-7c5e-43e2-97ee-be92eafd5e39" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100956", 
+            "y" : "-98897"
+         }, 
+         "child" : [ 
+            "14339daa-c092-420e-994b-b1d0c141cd9e", 
+            "2be57441-a7b5-4f25-acd0-ed5893a364aa"
+         ], 
+         "max" : "100", 
+         "value" : "-5"
+      }, 
+      "52bd8e31-13fd-4d9e-8059-569074ef8a7f" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100743", 
+            "y" : "-98896"
+         }, 
+         "child" : [ 
+            "14339daa-c092-420e-994b-b1d0c141cd9e", 
+            "aa3c5b22-97b9-4379-a02e-d6aa831ec33c"
+         ], 
+         "max" : "100", 
+         "value" : "-8"
+      }, 
+      "072d864a-6c72-4296-8a51-635302e3d1d2" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-99982", 
+            "y" : "-99118"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "d01586bf-e379-4b8a-8f78-89143cd8e35f"
+         ], 
+         "max" : "100", 
+         "value" : "5"
+      }, 
+      "2a4e912e-6619-4ce2-9056-4ef90e436311" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99942", 
+            "y" : "-98970"
+         }, 
+         "child" : [ 
+            "ce37adfd-dfc8-4943-9df4-96a0ce66fec6"
+         ]
+      }, 
+      "ce37adfd-dfc8-4943-9df4-96a0ce66fec6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100097", 
+            "y" : "-98874", 
+            "comment" : "Клуюет"
+         }, 
+         "child" : [ 
+            "62f55393-c10e-49ea-91e3-6b5eb9d57db6"
+         ], 
+         "text" : "#Fishing.ce37adfd-dfc8-4943-9df4-96a0ce66fec6"
+      }, 
+      "62f55393-c10e-49ea-91e3-6b5eb9d57db6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100444", 
+            "y" : "-98720"
+         }, 
+         "child" : [ 
+            "5f77fe04-9ddb-4c44-a674-29efb85d9bf2"
+         ], 
+         "text" : "#Fishing.62f55393-c10e-49ea-91e3-6b5eb9d57db6"
+      }, 
+      "5f77fe04-9ddb-4c44-a674-29efb85d9bf2" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-100464", 
+            "y" : "-98638"
+         }, 
+         "child" : [ 
+            "dd90ed31-8972-4313-b4a2-2d860bfa5f38", 
+            "eddd820c-4bcc-48e9-9ad6-624db6c9faf5"
+         ], 
+         "max" : "100", 
+         "value" : "15"
+      }, 
+      "eddd820c-4bcc-48e9-9ad6-624db6c9faf5" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99824", 
+            "y" : "-98545"
+         }, 
+         "child" : [ 
+            "aa3c5b22-97b9-4379-a02e-d6aa831ec33c", 
+            "68df59c5-4f7e-4e78-8b20-3d4f794a42e8", 
+            "52fdf820-0114-453c-805e-9647cbf96e63", 
+            "79be9d6b-c34d-47a4-8c89-26d5d3432f8f", 
+            "5159170d-865e-44f4-842c-7895144c317b"
+         ]
+      }, 
+      "68df59c5-4f7e-4e78-8b20-3d4f794a42e8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100352", 
+            "y" : "-98422", 
+            "comment" : "А6 (20%)"
+         }, 
+         "child" : [ 
+            "60ab6a07-a4d0-4ca2-b596-b05d27a65c69"
+         ], 
+         "text" : "#Fishing.68df59c5-4f7e-4e78-8b20-3d4f794a42e8"
+      }, 
+      "60ab6a07-a4d0-4ca2-b596-b05d27a65c69" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100116", 
+            "y" : "-98069"
+         }, 
+         "child" : [ 
+            "20835f39-114a-414d-baf4-9a0e96092278"
+         ], 
+         "text" : "#Fishing.60ab6a07-a4d0-4ca2-b596-b05d27a65c69"
+      }, 
+      "52fdf820-0114-453c-805e-9647cbf96e63" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100064", 
+            "y" : "-98421", 
+            "comment" : "А6 (20%) "
+         }, 
+         "child" : [ 
+            "60ab6a07-a4d0-4ca2-b596-b05d27a65c69"
+         ], 
+         "text" : "#Fishing.52fdf820-0114-453c-805e-9647cbf96e63"
+      }, 
+      "79be9d6b-c34d-47a4-8c89-26d5d3432f8f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99780", 
+            "y" : "-98417", 
+            "comment" : "А6 (20%) "
+         }, 
+         "child" : [ 
+            "e5b40767-5fb9-417a-b0a6-d9904f1caf43"
+         ], 
+         "text" : "#Fishing.79be9d6b-c34d-47a4-8c89-26d5d3432f8f"
+      }, 
+      "e5b40767-5fb9-417a-b0a6-d9904f1caf43" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99745", 
+            "y" : "-98047"
+         }, 
+         "child" : [ 
+            "4b744675-742f-4ccd-8031-5016f9bd37ec"
+         ], 
+         "text" : "#Fishing.e5b40767-5fb9-417a-b0a6-d9904f1caf43"
+      }, 
+      "4b744675-742f-4ccd-8031-5016f9bd37ec" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99660", 
+            "y" : "-97954"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5159170d-865e-44f4-842c-7895144c317b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99482", 
+            "y" : "-98414", 
+            "comment" : "А6 (10%)"
+         }, 
+         "child" : [ 
+            "e5989475-e7c5-4a2b-958a-c8b5714d62d9"
+         ], 
+         "text" : "#Fishing.5159170d-865e-44f4-842c-7895144c317b"
+      }, 
+      "e5989475-e7c5-4a2b-958a-c8b5714d62d9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99439", 
+            "y" : "-98194"
+         }, 
+         "child" : [ 
+            "e5b40767-5fb9-417a-b0a6-d9904f1caf43"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OldShoe"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d01586bf-e379-4b8a-8f78-89143cd8e35f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97383", 
+            "y" : "-99434", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "5935ad14-0c95-4b43-892c-e21d0a6282da", 
+            "a538b6bf-b431-405e-9bb4-1d47452a7dc2", 
+            "6b6de55a-31d3-4d4c-b08b-db8122000444"
+         ], 
+         "text" : "#Fishing.d01586bf-e379-4b8a-8f78-89143cd8e35f"
+      }, 
+      "5935ad14-0c95-4b43-892c-e21d0a6282da" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97586", 
+            "y" : "-99312"
+         }, 
+         "child" : [ 
+            "39d6d514-24e0-4085-952d-ee280b794f94"
+         ], 
+         "text" : "#Fishing.5935ad14-0c95-4b43-892c-e21d0a6282da"
+      }, 
+      "39d6d514-24e0-4085-952d-ee280b794f94" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97559", 
+            "y" : "-99226"
+         }, 
+         "child" : [ 
+            "8f8d08b4-f62c-4dd9-9d4f-98476b49a0c0"
+         ], 
+         "time" : "5", 
+         "timeMode" : "Minute"
+      }, 
+      "8f8d08b4-f62c-4dd9-9d4f-98476b49a0c0" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97570", 
+            "y" : "-99149"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "91211558-0fe2-412d-a078-a225f8b6b7dc"
+         ], 
+         "max" : "100", 
+         "value" : "5"
+      }, 
+      "91211558-0fe2-412d-a078-a225f8b6b7dc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97306", 
+            "y" : "-98745", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "866b59fd-7c18-4c25-95db-7a99fc5e8f05", 
+            "7a78e0a1-c559-4ec6-ab2b-c81c6a0b76a3", 
+            "0e5af9e5-34e7-4f44-908e-278e0e2af616"
+         ], 
+         "text" : "#Fishing.91211558-0fe2-412d-a078-a225f8b6b7dc"
+      }, 
+      "866b59fd-7c18-4c25-95db-7a99fc5e8f05" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97696", 
+            "y" : "-98457"
+         }, 
+         "child" : [ 
+            "9d0a64cb-e0b6-426b-9968-48fe283414e3"
+         ], 
+         "text" : "#Fishing.866b59fd-7c18-4c25-95db-7a99fc5e8f05"
+      }, 
+      "9d0a64cb-e0b6-426b-9968-48fe283414e3" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97709", 
+            "y" : "-98373"
+         }, 
+         "child" : [ 
+            "2c3ff2ce-6b3a-4b76-b57c-2f62fa10e357"
+         ], 
+         "time" : "10", 
+         "timeMode" : "Minute"
+      }, 
+      "2c3ff2ce-6b3a-4b76-b57c-2f62fa10e357" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97630", 
+            "y" : "-98297"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "3b5577df-eccf-47c2-bc84-0b282bdade02"
+         ], 
+         "max" : "100", 
+         "value" : "10"
+      }, 
+      "3b5577df-eccf-47c2-bc84-0b282bdade02" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97340", 
+            "y" : "-98132", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "c6093e2f-91bd-44b5-9359-55fb83a5e330", 
+            "a5d448ed-2310-47ab-b098-238a6b16fc57", 
+            "b74ecd06-1bf4-4962-8381-9691cca8a767"
+         ], 
+         "text" : "#Fishing.3b5577df-eccf-47c2-bc84-0b282bdade02"
+      }, 
+      "c6093e2f-91bd-44b5-9359-55fb83a5e330" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97798", 
+            "y" : "-97903"
+         }, 
+         "child" : [ 
+            "6ce574d1-f9e7-4d1a-bd65-9bf4a6dd34ad"
+         ], 
+         "text" : "#Fishing.c6093e2f-91bd-44b5-9359-55fb83a5e330"
+      }, 
+      "6ce574d1-f9e7-4d1a-bd65-9bf4a6dd34ad" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97750", 
+            "y" : "-97830"
+         }, 
+         "child" : [ 
+            "6715539a-5e1a-4197-88bf-c33280c60bc8"
+         ], 
+         "time" : "15", 
+         "timeMode" : "Minute"
+      }, 
+      "6715539a-5e1a-4197-88bf-c33280c60bc8" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97764", 
+            "y" : "-97722"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "3345ee48-d84e-4fb4-afa4-e144698ce0f1"
+         ], 
+         "max" : "100", 
+         "value" : "15"
+      }, 
+      "3345ee48-d84e-4fb4-afa4-e144698ce0f1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97553", 
+            "y" : "-97628", 
+            "comment" : "A8"
+         }, 
+         "child" : [ 
+            "d17c5e2f-34a3-40c5-80a3-e28cc9ab085d", 
+            "77892a48-e01c-4845-af04-45572bd8bdd0", 
+            "375b2831-a17c-4c1f-93d7-dffb6c6cef8f"
+         ], 
+         "text" : "#Fishing.3345ee48-d84e-4fb4-afa4-e144698ce0f1"
+      }, 
+      "d17c5e2f-34a3-40c5-80a3-e28cc9ab085d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97915", 
+            "y" : "-97493"
+         }, 
+         "child" : [ 
+            "9ba74298-fcff-4848-be30-6430f17f975d"
+         ], 
+         "text" : "#Fishing.d17c5e2f-34a3-40c5-80a3-e28cc9ab085d"
+      }, 
+      "9ba74298-fcff-4848-be30-6430f17f975d" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97887", 
+            "y" : "-97347"
+         }, 
+         "child" : [ 
+            "6322c12f-a9a1-4d96-b919-32650a6583bc"
+         ], 
+         "time" : "20", 
+         "timeMode" : "Minute"
+      }, 
+      "6322c12f-a9a1-4d96-b919-32650a6583bc" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97798", 
+            "y" : "-97263"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "aa59af45-6e19-4f26-9ea9-0be0e87dfaf2"
+         ], 
+         "max" : "100", 
+         "value" : "20"
+      }, 
+      "aa59af45-6e19-4f26-9ea9-0be0e87dfaf2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97477", 
+            "y" : "-97132", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "63eed894-0817-4a38-ad18-43ce30b4b1af", 
+            "986cd6e7-612a-49f5-ade6-c036486d2b9c", 
+            "8be08364-322b-462e-b349-81f2baca8939"
+         ], 
+         "text" : "#Fishing.aa59af45-6e19-4f26-9ea9-0be0e87dfaf2"
+      }, 
+      "63eed894-0817-4a38-ad18-43ce30b4b1af" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97709", 
+            "y" : "-96892"
+         }, 
+         "child" : [ 
+            "52eef8b9-07fe-4323-986a-8906d2f5c3c4"
+         ], 
+         "text" : "#Fishing.63eed894-0817-4a38-ad18-43ce30b4b1af"
+      }, 
+      "52eef8b9-07fe-4323-986a-8906d2f5c3c4" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97668", 
+            "y" : "-96825"
+         }, 
+         "child" : [ 
+            "3f15dd56-8370-49e7-877b-e177ddaf6ee3"
+         ], 
+         "time" : "25", 
+         "timeMode" : "Minute"
+      }, 
+      "3f15dd56-8370-49e7-877b-e177ddaf6ee3" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97700", 
+            "y" : "-96766"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "8ede7d76-f06d-4092-9e2b-696b6d91c661"
+         ], 
+         "max" : "100", 
+         "value" : "25"
+      }, 
+      "8ede7d76-f06d-4092-9e2b-696b6d91c661" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97378", 
+            "y" : "-96677", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "72b15b29-56ce-415a-9da4-8cdf9e4e97ac", 
+            "f0ab2fd4-8824-4aa5-bae2-68b90835815b", 
+            "262ecb9d-5e29-4533-a658-e0ee41a23b57", 
+            "7cb28dec-fb54-4618-b02b-bdffac24d992"
+         ], 
+         "text" : "#Fishing.8ede7d76-f06d-4092-9e2b-696b6d91c661"
+      }, 
+      "72b15b29-56ce-415a-9da4-8cdf9e4e97ac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98017", 
+            "y" : "-96462"
+         }, 
+         "child" : [ 
+            "18af5cec-210e-4ffc-9808-7b4639219fa1"
+         ], 
+         "text" : "#Fishing.72b15b29-56ce-415a-9da4-8cdf9e4e97ac"
+      }, 
+      "18af5cec-210e-4ffc-9808-7b4639219fa1" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97910", 
+            "y" : "-96366"
+         }, 
+         "child" : [ 
+            "4ebd90ad-ac49-4d1e-8980-a7d157fc2ed1"
+         ], 
+         "time" : "30", 
+         "timeMode" : "Minute"
+      }, 
+      "4ebd90ad-ac49-4d1e-8980-a7d157fc2ed1" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97925", 
+            "y" : "-96275"
+         }, 
+         "child" : [ 
+            "24e0f033-b420-4ed4-88e9-80731face8e2", 
+            "2e66e654-7310-4025-9e30-6ebe3fa8c749"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "24e0f033-b420-4ed4-88e9-80731face8e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98136", 
+            "y" : "-95319"
+         }, 
+         "child" : [ 
+            "ce37adfd-dfc8-4943-9df4-96a0ce66fec6"
+         ]
+      }, 
+      "2e66e654-7310-4025-9e30-6ebe3fa8c749" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97519", 
+            "y" : "-96139", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "e99a145a-baaf-4763-b1ff-c9fdcb1c7fa4", 
+            "62b0b486-9e1e-4915-80bf-7f36f92846c0", 
+            "9d71662a-5b18-46f2-9087-0b5d1081cb6e", 
+            "64c64a7b-b158-43a9-a744-063784ba2fb7"
+         ], 
+         "text" : "#Fishing.2e66e654-7310-4025-9e30-6ebe3fa8c749"
+      }, 
+      "e99a145a-baaf-4763-b1ff-c9fdcb1c7fa4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97850", 
+            "y" : "-95979"
+         }, 
+         "child" : [ 
+            "836c5472-01ec-4f5a-bf68-5c17550076b0"
+         ], 
+         "text" : "#Fishing.e99a145a-baaf-4763-b1ff-c9fdcb1c7fa4"
+      }, 
+      "836c5472-01ec-4f5a-bf68-5c17550076b0" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97800", 
+            "y" : "-95899"
+         }, 
+         "child" : [ 
+            "f87ce476-840b-4bef-9cd7-5fc62cac0e4f"
+         ], 
+         "time" : "35", 
+         "timeMode" : "Minute"
+      }, 
+      "f87ce476-840b-4bef-9cd7-5fc62cac0e4f" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97843", 
+            "y" : "-95814"
+         }, 
+         "child" : [ 
+            "24e0f033-b420-4ed4-88e9-80731face8e2", 
+            "9ca2c086-b70d-4cc7-9ee9-ed2135ae1fc2"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "9ca2c086-b70d-4cc7-9ee9-ed2135ae1fc2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97700", 
+            "y" : "-95711", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "d68bedcf-4aea-418d-a3ae-6cbe40744be0", 
+            "cd4d8ae9-a39e-4549-b8b0-361ed5bb97f6", 
+            "15ed023f-4824-40fe-b9aa-fc32afcc1104", 
+            "a6985e88-8b4b-4e1c-84e7-f0b59fde7cff"
+         ], 
+         "text" : "#Fishing.9ca2c086-b70d-4cc7-9ee9-ed2135ae1fc2"
+      }, 
+      "d68bedcf-4aea-418d-a3ae-6cbe40744be0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97860", 
+            "y" : "-95562"
+         }, 
+         "child" : [ 
+            "cf61253b-755d-408e-9c01-c7069ab3a5e2"
+         ], 
+         "text" : "#Fishing.d68bedcf-4aea-418d-a3ae-6cbe40744be0"
+      }, 
+      "cf61253b-755d-408e-9c01-c7069ab3a5e2" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97778", 
+            "y" : "-95495"
+         }, 
+         "child" : [ 
+            "e1b674ea-81ea-440b-9d7a-e40b0ebcd98f"
+         ], 
+         "time" : "40", 
+         "timeMode" : "Minute"
+      }, 
+      "e1b674ea-81ea-440b-9d7a-e40b0ebcd98f" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97797", 
+            "y" : "-95427"
+         }, 
+         "child" : [ 
+            "24e0f033-b420-4ed4-88e9-80731face8e2", 
+            "5e307bcc-1615-43a5-a277-11bfbe141b2a"
+         ], 
+         "max" : "100", 
+         "value" : "40"
+      }, 
+      "5e307bcc-1615-43a5-a277-11bfbe141b2a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97775", 
+            "y" : "-95319", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "46f16664-7270-4752-a119-b9f1b54f3d0e", 
+            "6d1f27d2-941d-4c4c-843a-59c8928be189", 
+            "9eba2e62-0647-461b-b1b3-6d88754ef5f8", 
+            "b10fb217-5fc9-4a5b-8414-1adff382e622"
+         ], 
+         "text" : "#Fishing.5e307bcc-1615-43a5-a277-11bfbe141b2a"
+      }, 
+      "46f16664-7270-4752-a119-b9f1b54f3d0e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97810", 
+            "y" : "-95194"
+         }, 
+         "child" : [ 
+            "7fb8d888-60ce-482e-a0e0-f8ff2528db52"
+         ], 
+         "text" : "#Fishing.46f16664-7270-4752-a119-b9f1b54f3d0e"
+      }, 
+      "7fb8d888-60ce-482e-a0e0-f8ff2528db52" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97765", 
+            "y" : "-95124"
+         }, 
+         "child" : [ 
+            "7708adb0-6667-4d29-b692-9e2cf48fd4d1"
+         ], 
+         "time" : "45", 
+         "timeMode" : "Minute"
+      }, 
+      "7708adb0-6667-4d29-b692-9e2cf48fd4d1" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97774", 
+            "y" : "-95061"
+         }, 
+         "child" : [ 
+            "24e0f033-b420-4ed4-88e9-80731face8e2", 
+            "a242fb1b-5b00-46d4-9109-5b5cb45be331"
+         ], 
+         "max" : "100", 
+         "value" : "45"
+      }, 
+      "a242fb1b-5b00-46d4-9109-5b5cb45be331" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97121", 
+            "y" : "-99460"
+         }, 
+         "child" : [ 
+            "5935ad14-0c95-4b43-892c-e21d0a6282da", 
+            "a538b6bf-b431-405e-9bb4-1d47452a7dc2", 
+            "6b6de55a-31d3-4d4c-b08b-db8122000444"
+         ], 
+         "text" : "#Fishing.a242fb1b-5b00-46d4-9109-5b5cb45be331"
+      }, 
+      "a538b6bf-b431-405e-9bb4-1d47452a7dc2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97369", 
+            "y" : "-99283"
+         }, 
+         "child" : [ 
+            "66ffc832-d1b7-49d7-b1dd-0d34796eb2b2"
+         ], 
+         "text" : "#Fishing.a538b6bf-b431-405e-9bb4-1d47452a7dc2"
+      }, 
+      "66ffc832-d1b7-49d7-b1dd-0d34796eb2b2" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97254", 
+            "y" : "-99214"
+         }, 
+         "child" : [ 
+            "0bd79146-3418-4f5b-81ed-24f49007556a"
+         ], 
+         "time" : "5", 
+         "timeMode" : "Minute"
+      }, 
+      "0bd79146-3418-4f5b-81ed-24f49007556a" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97120", 
+            "y" : "-99116"
+         }, 
+         "child" : [ 
+            "3b5577df-eccf-47c2-bc84-0b282bdade02", 
+            "d01586bf-e379-4b8a-8f78-89143cd8e35f"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "6b6de55a-31d3-4d4c-b08b-db8122000444" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97123", 
+            "y" : "-99276"
+         }, 
+         "child" : [ 
+            "a75a19a4-c13c-4fa1-87c9-c9ada960af70"
+         ], 
+         "text" : "#Fishing.6b6de55a-31d3-4d4c-b08b-db8122000444"
+      }, 
+      "a75a19a4-c13c-4fa1-87c9-c9ada960af70" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97003", 
+            "y" : "-99205"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6d1f27d2-941d-4c4c-843a-59c8928be189" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97560", 
+            "y" : "-95207"
+         }, 
+         "child" : [ 
+            "47f8b2db-023f-4c52-8e80-e0771bf47a61"
+         ], 
+         "text" : "#Fishing.6d1f27d2-941d-4c4c-843a-59c8928be189"
+      }, 
+      "47f8b2db-023f-4c52-8e80-e0771bf47a61" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97526", 
+            "y" : "-95128"
+         }, 
+         "child" : [ 
+            "8c38fd20-d780-41ee-a44c-7099e08080a2"
+         ], 
+         "time" : "45", 
+         "timeMode" : "Minute"
+      }, 
+      "8c38fd20-d780-41ee-a44c-7099e08080a2" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97558", 
+            "y" : "-95051"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "d01586bf-e379-4b8a-8f78-89143cd8e35f"
+         ], 
+         "max" : "100", 
+         "value" : "45"
+      }, 
+      "9eba2e62-0647-461b-b1b3-6d88754ef5f8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97112", 
+            "y" : "-95198"
+         }, 
+         "child" : [ 
+            "bb7cd75a-8209-44de-b249-6e27b152eed7"
+         ], 
+         "text" : "#Fishing.9eba2e62-0647-461b-b1b3-6d88754ef5f8"
+      }, 
+      "bb7cd75a-8209-44de-b249-6e27b152eed7" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97054", 
+            "y" : "-95123"
+         }, 
+         "child" : [ 
+            "12e072d8-9aaa-4ab0-82c8-4ba27bc09057"
+         ], 
+         "time" : "45", 
+         "timeMode" : "Minute"
+      }, 
+      "12e072d8-9aaa-4ab0-82c8-4ba27bc09057" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97190", 
+            "y" : "-95050"
+         }, 
+         "child" : [ 
+            "488fb360-ab62-46dd-a3b3-faa9d6adba98", 
+            "d01586bf-e379-4b8a-8f78-89143cd8e35f"
+         ], 
+         "max" : "100", 
+         "value" : "30"
+      }, 
+      "488fb360-ab62-46dd-a3b3-faa9d6adba98" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97212", 
+            "y" : "-95339", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "6d1f27d2-941d-4c4c-843a-59c8928be189", 
+            "9eba2e62-0647-461b-b1b3-6d88754ef5f8", 
+            "b10fb217-5fc9-4a5b-8414-1adff382e622"
+         ], 
+         "text" : "#Fishing.488fb360-ab62-46dd-a3b3-faa9d6adba98"
+      }, 
+      "b10fb217-5fc9-4a5b-8414-1adff382e622" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96791", 
+            "y" : "-95205"
+         }, 
+         "child" : [ 
+            "bde02498-a8ed-4d3b-b533-4ace5a86d8ce"
+         ], 
+         "text" : "#Fishing.b10fb217-5fc9-4a5b-8414-1adff382e622"
+      }, 
+      "bde02498-a8ed-4d3b-b533-4ace5a86d8ce" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96714", 
+            "y" : "-95148"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cd4d8ae9-a39e-4549-b8b0-361ed5bb97f6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97472", 
+            "y" : "-95613"
+         }, 
+         "child" : [ 
+            "88b84545-4536-46eb-9423-4a12a1fc6e38"
+         ], 
+         "text" : "#Fishing.cd4d8ae9-a39e-4549-b8b0-361ed5bb97f6"
+      }, 
+      "88b84545-4536-46eb-9423-4a12a1fc6e38" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97494", 
+            "y" : "-95512"
+         }, 
+         "child" : [ 
+            "9800b04e-3430-4c0e-8b8d-d96343036868"
+         ], 
+         "time" : "40", 
+         "timeMode" : "Minute"
+      }, 
+      "9800b04e-3430-4c0e-8b8d-d96343036868" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97559", 
+            "y" : "-95424"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "488fb360-ab62-46dd-a3b3-faa9d6adba98"
+         ], 
+         "max" : "100", 
+         "value" : "40"
+      }, 
+      "15ed023f-4824-40fe-b9aa-fc32afcc1104" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96984", 
+            "y" : "-95557"
+         }, 
+         "child" : [ 
+            "606b34ad-6e4f-4d7c-8695-7917ec92fdba"
+         ], 
+         "text" : "#Fishing.15ed023f-4824-40fe-b9aa-fc32afcc1104"
+      }, 
+      "606b34ad-6e4f-4d7c-8695-7917ec92fdba" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-96899", 
+            "y" : "-95475"
+         }, 
+         "child" : [ 
+            "9800b04e-3430-4c0e-8b8d-d96343036868"
+         ], 
+         "time" : "40", 
+         "timeMode" : "Minute"
+      }, 
+      "a6985e88-8b4b-4e1c-84e7-f0b59fde7cff" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96663", 
+            "y" : "-95564"
+         }, 
+         "child" : [ 
+            "3c318866-695f-415a-8be1-30c58425c3ff"
+         ], 
+         "text" : "#Fishing.a6985e88-8b4b-4e1c-84e7-f0b59fde7cff"
+      }, 
+      "3c318866-695f-415a-8be1-30c58425c3ff" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96586", 
+            "y" : "-95507"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "62b0b486-9e1e-4915-80bf-7f36f92846c0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97478", 
+            "y" : "-95985"
+         }, 
+         "child" : [ 
+            "13d7530a-e31b-43c9-933b-2fb5265d3794"
+         ], 
+         "text" : "#Fishing.62b0b486-9e1e-4915-80bf-7f36f92846c0"
+      }, 
+      "13d7530a-e31b-43c9-933b-2fb5265d3794" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97494", 
+            "y" : "-95913"
+         }, 
+         "child" : [ 
+            "d1442564-53eb-45cd-997a-2133f6ea9905"
+         ], 
+         "time" : "35", 
+         "timeMode" : "Minute"
+      }, 
+      "d1442564-53eb-45cd-997a-2133f6ea9905" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97601", 
+            "y" : "-95821"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "8b1caba0-e40c-4205-910b-f4db31ea4aec"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "8b1caba0-e40c-4205-910b-f4db31ea4aec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97166", 
+            "y" : "-95690", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "cd4d8ae9-a39e-4549-b8b0-361ed5bb97f6", 
+            "15ed023f-4824-40fe-b9aa-fc32afcc1104", 
+            "a6985e88-8b4b-4e1c-84e7-f0b59fde7cff"
+         ], 
+         "text" : "#Fishing.8b1caba0-e40c-4205-910b-f4db31ea4aec"
+      }, 
+      "9d71662a-5b18-46f2-9087-0b5d1081cb6e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97117", 
+            "y" : "-96030"
+         }, 
+         "child" : [ 
+            "2cf10982-83f6-4d53-ae1f-ad9e824d77aa"
+         ], 
+         "text" : "#Fishing.9d71662a-5b18-46f2-9087-0b5d1081cb6e"
+      }, 
+      "2cf10982-83f6-4d53-ae1f-ad9e824d77aa" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-96987", 
+            "y" : "-95943"
+         }, 
+         "child" : [ 
+            "c32ed14b-f6b7-4cbc-b9c5-53de07ea3909"
+         ], 
+         "time" : "30", 
+         "timeMode" : "Minute"
+      }, 
+      "c32ed14b-f6b7-4cbc-b9c5-53de07ea3909" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97080", 
+            "y" : "-95852"
+         }, 
+         "child" : [ 
+            "9800b04e-3430-4c0e-8b8d-d96343036868", 
+            "8ede7d76-f06d-4092-9e2b-696b6d91c661"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "64c64a7b-b158-43a9-a744-063784ba2fb7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96763", 
+            "y" : "-96050"
+         }, 
+         "child" : [ 
+            "1846bdcd-0def-43d3-84e0-44bd3f6465ff"
+         ], 
+         "text" : "#Fishing.64c64a7b-b158-43a9-a744-063784ba2fb7"
+      }, 
+      "1846bdcd-0def-43d3-84e0-44bd3f6465ff" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96686", 
+            "y" : "-95993"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f0ab2fd4-8824-4aa5-bae2-68b90835815b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97773", 
+            "y" : "-96471"
+         }, 
+         "child" : [ 
+            "3310905a-a73d-451a-b275-cfa9f421fcf0"
+         ], 
+         "text" : "#Fishing.f0ab2fd4-8824-4aa5-bae2-68b90835815b"
+      }, 
+      "3310905a-a73d-451a-b275-cfa9f421fcf0" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97742", 
+            "y" : "-96381"
+         }, 
+         "child" : [ 
+            "daca2cc1-57eb-4337-b52c-4f7ebeeebce2"
+         ], 
+         "time" : "30", 
+         "timeMode" : "Minute"
+      }, 
+      "daca2cc1-57eb-4337-b52c-4f7ebeeebce2" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97638", 
+            "y" : "-96280"
+         }, 
+         "child" : [ 
+            "2a4e912e-6619-4ce2-9056-4ef90e436311", 
+            "bc6d644b-f4d5-4b69-9016-28c5ba525ecd"
+         ], 
+         "max" : "100", 
+         "value" : "30"
+      }, 
+      "bc6d644b-f4d5-4b69-9016-28c5ba525ecd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97235", 
+            "y" : "-96145", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "62b0b486-9e1e-4915-80bf-7f36f92846c0", 
+            "9d71662a-5b18-46f2-9087-0b5d1081cb6e", 
+            "64c64a7b-b158-43a9-a744-063784ba2fb7"
+         ], 
+         "text" : "#Fishing.bc6d644b-f4d5-4b69-9016-28c5ba525ecd"
+      }, 
+      "262ecb9d-5e29-4533-a658-e0ee41a23b57" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97369", 
+            "y" : "-96528"
+         }, 
+         "child" : [ 
+            "95982857-1dbd-425c-98a2-a494210a90f3"
+         ], 
+         "text" : "#Fishing.262ecb9d-5e29-4533-a658-e0ee41a23b57"
+      }, 
+      "95982857-1dbd-425c-98a2-a494210a90f3" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97272", 
+            "y" : "-96428"
+         }, 
+         "child" : [ 
+            "7474fe56-90e7-498d-8f09-2dd7cf8b54f4"
+         ], 
+         "time" : "30", 
+         "timeMode" : "Minute"
+      }, 
+      "7474fe56-90e7-498d-8f09-2dd7cf8b54f4" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97353", 
+            "y" : "-96323"
+         }, 
+         "child" : [ 
+            "d1442564-53eb-45cd-997a-2133f6ea9905", 
+            "aa59af45-6e19-4f26-9ea9-0be0e87dfaf2"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "7cb28dec-fb54-4618-b02b-bdffac24d992" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96688", 
+            "y" : "-96534"
+         }, 
+         "child" : [ 
+            "3a292040-1d0b-4ab2-8d58-b9570b2e356d"
+         ], 
+         "text" : "#Fishing.7cb28dec-fb54-4618-b02b-bdffac24d992"
+      }, 
+      "3a292040-1d0b-4ab2-8d58-b9570b2e356d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96611", 
+            "y" : "-96477"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "986cd6e7-612a-49f5-ade6-c036486d2b9c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97445", 
+            "y" : "-96872"
+         }, 
+         "child" : [ 
+            "6f879ab7-09b2-417a-8c9b-61c0bbe38371"
+         ], 
+         "text" : "#Fishing.986cd6e7-612a-49f5-ade6-c036486d2b9c"
+      }, 
+      "6f879ab7-09b2-417a-8c9b-61c0bbe38371" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97118", 
+            "y" : "-96801"
+         }, 
+         "child" : [ 
+            "54031cf8-fd23-4a43-a587-dde2fdaaf3de"
+         ], 
+         "time" : "25", 
+         "timeMode" : "Minute"
+      }, 
+      "54031cf8-fd23-4a43-a587-dde2fdaaf3de" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97095", 
+            "y" : "-96680"
+         }, 
+         "child" : [ 
+            "daca2cc1-57eb-4337-b52c-4f7ebeeebce2", 
+            "3345ee48-d84e-4fb4-afa4-e144698ce0f1"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "8be08364-322b-462e-b349-81f2baca8939" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96764", 
+            "y" : "-96878"
+         }, 
+         "child" : [ 
+            "e0f9947c-7529-4efb-930a-d1eb51dd8971"
+         ], 
+         "text" : "#Fishing.8be08364-322b-462e-b349-81f2baca8939"
+      }, 
+      "e0f9947c-7529-4efb-930a-d1eb51dd8971" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96687", 
+            "y" : "-96821"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "77892a48-e01c-4845-af04-45572bd8bdd0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97196", 
+            "y" : "-97525"
+         }, 
+         "child" : [ 
+            "3f322f31-495d-440e-bf7e-7680cfd4d4eb"
+         ], 
+         "text" : "#Fishing.77892a48-e01c-4845-af04-45572bd8bdd0"
+      }, 
+      "3f322f31-495d-440e-bf7e-7680cfd4d4eb" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97151", 
+            "y" : "-97338"
+         }, 
+         "child" : [ 
+            "0618cb4b-af93-4d28-b0e2-e0a95a9a1b2c"
+         ], 
+         "time" : "20", 
+         "timeMode" : "Minute"
+      }, 
+      "0618cb4b-af93-4d28-b0e2-e0a95a9a1b2c" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97194", 
+            "y" : "-97130"
+         }, 
+         "child" : [ 
+            "3f15dd56-8370-49e7-877b-e177ddaf6ee3", 
+            "3b5577df-eccf-47c2-bc84-0b282bdade02"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "375b2831-a17c-4c1f-93d7-dffb6c6cef8f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96916", 
+            "y" : "-97525"
+         }, 
+         "child" : [ 
+            "efe78cd7-f729-4d26-9bb4-245e22bd6f6f"
+         ], 
+         "text" : "#Fishing.375b2831-a17c-4c1f-93d7-dffb6c6cef8f"
+      }, 
+      "efe78cd7-f729-4d26-9bb4-245e22bd6f6f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96839", 
+            "y" : "-97468"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a5d448ed-2310-47ab-b098-238a6b16fc57" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97265", 
+            "y" : "-97918"
+         }, 
+         "child" : [ 
+            "e83ec199-48f6-485a-b8f5-174d7ea30068"
+         ], 
+         "text" : "#Fishing.a5d448ed-2310-47ab-b098-238a6b16fc57"
+      }, 
+      "e83ec199-48f6-485a-b8f5-174d7ea30068" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97208", 
+            "y" : "-97803"
+         }, 
+         "child" : [ 
+            "e05105ac-f049-4698-ae53-921982ec3783"
+         ], 
+         "time" : "15", 
+         "timeMode" : "Minute"
+      }, 
+      "e05105ac-f049-4698-ae53-921982ec3783" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97257", 
+            "y" : "-97668"
+         }, 
+         "child" : [ 
+            "6322c12f-a9a1-4d96-b919-32650a6583bc", 
+            "91211558-0fe2-412d-a078-a225f8b6b7dc"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "b74ecd06-1bf4-4962-8381-9691cca8a767" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96979", 
+            "y" : "-97871"
+         }, 
+         "child" : [ 
+            "293d48f0-720d-4763-a7dc-15f1e06b43c2"
+         ], 
+         "text" : "#Fishing.b74ecd06-1bf4-4962-8381-9691cca8a767"
+      }, 
+      "293d48f0-720d-4763-a7dc-15f1e06b43c2" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96902", 
+            "y" : "-97814"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7a78e0a1-c559-4ec6-ab2b-c81c6a0b76a3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97153", 
+            "y" : "-98408"
+         }, 
+         "child" : [ 
+            "264730a7-4b3c-4921-8280-77254b8b895f"
+         ], 
+         "text" : "#Fishing.7a78e0a1-c559-4ec6-ab2b-c81c6a0b76a3"
+      }, 
+      "264730a7-4b3c-4921-8280-77254b8b895f" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-97036", 
+            "y" : "-98288"
+         }, 
+         "child" : [ 
+            "9dc132d1-2f35-4f2c-be90-28acccac7781"
+         ], 
+         "time" : "10", 
+         "timeMode" : "Minute"
+      }, 
+      "9dc132d1-2f35-4f2c-be90-28acccac7781" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-97056", 
+            "y" : "-98135"
+         }, 
+         "child" : [ 
+            "3345ee48-d84e-4fb4-afa4-e144698ce0f1", 
+            "d01586bf-e379-4b8a-8f78-89143cd8e35f"
+         ], 
+         "max" : "100", 
+         "value" : "35"
+      }, 
+      "0e5af9e5-34e7-4f44-908e-278e0e2af616" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96739", 
+            "y" : "-98301"
+         }, 
+         "child" : [ 
+            "9c81d2c1-64fb-41f9-9b46-f0268379dab4"
+         ], 
+         "text" : "#Fishing.0e5af9e5-34e7-4f44-908e-278e0e2af616"
+      }, 
+      "9c81d2c1-64fb-41f9-9b46-f0268379dab4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96672", 
+            "y" : "-98226"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5de27435-53a4-4b26-a607-ffd60563b95e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-99620"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9e850c37-b543-4207-ad18-a1dc9c1c7063" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100043", 
+            "y" : "-99915"
+         }, 
+         "child" : [ 
+            "f86d225d-e430-4e58-8af2-60d78b1a7852", 
+            "19d21cdf-fae4-4c39-bda3-1fda02ed7d31"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "AntGland"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f86d225d-e430-4e58-8af2-60d78b1a7852" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100165", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+            "8ceb2b2d-26bf-41c0-813b-ba76313cecf5"
+         ], 
+         "text" : "#Fishing.f86d225d-e430-4e58-8af2-60d78b1a7852"
+      }, 
+      "8ceb2b2d-26bf-41c0-813b-ba76313cecf5" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100169", 
+            "y" : "-99669"
+         }, 
+         "child" : [ 
+            "471bacf8-7997-476e-9701-15d72bcdb9bc"
+         ], 
+         "key" : "BAIT", 
+         "value" : "1"
+      }, 
+      "471bacf8-7997-476e-9701-15d72bcdb9bc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100227", 
+            "y" : "-99579"
+         }, 
+         "child" : [ 
+            "cad6987d-f289-4abb-bd3e-35cd666debff"
+         ], 
+         "text" : "#Fishing.471bacf8-7997-476e-9701-15d72bcdb9bc"
+      }, 
+      "cad6987d-f289-4abb-bd3e-35cd666debff" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99899", 
+            "y" : "-99392"
+         }, 
+         "child" : [ 
+            "79d05b4a-ccb3-439c-bb32-dc85e2546dab"
+         ], 
+         "text" : "#Fishing.cad6987d-f289-4abb-bd3e-35cd666debff"
+      }, 
+      "19d21cdf-fae4-4c39-bda3-1fda02ed7d31" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99941", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "992b98cd-5ade-42eb-ad14-2a35022ac60b" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99818", 
+            "y" : "-99893"
+         }, 
+         "child" : [ 
+            "5283ec81-ed0e-4c9b-bf41-4f7946de0f2e", 
+            "a75d42ff-4a29-4e9f-a96d-121c00ae10ad"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "WaspFeet"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5283ec81-ed0e-4c9b-bf41-4f7946de0f2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99927", 
+            "y" : "-99752"
+         }, 
+         "child" : [ 
+            "db47c6dc-b528-45b3-b8f1-6b2df7b0c744"
+         ], 
+         "text" : "#Fishing.5283ec81-ed0e-4c9b-bf41-4f7946de0f2e"
+      }, 
+      "db47c6dc-b528-45b3-b8f1-6b2df7b0c744" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99887", 
+            "y" : "-99648"
+         }, 
+         "child" : [ 
+            "63ad5186-cab9-430c-9909-26dff52d1995"
+         ], 
+         "key" : "BAIT", 
+         "value" : "2"
+      }, 
+      "63ad5186-cab9-430c-9909-26dff52d1995" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99917", 
+            "y" : "-99571"
+         }, 
+         "child" : [ 
+            "cad6987d-f289-4abb-bd3e-35cd666debff"
+         ], 
+         "text" : "#Fishing.63ad5186-cab9-430c-9909-26dff52d1995"
+      }, 
+      "a75d42ff-4a29-4e9f-a96d-121c00ae10ad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99707", 
+            "y" : "-99760"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b91c922e-9f05-4490-b3e4-66657f27ecbe" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99577", 
+            "y" : "-99821"
+         }, 
+         "child" : [ 
+            "878847a0-2483-4c7b-a9d2-a7b8039ee5e6", 
+            "ed0e5c99-1bca-4487-9293-e822eff6c48b"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "SpiderBrain"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "878847a0-2483-4c7b-a9d2-a7b8039ee5e6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99646", 
+            "y" : "-99720"
+         }, 
+         "child" : [ 
+            "f9753310-2f0b-4140-8852-7044db0847bf"
+         ], 
+         "text" : "#Fishing.878847a0-2483-4c7b-a9d2-a7b8039ee5e6"
+      }, 
+      "f9753310-2f0b-4140-8852-7044db0847bf" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99605", 
+            "y" : "-99639"
+         }, 
+         "child" : [ 
+            "c6a74cd2-5645-4d30-a696-c1bb317b5972"
+         ], 
+         "key" : "BAIT", 
+         "value" : "3"
+      }, 
+      "c6a74cd2-5645-4d30-a696-c1bb317b5972" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99654", 
+            "y" : "-99576"
+         }, 
+         "child" : [ 
+            "cad6987d-f289-4abb-bd3e-35cd666debff"
+         ], 
+         "text" : "#Fishing.c6a74cd2-5645-4d30-a696-c1bb317b5972"
+      }, 
+      "ed0e5c99-1bca-4487-9293-e822eff6c48b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99425", 
+            "y" : "-99720"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2c3c7538-d5f8-4110-bfae-abc076aec837" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99305", 
+            "y" : "-99716"
+         }, 
+         "child" : [ 
+            "365aa9de-2168-4ab0-a7c7-6d3795ad660a"
+         ], 
+         "text" : "#Fishing.2c3c7538-d5f8-4110-bfae-abc076aec837"
+      }, 
+      "365aa9de-2168-4ab0-a7c7-6d3795ad660a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99221", 
+            "y" : "-99630"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "35edb589-8dcb-4147-816c-3efb3efa06bf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100411", 
+            "y" : "-100008"
+         }, 
+         "child" : [ 
+            "913f7e41-46f1-4fa7-bff2-c26cddb58a3f"
+         ], 
+         "text" : "#Fishing.35edb589-8dcb-4147-816c-3efb3efa06bf"
+      }, 
+      "913f7e41-46f1-4fa7-bff2-c26cddb58a3f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100392", 
+            "y" : "-99894"
+         }, 
+         "child" : [ 
+            "35e349d7-a4c6-43ec-9b18-2b0e140ad421"
+         ], 
+         "text" : "#Fishing.913f7e41-46f1-4fa7-bff2-c26cddb58a3f"
+      }, 
+      "35e349d7-a4c6-43ec-9b18-2b0e140ad421" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100360", 
+            "y" : "-99817"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "24d666f1-dc46-404f-9f0e-9bd65acc62a9"
+}

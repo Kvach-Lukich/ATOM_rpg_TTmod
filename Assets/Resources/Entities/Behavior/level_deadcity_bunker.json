@@ -1,0 +1,281 @@
+{ 
+   "states" : { 
+      "c4edec2b-4548-433d-a4a1-013df6265169" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100723", 
+            "y" : "-100840"
+         }, 
+         "child" : [ 
+            "8d025f03-db81-439a-9f39-c82635a0f46f", 
+            "fb38d1e8-c577-4f1e-823f-bc0c1fda0161", 
+            "b32b61c7-89bd-47af-8dd1-ad926a4bdf89", 
+            "a0528dfc-6ada-49cc-ade9-1a60b6cc07af", 
+            "f5d2166e-6fdc-41fd-8ca4-8bcebfe1e1c0"
+         ]
+      }, 
+      "8d025f03-db81-439a-9f39-c82635a0f46f" : { 
+         "class" : "SetWorldMapIDNode", 
+         "desc" : { 
+            "x" : "-101161", 
+            "y" : "-100630"
+         }, 
+         "child" : [ 
+            "5e068445-9dca-459e-8c31-272d4bdade36"
+         ], 
+         "worldmapID" : "_3"
+      }, 
+      "5e068445-9dca-459e-8c31-272d4bdade36" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101172", 
+            "y" : "-100575"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "21", 
+         "py" : "49"
+      }, 
+      "fb38d1e8-c577-4f1e-823f-bc0c1fda0161" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100997", 
+            "y" : "-100605"
+         }, 
+         "child" : [ 
+            "0867c135-ce3a-4253-ba25-3a5523aa66dd", 
+            "57fcb5d7-2853-4c3e-b8bc-d11c7c84622f"
+         ], 
+         "note_key" : "REQUEST_DEADCITY_ZAVAL_HELP"
+      }, 
+      "0867c135-ce3a-4253-ba25-3a5523aa66dd" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100977", 
+            "y" : "-100474"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Zaval", 
+         "active" : "false"
+      }, 
+      "57fcb5d7-2853-4c3e-b8bc-d11c7c84622f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100906", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b32b61c7-89bd-47af-8dd1-ad926a4bdf89" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100714", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+            "4685f308-f3bc-4b45-96b0-c5c505d2420c"
+         ]
+      }, 
+      "4685f308-f3bc-4b45-96b0-c5c505d2420c" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100718", 
+            "y" : "-100609"
+         }, 
+         "child" : [ 
+            "415bb0a4-3c21-49c5-b1f9-ddc991380765", 
+            "4988a2c5-b45e-4771-bac1-32ea9a91d126"
+         ], 
+         "objectName" : "d_team0"
+      }, 
+      "415bb0a4-3c21-49c5-b1f9-ddc991380765" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100612", 
+            "y" : "-100412"
+         }, 
+         "child" : [ 
+            "09b76d4b-bf38-45cb-b950-25c4c8ebca22", 
+            "0f9f186d-5c8d-4e05-a446-7b529ade16e9", 
+            "138fda9e-033c-4683-94f8-55f6659d7754"
+         ], 
+         "quest_key" : "CULT_DEADCITY"
+      }, 
+      "09b76d4b-bf38-45cb-b950-25c4c8ebca22" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100735", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+            "3f137916-418d-4f66-8d11-c7fab734a2c5"
+         ], 
+         "quest_key" : "CULT_DEADCITY.END2"
+      }, 
+      "3f137916-418d-4f66-8d11-c7fab734a2c5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100717", 
+            "y" : "-100244"
+         }, 
+         "child" : [ 
+            "2f60de1d-f3b9-4f51-9e18-aecc1389e22b"
+         ], 
+         "quest_key" : "CULT_DEADCITY"
+      }, 
+      "2f60de1d-f3b9-4f51-9e18-aecc1389e22b" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100610", 
+            "y" : "-100137"
+         }, 
+         "child" : [ 
+            "665230df-52aa-43de-938e-27e17b324089"
+         ], 
+         "note_key" : "DEADCITY_KILL"
+      }, 
+      "665230df-52aa-43de-938e-27e17b324089" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100606", 
+            "y" : "-100083"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "MAIN.DEADCITY"
+      }, 
+      "0f9f186d-5c8d-4e05-a446-7b529ade16e9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100603", 
+            "y" : "-100333"
+         }, 
+         "child" : [ 
+            "2f60de1d-f3b9-4f51-9e18-aecc1389e22b"
+         ]
+      }, 
+      "138fda9e-033c-4683-94f8-55f6659d7754" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100574", 
+            "y" : "-100291"
+         }, 
+         "child" : [ 
+            "2f60de1d-f3b9-4f51-9e18-aecc1389e22b"
+         ]
+      }, 
+      "4988a2c5-b45e-4771-bac1-32ea9a91d126" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100696", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a0528dfc-6ada-49cc-ade9-1a60b6cc07af" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100548", 
+            "y" : "-100623"
+         }, 
+         "child" : [ 
+            "4f2c5a25-5fcb-4cd3-88a6-892ca6963720"
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : "dbunker_team"
+      }, 
+      "4f2c5a25-5fcb-4cd3-88a6-892ca6963720" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-100554"
+         }, 
+         "child" : [ 
+            "415bb0a4-3c21-49c5-b1f9-ddc991380765", 
+            "a6ff983a-5fd4-4dbb-8d02-698b08ffe8e4"
+         ], 
+         "filterFractionName" : "dbunker_team"
+      }, 
+      "a6ff983a-5fd4-4dbb-8d02-698b08ffe8e4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100403", 
+            "y" : "-100452"
+         }, 
+         "child" : [ 
+            "a0528dfc-6ada-49cc-ade9-1a60b6cc07af"
+         ]
+      }, 
+      "f5d2166e-6fdc-41fd-8ca4-8bcebfe1e1c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100181", 
+            "y" : "-100684"
+         }, 
+         "child" : [ 
+            "62425e37-b8a9-4913-8df5-602e32d565c1"
+         ]
+      }, 
+      "62425e37-b8a9-4913-8df5-602e32d565c1" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100179", 
+            "y" : "-100607"
+         }, 
+         "child" : [ 
+            "0befe613-4339-4778-81af-c8b0d80d513a", 
+            "7444bce8-52b0-49de-b419-12fd0fb0580f"
+         ], 
+         "note_key" : "FST_DEADCITY_BUNKER"
+      }, 
+      "0befe613-4339-4778-81af-c8b0d80d513a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100227", 
+            "y" : "-100501"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7444bce8-52b0-49de-b419-12fd0fb0580f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100085", 
+            "y" : "-100507"
+         }, 
+         "child" : [ 
+            "c5840b32-dddb-4597-9dc2-1acdb02aa28a"
+         ]
+      }, 
+      "c5840b32-dddb-4597-9dc2-1acdb02aa28a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100093", 
+            "y" : "-100444"
+         }, 
+         "child" : [ 
+            "ca0177d1-a978-436a-a378-ed54238a38a4"
+         ], 
+         "note_key" : "FST_DEADCITY_BUNKER"
+      }, 
+      "ca0177d1-a978-436a-a378-ed54238a38a4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100080", 
+            "y" : "-100371"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt3"
+         }, 
+         "objectName" : "Office_Table (10)"
+      }
+   }, 
+   "entry" : "c4edec2b-4548-433d-a4a1-013df6265169"
+}

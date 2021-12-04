@@ -1,0 +1,195 @@
+{ 
+   "states" : { 
+      "6f83c60b-5c56-4b73-af9c-7592f8a504fe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100776", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+            "d6089f2d-1f4c-41c8-ab1b-e95bb052d013", 
+            "e7bb1eb5-8b74-4a53-9b93-e2e1a5fbc62f", 
+            "51259db0-57d2-408c-b0b7-559a84f9c415", 
+            "4a232476-a34e-46f2-8205-52ced0b4c09d"
+         ]
+      }, 
+      "d6089f2d-1f4c-41c8-ab1b-e95bb052d013" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-100987", 
+            "y" : "-100293"
+         }, 
+         "child" : [ 
+            "5ec90085-eeeb-404e-8afc-68bdc9fa995d"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "4", 
+         "objectName" : "Out_2_Point"
+      }, 
+      "5ec90085-eeeb-404e-8afc-68bdc9fa995d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100975", 
+            "y" : "-100126"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "TUNNEL_1_OPEN_DOOR"
+      }, 
+      "e7bb1eb5-8b74-4a53-9b93-e2e1a5fbc62f" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100770", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+            "65926a87-d0d2-4eee-ba24-15178c898d2a"
+         ], 
+         "key" : "1_085"
+      }, 
+      "65926a87-d0d2-4eee-ba24-15178c898d2a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100749", 
+            "y" : "-100235"
+         }, 
+         "child" : [ 
+            "97a2b181-212c-46d0-a13e-545a1542beba", 
+            "8ae12c3e-c598-40ce-bb4d-3f74db0918d4"
+         ], 
+         "key" : "1_085"
+      }, 
+      "97a2b181-212c-46d0-a13e-545a1542beba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100792", 
+            "y" : "-100147"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8ae12c3e-c598-40ce-bb4d-3f74db0918d4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100666", 
+            "y" : "-100153"
+         }, 
+         "child" : [ 
+            "14f70fed-54bd-4a8d-873e-da080f933637"
+         ], 
+         "key" : "1_085"
+      }, 
+      "14f70fed-54bd-4a8d-873e-da080f933637" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100600", 
+            "y" : "-100060"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Sayga", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "12_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Metal_Shkaf_3 (21)"
+      }, 
+      "51259db0-57d2-408c-b0b7-559a84f9c415" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100404", 
+            "y" : "-100256"
+         }, 
+         "child" : [ 
+            "7152ffce-60c9-4d81-9821-ea36dd3fa15a"
+         ], 
+         "note_key" : "Q_GAUSS_T"
+      }, 
+      "7152ffce-60c9-4d81-9821-ea36dd3fa15a" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100393", 
+            "y" : "-100183"
+         }, 
+         "child" : [ 
+            "4f9a6770-c004-4d7e-a246-c9ad788aafe3", 
+            "e51111f4-fb91-43c1-944f-e412ba6d1570"
+         ]
+      }, 
+      "4f9a6770-c004-4d7e-a246-c9ad788aafe3" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100467", 
+            "y" : "-100127"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "Q_GAUSS_T"
+      }, 
+      "e51111f4-fb91-43c1-944f-e412ba6d1570" : { 
+         "class" : "CharacterRemoveEffectNode", 
+         "desc" : { 
+            "x" : "-100313", 
+            "y" : "-100116"
+         }, 
+         "child" : [ 
+         ], 
+         "proto" : "e_gauss_book", 
+         "objectName" : "Player"
+      }, 
+      "4a232476-a34e-46f2-8205-52ced0b4c09d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100191", 
+            "y" : "-100293"
+         }, 
+         "child" : [ 
+            "bb8ed82a-0cd6-48b3-883c-0fe62b136f7a", 
+            "025b1896-aec5-4a0c-8b94-55a14e2145cd"
+         ], 
+         "key" : "SCORPIONADDED"
+      }, 
+      "bb8ed82a-0cd6-48b3-883c-0fe62b136f7a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100245", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "025b1896-aec5-4a0c-8b94-55a14e2145cd" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100098", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+            "19ff8e13-8bb1-4c44-8a53-1180bc117337"
+         ], 
+         "key" : "SCORPIONADDED"
+      }, 
+      "19ff8e13-8bb1-4c44-8a53-1180bc117337" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100090", 
+            "y" : "-100106"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Scorpion"
+         }, 
+         "objectName" : "Safe_Openes"
+      }
+   }, 
+   "entry" : "6f83c60b-5c56-4b73-af9c-7592f8a504fe"
+}

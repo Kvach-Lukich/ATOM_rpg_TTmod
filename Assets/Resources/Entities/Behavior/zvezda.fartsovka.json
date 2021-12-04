@@ -1,0 +1,549 @@
+{ 
+   "states" : { 
+      "34e7cdb1-cfd5-467b-b3af-cbf27a582c87" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101107", 
+            "y" : "-100507"
+         }, 
+         "child" : [ 
+            "287c0b85-62e2-4ae2-a8bc-ccf93cc37483"
+         ]
+      }, 
+      "287c0b85-62e2-4ae2-a8bc-ccf93cc37483" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101107", 
+            "y" : "-100419.4"
+         }, 
+         "child" : [ 
+            "decd9bae-9793-4e62-bd4f-723fe7710980", 
+            "65c93571-ae40-47fe-9093-004fc424df4c", 
+            "4816c336-d247-4663-a969-fdc718d42743", 
+            "8d8c97bb-ced8-4f4e-ac04-5e4e003df32d", 
+            "5ded3dd4-c92f-40f7-b9f6-ef13397e2462"
+         ]
+      }, 
+      "decd9bae-9793-4e62-bd4f-723fe7710980" : { 
+         "class" : "OnLockInteractEventNode", 
+         "desc" : { 
+            "x" : "-101844", 
+            "y" : "-100476"
+         }, 
+         "child" : [ 
+            "78395ef5-acf7-44d5-bc0b-5c62f00acfeb"
+         ], 
+         "targetName" : "Metal_DoorZvezda_Fartsovka_Door", 
+         "interactType" : "LockPick"
+      }, 
+      "78395ef5-acf7-44d5-bc0b-5c62f00acfeb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+            "cc1c195e-a141-45b1-9b88-232ef303fa4d", 
+            "d7c6cda1-d829-48cd-bf46-20b1daa5d39f", 
+            "4291dac5-d074-4a40-bf22-a60b1bb65fa9", 
+            "a3f5632d-2a6e-4c90-9553-3196b85ea36a", 
+            "ef553a0a-ee75-4186-953c-06951ac0576d"
+         ]
+      }, 
+      "cc1c195e-a141-45b1-9b88-232ef303fa4d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101954", 
+            "y" : "-100250"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Zvezda.Fartsovka.cc1c195e-a141-45b1-9b88-232ef303fa4d", 
+         "waitEnd" : "true", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d7c6cda1-d829-48cd-bf46-20b1daa5d39f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101834", 
+            "y" : "-100128"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Zvezda.Fartsovka.d7c6cda1-d829-48cd-bf46-20b1daa5d39f", 
+         "waitEnd" : "true", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4291dac5-d074-4a40-bf22-a60b1bb65fa9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101705", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Zvezda.Fartsovka.4291dac5-d074-4a40-bf22-a60b1bb65fa9", 
+         "waitEnd" : "true", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a3f5632d-2a6e-4c90-9553-3196b85ea36a" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101770", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Zvezda.Fartsovka.a3f5632d-2a6e-4c90-9553-3196b85ea36a", 
+         "waitEnd" : "true", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ef553a0a-ee75-4186-953c-06951ac0576d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101993", 
+            "y" : "-100038"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Zvezda.Fartsovka.ef553a0a-ee75-4186-953c-06951ac0576d", 
+         "waitEnd" : "true", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "65c93571-ae40-47fe-9093-004fc424df4c" : { 
+         "class" : "OnLockInteractEventNode", 
+         "desc" : { 
+            "x" : "-101557", 
+            "y" : "-100572"
+         }, 
+         "child" : [ 
+            "005da7ef-fe1b-445d-8e1a-460b9ac8ab18"
+         ], 
+         "targetName" : "Metal_DoorZvezda_Fartsovka_Door", 
+         "interactType" : "LockCrack"
+      }, 
+      "005da7ef-fe1b-445d-8e1a-460b9ac8ab18" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-101419", 
+            "y" : "-100333"
+         }, 
+         "child" : [ 
+            "666c6b2b-b008-4aaf-ad6f-7239c3e5e6d5"
+         ], 
+         "targetName" : "Player"
+      }, 
+      "666c6b2b-b008-4aaf-ad6f-7239c3e5e6d5" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-100263"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "krz", 
+         "value" : "0"
+      }, 
+      "4816c336-d247-4663-a969-fdc718d42743" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101477", 
+            "y" : "-100195"
+         }, 
+         "child" : [ 
+            "83003160-7d30-4a52-99f2-ecaeb6e8a5e0", 
+            "736b9ea3-3c07-4364-ad0d-716d02004d52"
+         ]
+      }, 
+      "83003160-7d30-4a52-99f2-ecaeb6e8a5e0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101558", 
+            "y" : "-100083"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "736b9ea3-3c07-4364-ad0d-716d02004d52" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-101436", 
+            "y" : "-100091"
+         }, 
+         "child" : [ 
+         ], 
+         "anim" : "Sitting2"
+      }, 
+      "8d8c97bb-ced8-4f4e-ac04-5e4e003df32d" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-101156", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+            "fa0ed754-21c5-4aa3-b722-3a6e8263a47d", 
+            "e66ef59c-afac-462c-bba7-a4b9e4bef854"
+         ], 
+         "time" : "6", 
+         "mode" : "Hour", 
+         "offsetValue" : "GOODS_TRADER"
+      }, 
+      "fa0ed754-21c5-4aa3-b722-3a6e8263a47d" : { 
+         "class" : "GoodsAndMoneyNode", 
+         "desc" : { 
+            "x" : "-101215", 
+            "y" : "-100164"
+         }, 
+         "child" : [ 
+            "4851617f-ffb9-4502-a1e0-fa98e2f867da"
+         ], 
+         "maxMoney" : "1000", 
+         "maxGoodsToMoney" : "1000", 
+         "costPercent" : "5", 
+         "wantToSellPercent" : "10"
+      }, 
+      "4851617f-ffb9-4502-a1e0-fa98e2f867da" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100981", 
+            "y" : "-100038"
+         }, 
+         "child" : [ 
+            "79919afc-2f68-4e02-9f65-a0c1b01ec9f9"
+         ], 
+         "key" : "GOODS_TRADER", 
+         "value" : "$TIME$"
+      }, 
+      "79919afc-2f68-4e02-9f65-a0c1b01ec9f9" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101275", 
+            "y" : "-99913"
+         }, 
+         "child" : [ 
+            "263c95a5-e7ff-49a8-9e3f-5457e1e1d08f"
+         ], 
+         "script" : "entities/behavior/z_z_tier"
+      }, 
+      "263c95a5-e7ff-49a8-9e3f-5457e1e1d08f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100564", 
+            "y" : "-99956.38"
+         }, 
+         "child" : [ 
+            "66c4b921-7fde-4de8-a546-3061a9e0c723", 
+            "e2297400-a2be-4cf7-836b-1e30fab7849e"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "66c4b921-7fde-4de8-a546-3061a9e0c723" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100413", 
+            "y" : "-99762.38"
+         }, 
+         "child" : [ 
+            "48f5cace-49cc-4276-912e-609249c88e45", 
+            "bfcb7ad7-7206-4365-afe9-1ad389a504fd"
+         ]
+      }, 
+      "48f5cace-49cc-4276-912e-609249c88e45" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100357", 
+            "y" : "-99627"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "100000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "bfcb7ad7-7206-4365-afe9-1ad389a504fd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100574", 
+            "y" : "-99504"
+         }, 
+         "child" : [ 
+            "21489961-14c0-40a6-a79d-a9764ec8be89", 
+            "27160cae-a188-4189-b995-cbdd7c1eba98", 
+            "3e1e89e4-ca0e-493a-99e5-55c0ce69350b"
+         ]
+      }, 
+      "21489961-14c0-40a6-a79d-a9764ec8be89" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100705", 
+            "y" : "-99441"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "RedMoscow"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "ToolBox"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Ciggy"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Cologne"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Apple"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Kaseta1"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "27160cae-a188-4189-b995-cbdd7c1eba98" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100571", 
+            "y" : "-99439"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Cologne"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "AntiJet"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Coffe"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "3e1e89e4-ca0e-493a-99e5-55c0ce69350b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100442", 
+            "y" : "-99440"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Condon"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tobacco"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "e2297400-a2be-4cf7-836b-1e30fab7849e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100366", 
+            "y" : "-99913"
+         }, 
+         "child" : [ 
+            "66c4b921-7fde-4de8-a546-3061a9e0c723", 
+            "65b0614f-41d2-4456-813f-edfcf6699e6b"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "65b0614f-41d2-4456-813f-edfcf6699e6b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100920", 
+            "y" : "-99760.38"
+         }, 
+         "child" : [ 
+            "b677018b-51a9-4b72-85e1-44c2fe8ac3cc", 
+            "78dbede5-1073-481f-8da2-bd31249441a4"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "b677018b-51a9-4b72-85e1-44c2fe8ac3cc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101078", 
+            "y" : "-99637"
+         }, 
+         "child" : [ 
+            "e32c9546-6374-4ba4-8684-27454fabbc08", 
+            "bfcb7ad7-7206-4365-afe9-1ad389a504fd", 
+            "b4682c99-e5da-41cf-9d92-b5f0fbbed17b"
+         ]
+      }, 
+      "e32c9546-6374-4ba4-8684-27454fabbc08" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101107", 
+            "y" : "-99574"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "200000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "b4682c99-e5da-41cf-9d92-b5f0fbbed17b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100711", 
+            "y" : "-99607"
+         }, 
+         "child" : [ 
+            "bfcb7ad7-7206-4365-afe9-1ad389a504fd"
+         ]
+      }, 
+      "78dbede5-1073-481f-8da2-bd31249441a4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100870", 
+            "y" : "-99660"
+         }, 
+         "child" : [ 
+            "790b2e2e-730c-4200-937c-1927176a9f69", 
+            "bfcb7ad7-7206-4365-afe9-1ad389a504fd", 
+            "b4682c99-e5da-41cf-9d92-b5f0fbbed17b"
+         ]
+      }, 
+      "790b2e2e-730c-4200-937c-1927176a9f69" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100891", 
+            "y" : "-99568"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "100000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "e66ef59c-afac-462c-bba7-a4b9e4bef854" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100656", 
+            "y" : "-100201"
+         }, 
+         "child" : [ 
+            "bc200a29-82fb-4652-ad40-3a6a1f9aaff4"
+         ]
+      }, 
+      "bc200a29-82fb-4652-ad40-3a6a1f9aaff4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100651", 
+            "y" : "-100150"
+         }, 
+         "child" : [ 
+            "2bd8fa85-fccc-435d-8fc2-2490ce129eb7", 
+            "ce13cb98-dc51-4061-9bc8-f685a1e99c30"
+         ]
+      }, 
+      "2bd8fa85-fccc-435d-8fc2-2490ce129eb7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100700", 
+            "y" : "-100087"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "200000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "ce13cb98-dc51-4061-9bc8-f685a1e99c30" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100583", 
+            "y" : "-100084"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "50000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "5ded3dd4-c92f-40f7-b9f6-ef13397e2462" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100896", 
+            "y" : "-100377"
+         }, 
+         "child" : [ 
+            "8d8c97bb-ced8-4f4e-ac04-5e4e003df32d", 
+            "4851617f-ffb9-4502-a1e0-fa98e2f867da"
+         ], 
+         "key" : "GOODS_TRADER"
+      }
+   }, 
+   "entry" : "34e7cdb1-cfd5-467b-b3af-cbf27a582c87"
+}

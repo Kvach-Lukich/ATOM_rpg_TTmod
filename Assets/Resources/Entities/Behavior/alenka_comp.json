@@ -1,0 +1,272 @@
+{ 
+   "states" : { 
+      "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101351", 
+            "y" : "-101008"
+         }, 
+         "child" : [ 
+            "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd"
+         ]
+      }, 
+      "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101351", 
+            "y" : "-100961"
+         }, 
+         "child" : [ 
+            "4c28939a-229d-450c-a9ea-e9984fb9c8c9", 
+            "91c34484-69af-494c-a47e-b244b35b9d76", 
+            "0584f3f8-bb87-4120-8aec-4745fba8a351"
+         ]
+      }, 
+      "4c28939a-229d-450c-a9ea-e9984fb9c8c9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-101368", 
+            "y" : "-100888"
+         }, 
+         "child" : [ 
+            "e7f6bef4-d73a-49d2-a438-e911a6c1ec83"
+         ]
+      }, 
+      "e7f6bef4-d73a-49d2-a438-e911a6c1ec83" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101027", 
+            "y" : "-100498"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "75f8f344-e647-40d7-8fff-d9e4571d1a1a"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "dff11213-f260-4db2-b405-488f7cfc2e49" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101202", 
+            "y" : "-100162"
+         }, 
+         "child" : [ 
+            "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0"
+         ], 
+         "waitTimeMin" : "1", 
+         "waitTimeMax" : "3"
+      }, 
+      "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101162", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ]
+      }, 
+      "95b468b6-18cb-4118-8a98-064070ccbf3d" : { 
+         "class" : "CharacterInDialogNode", 
+         "desc" : { 
+            "x" : "-101306", 
+            "y" : "-99927"
+         }, 
+         "child" : [ 
+            "9a485888-7101-49cb-a601-de667d78059c", 
+            "378f74f9-3eef-41fa-8a23-d144e30e3b8e"
+         ]
+      }, 
+      "9a485888-7101-49cb-a601-de667d78059c" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101368", 
+            "y" : "-99836"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "5"
+      }, 
+      "378f74f9-3eef-41fa-8a23-d144e30e3b8e" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101229", 
+            "y" : "-99831"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
+      }, 
+      "75f8f344-e647-40d7-8fff-d9e4571d1a1a" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100981", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd"
+         ]
+      }, 
+      "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100882", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+            "af8a1615-8ee0-4515-9d62-9121bdc04d60", 
+            "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c"
+         ], 
+         "key" : "SWING"
+      }, 
+      "af8a1615-8ee0-4515-9d62-9121bdc04d60" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100957", 
+            "y" : "-100215"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "key" : "SWING"
+      }, 
+      "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c" : { 
+         "class" : "PlayerInDialogNode", 
+         "desc" : { 
+            "x" : "-100909", 
+            "y" : "-100143"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "b2b706ac-fee4-45d1-9e52-b3d9477c087c"
+         ]
+      }, 
+      "b2b706ac-fee4-45d1-9e52-b3d9477c087c" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-100813", 
+            "y" : "-100070"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "pointName" : "Player"
+      }, 
+      "91c34484-69af-494c-a47e-b244b35b9d76" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100896", 
+            "y" : "-100907", 
+            "comment" : "АТАКА НА ХУТОР НАКАЗЫВАЕТСЯ"
+         }, 
+         "child" : [ 
+            "1010181c-997b-4525-8a5d-d8fea706fd8b"
+         ]
+      }, 
+      "1010181c-997b-4525-8a5d-d8fea706fd8b" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-100814", 
+            "y" : "-100809"
+         }, 
+         "child" : [ 
+            "d4f2fe6a-7d23-48d5-9aa9-3bdc5b0a4636"
+         ], 
+         "filterMode" : "Victim", 
+         "victimFractionName" : "busstop4"
+      }, 
+      "d4f2fe6a-7d23-48d5-9aa9-3bdc5b0a4636" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100718"
+         }, 
+         "child" : [ 
+            "90e7c970-6593-4dad-a904-ed67bd931f90"
+         ], 
+         "objectName" : "Player", 
+         "waitEnd" : "false"
+      }, 
+      "90e7c970-6593-4dad-a904-ed67bd931f90" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100804", 
+            "y" : "-100645"
+         }, 
+         "child" : [ 
+            "f95ed5a6-343c-481a-acf1-b505940af61f"
+         ], 
+         "fraction" : "busstop4", 
+         "value" : "0"
+      }, 
+      "f95ed5a6-343c-481a-acf1-b505940af61f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100778", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "e559f150-18c5-45a7-a23a-b9c5d48a14f4"
+         ], 
+         "text" : "#alenka_comp.f95ed5a6-343c-481a-acf1-b505940af61f", 
+         "waitEnd" : "false", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e559f150-18c5-45a7-a23a-b9c5d48a14f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100770", 
+            "y" : "-100459"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0584f3f8-bb87-4120-8aec-4745fba8a351" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101138", 
+            "y" : "-101188"
+         }, 
+         "child" : [ 
+            "3ac94ed0-001c-4a87-a32b-fae8191409f0", 
+            "aeb4ccb6-f43c-4a2f-bde9-24b091a9a699"
+         ], 
+         "key" : "INIT_SPEC_POINTS"
+      }, 
+      "3ac94ed0-001c-4a87-a32b-fae8191409f0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101173", 
+            "y" : "-101066"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "aeb4ccb6-f43c-4a2f-bde9-24b091a9a699" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101047", 
+            "y" : "-101076"
+         }, 
+         "child" : [ 
+            "56ca9f8b-7301-4860-a725-fcfd5f409f0b"
+         ], 
+         "key" : "INIT_SPEC_POINTS"
+      }, 
+      "56ca9f8b-7301-4860-a725-fcfd5f409f0b" : { 
+         "class" : "CharacterAddSpecPointsNode", 
+         "desc" : { 
+            "x" : "-101091", 
+            "y" : "-101009"
+         }, 
+         "child" : [ 
+         ], 
+         "value" : "2"
+      }
+   }, 
+   "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"
+}

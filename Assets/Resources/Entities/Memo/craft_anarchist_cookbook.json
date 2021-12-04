@@ -1,0 +1,646 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-100102", 
+            "y" : "-101088"
+         }, 
+         "child" : [ 
+            "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683"
+         ]
+      }, 
+      "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99799", 
+            "y" : "-100923"
+         }, 
+         "child" : [ 
+            "146b00b8-9740-43c6-9f27-6cff4b040ab0", 
+            "8926333d-a325-4b90-84bd-81c8560c597f", 
+            "cce197ab-e7d0-4d9f-8dd0-d7a1d03d21c2", 
+            "6589b7db-ce86-4e78-bc19-ef134465ed0e", 
+            "2e573b1a-ae11-4f62-8b6d-b0f2f8bcf1b4", 
+            "82170271-bf5b-4458-afcb-7ce37ba94c5f", 
+            "997ec344-2ba8-4bbb-8b4f-5a9856a53a66", 
+            "fa54635b-bd6a-4e1b-949e-a2d8f123954f", 
+            "8c2a9cd4-033d-4721-b265-6569651c7b9a", 
+            "9a25ff1b-05d3-49b8-8d13-438ed2f861a0", 
+            "583f7d13-61fe-40ae-8992-2f0624965dd5", 
+            "6be70c16-97b2-48e1-858e-56f6f8ed2f0c", 
+            "6eb895cf-e771-44a6-9610-8aff3029d34b", 
+            "851c39b8-f51b-447c-a05b-4ff349991c7a", 
+            "a58a08a4-2481-4f31-9375-ddebd8c3433c", 
+            "dccb7cf1-4244-40bc-a155-e43734847501", 
+            "f171c8c7-d749-491f-9854-40e8389e325c", 
+            "a9ee7346-bb4d-4264-aab0-0e200e443c42", 
+            "ecdcaa6b-97d0-42e7-9841-72c78537a1c1", 
+            "890e314b-04a3-43dd-a3c0-20407eb4c8af", 
+            "5cc910aa-c18e-41b9-b388-15f6f7ad0f82", 
+            "be71615e-a0b0-4490-9c2c-a68ca71263c2", 
+            "868e9524-fcc4-4fbc-8d34-bb4709c52cda", 
+            "c38d5538-21d0-42cd-a67b-34222f48f86b", 
+            "aea1b84a-e613-442d-a8ce-a3c7a3555291", 
+            "f704d4ac-6790-4ce5-9aaa-2fb46e5bb7ae", 
+            "ee46a537-d975-4566-b5ba-23ed3e5d9450", 
+            "ed7b04b9-56d1-4cfa-aced-aeff6dc8e103", 
+            "386cd20e-e871-444e-aee6-b7fb4c551247", 
+            "e95def8b-f0c7-4f49-9c7c-c5457e5bf277", 
+            "1d35b6eb-c734-4267-b3a7-86753d9f5d0d", 
+            "cf26b1d7-b252-498d-a4ea-4a0ecf461905", 
+            "b944ebc2-ebc9-4dc1-b246-407efd02609c", 
+            "b2e28b03-acc2-48a9-8620-9f0c578565c8", 
+            "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11", 
+            "810007ee-0499-4925-8e10-baff36199d02", 
+            "e4478992-4476-48a2-b22f-c433595367b5", 
+            "c4136e25-44fd-41dc-89ac-418adb6ef588", 
+            "1e89bcb7-6c1e-48b2-93bd-c955088e07eb", 
+            "636bec7a-fca0-456b-989b-b0c5851042cc", 
+            "ce8c56eb-a79f-4e43-a1be-dab657a1b5a1", 
+            "b8d4e18e-a9d0-4a57-b957-504c5384fd59", 
+            "4e115a87-66f1-442a-b59c-731003952ecb", 
+            "096166be-5133-4e3a-88a7-6688bbca2987", 
+            "4c537451-28e4-4a48-8d51-e601363d8647", 
+            "6fce5766-7f19-488b-9869-9248964f92a5", 
+            "7b5c0ecf-36dc-4126-9813-3e553a036e4e", 
+            "d017682a-7fb5-4961-b4d6-01b899dd4589", 
+            "92dc0a30-0f42-435d-8d08-f919b7a32d8e", 
+            "83a51f58-8a3d-456d-9caf-e72547cb8e8e", 
+            "a7bb880f-80fe-490d-acb5-e6d320629b35"
+         ]
+      }, 
+      "146b00b8-9740-43c6-9f27-6cff4b040ab0" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-100219", 
+            "y" : "-100784"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#craft_anarchist_cookbook.146b00b8-9740-43c6-9f27-6cff4b040ab0"
+      }, 
+      "8926333d-a325-4b90-84bd-81c8560c597f" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99741", 
+            "y" : "-100691"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Amanita", 
+         "showMsg" : "true"
+      }, 
+      "cce197ab-e7d0-4d9f-8dd0-d7a1d03d21c2" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99691", 
+            "y" : "-100641"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Armor_LA", 
+         "showMsg" : "true"
+      }, 
+      "6589b7db-ce86-4e78-bc19-ef134465ed0e" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99641", 
+            "y" : "-100591"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Armor_LJ", 
+         "showMsg" : "true"
+      }, 
+      "2e573b1a-ae11-4f62-8b6d-b0f2f8bcf1b4" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99591", 
+            "y" : "-100541"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Bolt", 
+         "showMsg" : "true"
+      }, 
+      "82170271-bf5b-4458-afcb-7ce37ba94c5f" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99541", 
+            "y" : "-100491"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Bolt_AP", 
+         "showMsg" : "true"
+      }, 
+      "997ec344-2ba8-4bbb-8b4f-5a9856a53a66" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99491", 
+            "y" : "-100441"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Ciggy", 
+         "showMsg" : "true"
+      }, 
+      "fa54635b-bd6a-4e1b-949e-a2d8f123954f" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99441", 
+            "y" : "-100391"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Corned_fish_1", 
+         "showMsg" : "true"
+      }, 
+      "8c2a9cd4-033d-4721-b265-6569651c7b9a" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99391", 
+            "y" : "-100341"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Corned_fish_2", 
+         "showMsg" : "true"
+      }, 
+      "9a25ff1b-05d3-49b8-8d13-438ed2f861a0" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99341", 
+            "y" : "-100291"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Corned_fish_3", 
+         "showMsg" : "true"
+      }, 
+      "583f7d13-61fe-40ae-8992-2f0624965dd5" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99291", 
+            "y" : "-100241"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Corned_meat", 
+         "showMsg" : "true"
+      }, 
+      "6be70c16-97b2-48e1-858e-56f6f8ed2f0c" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99241", 
+            "y" : "-100191"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Crossbow", 
+         "showMsg" : "true"
+      }, 
+      "6eb895cf-e771-44a6-9610-8aff3029d34b" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99191", 
+            "y" : "-100141"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Crossbow_2", 
+         "showMsg" : "true"
+      }, 
+      "851c39b8-f51b-447c-a05b-4ff349991c7a" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99141", 
+            "y" : "-100091"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Crossbow_3", 
+         "showMsg" : "true"
+      }, 
+      "a58a08a4-2481-4f31-9375-ddebd8c3433c" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99091", 
+            "y" : "-100041"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Ganja_Ciggy", 
+         "showMsg" : "true"
+      }, 
+      "dccb7cf1-4244-40bc-a155-e43734847501" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99041", 
+            "y" : "-99991"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Grenade", 
+         "showMsg" : "true"
+      }, 
+      "f171c8c7-d749-491f-9854-40e8389e325c" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98991", 
+            "y" : "-99941"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Hand_Bag", 
+         "showMsg" : "true"
+      }, 
+      "a9ee7346-bb4d-4264-aab0-0e200e443c42" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98941", 
+            "y" : "-99891"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "HandMadeMask", 
+         "showMsg" : "true"
+      }, 
+      "ecdcaa6b-97d0-42e7-9841-72c78537a1c1" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98891", 
+            "y" : "-99841"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Helment_Home", 
+         "showMsg" : "true"
+      }, 
+      "890e314b-04a3-43dd-a3c0-20407eb4c8af" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98841", 
+            "y" : "-99791"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Home_Grenade", 
+         "showMsg" : "true"
+      }, 
+      "5cc910aa-c18e-41b9-b388-15f6f7ad0f82" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98791", 
+            "y" : "-99741"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Knife_Sharp", 
+         "showMsg" : "true"
+      }, 
+      "be71615e-a0b0-4490-9c2c-a68ca71263c2" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98741", 
+            "y" : "-99691"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Knife_Throw", 
+         "showMsg" : "true"
+      }, 
+      "868e9524-fcc4-4fbc-8d34-bb4709c52cda" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98691", 
+            "y" : "-99641"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Makuha", 
+         "showMsg" : "true"
+      }, 
+      "c38d5538-21d0-42cd-a67b-34222f48f86b" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98641", 
+            "y" : "-99591"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Molotov", 
+         "showMsg" : "true"
+      }, 
+      "aea1b84a-e613-442d-a8ce-a3c7a3555291" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98591", 
+            "y" : "-99541"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Mosin_M", 
+         "showMsg" : "true"
+      }, 
+      "f704d4ac-6790-4ce5-9aaa-2fb46e5bb7ae" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98541", 
+            "y" : "-99491"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Nagant_M", 
+         "showMsg" : "true"
+      }, 
+      "ee46a537-d975-4566-b5ba-23ed3e5d9450" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98491", 
+            "y" : "-99441"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Pipe_Pistol", 
+         "showMsg" : "true"
+      }, 
+      "ed7b04b9-56d1-4cfa-aced-aeff6dc8e103" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98441", 
+            "y" : "-99391"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Pipe_Rifle", 
+         "showMsg" : "true"
+      }, 
+      "386cd20e-e871-444e-aee6-b7fb4c551247" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98391", 
+            "y" : "-99341"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Pipe_Sniper_3", 
+         "showMsg" : "true"
+      }, 
+      "e95def8b-f0c7-4f49-9c7c-c5457e5bf277" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98341", 
+            "y" : "-99291"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Pipe_Sniper_4", 
+         "showMsg" : "true"
+      }, 
+      "1d35b6eb-c734-4267-b3a7-86753d9f5d0d" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98291", 
+            "y" : "-99241"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "PKM_M", 
+         "showMsg" : "true"
+      }, 
+      "cf26b1d7-b252-498d-a4ea-4a0ecf461905" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98241", 
+            "y" : "-99191"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Rifle_M", 
+         "showMsg" : "true"
+      }, 
+      "b944ebc2-ebc9-4dc1-b246-407efd02609c" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98191", 
+            "y" : "-99141"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Rojo_full", 
+         "showMsg" : "true"
+      }, 
+      "b2e28b03-acc2-48a9-8620-9f0c578565c8" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98141", 
+            "y" : "-99091"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Scorpion_M", 
+         "showMsg" : "true"
+      }, 
+      "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99632", 
+            "y" : "-100841"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_pps43mod", 
+         "showMsg" : "true"
+      }, 
+      "810007ee-0499-4925-8e10-baff36199d02" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98091", 
+            "y" : "-99041"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Shield_A", 
+         "showMsg" : "true"
+      }, 
+      "e4478992-4476-48a2-b22f-c433595367b5" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98041", 
+            "y" : "-98991"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Shield_Wood", 
+         "showMsg" : "true"
+      }, 
+      "c4136e25-44fd-41dc-89ac-418adb6ef588" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97991", 
+            "y" : "-98941"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Shovel_Work", 
+         "showMsg" : "true"
+      }, 
+      "1e89bcb7-6c1e-48b2-93bd-c955088e07eb" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97941", 
+            "y" : "-98891"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "SpikedTruncheon", 
+         "showMsg" : "true"
+      }, 
+      "636bec7a-fca0-456b-989b-b0c5851042cc" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97891", 
+            "y" : "-98841"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "SVD_M", 
+         "showMsg" : "true"
+      }, 
+      "ce8c56eb-a79f-4e43-a1be-dab657a1b5a1" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97841", 
+            "y" : "-98791"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Tin_Grenade", 
+         "showMsg" : "true"
+      }, 
+      "b8d4e18e-a9d0-4a57-b957-504c5384fd59" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99503", 
+            "y" : "-100840"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_m24_m", 
+         "showMsg" : "true"
+      }, 
+      "4e115a87-66f1-442a-b59c-731003952ecb" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97791", 
+            "y" : "-98741"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "TNT", 
+         "showMsg" : "true"
+      }, 
+      "096166be-5133-4e3a-88a7-6688bbca2987" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99078", 
+            "y" : "-100838"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_m81_inviz", 
+         "showMsg" : "true"
+      }, 
+      "4c537451-28e4-4a48-8d51-e601363d8647" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99373", 
+            "y" : "-100839"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_sks_s", 
+         "showMsg" : "true"
+      }, 
+      "6fce5766-7f19-488b-9869-9248964f92a5" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-97741", 
+            "y" : "-98691"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Tokarev_M", 
+         "showMsg" : "true"
+      }, 
+      "7b5c0ecf-36dc-4126-9813-3e553a036e4e" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98531", 
+            "y" : "-100835"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_gidrator", 
+         "showMsg" : "true"
+      }, 
+      "d017682a-7fb5-4961-b4d6-01b899dd4589" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98670", 
+            "y" : "-100836"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_pegas", 
+         "showMsg" : "true"
+      }, 
+      "92dc0a30-0f42-435d-8d08-f919b7a32d8e" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98822", 
+            "y" : "-100837"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "bearsteel", 
+         "showMsg" : "true"
+      }, 
+      "83a51f58-8a3d-456d-9caf-e72547cb8e8e" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99251", 
+            "y" : "-100837"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_m81_m", 
+         "showMsg" : "true"
+      }, 
+      "a7bb880f-80fe-490d-acb5-e6d320629b35" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98946", 
+            "y" : "-100839"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "cateye", 
+         "showMsg" : "true"
+      }, 
+      "edd9cb0a-86b1-4d06-8b78-e1bd139475bf" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99791", 
+            "y" : "-100741"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "AK47_M", 
+         "showMsg" : "true"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

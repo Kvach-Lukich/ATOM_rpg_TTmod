@@ -1,0 +1,37 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-100834", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "6c296d15-0af4-4b42-b223-c2c6a3b4670d", 
+            "98225ee3-a9ab-423e-b6c5-ef109eb55269"
+         ]
+      }, 
+      "6c296d15-0af4-4b42-b223-c2c6a3b4670d" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101041", 
+            "y" : "-100563"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#craft_tt.6c296d15-0af4-4b42-b223-c2c6a3b4670d"
+      }, 
+      "98225ee3-a9ab-423e-b6c5-ef109eb55269" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100553"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "Tokarev_M", 
+         "showMsg" : "true"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

@@ -1,0 +1,891 @@
+{ 
+   "states" : { 
+      "a44de25e-fac9-4741-b244-d7b64f6a371f" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-91777", 
+            "y" : "-102080"
+         }, 
+         "child" : [ 
+            "8252ef65-104e-4fd6-afc8-ca73a501e903"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "8252ef65-104e-4fd6-afc8-ca73a501e903" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-91788", 
+            "y" : "-101978"
+         }, 
+         "child" : [ 
+            "0535124e-24ba-4c14-acb3-4e1d7291717b"
+         ]
+      }, 
+      "0535124e-24ba-4c14-acb3-4e1d7291717b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91834", 
+            "y" : "-101908"
+         }, 
+         "child" : [ 
+            "19140b44-b1d8-40c0-8f8f-3435d0e0bdf3", 
+            "0f69eee1-a29f-41c1-90d6-b6e9dd108c97", 
+            "79254512-1a94-4e0b-b226-e60924e7c84e"
+         ], 
+         "text" : "#baza_alenka.0535124e-24ba-4c14-acb3-4e1d7291717b"
+      }, 
+      "19140b44-b1d8-40c0-8f8f-3435d0e0bdf3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92202", 
+            "y" : "-101703"
+         }, 
+         "child" : [ 
+            "febd16ba-ee9d-4b79-b019-dd92e89163ad", 
+            "2a812b6b-b5d8-4035-baff-3cc650cf0047"
+         ], 
+         "key" : "MEET"
+      }, 
+      "febd16ba-ee9d-4b79-b019-dd92e89163ad" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92588", 
+            "y" : "-101590"
+         }, 
+         "child" : [ 
+            "b4a8a9bf-142f-4299-a8c3-175cca2fed21"
+         ], 
+         "text" : "#baza_alenka.febd16ba-ee9d-4b79-b019-dd92e89163ad"
+      }, 
+      "b4a8a9bf-142f-4299-a8c3-175cca2fed21" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92586", 
+            "y" : "-101498"
+         }, 
+         "child" : [ 
+            "3128e557-25e5-4da1-969c-7d0eff04a13a", 
+            "56e84699-e43d-4006-be31-ec5ce3e02fe1", 
+            "ff97ea5a-7f3b-44bf-8196-1f6cffd9469e"
+         ], 
+         "text" : "#baza_alenka.b4a8a9bf-142f-4299-a8c3-175cca2fed21"
+      }, 
+      "3128e557-25e5-4da1-969c-7d0eff04a13a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92986", 
+            "y" : "-101254"
+         }, 
+         "child" : [ 
+            "1e95d883-91bc-4961-8129-58489f60b1b0"
+         ], 
+         "text" : "#baza_alenka.3128e557-25e5-4da1-969c-7d0eff04a13a"
+      }, 
+      "1e95d883-91bc-4961-8129-58489f60b1b0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92796", 
+            "y" : "-101008"
+         }, 
+         "child" : [ 
+            "397bc3be-4018-4bd6-b35b-056c68688193"
+         ]
+      }, 
+      "397bc3be-4018-4bd6-b35b-056c68688193" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92940", 
+            "y" : "-100932"
+         }, 
+         "child" : [ 
+            "79ba984c-a29a-4b19-a295-0dc7921ab602", 
+            "21015fd3-14ed-4712-ad2f-1d17f142dad6"
+         ], 
+         "text" : "#baza_alenka.397bc3be-4018-4bd6-b35b-056c68688193"
+      }, 
+      "79ba984c-a29a-4b19-a295-0dc7921ab602" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93113", 
+            "y" : "-100845"
+         }, 
+         "child" : [ 
+            "eaa155aa-bf07-4075-b5bc-280fdaee4ca3"
+         ], 
+         "text" : "#baza_alenka.79ba984c-a29a-4b19-a295-0dc7921ab602"
+      }, 
+      "eaa155aa-bf07-4075-b5bc-280fdaee4ca3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-93122", 
+            "y" : "-100743"
+         }, 
+         "child" : [ 
+            "5a7a4229-4689-49e6-9dab-40acb816f716", 
+            "48629fd7-6ee2-43ab-80db-691182b7e880", 
+            "3b3d277b-8df0-40e4-80e3-8d1aa5516668"
+         ], 
+         "text" : "#baza_alenka.eaa155aa-bf07-4075-b5bc-280fdaee4ca3"
+      }, 
+      "5a7a4229-4689-49e6-9dab-40acb816f716" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93529", 
+            "y" : "-100604"
+         }, 
+         "child" : [ 
+            "a5c786fc-2049-483a-bd73-e7bd2207a8f4"
+         ], 
+         "text" : "#baza_alenka.5a7a4229-4689-49e6-9dab-40acb816f716"
+      }, 
+      "a5c786fc-2049-483a-bd73-e7bd2207a8f4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-93350", 
+            "y" : "-100230"
+         }, 
+         "child" : [ 
+            "5ea3a494-d53f-4128-aacb-2b7d1bd46c38"
+         ]
+      }, 
+      "5ea3a494-d53f-4128-aacb-2b7d1bd46c38" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-93418", 
+            "y" : "-100142"
+         }, 
+         "child" : [ 
+            "1bb4b97c-078b-4e89-b214-d13b6d3f37ee"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "1bb4b97c-078b-4e89-b214-d13b6d3f37ee" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-93452", 
+            "y" : "-100082"
+         }, 
+         "child" : [ 
+            "58e078fe-225e-4075-9d8d-2c971f0ad0b4"
+         ], 
+         "active" : "false"
+      }, 
+      "58e078fe-225e-4075-9d8d-2c971f0ad0b4" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-93570", 
+            "y" : "-99990"
+         }, 
+         "child" : [ 
+            "e2aee346-1fe0-4ea5-9cb0-4370108be84c"
+         ], 
+         "spawnName" : "alenka_comp", 
+         "pos" : [ 
+            "153", 
+            "0", 
+            "61"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "e2aee346-1fe0-4ea5-9cb0-4370108be84c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-93621", 
+            "y" : "-99878"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "alenka_comp", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "alenka_comp", 
+            "caps" : "TeamMate", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "player", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "20", 
+                  "proto" : "BB_AP"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "Biscuit"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Corned_Meat"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "20", 
+                  "proto" : "Gun_Powder"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Rifle", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "skin" : "Skin_2", 
+               "count" : "1", 
+               "proto" : "Fedora"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_HighBangs", 
+            "hairColor" : "Blond_2", 
+            "behavior" : "alenka_comp"
+         }
+      }, 
+      "48629fd7-6ee2-43ab-80db-691182b7e880" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93289", 
+            "y" : "-100597"
+         }, 
+         "child" : [ 
+            "b716c1bd-e921-4c4c-9123-512eb80b4392"
+         ], 
+         "text" : "#baza_alenka.48629fd7-6ee2-43ab-80db-691182b7e880"
+      }, 
+      "b716c1bd-e921-4c4c-9123-512eb80b4392" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91808", 
+            "y" : "-100872"
+         }, 
+         "child" : [ 
+            "6190e419-30b1-4473-abbb-58f7e9bafeab", 
+            "fa18173f-1157-4f3b-a1b1-39b3a45c722f", 
+            "bb359cc9-d3e3-4bbf-8ac0-3e20baf81941", 
+            "bf1b46cb-e8ea-46fb-bada-b50855f98a96", 
+            "998c465b-9814-4037-a9d4-bd8687a0c4dc"
+         ], 
+         "text" : "#baza_alenka.b716c1bd-e921-4c4c-9123-512eb80b4392"
+      }, 
+      "6190e419-30b1-4473-abbb-58f7e9bafeab" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91992", 
+            "y" : "-100759", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "7bf21db2-b22a-4f9a-94f5-7c099e581b93"
+         ], 
+         "text" : "#Baza_Alenka.6190e419-30b1-4473-abbb-58f7e9bafeab"
+      }, 
+      "7bf21db2-b22a-4f9a-94f5-7c099e581b93" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92772", 
+            "y" : "-100453", 
+            "comment" : "А39"
+         }, 
+         "child" : [ 
+            "ff49f3df-4c6b-4a2c-8ac6-a55cee05ea94", 
+            "a95d7e06-532e-450b-9af8-63e0e6628ba1", 
+            "327e8b74-4391-4f88-8863-5d927930d9a6", 
+            "7abcbbdd-aee0-4845-ae81-f026e185ccac"
+         ], 
+         "text" : "#Baza_Alenka.7bf21db2-b22a-4f9a-94f5-7c099e581b93"
+      }, 
+      "ff49f3df-4c6b-4a2c-8ac6-a55cee05ea94" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92939", 
+            "y" : "-99729", 
+            "comment" : "(перенос А40)"
+         }, 
+         "child" : [ 
+            "c04dbf89-5b4b-4d35-b7c4-435ada2a9eef"
+         ], 
+         "text" : "#Baza_Alenka.ff49f3df-4c6b-4a2c-8ac6-a55cee05ea94"
+      }, 
+      "c04dbf89-5b4b-4d35-b7c4-435ada2a9eef" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92136", 
+            "y" : "-100379", 
+            "comment" : "А40"
+         }, 
+         "child" : [ 
+            "bddce7a4-4347-4961-9990-5fa5e4a1d108", 
+            "20a114f0-f6f5-42e5-a56f-0d5ea729506f", 
+            "69216867-f12d-430f-bfc8-d8e0c4fbb60b", 
+            "09e196a6-d1e6-483f-8cc5-e62ee96ab6c8"
+         ], 
+         "text" : "#Baza_Alenka.c04dbf89-5b4b-4d35-b7c4-435ada2a9eef"
+      }, 
+      "bddce7a4-4347-4961-9990-5fa5e4a1d108" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92167", 
+            "y" : "-99984", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "7bf21db2-b22a-4f9a-94f5-7c099e581b93"
+         ], 
+         "text" : "#Baza_Alenka.bddce7a4-4347-4961-9990-5fa5e4a1d108"
+      }, 
+      "20a114f0-f6f5-42e5-a56f-0d5ea729506f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92017", 
+            "y" : "-99884", 
+            "comment" : "(перенос А41)"
+         }, 
+         "child" : [ 
+            "c3bbad63-e2c0-4c44-8204-d012f656ba6c"
+         ], 
+         "text" : "#Baza_Alenka.20a114f0-f6f5-42e5-a56f-0d5ea729506f"
+      }, 
+      "c3bbad63-e2c0-4c44-8204-d012f656ba6c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91388", 
+            "y" : "-99896"
+         }, 
+         "child" : [ 
+            "eeb3e837-74a2-4423-83d2-42c482abc4cd", 
+            "84ccc392-2189-43f4-99d1-21f90d9b381c", 
+            "98514c33-0a51-400c-8b9e-56a3a5cd5fbe", 
+            "4922dd45-ef2f-4245-a681-6958ef030031"
+         ], 
+         "text" : "#baza_alenka.c3bbad63-e2c0-4c44-8204-d012f656ba6c"
+      }, 
+      "eeb3e837-74a2-4423-83d2-42c482abc4cd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92210", 
+            "y" : "-99728", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "7bf21db2-b22a-4f9a-94f5-7c099e581b93"
+         ], 
+         "text" : "#Baza_Alenka.eeb3e837-74a2-4423-83d2-42c482abc4cd"
+      }, 
+      "84ccc392-2189-43f4-99d1-21f90d9b381c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92003", 
+            "y" : "-99631", 
+            "comment" : "(перенос А40)"
+         }, 
+         "child" : [ 
+            "c04dbf89-5b4b-4d35-b7c4-435ada2a9eef"
+         ], 
+         "text" : "#Baza_Alenka.84ccc392-2189-43f4-99d1-21f90d9b381c"
+      }, 
+      "98514c33-0a51-400c-8b9e-56a3a5cd5fbe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91696", 
+            "y" : "-99605", 
+            "comment" : "(перенос А42)"
+         }, 
+         "child" : [ 
+            "3913b026-e614-44db-81ff-76b403c55eec"
+         ], 
+         "text" : "#Baza_Alenka.98514c33-0a51-400c-8b9e-56a3a5cd5fbe"
+      }, 
+      "3913b026-e614-44db-81ff-76b403c55eec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91867", 
+            "y" : "-99484", 
+            "comment" : "А42"
+         }, 
+         "child" : [ 
+            "0e89593b-df7e-46da-a71e-daa6305423e3", 
+            "7df617f0-3d63-4c7f-b77c-ddbc386a2a1d", 
+            "d3ea6f1b-3a98-43a8-9f73-c70186f4293e", 
+            "07d98d27-ffdb-4f26-b1d9-3300c5af3403"
+         ], 
+         "text" : "#Baza_Alenka.3913b026-e614-44db-81ff-76b403c55eec"
+      }, 
+      "0e89593b-df7e-46da-a71e-daa6305423e3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92192", 
+            "y" : "-99323", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "7bf21db2-b22a-4f9a-94f5-7c099e581b93"
+         ], 
+         "text" : "#Baza_Alenka.0e89593b-df7e-46da-a71e-daa6305423e3"
+      }, 
+      "7df617f0-3d63-4c7f-b77c-ddbc386a2a1d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92013", 
+            "y" : "-99171", 
+            "comment" : "(перенос А40)"
+         }, 
+         "child" : [ 
+            "c04dbf89-5b4b-4d35-b7c4-435ada2a9eef"
+         ], 
+         "text" : "#Baza_Alenka.7df617f0-3d63-4c7f-b77c-ddbc386a2a1d"
+      }, 
+      "d3ea6f1b-3a98-43a8-9f73-c70186f4293e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91725", 
+            "y" : "-99181", 
+            "comment" : "(перенос А41)"
+         }, 
+         "child" : [ 
+            "c3bbad63-e2c0-4c44-8204-d012f656ba6c"
+         ], 
+         "text" : "#Baza_Alenka.d3ea6f1b-3a98-43a8-9f73-c70186f4293e"
+      }, 
+      "07d98d27-ffdb-4f26-b1d9-3300c5af3403" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91426", 
+            "y" : "-99165", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "21b78f09-3c21-47ee-b905-160de1f3384d"
+         ], 
+         "text" : "#Baza_Alenka.998c465b-9814-4037-a9d4-bd8687a0c4dc"
+      }, 
+      "21b78f09-3c21-47ee-b905-160de1f3384d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91634", 
+            "y" : "-101121"
+         }, 
+         "child" : [ 
+            "e687c943-5cb6-49f6-a74a-d045e2c4b3e5", 
+            "163da51a-00cb-472d-afb2-e449e0068b5f"
+         ], 
+         "text" : "#baza_alenka.21b78f09-3c21-47ee-b905-160de1f3384d"
+      }, 
+      "e687c943-5cb6-49f6-a74a-d045e2c4b3e5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91784", 
+            "y" : "-101032"
+         }, 
+         "child" : [ 
+            "1e95d883-91bc-4961-8129-58489f60b1b0"
+         ], 
+         "text" : "#baza_alenka.e687c943-5cb6-49f6-a74a-d045e2c4b3e5"
+      }, 
+      "163da51a-00cb-472d-afb2-e449e0068b5f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91369", 
+            "y" : "-101042"
+         }, 
+         "child" : [ 
+            "d75a760b-04dc-4443-b457-cc0c572cff9f"
+         ], 
+         "text" : "#baza_alenka.163da51a-00cb-472d-afb2-e449e0068b5f"
+      }, 
+      "d75a760b-04dc-4443-b457-cc0c572cff9f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-91253", 
+            "y" : "-100967"
+         }, 
+         "child" : [ 
+            "5671d9a3-cc5d-4e8f-82e8-130247b31d8a"
+         ], 
+         "key" : "MEET"
+      }, 
+      "5671d9a3-cc5d-4e8f-82e8-130247b31d8a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-91211", 
+            "y" : "-100888"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4922dd45-ef2f-4245-a681-6958ef030031" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91237", 
+            "y" : "-99709", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "21b78f09-3c21-47ee-b905-160de1f3384d"
+         ], 
+         "text" : "#Baza_Alenka.998c465b-9814-4037-a9d4-bd8687a0c4dc"
+      }, 
+      "69216867-f12d-430f-bfc8-d8e0c4fbb60b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91867", 
+            "y" : "-99984", 
+            "comment" : "(перенос А42)"
+         }, 
+         "child" : [ 
+            "3913b026-e614-44db-81ff-76b403c55eec"
+         ], 
+         "text" : "#Baza_Alenka.69216867-f12d-430f-bfc8-d8e0c4fbb60b"
+      }, 
+      "09e196a6-d1e6-483f-8cc5-e62ee96ab6c8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91926", 
+            "y" : "-100193", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "21b78f09-3c21-47ee-b905-160de1f3384d"
+         ], 
+         "text" : "#Baza_Alenka.998c465b-9814-4037-a9d4-bd8687a0c4dc"
+      }, 
+      "a95d7e06-532e-450b-9af8-63e0e6628ba1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92763", 
+            "y" : "-99574", 
+            "comment" : "(перенос А41)"
+         }, 
+         "child" : [ 
+            "c3bbad63-e2c0-4c44-8204-d012f656ba6c"
+         ], 
+         "text" : "#Baza_Alenka.a95d7e06-532e-450b-9af8-63e0e6628ba1"
+      }, 
+      "327e8b74-4391-4f88-8863-5d927930d9a6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92595", 
+            "y" : "-99700", 
+            "comment" : "(перенос А42)"
+         }, 
+         "child" : [ 
+            "3913b026-e614-44db-81ff-76b403c55eec"
+         ], 
+         "text" : "#Baza_Alenka.327e8b74-4391-4f88-8863-5d927930d9a6"
+      }, 
+      "7abcbbdd-aee0-4845-ae81-f026e185ccac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92492", 
+            "y" : "-99529", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "21b78f09-3c21-47ee-b905-160de1f3384d"
+         ], 
+         "text" : "#Baza_Alenka.998c465b-9814-4037-a9d4-bd8687a0c4dc"
+      }, 
+      "fa18173f-1157-4f3b-a1b1-39b3a45c722f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91842", 
+            "y" : "-100659", 
+            "comment" : "(перенос А40)"
+         }, 
+         "child" : [ 
+            "c04dbf89-5b4b-4d35-b7c4-435ada2a9eef"
+         ], 
+         "text" : "#Baza_Alenka.fa18173f-1157-4f3b-a1b1-39b3a45c722f"
+      }, 
+      "bb359cc9-d3e3-4bbf-8ac0-3e20baf81941" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91721", 
+            "y" : "-100709", 
+            "comment" : "(перенос А41)"
+         }, 
+         "child" : [ 
+            "c3bbad63-e2c0-4c44-8204-d012f656ba6c"
+         ], 
+         "text" : "#Baza_Alenka.bb359cc9-d3e3-4bbf-8ac0-3e20baf81941"
+      }, 
+      "bf1b46cb-e8ea-46fb-bada-b50855f98a96" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91528", 
+            "y" : "-100659", 
+            "comment" : "(перенос А42)"
+         }, 
+         "child" : [ 
+            "3913b026-e614-44db-81ff-76b403c55eec"
+         ], 
+         "text" : "#Baza_Alenka.bf1b46cb-e8ea-46fb-bada-b50855f98a96"
+      }, 
+      "998c465b-9814-4037-a9d4-bd8687a0c4dc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91393", 
+            "y" : "-100759", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "21b78f09-3c21-47ee-b905-160de1f3384d"
+         ], 
+         "text" : "#Baza_Alenka.998c465b-9814-4037-a9d4-bd8687a0c4dc"
+      }, 
+      "3b3d277b-8df0-40e4-80e3-8d1aa5516668" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-93038", 
+            "y" : "-100590"
+         }, 
+         "child" : [ 
+            "9e2e1cfe-b23d-4900-b11e-5deac362f8b8", 
+            "3bb80f93-ddda-4edc-af63-2cdbf7df7832"
+         ]
+      }, 
+      "9e2e1cfe-b23d-4900-b11e-5deac362f8b8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93261", 
+            "y" : "-100448"
+         }, 
+         "child" : [ 
+            "57d23a63-f570-4221-be61-88758e3b338f"
+         ], 
+         "text" : "#baza_alenka.9e2e1cfe-b23d-4900-b11e-5deac362f8b8"
+      }, 
+      "57d23a63-f570-4221-be61-88758e3b338f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-93096", 
+            "y" : "-100328"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3bb80f93-ddda-4edc-af63-2cdbf7df7832" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93036", 
+            "y" : "-100445"
+         }, 
+         "child" : [ 
+            "57d23a63-f570-4221-be61-88758e3b338f"
+         ], 
+         "text" : "#baza_alenka.3bb80f93-ddda-4edc-af63-2cdbf7df7832"
+      }, 
+      "21015fd3-14ed-4712-ad2f-1d17f142dad6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92841", 
+            "y" : "-100840"
+         }, 
+         "child" : [ 
+            "8e08d375-cbe9-47d4-b849-a15af66d9a19"
+         ], 
+         "text" : "#baza_alenka.21015fd3-14ed-4712-ad2f-1d17f142dad6"
+      }, 
+      "8e08d375-cbe9-47d4-b849-a15af66d9a19" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92856", 
+            "y" : "-100740"
+         }, 
+         "child" : [ 
+            "686db365-f5d8-4208-81ca-b0e3569efb2d", 
+            "48629fd7-6ee2-43ab-80db-691182b7e880", 
+            "3b3d277b-8df0-40e4-80e3-8d1aa5516668"
+         ], 
+         "text" : "#baza_alenka.8e08d375-cbe9-47d4-b849-a15af66d9a19"
+      }, 
+      "686db365-f5d8-4208-81ca-b0e3569efb2d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92896", 
+            "y" : "-100651"
+         }, 
+         "child" : [ 
+            "a5c786fc-2049-483a-bd73-e7bd2207a8f4"
+         ], 
+         "text" : "#baza_alenka.686db365-f5d8-4208-81ca-b0e3569efb2d"
+      }, 
+      "56e84699-e43d-4006-be31-ec5ce3e02fe1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92730", 
+            "y" : "-101256"
+         }, 
+         "child" : [ 
+            "b716c1bd-e921-4c4c-9123-512eb80b4392"
+         ], 
+         "text" : "#baza_alenka.56e84699-e43d-4006-be31-ec5ce3e02fe1"
+      }, 
+      "ff97ea5a-7f3b-44bf-8196-1f6cffd9469e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92442", 
+            "y" : "-101268"
+         }, 
+         "child" : [ 
+            "966dbfba-ae47-4d15-a155-47b189b968a4"
+         ], 
+         "text" : "#baza_alenka.ff97ea5a-7f3b-44bf-8196-1f6cffd9469e"
+      }, 
+      "966dbfba-ae47-4d15-a155-47b189b968a4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-92406", 
+            "y" : "-101175"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2a812b6b-b5d8-4035-baff-3cc650cf0047" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92091", 
+            "y" : "-101564"
+         }, 
+         "child" : [ 
+            "8443aff2-bcf0-437b-8be5-9da7bceb6c5d"
+         ], 
+         "text" : "#baza_alenka.2a812b6b-b5d8-4035-baff-3cc650cf0047"
+      }, 
+      "8443aff2-bcf0-437b-8be5-9da7bceb6c5d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92085", 
+            "y" : "-101477"
+         }, 
+         "child" : [ 
+            "d10277fa-2608-4517-af1a-17d5f4abd07c", 
+            "8f34bded-226c-4a17-a86d-d9a95fa4fdc2", 
+            "a2fa334d-ae6c-4ed0-86d3-84b9a792978b"
+         ], 
+         "text" : "#baza_alenka.8443aff2-bcf0-437b-8be5-9da7bceb6c5d"
+      }, 
+      "d10277fa-2608-4517-af1a-17d5f4abd07c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92348", 
+            "y" : "-100962"
+         }, 
+         "child" : [ 
+            "1e95d883-91bc-4961-8129-58489f60b1b0"
+         ], 
+         "text" : "#baza_alenka.d10277fa-2608-4517-af1a-17d5f4abd07c"
+      }, 
+      "8f34bded-226c-4a17-a86d-d9a95fa4fdc2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92114", 
+            "y" : "-100956"
+         }, 
+         "child" : [ 
+            "b716c1bd-e921-4c4c-9123-512eb80b4392"
+         ], 
+         "text" : "#baza_alenka.8f34bded-226c-4a17-a86d-d9a95fa4fdc2"
+      }, 
+      "a2fa334d-ae6c-4ed0-86d3-84b9a792978b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91952", 
+            "y" : "-101285"
+         }, 
+         "child" : [ 
+            "af39cb89-2205-457d-b23b-050eab1e5508"
+         ], 
+         "text" : "#baza_alenka.a2fa334d-ae6c-4ed0-86d3-84b9a792978b"
+      }, 
+      "af39cb89-2205-457d-b23b-050eab1e5508" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-91898", 
+            "y" : "-101218"
+         }, 
+         "child" : [ 
+            "ff111085-3de3-43eb-95a9-e4a41e6b0f22"
+         ], 
+         "key" : "MEET"
+      }, 
+      "ff111085-3de3-43eb-95a9-e4a41e6b0f22" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-91898", 
+            "y" : "-101147"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0f69eee1-a29f-41c1-90d6-b6e9dd108c97" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91827", 
+            "y" : "-101645"
+         }, 
+         "child" : [ 
+            "b716c1bd-e921-4c4c-9123-512eb80b4392"
+         ], 
+         "text" : "#baza_alenka.0f69eee1-a29f-41c1-90d6-b6e9dd108c97"
+      }, 
+      "79254512-1a94-4e0b-b226-e60924e7c84e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91550", 
+            "y" : "-101501"
+         }, 
+         "child" : [ 
+            "c519dbc0-be53-4ae9-b1f3-47ea5f189309"
+         ], 
+         "text" : "#baza_alenka.79254512-1a94-4e0b-b226-e60924e7c84e"
+      }, 
+      "c519dbc0-be53-4ae9-b1f3-47ea5f189309" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-91442", 
+            "y" : "-101388"
+         }, 
+         "child" : [ 
+            "e712165a-9253-4e7e-81cc-c2f0570ed601"
+         ], 
+         "key" : "MEET"
+      }, 
+      "e712165a-9253-4e7e-81cc-c2f0570ed601" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-91400", 
+            "y" : "-101309"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "a44de25e-fac9-4741-b244-d7b64f6a371f"
+}

@@ -1,0 +1,331 @@
+{ 
+   "states" : { 
+      "bf35b3ef-546f-477c-bb2c-fa3fb22f417d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101508", 
+            "y" : "-100978"
+         }, 
+         "child" : [ 
+            "295ed280-5ebe-40bf-a2f7-df754920b309", 
+            "f3aaa891-6a5f-486b-af4b-eabbe583f27d", 
+            "2f6f3523-19f8-4555-a332-f93fb0ebb060", 
+            "40a0dd31-b912-4da4-952f-70ff28fcfc8f", 
+            "f071fe30-eedf-4c81-96a2-87b97a7dfac9", 
+            "c8cdbde5-1c7d-4795-a6a6-a094a2c7c7ff"
+         ]
+      }, 
+      "295ed280-5ebe-40bf-a2f7-df754920b309" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101902", 
+            "y" : "-100734"
+         }, 
+         "child" : [ 
+            "e62e61b6-c510-4327-9a29-28948d775ece", 
+            "94c57149-3045-4f87-a36d-df449adc3686"
+         ], 
+         "key" : "HIDE_ROOF1"
+      }, 
+      "e62e61b6-c510-4327-9a29-28948d775ece" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101918", 
+            "y" : "-100484"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Grib_Roof_1", 
+         "active" : "false"
+      }, 
+      "94c57149-3045-4f87-a36d-df449adc3686" : { 
+         "class" : "OnLockInteractEventNode", 
+         "desc" : { 
+            "x" : "-101860", 
+            "y" : "-100628"
+         }, 
+         "child" : [ 
+            "9cd0fca5-300c-4b9d-af84-f892c913c1bf"
+         ], 
+         "targetName" : "Lab_Door_Blue (11)", 
+         "interactType" : "LockOpen"
+      }, 
+      "9cd0fca5-300c-4b9d-af84-f892c913c1bf" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101812", 
+            "y" : "-100557"
+         }, 
+         "child" : [ 
+            "e62e61b6-c510-4327-9a29-28948d775ece"
+         ], 
+         "key" : "HIDE_ROOF1"
+      }, 
+      "f3aaa891-6a5f-486b-af4b-eabbe583f27d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101633", 
+            "y" : "-100740"
+         }, 
+         "child" : [ 
+            "a04a94bc-9c18-42ba-99f4-e17a204e7360", 
+            "55eff798-7fec-44a3-a048-9dabcd771ae4"
+         ], 
+         "key" : "HIDE_ROOF2"
+      }, 
+      "a04a94bc-9c18-42ba-99f4-e17a204e7360" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101649", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Grib_Roof_2", 
+         "active" : "false"
+      }, 
+      "55eff798-7fec-44a3-a048-9dabcd771ae4" : { 
+         "class" : "OnLockInteractEventNode", 
+         "desc" : { 
+            "x" : "-101590", 
+            "y" : "-100627"
+         }, 
+         "child" : [ 
+            "282702ef-de70-4d60-bd2b-6f3312484e1e"
+         ], 
+         "targetName" : "Lab_Door_Blue (13)", 
+         "interactType" : "LockOpen"
+      }, 
+      "282702ef-de70-4d60-bd2b-6f3312484e1e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101543", 
+            "y" : "-100557"
+         }, 
+         "child" : [ 
+            "a04a94bc-9c18-42ba-99f4-e17a204e7360"
+         ], 
+         "key" : "HIDE_ROOF2"
+      }, 
+      "2f6f3523-19f8-4555-a332-f93fb0ebb060" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-101338", 
+            "y" : "-100735"
+         }, 
+         "child" : [ 
+            "cffd9e80-82d9-4f4b-8960-a9cceaeaf168"
+         ], 
+         "targetName" : "CTalk", 
+         "targetFractionName" : ""
+      }, 
+      "cffd9e80-82d9-4f4b-8960-a9cceaeaf168" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101339", 
+            "y" : "-100664"
+         }, 
+         "child" : [ 
+            "013eb095-10e6-4daa-9a32-6e05538362d5", 
+            "5860b7db-943b-4832-acb1-babc1383787b", 
+            "1098dd26-d794-4b33-b160-7a563596738f"
+         ], 
+         "quest_key" : "CULT_CANYON"
+      }, 
+      "013eb095-10e6-4daa-9a32-6e05538362d5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-100510"
+         }, 
+         "child" : [ 
+            "0644f977-089f-497d-8ad8-4134dcd35ca0"
+         ], 
+         "quest_key" : "CULT_CANYON"
+      }, 
+      "0644f977-089f-497d-8ad8-4134dcd35ca0" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-101374", 
+            "y" : "-100456"
+         }, 
+         "child" : [ 
+            "81705245-ccaf-436c-8f1a-304180fe5022"
+         ], 
+         "quest_key" : "CULT_CANYON.END2"
+      }, 
+      "81705245-ccaf-436c-8f1a-304180fe5022" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101222", 
+            "y" : "-100339"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "MAIN.CANYON"
+      }, 
+      "5860b7db-943b-4832-acb1-babc1383787b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101329", 
+            "y" : "-100580"
+         }, 
+         "child" : [ 
+            "81705245-ccaf-436c-8f1a-304180fe5022"
+         ]
+      }, 
+      "1098dd26-d794-4b33-b160-7a563596738f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101298", 
+            "y" : "-100545"
+         }, 
+         "child" : [ 
+            "81705245-ccaf-436c-8f1a-304180fe5022"
+         ]
+      }, 
+      "40a0dd31-b912-4da4-952f-70ff28fcfc8f" : { 
+         "class" : "PlayerTakeItemEventNode", 
+         "desc" : { 
+            "x" : "-101171", 
+            "y" : "-100732"
+         }, 
+         "child" : [ 
+            "dc9532f8-295e-4c24-aa25-dcf1bfeab5e6"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "VVE", 
+            "ammo" : { 
+               "count" : "7", 
+               "proto" : "6_49mm_JHP"
+            }
+         }
+      }, 
+      "dc9532f8-295e-4c24-aa25-dcf1bfeab5e6" : { 
+         "class" : "SteamAchievementNode", 
+         "desc" : { 
+            "x" : "-101166", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+         ], 
+         "achievement" : "VVE"
+      }, 
+      "f071fe30-eedf-4c81-96a2-87b97a7dfac9" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-100997", 
+            "y" : "-100727"
+         }, 
+         "child" : [ 
+            "b3a9dadb-8af1-441a-a86c-251fb431f8f8"
+         ], 
+         "filterMode" : "Victim", 
+         "victimName" : "", 
+         "victimFractionName" : "canyon_team", 
+         "victimPrototypeName" : ""
+      }, 
+      "b3a9dadb-8af1-441a-a86c-251fb431f8f8" : { 
+         "class" : "DoorIsOpenNode", 
+         "desc" : { 
+            "x" : "-100989", 
+            "y" : "-100640"
+         }, 
+         "child" : [ 
+            "0885a0d4-2128-4cbf-bace-8696d715ba2b", 
+            "1bad9c01-0917-4c8c-8d61-e61e35a17a0c"
+         ], 
+         "objectName" : "Lab_Door_Blue (13)"
+      }, 
+      "0885a0d4-2128-4cbf-bace-8696d715ba2b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-100556"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1bad9c01-0917-4c8c-8d61-e61e35a17a0c" : { 
+         "class" : "LockDoorLockerNode", 
+         "desc" : { 
+            "x" : "-100949", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+         ], 
+         "lockLevel" : "1", 
+         "objectName" : "Lab_Door_Blue (13)"
+      }, 
+      "c8cdbde5-1c7d-4795-a6a6-a094a2c7c7ff" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100662", 
+            "y" : "-100810"
+         }, 
+         "child" : [ 
+            "1f7731a6-7e8e-48f9-8a7b-d4530455282f"
+         ]
+      }, 
+      "1f7731a6-7e8e-48f9-8a7b-d4530455282f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100659", 
+            "y" : "-100706"
+         }, 
+         "child" : [ 
+            "ad57a11f-66bf-4d26-99cf-af1fe76c249d", 
+            "8d03a805-b5ba-4f8c-a082-20564fcc28eb"
+         ], 
+         "note_key" : "FST_CANYON_BUNKER"
+      }, 
+      "ad57a11f-66bf-4d26-99cf-af1fe76c249d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100697", 
+            "y" : "-100597"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8d03a805-b5ba-4f8c-a082-20564fcc28eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100535", 
+            "y" : "-100589"
+         }, 
+         "child" : [ 
+            "dd8604db-f0fd-44c4-aa1c-136595ad4fef"
+         ]
+      }, 
+      "dd8604db-f0fd-44c4-aa1c-136595ad4fef" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100542", 
+            "y" : "-100526"
+         }, 
+         "child" : [ 
+            "1a592845-2801-49f1-8faa-b853681a29d7"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt2"
+         }, 
+         "objectName" : "Shelf_5 (2)"
+      }, 
+      "1a592845-2801-49f1-8faa-b853681a29d7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100558", 
+            "y" : "-100423"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "FST_CANYON_BUNKER"
+      }
+   }, 
+   "entry" : "bf35b3ef-546f-477c-bb2c-fa3fb22f417d"
+}

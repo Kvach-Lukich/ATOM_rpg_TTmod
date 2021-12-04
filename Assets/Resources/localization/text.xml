@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<?mso-application progid="Excel.Sheet"?>
+
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+xmlns:o="urn:schemas-microsoft-com:office:office" 
+xmlns:x="urn:schemas-microsoft-com:office:excel" 
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+xmlns:html="http://www.w3.org/TR/REC-html40">
+
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+
+<ProtectStructure>False</ProtectStructure>
+
+<ProtectWindows>False</ProtectWindows>
+
+</ExcelWorkbook>
+
+<Styles><Style ss:ID="s74"><Alignment ss:Vertical="Bottom"/><Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/></Style></Styles>
+<Worksheet ss:Name="WorkSheet">
+<Table>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">citysub_simon_shpak</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Расскажи о вашем картеле, где у вас ещё есть филиалы?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Да по всем пустошам: от Ущелья бед до Мёртвого города и даже в Перегоне</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Здорово, ну, мне пора</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Здорово, у меня ещё пару вопросов</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">harbor_ticketman</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Возможно у вас есть какие то не решённые проблемы, я ищу подработку</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Пожалуй у меня есть небольшое поручение для человека вроде вас, который много путешествует</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Внимательно слушаю...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Оплата не большая, но и поручение не сложное - нужно разузнать что происходит в местечке под названием Тоннель смерти</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">А я там уже бывал</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Тогда расскажите почему кроме вас от туда никто не вернулся из сталкеров?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Конечно, потому что там пролизующе токсичные испарения, жуткая радиация и огромные радиоктивные монстры</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Какой ужас</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Протягиваете чиновнику записку згинувшего сталкера]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Теперь понятно, вот вам за старания, 200 рублей и немного патронов, что остались от прошлых искателей преключений, думаю им они уже не понадобятся</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Спасибо, мне снова пора в дорогу</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ни чего себе название!</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Вам нужно разузнать почему, сталкеры уходят туда и больше не возвращаются и если найдёте полезные записи - обязательно дайте знать</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">С удовольствем прогуляюсь в новые места [Помечаете у себя на крте -  Тоннель смерти]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Отлично</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Скоро вернусь [уходите]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">По поводу вашего поручения</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Вы узнали почему никто от туда не возвращается?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Пока нет</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_gazmask</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Что может быть лучше старых добрых противогазов - один новый!</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_tt</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Эта схема модификации пистолета ТТ </Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">tunnel_memo_2</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Эту записку следует показать в ближайшем населённом пункте, наверняка этих людей кто-то ищет</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[эту записку лучше сохранить и не продавать]</Data></Cell></Row>
+</Table></Worksheet></Workbook>

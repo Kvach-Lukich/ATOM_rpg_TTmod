@@ -1,0 +1,357 @@
+{ 
+   "states" : { 
+      "23973998-23d6-448a-8e36-c334ad9c2911" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101487", 
+            "y" : "-100997"
+         }, 
+         "child" : [ 
+            "a701d0da-16b1-4c7a-a521-b9da7380ee39", 
+            "0fa8929a-fe84-4cf3-b547-7bd38e38d1ae", 
+            "bf257a70-69f3-4a7e-934a-df47737e038d", 
+            "6b80a2dd-6bd3-4c77-aba6-1b6fe75ea357", 
+            "eb85402e-2f8c-403e-a15c-fb9633cf8acb"
+         ]
+      }, 
+      "a701d0da-16b1-4c7a-a521-b9da7380ee39" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101818", 
+            "y" : "-100671"
+         }, 
+         "child" : [ 
+            "d0bab9ac-38c3-4b61-b738-cd8e58e5d015", 
+            "a2b80e77-b0ee-4f3a-ade0-d50e9ccd9750"
+         ], 
+         "key" : "LOG_3"
+      }, 
+      "d0bab9ac-38c3-4b61-b738-cd8e58e5d015" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101836", 
+            "y" : "-100599"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a2b80e77-b0ee-4f3a-ade0-d50e9ccd9750" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-101849", 
+            "y" : "-100564"
+         }, 
+         "child" : [ 
+            "29555378-fc91-4eaf-bded-0efab8d67d8e"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "3", 
+         "objectName" : "Monster_trigger"
+      }, 
+      "29555378-fc91-4eaf-bded-0efab8d67d8e" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101938", 
+            "y" : "-100444"
+         }, 
+         "child" : [ 
+            "dc393198-ce17-4148-a447-e86dfe5c415e"
+         ], 
+         "text" : "#Ruins.Bunker.Level2.29555378-fc91-4eaf-bded-0efab8d67d8e"
+      }, 
+      "dc393198-ce17-4148-a447-e86dfe5c415e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101801", 
+            "y" : "-100391"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "LOG_3"
+      }, 
+      "0fa8929a-fe84-4cf3-b547-7bd38e38d1ae" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101487", 
+            "y" : "-100449"
+         }, 
+         "child" : [ 
+            "ee926fcd-612c-4741-8bbc-df8a2811ff9c", 
+            "18bf76ca-f8b4-4ee1-8ca4-87a7e9affbae"
+         ], 
+         "key" : "LOG_2"
+      }, 
+      "ee926fcd-612c-4741-8bbc-df8a2811ff9c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101504", 
+            "y" : "-100379"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "18bf76ca-f8b4-4ee1-8ca4-87a7e9affbae" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-101520", 
+            "y" : "-100346"
+         }, 
+         "child" : [ 
+            "49d2ca41-40bb-4e12-9c2c-8a8c6cb337fe"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "3", 
+         "objectName" : "Atom_trigger"
+      }, 
+      "49d2ca41-40bb-4e12-9c2c-8a8c6cb337fe" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-100224"
+         }, 
+         "child" : [ 
+            "e03cce00-8a3b-488a-a416-b53b1cda96a8"
+         ], 
+         "text" : "#Ruins.Bunker.Level2.49d2ca41-40bb-4e12-9c2c-8a8c6cb337fe"
+      }, 
+      "e03cce00-8a3b-488a-a416-b53b1cda96a8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101472", 
+            "y" : "-100170"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "LOG_2"
+      }, 
+      "bf257a70-69f3-4a7e-934a-df47737e038d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101165", 
+            "y" : "-100668"
+         }, 
+         "child" : [ 
+            "9380b44b-380f-4ac6-ba00-dcfde920c12e", 
+            "d0732d0d-d469-4b8f-982f-a539bbfb76f1"
+         ], 
+         "key" : "LOG_1"
+      }, 
+      "9380b44b-380f-4ac6-ba00-dcfde920c12e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101182", 
+            "y" : "-100598"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0732d0d-d469-4b8f-982f-a539bbfb76f1" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-101196", 
+            "y" : "-100563"
+         }, 
+         "child" : [ 
+            "fa9d9f4d-dcfe-4e58-9827-516b18e1a49d"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "5", 
+         "objectName" : "Ant_Dead_1"
+      }, 
+      "fa9d9f4d-dcfe-4e58-9827-516b18e1a49d" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101330", 
+            "y" : "-100443"
+         }, 
+         "child" : [ 
+            "aa8a5489-d1ad-429d-8438-e5333f93c695"
+         ], 
+         "text" : "#Ruins.Bunker.Level2.fa9d9f4d-dcfe-4e58-9827-516b18e1a49d"
+      }, 
+      "aa8a5489-d1ad-429d-8438-e5333f93c695" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101148", 
+            "y" : "-100389"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "LOG_1"
+      }, 
+      "6b80a2dd-6bd3-4c77-aba6-1b6fe75ea357" : { 
+         "class" : "DestroyDestructibleNode", 
+         "desc" : { 
+            "x" : "-100932", 
+            "y" : "-100743"
+         }, 
+         "child" : [ 
+            "c202621c-ae20-40e5-b646-7bf046a051d2"
+         ], 
+         "targetName" : "Bookcase_glass_special", 
+         "targetFractionName" : ""
+      }, 
+      "c202621c-ae20-40e5-b646-7bf046a051d2" : { 
+         "class" : "SteamAchievementNode", 
+         "desc" : { 
+            "x" : "-100888", 
+            "y" : "-100608"
+         }, 
+         "child" : [ 
+         ], 
+         "achievement" : "SECRET_ROOM"
+      }, 
+      "eb85402e-2f8c-403e-a15c-fb9633cf8acb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100655", 
+            "y" : "-100872"
+         }, 
+         "child" : [ 
+            "88da13d6-dddc-49aa-9b3d-5c31b515f793"
+         ]
+      }, 
+      "88da13d6-dddc-49aa-9b3d-5c31b515f793" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100654", 
+            "y" : "-100803"
+         }, 
+         "child" : [ 
+            "8b21def2-51d0-4ec6-92df-342496512083", 
+            "26ca29b6-b892-406c-919e-cc23cdea192a"
+         ], 
+         "key" : "FST_RUINBUNKER"
+      }, 
+      "8b21def2-51d0-4ec6-92df-342496512083" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100625", 
+            "y" : "-100687"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "26ca29b6-b892-406c-919e-cc23cdea192a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100366", 
+            "y" : "-100758"
+         }, 
+         "child" : [ 
+            "94399708-8ad8-4e9e-b8e9-8b408a1a8dfa", 
+            "46a91ac1-1a5d-4682-91ce-b45e2ad02cfc", 
+            "74f7e683-c738-4ad5-9b90-39100d70c70f", 
+            "db61dc12-e178-4cec-a6a2-8825da9da18d", 
+            "a972a886-53b7-4e4a-8c91-ce2e6c29e1cf", 
+            "2744673f-ca01-427f-94b1-f9e459fd7a47", 
+            "92612941-1db3-4cc6-b8f4-80911c684ad8"
+         ]
+      }, 
+      "94399708-8ad8-4e9e-b8e9-8b408a1a8dfa" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100562", 
+            "y" : "-100638"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_anarchist_cookbook"
+         }, 
+         "objectName" : "Locker_big_med (1)"
+      }, 
+      "46a91ac1-1a5d-4682-91ce-b45e2ad02cfc" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100384", 
+            "y" : "-100641"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "gauss_book"
+         }, 
+         "objectName" : "Scientist_DeadWoman"
+      }, 
+      "74f7e683-c738-4ad5-9b90-39100d70c70f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100214", 
+            "y" : "-100623"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "FST_RUINBUNKER"
+      }, 
+      "db61dc12-e178-4cec-a6a2-8825da9da18d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100068", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "dynamitestick", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "none"
+            }
+         }, 
+         "objectName" : "Locker_big_med (3)"
+      }, 
+      "a972a886-53b7-4e4a-8c91-ce2e6c29e1cf" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99918", 
+            "y" : "-100630"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "AlarmClock"
+         }, 
+         "objectName" : "Locker_big_med (3)"
+      }, 
+      "2744673f-ca01-427f-94b1-f9e459fd7a47" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99763", 
+            "y" : "-100630"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "battary"
+         }, 
+         "objectName" : "Locker_big_med (3)"
+      }, 
+      "92612941-1db3-4cc6-b8f4-80911c684ad8" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99611", 
+            "y" : "-100625"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "wires"
+         }, 
+         "objectName" : "Locker_big_med (3)"
+      }
+   }, 
+   "entry" : "23973998-23d6-448a-8e36-c334ad9c2911"
+}

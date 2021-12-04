@@ -1,0 +1,134 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-101156", 
+            "y" : "-100964"
+         }, 
+         "child" : [ 
+            "b70efd4d-ccc1-4878-af44-0f7f870daf4a"
+         ]
+      }, 
+      "b70efd4d-ccc1-4878-af44-0f7f870daf4a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101156", 
+            "y" : "-100907"
+         }, 
+         "child" : [ 
+            "2b52d0cd-e905-44d5-827f-8d50c9122f06"
+         ]
+      }, 
+      "2b52d0cd-e905-44d5-827f-8d50c9122f06" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101165", 
+            "y" : "-100845"
+         }, 
+         "child" : [ 
+            "4b0fc032-6eb0-4b61-a78a-7c44095df68a", 
+            "f4240c2d-2c33-4d68-8599-fd3f6e2175bd"
+         ], 
+         "note_key" : "Q_GAUSS_T"
+      }, 
+      "4b0fc032-6eb0-4b61-a78a-7c44095df68a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101429", 
+            "y" : "-100745"
+         }, 
+         "child" : [ 
+            "4ebf2de0-0f84-49d3-813d-e407dbfbe19d"
+         ]
+      }, 
+      "4ebf2de0-0f84-49d3-813d-e407dbfbe19d" : { 
+         "class" : "CharacterRemoveEffectNode", 
+         "desc" : { 
+            "x" : "-101457", 
+            "y" : "-100693"
+         }, 
+         "child" : [ 
+            "5e437239-bdc7-4d7c-8452-24740004786e"
+         ], 
+         "proto" : "e_gauss_book", 
+         "objectName" : "Player"
+      }, 
+      "5e437239-bdc7-4d7c-8452-24740004786e" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-101441", 
+            "y" : "-100610"
+         }, 
+         "child" : [ 
+            "6bd73ed9-b064-4d5c-8d70-631b4050d0ec"
+         ], 
+         "proto" : "e_gauss_book"
+      }, 
+      "6bd73ed9-b064-4d5c-8d70-631b4050d0ec" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101490", 
+            "y" : "-100498"
+         }, 
+         "child" : [ 
+            "a74b9e05-ec51-4725-94a1-e030d59e3001"
+         ], 
+         "text" : "#gauss_book.6bd73ed9-b064-4d5c-8d70-631b4050d0ec"
+      }, 
+      "a74b9e05-ec51-4725-94a1-e030d59e3001" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101615", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#gauss_book.a74b9e05-ec51-4725-94a1-e030d59e3001"
+      }, 
+      "f4240c2d-2c33-4d68-8599-fd3f6e2175bd" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100953", 
+            "y" : "-100679"
+         }, 
+         "child" : [ 
+            "8b7ef5f2-74da-4e86-8fe6-6d80f0b08cf2", 
+            "b6c39d78-a5d5-4ad8-92dc-d47ef88752ff", 
+            "e5c0ae41-6f5a-4c3c-9c4e-16918aace845"
+         ], 
+         "quest_key" : "Q_GAUSS"
+      }, 
+      "8b7ef5f2-74da-4e86-8fe6-6d80f0b08cf2" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101083", 
+            "y" : "-100459"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#gauss_book.8b7ef5f2-74da-4e86-8fe6-6d80f0b08fff"
+      }, 
+      "b6c39d78-a5d5-4ad8-92dc-d47ef88752ff" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-100537"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e5c0ae41-6f5a-4c3c-9c4e-16918aace845" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100800", 
+            "y" : "-100546"
+         }, 
+         "child" : [ 
+            "8b7ef5f2-74da-4e86-8fe6-6d80f0b08cf2"
+         ], 
+         "quest_key" : "Q_GAUSS"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}
