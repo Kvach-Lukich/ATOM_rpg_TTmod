@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: -511475696, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Flash: {fileID: 6116273623762196797, guid: 4b78f2c7e50cdd54a8dcbbd6a6ef7002, type: 3}
+  Flash: {fileID: 0}
   FlashSlot: {fileID: 7473705150279458978}
   ReloadOn: {fileID: 0}
   ReloadOff: {fileID: 0}

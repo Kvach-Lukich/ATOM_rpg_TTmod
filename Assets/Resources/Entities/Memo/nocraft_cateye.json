@@ -1,0 +1,37 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-101716", 
+            "y" : "-101119"
+         }, 
+         "child" : [ 
+            "760167bc-2795-4fe9-b1bd-8e521ef1365a"
+         ]
+      }, 
+      "760167bc-2795-4fe9-b1bd-8e521ef1365a" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101771", 
+            "y" : "-101073"
+         }, 
+         "child" : [ 
+            "92818219-5a8e-4db3-b267-bb9490df6f62"
+         ], 
+         "text" : "#nocraft_cateye.760167bc-2795-4fe9-b1bd-8e521ef1365a"
+      }, 
+      "92818219-5a8e-4db3-b267-bb9490df6f62" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-101722", 
+            "y" : "-100964"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "cateye", 
+         "showMsg" : "true"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

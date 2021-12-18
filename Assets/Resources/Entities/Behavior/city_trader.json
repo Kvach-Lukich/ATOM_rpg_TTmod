@@ -51,7 +51,7 @@
       "e2efae5a-5408-4e96-9ab9-a4426c1135bd" : { 
          "class" : "InventoryLootNode", 
          "desc" : { 
-            "x" : "-100750", 
+            "x" : "-100722", 
             "y" : "-100210"
          }, 
          "child" : [ 
@@ -63,8 +63,8 @@
       "152cb559-0710-4845-abac-4f2205a3a3bd" : { 
          "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-100457", 
-            "y" : "-100129"
+            "x" : "-100451", 
+            "y" : "-100116"
          }, 
          "child" : [ 
             "4f8a2be0-71ed-4d1f-b7a1-a8b01eb5f566", 
@@ -76,8 +76,8 @@
       "4f8a2be0-71ed-4d1f-b7a1-a8b01eb5f566" : { 
          "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-100522", 
-            "y" : "-100019"
+            "x" : "-100514", 
+            "y" : "-99986"
          }, 
          "child" : [ 
             "d813a375-62ff-495c-a975-fd16996f7613", 
@@ -100,8 +100,8 @@
       "7bd8943c-d536-478e-a0b3-e9cea0949774" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100633", 
-            "y" : "-99412"
+            "x" : "-100567", 
+            "y" : "-99596"
          }, 
          "child" : [ 
             "4b821ffc-ba93-4068-8557-e964c7a8c966", 
@@ -112,23 +112,8 @@
       "4b821ffc-ba93-4068-8557-e964c7a8c966" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100824", 
-            "y" : "-99271"
-         }, 
-         "child" : [ 
-            "66bd7d63-f9e4-42be-aa5a-62d1fd657dc4", 
-            "42f9a3af-3401-4509-89c8-9f1d23bc04a7", 
-            "15ec3edd-95ed-4fc4-a7df-ef75715f6c7d", 
-            "ffbe964e-28be-462d-8609-38f1fdaced59", 
-            "39d07b7c-d15b-4c50-84bc-f860e75fa784", 
-            "e52c5bf5-4c2e-4011-b5ac-49656997fbfd"
-         ]
-      }, 
-      "66bd7d63-f9e4-42be-aa5a-62d1fd657dc4" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101154", 
-            "y" : "-99240"
+            "x" : "-100815", 
+            "y" : "-99273"
          }, 
          "child" : [ 
             "ffbe964e-28be-462d-8609-38f1fdaced59"
@@ -238,8 +223,8 @@
       "768d644d-03dd-442c-a0e7-1d6d3b07c7ce" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101041", 
-            "y" : "-99101"
+            "x" : "-101046", 
+            "y" : "-99084"
          }, 
          "child" : [ 
          ], 
@@ -354,25 +339,16 @@
             "y" : "-98891"
          }, 
          "child" : [ 
-            "aee6645d-4305-409f-92de-d24d17af7cc8", 
+            "f5a287ac-e7c1-4021-b185-934391f5d422", 
             "40ede2c4-12eb-474d-8e21-32a9d32a0f2e", 
             "eade0f6f-a4d0-44a1-8930-94fa3badeadf"
          ]
       }, 
-      "aee6645d-4305-409f-92de-d24d17af7cc8" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100566", 
-            "y" : "-98865"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "40ede2c4-12eb-474d-8e21-32a9d32a0f2e" : { 
+      "f5a287ac-e7c1-4021-b185-934391f5d422" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100416", 
-            "y" : "-98833"
+            "x" : "-100530", 
+            "y" : "-98841"
          }, 
          "child" : [ 
          ], 
@@ -380,6 +356,20 @@
             "class" : "Ammo", 
             "count" : "9", 
             "proto" : "7mm_54R"
+         }
+      }, 
+      "40ede2c4-12eb-474d-8e21-32a9d32a0f2e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100401", 
+            "y" : "-98792"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "7mm_54R_AP"
          }
       }, 
       "eade0f6f-a4d0-44a1-8930-94fa3badeadf" : { 
@@ -528,8 +518,8 @@
       "31a12805-484f-4a6f-a395-0429f4422ada" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100661", 
-            "y" : "-98613"
+            "x" : "-100665", 
+            "y" : "-98616"
          }, 
          "child" : [ 
          ], 
@@ -552,46 +542,6 @@
             "count" : "30", 
             "proto" : "7_62mm_JHP"
          }
-      }, 
-      "42f9a3af-3401-4509-89c8-9f1d23bc04a7" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101033", 
-            "y" : "-99245"
-         }, 
-         "child" : [ 
-            "ffbe964e-28be-462d-8609-38f1fdaced59"
-         ]
-      }, 
-      "15ec3edd-95ed-4fc4-a7df-ef75715f6c7d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100919", 
-            "y" : "-99230"
-         }, 
-         "child" : [ 
-            "ffbe964e-28be-462d-8609-38f1fdaced59"
-         ]
-      }, 
-      "39d07b7c-d15b-4c50-84bc-f860e75fa784" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100717", 
-            "y" : "-99232"
-         }, 
-         "child" : [ 
-            "ffbe964e-28be-462d-8609-38f1fdaced59"
-         ]
-      }, 
-      "e52c5bf5-4c2e-4011-b5ac-49656997fbfd" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100599", 
-            "y" : "-99232"
-         }, 
-         "child" : [ 
-            "ffbe964e-28be-462d-8609-38f1fdaced59"
-         ]
       }, 
       "60be273c-b8d9-40f9-bac6-da1e29227b52" : { 
          "class" : "RandomNode", 
@@ -728,7 +678,7 @@
          "class" : "InventoryAddItemNode", 
          "desc" : { 
             "x" : "-99236", 
-            "y" : "-99084"
+            "y" : "-99085"
          }, 
          "child" : [ 
          ], 
@@ -1008,8 +958,8 @@
       "eaf8e9ea-3e89-4280-95fd-c729d0165d16" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99296", 
-            "y" : "-98947"
+            "x" : "-99272", 
+            "y" : "-98963"
          }, 
          "child" : [ 
          ]
@@ -1099,7 +1049,8 @@
                "proto" : "M24"
             }
          ], 
-         "inventoryObject" : ""
+         "inventoryObject" : "", 
+         "random" : "true"
       }, 
       "fe04d061-f675-42ba-b3f0-3f094b27eda8" : { 
          "class" : "InventoryAddItemNode", 
@@ -1348,8 +1299,8 @@
       "1422ef1c-e77e-47b5-a706-d4fddb0eb58e" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99550", 
-            "y" : "-99478"
+            "x" : "-99544", 
+            "y" : "-99479"
          }, 
          "child" : [ 
          ], 
@@ -1398,8 +1349,8 @@
       "c08dec52-10b9-46a4-b3ad-d36459916f37" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100337", 
-            "y" : "-99125"
+            "x" : "-100373", 
+            "y" : "-99142"
          }, 
          "child" : [ 
          ]
@@ -1407,8 +1358,8 @@
       "5816084c-3392-43d7-ad79-0eb7369e85ae" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100215", 
-            "y" : "-99045"
+            "x" : "-100296", 
+            "y" : "-99061"
          }, 
          "child" : [ 
          ], 
@@ -1425,8 +1376,8 @@
       "b392b6ae-59f7-4d88-baf4-42d9afe46e90" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100229", 
-            "y" : "-99136"
+            "x" : "-100201", 
+            "y" : "-99129"
          }, 
          "child" : [ 
          ]
@@ -1434,8 +1385,8 @@
       "72bed1a5-fe46-42e6-8e63-49f97468258e" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100105", 
-            "y" : "-99107"
+            "x" : "-100090", 
+            "y" : "-99047"
          }, 
          "child" : [ 
          ], 
@@ -1461,8 +1412,8 @@
       "d810a3c4-f616-4df2-9f48-30033c0a7b20" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100533", 
-            "y" : "-99806"
+            "x" : "-100552", 
+            "y" : "-99753"
          }, 
          "child" : [ 
             "7bd8943c-d536-478e-a0b3-e9cea0949774", 

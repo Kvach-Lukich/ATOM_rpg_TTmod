@@ -1,0 +1,1037 @@
+{ 
+   "states" : { 
+      "7e9b6cec-5b48-467a-863c-a9f0195b5ffc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101034", 
+            "y" : "-100702"
+         }, 
+         "child" : [ 
+            "f53bd82a-17a6-4f42-98b5-cbab88e86065", 
+            "000f52de-af2f-44b5-b754-884cd74c61ac", 
+            "e4e2374d-851b-4c68-85c6-b1dad7f04999", 
+            "46a238e7-5ef9-42c7-80f7-4dbd261b2e22", 
+            "ff342c72-6152-4fa2-a2ea-890e5eb431aa"
+         ]
+      }, 
+      "f53bd82a-17a6-4f42-98b5-cbab88e86065" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-101690", 
+            "y" : "-100624"
+         }, 
+         "child" : [ 
+            "9b3607db-837c-4cab-ac8f-9e97261b158e"
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : "rat_wolf"
+      }, 
+      "9b3607db-837c-4cab-ac8f-9e97261b158e" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-101571", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+            "dc5885e4-5b06-467a-ae13-5bff70a8172f", 
+            "f53bd82a-17a6-4f42-98b5-cbab88e86065"
+         ], 
+         "filterFractionName" : "rat_wolf"
+      }, 
+      "dc5885e4-5b06-467a-ae13-5bff70a8172f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101687", 
+            "y" : "-100434"
+         }, 
+         "child" : [ 
+            "c355075f-96b5-432c-ac9d-cdd4ce73e0d6"
+         ], 
+         "key" : "RAT_FOREST_WOLFS_DEAD"
+      }, 
+      "c355075f-96b5-432c-ac9d-cdd4ce73e0d6" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101699", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "RAT.FOREST.WOLFS.A30_DONE"
+      }, 
+      "000f52de-af2f-44b5-b754-884cd74c61ac" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101225", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+            "b9546a29-18de-4a89-a375-afd3df778ca8", 
+            "d37575d5-92c3-42ea-bf0e-7ad57f4f0c5a"
+         ], 
+         "note_key" : "MOLE_KING_DEAD"
+      }, 
+      "b9546a29-18de-4a89-a375-afd3df778ca8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101381", 
+            "y" : "-100502"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d37575d5-92c3-42ea-bf0e-7ad57f4f0c5a" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101290", 
+            "y" : "-100392"
+         }, 
+         "child" : [ 
+            "ae0e14be-ed66-460d-b15e-7cbf75663b8a"
+         ], 
+         "waitTimeMin" : "30", 
+         "waitTimeMax" : "60"
+      }, 
+      "ae0e14be-ed66-460d-b15e-7cbf75663b8a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101325", 
+            "y" : "-100307"
+         }, 
+         "child" : [ 
+            "e2b1b4fe-80a9-4e76-a59d-bb1bb6e5a6a3", 
+            "4768d6b0-f5ed-4deb-8a75-407cd74b57a1"
+         ]
+      }, 
+      "e2b1b4fe-80a9-4e76-a59d-bb1bb6e5a6a3" : { 
+         "class" : "PlayUISoundNode", 
+         "desc" : { 
+            "x" : "-101617", 
+            "y" : "-100277"
+         }, 
+         "child" : [ 
+            "38cc124c-35fb-4813-864c-4a3becc67b73"
+         ], 
+         "sound" : "Sounds/SFX/Misc/Earthquake1"
+      }, 
+      "38cc124c-35fb-4813-864c-4a3becc67b73" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101631", 
+            "y" : "-100196"
+         }, 
+         "child" : [ 
+            "ef49f5ea-bd2a-4a7f-9ef5-4fbdba73d510"
+         ], 
+         "waitTimeMin" : "2", 
+         "waitTimeMax" : "3"
+      }, 
+      "ef49f5ea-bd2a-4a7f-9ef5-4fbdba73d510" : { 
+         "class" : "CameraShakeNode", 
+         "desc" : { 
+            "x" : "-101608", 
+            "y" : "-100119"
+         }, 
+         "child" : [ 
+            "d37575d5-92c3-42ea-bf0e-7ad57f4f0c5a"
+         ], 
+         "bias" : "0.04", 
+         "speed" : "2", 
+         "iteration" : "10"
+      }, 
+      "4768d6b0-f5ed-4deb-8a75-407cd74b57a1" : { 
+         "class" : "PlayUISoundNode", 
+         "desc" : { 
+            "x" : "-101504", 
+            "y" : "-100233"
+         }, 
+         "child" : [ 
+            "38cc124c-35fb-4813-864c-4a3becc67b73"
+         ], 
+         "sound" : "Sounds/SFX/Misc/Earthquake1"
+      }, 
+      "e4e2374d-851b-4c68-85c6-b1dad7f04999" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-101034", 
+            "y" : "-100566"
+         }, 
+         "child" : [ 
+            "89143aa4-fa3a-41dd-acbc-06ca49134365", 
+            "337a4273-7d1e-4009-94f3-8a4501f90a32"
+         ]
+      }, 
+      "89143aa4-fa3a-41dd-acbc-06ca49134365" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101180", 
+            "y" : "-100246"
+         }, 
+         "child" : [ 
+            "b879dd65-d65c-494e-9e62-d3ddd5038db6", 
+            "9a0d3156-492e-4fa9-b8d2-5f110cfd0204", 
+            "4fb4fbc2-eae8-43c7-b1f5-28712da9c160", 
+            "01dacb3c-69f8-4822-9e61-6b021c1c6ee6"
+         ]
+      }, 
+      "b879dd65-d65c-494e-9e62-d3ddd5038db6" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101395", 
+            "y" : "-100153"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Campfire", 
+         "active" : "false"
+      }, 
+      "9a0d3156-492e-4fa9-b8d2-5f110cfd0204" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101346", 
+            "y" : "-100081"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Rat_Forest_Man1", 
+         "active" : "false"
+      }, 
+      "4fb4fbc2-eae8-43c7-b1f5-28712da9c160" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101257", 
+            "y" : "-100016"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Rat_Forest_Female1", 
+         "active" : "false"
+      }, 
+      "01dacb3c-69f8-4822-9e61-6b021c1c6ee6" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101152", 
+            "y" : "-100083"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Z_Campfire_static", 
+         "active" : "false"
+      }, 
+      "337a4273-7d1e-4009-94f3-8a4501f90a32" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100971", 
+            "y" : "-100373"
+         }, 
+         "child" : [ 
+            "b1bb54e0-5b6b-4ed6-960a-aaa9723055c1", 
+            "39df1655-5224-44a2-bf4c-cac2a3a6e23d", 
+            "d015a515-4c75-4c33-ac5f-6a11d2f6961a", 
+            "a1c6eac3-34a8-4003-9fca-1256ee045958"
+         ]
+      }, 
+      "b1bb54e0-5b6b-4ed6-960a-aaa9723055c1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101039", 
+            "y" : "-100260"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Campfire", 
+         "active" : "true"
+      }, 
+      "39df1655-5224-44a2-bf4c-cac2a3a6e23d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100934", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Rat_Forest_Man1", 
+         "active" : "true"
+      }, 
+      "d015a515-4c75-4c33-ac5f-6a11d2f6961a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100838", 
+            "y" : "-100251"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Rat_Forest_Female1", 
+         "active" : "true"
+      }, 
+      "a1c6eac3-34a8-4003-9fca-1256ee045958" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100746", 
+            "y" : "-100327"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Z_Campfire_static", 
+         "active" : "true"
+      }, 
+      "46a238e7-5ef9-42c7-80f7-4dbd261b2e22" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100476", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "8bb22b23-ad60-4bfa-a984-b323a871c57d", 
+            "27b19f81-ac75-4bbb-bfa9-e041b134da50"
+         ], 
+         "key" : "RAT.FOREST.WOLFS.A30_DONE"
+      }, 
+      "8bb22b23-ad60-4bfa-a984-b323a871c57d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100511", 
+            "y" : "-100376"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "27b19f81-ac75-4bbb-bfa9-e041b134da50" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100391", 
+            "y" : "-100412"
+         }, 
+         "child" : [ 
+            "cdef636b-c1dc-411e-bf9e-cb3d33cd5e5a", 
+            "dc2aa70a-4ccc-49cb-96e4-06e5113c0283", 
+            "04489145-4d10-46b2-a4e2-e92e539e6540"
+         ], 
+         "quest_key" : "RAT.FOREST.WOLFS"
+      }, 
+      "cdef636b-c1dc-411e-bf9e-cb3d33cd5e5a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100560", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+            "28b982d1-f62a-4fa4-8abc-cda5ff8cd17e", 
+            "04489145-4d10-46b2-a4e2-e92e539e6540"
+         ]
+      }, 
+      "28b982d1-f62a-4fa4-8abc-cda5ff8cd17e" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-100647", 
+            "y" : "-100228"
+         }, 
+         "child" : [ 
+            "cbb705bf-384e-4a10-ace8-37899b61dd5f", 
+            "d9de2074-f0c8-4344-af71-7c7f26b55241"
+         ], 
+         "time" : "1", 
+         "mode" : "Week", 
+         "offsetValue" : "RAT.FOREST.WOLFS.TIMER_BEGIN"
+      }, 
+      "cbb705bf-384e-4a10-ace8-37899b61dd5f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100613", 
+            "y" : "-100082"
+         }, 
+         "child" : [ 
+            "4fce6625-3869-4d9c-b47c-7e8d6a6f877c", 
+            "7f107c0a-b814-49ee-99df-c36eb20e837f"
+         ], 
+         "key" : "RAT_FOREST_WOLFS_DEAD"
+      }, 
+      "4fce6625-3869-4d9c-b47c-7e8d6a6f877c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100270", 
+            "y" : "-99389"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "RAT.FOREST.WOLFS.A30_DONE"
+      }, 
+      "7f107c0a-b814-49ee-99df-c36eb20e837f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100518", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+            "68b9476c-d35b-4fbc-b3f0-fc6e9cfa2c86", 
+            "f8e338a7-c937-444d-90a7-4dc401bda943", 
+            "7c705e8a-ed48-4618-af7d-643eb22c5e3c", 
+            "7b68c12e-9fc0-464a-9255-498467863c71", 
+            "6013bfe2-3f5f-4a6c-8036-3ea01deb2d51"
+         ]
+      }, 
+      "68b9476c-d35b-4fbc-b3f0-fc6e9cfa2c86" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100720", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "be9fb2c9-2d1c-419b-9df5-04097481f59a", 
+            "26192e7c-867d-4aa4-9721-40e11025c768"
+         ], 
+         "objectName" : "Wolf_3"
+      }, 
+      "be9fb2c9-2d1c-419b-9df5-04097481f59a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100481", 
+            "y" : "-99641"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "26192e7c-867d-4aa4-9721-40e11025c768" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100708", 
+            "y" : "-99753"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wolf_3", 
+         "pointName" : "Spawn.wolf.3"
+      }, 
+      "f8e338a7-c937-444d-90a7-4dc401bda943" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "be9fb2c9-2d1c-419b-9df5-04097481f59a", 
+            "5e7ddefb-1e6d-4b0e-813a-af83195c8b16"
+         ], 
+         "objectName" : "Wolf_1"
+      }, 
+      "5e7ddefb-1e6d-4b0e-813a-af83195c8b16" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100556", 
+            "y" : "-99752"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wolf_1", 
+         "pointName" : "Spawn.wolf.1"
+      }, 
+      "7c705e8a-ed48-4618-af7d-643eb22c5e3c" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100469", 
+            "y" : "-99824"
+         }, 
+         "child" : [ 
+            "be9fb2c9-2d1c-419b-9df5-04097481f59a", 
+            "5ac0f174-a5a5-4f88-862a-deabb8311326"
+         ], 
+         "objectName" : "Wolf_2"
+      }, 
+      "5ac0f174-a5a5-4f88-862a-deabb8311326" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100422", 
+            "y" : "-99749"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wolf_2", 
+         "pointName" : "Spawn.wolf.2"
+      }, 
+      "7b68c12e-9fc0-464a-9255-498467863c71" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100345", 
+            "y" : "-99822"
+         }, 
+         "child" : [ 
+            "be9fb2c9-2d1c-419b-9df5-04097481f59a", 
+            "f79e19c8-45a3-4f3a-aa49-9fdf5c160668"
+         ], 
+         "objectName" : "Wolf_4"
+      }, 
+      "f79e19c8-45a3-4f3a-aa49-9fdf5c160668" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100290", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wolf_4", 
+         "pointName" : "Spawn.wolf.4"
+      }, 
+      "6013bfe2-3f5f-4a6c-8036-3ea01deb2d51" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-100138", 
+            "y" : "-99819"
+         }, 
+         "child" : [ 
+            "6bde5c5d-85c2-4a11-92df-b5cd84f0d985"
+         ], 
+         "objectName" : "Rat_Forest_Man2"
+      }, 
+      "6bde5c5d-85c2-4a11-92df-b5cd84f0d985" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100136", 
+            "y" : "-99763"
+         }, 
+         "child" : [ 
+            "0dd95322-018e-4938-9766-5555f409aea8"
+         ], 
+         "objectName" : "Rat_Forest_Man2", 
+         "pointName" : "Spawn.dead.man2"
+      }, 
+      "0dd95322-018e-4938-9766-5555f409aea8" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-100146", 
+            "y" : "-99690"
+         }, 
+         "child" : [ 
+            "1f6f3062-dfd5-47ec-ac8e-b06732de0a19"
+         ], 
+         "objectName" : "Rat_Forest_Female2"
+      }, 
+      "1f6f3062-dfd5-47ec-ac8e-b06732de0a19" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100144", 
+            "y" : "-99633"
+         }, 
+         "child" : [ 
+            "472e4335-51b2-4050-b5d1-a6e19aa94108"
+         ], 
+         "objectName" : "Rat_Forest_Female2", 
+         "pointName" : "Spawn.dead.female2"
+      }, 
+      "472e4335-51b2-4050-b5d1-a6e19aa94108" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100134", 
+            "y" : "-99559"
+         }, 
+         "child" : [ 
+            "55cde9a0-193c-4b72-8dde-b207f98c82ce"
+         ], 
+         "quest_key" : "RAT.FOREST.WOLFS"
+      }, 
+      "55cde9a0-193c-4b72-8dde-b207f98c82ce" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100154", 
+            "y" : "-99503"
+         }, 
+         "child" : [ 
+            "4fce6625-3869-4d9c-b47c-7e8d6a6f877c"
+         ], 
+         "quest_key" : "MOONSHINERS.PETROVICH"
+      }, 
+      "d9de2074-f0c8-4344-af71-7c7f26b55241" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100301", 
+            "y" : "-100044"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "04489145-4d10-46b2-a4e2-e92e539e6540" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99671", 
+            "y" : "-100203"
+         }, 
+         "child" : [ 
+            "e258028e-cdd5-4a35-bf76-66351d1fbae6", 
+            "f0fd31d6-dc4c-48d5-b22a-1e628d239707", 
+            "cbb3a52e-5d54-4210-a640-32fa7c09aa66"
+         ]
+      }, 
+      "e258028e-cdd5-4a35-bf76-66351d1fbae6" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99865", 
+            "y" : "-100112"
+         }, 
+         "child" : [ 
+            "4d929ef3-cb78-40a9-b8a9-c0805e85de4b"
+         ], 
+         "spawnName" : "woolf5", 
+         "pos" : [ 
+            "73", 
+            "-1.9", 
+            "122.9"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "4d929ef3-cb78-40a9-b8a9-c0805e85de4b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99866", 
+            "y" : "-100007"
+         }, 
+         "child" : [ 
+            "b9ab8f91-e070-4020-8004-0c5676155d06"
+         ], 
+         "spawnPoint" : "woolf5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "b9ab8f91-e070-4020-8004-0c5676155d06" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99861", 
+            "y" : "-99901"
+         }, 
+         "child" : [ 
+            "0bee4030-c17d-4b68-aa5a-a7b3dd73c46b"
+         ], 
+         "spawnPoint" : "woolf5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "0bee4030-c17d-4b68-aa5a-a7b3dd73c46b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99860", 
+            "y" : "-99799"
+         }, 
+         "child" : [ 
+            "becc4fb9-a722-475d-80fa-3b3f61015189"
+         ], 
+         "spawnPoint" : "woolf5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "becc4fb9-a722-475d-80fa-3b3f61015189" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99879", 
+            "y" : "-99694"
+         }, 
+         "child" : [ 
+            "ac518665-bea4-4146-95fe-e17c1baa1cd8"
+         ], 
+         "fraction" : "rat_wolf", 
+         "value" : "-100"
+      }, 
+      "ac518665-bea4-4146-95fe-e17c1baa1cd8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99846", 
+            "y" : "-99595"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "FST_WOLFS"
+      }, 
+      "f0fd31d6-dc4c-48d5-b22a-1e628d239707" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99736", 
+            "y" : "-100107"
+         }, 
+         "child" : [ 
+            "e1a504e8-9e02-4d5b-ad22-361def62723e"
+         ], 
+         "spawnName" : "woolf6", 
+         "pos" : [ 
+            "67.1", 
+            "-1.9", 
+            "120.9"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "e1a504e8-9e02-4d5b-ad22-361def62723e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99730", 
+            "y" : "-100005"
+         }, 
+         "child" : [ 
+            "46ac350c-362a-42a4-8ae1-377e651ff0ac"
+         ], 
+         "spawnPoint" : "woolf6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "hairColor" : "Brown", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "46ac350c-362a-42a4-8ae1-377e651ff0ac" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99728", 
+            "y" : "-99900"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "woolf6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "cbb3a52e-5d54-4210-a640-32fa7c09aa66" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99598", 
+            "y" : "-100106"
+         }, 
+         "child" : [ 
+            "68709b32-c709-49a5-b61b-a2391de8419c"
+         ], 
+         "spawnName" : "woolf7", 
+         "pos" : [ 
+            "65", 
+            "-1.9", 
+            "123"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "68709b32-c709-49a5-b61b-a2391de8419c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99591", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+            "d51aec64-5e2e-40e5-a39d-772a96ea744f"
+         ], 
+         "spawnPoint" : "woolf7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "hairColor" : "Gray", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d51aec64-5e2e-40e5-a39d-772a96ea744f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99585", 
+            "y" : "-99902"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "woolf7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "wolf_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "50", 
+            "fraction" : "rat_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "dc2aa70a-4ccc-49cb-96e4-06e5113c0283" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100414", 
+            "y" : "-100277"
+         }, 
+         "child" : [ 
+            "d9de2074-f0c8-4344-af71-7c7f26b55241"
+         ], 
+         "key" : "RAT.FOREST.WOLFS.A30_DONE"
+      }, 
+      "ff342c72-6152-4fa2-a2ea-890e5eb431aa" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100050", 
+            "y" : "-100577"
+         }, 
+         "child" : [ 
+            "8495fc76-39b8-4f8b-a195-6d78ad0b6582"
+         ]
+      }, 
+      "8495fc76-39b8-4f8b-a195-6d78ad0b6582" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100064", 
+            "y" : "-100533"
+         }, 
+         "child" : [ 
+            "1c178e41-54a2-4fda-94b1-0da4b7871de7", 
+            "5b2f0740-6534-4463-b311-109226e875ed"
+         ], 
+         "objectName" : "Rat_Forest_Man2"
+      }, 
+      "1c178e41-54a2-4fda-94b1-0da4b7871de7" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100120", 
+            "y" : "-100420"
+         }, 
+         "child" : [ 
+            "c4eaac3f-959e-4a5b-a53e-bbe6c047dd33"
+         ], 
+         "quest_key" : "MOONSHINERS.PETROVICH"
+      }, 
+      "c4eaac3f-959e-4a5b-a53e-bbe6c047dd33" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100098", 
+            "y" : "-100367"
+         }, 
+         "child" : [ 
+            "2e30a6b8-4d1c-48dd-b41b-167e5603addb"
+         ], 
+         "quest_key" : "RAT.FOREST.WOLFS"
+      }, 
+      "2e30a6b8-4d1c-48dd-b41b-167e5603addb" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100123", 
+            "y" : "-100314"
+         }, 
+         "child" : [ 
+            "e78e97af-b1b3-42b0-810e-add2601600d4"
+         ], 
+         "note_key" : "RAT_FOREST_VALERIY_DEAD"
+      }, 
+      "e78e97af-b1b3-42b0-810e-add2601600d4" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100117", 
+            "y" : "-100259"
+         }, 
+         "child" : [ 
+            "fc3aef90-3cd0-48d8-ba2b-07d482644f08", 
+            "c0a4f20a-e590-4502-8245-16cba7be0953"
+         ], 
+         "objectName" : "Rat_Forest_Female2"
+      }, 
+      "fc3aef90-3cd0-48d8-ba2b-07d482644f08" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100120", 
+            "y" : "-100158"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c0a4f20a-e590-4502-8245-16cba7be0953" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-100081", 
+            "y" : "-100114"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Rat_Forest_Female2"
+      }, 
+      "5b2f0740-6534-4463-b311-109226e875ed" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99996", 
+            "y" : "-100456"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "621701a5-3d1d-4a1a-870a-4144b5f5fdaf" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101424", 
+            "y" : "-100461"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "QuakeSound", 
+         "active" : "false"
+      }, 
+      "a59916b5-76d2-4426-b22b-6fe2e2c641b4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101426", 
+            "y" : "-100392"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "QuakeSound", 
+         "active" : "true"
+      }
+   }, 
+   "entry" : "7e9b6cec-5b48-467a-863c-a9f0195b5ffc"
+}

@@ -40,7 +40,7 @@ MonoBehaviour:
   Stats:
     _modifiers: []
     Level: 5
-    ExperiencePoints: 60
+    ExperiencePoints: 7500
     Strength: 7
     Perception: 6
     Endurance: 7
@@ -50,7 +50,7 @@ MonoBehaviour:
     Luck: 4
     skillsBonus:
       SmallGuns: 33
-      BigGuns: 55
+      BigGuns: 65
       AutomaticFirearms: 33
       Unarmed: 25
       MeleeWeapons: 25

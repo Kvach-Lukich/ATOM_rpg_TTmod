@@ -62,7 +62,8 @@
          }, 
          "child" : [ 
             "c315bf78-65b7-46b7-9a97-2e8c87522be4", 
-            "8552c2ae-9960-45b8-864a-7f54aa430845"
+            "8552c2ae-9960-45b8-864a-7f54aa430845", 
+            "a9879632-9003-4728-b6d5-456541b12ddd"
          ], 
          "key" : "GAZINSAFE"
       }, 
@@ -93,6 +94,21 @@
             "class" : "Consumable", 
             "count" : "1", 
             "proto" : "bearsback"
+         }, 
+         "objectName" : "Metal_Safe_1"
+      }, 
+      "a9879632-9003-4728-b6d5-456541b12ddd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100321", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "ZIPPO"
          }, 
          "objectName" : "Metal_Safe_1"
       }

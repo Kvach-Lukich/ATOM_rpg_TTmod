@@ -1,0 +1,424 @@
+{ 
+   "states" : { 
+      "62ba0e97-dca5-4c65-ac25-0add4c52c19a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101920", 
+            "y" : "-101287"
+         }, 
+         "child" : [ 
+            "61c7954f-41a1-4041-b09d-7f3b99d49c28"
+         ]
+      }, 
+      "61c7954f-41a1-4041-b09d-7f3b99d49c28" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-101925", 
+            "y" : "-101198"
+         }, 
+         "child" : [ 
+            "e791ee19-94e9-4637-907b-4b4552032992"
+         ]
+      }, 
+      "e791ee19-94e9-4637-907b-4b4552032992" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101931", 
+            "y" : "-101136"
+         }, 
+         "child" : [ 
+            "0c3c31d5-32c7-4d53-adbd-2cb44ad35471"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "0c3c31d5-32c7-4d53-adbd-2cb44ad35471" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101959", 
+            "y" : "-101030"
+         }, 
+         "child" : [ 
+            "3b0910d9-3fff-4a6a-9f2a-a62eaff8c390", 
+            "e350a166-44ec-42f7-9066-d28bb112988f", 
+            "da541cb7-38f5-47ee-bdd8-1a5681fdec28", 
+            "f377841c-a218-4b80-92ae-8d998b21237d", 
+            "7b67e0af-5a2c-4b42-9892-6ae3c7bb535c"
+         ], 
+         "text" : "#Lab_Level_1.Venting.0c3c31d5-32c7-4d53-adbd-2cb44ad35471"
+      }, 
+      "3b0910d9-3fff-4a6a-9f2a-a62eaff8c390" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102255", 
+            "y" : "-100919", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "ee27d653-1bbe-4d09-b379-afa4b1fc27d6"
+         ], 
+         "text" : "#Lab_Level_1.Venting.3b0910d9-3fff-4a6a-9f2a-a62eaff8c390"
+      }, 
+      "ee27d653-1bbe-4d09-b379-afa4b1fc27d6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102568", 
+            "y" : "-100798", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "9cba4854-3c4f-4bd0-b953-610518382b57", 
+            "67366057-f756-4ff4-8b40-dd0a18bf8eb7", 
+            "f377841c-a218-4b80-92ae-8d998b21237d", 
+            "2d768df3-369b-4749-92e3-29fb089e3327"
+         ], 
+         "text" : "#Lab_Level_1.Venting.ee27d653-1bbe-4d09-b379-afa4b1fc27d6"
+      }, 
+      "9cba4854-3c4f-4bd0-b953-610518382b57" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102863", 
+            "y" : "-100670", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "556b77c1-73c5-4dea-8c87-d5024b4af43e"
+         ], 
+         "text" : "#Lab_Level_1.Venting.9cba4854-3c4f-4bd0-b953-610518382b57"
+      }, 
+      "556b77c1-73c5-4dea-8c87-d5024b4af43e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101998", 
+            "y" : "-100581", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "bf5ab189-6653-4bed-b252-6f158287af2a", 
+            "b1a17834-af83-43dc-9921-16d2c0344b6a", 
+            "f377841c-a218-4b80-92ae-8d998b21237d", 
+            "bf7843c7-25da-4a0f-8717-ac5898bfea1f"
+         ], 
+         "text" : "#Lab_Level_1.Venting.556b77c1-73c5-4dea-8c87-d5024b4af43e"
+      }, 
+      "bf5ab189-6653-4bed-b252-6f158287af2a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102298", 
+            "y" : "-100481", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "ee27d653-1bbe-4d09-b379-afa4b1fc27d6"
+         ], 
+         "text" : "#Lab_Level_1.Venting.bf5ab189-6653-4bed-b252-6f158287af2a"
+      }, 
+      "b1a17834-af83-43dc-9921-16d2c0344b6a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102148", 
+            "y" : "-100381", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "f26524dd-97f9-45f0-bc03-c6d1202c4990"
+         ], 
+         "text" : "#Lab_Level_1.Venting.b1a17834-af83-43dc-9921-16d2c0344b6a"
+      }, 
+      "f26524dd-97f9-45f0-bc03-c6d1202c4990" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-102608", 
+            "y" : "-100391"
+         }, 
+         "child" : [ 
+            "ec4c3fd8-a45d-4fa1-ba0f-c1b5fe4ea4b6", 
+            "bac2ff57-e509-4d80-a614-7a9d0a849f1a"
+         ], 
+         "value" : "6", 
+         "stat" : "Agility"
+      }, 
+      "ec4c3fd8-a45d-4fa1-ba0f-c1b5fe4ea4b6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102748", 
+            "y" : "-100279", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "7c926e38-4aef-4609-8426-cd5a0979da26", 
+            "629517b3-6e9b-48f4-a1d1-88a83235855b"
+         ], 
+         "text" : "#Lab_Level_1.Venting.ec4c3fd8-a45d-4fa1-ba0f-c1b5fe4ea4b6"
+      }, 
+      "7c926e38-4aef-4609-8426-cd5a0979da26" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102693", 
+            "y" : "-100143"
+         }, 
+         "child" : [ 
+            "68a9794c-2982-4e2a-9c7b-488139869c91"
+         ], 
+         "exp" : "50"
+      }, 
+      "68a9794c-2982-4e2a-9c7b-488139869c91" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102745", 
+            "y" : "-100051", 
+            "comment" : "(перенос на второй этаж бункера)"
+         }, 
+         "child" : [ 
+            "08021484-cb4e-4ca6-a36a-122a19faaa7f"
+         ], 
+         "text" : "#Lab_Level_1.Venting.68a9794c-2982-4e2a-9c7b-488139869c91"
+      }, 
+      "08021484-cb4e-4ca6-a36a-122a19faaa7f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102409", 
+            "y" : "-99845"
+         }, 
+         "child" : [ 
+            "4e7c4401-88f6-4019-97db-5328b30a89f7"
+         ]
+      }, 
+      "4e7c4401-88f6-4019-97db-5328b30a89f7" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-102436", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "Lab_Level_3", 
+         "entrance" : "EnterPoint"
+      }, 
+      "629517b3-6e9b-48f4-a1d1-88a83235855b" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-102209", 
+            "y" : "-100115"
+         }, 
+         "child" : [ 
+         ], 
+         "fade" : "true", 
+         "crossFade" : "true"
+      }, 
+      "bac2ff57-e509-4d80-a614-7a9d0a849f1a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102475", 
+            "y" : "-100269", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "70822fa3-ebeb-4abf-b359-5a4108b0e70e", 
+            "629517b3-6e9b-48f4-a1d1-88a83235855b"
+         ], 
+         "text" : "#Lab_Level_1.Venting.bac2ff57-e509-4d80-a614-7a9d0a849f1a"
+      }, 
+      "70822fa3-ebeb-4abf-b359-5a4108b0e70e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102457", 
+            "y" : "-100070"
+         }, 
+         "child" : [ 
+            "6b041aea-2f60-4edb-b3bb-eefadb5e93f7"
+         ], 
+         "text" : "#Lab_Level_1.Venting.70822fa3-ebeb-4abf-b359-5a4108b0e70e"
+      }, 
+      "6b041aea-2f60-4edb-b3bb-eefadb5e93f7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102421", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "08021484-cb4e-4ca6-a36a-122a19faaa7f"
+         ], 
+         "note_key" : "LAB_PLAYER_KILL"
+      }, 
+      "f377841c-a218-4b80-92ae-8d998b21237d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102918", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+            "7b853ba1-a840-462b-b9b6-993fbb2bf1b9", 
+            "140dc58a-c9de-4c2d-a30f-47f2ef7eef0f"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Rope"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7b853ba1-a840-462b-b9b6-993fbb2bf1b9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103051", 
+            "y" : "-100337", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "355c2d19-32c4-4380-8d73-72d9ff9b4319"
+         ], 
+         "text" : "#Lab_Level_1.Venting.7b853ba1-a840-462b-b9b6-993fbb2bf1b9"
+      }, 
+      "355c2d19-32c4-4380-8d73-72d9ff9b4319" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101992", 
+            "y" : "-100212", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "629517b3-6e9b-48f4-a1d1-88a83235855b", 
+            "268617be-20f5-41be-bae6-288497905a91", 
+            "16c20c05-6269-494f-af89-4055eda8ff86"
+         ], 
+         "text" : "#Lab_Level_1.Venting.355c2d19-32c4-4380-8d73-72d9ff9b4319"
+      }, 
+      "268617be-20f5-41be-bae6-288497905a91" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102059", 
+            "y" : "-100084"
+         }, 
+         "child" : [ 
+            "1a4f9653-041f-448c-8f9f-c4f32e22be47"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Rope"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1a4f9653-041f-448c-8f9f-c4f32e22be47" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102127", 
+            "y" : "-100002"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "LAB_ROPE"
+      }, 
+      "16c20c05-6269-494f-af89-4055eda8ff86" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101984", 
+            "y" : "-100001", 
+            "comment" : "(перенос на второй этаж бункера)"
+         }, 
+         "child" : [ 
+            "08021484-cb4e-4ca6-a36a-122a19faaa7f"
+         ], 
+         "text" : "#Lab_Level_1.Venting.16c20c05-6269-494f-af89-4055eda8ff86"
+      }, 
+      "140dc58a-c9de-4c2d-a30f-47f2ef7eef0f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102780", 
+            "y" : "-100346"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bf7843c7-25da-4a0f-8717-ac5898bfea1f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101848", 
+            "y" : "-100381", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "3b277e84-dbde-4584-ad62-8f2194c254ba"
+         ], 
+         "text" : "#Lab_Level_1.Venting.bf7843c7-25da-4a0f-8717-ac5898bfea1f"
+      }, 
+      "3b277e84-dbde-4584-ad62-8f2194c254ba" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101644.6", 
+            "y" : "-100242"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "67366057-f756-4ff4-8b40-dd0a18bf8eb7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102713", 
+            "y" : "-100570", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "f26524dd-97f9-45f0-bc03-c6d1202c4990"
+         ], 
+         "text" : "#Lab_Level_1.Venting.67366057-f756-4ff4-8b40-dd0a18bf8eb7"
+      }, 
+      "2d768df3-369b-4749-92e3-29fb089e3327" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102413", 
+            "y" : "-100570", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Lab_Level_1.Venting.2d768df3-369b-4749-92e3-29fb089e3327"
+      }, 
+      "e350a166-44ec-42f7-9066-d28bb112988f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102105", 
+            "y" : "-100819", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "556b77c1-73c5-4dea-8c87-d5024b4af43e"
+         ], 
+         "text" : "#Lab_Level_1.Venting.e350a166-44ec-42f7-9066-d28bb112988f"
+      }, 
+      "da541cb7-38f5-47ee-bdd8-1a5681fdec28" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100919", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "f26524dd-97f9-45f0-bc03-c6d1202c4990"
+         ], 
+         "text" : "#Lab_Level_1.Venting.da541cb7-38f5-47ee-bdd8-1a5681fdec28"
+      }, 
+      "7b67e0af-5a2c-4b42-9892-6ae3c7bb535c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101655", 
+            "y" : "-100919", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "4202b2ef-13bb-4d40-a371-38ac257e3b91"
+         ], 
+         "text" : "#Lab_Level_1.Venting.7b67e0af-5a2c-4b42-9892-6ae3c7bb535c"
+      }, 
+      "4202b2ef-13bb-4d40-a371-38ac257e3b91" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101516", 
+            "y" : "-100843"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "62ba0e97-dca5-4c65-ac25-0add4c52c19a"
+}

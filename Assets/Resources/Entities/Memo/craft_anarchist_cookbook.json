@@ -3,8 +3,8 @@
       "7920ef58-463b-4978-84be-f385410fa3c8" : { 
          "class" : "MemoBeginNode", 
          "desc" : { 
-            "x" : "-100102", 
-            "y" : "-101088"
+            "x" : "-99799", 
+            "y" : "-100973"
          }, 
          "child" : [ 
             "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683"
@@ -66,15 +66,14 @@
             "7b5c0ecf-36dc-4126-9813-3e553a036e4e", 
             "d017682a-7fb5-4961-b4d6-01b899dd4589", 
             "92dc0a30-0f42-435d-8d08-f919b7a32d8e", 
-            "83a51f58-8a3d-456d-9caf-e72547cb8e8e", 
-            "a7bb880f-80fe-490d-acb5-e6d320629b35"
+            "83a51f58-8a3d-456d-9caf-e72547cb8e8e"
          ]
       }, 
       "146b00b8-9740-43c6-9f27-6cff4b040ab0" : { 
          "class" : "MemoPageNode", 
          "desc" : { 
-            "x" : "-100219", 
-            "y" : "-100784"
+            "x" : "-100043", 
+            "y" : "-100850"
          }, 
          "child" : [ 
          ], 
@@ -578,8 +577,8 @@
       "7b5c0ecf-36dc-4126-9813-3e553a036e4e" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
-            "x" : "-98531", 
-            "y" : "-100835"
+            "x" : "-98698", 
+            "y" : "-100838"
          }, 
          "child" : [ 
          ], 
@@ -589,8 +588,8 @@
       "d017682a-7fb5-4961-b4d6-01b899dd4589" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
-            "x" : "-98670", 
-            "y" : "-100836"
+            "x" : "-98949", 
+            "y" : "-100837"
          }, 
          "child" : [ 
          ], 
@@ -617,17 +616,6 @@
          "child" : [ 
          ], 
          "recipe" : "craft_m81_m", 
-         "showMsg" : "true"
-      }, 
-      "a7bb880f-80fe-490d-acb5-e6d320629b35" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-98946", 
-            "y" : "-100839"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "cateye", 
          "showMsg" : "true"
       }, 
       "edd9cb0a-86b1-4d06-8b78-e1bd139475bf" : { 

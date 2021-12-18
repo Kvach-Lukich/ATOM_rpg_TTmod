@@ -1,0 +1,2146 @@
+{ 
+   "states" : { 
+      "59fb6971-c19f-4d80-bd28-cc623f48cc48" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101262", 
+            "y" : "-101136"
+         }, 
+         "child" : [ 
+            "eeac6475-0bb1-49bb-a5ef-38984d018af8", 
+            "c6cec428-d0db-4eae-adce-9402fb6bcaab"
+         ]
+      }, 
+      "eeac6475-0bb1-49bb-a5ef-38984d018af8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104034", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+            "fcf61261-f5c8-4aab-8242-b0348d38c102", 
+            "3b27b0df-8366-4177-add8-121353ed2242", 
+            "8b2945fc-8c19-4c0b-8780-e85167325a21"
+         ]
+      }, 
+      "fcf61261-f5c8-4aab-8242-b0348d38c102" : { 
+         "class" : "PlayerRemovePerkNode", 
+         "desc" : { 
+            "x" : "-104118", 
+            "y" : "-100236"
+         }, 
+         "child" : [ 
+         ], 
+         "perk" : "CloseCombat", 
+         "showMsg" : "true"
+      }, 
+      "3b27b0df-8366-4177-add8-121353ed2242" : { 
+         "class" : "PlayerRemovePerkNode", 
+         "desc" : { 
+            "x" : "-103984", 
+            "y" : "-100233"
+         }, 
+         "child" : [ 
+         ], 
+         "perk" : "MS", 
+         "showMsg" : "true"
+      }, 
+      "8b2945fc-8c19-4c0b-8780-e85167325a21" : { 
+         "class" : "PlayerRemovePerkNode", 
+         "desc" : { 
+            "x" : "-103851", 
+            "y" : "-100231"
+         }, 
+         "child" : [ 
+         ], 
+         "perk" : "SP_MistAC", 
+         "showMsg" : "true"
+      }, 
+      "c6cec428-d0db-4eae-adce-9402fb6bcaab" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-101273", 
+            "y" : "-101022"
+         }, 
+         "child" : [ 
+            "1bc5ae0f-89b4-404e-a9c9-ddf917de26fa", 
+            "2d8214bb-5f25-41f8-9008-a5b18f7c52da"
+         ], 
+         "stateName" : "SLEEP"
+      }, 
+      "1bc5ae0f-89b4-404e-a9c9-ddf917de26fa" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101868", 
+            "y" : "-100856"
+         }, 
+         "child" : [ 
+            "ba60aad0-4a0e-43e6-9e11-549f6363e492", 
+            "9c202226-64a2-42f1-9996-a942b9c867bb", 
+            "3c1bc39e-555b-4e37-a832-e0fb01c04891"
+         ]
+      }, 
+      "ba60aad0-4a0e-43e6-9e11-549f6363e492" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102068", 
+            "y" : "-100767"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#City_Tadeush.58040add-a768-4727-b61c-4b7900023b44", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9c202226-64a2-42f1-9996-a942b9c867bb" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101930", 
+            "y" : "-100705"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#City_Tadeush.05da561e-0e2d-4794-b7c3-1d0a8defa376", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3c1bc39e-555b-4e37-a832-e0fb01c04891" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101788", 
+            "y" : "-100770"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#City_Tadeush.a930f2ee-2422-4009-8385-60184508250d", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "2d8214bb-5f25-41f8-9008-a5b18f7c52da" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-100924"
+         }, 
+         "child" : [ 
+            "3d4d13e0-9dfd-44ab-a218-e70541fce5ca", 
+            "8fc6e4c1-6284-4ee8-9455-f521c12ffad7"
+         ], 
+         "stateName" : "MOVE_TO_SLEEP"
+      }, 
+      "3d4d13e0-9dfd-44ab-a218-e70541fce5ca" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101218", 
+            "y" : "-100806"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8fc6e4c1-6284-4ee8-9455-f521c12ffad7" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "1f44cbec-446f-432f-a755-c040ba3d94f9", 
+            "f737575c-fdbf-46bb-b419-7444ff4e54c7"
+         ], 
+         "value" : "3", 
+         "stat" : "Intelligence"
+      }, 
+      "1f44cbec-446f-432f-a755-c040ba3d94f9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101067", 
+            "y" : "-100697"
+         }, 
+         "child" : [ 
+            "db90cb91-33e5-4fac-bcd9-80153ad6272e"
+         ]
+      }, 
+      "db90cb91-33e5-4fac-bcd9-80153ad6272e" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101068", 
+            "y" : "-100657"
+         }, 
+         "child" : [ 
+            "d9b682cc-b941-44e5-8a4a-dd38e71094dd"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "d9b682cc-b941-44e5-8a4a-dd38e71094dd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-100600"
+         }, 
+         "child" : [ 
+            "77ef9d9c-5757-4037-a56a-f5b18ff62bcb", 
+            "717a9e4a-a52b-451a-8db2-1edf26a31739"
+         ], 
+         "key" : "MEET"
+      }, 
+      "77ef9d9c-5757-4037-a56a-f5b18ff62bcb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101409", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "dbf4b086-021d-4110-a36f-2381478b56a9"
+         ], 
+         "text" : "#Village_Bum.77ef9d9c-5757-4037-a56a-f5b18ff62bcb"
+      }, 
+      "dbf4b086-021d-4110-a36f-2381478b56a9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-100510"
+         }, 
+         "child" : [ 
+            "2a368fc4-6036-4790-a9fc-31898f271726", 
+            "845720b6-fa7d-41c4-a216-b38e0ffea66a"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE"
+      }, 
+      "2a368fc4-6036-4790-a9fc-31898f271726" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101688", 
+            "y" : "-100424"
+         }, 
+         "child" : [ 
+            "7cf78036-b2fd-44cf-a811-77bd61432785"
+         ]
+      }, 
+      "7cf78036-b2fd-44cf-a811-77bd61432785" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101687", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+            "845720b6-fa7d-41c4-a216-b38e0ffea66a"
+         ], 
+         "text" : "#Village_Bum.7cf78036-b2fd-44cf-a811-77bd61432785"
+      }, 
+      "845720b6-fa7d-41c4-a216-b38e0ffea66a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101559", 
+            "y" : "-100254"
+         }, 
+         "child" : [ 
+            "47a8ba21-a186-4998-bf4a-82c51971b173", 
+            "422f933f-ba11-4e27-a20a-402d19e0a34e", 
+            "0d44fe9e-45fd-4120-9460-87dd2ee8ca24", 
+            "5c7aa370-d93c-417d-81a1-9728cb223f2c"
+         ]
+      }, 
+      "47a8ba21-a186-4998-bf4a-82c51971b173" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102423", 
+            "y" : "-100592"
+         }, 
+         "child" : [ 
+            "81ac4eae-ff95-4533-bfa3-0fdfc307f990"
+         ]
+      }, 
+      "81ac4eae-ff95-4533-bfa3-0fdfc307f990" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102878", 
+            "y" : "-100642"
+         }, 
+         "child" : [ 
+            "40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd", 
+            "7e010abf-17e7-4ad0-b1f7-2f57c176fe2c"
+         ], 
+         "key" : "ALREDY_ASKED"
+      }, 
+      "40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102777", 
+            "y" : "-100323"
+         }, 
+         "child" : [ 
+            "10994469-0df1-4197-a2e7-84a984719928"
+         ], 
+         "text" : "#village_bum.40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd"
+      }, 
+      "10994469-0df1-4197-a2e7-84a984719928" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102775", 
+            "y" : "-100243"
+         }, 
+         "child" : [ 
+            "5698b8db-da69-496b-9cbb-416f30433060", 
+            "7a2bd677-b392-4272-9111-13caf242bae1"
+         ], 
+         "text" : "#village_bum.10994469-0df1-4197-a2e7-84a984719928"
+      }, 
+      "5698b8db-da69-496b-9cbb-416f30433060" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102737", 
+            "y" : "-100103"
+         }, 
+         "child" : [ 
+            "bf5aa3d3-fe25-4f06-84c4-bc71d82d1ff6", 
+            "457fd51a-3e17-4d45-a63f-9835755d348e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bf5aa3d3-fe25-4f06-84c4-bc71d82d1ff6" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102903", 
+            "y" : "-100095"
+         }, 
+         "child" : [ 
+            "b1d448b7-296c-4bb3-ba7a-8e6e21f6c0be", 
+            "457fd51a-3e17-4d45-a63f-9835755d348e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Brandy"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b1d448b7-296c-4bb3-ba7a-8e6e21f6c0be" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103089", 
+            "y" : "-100094"
+         }, 
+         "child" : [ 
+            "02ddd5aa-ea32-49a2-b566-6f5ae903f72d", 
+            "457fd51a-3e17-4d45-a63f-9835755d348e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Gorilka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "02ddd5aa-ea32-49a2-b566-6f5ae903f72d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103320", 
+            "y" : "-100096"
+         }, 
+         "child" : [ 
+            "db81c243-0f90-487b-9f0c-c7ff98dd6a06", 
+            "457fd51a-3e17-4d45-a63f-9835755d348e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Moonshine"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "db81c243-0f90-487b-9f0c-c7ff98dd6a06" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103483", 
+            "y" : "-100121"
+         }, 
+         "child" : [ 
+            "6d6b16c4-3948-4fe2-b870-8fece31df064", 
+            "457fd51a-3e17-4d45-a63f-9835755d348e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6d6b16c4-3948-4fe2-b870-8fece31df064" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103570", 
+            "y" : "-100001"
+         }, 
+         "child" : [ 
+            "7aeb9bdc-caf8-406f-bc76-4208bc46eec8", 
+            "1d11a7d2-199e-436a-85e3-d17917e4077d"
+         ]
+      }, 
+      "7aeb9bdc-caf8-406f-bc76-4208bc46eec8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103710", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+            "58b139ac-d707-4b6b-8c34-57fccdbfc534", 
+            "1111f635-2a7f-46ee-8140-6c164338c4ba"
+         ], 
+         "text" : "#village_bum.7aeb9bdc-caf8-406f-bc76-4208bc46eec8"
+      }, 
+      "58b139ac-d707-4b6b-8c34-57fccdbfc534" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-103794", 
+            "y" : "-99881"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FINDE_BORMOTUHA"
+      }, 
+      "1111f635-2a7f-46ee-8140-6c164338c4ba" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-103621", 
+            "y" : "-99866"
+         }, 
+         "child" : [ 
+            "8ad8d790-f751-484c-b6c0-d28246034e10", 
+            "ade173d8-bc97-47f0-b398-1420c83bfc89", 
+            "55219e78-8996-4ebd-be26-bd8e62998c98", 
+            "a5a1b59b-526c-4ebe-a186-0a9e5d24bbaa", 
+            "a30a55ed-5f82-4e62-bcc8-dee86f7e741a", 
+            "00a27402-6818-4946-961e-38350a470e8c"
+         ], 
+         "exp" : "40"
+      }, 
+      "8ad8d790-f751-484c-b6c0-d28246034e10" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103923", 
+            "y" : "-99632"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ade173d8-bc97-47f0-b398-1420c83bfc89" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103922", 
+            "y" : "-99517"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Brandy"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "55219e78-8996-4ebd-be26-bd8e62998c98" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103923", 
+            "y" : "-99750"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Gorilka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a5a1b59b-526c-4ebe-a186-0a9e5d24bbaa" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103692", 
+            "y" : "-99631"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Moonshine"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a30a55ed-5f82-4e62-bcc8-dee86f7e741a" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103705", 
+            "y" : "-99743"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "00a27402-6818-4946-961e-38350a470e8c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103439", 
+            "y" : "-99559"
+         }, 
+         "child" : [ 
+            "1e5432e9-b641-4fb8-b89c-fbe0952fe860"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "bormotuha"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1e5432e9-b641-4fb8-b89c-fbe0952fe860" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103488", 
+            "y" : "-99461"
+         }, 
+         "child" : [ 
+            "352a5904-63e7-417c-b04d-3d5a2c0166c2", 
+            "b2f6cc6e-acae-4253-afda-bdd2ee44be3f"
+         ], 
+         "text" : "#village_bum.1e5432e9-b641-4fb8-b89c-fbe0952fe860"
+      }, 
+      "352a5904-63e7-417c-b04d-3d5a2c0166c2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103583", 
+            "y" : "-99325"
+         }, 
+         "child" : [ 
+            "dfb18408-8806-48cf-8129-889db02b6837"
+         ], 
+         "text" : "#village_bum.352a5904-63e7-417c-b04d-3d5a2c0166c2"
+      }, 
+      "dfb18408-8806-48cf-8129-889db02b6837" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103468", 
+            "y" : "-99225"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b2f6cc6e-acae-4253-afda-bdd2ee44be3f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103341", 
+            "y" : "-99319"
+         }, 
+         "child" : [ 
+            "10994469-0df1-4197-a2e7-84a984719928"
+         ], 
+         "text" : "#village_bum.b2f6cc6e-acae-4253-afda-bdd2ee44be3f"
+      }, 
+      "1d11a7d2-199e-436a-85e3-d17917e4077d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103268", 
+            "y" : "-99773"
+         }, 
+         "child" : [ 
+            "86809e43-1367-4793-b74e-7390592798e2"
+         ], 
+         "text" : "#village_bum.1d11a7d2-199e-436a-85e3-d17917e4077d"
+      }, 
+      "86809e43-1367-4793-b74e-7390592798e2" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103214", 
+            "y" : "-99701"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "457fd51a-3e17-4d45-a63f-9835755d348e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103211", 
+            "y" : "-99919"
+         }, 
+         "child" : [ 
+            "1d11a7d2-199e-436a-85e3-d17917e4077d", 
+            "845720b6-fa7d-41c4-a216-b38e0ffea66a"
+         ]
+      }, 
+      "7a2bd677-b392-4272-9111-13caf242bae1" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102582", 
+            "y" : "-100076"
+         }, 
+         "child" : [ 
+            "31d88b13-c90f-4d23-8fd4-a1ac15f1899f", 
+            "3493898e-1223-4d92-a7b5-d0acdb0c56fd", 
+            "0623ee8e-f69a-4040-9211-b712226622cf"
+         ], 
+         "quest_key" : "FINDE_BORMOTUHA"
+      }, 
+      "31d88b13-c90f-4d23-8fd4-a1ac15f1899f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102704", 
+            "y" : "-99957"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3493898e-1223-4d92-a7b5-d0acdb0c56fd" : { 
+         "class" : "QuestResetNode", 
+         "desc" : { 
+            "x" : "-102594", 
+            "y" : "-99961"
+         }, 
+         "child" : [ 
+            "0623ee8e-f69a-4040-9211-b712226622cf"
+         ], 
+         "quest_key" : "FINDE_BORMOTUHA"
+      }, 
+      "0623ee8e-f69a-4040-9211-b712226622cf" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-99891"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FINDE_BORMOTUHA"
+      }, 
+      "7e010abf-17e7-4ad0-b1f7-2f57c176fe2c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102768", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+            "4ce4e219-43c0-4b73-a900-1395e929aaa1", 
+            "77e62281-a92f-4981-b41f-0f7288b9781d"
+         ], 
+         "text" : "#village_bum.7e010abf-17e7-4ad0-b1f7-2f57c176fe2c"
+      }, 
+      "4ce4e219-43c0-4b73-a900-1395e929aaa1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102766", 
+            "y" : "-100446"
+         }, 
+         "child" : [ 
+            "40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd", 
+            "dbb017a9-7c60-4d57-8120-ab12229de2c6"
+         ], 
+         "text" : "#village_bum.4ce4e219-43c0-4b73-a900-1395e929aaa1"
+      }, 
+      "dbb017a9-7c60-4d57-8120-ab12229de2c6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102504", 
+            "y" : "-100316"
+         }, 
+         "child" : [ 
+            "5d1585e1-a2e4-4105-8d95-dfe128096bd1"
+         ], 
+         "text" : "#village_bum.dbb017a9-7c60-4d57-8120-ab12229de2c6"
+      }, 
+      "5d1585e1-a2e4-4105-8d95-dfe128096bd1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102500", 
+            "y" : "-100228"
+         }, 
+         "child" : [ 
+            "40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd", 
+            "845720b6-fa7d-41c4-a216-b38e0ffea66a"
+         ], 
+         "text" : "#village_bum.5d1585e1-a2e4-4105-8d95-dfe128096bd1"
+      }, 
+      "77e62281-a92f-4981-b41f-0f7288b9781d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102431", 
+            "y" : "-100440"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ALREDY_ASKED"
+      }, 
+      "422f933f-ba11-4e27-a20a-402d19e0a34e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-100184"
+         }, 
+         "child" : [ 
+            "7c88c03c-3390-4031-a37c-a6934048a2e4"
+         ], 
+         "text" : "#Village_Bum.422f933f-ba11-4e27-a20a-402d19e0a34e"
+      }, 
+      "7c88c03c-3390-4031-a37c-a6934048a2e4" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-99125"
+         }, 
+         "child" : [ 
+            "f8de1b4b-1d5e-4c67-8e6f-40d2c544618b", 
+            "5ba15d29-dc3c-4e96-b9ca-a407f48ee97d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Dice"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f8de1b4b-1d5e-4c67-8e6f-40d2c544618b" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102081", 
+            "y" : "-98906"
+         }, 
+         "child" : [ 
+            "8e867de5-ce9b-47ca-ab2d-87fcdd9975b0", 
+            "a9daf05f-6600-4bca-ae0a-7ea5bad40c71"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }
+      }, 
+      "8e867de5-ce9b-47ca-ab2d-87fcdd9975b0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102230", 
+            "y" : "-98736"
+         }, 
+         "child" : [ 
+            "a4e17cb6-2077-47f3-b028-72ead3e2df08", 
+            "b49dcf6b-d2db-4eeb-bf4f-fa4008fd90da"
+         ], 
+         "text" : "#Village_Bum.8e867de5-ce9b-47ca-ab2d-87fcdd9975b0"
+      }, 
+      "a4e17cb6-2077-47f3-b028-72ead3e2df08" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102258", 
+            "y" : "-98409"
+         }, 
+         "child" : [ 
+            "ffb65e8a-0ae1-4e79-913d-0bf6113fca16", 
+            "1814ab1b-1f9e-449a-8446-896c7806567c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ffb65e8a-0ae1-4e79-913d-0bf6113fca16" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102395", 
+            "y" : "-98165"
+         }, 
+         "child" : [ 
+            "28bf9960-7031-4d89-b6e2-10ebb5dc23aa"
+         ], 
+         "text" : "#Village_Bum.ffb65e8a-0ae1-4e79-913d-0bf6113fca16"
+      }, 
+      "28bf9960-7031-4d89-b6e2-10ebb5dc23aa" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102229", 
+            "y" : "-97947"
+         }, 
+         "child" : [ 
+            "8040e112-e0ef-42bc-9c04-895b3a8e8c91"
+         ], 
+         "key" : "STAKE", 
+         "value" : "20"
+      }, 
+      "8040e112-e0ef-42bc-9c04-895b3a8e8c91" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102086", 
+            "y" : "-97877"
+         }, 
+         "child" : [ 
+            "25d33157-51fa-4b40-806b-63dfe39e38c5"
+         ], 
+         "text" : "#Village_Bum.8040e112-e0ef-42bc-9c04-895b3a8e8c91"
+      }, 
+      "25d33157-51fa-4b40-806b-63dfe39e38c5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101930.3", 
+            "y" : "-97743"
+         }, 
+         "child" : [ 
+            "7bcc117b-da64-49fb-b642-749b2192ba71"
+         ], 
+         "text" : "#Village_Bum.25d33157-51fa-4b40-806b-63dfe39e38c5"
+      }, 
+      "7bcc117b-da64-49fb-b642-749b2192ba71" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101996", 
+            "y" : "-97671"
+         }, 
+         "child" : [ 
+            "a641e245-35d4-415b-b2e5-33ca51e9d964"
+         ], 
+         "text" : "#Village_Bum.7bcc117b-da64-49fb-b642-749b2192ba71"
+      }, 
+      "a641e245-35d4-415b-b2e5-33ca51e9d964" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101950", 
+            "y" : "-97526"
+         }, 
+         "child" : [ 
+            "798a4df9-6520-4629-bdb1-43f56d1b6388"
+         ]
+      }, 
+      "798a4df9-6520-4629-bdb1-43f56d1b6388" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101950", 
+            "y" : "-97458"
+         }, 
+         "child" : [ 
+            "e891656e-7ebd-4d37-8746-3d1472c8c1ca", 
+            "d9e678bd-65e8-49f9-95c6-d20b3e79bb18", 
+            "1f039b73-300f-4317-a35a-cbad49043ecf"
+         ]
+      }, 
+      "e891656e-7ebd-4d37-8746-3d1472c8c1ca" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102105.8", 
+            "y" : "-97383.5"
+         }, 
+         "child" : [ 
+            "8f2c59bc-6662-4b5e-ab32-eb597fbcb17f"
+         ]
+      }, 
+      "8f2c59bc-6662-4b5e-ab32-eb597fbcb17f" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102354", 
+            "y" : "-97324"
+         }, 
+         "child" : [ 
+            "e4746a43-c539-40e4-b164-96e834326c88", 
+            "ab21d0b0-d1d6-4995-ab16-db169cce2b40"
+         ], 
+         "key" : "STAKE", 
+         "value" : "20", 
+         "opp" : "Equal"
+      }, 
+      "e4746a43-c539-40e4-b164-96e834326c88" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102462", 
+            "y" : "-97122"
+         }, 
+         "child" : [ 
+            "efa3adb8-58b8-4f8f-9e51-f4cfd6fac2c0"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "efa3adb8-58b8-4f8f-9e51-f4cfd6fac2c0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102546", 
+            "y" : "-97041"
+         }, 
+         "child" : [ 
+            "7b1b072b-fac8-4bc7-97c8-ca66a2fad592"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }
+      }, 
+      "7b1b072b-fac8-4bc7-97c8-ca66a2fad592" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102403", 
+            "y" : "-96580"
+         }, 
+         "child" : [ 
+            "174f9290-330a-4d78-b435-ba43c3050c5c", 
+            "6a4c1c45-f7f0-4a27-8efd-87046d256def", 
+            "b84de85d-aa4b-4180-9212-629370c5f5bd"
+         ], 
+         "text" : "#Village_Bum.7b1b072b-fac8-4bc7-97c8-ca66a2fad592"
+      }, 
+      "174f9290-330a-4d78-b435-ba43c3050c5c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102642", 
+            "y" : "-96445"
+         }, 
+         "child" : [ 
+            "6954ff0d-2265-4e75-95af-50af196fe5a3"
+         ], 
+         "text" : "#Village_Bum.174f9290-330a-4d78-b435-ba43c3050c5c"
+      }, 
+      "6954ff0d-2265-4e75-95af-50af196fe5a3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102319", 
+            "y" : "-96188"
+         }, 
+         "child" : [ 
+            "7c88c03c-3390-4031-a37c-a6934048a2e4"
+         ]
+      }, 
+      "6a4c1c45-f7f0-4a27-8efd-87046d256def" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102086", 
+            "y" : "-96372"
+         }, 
+         "child" : [ 
+            "9b8e8ebe-78a5-4c2f-bdc9-454009752fc2"
+         ], 
+         "text" : "#Village_Bum.6a4c1c45-f7f0-4a27-8efd-87046d256def"
+      }, 
+      "9b8e8ebe-78a5-4c2f-bdc9-454009752fc2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-96136"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ]
+      }, 
+      "f2f392e0-b2f9-4575-bc54-d7ec3b705187" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101935", 
+            "y" : "-99929"
+         }, 
+         "child" : [ 
+            "742e316b-334e-4b3d-a82f-d40e2f125a41", 
+            "ef33b146-4f8a-4a45-ba62-e2f76e23525e", 
+            "a40d7c23-42d0-4ff0-b88f-a10023e031b6", 
+            "05be6db7-a153-4a5b-8363-43710818a869", 
+            "2ba8b794-041f-4e15-94d2-0413cc7d5982"
+         ], 
+         "text" : "#Village_Bum.f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+      }, 
+      "742e316b-334e-4b3d-a82f-d40e2f125a41" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102381", 
+            "y" : "-99833"
+         }, 
+         "child" : [ 
+            "fdea9d5f-89ba-4e64-ac14-f86c17e37b98"
+         ], 
+         "text" : "#Village_Bum.742e316b-334e-4b3d-a82f-d40e2f125a41"
+      }, 
+      "fdea9d5f-89ba-4e64-ac14-f86c17e37b98" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102464", 
+            "y" : "-99619"
+         }, 
+         "child" : [ 
+            "656553ac-6166-44df-85c9-3127cb470f96"
+         ], 
+         "text" : "#Village_Bum.fdea9d5f-89ba-4e64-ac14-f86c17e37b98"
+      }, 
+      "656553ac-6166-44df-85c9-3127cb470f96" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102422", 
+            "y" : "-99167"
+         }, 
+         "child" : [ 
+            "b05a5286-0e33-4523-8e4b-52be0ff2c096", 
+            "19f36984-ecde-433d-aed3-0e9f567a29ce"
+         ]
+      }, 
+      "b05a5286-0e33-4523-8e4b-52be0ff2c096" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102659", 
+            "y" : "-99085"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ], 
+         "text" : "#Village_Bum.b05a5286-0e33-4523-8e4b-52be0ff2c096"
+      }, 
+      "19f36984-ecde-433d-aed3-0e9f567a29ce" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102411", 
+            "y" : "-99088"
+         }, 
+         "child" : [ 
+            "cd10f399-bce4-46e0-b4d2-819157c707da"
+         ], 
+         "text" : "#Village_Bum.19f36984-ecde-433d-aed3-0e9f567a29ce"
+      }, 
+      "cd10f399-bce4-46e0-b4d2-819157c707da" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102341", 
+            "y" : "-99000"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ef33b146-4f8a-4a45-ba62-e2f76e23525e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102259", 
+            "y" : "-99783"
+         }, 
+         "child" : [ 
+            "046354d7-adf2-42af-8fcb-d96bd5c54746"
+         ], 
+         "text" : "#Village_Bum.ef33b146-4f8a-4a45-ba62-e2f76e23525e"
+      }, 
+      "046354d7-adf2-42af-8fcb-d96bd5c54746" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102338", 
+            "y" : "-99517"
+         }, 
+         "child" : [ 
+            "656553ac-6166-44df-85c9-3127cb470f96"
+         ], 
+         "text" : "#Village_Bum.046354d7-adf2-42af-8fcb-d96bd5c54746"
+      }, 
+      "a40d7c23-42d0-4ff0-b88f-a10023e031b6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102127", 
+            "y" : "-99727"
+         }, 
+         "child" : [ 
+            "7c55082e-1212-4847-98ed-bb3bbe31d66c"
+         ], 
+         "text" : "#Village_Bum.a40d7c23-42d0-4ff0-b88f-a10023e031b6"
+      }, 
+      "7c55082e-1212-4847-98ed-bb3bbe31d66c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102211", 
+            "y" : "-99413"
+         }, 
+         "child" : [ 
+            "656553ac-6166-44df-85c9-3127cb470f96"
+         ], 
+         "text" : "#Village_Bum.7c55082e-1212-4847-98ed-bb3bbe31d66c"
+      }, 
+      "05be6db7-a153-4a5b-8363-43710818a869" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102008", 
+            "y" : "-99674"
+         }, 
+         "child" : [ 
+            "a2c938e9-ed00-42de-a5e0-d243db3a0150"
+         ], 
+         "text" : "#Village_Bum.05be6db7-a153-4a5b-8363-43710818a869"
+      }, 
+      "a2c938e9-ed00-42de-a5e0-d243db3a0150" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102082", 
+            "y" : "-99304"
+         }, 
+         "child" : [ 
+            "656553ac-6166-44df-85c9-3127cb470f96"
+         ], 
+         "text" : "#Village_Bum.a2c938e9-ed00-42de-a5e0-d243db3a0150"
+      }, 
+      "2ba8b794-041f-4e15-94d2-0413cc7d5982" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101889", 
+            "y" : "-99619"
+         }, 
+         "child" : [ 
+            "1e3387d6-2952-4ad9-a03f-93a345e190d1"
+         ], 
+         "text" : "#Village_Bum.2ba8b794-041f-4e15-94d2-0413cc7d5982"
+      }, 
+      "1e3387d6-2952-4ad9-a03f-93a345e190d1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101804", 
+            "y" : "-99537"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b84de85d-aa4b-4180-9212-629370c5f5bd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102457", 
+            "y" : "-96390"
+         }, 
+         "child" : [ 
+            "a7ab0b2a-75d0-4efd-a4d6-18dd19501aa6"
+         ], 
+         "text" : "#Village_Bum.b84de85d-aa4b-4180-9212-629370c5f5bd"
+      }, 
+      "a7ab0b2a-75d0-4efd-a4d6-18dd19501aa6" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102408", 
+            "y" : "-96333"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ab21d0b0-d1d6-4995-ab16-db169cce2b40" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102207", 
+            "y" : "-97211"
+         }, 
+         "child" : [ 
+            "06a8e0ed-daf1-4897-a490-537fe9cf6d8d", 
+            "861fc983-0f8a-41cc-9760-0457ae482786"
+         ], 
+         "key" : "STAKE", 
+         "value" : "10", 
+         "opp" : "Equal"
+      }, 
+      "06a8e0ed-daf1-4897-a490-537fe9cf6d8d" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102372", 
+            "y" : "-97051"
+         }, 
+         "child" : [ 
+            "a552a160-21a7-487b-a725-874c7d5bf0bb"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a552a160-21a7-487b-a725-874c7d5bf0bb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102462", 
+            "y" : "-96962"
+         }, 
+         "child" : [ 
+            "7b1b072b-fac8-4bc7-97c8-ca66a2fad592"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }
+      }, 
+      "861fc983-0f8a-41cc-9760-0457ae482786" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102286", 
+            "y" : "-96979"
+         }, 
+         "child" : [ 
+            "a72e25c3-a29e-492a-9aca-44251efef345"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a72e25c3-a29e-492a-9aca-44251efef345" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102360", 
+            "y" : "-96886"
+         }, 
+         "child" : [ 
+            "7b1b072b-fac8-4bc7-97c8-ca66a2fad592"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }
+      }, 
+      "d9e678bd-65e8-49f9-95c6-d20b3e79bb18" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101993", 
+            "y" : "-97349"
+         }, 
+         "child" : [ 
+            "7d8a4f2d-996a-452e-b47f-2d90ce294714"
+         ]
+      }, 
+      "7d8a4f2d-996a-452e-b47f-2d90ce294714" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101924", 
+            "y" : "-97309"
+         }, 
+         "child" : [ 
+            "101520f0-4754-4b77-98c8-2fda0e963bbd", 
+            "8a89f2f5-a656-48f2-9f80-fd1201b4a3ef"
+         ], 
+         "key" : "STAKE", 
+         "value" : "20", 
+         "opp" : "Equal"
+      }, 
+      "101520f0-4754-4b77-98c8-2fda0e963bbd" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101965", 
+            "y" : "-97073"
+         }, 
+         "child" : [ 
+            "ad57bc98-acd8-4c22-9954-4d5b7c3d6a57"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }
+      }, 
+      "ad57bc98-acd8-4c22-9954-4d5b7c3d6a57" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102050", 
+            "y" : "-97002"
+         }, 
+         "child" : [ 
+            "b53cdbc9-adfd-45e1-8787-731bb40b7296"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b53cdbc9-adfd-45e1-8787-731bb40b7296" : { 
+         "class" : "AddExpGamblingNode", 
+         "desc" : { 
+            "x" : "-102112", 
+            "y" : "-96746.86"
+         }, 
+         "child" : [ 
+            "c2b0b548-3114-456d-bcf9-7486119a7013"
+         ], 
+         "exp" : "50"
+      }, 
+      "c2b0b548-3114-456d-bcf9-7486119a7013" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101974", 
+            "y" : "-96581"
+         }, 
+         "child" : [ 
+            "db37ff6e-d00a-4966-8b0c-ce5c005a8810", 
+            "6a4c1c45-f7f0-4a27-8efd-87046d256def", 
+            "faa218c4-dd79-4123-ad0b-6c5aaeba751b"
+         ], 
+         "text" : "#Village_Bum.c2b0b548-3114-456d-bcf9-7486119a7013"
+      }, 
+      "db37ff6e-d00a-4966-8b0c-ce5c005a8810" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102229", 
+            "y" : "-96421"
+         }, 
+         "child" : [ 
+            "6954ff0d-2265-4e75-95af-50af196fe5a3"
+         ], 
+         "text" : "#Village_Bum.db37ff6e-d00a-4966-8b0c-ce5c005a8810"
+      }, 
+      "faa218c4-dd79-4123-ad0b-6c5aaeba751b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101972", 
+            "y" : "-96296"
+         }, 
+         "child" : [ 
+            "73e1f448-0391-4ecd-a8ba-fd19a8d9bae3"
+         ], 
+         "text" : "#Village_Bum.faa218c4-dd79-4123-ad0b-6c5aaeba751b"
+      }, 
+      "73e1f448-0391-4ecd-a8ba-fd19a8d9bae3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101922", 
+            "y" : "-96211"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8a89f2f5-a656-48f2-9f80-fd1201b4a3ef" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101813", 
+            "y" : "-97197"
+         }, 
+         "child" : [ 
+            "9b95b5af-f9e1-44df-8d38-65a89c529be0", 
+            "0856d262-f787-43bd-b5bb-ee80cc853572"
+         ], 
+         "key" : "STAKE", 
+         "value" : "10", 
+         "opp" : "Equal"
+      }, 
+      "9b95b5af-f9e1-44df-8d38-65a89c529be0" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101874", 
+            "y" : "-97006"
+         }, 
+         "child" : [ 
+            "38055a43-9147-4b23-ac3a-ffec1fe959cf"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }
+      }, 
+      "38055a43-9147-4b23-ac3a-ffec1fe959cf" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101960", 
+            "y" : "-96927"
+         }, 
+         "child" : [ 
+            "f8d9a9eb-cfb9-4270-90a6-d305cf3f1dd6"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f8d9a9eb-cfb9-4270-90a6-d305cf3f1dd6" : { 
+         "class" : "AddExpGamblingNode", 
+         "desc" : { 
+            "x" : "-101982", 
+            "y" : "-96729"
+         }, 
+         "child" : [ 
+            "c2b0b548-3114-456d-bcf9-7486119a7013"
+         ], 
+         "exp" : "25"
+      }, 
+      "0856d262-f787-43bd-b5bb-ee80cc853572" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101780", 
+            "y" : "-96936"
+         }, 
+         "child" : [ 
+            "e58f7fbb-43ea-4363-9484-a354b075da34"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }
+      }, 
+      "e58f7fbb-43ea-4363-9484-a354b075da34" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101859", 
+            "y" : "-96855"
+         }, 
+         "child" : [ 
+            "ec8e074c-c96c-46e3-8592-835914c3878c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ec8e074c-c96c-46e3-8592-835914c3878c" : { 
+         "class" : "AddExpGamblingNode", 
+         "desc" : { 
+            "x" : "-101851", 
+            "y" : "-96730"
+         }, 
+         "child" : [ 
+            "c2b0b548-3114-456d-bcf9-7486119a7013"
+         ], 
+         "exp" : "10"
+      }, 
+      "1f039b73-300f-4317-a35a-cbad49043ecf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101372", 
+            "y" : "-97366"
+         }, 
+         "child" : [ 
+            "1d917569-a688-4e2e-8938-4cb4188cba1f", 
+            "97326ebf-672e-4583-8cdd-5efa9db65eae", 
+            "b4854b19-7cba-46be-8ab7-ecfb16c526ab"
+         ], 
+         "text" : "#Village_Bum.1f039b73-300f-4317-a35a-cbad49043ecf"
+      }, 
+      "1d917569-a688-4e2e-8938-4cb4188cba1f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101607", 
+            "y" : "-96865"
+         }, 
+         "child" : [ 
+            "6954ff0d-2265-4e75-95af-50af196fe5a3"
+         ], 
+         "text" : "#Village_Bum.1d917569-a688-4e2e-8938-4cb4188cba1f"
+      }, 
+      "97326ebf-672e-4583-8cdd-5efa9db65eae" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-96896"
+         }, 
+         "child" : [ 
+            "9b8e8ebe-78a5-4c2f-bdc9-454009752fc2"
+         ], 
+         "text" : "#Village_Bum.97326ebf-672e-4583-8cdd-5efa9db65eae"
+      }, 
+      "b4854b19-7cba-46be-8ab7-ecfb16c526ab" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101146", 
+            "y" : "-96871"
+         }, 
+         "child" : [ 
+            "745de4f5-8e39-4142-9625-a5f3a5a1c5b6"
+         ], 
+         "text" : "#Village_Bum.b4854b19-7cba-46be-8ab7-ecfb16c526ab"
+      }, 
+      "745de4f5-8e39-4142-9625-a5f3a5a1c5b6" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101141", 
+            "y" : "-96646"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1814ab1b-1f9e-449a-8446-896c7806567c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102190", 
+            "y" : "-98268"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b49dcf6b-d2db-4eeb-bf4f-fa4008fd90da" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102051", 
+            "y" : "-98450"
+         }, 
+         "child" : [ 
+            "2311eb4b-ed7b-4c45-95eb-6474f6d22006"
+         ]
+      }, 
+      "2311eb4b-ed7b-4c45-95eb-6474f6d22006" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101851", 
+            "y" : "-98397"
+         }, 
+         "child" : [ 
+            "d9eb48e2-532b-4f0d-a26e-19e48e941a96", 
+            "fbc78dd7-124d-4aa1-b5fc-02763d2ea8a1"
+         ]
+      }, 
+      "d9eb48e2-532b-4f0d-a26e-19e48e941a96" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-98370"
+         }, 
+         "child" : [ 
+            "6a2b7bb3-7849-4c4b-a2ce-92ff13ca206b", 
+            "4e65f356-6243-440d-9427-77a9d9f1fdbe"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6a2b7bb3-7849-4c4b-a2ce-92ff13ca206b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102144", 
+            "y" : "-98163"
+         }, 
+         "child" : [ 
+            "0387bf3d-a00a-4fec-8b15-bad48ead4d16"
+         ], 
+         "text" : "#Village_Bum.6a2b7bb3-7849-4c4b-a2ce-92ff13ca206b"
+      }, 
+      "0387bf3d-a00a-4fec-8b15-bad48ead4d16" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102106", 
+            "y" : "-97967"
+         }, 
+         "child" : [ 
+            "8040e112-e0ef-42bc-9c04-895b3a8e8c91"
+         ], 
+         "key" : "STAKE", 
+         "value" : "10"
+      }, 
+      "4e65f356-6243-440d-9427-77a9d9f1fdbe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101972", 
+            "y" : "-98256"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fbc78dd7-124d-4aa1-b5fc-02763d2ea8a1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101699", 
+            "y" : "-98350"
+         }, 
+         "child" : [ 
+            "ac37d414-1325-4db0-9c39-8aebdd8563ff", 
+            "edb21b5b-e945-4827-8605-7c6e392e8ed6"
+         ]
+      }, 
+      "ac37d414-1325-4db0-9c39-8aebdd8563ff" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101898", 
+            "y" : "-98222"
+         }, 
+         "child" : [ 
+            "4dbae453-1e52-421b-a4c0-d5f057cd5c80", 
+            "c50f7857-5727-417a-97ad-4abd1dbc42f7"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4dbae453-1e52-421b-a4c0-d5f057cd5c80" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102017", 
+            "y" : "-98090"
+         }, 
+         "child" : [ 
+            "078b7455-5602-4977-abb9-001aabc68922"
+         ], 
+         "text" : "#Village_Bum.4dbae453-1e52-421b-a4c0-d5f057cd5c80"
+      }, 
+      "078b7455-5602-4977-abb9-001aabc68922" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101980", 
+            "y" : "-97967"
+         }, 
+         "child" : [ 
+            "8040e112-e0ef-42bc-9c04-895b3a8e8c91"
+         ], 
+         "key" : "STAKE", 
+         "value" : "5"
+      }, 
+      "c50f7857-5727-417a-97ad-4abd1dbc42f7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101785", 
+            "y" : "-98082"
+         }, 
+         "child" : [ 
+            "3adf19e8-e971-4e62-bc88-40e43bf83fae"
+         ], 
+         "text" : "#Village_Bum.c50f7857-5727-417a-97ad-4abd1dbc42f7"
+      }, 
+      "3adf19e8-e971-4e62-bc88-40e43bf83fae" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101785", 
+            "y" : "-98020"
+         }, 
+         "child" : [ 
+            "72922ae1-926a-4bfd-82dd-d787ea58baa7"
+         ], 
+         "text" : "#Village_Bum.f1f30f33-cba0-45a2-be94-51596c164426"
+      }, 
+      "72922ae1-926a-4bfd-82dd-d787ea58baa7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101764", 
+            "y" : "-97919"
+         }, 
+         "child" : [ 
+            "60fe7015-904e-4de9-9beb-c70a9bcec70e"
+         ]
+      }, 
+      "60fe7015-904e-4de9-9beb-c70a9bcec70e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-97863"
+         }, 
+         "child" : [ 
+            "60893934-d4fd-468e-8494-ab3b171394a4", 
+            "36331089-abd1-4c4b-95c6-18121893a6b5"
+         ], 
+         "text" : "#Village_Bum.60fe7015-904e-4de9-9beb-c70a9bcec70e"
+      }, 
+      "60893934-d4fd-468e-8494-ab3b171394a4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101677", 
+            "y" : "-97750"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ], 
+         "text" : "#Village_Bum.60893934-d4fd-468e-8494-ab3b171394a4"
+      }, 
+      "36331089-abd1-4c4b-95c6-18121893a6b5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101439", 
+            "y" : "-97751"
+         }, 
+         "child" : [ 
+            "373ff5a5-756d-4796-8ccf-4a5f469fa16d"
+         ], 
+         "text" : "#Village_Bum.36331089-abd1-4c4b-95c6-18121893a6b5"
+      }, 
+      "373ff5a5-756d-4796-8ccf-4a5f469fa16d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101367", 
+            "y" : "-97652"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "edb21b5b-e945-4827-8605-7c6e392e8ed6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-98302"
+         }, 
+         "child" : [ 
+            "62d12790-f1a8-49bd-96cb-c7075892d5ae", 
+            "ef572543-104a-4458-9338-1809a40b8bac"
+         ]
+      }, 
+      "62d12790-f1a8-49bd-96cb-c7075892d5ae" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101663", 
+            "y" : "-98199"
+         }, 
+         "child" : [ 
+            "b4bcbe8a-15b9-4faf-a163-17356fcda86a"
+         ], 
+         "text" : "#Village_Bum.62d12790-f1a8-49bd-96cb-c7075892d5ae"
+      }, 
+      "b4bcbe8a-15b9-4faf-a163-17356fcda86a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101397", 
+            "y" : "-97996"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ]
+      }, 
+      "ef572543-104a-4458-9338-1809a40b8bac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101313", 
+            "y" : "-98166"
+         }, 
+         "child" : [ 
+            "bbc698e5-3fc6-49cc-a4db-6a98845daf04"
+         ], 
+         "text" : "#Village_Bum.ef572543-104a-4458-9338-1809a40b8bac"
+      }, 
+      "bbc698e5-3fc6-49cc-a4db-6a98845daf04" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-98068"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a9daf05f-6600-4bca-ae0a-7ea5bad40c71" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101919", 
+            "y" : "-98792"
+         }, 
+         "child" : [ 
+            "2cfc9e65-8369-4ccb-8d74-01597bcf2ed4", 
+            "4938f22d-b674-42ba-9110-f8daa4956e79"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }
+      }, 
+      "2cfc9e65-8369-4ccb-8d74-01597bcf2ed4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102014", 
+            "y" : "-98644"
+         }, 
+         "child" : [ 
+            "b49dcf6b-d2db-4eeb-bf4f-fa4008fd90da"
+         ], 
+         "text" : "#Village_Bum.2cfc9e65-8369-4ccb-8d74-01597bcf2ed4"
+      }, 
+      "4938f22d-b674-42ba-9110-f8daa4956e79" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101742", 
+            "y" : "-98682"
+         }, 
+         "child" : [ 
+            "7bf0e4f4-4bd3-4ce9-a9dc-b8a77255f951", 
+            "cadfcae1-94c6-4337-bdf2-85aa89db047c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Money"
+         }
+      }, 
+      "7bf0e4f4-4bd3-4ce9-a9dc-b8a77255f951" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101772", 
+            "y" : "-98551"
+         }, 
+         "child" : [ 
+            "fbc78dd7-124d-4aa1-b5fc-02763d2ea8a1"
+         ], 
+         "text" : "#Village_Bum.7bf0e4f4-4bd3-4ce9-a9dc-b8a77255f951"
+      }, 
+      "cadfcae1-94c6-4337-bdf2-85aa89db047c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101519", 
+            "y" : "-98566"
+         }, 
+         "child" : [ 
+            "6e861736-6ff6-46ac-9c4c-0f75eb59038e", 
+            "92563254-1a6c-4d5e-a348-081c075b5d83"
+         ], 
+         "text" : "#Village_Bum.cadfcae1-94c6-4337-bdf2-85aa89db047c"
+      }, 
+      "6e861736-6ff6-46ac-9c4c-0f75eb59038e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101526", 
+            "y" : "-98394"
+         }, 
+         "child" : [ 
+            "b4bcbe8a-15b9-4faf-a163-17356fcda86a"
+         ], 
+         "text" : "#Village_Bum.6e861736-6ff6-46ac-9c4c-0f75eb59038e"
+      }, 
+      "92563254-1a6c-4d5e-a348-081c075b5d83" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101299", 
+            "y" : "-98382"
+         }, 
+         "child" : [ 
+            "365e42a0-3a4e-47a1-a6ff-4aacdc805f13"
+         ], 
+         "text" : "#Village_Bum.92563254-1a6c-4d5e-a348-081c075b5d83"
+      }, 
+      "365e42a0-3a4e-47a1-a6ff-4aacdc805f13" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101274", 
+            "y" : "-98299"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5ba15d29-dc3c-4e96-b9ca-a407f48ee97d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101428", 
+            "y" : "-98986"
+         }, 
+         "child" : [ 
+            "f8de1b4b-1d5e-4c67-8e6f-40d2c544618b", 
+            "1dd385a9-67cf-4e8a-9be4-05230edeb0d5"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Dice"
+         }
+      }, 
+      "1dd385a9-67cf-4e8a-9be4-05230edeb0d5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-98852"
+         }, 
+         "child" : [ 
+            "4c6b97c6-5203-4e74-86da-67e0615c7204", 
+            "d04fbab0-cfc3-43a8-a7fd-cbbd4effc18b"
+         ], 
+         "text" : "#Village_Bum.1dd385a9-67cf-4e8a-9be4-05230edeb0d5"
+      }, 
+      "4c6b97c6-5203-4e74-86da-67e0615c7204" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101410.9", 
+            "y" : "-98773.22"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ], 
+         "text" : "#Village_Bum.4c6b97c6-5203-4e74-86da-67e0615c7204"
+      }, 
+      "d04fbab0-cfc3-43a8-a7fd-cbbd4effc18b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101176", 
+            "y" : "-98763"
+         }, 
+         "child" : [ 
+            "d2573023-26e3-4f73-ab05-dd27ba0eb6b5"
+         ], 
+         "text" : "#Village_Bum.d04fbab0-cfc3-43a8-a7fd-cbbd4effc18b"
+      }, 
+      "d2573023-26e3-4f73-ab05-dd27ba0eb6b5" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-98676"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0d44fe9e-45fd-4120-9460-87dd2ee8ca24" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101463", 
+            "y" : "-100154"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ], 
+         "text" : "#Village_Bum.0d44fe9e-45fd-4120-9460-87dd2ee8ca24"
+      }, 
+      "5c7aa370-d93c-417d-81a1-9728cb223f2c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101176", 
+            "y" : "-100221"
+         }, 
+         "child" : [ 
+            "5f53a390-dc37-494c-a5a7-df12d9d6d315"
+         ], 
+         "text" : "#Village_Bum.5c7aa370-d93c-417d-81a1-9728cb223f2c"
+      }, 
+      "5f53a390-dc37-494c-a5a7-df12d9d6d315" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101128.1", 
+            "y" : "-100135"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "717a9e4a-a52b-451a-8db2-1edf26a31739" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100935", 
+            "y" : "-100428"
+         }, 
+         "child" : [ 
+            "2b5f7983-0c18-4304-85b1-053ea2d71886"
+         ], 
+         "key" : "MEET"
+      }, 
+      "2b5f7983-0c18-4304-85b1-053ea2d71886" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100929", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+            "05ced3a5-04f8-476c-b2e7-e8ffaeb85f9b"
+         ], 
+         "text" : "#Village_Bum.2b5f7983-0c18-4304-85b1-053ea2d71886"
+      }, 
+      "05ced3a5-04f8-476c-b2e7-e8ffaeb85f9b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100915", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "5e71567d-8d8c-48b7-aeae-d48f78c7cbc5"
+         ]
+      }, 
+      "5e71567d-8d8c-48b7-aeae-d48f78c7cbc5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100928", 
+            "y" : "-100158"
+         }, 
+         "child" : [ 
+            "faff0c8d-1f48-4641-a9eb-e73319a09572", 
+            "6f706962-80d2-4e3a-bda7-adbf4dcfc963", 
+            "a6e3a9e5-4479-437d-9180-445576c3511d"
+         ], 
+         "text" : "#Village_Bum.5e71567d-8d8c-48b7-aeae-d48f78c7cbc5"
+      }, 
+      "faff0c8d-1f48-4641-a9eb-e73319a09572" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101124", 
+            "y" : "-100017"
+         }, 
+         "child" : [ 
+            "baa0b460-ce27-4401-9dd7-b20f87d0adde"
+         ], 
+         "text" : "#Village_Bum.faff0c8d-1f48-4641-a9eb-e73319a09572"
+      }, 
+      "baa0b460-ce27-4401-9dd7-b20f87d0adde" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101261", 
+            "y" : "-99911"
+         }, 
+         "child" : [ 
+            "2e333bb7-dad6-4906-9a90-2cfd9d7b3494"
+         ], 
+         "text" : "#Village_Bum.baa0b460-ce27-4401-9dd7-b20f87d0adde"
+      }, 
+      "2e333bb7-dad6-4906-9a90-2cfd9d7b3494" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101238", 
+            "y" : "-99779"
+         }, 
+         "child" : [ 
+            "a40a8392-6e03-4be5-832b-de74168f4b7a"
+         ]
+      }, 
+      "a40a8392-6e03-4be5-832b-de74168f4b7a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101255", 
+            "y" : "-99710"
+         }, 
+         "child" : [ 
+            "84473251-b76c-42f1-8dc4-9572ce0d2ed7"
+         ], 
+         "text" : "#Village_Bum.a40a8392-6e03-4be5-832b-de74168f4b7a"
+      }, 
+      "84473251-b76c-42f1-8dc4-9572ce0d2ed7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101238", 
+            "y" : "-99579"
+         }, 
+         "child" : [ 
+            "29fef4d7-c0cf-4641-99fe-51e4708e8063"
+         ]
+      }, 
+      "29fef4d7-c0cf-4641-99fe-51e4708e8063" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101252", 
+            "y" : "-99519"
+         }, 
+         "child" : [ 
+            "c1f82281-040a-4260-8b5d-beded8cde2c8"
+         ], 
+         "text" : "#Village_Bum.29fef4d7-c0cf-4641-99fe-51e4708e8063"
+      }, 
+      "c1f82281-040a-4260-8b5d-beded8cde2c8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101260", 
+            "y" : "-99381"
+         }, 
+         "child" : [ 
+            "00660900-466b-4353-be4a-868dcb9b8a0b"
+         ]
+      }, 
+      "00660900-466b-4353-be4a-868dcb9b8a0b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101257", 
+            "y" : "-99321"
+         }, 
+         "child" : [ 
+            "1f75b801-668e-405c-b9e9-cf05a10c7040", 
+            "86a2242a-3d69-4995-96c9-b7d35ad443a0", 
+            "53ff9e35-2861-4fa3-a596-62ff621b376c"
+         ], 
+         "text" : "#Village_Bum.00660900-466b-4353-be4a-868dcb9b8a0b"
+      }, 
+      "1f75b801-668e-405c-b9e9-cf05a10c7040" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101588", 
+            "y" : "-99207"
+         }, 
+         "child" : [ 
+            "7c88c03c-3390-4031-a37c-a6934048a2e4"
+         ], 
+         "text" : "#Village_Bum.1f75b801-668e-405c-b9e9-cf05a10c7040"
+      }, 
+      "86a2242a-3d69-4995-96c9-b7d35ad443a0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101233", 
+            "y" : "-99148"
+         }, 
+         "child" : [ 
+            "f2f392e0-b2f9-4575-bc54-d7ec3b705187"
+         ], 
+         "text" : "#Village_Bum.86a2242a-3d69-4995-96c9-b7d35ad443a0"
+      }, 
+      "53ff9e35-2861-4fa3-a596-62ff621b376c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100945", 
+            "y" : "-99146"
+         }, 
+         "child" : [ 
+            "77307258-48ac-4ec4-b1fb-49a428315570"
+         ], 
+         "text" : "#Village_Bum.53ff9e35-2861-4fa3-a596-62ff621b376c"
+      }, 
+      "77307258-48ac-4ec4-b1fb-49a428315570" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100881", 
+            "y" : "-99055"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6f706962-80d2-4e3a-bda7-adbf4dcfc963" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100897", 
+            "y" : "-100014"
+         }, 
+         "child" : [ 
+            "c9f27951-a943-4fe9-bce3-7f898c5dc89d"
+         ], 
+         "text" : "#Village_Bum.6f706962-80d2-4e3a-bda7-adbf4dcfc963"
+      }, 
+      "c9f27951-a943-4fe9-bce3-7f898c5dc89d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100969", 
+            "y" : "-99928"
+         }, 
+         "child" : [ 
+            "2e333bb7-dad6-4906-9a90-2cfd9d7b3494"
+         ], 
+         "text" : "#Village_Bum.c9f27951-a943-4fe9-bce3-7f898c5dc89d"
+      }, 
+      "a6e3a9e5-4479-437d-9180-445576c3511d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100663", 
+            "y" : "-100015"
+         }, 
+         "child" : [ 
+            "b1c1a2f6-85a3-446b-b7d4-71ed2c2b73e0"
+         ], 
+         "text" : "#Village_Bum.a6e3a9e5-4479-437d-9180-445576c3511d"
+      }, 
+      "b1c1a2f6-85a3-446b-b7d4-71ed2c2b73e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100657", 
+            "y" : "-99903"
+         }, 
+         "child" : [ 
+            "2e333bb7-dad6-4906-9a90-2cfd9d7b3494"
+         ], 
+         "text" : "#Village_Bum.b1c1a2f6-85a3-446b-b7d4-71ed2c2b73e0"
+      }, 
+      "f737575c-fdbf-46bb-b419-7444ff4e54c7" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-100847", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/BalwanNpc"
+      }
+   }, 
+   "entry" : "59fb6971-c19f-4d80-bd28-cc623f48cc48"
+}

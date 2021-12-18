@@ -33,8 +33,8 @@
       "738d41f6-0a65-4e9c-819e-62a35b4c3c4a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103027", 
-            "y" : "-103309", 
+            "x" : "-103050", 
+            "y" : "-103310", 
             "comment" : "TTmod customise"
          }, 
          "child" : [ 
@@ -44,12 +44,12 @@
       "b1efb37e-7afa-4da8-9d5d-592339e01a19" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-103051", 
-            "y" : "-103254"
+            "x" : "-103082", 
+            "y" : "-103261"
          }, 
          "child" : [ 
             "19b10ac9-3182-479a-a556-6a774f3eed6b", 
-            "9ae861c2-2e40-44b2-aca2-95b747c90153"
+            "b992cdef-5e6a-4294-88cd-127bf133a9ec"
          ], 
          "key" : "TTADDED"
       }, 
@@ -60,6 +60,17 @@
             "y" : "-103150"
          }, 
          "child" : [ 
+         ]
+      }, 
+      "b992cdef-5e6a-4294-88cd-127bf133a9ec" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102918", 
+            "y" : "-103170"
+         }, 
+         "child" : [ 
+            "9ae861c2-2e40-44b2-aca2-95b747c90153", 
+            "9b42fdc9-c466-4c88-8344-413697d4cb00"
          ]
       }, 
       "9ae861c2-2e40-44b2-aca2-95b747c90153" : { 
@@ -123,6 +134,42 @@
             "proto" : "craft_tt"
          }, 
          "objectName" : "VogAmmoBOX (9)"
+      }, 
+      "9b42fdc9-c466-4c88-8344-413697d4cb00" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102628", 
+            "y" : "-103128"
+         }, 
+         "child" : [ 
+            "9748c828-3d94-488b-896d-1fae6c2d91f7"
+         ], 
+         "spawnName" : "cmpfire_norm", 
+         "pos" : [ 
+            "172.9", 
+            "-1.9", 
+            "199.1"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "9748c828-3d94-488b-896d-1fae6c2d91f7" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-102611", 
+            "y" : "-103028"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "cmpfire_norm", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "Campfire"
+         }, 
+         "outKeyName" : "cmpfire_norm"
       }, 
       "f467d627-c992-45e2-ae2d-9a96b89bcdb4" : { 
          "class" : "DummyNode", 

@@ -1,0 +1,162 @@
+{ 
+   "states" : { 
+      "40a8de1b-c673-44ec-b046-aa6870696fd2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100771", 
+            "y" : "-100598"
+         }, 
+         "child" : [ 
+            "defc24b1-16c2-49f6-8a8f-fcadaeb1eca3", 
+            "f6a508a3-5bd0-48e4-9a03-af8e524810e7"
+         ]
+      }, 
+      "defc24b1-16c2-49f6-8a8f-fcadaeb1eca3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100773", 
+            "y" : "-100442"
+         }, 
+         "child" : [ 
+            "c6ba5e48-2b55-497b-86e3-da4555eed5d2", 
+            "0e77479b-9130-47dd-bd64-922e4ebf1c70"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "c6ba5e48-2b55-497b-86e3-da4555eed5d2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100809", 
+            "y" : "-100334"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0e77479b-9130-47dd-bd64-922e4ebf1c70" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100669", 
+            "y" : "-100332"
+         }, 
+         "child" : [ 
+            "6566c9c0-583e-46f1-bcc0-0f3f6bd92909"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "6566c9c0-583e-46f1-bcc0-0f3f6bd92909" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100663", 
+            "y" : "-100262"
+         }, 
+         "child" : [ 
+            "45cfde83-450a-41d8-998d-d3b51b204152", 
+            "465c34c0-aa36-4b0b-8fad-fffcc303ad18", 
+            "4474265c-7011-4b56-b7b7-c0a7dafc78f2", 
+            "0d1591a8-b243-43d1-957f-3bd228d08a85", 
+            "d15ffc60-d3b1-4df8-8858-5125b3f43c38", 
+            "bba2eec5-f178-4314-baf0-7917e0c77649", 
+            "8a8c79d1-9158-42ff-b3f7-a73a65c16dba"
+         ]
+      }, 
+      "45cfde83-450a-41d8-998d-d3b51b204152" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100851", 
+            "y" : "-100156"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-15"
+      }, 
+      "465c34c0-aa36-4b0b-8fad-fffcc303ad18" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100787", 
+            "y" : "-100108"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-10"
+      }, 
+      "4474265c-7011-4b56-b7b7-c0a7dafc78f2" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100726", 
+            "y" : "-100053"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-5"
+      }, 
+      "0d1591a8-b243-43d1-957f-3bd228d08a85" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100661", 
+            "y" : "-100004"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "0"
+      }, 
+      "d15ffc60-d3b1-4df8-8858-5125b3f43c38" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100595", 
+            "y" : "-100053"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "5"
+      }, 
+      "bba2eec5-f178-4314-baf0-7917e0c77649" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100530", 
+            "y" : "-100103"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "10"
+      }, 
+      "8a8c79d1-9158-42ff-b3f7-a73a65c16dba" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100468", 
+            "y" : "-100154"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "15"
+      }, 
+      "f6a508a3-5bd0-48e4-9a03-af8e524810e7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100584", 
+            "y" : "-100431"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "battary"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }
+   }, 
+   "entry" : "40a8de1b-c673-44ec-b046-aa6870696fd2"
+}

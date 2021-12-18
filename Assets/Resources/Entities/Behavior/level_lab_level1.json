@@ -1,0 +1,402 @@
+{ 
+   "states" : { 
+      "68fb346e-abf7-4566-bfbf-d87d362615a3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100865", 
+            "y" : "-100721"
+         }, 
+         "child" : [ 
+            "99e881df-f939-464c-8ba2-07df78bc7942", 
+            "a5f0a405-7bd9-43ba-9120-084f9691d9d8", 
+            "d9d718cf-6d7e-45d7-8d33-a7573201921b"
+         ]
+      }, 
+      "99e881df-f939-464c-8ba2-07df78bc7942" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101091", 
+            "y" : "-100601"
+         }, 
+         "child" : [ 
+            "a35fc8af-f378-43d3-84cd-b93d4b03f512", 
+            "3961206b-be39-445f-ba89-38d70fd0b256"
+         ], 
+         "key" : "INIT"
+      }, 
+      "a35fc8af-f378-43d3-84cd-b93d4b03f512" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101149", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3961206b-be39-445f-ba89-38d70fd0b256" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101012", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+            "d363e30f-599c-4a4a-98c2-017f1fd2a64e"
+         ], 
+         "key" : "INIT"
+      }, 
+      "d363e30f-599c-4a4a-98c2-017f1fd2a64e" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101050", 
+            "y" : "-100462"
+         }, 
+         "child" : [ 
+            "7dcbdbc8-b78f-4162-a4bc-01827dcdf386", 
+            "c67f0b03-7a9e-48af-8275-a12ca0b4863f"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "krz"
+      }, 
+      "7dcbdbc8-b78f-4162-a4bc-01827dcdf386" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101068", 
+            "y" : "-100370"
+         }, 
+         "child" : [ 
+            "54e8ba8b-da09-4924-b90b-3acb140a251c"
+         ], 
+         "objectName" : "Cult_Adriana", 
+         "active" : "false"
+      }, 
+      "54e8ba8b-da09-4924-b90b-3acb140a251c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101071", 
+            "y" : "-100300"
+         }, 
+         "child" : [ 
+            "39770634-7717-43ba-8dca-2736e4b1e1f1"
+         ], 
+         "objectName" : "Cult_Artem", 
+         "active" : "false"
+      }, 
+      "39770634-7717-43ba-8dca-2736e4b1e1f1" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101098", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "f8a9e0e4-b77b-4745-9712-8849c750b6b2"
+         ], 
+         "fraction" : "lab_level_1", 
+         "value" : "0"
+      }, 
+      "f8a9e0e4-b77b-4745-9712-8849c750b6b2" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101083", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+            "025c5a95-9327-4466-8056-2fc94fc58486"
+         ], 
+         "objectName" : "cult1", 
+         "pointName" : "cult.point", 
+         "waitEnd" : "false"
+      }, 
+      "025c5a95-9327-4466-8056-2fc94fc58486" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101083", 
+            "y" : "-100092"
+         }, 
+         "child" : [ 
+            "4f5bc165-f0ce-4b95-9e53-8eee1bd99eba"
+         ], 
+         "objectName" : "cult2", 
+         "pointName" : "cult.point", 
+         "waitEnd" : "false"
+      }, 
+      "4f5bc165-f0ce-4b95-9e53-8eee1bd99eba" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101082", 
+            "y" : "-100019"
+         }, 
+         "child" : [ 
+            "4d602aa5-8a28-485d-8d7a-0353f8ab08ae"
+         ], 
+         "objectName" : "cult3", 
+         "pointName" : "cult.point", 
+         "waitEnd" : "false"
+      }, 
+      "4d602aa5-8a28-485d-8d7a-0353f8ab08ae" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101082", 
+            "y" : "-99947"
+         }, 
+         "child" : [ 
+            "2113cf20-e881-4688-8cb3-ca513349f34d"
+         ], 
+         "objectName" : "cult4", 
+         "pointName" : "cult.point", 
+         "waitEnd" : "false"
+      }, 
+      "2113cf20-e881-4688-8cb3-ca513349f34d" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99872"
+         }, 
+         "child" : [ 
+            "a1ebba3d-8b9b-4e6f-a5fa-537ea1e937fb"
+         ], 
+         "objectName" : "cult5", 
+         "pointName" : "cult.point", 
+         "waitEnd" : "false"
+      }, 
+      "a1ebba3d-8b9b-4e6f-a5fa-537ea1e937fb" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101070", 
+            "y" : "-99803"
+         }, 
+         "child" : [ 
+            "66a37005-45fb-448d-adb8-cfb2c848a567"
+         ], 
+         "objectName" : "cult6", 
+         "active" : "true"
+      }, 
+      "66a37005-45fb-448d-adb8-cfb2c848a567" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101070", 
+            "y" : "-99730"
+         }, 
+         "child" : [ 
+            "300e09c7-a6b0-4e94-a8c7-e705be054775"
+         ], 
+         "objectName" : "cult7", 
+         "active" : "true"
+      }, 
+      "300e09c7-a6b0-4e94-a8c7-e705be054775" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101070", 
+            "y" : "-99659"
+         }, 
+         "child" : [ 
+            "552b6c93-7aad-4375-9359-f5208c19ad72"
+         ], 
+         "objectName" : "cult8", 
+         "active" : "true"
+      }, 
+      "552b6c93-7aad-4375-9359-f5208c19ad72" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-99587"
+         }, 
+         "child" : [ 
+            "cb65ed51-c821-437d-99e3-167a43318854"
+         ], 
+         "objectName" : "cult9", 
+         "active" : "true"
+      }, 
+      "cb65ed51-c821-437d-99e3-167a43318854" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-99517"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "cult10", 
+         "active" : "true"
+      }, 
+      "c67f0b03-7a9e-48af-8275-a12ca0b4863f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100929", 
+            "y" : "-100372"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a5f0a405-7bd9-43ba-9120-084f9691d9d8" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-100571"
+         }, 
+         "child" : [ 
+            "4a3f0167-e6bc-449a-8f9b-cbb542d73626"
+         ]
+      }, 
+      "4a3f0167-e6bc-449a-8f9b-cbb542d73626" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100676", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+            "e269b4d5-2a5d-4838-8514-54579b6e0749", 
+            "4914813a-86f7-412b-b2ea-7fb59e9ee25b"
+         ], 
+         "objectName" : "Cult_Artem"
+      }, 
+      "e269b4d5-2a5d-4838-8514-54579b6e0749" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100741", 
+            "y" : "-100436"
+         }, 
+         "child" : [ 
+            "0460e182-e79e-4f1a-a095-6646ad428e38"
+         ], 
+         "quest_key" : "CULT_DEADCITY.END"
+      }, 
+      "0460e182-e79e-4f1a-a095-6646ad428e38" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+            "4992f04c-52a0-4c7b-ba2a-ab00820215c9"
+         ], 
+         "quest_key" : "CULT_DEADCITY.END2"
+      }, 
+      "4992f04c-52a0-4c7b-ba2a-ab00820215c9" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100737", 
+            "y" : "-100332"
+         }, 
+         "child" : [ 
+            "2e424696-5545-42f1-90aa-327a3162fc82"
+         ], 
+         "quest_key" : "CULT_CANYON.END"
+      }, 
+      "2e424696-5545-42f1-90aa-327a3162fc82" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100741", 
+            "y" : "-100282"
+         }, 
+         "child" : [ 
+            "e3644c8e-df37-453b-ac89-52a588b85b4e"
+         ], 
+         "quest_key" : "CULT_CANYON.END2"
+      }, 
+      "e3644c8e-df37-453b-ac89-52a588b85b4e" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100725", 
+            "y" : "-100232"
+         }, 
+         "child" : [ 
+            "2c4d7099-f462-4833-8e48-545492df2fe5"
+         ], 
+         "quest_key" : "CULT_JOIN"
+      }, 
+      "2c4d7099-f462-4833-8e48-545492df2fe5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100725", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+            "a03fb051-5ae6-40d1-9cdf-29f09acb8069"
+         ], 
+         "quest_key" : "CULT_CANYON"
+      }, 
+      "a03fb051-5ae6-40d1-9cdf-29f09acb8069" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100728", 
+            "y" : "-100132"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CULT_DEADCITY"
+      }, 
+      "4914813a-86f7-412b-b2ea-7fb59e9ee25b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100587", 
+            "y" : "-100432"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d9d718cf-6d7e-45d7-8d33-a7573201921b" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100339", 
+            "y" : "-100617"
+         }, 
+         "child" : [ 
+            "efc081d1-95b9-48ed-aea2-7e5e46112b70", 
+            "59d4ab1a-8613-4c93-8ae0-7d6e0447b1c2"
+         ], 
+         "note_key" : "FROMMOROZ"
+      }, 
+      "efc081d1-95b9-48ed-aea2-7e5e46112b70" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100383", 
+            "y" : "-100483"
+         }, 
+         "child" : [ 
+            "e8b91dbf-27d6-4bca-996d-15de6e4087a2"
+         ], 
+         "spawnName" : "hz", 
+         "pos" : [ 
+            "21", 
+            "0.1", 
+            "37"
+         ], 
+         "angles" : [ 
+            "0", 
+            "-25", 
+            "0"
+         ]
+      }, 
+      "e8b91dbf-27d6-4bca-996d-15de6e4087a2" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100394", 
+            "y" : "-100375"
+         }, 
+         "child" : [ 
+            "341e7da2-2c7b-4215-9ebd-93c965b99a7b"
+         ], 
+         "objectName" : "Player", 
+         "pointName" : "hz"
+      }, 
+      "341e7da2-2c7b-4215-9ebd-93c965b99a7b" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100405", 
+            "y" : "-100288"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "FROMMOROZ"
+      }, 
+      "59d4ab1a-8613-4c93-8ae0-7d6e0447b1c2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100220", 
+            "y" : "-100482"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "68fb346e-abf7-4566-bfbf-d87d362615a3"
+}

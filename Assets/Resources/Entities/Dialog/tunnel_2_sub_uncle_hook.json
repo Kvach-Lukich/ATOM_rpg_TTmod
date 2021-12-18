@@ -1,0 +1,2992 @@
+{ 
+   "states" : { 
+      "400334ee-e165-41c3-b65c-0b1f93f858b1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101313", 
+            "y" : "-101533"
+         }, 
+         "child" : [ 
+            "57f02b8f-2a53-4695-a908-0976390c2398", 
+            "b5e526ff-f1d3-4dca-a4c9-4c2a9bd1da1c"
+         ]
+      }, 
+      "57f02b8f-2a53-4695-a908-0976390c2398" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-101341", 
+            "y" : "-101487"
+         }, 
+         "child" : [ 
+            "7937b655-0d42-4318-b824-285cf83f9cb1", 
+            "23e00daa-7c0f-4916-a333-0021c7cbb077"
+         ], 
+         "mapName" : "Fogelevka_1"
+      }, 
+      "7937b655-0d42-4318-b824-285cf83f9cb1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101417", 
+            "y" : "-101392"
+         }, 
+         "child" : [ 
+            "44e68427-3ff0-4f86-b4f4-4ae8e53a8662"
+         ]
+      }, 
+      "44e68427-3ff0-4f86-b4f4-4ae8e53a8662" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101689", 
+            "y" : "-101326"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Dialog/Fogelevka_Hook"
+      }, 
+      "23e00daa-7c0f-4916-a333-0021c7cbb077" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-101291", 
+            "y" : "-101398"
+         }, 
+         "child" : [ 
+            "d9a2f86f-0fe2-43aa-9fbb-08470b19253c", 
+            "e95463b1-a6e7-4ec9-acb9-3e8aba9833a6"
+         ], 
+         "mapName" : "Tunnel_2_Sub"
+      }, 
+      "d9a2f86f-0fe2-43aa-9fbb-08470b19253c" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101440", 
+            "y" : "-101258", 
+            "comment" : "ветка Тофика"
+         }, 
+         "child" : [ 
+            "b7e3f2d1-5b8d-4530-bd43-111f8da383d9", 
+            "959cc7c4-0785-420e-a673-2d19b992d32a", 
+            "8f80a113-7cba-4999-8002-52b1e96254c3"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.FIGHT2.BEGIN"
+      }, 
+      "b7e3f2d1-5b8d-4530-bd43-111f8da383d9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101429", 
+            "y" : "-101104"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "959cc7c4-0785-420e-a673-2d19b992d32a" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101724", 
+            "y" : "-101056"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Dialog/Tunnel_2_Sub_Uncle_Hook2"
+      }, 
+      "8f80a113-7cba-4999-8002-52b1e96254c3" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101287", 
+            "y" : "-101125", 
+            "comment" : "иначе ветка Симона"
+         }, 
+         "child" : [ 
+            "d5fa5f60-146d-43b7-80c6-a786dc438ae2"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "d5fa5f60-146d-43b7-80c6-a786dc438ae2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101340", 
+            "y" : "-101051"
+         }, 
+         "child" : [ 
+            "39f71753-fbc6-4afd-92cd-ba58c0d0ab54"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d5fa5f60-146d-43b7-80c6-a786dc438ae2"
+      }, 
+      "39f71753-fbc6-4afd-92cd-ba58c0d0ab54" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101338", 
+            "y" : "-100955"
+         }, 
+         "child" : [ 
+            "19bc7231-7c38-4af1-ae2c-12827d908bdd"
+         ]
+      }, 
+      "19bc7231-7c38-4af1-ae2c-12827d908bdd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101338", 
+            "y" : "-100911"
+         }, 
+         "child" : [ 
+            "fb007131-4b95-43ac-be16-3fa2cf8bfc6d"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.19bc7231-7c38-4af1-ae2c-12827d908bdd"
+      }, 
+      "fb007131-4b95-43ac-be16-3fa2cf8bfc6d" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101360", 
+            "y" : "-100811", 
+            "comment" : "(задание Месть, см. Валера Добер, выполняется)"
+         }, 
+         "child" : [ 
+            "01c80594-6a27-4b7c-8588-6c2147724f3e", 
+            "53271dfd-3bd0-4a59-9033-93cc49753d2e", 
+            "394eb684-3e02-4606-96c6-ff80a6560d82", 
+            "a62c4eeb-1247-4eff-b3dc-bad0586b06a4"
+         ], 
+         "quest_key" : "LOSTBUS2.QUEST.SIMON.REVENGE.BEGIN"
+      }, 
+      "01c80594-6a27-4b7c-8588-6c2147724f3e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102340", 
+            "y" : "-100676", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "1955af31-c49b-46c0-8a05-2002e05593da"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.01c80594-6a27-4b7c-8588-6c2147724f3e"
+      }, 
+      "1955af31-c49b-46c0-8a05-2002e05593da" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103318", 
+            "y" : "-100509", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "d139fb2c-9556-4179-a66d-e0399a5826ef"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.1955af31-c49b-46c0-8a05-2002e05593da"
+      }, 
+      "d139fb2c-9556-4179-a66d-e0399a5826ef" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-103272", 
+            "y" : "-100397"
+         }, 
+         "child" : [ 
+            "2a37d123-26b1-468e-97cd-fc2e577448b3", 
+            "ddd7ee0c-3bc5-40c7-9d50-378f9937446b", 
+            "3d4be1b1-1205-4ace-88b2-9d3a014880d5", 
+            "42c28e5d-6bad-4736-ad57-dce0ddae1a78"
+         ]
+      }, 
+      "2a37d123-26b1-468e-97cd-fc2e577448b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104240", 
+            "y" : "-100298", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "a257f9c3-cd2a-4479-a784-98a42e96b653"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.2a37d123-26b1-468e-97cd-fc2e577448b3"
+      }, 
+      "a257f9c3-cd2a-4479-a784-98a42e96b653" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105150", 
+            "y" : "-100151", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "f13ebf89-011a-466c-9153-2b05ffbb09d3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.a257f9c3-cd2a-4479-a784-98a42e96b653"
+      }, 
+      "f13ebf89-011a-466c-9153-2b05ffbb09d3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-105151", 
+            "y" : "-100041"
+         }, 
+         "child" : [ 
+            "01a454b5-c1fd-477c-a863-e6f11afbd908"
+         ]
+      }, 
+      "01a454b5-c1fd-477c-a863-e6f11afbd908" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105153", 
+            "y" : "-100001"
+         }, 
+         "child" : [ 
+            "43bdfa6b-5772-47da-b553-7e226a1f274f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.01a454b5-c1fd-477c-a863-e6f11afbd908"
+      }, 
+      "43bdfa6b-5772-47da-b553-7e226a1f274f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-105153", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+            "efdde191-024f-4fb9-ab24-a98fd078874c"
+         ]
+      }, 
+      "efdde191-024f-4fb9-ab24-a98fd078874c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105152", 
+            "y" : "-99848"
+         }, 
+         "child" : [ 
+            "9d15408f-0812-4073-9caa-d56c87441de4"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.efdde191-024f-4fb9-ab24-a98fd078874c"
+      }, 
+      "9d15408f-0812-4073-9caa-d56c87441de4" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-105106", 
+            "y" : "-99734"
+         }, 
+         "child" : [ 
+            "67c1dd23-8015-4554-8e0d-c23a5e08094c", 
+            "59298012-8d63-47d2-9468-6677ddd18a6c", 
+            "4db14345-3a0f-4f01-822c-3c2e63caf781", 
+            "ef0878dd-71e9-4c92-8da0-56ea4f7839cc", 
+            "87866990-110b-4063-b181-c2fdc4949b97"
+         ], 
+         "exp" : "55"
+      }, 
+      "67c1dd23-8015-4554-8e0d-c23a5e08094c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105924", 
+            "y" : "-99495", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "ce107aff-1434-4880-8d28-e9647ab93c90"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.67c1dd23-8015-4554-8e0d-c23a5e08094c"
+      }, 
+      "ce107aff-1434-4880-8d28-e9647ab93c90" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-105906", 
+            "y" : "-99405"
+         }, 
+         "child" : [ 
+            "cd4fdabd-ceea-4217-8747-9354e2180b28"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "cd4fdabd-ceea-4217-8747-9354e2180b28" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105879", 
+            "y" : "-99345"
+         }, 
+         "child" : [ 
+            "e127a261-908c-4e46-bf85-0fba29350d88"
+         ]
+      }, 
+      "e127a261-908c-4e46-bf85-0fba29350d88" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-105883", 
+            "y" : "-99301"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "59298012-8d63-47d2-9468-6677ddd18a6c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105515", 
+            "y" : "-99492", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.59298012-8d63-47d2-9468-6677ddd18a6c"
+      }, 
+      "f13610a1-4d95-43b8-8468-ec824e6aeed3" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-105497", 
+            "y" : "-99188", 
+            "comment" : "a8"
+         }, 
+         "child" : [ 
+            "86523546-105d-4189-a013-3f646ab6ef54", 
+            "dc8840e0-61e1-4fcb-87c8-7836eb173fec"
+         ], 
+         "value" : "10", 
+         "stat" : "Strength"
+      }, 
+      "86523546-105d-4189-a013-3f646ab6ef54" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106423", 
+            "y" : "-99018", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "abf08436-f4bb-4857-9ef1-fd6e95dae72d"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.86523546-105d-4189-a013-3f646ab6ef54"
+      }, 
+      "abf08436-f4bb-4857-9ef1-fd6e95dae72d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106423", 
+            "y" : "-98910"
+         }, 
+         "child" : [ 
+            "d95fb9f9-a305-41bf-a29d-6695cbd63ecd"
+         ]
+      }, 
+      "d95fb9f9-a305-41bf-a29d-6695cbd63ecd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106422", 
+            "y" : "-98867"
+         }, 
+         "child" : [ 
+            "c25e75f4-be13-4399-8625-cb23c0e98ea1"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d95fb9f9-a305-41bf-a29d-6695cbd63ecd"
+      }, 
+      "c25e75f4-be13-4399-8625-cb23c0e98ea1" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-106368", 
+            "y" : "-98745"
+         }, 
+         "child" : [ 
+            "77afb77f-b1ca-4277-bc62-8425506e724a", 
+            "4fd7b2af-bbbb-4638-a659-3533a50caaad", 
+            "b28ef242-a862-478b-b146-c67c5a2f7c63"
+         ], 
+         "exp" : "200"
+      }, 
+      "77afb77f-b1ca-4277-bc62-8425506e724a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106864", 
+            "y" : "-98628", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "86aa13d9-6cca-4cd7-9d44-996266c6d179"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.77afb77f-b1ca-4277-bc62-8425506e724a"
+      }, 
+      "86aa13d9-6cca-4cd7-9d44-996266c6d179" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106870", 
+            "y" : "-98332", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "de74780c-616b-4a63-a3d3-ed0d3d180cdd"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.86aa13d9-6cca-4cd7-9d44-996266c6d179"
+      }, 
+      "de74780c-616b-4a63-a3d3-ed0d3d180cdd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-106841", 
+            "y" : "-98220"
+         }, 
+         "child" : [ 
+            "d5a44298-cc5d-4850-a8c2-9b2b377c14ac"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "400", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d5a44298-cc5d-4850-a8c2-9b2b377c14ac" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106872", 
+            "y" : "-98139"
+         }, 
+         "child" : [ 
+            "60d93954-f819-4760-bc8d-d432ad8d29a3"
+         ]
+      }, 
+      "60d93954-f819-4760-bc8d-d432ad8d29a3" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-106826", 
+            "y" : "-98092"
+         }, 
+         "child" : [ 
+            "93c951a8-2eea-4406-a1d4-146e3fd553fb"
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }, 
+      "93c951a8-2eea-4406-a1d4-146e3fd553fb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106870", 
+            "y" : "-98010"
+         }, 
+         "child" : [ 
+            "b9713e28-3b13-4287-829f-4ca25d6b883f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.93c951a8-2eea-4406-a1d4-146e3fd553fb"
+      }, 
+      "b9713e28-3b13-4287-829f-4ca25d6b883f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106869", 
+            "y" : "-97898"
+         }, 
+         "child" : [ 
+            "72306958-5708-4569-9f10-b5227677b006"
+         ]
+      }, 
+      "72306958-5708-4569-9f10-b5227677b006" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106870", 
+            "y" : "-97854"
+         }, 
+         "child" : [ 
+            "250080d8-4774-4e4c-a1bf-5772cb9362ea"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.72306958-5708-4569-9f10-b5227677b006"
+      }, 
+      "250080d8-4774-4e4c-a1bf-5772cb9362ea" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106869", 
+            "y" : "-97752"
+         }, 
+         "child" : [ 
+            "a59f7239-c7e2-4bd8-8cb9-c5fbcb7976d0"
+         ]
+      }, 
+      "a59f7239-c7e2-4bd8-8cb9-c5fbcb7976d0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106853", 
+            "y" : "-97702"
+         }, 
+         "child" : [ 
+            "f5414aff-4494-447e-b615-8347b4ef8566"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_7", 
+         "active" : "false"
+      }, 
+      "f5414aff-4494-447e-b615-8347b4ef8566" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106854", 
+            "y" : "-97617"
+         }, 
+         "child" : [ 
+            "c9d4d212-317f-4f49-8b5d-a7a408c1549a"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_8", 
+         "active" : "false"
+      }, 
+      "c9d4d212-317f-4f49-8b5d-a7a408c1549a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106855", 
+            "y" : "-97536"
+         }, 
+         "child" : [ 
+            "22381be6-81ec-49a9-b0b9-e8d7248638b2"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_9", 
+         "active" : "false"
+      }, 
+      "22381be6-81ec-49a9-b0b9-e8d7248638b2" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106860", 
+            "y" : "-97451"
+         }, 
+         "child" : [ 
+            "fa299029-b9ba-41e3-aaef-8de74c6ea080"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_10", 
+         "active" : "false"
+      }, 
+      "fa299029-b9ba-41e3-aaef-8de74c6ea080" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-106836", 
+            "y" : "-97362"
+         }, 
+         "child" : [ 
+            "6bcc669f-de44-4d74-ba35-cc0dc51fdbfa"
+         ], 
+         "pointName" : "HidePiont"
+      }, 
+      "6bcc669f-de44-4d74-ba35-cc0dc51fdbfa" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-106839", 
+            "y" : "-97276"
+         }, 
+         "child" : [ 
+            "856cd905-09e8-42f8-8c61-b20d07e80e8c"
+         ], 
+         "fade" : "false", 
+         "crossFade" : "false"
+      }, 
+      "856cd905-09e8-42f8-8c61-b20d07e80e8c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106884", 
+            "y" : "-97188"
+         }, 
+         "child" : [ 
+            "8e17aac8-e675-4f58-a342-9fdbc7a897fe"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.856cd905-09e8-42f8-8c61-b20d07e80e8c"
+      }, 
+      "8e17aac8-e675-4f58-a342-9fdbc7a897fe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106884", 
+            "y" : "-97099", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "f03752a8-3ebc-4d46-bb03-ef3e047f92ae", 
+            "91865365-91c3-4c16-af32-cccc46803e47"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.8e17aac8-e675-4f58-a342-9fdbc7a897fe"
+      }, 
+      "f03752a8-3ebc-4d46-bb03-ef3e047f92ae" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-106889", 
+            "y" : "-97001"
+         }, 
+         "child" : [ 
+            "9eb180b9-7196-4a64-8130-14b99be650fa"
+         ]
+      }, 
+      "9eb180b9-7196-4a64-8130-14b99be650fa" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106888", 
+            "y" : "-96962"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false"
+      }, 
+      "91865365-91c3-4c16-af32-cccc46803e47" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-106621", 
+            "y" : "-96781"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "TUNNEL2_HOOK_ESCAPE"
+      }, 
+      "4fd7b2af-bbbb-4638-a659-3533a50caaad" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106482", 
+            "y" : "-98602", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "239da79d-fd8b-402f-929e-07b162e11b7a"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.4fd7b2af-bbbb-4638-a659-3533a50caaad"
+      }, 
+      "239da79d-fd8b-402f-929e-07b162e11b7a" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-106435", 
+            "y" : "-98331", 
+            "comment" : "a15"
+         }, 
+         "child" : [ 
+            "923b5cc0-e24f-4a5c-b030-2155ca50db20"
+         ], 
+         "fade" : "true", 
+         "crossFade" : "false"
+      }, 
+      "923b5cc0-e24f-4a5c-b030-2155ca50db20" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106477", 
+            "y" : "-98240", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "a10fb6b5-801e-433e-aa78-c4acc817e847"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.923b5cc0-e24f-4a5c-b030-2155ca50db20"
+      }, 
+      "a10fb6b5-801e-433e-aa78-c4acc817e847" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-106421", 
+            "y" : "-98122"
+         }, 
+         "child" : [ 
+            "4ad34e04-633f-431e-9ef8-6b70e69be559"
+         ], 
+         "exp" : "50"
+      }, 
+      "4ad34e04-633f-431e-9ef8-6b70e69be559" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106475", 
+            "y" : "-98062"
+         }, 
+         "child" : [ 
+            "d2e87ef4-37d0-4be6-81ea-cd4c662223a5"
+         ]
+      }, 
+      "d2e87ef4-37d0-4be6-81ea-cd4c662223a5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106473", 
+            "y" : "-98014"
+         }, 
+         "child" : [ 
+            "57841d3b-3e5b-47bb-8202-a1033a90db4b"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d2e87ef4-37d0-4be6-81ea-cd4c662223a5"
+      }, 
+      "57841d3b-3e5b-47bb-8202-a1033a90db4b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-106469", 
+            "y" : "-97908"
+         }, 
+         "child" : [ 
+            "7534d100-d7e0-4d5e-94fc-ed119942f224"
+         ]
+      }, 
+      "7534d100-d7e0-4d5e-94fc-ed119942f224" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106452", 
+            "y" : "-97841"
+         }, 
+         "child" : [ 
+            "28f1e1b9-4250-4d77-ba43-8bece1c3f80c"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_7", 
+         "active" : "false"
+      }, 
+      "28f1e1b9-4250-4d77-ba43-8bece1c3f80c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106453", 
+            "y" : "-97756"
+         }, 
+         "child" : [ 
+            "2d854e43-7c2b-4705-b462-8442deb782f4"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_8", 
+         "active" : "false"
+      }, 
+      "2d854e43-7c2b-4705-b462-8442deb782f4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106454", 
+            "y" : "-97675"
+         }, 
+         "child" : [ 
+            "ff2461ba-8299-4580-9547-7ba3bc643362"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_9", 
+         "active" : "false"
+      }, 
+      "ff2461ba-8299-4580-9547-7ba3bc643362" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106459", 
+            "y" : "-97590"
+         }, 
+         "child" : [ 
+            "d712e30d-ab63-4098-9e0d-0db884b63ba7"
+         ], 
+         "objectName" : "Tunnel_2_Sub_Bandit_10", 
+         "active" : "false"
+      }, 
+      "d712e30d-ab63-4098-9e0d-0db884b63ba7" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-106435", 
+            "y" : "-97501"
+         }, 
+         "child" : [ 
+            "be8ba398-641c-433d-b96c-c142c9efee6b"
+         ], 
+         "pointName" : "HidePiont"
+      }, 
+      "be8ba398-641c-433d-b96c-c142c9efee6b" : { 
+         "class" : "DialogBackgroundNode", 
+         "desc" : { 
+            "x" : "-106440", 
+            "y" : "-97396"
+         }, 
+         "child" : [ 
+            "1649f203-de71-4182-b9c5-29abd9d91e54"
+         ], 
+         "fade" : "false", 
+         "crossFade" : "false"
+      }, 
+      "1649f203-de71-4182-b9c5-29abd9d91e54" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-106476", 
+            "y" : "-97288"
+         }, 
+         "child" : [ 
+            "c9915994-8733-4dcf-a4de-f108b72ec828"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.1649f203-de71-4182-b9c5-29abd9d91e54"
+      }, 
+      "c9915994-8733-4dcf-a4de-f108b72ec828" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106480", 
+            "y" : "-97168", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "91865365-91c3-4c16-af32-cccc46803e47", 
+            "1c0a3ea6-2122-41b3-9132-819219576be0"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.c9915994-8733-4dcf-a4de-f108b72ec828"
+      }, 
+      "1c0a3ea6-2122-41b3-9132-819219576be0" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-106394", 
+            "y" : "-97081"
+         }, 
+         "child" : [ 
+            "ffbd2ea7-f855-4590-ab09-363f6f2555b4"
+         ]
+      }, 
+      "ffbd2ea7-f855-4590-ab09-363f6f2555b4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-106392", 
+            "y" : "-97027"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false"
+      }, 
+      "b28ef242-a862-478b-b146-c67c5a2f7c63" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106174", 
+            "y" : "-98600", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "227b3cc7-cea4-476b-b7c9-d1edb6046d97"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.b28ef242-a862-478b-b146-c67c5a2f7c63"
+      }, 
+      "227b3cc7-cea4-476b-b7c9-d1edb6046d97" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-106157", 
+            "y" : "-98488"
+         }, 
+         "child" : [ 
+            "1853704c-efcb-48d0-a47e-4c6cc705a2d4"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "1853704c-efcb-48d0-a47e-4c6cc705a2d4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-106130", 
+            "y" : "-98428"
+         }, 
+         "child" : [ 
+            "6256ccd7-a701-43c1-88c1-175b5ce6a50d"
+         ]
+      }, 
+      "6256ccd7-a701-43c1-88c1-175b5ce6a50d" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-106134", 
+            "y" : "-98384"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "dc8840e0-61e1-4fcb-87c8-7836eb173fec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105145", 
+            "y" : "-99000", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "e10b903e-fae8-4fae-a9d8-588ada1d904e"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.dc8840e0-61e1-4fcb-87c8-7836eb173fec"
+      }, 
+      "e10b903e-fae8-4fae-a9d8-588ada1d904e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-105092", 
+            "y" : "-98878"
+         }, 
+         "child" : [ 
+            "d5ea307f-32ef-4bdf-9c02-71a3cace7346", 
+            "cd77c4f0-77c7-4250-9f0b-04fbe9f9757d", 
+            "dbd9a59e-d6bc-4442-828c-196aa6c47ff0", 
+            "5142fe0d-b38a-4a15-a9e0-cab35034bd9c", 
+            "f01f885f-8107-40cd-8fc1-43139bd014b2"
+         ], 
+         "key" : "POWER"
+      }, 
+      "d5ea307f-32ef-4bdf-9c02-71a3cace7346" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105676", 
+            "y" : "-98613", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "93607cb6-1f3a-4ef9-95ba-b15a19c1f067"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d5ea307f-32ef-4bdf-9c02-71a3cace7346"
+      }, 
+      "93607cb6-1f3a-4ef9-95ba-b15a19c1f067" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105855", 
+            "y" : "-98332", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "05d21d78-7cee-4b77-8828-d1d9b90ac555"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.93607cb6-1f3a-4ef9-95ba-b15a19c1f067"
+      }, 
+      "05d21d78-7cee-4b77-8828-d1d9b90ac555" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-105855", 
+            "y" : "-98232"
+         }, 
+         "child" : [ 
+            "b585e0f4-c7c0-44e0-a24b-2c846fc26a06"
+         ]
+      }, 
+      "b585e0f4-c7c0-44e0-a24b-2c846fc26a06" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105857", 
+            "y" : "-98183"
+         }, 
+         "child" : [ 
+            "e08a4ade-9114-48fc-87b7-1ebdaffc82c1"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.b585e0f4-c7c0-44e0-a24b-2c846fc26a06"
+      }, 
+      "e08a4ade-9114-48fc-87b7-1ebdaffc82c1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-105859", 
+            "y" : "-98109"
+         }, 
+         "child" : [ 
+            "106616d5-2484-4c52-a9b6-3b7392b4e362"
+         ]
+      }, 
+      "106616d5-2484-4c52-a9b6-3b7392b4e362" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105857", 
+            "y" : "-98069"
+         }, 
+         "child" : [ 
+            "c387f06f-449d-439e-896e-974955c92281"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.106616d5-2484-4c52-a9b6-3b7392b4e362"
+      }, 
+      "c387f06f-449d-439e-896e-974955c92281" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105857", 
+            "y" : "-97958", 
+            "comment" : "(конец диалога, Хук атакует первым)"
+         }, 
+         "child" : [ 
+            "7139901c-1f01-44ce-95af-9f9b4ad5893a"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.c387f06f-449d-439e-896e-974955c92281"
+      }, 
+      "7139901c-1f01-44ce-95af-9f9b4ad5893a" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-105832", 
+            "y" : "-97880"
+         }, 
+         "child" : [ 
+            "a1384391-7b49-42a2-a1c9-90eeafd84bc9"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "a1384391-7b49-42a2-a1c9-90eeafd84bc9" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105805", 
+            "y" : "-97820"
+         }, 
+         "child" : [ 
+            "623eb69f-aa88-4e72-9b12-a35d97ab8b2d"
+         ]
+      }, 
+      "623eb69f-aa88-4e72-9b12-a35d97ab8b2d" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-105809", 
+            "y" : "-97776"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "$SELF$", 
+         "targetName" : "Player"
+      }, 
+      "cd77c4f0-77c7-4250-9f0b-04fbe9f9757d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105352", 
+            "y" : "-98606", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "feac3979-fafe-4f73-a872-85f284519409"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.cd77c4f0-77c7-4250-9f0b-04fbe9f9757d"
+      }, 
+      "feac3979-fafe-4f73-a872-85f284519409" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105352", 
+            "y" : "-98342", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "703e9cbd-3d92-429e-83f8-b15a42964c38", 
+            "5e80c598-34ab-4a9d-a052-53278438af14", 
+            "afffe031-b292-448d-b911-e860ddf49375", 
+            "fa43b4c9-fee8-4694-a7ab-a4c7420d849d"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.feac3979-fafe-4f73-a872-85f284519409"
+      }, 
+      "703e9cbd-3d92-429e-83f8-b15a42964c38" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105564", 
+            "y" : "-98122"
+         }, 
+         "child" : [ 
+            "f9db2cdb-21a9-41de-b5e4-62ef379148e7", 
+            "f0fd531c-87ba-4165-91d1-1b005fc40e57"
+         ], 
+         "key" : "INTELLECT"
+      }, 
+      "f9db2cdb-21a9-41de-b5e4-62ef379148e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105563", 
+            "y" : "-98014"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f0fd531c-87ba-4165-91d1-1b005fc40e57" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105548", 
+            "y" : "-97970", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f0fd531c-87ba-4165-91d1-1b005fc40e57"
+      }, 
+      "c13c796b-cae7-4d74-af34-741e934fd335" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101526", 
+            "y" : "-99156", 
+            "comment" : "a10"
+         }, 
+         "child" : [ 
+            "959f5c57-904d-4dde-a2e1-aaafd33b1177", 
+            "eb22e17d-d755-45b0-83d3-eca79b08880f"
+         ], 
+         "value" : "8", 
+         "stat" : "Intelligence"
+      }, 
+      "959f5c57-904d-4dde-a2e1-aaafd33b1177" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101879", 
+            "y" : "-99001", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "d7e22c27-1f45-4b71-8fdd-7f0c0e1d1bd9"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.959f5c57-904d-4dde-a2e1-aaafd33b1177"
+      }, 
+      "d7e22c27-1f45-4b71-8fdd-7f0c0e1d1bd9" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-98879"
+         }, 
+         "child" : [ 
+            "7b56b5ad-e384-487f-a72b-89fdbac70ba3", 
+            "d592f847-e5cd-444a-b28d-8b8386a220b8", 
+            "cbe16b88-8f18-4b48-bfb3-fdcf42fee68f"
+         ], 
+         "exp" : "100"
+      }, 
+      "7b56b5ad-e384-487f-a72b-89fdbac70ba3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102186", 
+            "y" : "-98564", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "86aa13d9-6cca-4cd7-9d44-996266c6d179"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.7b56b5ad-e384-487f-a72b-89fdbac70ba3"
+      }, 
+      "d592f847-e5cd-444a-b28d-8b8386a220b8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101946", 
+            "y" : "-98574", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "239da79d-fd8b-402f-929e-07b162e11b7a"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d592f847-e5cd-444a-b28d-8b8386a220b8"
+      }, 
+      "cbe16b88-8f18-4b48-bfb3-fdcf42fee68f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101700", 
+            "y" : "-98551", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "a14c2348-3d96-4ec9-928e-db690068236c"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.cbe16b88-8f18-4b48-bfb3-fdcf42fee68f"
+      }, 
+      "a14c2348-3d96-4ec9-928e-db690068236c" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101677", 
+            "y" : "-98466"
+         }, 
+         "child" : [ 
+            "74af75dc-92e5-41b0-ba19-be183515ddbb"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "74af75dc-92e5-41b0-ba19-be183515ddbb" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101649", 
+            "y" : "-98406"
+         }, 
+         "child" : [ 
+            "0c673838-49a6-4d07-8ea3-f1c52aed0fa2"
+         ]
+      }, 
+      "0c673838-49a6-4d07-8ea3-f1c52aed0fa2" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-101653", 
+            "y" : "-98362"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "eb22e17d-d755-45b0-83d3-eca79b08880f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101040", 
+            "y" : "-98981", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "108f547f-97f3-4cb4-b812-17daa0bab571"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.eb22e17d-d755-45b0-83d3-eca79b08880f"
+      }, 
+      "108f547f-97f3-4cb4-b812-17daa0bab571" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100992", 
+            "y" : "-98868"
+         }, 
+         "child" : [ 
+            "6863f4bc-f3c7-403b-bfbf-70c375e76769", 
+            "9442ec96-cd02-43ed-999b-5d3afca999a3", 
+            "1166410f-6d21-4dff-82e0-a8d67b519e37", 
+            "9d7603d3-0fd7-45b6-9059-55375e6e6660"
+         ], 
+         "key" : "INTELLECT"
+      }, 
+      "6863f4bc-f3c7-403b-bfbf-70c375e76769" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101349", 
+            "y" : "-98726"
+         }, 
+         "child" : [ 
+            "fce99f9f-453e-47ba-a5a6-d8f4ac5d0977", 
+            "d6b90959-a771-47f3-a580-4a0706c601e2"
+         ], 
+         "key" : "POWER"
+      }, 
+      "fce99f9f-453e-47ba-a5a6-d8f4ac5d0977" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101415", 
+            "y" : "-98607"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d6b90959-a771-47f3-a580-4a0706c601e2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101444", 
+            "y" : "-98506", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d6b90959-a771-47f3-a580-4a0706c601e2"
+      }, 
+      "9442ec96-cd02-43ed-999b-5d3afca999a3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-98727"
+         }, 
+         "child" : [ 
+            "c5061131-786a-46b7-a723-201f6089ad56", 
+            "c09710ab-d19d-4f5c-82b0-092c82302d9a"
+         ], 
+         "key" : "COMMUNICATION"
+      }, 
+      "c5061131-786a-46b7-a723-201f6089ad56" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101183.1", 
+            "y" : "-98600.71"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c09710ab-d19d-4f5c-82b0-092c82302d9a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-98515", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.c09710ab-d19d-4f5c-82b0-092c82302d9a"
+      }, 
+      "f1a774e7-4352-40eb-8dd2-794936b4755f" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-103550", 
+            "y" : "-99201", 
+            "comment" : "a9"
+         }, 
+         "child" : [ 
+            "633071a5-a4ae-4b75-be2f-1e6fd002a3a3", 
+            "4876aa16-4317-43cf-a6e6-c7cb5b78cb90"
+         ], 
+         "value" : "9", 
+         "stat" : "Charisma"
+      }, 
+      "633071a5-a4ae-4b75-be2f-1e6fd002a3a3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103804", 
+            "y" : "-99055", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "7da3615f-223d-43dc-be43-1a560f518a9e"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.633071a5-a4ae-4b75-be2f-1e6fd002a3a3"
+      }, 
+      "7da3615f-223d-43dc-be43-1a560f518a9e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103804", 
+            "y" : "-98933"
+         }, 
+         "child" : [ 
+            "ae4d9f0c-90b9-464c-8912-84e938a10b19"
+         ]
+      }, 
+      "ae4d9f0c-90b9-464c-8912-84e938a10b19" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103803", 
+            "y" : "-98881"
+         }, 
+         "child" : [ 
+            "8399e333-7c23-44ca-8997-a8efb9638250"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.ae4d9f0c-90b9-464c-8912-84e938a10b19"
+      }, 
+      "8399e333-7c23-44ca-8997-a8efb9638250" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-103743", 
+            "y" : "-98754"
+         }, 
+         "child" : [ 
+            "6918f6c9-e7fc-424c-b580-feb61af3fd6f", 
+            "6c1089c3-c55b-4cf3-a7c9-58c80f3156a5", 
+            "872f36eb-ac36-420d-ab4a-52fd6be21a2f"
+         ], 
+         "exp" : "200"
+      }, 
+      "6918f6c9-e7fc-424c-b580-feb61af3fd6f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104113", 
+            "y" : "-98574", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "86aa13d9-6cca-4cd7-9d44-996266c6d179"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.6918f6c9-e7fc-424c-b580-feb61af3fd6f"
+      }, 
+      "6c1089c3-c55b-4cf3-a7c9-58c80f3156a5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103876", 
+            "y" : "-98562", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "239da79d-fd8b-402f-929e-07b162e11b7a"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.6c1089c3-c55b-4cf3-a7c9-58c80f3156a5"
+      }, 
+      "872f36eb-ac36-420d-ab4a-52fd6be21a2f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103630", 
+            "y" : "-98538", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "d2a49a41-0340-4cb5-a0d3-c1cb43e966c8"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.872f36eb-ac36-420d-ab4a-52fd6be21a2f"
+      }, 
+      "d2a49a41-0340-4cb5-a0d3-c1cb43e966c8" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-103605", 
+            "y" : "-98454"
+         }, 
+         "child" : [ 
+            "e88ad6b5-3109-4750-ac99-35bcdaec4970"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "e88ad6b5-3109-4750-ac99-35bcdaec4970" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103579", 
+            "y" : "-98394"
+         }, 
+         "child" : [ 
+            "51689868-5582-40ee-8ed4-8d24765b9e69"
+         ]
+      }, 
+      "51689868-5582-40ee-8ed4-8d24765b9e69" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-103583", 
+            "y" : "-98350"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "4876aa16-4317-43cf-a6e6-c7cb5b78cb90" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103156", 
+            "y" : "-99046", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "67f14bbd-783b-488b-971b-ae831ee75b23"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.4876aa16-4317-43cf-a6e6-c7cb5b78cb90"
+      }, 
+      "67f14bbd-783b-488b-971b-ae831ee75b23" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103155", 
+            "y" : "-98931"
+         }, 
+         "child" : [ 
+            "891b8e17-9715-4ffe-9dea-1c0404761053"
+         ]
+      }, 
+      "891b8e17-9715-4ffe-9dea-1c0404761053" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103153", 
+            "y" : "-98890"
+         }, 
+         "child" : [ 
+            "b380b1e2-bcae-432a-9e2f-0834a78508c4"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.891b8e17-9715-4ffe-9dea-1c0404761053"
+      }, 
+      "b380b1e2-bcae-432a-9e2f-0834a78508c4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103099", 
+            "y" : "-98780"
+         }, 
+         "child" : [ 
+            "6c0de982-8a70-410f-b8a8-b1053efe0dcd", 
+            "53c06d80-026b-4fdd-958b-408017a8c846", 
+            "53d0fdc7-0983-4dc2-a086-33b6715b6153", 
+            "f7126d12-c64d-4feb-bdce-67326b0ab289"
+         ], 
+         "key" : "COMMUNICATION"
+      }, 
+      "6c0de982-8a70-410f-b8a8-b1053efe0dcd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103315", 
+            "y" : "-98704"
+         }, 
+         "child" : [ 
+            "7c11cc44-7fcb-4013-bd6e-72fe9de17af5", 
+            "12d52d09-94b4-4349-946d-4bf761fa2c18"
+         ], 
+         "key" : "POWER"
+      }, 
+      "7c11cc44-7fcb-4013-bd6e-72fe9de17af5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103426", 
+            "y" : "-98601"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "12d52d09-94b4-4349-946d-4bf761fa2c18" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103354", 
+            "y" : "-98552", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.12d52d09-94b4-4349-946d-4bf761fa2c18"
+      }, 
+      "53c06d80-026b-4fdd-958b-408017a8c846" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103085", 
+            "y" : "-98705"
+         }, 
+         "child" : [ 
+            "8626abc5-3754-4896-ac61-e4ee4ab1d807", 
+            "25029ada-71ed-4eca-960c-0ff952d4398e"
+         ], 
+         "key" : "INTELLECT"
+      }, 
+      "8626abc5-3754-4896-ac61-e4ee4ab1d807" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103152.4", 
+            "y" : "-98595.43"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "25029ada-71ed-4eca-960c-0ff952d4398e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103050", 
+            "y" : "-98573", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.25029ada-71ed-4eca-960c-0ff952d4398e"
+      }, 
+      "53d0fdc7-0983-4dc2-a086-33b6715b6153" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-102871", 
+            "y" : "-98695"
+         }, 
+         "child" : [ 
+            "6d2fe92b-e2d8-4be9-834e-5c88dab78054", 
+            "e2380ea3-8536-46a0-8332-43455640148f"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "6d2fe92b-e2d8-4be9-834e-5c88dab78054" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102741", 
+            "y" : "-98561", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.6d2fe92b-e2d8-4be9-834e-5c88dab78054"
+      }, 
+      "290f898f-492f-41b2-94d4-1696555918c7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99465", 
+            "y" : "-99150", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "ae5c0614-c292-47cf-9113-19217f4e301c"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.290f898f-492f-41b2-94d4-1696555918c7"
+      }, 
+      "ae5c0614-c292-47cf-9113-19217f4e301c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99465", 
+            "y" : "-99034"
+         }, 
+         "child" : [ 
+            "82f1fc8f-85d2-4fd5-a164-86ff2d322332"
+         ]
+      }, 
+      "82f1fc8f-85d2-4fd5-a164-86ff2d322332" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99469", 
+            "y" : "-98990"
+         }, 
+         "child" : [ 
+            "8e548f1f-944c-4935-b8c5-74a57bc2c2f8"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.82f1fc8f-85d2-4fd5-a164-86ff2d322332"
+      }, 
+      "8e548f1f-944c-4935-b8c5-74a57bc2c2f8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99414", 
+            "y" : "-98882"
+         }, 
+         "child" : [ 
+            "a62007af-b953-48df-b030-6d181a5c6f92"
+         ], 
+         "key" : "POWER"
+      }, 
+      "a62007af-b953-48df-b030-6d181a5c6f92" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99412", 
+            "y" : "-98825"
+         }, 
+         "child" : [ 
+            "10f738c2-befc-4043-89d4-40ffb5588fa1", 
+            "6eb00527-0033-4071-9c1a-69aae9f3b561", 
+            "3ef0485d-4cfe-441a-b636-23b96ab4454a", 
+            "a5a25137-67ba-4ff4-944a-5fbd655f62b2", 
+            "20c5380a-707b-4a37-aba3-53b5a407cd0e"
+         ], 
+         "exp" : "50"
+      }, 
+      "10f738c2-befc-4043-89d4-40ffb5588fa1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100179", 
+            "y" : "-98519", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "93607cb6-1f3a-4ef9-95ba-b15a19c1f067"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.10f738c2-befc-4043-89d4-40ffb5588fa1"
+      }, 
+      "6eb00527-0033-4071-9c1a-69aae9f3b561" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99851", 
+            "y" : "-98519", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "feac3979-fafe-4f73-a872-85f284519409"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.6eb00527-0033-4071-9c1a-69aae9f3b561"
+      }, 
+      "3ef0485d-4cfe-441a-b636-23b96ab4454a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99441", 
+            "y" : "-98708"
+         }, 
+         "child" : [ 
+            "4657bf4d-2d5a-469c-8420-2def668f6344", 
+            "cef0b88e-3b63-47ea-8597-6681791126da"
+         ], 
+         "key" : "COMMUNICATION"
+      }, 
+      "4657bf4d-2d5a-469c-8420-2def668f6344" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99498", 
+            "y" : "-98570"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cef0b88e-3b63-47ea-8597-6681791126da" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99469", 
+            "y" : "-98530", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.cef0b88e-3b63-47ea-8597-6681791126da"
+      }, 
+      "a5a25137-67ba-4ff4-944a-5fbd655f62b2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99158", 
+            "y" : "-98687"
+         }, 
+         "child" : [ 
+            "a1f77918-c326-49ff-8a49-60fd7e49bec9", 
+            "b9e7ed36-2cd6-4fc9-97d7-664df4103e02"
+         ], 
+         "key" : "INTELLECT"
+      }, 
+      "a1f77918-c326-49ff-8a49-60fd7e49bec9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99163", 
+            "y" : "-98572"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b9e7ed36-2cd6-4fc9-97d7-664df4103e02" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99139", 
+            "y" : "-98522", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.b9e7ed36-2cd6-4fc9-97d7-664df4103e02"
+      }, 
+      "20c5380a-707b-4a37-aba3-53b5a407cd0e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98838", 
+            "y" : "-98625", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "7ab768f8-3da9-4945-8804-9e1af460a962"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.20c5380a-707b-4a37-aba3-53b5a407cd0e"
+      }, 
+      "7ab768f8-3da9-4945-8804-9e1af460a962" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-98806", 
+            "y" : "-98528"
+         }, 
+         "child" : [ 
+            "59d2bfb9-702c-4bce-8f4b-b0bd6ff39ef1"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "59d2bfb9-702c-4bce-8f4b-b0bd6ff39ef1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98778", 
+            "y" : "-98468"
+         }, 
+         "child" : [ 
+            "3f465bed-3cac-417a-a060-f7edecf38d5d"
+         ]
+      }, 
+      "3f465bed-3cac-417a-a060-f7edecf38d5d" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-98782", 
+            "y" : "-98424"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "e2380ea3-8536-46a0-8332-43455640148f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102621", 
+            "y" : "-98590"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f7126d12-c64d-4feb-bdce-67326b0ab289" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102473", 
+            "y" : "-98568", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "a0f5a8da-b717-48e0-aeff-7b588ced16d4"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f7126d12-c64d-4feb-bdce-67326b0ab289"
+      }, 
+      "a0f5a8da-b717-48e0-aeff-7b588ced16d4" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-102442", 
+            "y" : "-98474"
+         }, 
+         "child" : [ 
+            "1a09d04b-f6f4-418e-96d5-e7b5094510ab"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "1a09d04b-f6f4-418e-96d5-e7b5094510ab" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102414", 
+            "y" : "-98414"
+         }, 
+         "child" : [ 
+            "fa2718c0-63e4-4656-816a-7606dd3f3982"
+         ]
+      }, 
+      "fa2718c0-63e4-4656-816a-7606dd3f3982" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-102418", 
+            "y" : "-98370"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "1166410f-6d21-4dff-82e0-a8d67b519e37" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100861", 
+            "y" : "-98715"
+         }, 
+         "child" : [ 
+            "8f9430b6-5049-40b9-9669-8fd6f9a0d7c4", 
+            "73d56347-6ea8-44ab-bf55-9d7e2f517b8a"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "8f9430b6-5049-40b9-9669-8fd6f9a0d7c4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100835", 
+            "y" : "-98550", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.8f9430b6-5049-40b9-9669-8fd6f9a0d7c4"
+      }, 
+      "73d56347-6ea8-44ab-bf55-9d7e2f517b8a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100707", 
+            "y" : "-98601"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9d7603d3-0fd7-45b6-9059-55375e6e6660" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100577", 
+            "y" : "-98524", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "b749c773-c674-4e3b-9e80-21abdf026723"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.9d7603d3-0fd7-45b6-9059-55375e6e6660"
+      }, 
+      "b749c773-c674-4e3b-9e80-21abdf026723" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100547", 
+            "y" : "-98446"
+         }, 
+         "child" : [ 
+            "2e444a42-c43f-4cf1-899c-00bfb2ae8458"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "2e444a42-c43f-4cf1-899c-00bfb2ae8458" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-98386"
+         }, 
+         "child" : [ 
+            "0563448e-28a2-476a-9bb8-c90646f43f4e"
+         ]
+      }, 
+      "0563448e-28a2-476a-9bb8-c90646f43f4e" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100523", 
+            "y" : "-98342"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "5e80c598-34ab-4a9d-a052-53278438af14" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105353", 
+            "y" : "-98127"
+         }, 
+         "child" : [ 
+            "0b22643b-23e9-4d13-a1e1-f51e43bd1165", 
+            "7ad3d580-1e44-492a-a4de-d81961fee61d"
+         ], 
+         "key" : "COMMUNICATION"
+      }, 
+      "0b22643b-23e9-4d13-a1e1-f51e43bd1165" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105349", 
+            "y" : "-98020"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7ad3d580-1e44-492a-a4de-d81961fee61d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105231", 
+            "y" : "-97976", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.7ad3d580-1e44-492a-a4de-d81961fee61d"
+      }, 
+      "afffe031-b292-448d-b911-e860ddf49375" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104989", 
+            "y" : "-97956", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "93607cb6-1f3a-4ef9-95ba-b15a19c1f067"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.afffe031-b292-448d-b911-e860ddf49375"
+      }, 
+      "fa43b4c9-fee8-4694-a7ab-a4c7420d849d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104671", 
+            "y" : "-97951", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "7bfb9ae5-9de6-43c0-b12e-dd77c7dc059d"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.fa43b4c9-fee8-4694-a7ab-a4c7420d849d"
+      }, 
+      "7bfb9ae5-9de6-43c0-b12e-dd77c7dc059d" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-104648", 
+            "y" : "-97864"
+         }, 
+         "child" : [ 
+            "643ed7fc-790e-4f65-b0c8-77c9e10a505f"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "643ed7fc-790e-4f65-b0c8-77c9e10a505f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104621", 
+            "y" : "-97804"
+         }, 
+         "child" : [ 
+            "a519e565-c4bb-4e35-83e2-f0f0773b7009"
+         ]
+      }, 
+      "a519e565-c4bb-4e35-83e2-f0f0773b7009" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-104625", 
+            "y" : "-97760"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "dbd9a59e-d6bc-4442-828c-196aa6c47ff0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105071", 
+            "y" : "-98723"
+         }, 
+         "child" : [ 
+            "5f08b037-019c-4196-8bac-65c51f4661f7", 
+            "551612ad-9c3e-4cbe-8227-595067aa4c3a"
+         ], 
+         "key" : "COMMUNICATION"
+      }, 
+      "5f08b037-019c-4196-8bac-65c51f4661f7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105133", 
+            "y" : "-98581"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "551612ad-9c3e-4cbe-8227-595067aa4c3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105025", 
+            "y" : "-98605", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.551612ad-9c3e-4cbe-8227-595067aa4c3a"
+      }, 
+      "5142fe0d-b38a-4a15-a9e0-cab35034bd9c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104787", 
+            "y" : "-98716"
+         }, 
+         "child" : [ 
+            "c37ad28a-f931-4b70-a332-73444d130990", 
+            "2dabbc41-d542-43d7-8326-d24d4661c01d"
+         ], 
+         "key" : "INTELLECT"
+      }, 
+      "c37ad28a-f931-4b70-a332-73444d130990" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104800", 
+            "y" : "-98576"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2dabbc41-d542-43d7-8326-d24d4661c01d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104686", 
+            "y" : "-98607", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.2dabbc41-d542-43d7-8326-d24d4661c01d"
+      }, 
+      "f01f885f-8107-40cd-8fc1-43139bd014b2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104434", 
+            "y" : "-98575", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "c6701aab-c5fe-4ea0-a27c-4fbec8dd29f9"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f01f885f-8107-40cd-8fc1-43139bd014b2"
+      }, 
+      "c6701aab-c5fe-4ea0-a27c-4fbec8dd29f9" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-104397", 
+            "y" : "-98474"
+         }, 
+         "child" : [ 
+            "25101dba-78c6-4c3c-b974-cdf581836497"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "25101dba-78c6-4c3c-b974-cdf581836497" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104370", 
+            "y" : "-98414"
+         }, 
+         "child" : [ 
+            "dd724a6d-9c99-4945-9a2f-4dad092961d2"
+         ]
+      }, 
+      "dd724a6d-9c99-4945-9a2f-4dad092961d2" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-104374", 
+            "y" : "-98370"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "4db14345-3a0f-4f01-822c-3c2e63caf781" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105188", 
+            "y" : "-99480", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.4db14345-3a0f-4f01-822c-3c2e63caf781"
+      }, 
+      "ef0878dd-71e9-4c92-8da0-56ea4f7839cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104839", 
+            "y" : "-99479", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.ef0878dd-71e9-4c92-8da0-56ea4f7839cc"
+      }, 
+      "87866990-110b-4063-b181-c2fdc4949b97" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-104495", 
+            "y" : "-99529"
+         }, 
+         "child" : [ 
+            "67dffc87-f2ef-4087-8674-b2c15ed836f5", 
+            "23a31653-e337-478d-a4a5-5e9b7e060a8e"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "67dffc87-f2ef-4087-8674-b2c15ed836f5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104533", 
+            "y" : "-99424", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.67dffc87-f2ef-4087-8674-b2c15ed836f5"
+      }, 
+      "23a31653-e337-478d-a4a5-5e9b7e060a8e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104307", 
+            "y" : "-99381"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ddd7ee0c-3bc5-40c7-9d50-378f9937446b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103692", 
+            "y" : "-100297", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "d41bee17-cd25-4c1a-9d1e-2eca896ec9cb"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.ddd7ee0c-3bc5-40c7-9d50-378f9937446b"
+      }, 
+      "d41bee17-cd25-4c1a-9d1e-2eca896ec9cb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103691", 
+            "y" : "-100192", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "244bb1d4-f468-41f0-a908-b6b9ee71ef0f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d41bee17-cd25-4c1a-9d1e-2eca896ec9cb"
+      }, 
+      "244bb1d4-f468-41f0-a908-b6b9ee71ef0f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103691", 
+            "y" : "-100080"
+         }, 
+         "child" : [ 
+            "742812cb-5cd6-44cc-8eff-84b84cc06173"
+         ]
+      }, 
+      "742812cb-5cd6-44cc-8eff-84b84cc06173" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103693", 
+            "y" : "-100037"
+         }, 
+         "child" : [ 
+            "87f7c0f2-89ff-484d-8c4d-c255cf81e502"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.742812cb-5cd6-44cc-8eff-84b84cc06173"
+      }, 
+      "87f7c0f2-89ff-484d-8c4d-c255cf81e502" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103695", 
+            "y" : "-99927"
+         }, 
+         "child" : [ 
+            "6331043a-934b-4dc8-8a40-3a769751f6e0"
+         ]
+      }, 
+      "6331043a-934b-4dc8-8a40-3a769751f6e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103694", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "5c9c2b87-8886-4602-9b67-e8bfebc5dcb3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.6331043a-934b-4dc8-8a40-3a769751f6e0"
+      }, 
+      "5c9c2b87-8886-4602-9b67-e8bfebc5dcb3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103695", 
+            "y" : "-99775"
+         }, 
+         "child" : [ 
+            "e827b7fb-f360-4929-bab2-9ea6cf742474"
+         ]
+      }, 
+      "e827b7fb-f360-4929-bab2-9ea6cf742474" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103697", 
+            "y" : "-99733"
+         }, 
+         "child" : [ 
+            "6b35922c-0301-49c3-a0c9-a9ddac446218"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.e827b7fb-f360-4929-bab2-9ea6cf742474"
+      }, 
+      "6b35922c-0301-49c3-a0c9-a9ddac446218" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-103649", 
+            "y" : "-99616"
+         }, 
+         "child" : [ 
+            "50674726-fe18-4383-bb46-45b3ec67d4c9", 
+            "2734a520-55a5-4ab3-aa55-cf00e7fac983", 
+            "8bd7f669-4c57-4e34-90ce-66324d3b2b15", 
+            "92e038c6-7ab7-44b3-8ea3-cdec0d5e951a", 
+            "7e7b5286-db4f-4231-80e0-edf5b9176283"
+         ], 
+         "exp" : "55"
+      }, 
+      "50674726-fe18-4383-bb46-45b3ec67d4c9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104161", 
+            "y" : "-99491", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "941cf7a1-27f9-405c-bd84-0293f9142d48"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.50674726-fe18-4383-bb46-45b3ec67d4c9"
+      }, 
+      "941cf7a1-27f9-405c-bd84-0293f9142d48" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-104142", 
+            "y" : "-99386"
+         }, 
+         "child" : [ 
+            "c3614d7e-4c5a-4e3f-bf10-01fe7d752ebd"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "c3614d7e-4c5a-4e3f-bf10-01fe7d752ebd" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104115", 
+            "y" : "-99326"
+         }, 
+         "child" : [ 
+            "99a784c6-a9fd-461b-a96c-e1b702045efa"
+         ]
+      }, 
+      "99a784c6-a9fd-461b-a96c-e1b702045efa" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-104119", 
+            "y" : "-99282"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "2734a520-55a5-4ab3-aa55-cf00e7fac983" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103925", 
+            "y" : "-99370", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.2734a520-55a5-4ab3-aa55-cf00e7fac983"
+      }, 
+      "8bd7f669-4c57-4e34-90ce-66324d3b2b15" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103574", 
+            "y" : "-99358", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.8bd7f669-4c57-4e34-90ce-66324d3b2b15"
+      }, 
+      "92e038c6-7ab7-44b3-8ea3-cdec0d5e951a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103247", 
+            "y" : "-99358", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.92e038c6-7ab7-44b3-8ea3-cdec0d5e951a"
+      }, 
+      "7e7b5286-db4f-4231-80e0-edf5b9176283" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-102897", 
+            "y" : "-99486"
+         }, 
+         "child" : [ 
+            "f42d2a84-8c46-44ee-aa96-df9ff5babd3b", 
+            "d747be36-3ba9-4f86-ad7f-07cb21fb6d5b"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "f42d2a84-8c46-44ee-aa96-df9ff5babd3b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102940", 
+            "y" : "-99363", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f42d2a84-8c46-44ee-aa96-df9ff5babd3b"
+      }, 
+      "d747be36-3ba9-4f86-ad7f-07cb21fb6d5b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102709", 
+            "y" : "-99338"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3d4be1b1-1205-4ace-88b2-9d3a014880d5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103331", 
+            "y" : "-100297", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "26e71f66-f753-4758-9d7b-7c62285a3bcd"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.3d4be1b1-1205-4ace-88b2-9d3a014880d5"
+      }, 
+      "26e71f66-f753-4758-9d7b-7c62285a3bcd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101635", 
+            "y" : "-100106", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "454c2817-f720-45fa-9ef4-78f4f268dfff"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.26e71f66-f753-4758-9d7b-7c62285a3bcd"
+      }, 
+      "454c2817-f720-45fa-9ef4-78f4f268dfff" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101637", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+            "0e81282f-de87-4d36-8017-d7545797e552"
+         ]
+      }, 
+      "0e81282f-de87-4d36-8017-d7545797e552" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101637", 
+            "y" : "-99952"
+         }, 
+         "child" : [ 
+            "72d3a676-1e5d-4cdc-aaa7-e867fb9a7355"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.0e81282f-de87-4d36-8017-d7545797e552"
+      }, 
+      "72d3a676-1e5d-4cdc-aaa7-e867fb9a7355" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101635", 
+            "y" : "-99845"
+         }, 
+         "child" : [ 
+            "e5b1998c-a613-486b-8805-b07e73678f72"
+         ]
+      }, 
+      "e5b1998c-a613-486b-8805-b07e73678f72" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101635", 
+            "y" : "-99806"
+         }, 
+         "child" : [ 
+            "e385d2b1-e4c2-4646-aae5-eb0b040843db"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.e5b1998c-a613-486b-8805-b07e73678f72"
+      }, 
+      "e385d2b1-e4c2-4646-aae5-eb0b040843db" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101633", 
+            "y" : "-99700"
+         }, 
+         "child" : [ 
+            "d8361a60-53c5-4d1c-a467-33710ed7d6d5"
+         ]
+      }, 
+      "d8361a60-53c5-4d1c-a467-33710ed7d6d5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101631", 
+            "y" : "-99658"
+         }, 
+         "child" : [ 
+            "17e21ea0-7e7c-41f0-9270-051dc0e13071"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.d8361a60-53c5-4d1c-a467-33710ed7d6d5"
+      }, 
+      "17e21ea0-7e7c-41f0-9270-051dc0e13071" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101574", 
+            "y" : "-99544"
+         }, 
+         "child" : [ 
+            "204e3d13-83ae-4be0-bb76-7cdcc4c2d291", 
+            "f65e9917-c377-4d0d-a0a8-24d0ceecea4f", 
+            "2e6c6c5d-8f82-42ba-a888-8ba1fe14b3ce", 
+            "a635a8cc-b30b-4f2c-8cc3-b4f0b7ffb116", 
+            "5ec8c63f-4138-40ab-a929-c09a59d5f60b"
+         ], 
+         "exp" : "55"
+      }, 
+      "204e3d13-83ae-4be0-bb76-7cdcc4c2d291" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102321", 
+            "y" : "-99362", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "3b5bef47-43d9-4009-b10f-ad38edc80cbf"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.204e3d13-83ae-4be0-bb76-7cdcc4c2d291"
+      }, 
+      "3b5bef47-43d9-4009-b10f-ad38edc80cbf" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-102305", 
+            "y" : "-99246"
+         }, 
+         "child" : [ 
+            "f8183b36-56e9-4dfb-9345-334542462bbd"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "f8183b36-56e9-4dfb-9345-334542462bbd" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102277", 
+            "y" : "-99186"
+         }, 
+         "child" : [ 
+            "a7bf77cb-6191-400c-b77a-168925e8915e"
+         ]
+      }, 
+      "a7bf77cb-6191-400c-b77a-168925e8915e" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-102281", 
+            "y" : "-99142"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "f65e9917-c377-4d0d-a0a8-24d0ceecea4f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102068", 
+            "y" : "-99378", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f65e9917-c377-4d0d-a0a8-24d0ceecea4f"
+      }, 
+      "2e6c6c5d-8f82-42ba-a888-8ba1fe14b3ce" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101807", 
+            "y" : "-99381", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.2e6c6c5d-8f82-42ba-a888-8ba1fe14b3ce"
+      }, 
+      "a635a8cc-b30b-4f2c-8cc3-b4f0b7ffb116" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101555", 
+            "y" : "-99352", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.a635a8cc-b30b-4f2c-8cc3-b4f0b7ffb116"
+      }, 
+      "5ec8c63f-4138-40ab-a929-c09a59d5f60b" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101140", 
+            "y" : "-99463"
+         }, 
+         "child" : [ 
+            "e6974aeb-0ba6-4bff-a4bc-707824e330d3", 
+            "2a956e5f-55cb-4ac6-8194-5e55c9d65a8c"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "e6974aeb-0ba6-4bff-a4bc-707824e330d3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101223", 
+            "y" : "-99352", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.e6974aeb-0ba6-4bff-a4bc-707824e330d3"
+      }, 
+      "2a956e5f-55cb-4ac6-8194-5e55c9d65a8c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100952", 
+            "y" : "-99315"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "42c28e5d-6bad-4736-ad57-dce0ddae1a78" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103012", 
+            "y" : "-100294", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "67880654-9451-41fb-9cb5-d2d91c302667"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.42c28e5d-6bad-4736-ad57-dce0ddae1a78"
+      }, 
+      "67880654-9451-41fb-9cb5-d2d91c302667" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99971", 
+            "y" : "-100138", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "132e0a4c-c5b7-4c3d-8c53-620292e5d87c"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.67880654-9451-41fb-9cb5-d2d91c302667"
+      }, 
+      "132e0a4c-c5b7-4c3d-8c53-620292e5d87c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99969", 
+            "y" : "-100026"
+         }, 
+         "child" : [ 
+            "272d0bda-fe12-463c-b633-e637f29bed88"
+         ]
+      }, 
+      "272d0bda-fe12-463c-b633-e637f29bed88" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99969", 
+            "y" : "-99984"
+         }, 
+         "child" : [ 
+            "0198d0b2-0e67-4cd2-986f-c4d8142037d7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.272d0bda-fe12-463c-b633-e637f29bed88"
+      }, 
+      "0198d0b2-0e67-4cd2-986f-c4d8142037d7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99971", 
+            "y" : "-99878"
+         }, 
+         "child" : [ 
+            "27a9cb7f-0101-4120-8a56-6bb5b62b920a"
+         ]
+      }, 
+      "27a9cb7f-0101-4120-8a56-6bb5b62b920a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99973", 
+            "y" : "-99840"
+         }, 
+         "child" : [ 
+            "3feee94e-c9c3-40e5-bded-a70102229f0f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.27a9cb7f-0101-4120-8a56-6bb5b62b920a"
+      }, 
+      "3feee94e-c9c3-40e5-bded-a70102229f0f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99973", 
+            "y" : "-99726"
+         }, 
+         "child" : [ 
+            "efa440bc-17b2-4729-99e9-2bcdc11699a2"
+         ]
+      }, 
+      "efa440bc-17b2-4729-99e9-2bcdc11699a2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99975", 
+            "y" : "-99680"
+         }, 
+         "child" : [ 
+            "e21159e2-b36c-45e6-aa07-67d20b5655d4"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.efa440bc-17b2-4729-99e9-2bcdc11699a2"
+      }, 
+      "e21159e2-b36c-45e6-aa07-67d20b5655d4" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99925", 
+            "y" : "-99564"
+         }, 
+         "child" : [ 
+            "533188ce-a1c0-438d-9f33-1b3d19c500e7", 
+            "37cf6060-b28d-4218-8d36-f9b26845971a", 
+            "0f573757-7b8e-4bf6-be2c-f860e9b5c3f7", 
+            "970f6518-6222-4ef7-a1a8-54efdbe18ea8", 
+            "15234c3a-ddb6-4fba-bf06-e79085937f95"
+         ], 
+         "exp" : "55"
+      }, 
+      "533188ce-a1c0-438d-9f33-1b3d19c500e7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-99354", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "64ece7ee-be57-49d2-bfd6-7b1b6448ea71"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.533188ce-a1c0-438d-9f33-1b3d19c500e7"
+      }, 
+      "64ece7ee-be57-49d2-bfd6-7b1b6448ea71" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100537", 
+            "y" : "-99273"
+         }, 
+         "child" : [ 
+            "b16a8246-173a-42f0-bac1-fd1fa740f61b"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "b16a8246-173a-42f0-bac1-fd1fa740f61b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100509", 
+            "y" : "-99213"
+         }, 
+         "child" : [ 
+            "a18e5d29-59f1-4664-8749-e8d1df4a0410"
+         ]
+      }, 
+      "a18e5d29-59f1-4664-8749-e8d1df4a0410" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99169"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "37cf6060-b28d-4218-8d36-f9b26845971a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100309", 
+            "y" : "-99360", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "f13610a1-4d95-43b8-8468-ec824e6aeed3"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.37cf6060-b28d-4218-8d36-f9b26845971a"
+      }, 
+      "0f573757-7b8e-4bf6-be2c-f860e9b5c3f7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100041", 
+            "y" : "-99344", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f1a774e7-4352-40eb-8dd2-794936b4755f"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.0f573757-7b8e-4bf6-be2c-f860e9b5c3f7"
+      }, 
+      "970f6518-6222-4ef7-a1a8-54efdbe18ea8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99747", 
+            "y" : "-99324", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "c13c796b-cae7-4d74-af34-741e934fd335"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.970f6518-6222-4ef7-a1a8-54efdbe18ea8"
+      }, 
+      "15234c3a-ddb6-4fba-bf06-e79085937f95" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-99389", 
+            "y" : "-99467"
+         }, 
+         "child" : [ 
+            "b45978e1-a938-4e8f-a75e-4dc853df1e1b", 
+            "98e946d7-8f13-40dc-8aa9-15de998523a9"
+         ], 
+         "value" : "7", 
+         "stat" : "Perception"
+      }, 
+      "b45978e1-a938-4e8f-a75e-4dc853df1e1b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99459", 
+            "y" : "-99356", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "290f898f-492f-41b2-94d4-1696555918c7"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.b45978e1-a938-4e8f-a75e-4dc853df1e1b"
+      }, 
+      "98e946d7-8f13-40dc-8aa9-15de998523a9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99201", 
+            "y" : "-99319"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "53271dfd-3bd0-4a59-9033-93cc49753d2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101681", 
+            "y" : "-100656", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "4891abea-e56c-4de7-99fc-1c6e962da114"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.53271dfd-3bd0-4a59-9033-93cc49753d2e"
+      }, 
+      "4891abea-e56c-4de7-99fc-1c6e962da114" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101680", 
+            "y" : "-100524", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "5241c4ee-474e-447b-9db3-a435f46fe798"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.4891abea-e56c-4de7-99fc-1c6e962da114"
+      }, 
+      "5241c4ee-474e-447b-9db3-a435f46fe798" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-101649", 
+            "y" : "-100402"
+         }, 
+         "child" : [ 
+            "4c95da9c-b64d-45f3-a8aa-343b8b75b6e5", 
+            "3b2d77d6-8d23-43a4-8dca-def89838351a", 
+            "937f82c3-7cab-4b96-b975-a96567148c97", 
+            "cddc875b-af3d-40c0-b940-34f633b379e4"
+         ]
+      }, 
+      "4c95da9c-b64d-45f3-a8aa-343b8b75b6e5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102599", 
+            "y" : "-100285", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "a257f9c3-cd2a-4479-a784-98a42e96b653"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.4c95da9c-b64d-45f3-a8aa-343b8b75b6e5"
+      }, 
+      "3b2d77d6-8d23-43a4-8dca-def89838351a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102292", 
+            "y" : "-100283", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "d41bee17-cd25-4c1a-9d1e-2eca896ec9cb"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.3b2d77d6-8d23-43a4-8dca-def89838351a"
+      }, 
+      "937f82c3-7cab-4b96-b975-a96567148c97" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101993", 
+            "y" : "-100285", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "26e71f66-f753-4758-9d7b-7c62285a3bcd"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.937f82c3-7cab-4b96-b975-a96567148c97"
+      }, 
+      "cddc875b-af3d-40c0-b940-34f633b379e4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101653", 
+            "y" : "-100280", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "67880654-9451-41fb-9cb5-d2d91c302667"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.cddc875b-af3d-40c0-b940-34f633b379e4"
+      }, 
+      "394eb684-3e02-4606-96c6-ff80a6560d82" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-100635", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "f9c808a1-f80a-4037-bd74-39efcb9c2846"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.394eb684-3e02-4606-96c6-ff80a6560d82"
+      }, 
+      "f9c808a1-f80a-4037-bd74-39efcb9c2846" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-100501", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "8ef19873-034f-4ed7-b17c-cac12f2b5ca4"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f9c808a1-f80a-4037-bd74-39efcb9c2846"
+      }, 
+      "8ef19873-034f-4ed7-b17c-cac12f2b5ca4" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-100888", 
+            "y" : "-100377"
+         }, 
+         "child" : [ 
+            "73a3f6d7-de19-456f-bb2e-af42c87ac577", 
+            "126bfef4-be39-42ed-9c65-69c30b6640df", 
+            "b0951583-346f-4886-8883-64372aef3b32", 
+            "f28a096c-1da5-4aef-b69e-2a087c3c3a30"
+         ]
+      }, 
+      "73a3f6d7-de19-456f-bb2e-af42c87ac577" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101318", 
+            "y" : "-100270", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "a257f9c3-cd2a-4479-a784-98a42e96b653"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.73a3f6d7-de19-456f-bb2e-af42c87ac577"
+      }, 
+      "126bfef4-be39-42ed-9c65-69c30b6640df" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-100256", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "d41bee17-cd25-4c1a-9d1e-2eca896ec9cb"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.126bfef4-be39-42ed-9c65-69c30b6640df"
+      }, 
+      "b0951583-346f-4886-8883-64372aef3b32" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100553", 
+            "y" : "-100246", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "26e71f66-f753-4758-9d7b-7c62285a3bcd"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.b0951583-346f-4886-8883-64372aef3b32"
+      }, 
+      "f28a096c-1da5-4aef-b69e-2a087c3c3a30" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99975", 
+            "y" : "-100243", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "67880654-9451-41fb-9cb5-d2d91c302667"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.f28a096c-1da5-4aef-b69e-2a087c3c3a30"
+      }, 
+      "a62c4eeb-1247-4eff-b3dc-bad0586b06a4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100440", 
+            "y" : "-100631", 
+            "comment" : "(конец диалога, гг атакует первым)"
+         }, 
+         "child" : [ 
+            "e51e97cb-5674-42ee-9954-544fe3949d99"
+         ], 
+         "text" : "#Tunnel_2_Sub_Uncle_Hook.a62c4eeb-1247-4eff-b3dc-bad0586b06a4"
+      }, 
+      "e51e97cb-5674-42ee-9954-544fe3949d99" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100415", 
+            "y" : "-100574"
+         }, 
+         "child" : [ 
+            "ef2124d1-8c0c-4bdc-99ab-b9d55726c04d"
+         ], 
+         "fraction" : "banda_hook", 
+         "value" : "0"
+      }, 
+      "ef2124d1-8c0c-4bdc-99ab-b9d55726c04d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100388", 
+            "y" : "-100514"
+         }, 
+         "child" : [ 
+            "63562822-4d75-4e93-a25e-fc1ede6cd655"
+         ]
+      }, 
+      "63562822-4d75-4e93-a25e-fc1ede6cd655" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100392", 
+            "y" : "-100470"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "$SELF$"
+      }, 
+      "e95463b1-a6e7-4ec9-acb9-3e8aba9833a6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101189", 
+            "y" : "-101298"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b5e526ff-f1d3-4dca-a4c9-4c2a9bd1da1c" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101118", 
+            "y" : "-101458"
+         }, 
+         "child" : [ 
+         ], 
+         "portrait" : "Character/Uncle_Hook", 
+         "mode" : "SetOwnerNameIfExist"
+      }
+   }, 
+   "entry" : "400334ee-e165-41c3-b65c-0b1f93f858b1"
+}

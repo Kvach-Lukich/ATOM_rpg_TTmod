@@ -1,0 +1,111 @@
+{ 
+   "states" : { 
+      "61ed644f-f576-49d3-9fc3-8e6b6848563e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101247", 
+            "y" : "-100599"
+         }, 
+         "child" : [ 
+            "e3d02b35-6eef-4647-926d-4b1fe081373a"
+         ]
+      }, 
+      "e3d02b35-6eef-4647-926d-4b1fe081373a" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-101247", 
+            "y" : "-100563"
+         }, 
+         "child" : [ 
+            "bcbf67ea-3ee5-46f2-b9a5-69a5d8a8a894"
+         ]
+      }, 
+      "bcbf67ea-3ee5-46f2-b9a5-69a5d8a8a894" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101246", 
+            "y" : "-100524"
+         }, 
+         "child" : [ 
+            "ad62653d-983c-4acf-b388-6bbc0c88f62f"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "ad62653d-983c-4acf-b388-6bbc0c88f62f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101297", 
+            "y" : "-100401"
+         }, 
+         "child" : [ 
+            "5141a229-a127-4c99-8d86-a61c97505572", 
+            "55d8ab4a-636a-4a39-b261-d40f4b8649fa"
+         ], 
+         "text" : "#Lab_Level3_RopeOut.ad62653d-983c-4acf-b388-6bbc0c88f62f"
+      }, 
+      "5141a229-a127-4c99-8d86-a61c97505572" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101405", 
+            "y" : "-100295"
+         }, 
+         "child" : [ 
+            "a2a70840-f741-4551-82ba-19b83d8c3de6", 
+            "30a5afe6-db9d-46d1-9739-77aec7e5699a"
+         ], 
+         "text" : "#Lab_Level3_RopeOut.5141a229-a127-4c99-8d86-a61c97505572"
+      }, 
+      "a2a70840-f741-4551-82ba-19b83d8c3de6" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101546", 
+            "y" : "-100219"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "FROMMOROZ"
+      }, 
+      "30a5afe6-db9d-46d1-9739-77aec7e5699a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101350", 
+            "y" : "-100220"
+         }, 
+         "child" : [ 
+            "2b830ee4-3129-4d8d-9390-4816b1ef81bb"
+         ]
+      }, 
+      "2b830ee4-3129-4d8d-9390-4816b1ef81bb" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101357", 
+            "y" : "-100161"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "Lab_level_1", 
+         "entrance" : "EnterPoint"
+      }, 
+      "55d8ab4a-636a-4a39-b261-d40f4b8649fa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101184", 
+            "y" : "-100293"
+         }, 
+         "child" : [ 
+            "ac9bde81-45df-4c54-8d9b-8d30fdbc6c5b"
+         ], 
+         "text" : "#Rat_Cave_RopeOut.55d8ab4a-636a-4a39-b261-d40f4b8649fa"
+      }, 
+      "ac9bde81-45df-4c54-8d9b-8d30fdbc6c5b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101130", 
+            "y" : "-100215"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "61ed644f-f576-49d3-9fc3-8e6b6848563e"
+}

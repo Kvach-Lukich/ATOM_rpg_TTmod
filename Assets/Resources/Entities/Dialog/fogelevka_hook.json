@@ -1,0 +1,313 @@
+{ 
+   "states" : { 
+      "f50cf695-237f-4aa5-959f-3596875494fd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101557", 
+            "y" : "-101835"
+         }, 
+         "child" : [ 
+            "38f967c9-ca5a-4dae-b2ba-c6a170696c1d", 
+            "6961bac0-ba7a-483c-b43a-adb0a3b2b8b3"
+         ]
+      }, 
+      "38f967c9-ca5a-4dae-b2ba-c6a170696c1d" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-101565", 
+            "y" : "-101751"
+         }, 
+         "child" : [ 
+            "84e17f8a-206d-4f25-8a34-59c2546b0903", 
+            "16eeb650-6b0e-42d7-a101-8074cc7cbc97"
+         ], 
+         "stateName" : "MOVE_OUT"
+      }, 
+      "84e17f8a-206d-4f25-8a34-59c2546b0903" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-101610"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Fogelevka_Hook.84e17f8a-206d-4f25-8a34-59c2546b0903", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "16eeb650-6b0e-42d7-a101-8074cc7cbc97" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101505", 
+            "y" : "-101617"
+         }, 
+         "child" : [ 
+            "257a82a9-0b17-4661-9535-f611c4f57b84", 
+            "13da957b-7e5a-4b1a-9b13-e4ea09484b0e"
+         ]
+      }, 
+      "257a82a9-0b17-4661-9535-f611c4f57b84" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101685", 
+            "y" : "-101437", 
+            "comment" : "обида"
+         }, 
+         "child" : [ 
+            "6166f0ff-492a-4935-873e-3c9ef94081d4", 
+            "1fa922c6-cf87-40d9-a692-4902a7371808"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "6166f0ff-492a-4935-873e-3c9ef94081d4" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101926", 
+            "y" : "-101281"
+         }, 
+         "child" : [ 
+            "9d55d283-1425-4fa4-86f0-59d342a3f4e0"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "9d55d283-1425-4fa4-86f0-59d342a3f4e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101977", 
+            "y" : "-101206"
+         }, 
+         "child" : [ 
+            "366bdac1-394b-4a5a-98e8-fb5b56fe9ebd"
+         ], 
+         "text" : "#Fogelevka_Hook.9d55d283-1425-4fa4-86f0-59d342a3f4e0"
+      }, 
+      "366bdac1-394b-4a5a-98e8-fb5b56fe9ebd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101979", 
+            "y" : "-101088"
+         }, 
+         "child" : [ 
+            "9aeacbf6-f14f-4072-8bad-709b40ecbfa0"
+         ]
+      }, 
+      "9aeacbf6-f14f-4072-8bad-709b40ecbfa0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101979", 
+            "y" : "-101044"
+         }, 
+         "child" : [ 
+            "54ab8f2b-2d17-4877-9c2e-50065f7317f8"
+         ], 
+         "text" : "#Fogelevka_Hook.9aeacbf6-f14f-4072-8bad-709b40ecbfa0"
+      }, 
+      "54ab8f2b-2d17-4877-9c2e-50065f7317f8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101979", 
+            "y" : "-100976", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "94f0b071-bafa-4bc6-baae-3103b98137e0"
+         ], 
+         "text" : "#Fogelevka_Hook.54ab8f2b-2d17-4877-9c2e-50065f7317f8"
+      }, 
+      "94f0b071-bafa-4bc6-baae-3103b98137e0" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101622", 
+            "y" : "-100662"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1fa922c6-cf87-40d9-a692-4902a7371808" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101579", 
+            "y" : "-101326", 
+            "comment" : " задание Декапитация, см. Тофик Мозамбик Ч. 2"
+         }, 
+         "child" : [ 
+            "02fe350e-bdb4-4e05-b829-1037c1ff1360", 
+            "4219d9fd-8a08-413d-ab8a-4645fdd76dda", 
+            "44255f9a-d941-4a4c-85b3-b44c4297d675"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.BEGIN"
+      }, 
+      "02fe350e-bdb4-4e05-b829-1037c1ff1360" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101627", 
+            "y" : "-101193"
+         }, 
+         "child" : [ 
+            "14b1c19f-ed14-4f17-85f2-2379c5e33311"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "14b1c19f-ed14-4f17-85f2-2379c5e33311" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101677", 
+            "y" : "-101110"
+         }, 
+         "child" : [ 
+            "1dfed21d-dfd8-48dd-bdc4-434ceafdeda9"
+         ], 
+         "text" : "#Fogelevka_Hook.14b1c19f-ed14-4f17-85f2-2379c5e33311"
+      }, 
+      "1dfed21d-dfd8-48dd-bdc4-434ceafdeda9" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101677", 
+            "y" : "-100998"
+         }, 
+         "child" : [ 
+            "b0a2341f-7c20-4c42-8019-a80531eb7cd0"
+         ]
+      }, 
+      "b0a2341f-7c20-4c42-8019-a80531eb7cd0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101673", 
+            "y" : "-100950"
+         }, 
+         "child" : [ 
+            "d3027816-01de-4795-874f-4aa3c43c953c"
+         ], 
+         "text" : "#Fogelevka_Hook.b0a2341f-7c20-4c42-8019-a80531eb7cd0"
+      }, 
+      "d3027816-01de-4795-874f-4aa3c43c953c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101675", 
+            "y" : "-100842", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "94f0b071-bafa-4bc6-baae-3103b98137e0"
+         ], 
+         "text" : "#Fogelevka_Hook.d3027816-01de-4795-874f-4aa3c43c953c"
+      }, 
+      "4219d9fd-8a08-413d-ab8a-4645fdd76dda" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101008", 
+            "y" : "-101190"
+         }, 
+         "child" : [ 
+            "2f10a57f-b5b5-438e-bc2c-13be384ff4b9"
+         ]
+      }, 
+      "2f10a57f-b5b5-438e-bc2c-13be384ff4b9" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-101076", 
+            "y" : "-101145"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/Fogelevka_Uncle_Hook2"
+      }, 
+      "44255f9a-d941-4a4c-85b3-b44c4297d675" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101405", 
+            "y" : "-101200"
+         }, 
+         "child" : [ 
+            "00abfc0b-bf70-40c9-b528-f70c0a0e2cf0"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "00abfc0b-bf70-40c9-b528-f70c0a0e2cf0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101396", 
+            "y" : "-101122"
+         }, 
+         "child" : [ 
+            "075342ec-b5c9-4cde-a726-7098dbec2114"
+         ], 
+         "text" : "#Fogelevka_Hook.00abfc0b-bf70-40c9-b528-f70c0a0e2cf0"
+      }, 
+      "075342ec-b5c9-4cde-a726-7098dbec2114" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101394", 
+            "y" : "-101008"
+         }, 
+         "child" : [ 
+            "4cbbfb22-d92d-4aa3-beba-ae9b5e249c7d"
+         ]
+      }, 
+      "4cbbfb22-d92d-4aa3-beba-ae9b5e249c7d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101392", 
+            "y" : "-100962"
+         }, 
+         "child" : [ 
+            "ef73235f-14fe-48d9-901c-115e51457b11"
+         ], 
+         "text" : "#Fogelevka_Hook.4cbbfb22-d92d-4aa3-beba-ae9b5e249c7d"
+      }, 
+      "ef73235f-14fe-48d9-901c-115e51457b11" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101392", 
+            "y" : "-100888", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "94f0b071-bafa-4bc6-baae-3103b98137e0"
+         ], 
+         "text" : "#Fogelevka_Hook.ef73235f-14fe-48d9-901c-115e51457b11"
+      }, 
+      "13da957b-7e5a-4b1a-9b13-e4ea09484b0e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-101511"
+         }, 
+         "child" : [ 
+            "77ea6027-401c-4b23-95e0-c52ea790b4f5", 
+            "5e249977-822c-4d9f-819f-6abea4a8eb9e"
+         ], 
+         "note_key" : "PLAYER_KNOWS_UNCLE_HOOK"
+      }, 
+      "77ea6027-401c-4b23-95e0-c52ea790b4f5" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-101394", 
+            "y" : "-101388"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5e249977-822c-4d9f-819f-6abea4a8eb9e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101254", 
+            "y" : "-101389"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6961bac0-ba7a-483c-b43a-adb0a3b2b8b3" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101369", 
+            "y" : "-101745"
+         }, 
+         "child" : [ 
+         ], 
+         "portrait" : "Character/Uncle_Hook", 
+         "mode" : "SetOwnerNameIfExist"
+      }
+   }, 
+   "entry" : "f50cf695-237f-4aa5-959f-3596875494fd"
+}

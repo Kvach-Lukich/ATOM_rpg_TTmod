@@ -18,7 +18,7 @@ MonoBehaviour:
   Takeable: 1
   Cost: 2586
   Weight: 1000
-  Collectable: 0
+  Collectable: 1
   Modifiers: []
   HasModel: 1
   weaponType: 1

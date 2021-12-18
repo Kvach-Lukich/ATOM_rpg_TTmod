@@ -28,9 +28,9 @@ MonoBehaviour:
   BothHands: 1
   Stack: 0
   DamageMin: 35
-  DamageMax: 46
+  DamageMax: 48
   DamageRadius: 1
-  Fatality: 50
+  Fatality: 60
   Perks: 1073742850
   PerksEx: 0
   DamageType: 0
@@ -49,8 +49,7 @@ MonoBehaviour:
     Dispersion: 0
     ModeType: 0
     Sounds:
-    - path: Sounds/SFX/Weapons/M24/m24_fp
-    - path: Sounds/SFX/Weapons/M24/m24_tp
+    - path: Entities/Weapon/gauss
   Burst:
     AP: 0
     Range: 0
@@ -69,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 7
+    _value: 6
   - _type: 9
     _value: 40
   NoAmmoSounds:

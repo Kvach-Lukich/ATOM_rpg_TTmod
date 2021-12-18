@@ -259,5 +259,47 @@
         "6bd73ed9-b064-4d5c-8d70-631b4050d0ec": "[Now you begin to understand - these records keep the key to the most powerful weapon]\nThis book contains some strange notes about the study of electromagnetic fields and coherent radiation. You are not in a position to make out what is written about here, but it talks about the collateral discovery of the super powerful effect of electromagnetic induction and about the prototype of a new weapon, which is named after the great physicist Johann Karl Friedrich Gauss. You also managed to understand that more detailed information is located on the technical missile base on military servers.",
         "a74b9e05-ec51-4725-94a1-e030d59e3001": "Your Technology Comprehension Skill has increased by 150 (but not for long)",
         "8b7ef5f2-74da-4e86-8fe6-6d80f0b08fff": "This book contains some strange notes about the study of electromagnetic fields and coherent radiation. You are not in a position to make out what is written about here, but it talks about the collateral discovery of the super powerful effect of electromagnetic induction and about the prototype of a new weapon, which is named after the great physicist Johann Karl Friedrich Gauss. You also managed to understand that more detailed information is located on the technical missile base on military servers.\n(Obviously, a lot of energy will be needed, it is better to start filling up with batteries)"
+    },
+    "village_bum": {
+        "40d1ef7c-baac-4e0f-a24a-318d1e0ca6bd": "Can you pour it?",
+        "10994469-0df1-4197-a2e7-84a984719928": "Certainly!\nBring 2 bottles of all spirits (except port) and 1 bottle of moonshine and don’t forget the fly agaric",
+        "7aeb9bdc-caf8-406f-bc76-4208bc46eec8": "Here you are",
+        "1e5432e9-b641-4fb8-b89c-fbe0952fe860": "A man hands you a very creepy bottle with a cloudy liquid, this can be used only just before death, but it’s better not",
+        "352a5904-63e7-417c-b04d-3d5a2c0166c2": "Thanks! I'll go to the bar - I'll clean someone's snout",
+        "b2f6cc6e-acae-4253-afda-bdd2ee44be3f": "Is there more?",
+        "1d11a7d2-199e-436a-85e3-d17917e4077d": "It is clear how I will find - I will look",
+        "7e010abf-17e7-4ad0-b1f7-2f57c176fe2c": "What are you doing here?",
+        "4ce4e219-43c0-4b73-a900-1395e929aaa1": "Checking the moonshine still, I know the secret recipe for the coolest liquor in the entire wasteland - Bummer!",
+        "dbb017a9-7c60-4d57-8120-ab12229de2c6": "And many are interested?",
+        "5d1585e1-a2e4-4105-8d95-dfe128096bd1": "Enough! All who want to forget themselves in gambling, striving for spiritual beauty, working faces try to fill each other in the dark"
+    },
+    "village_wallguard": {
+        "d7218f65-9095-4555-84ee-7ccda306f2e1": "Can we figure it out for two?",
+        "ed6bb503-cb8b-4e97-a99e-d6c160afe91a": "Still would!",
+        "937af85b-fb87-4cbe-8b16-be3fec6d3378": "[Rushed]",
+        "0ebab133-ac3e-4586-a9c6-0ca787d1ad6d": "You plunked by the fire and having heard many folk wisdoms - you learned to move around settlements much faster",
+        "f8be589e-046e-4eac-8d9c-92f141783dab": "Your movement speed has doubled"
+    },
+    "level_city_1": {
+        "133f263c-f7b0-49cb-8a29-5805ae0eeb82": "Finally it turned out to clear the city of corrupt cops"
+    },
+    "level_city_2": {
+        "33a65695-d62b-4d2f-ac74-ebe4da67d524": "Finally it turned out to clear the city of corrupt cops"
+    },
+    "level_lab_level_2": {
+        "cb1eb2dd-bfec-434a-8e19-d840f83a3cf8": "What a wilderness, if something happens here, no one outside will even know!",
+        "507bd4f8-b63e-43fb-8e03-3fc032d0c36c": "There are no more officials in the KRZ",
+        "07ab90bf-fd39-43e3-85f3-9943ba2a603d": "I have not seen anything",
+        "5902e16d-e825-4b99-a4a3-ada522c224dc": "Do not touch me!",
+        "00d66299-106e-4756-801f-bcc50d0620c0": "Oops"
+    },
+    "nocraft_cateye": {
+        "760167bc-2795-4fe9-b1bd-8e521ef1365a": "A set of deversants, military preparations make it possible to become almost invisible to enemies.\nYou need to beware of side effects, as well as from any military development"
+    },
+    "zippo": {
+        "b824a45f-5ac6-4893-b7c2-500126030091": "Diesel fuel is needed for a fire",
+        "28901f18-ad5d-4599-b78a-01ed79cb7d99": "A campfire needs paper",
+        "2cebbcd4-0b92-4050-a8b2-5d9ef1b4c33c": "You need wood for a fire",
+        "9134abf2-af51-44ee-aee7-b6e2c1189e9c": "An ax is needed for a fire"
     }
 }

@@ -22,67 +22,75 @@ xmlns:html="http://www.w3.org/TR/REC-html40">
 <Worksheet ss:Name="WorkSheet">
 <Table>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">citysub_simon_shpak</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">village_bum</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Расскажи о вашем картеле, где у вас ещё есть филиалы?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Может нальёшь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Да по всем пустошам: от Ущелья бед до Мёртвого города и даже в Перегоне</Data></Cell></Row>
+<Cell><Data ss:Type="String">Конечно!\nПриноси по 2 бутылки всех крепких напитков (кроме портвейна) и 1 бутылку самогонки и мухомор не забудь</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Здорово, ну, мне пора</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Здорово, у меня ещё пару вопросов</Data></Cell></Row>
+<Cell><Data ss:Type="String">Мужик протягивает вам очень стрёмную бутылку с мутной жидкостью, это можно употребить только перед самой смертью, но лучше не стоит</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">harbor_ticketman</Data></Cell></Row>
+<Cell><Data ss:Type="String">Спасибо! пойду в бар - начищу кому-нибудь рыло</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Возможно у вас есть какие то не решённые проблемы, я ищу подработку</Data></Cell></Row>
+<Cell><Data ss:Type="String">А ещё есть?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Пожалуй у меня есть небольшое поручение для человека вроде вас, который много путешествует</Data></Cell></Row>
+<Cell><Data ss:Type="String">Понятно, как найду - загляну</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Внимательно слушаю...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Чего это ты тут мастеришь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Оплата не большая, но и поручение не сложное - нужно разузнать что происходит в местечке под названием Тоннель смерти</Data></Cell></Row>
+<Cell><Data ss:Type="String">Проверяю самогонный аппарат, я знаю секретный рецепт самого крутого пойла во всей пустоши - Бормотуха!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">А я там уже бывал</Data></Cell></Row>
+<Cell><Data ss:Type="String">И много желающих?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Тогда расскажите почему кроме вас от туда никто не вернулся из сталкеров?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Полно! Все кто хочет в азартных играх забыться, к душевной стремясь красоте, доуг другу рабочие лица стараются набить в темноте</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Конечно, потому что там пролизующе токсичные испарения, жуткая радиация и огромные радиоктивные монстры</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">village_wallguard</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Какой ужас</Data></Cell></Row>
+<Cell><Data ss:Type="String">Может сообразим на двоих?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Протягиваете чиновнику записку згинувшего сталкера]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ещё бы!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Теперь понятно, вот вам за старания, 200 рублей и немного патронов, что остались от прошлых искателей преключений, думаю им они уже не понадобятся</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Понеслась]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Спасибо, мне снова пора в дорогу</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вы бухнули у костра и услышав множество народных мудростей - научились передвигаться по населённым пунктам на много быстрее</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ни чего себе название!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ваша скорость передвижения увиличилась в 2 раза</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Вам нужно разузнать почему, сталкеры уходят туда и больше не возвращаются и если найдёте полезные записи - обязательно дайте знать</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">level_city_1</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">С удовольствем прогуляюсь в новые места [Помечаете у себя на крте -  Тоннель смерти]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Наконец-то получилось очитсть город от продажных ментов</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Отлично</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">level_city_2</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Скоро вернусь [уходите]</Data></Cell></Row>
+<Cell><Data ss:Type="String">ALLMENT1</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">По поводу вашего поручения</Data></Cell></Row>
+<Cell><Data ss:Type="String">ALLMENT2</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Вы узнали почему никто от туда не возвращается?</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">level_lab_level_2</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Пока нет</Data></Cell></Row>
+<Cell><Data ss:Type="String">Какая глушь, если тут что-то произойдёт, снаружи никто даже не узнает!</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">craft_gazmask</Data></Cell></Row>
+<Cell><Data ss:Type="String">Больше нету чиновников в КРЗ</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Что может быть лучше старых добрых противогазов - один новый!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Я ничего не видел</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">craft_tt</Data></Cell></Row>
+<Cell><Data ss:Type="String">Не трогайте меня!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Эта схема модификации пистолета ТТ </Data></Cell></Row>
+<Cell><Data ss:Type="String">Упс</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">tunnel_memo_2</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">nocraft_cateye</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Эту записку следует показать в ближайшем населённом пункте, наверняка этих людей кто-то ищет</Data></Cell></Row>
+<Cell><Data ss:Type="String">Набор деверсанта, военные препараты позволяют стать почти невидимым для врагов.\nНужно опастаься побочного действия, как и от любых военных разработок</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[эту записку лучше сохранить и не продавать]</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">zippo</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Для костра нужна солярка</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Для костра нужна бумага</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Для костра нужно дерево</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Для костра нужен топор</Data></Cell></Row>
 </Table></Worksheet></Workbook>

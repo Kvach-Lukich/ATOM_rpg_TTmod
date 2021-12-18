@@ -394,39 +394,18 @@
             "y" : "-101292"
          }, 
          "child" : [ 
-            "ce031e5b-b7e8-40c1-9439-85ffe7416f4a", 
+            "6336c95b-6952-4b0e-91b8-3a360c762657", 
             "8e82e9a8-0a74-4ee8-a274-f5502ddf9a0f"
          ], 
          "key" : "__HP", 
          "value" : "$CHARACTER.HIGHHP$", 
          "opp" : "Greater"
       }, 
-      "ce031e5b-b7e8-40c1-9439-85ffe7416f4a" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-101960", 
-            "y" : "-101114"
-         }, 
-         "child" : [ 
-            "bb7f7fed-bd72-41c8-b7af-9c3851966c94"
-         ], 
-         "text" : "#alenka_comp.ce031e5b-b7e8-40c1-9439-85ffe7416f4a"
-      }, 
-      "bb7f7fed-bd72-41c8-b7af-9c3851966c94" : { 
-         "class" : "DialogContinueNode", 
-         "desc" : { 
-            "x" : "-101961", 
-            "y" : "-101043"
-         }, 
-         "child" : [ 
-            "6336c95b-6952-4b0e-91b8-3a360c762657"
-         ]
-      }, 
       "6336c95b-6952-4b0e-91b8-3a360c762657" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101963", 
-            "y" : "-100993"
+            "x" : "-101968", 
+            "y" : "-101040"
          }, 
          "child" : [ 
             "8f6b5cca-68b1-4965-b536-d7a76313df37", 

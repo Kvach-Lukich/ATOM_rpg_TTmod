@@ -1,0 +1,2793 @@
+{ 
+   "states" : { 
+      "16a2f64e-f729-4775-9b64-a33ec086bb3e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102415", 
+            "y" : "-102260"
+         }, 
+         "child" : [ 
+            "e93be9f6-c16f-414e-b9d3-da119251b6d9"
+         ]
+      }, 
+      "e93be9f6-c16f-414e-b9d3-da119251b6d9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102454", 
+            "y" : "-102210"
+         }, 
+         "child" : [ 
+            "fa36f2f2-d4eb-4f68-aaa8-c90da556c6f1", 
+            "3cb36fcf-d212-4551-a101-317487dd2f52"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "fa36f2f2-d4eb-4f68-aaa8-c90da556c6f1" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102500", 
+            "y" : "-102059"
+         }, 
+         "child" : [ 
+            "f900950a-0dc5-4f72-9ab2-f40bbdf402e9"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "f900950a-0dc5-4f72-9ab2-f40bbdf402e9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102928", 
+            "y" : "-101893", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "dc3cd830-01cf-4f91-9519-83b5df5dc32a"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f900950a-0dc5-4f72-9ab2-f40bbdf402e9"
+      }, 
+      "dc3cd830-01cf-4f91-9519-83b5df5dc32a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102928", 
+            "y" : "-101781"
+         }, 
+         "child" : [ 
+            "39c6cec6-ca09-436c-bb4c-0b0bd29db987"
+         ]
+      }, 
+      "39c6cec6-ca09-436c-bb4c-0b0bd29db987" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102930", 
+            "y" : "-101743"
+         }, 
+         "child" : [ 
+            "3d203813-7950-4992-8f2e-9cc489d1533a"
+         ], 
+         "text" : "#Fogelevka_Tofik2.39c6cec6-ca09-436c-bb4c-0b0bd29db987"
+      }, 
+      "3d203813-7950-4992-8f2e-9cc489d1533a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102928", 
+            "y" : "-101659", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "531350c0-1e04-4233-b3fc-648c1fa43248"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3d203813-7950-4992-8f2e-9cc489d1533a"
+      }, 
+      "531350c0-1e04-4233-b3fc-648c1fa43248" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-101599"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3cb36fcf-d212-4551-a101-317487dd2f52" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102347", 
+            "y" : "-102078"
+         }, 
+         "child" : [ 
+            "12d80a41-06b8-4318-a732-bd9e183ee157", 
+            "2cf7235a-657b-4436-98be-21fadd408d89", 
+            "2dbf218a-db21-4d54-9a25-a971f57cecec"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.BEGIN"
+      }, 
+      "12d80a41-06b8-4318-a732-bd9e183ee157" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102368", 
+            "y" : "-101973"
+         }, 
+         "child" : [ 
+            "3d1637ff-70c4-48ce-b916-57572579fd33"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "3d1637ff-70c4-48ce-b916-57572579fd33" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102474", 
+            "y" : "-101752", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "bc3841e9-884c-4358-93d3-7942d3e9db94"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3d1637ff-70c4-48ce-b916-57572579fd33"
+      }, 
+      "bc3841e9-884c-4358-93d3-7942d3e9db94" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102476", 
+            "y" : "-101630"
+         }, 
+         "child" : [ 
+            "72d02357-a59a-43df-990b-40b013d57e9b"
+         ]
+      }, 
+      "72d02357-a59a-43df-990b-40b013d57e9b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102482", 
+            "y" : "-101586"
+         }, 
+         "child" : [ 
+            "1bc13420-d24c-46a0-8581-71235f37d61c", 
+            "06710d5a-ecd1-4cc9-827b-f796aba783fb"
+         ], 
+         "text" : "#Fogelevka_Tofik2.72d02357-a59a-43df-990b-40b013d57e9b"
+      }, 
+      "1bc13420-d24c-46a0-8581-71235f37d61c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103533", 
+            "y" : "-101244", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "23c93060-9b47-4d35-92d4-61f32f75ab0b"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1bc13420-d24c-46a0-8581-71235f37d61c"
+      }, 
+      "23c93060-9b47-4d35-92d4-61f32f75ab0b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103534", 
+            "y" : "-101133", 
+            "comment" : "А16"
+         }, 
+         "child" : [ 
+            "3e786fe7-6c87-4783-8290-d37934dcdc43", 
+            "9c4cbb0e-f547-42f1-b24d-081569cdcf4e", 
+            "ff4645aa-eacf-4960-a832-89d858803a32", 
+            "0fd9dc44-0f75-4a97-9dde-206f9db1bc7a", 
+            "27fb2f0f-f2d9-49a4-a620-6d44659761f6"
+         ], 
+         "text" : "#Fogelevka_Tofik2.23c93060-9b47-4d35-92d4-61f32f75ab0b"
+      }, 
+      "3e786fe7-6c87-4783-8290-d37934dcdc43" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104470", 
+            "y" : "-100941", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3e786fe7-6c87-4783-8290-d37934dcdc43"
+      }, 
+      "3c054461-8693-46a7-9a41-b73b9e70b502" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104587", 
+            "y" : "-100770", 
+            "comment" : "А17"
+         }, 
+         "child" : [ 
+            "05a1f4e9-7e72-4d28-b6c3-2a9f7c6b8e01", 
+            "dca10c6a-21bf-45e8-9c21-d3a01947712f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3c054461-8693-46a7-9a41-b73b9e70b502"
+      }, 
+      "05a1f4e9-7e72-4d28-b6c3-2a9f7c6b8e01" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104909", 
+            "y" : "-100568", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "22ec2de7-84b7-4ea2-abdb-7d85824af03f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.05a1f4e9-7e72-4d28-b6c3-2a9f7c6b8e01"
+      }, 
+      "22ec2de7-84b7-4ea2-abdb-7d85824af03f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103957", 
+            "y" : "-100379"
+         }, 
+         "child" : [ 
+            "a89af06b-4350-4899-9988-53b455e99835", 
+            "963bc6e1-40fd-4aff-991e-46db87d1c954", 
+            "5b11c3c4-da4b-472f-bc86-5dca3e9b017d", 
+            "5c913e07-15c8-4ba1-bee4-57dc3f2a8fbd", 
+            "f0278688-60c1-43e9-8b7e-58cd3a1bd00e"
+         ]
+      }, 
+      "a89af06b-4350-4899-9988-53b455e99835" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104945", 
+            "y" : "-99865", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "9355b6cb-1f58-4ea7-8541-00a8559c4cf8", 
+            "ba5faa92-f96f-4f5d-8fd1-6ca07a1f6e54", 
+            "f386347e-309d-4d4b-ac02-6693d5f38623", 
+            "2096eb2f-cd49-4cc7-885d-7f952139174d", 
+            "d13a886a-235c-4626-8fea-ce1e64f2b169"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a89af06b-4350-4899-9988-53b455e99835"
+      }, 
+      "9355b6cb-1f58-4ea7-8541-00a8559c4cf8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105245", 
+            "y" : "-99765", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.9355b6cb-1f58-4ea7-8541-00a8559c4cf8"
+      }, 
+      "ba5faa92-f96f-4f5d-8fd1-6ca07a1f6e54" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105095", 
+            "y" : "-99665", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ba5faa92-f96f-4f5d-8fd1-6ca07a1f6e54"
+      }, 
+      "df8de02d-ef82-4185-a05c-5cfd47d381ef" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104099", 
+            "y" : "-100766", 
+            "comment" : "А18"
+         }, 
+         "child" : [ 
+            "57705bce-9dde-4161-9c74-bafcd8680b58", 
+            "6ed505b7-30d3-417f-8c25-cf56aa102764"
+         ], 
+         "text" : "#Fogelevka_Tofik2.df8de02d-ef82-4185-a05c-5cfd47d381ef"
+      }, 
+      "57705bce-9dde-4161-9c74-bafcd8680b58" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104320", 
+            "y" : "-100562", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "22ec2de7-84b7-4ea2-abdb-7d85824af03f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.57705bce-9dde-4161-9c74-bafcd8680b58"
+      }, 
+      "6ed505b7-30d3-417f-8c25-cf56aa102764" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104000", 
+            "y" : "-100565", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "e6a27bfb-5341-4619-b333-11f5626218eb"
+         ], 
+         "text" : "#Fogelevka_Tofik2.6ed505b7-30d3-417f-8c25-cf56aa102764"
+      }, 
+      "e6a27bfb-5341-4619-b333-11f5626218eb" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103949", 
+            "y" : "-100482"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f386347e-309d-4d4b-ac02-6693d5f38623" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104959", 
+            "y" : "-99763", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f386347e-309d-4d4b-ac02-6693d5f38623"
+      }, 
+      "d81b3349-9498-4816-b04d-4ec44ba4ee9c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103539", 
+            "y" : "-100793", 
+            "comment" : "А19"
+         }, 
+         "child" : [ 
+            "e971279f-d5c3-4aec-830d-597090f1915d", 
+            "1c0e8792-95e2-42aa-a009-236b06cee7eb"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+      }, 
+      "e971279f-d5c3-4aec-830d-597090f1915d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103703", 
+            "y" : "-100584", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "22ec2de7-84b7-4ea2-abdb-7d85824af03f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.e971279f-d5c3-4aec-830d-597090f1915d"
+      }, 
+      "1c0e8792-95e2-42aa-a009-236b06cee7eb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103390", 
+            "y" : "-100577", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "67ef2918-f013-43df-b698-ab3730a83920"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1c0e8792-95e2-42aa-a009-236b06cee7eb"
+      }, 
+      "67ef2918-f013-43df-b698-ab3730a83920" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103336", 
+            "y" : "-100496"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2096eb2f-cd49-4cc7-885d-7f952139174d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104795", 
+            "y" : "-99665", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.2096eb2f-cd49-4cc7-885d-7f952139174d"
+      }, 
+      "a91450ca-f8b4-4db2-9bc7-6579833163fd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103050", 
+            "y" : "-100796", 
+            "comment" : "А20"
+         }, 
+         "child" : [ 
+            "c95eca50-91f1-4cf0-8f25-931b2363ad85", 
+            "5f118202-44dd-4d37-a515-beb27061806c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a91450ca-f8b4-4db2-9bc7-6579833163fd"
+      }, 
+      "c95eca50-91f1-4cf0-8f25-931b2363ad85" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103122", 
+            "y" : "-100576", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "22ec2de7-84b7-4ea2-abdb-7d85824af03f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c95eca50-91f1-4cf0-8f25-931b2363ad85"
+      }, 
+      "5f118202-44dd-4d37-a515-beb27061806c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102859", 
+            "y" : "-100569", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "29df7dbf-2140-428c-b75d-e3f10d20ac43"
+         ], 
+         "text" : "#Fogelevka_Tofik2.5f118202-44dd-4d37-a515-beb27061806c"
+      }, 
+      "29df7dbf-2140-428c-b75d-e3f10d20ac43" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102804", 
+            "y" : "-100493"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d13a886a-235c-4626-8fea-ce1e64f2b169" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104645", 
+            "y" : "-99765", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d13a886a-235c-4626-8fea-ce1e64f2b169"
+      }, 
+      "dd2b39ca-8b72-4990-b60d-c7997d01e7a0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102656", 
+            "y" : "-100796", 
+            "comment" : "А21"
+         }, 
+         "child" : [ 
+            "002a2ee6-0eb0-4f25-bffc-935ccd714bdf", 
+            "767518b6-f865-4981-a675-02801799e1b9"
+         ], 
+         "text" : "#Fogelevka_Tofik2.dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+      }, 
+      "002a2ee6-0eb0-4f25-bffc-935ccd714bdf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102616", 
+            "y" : "-100566", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "22ec2de7-84b7-4ea2-abdb-7d85824af03f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.002a2ee6-0eb0-4f25-bffc-935ccd714bdf"
+      }, 
+      "767518b6-f865-4981-a675-02801799e1b9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102355", 
+            "y" : "-100566", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "d3775b19-58a3-4074-95f8-f6ef740b432e"
+         ], 
+         "text" : "#Fogelevka_Tofik2.767518b6-f865-4981-a675-02801799e1b9"
+      }, 
+      "d3775b19-58a3-4074-95f8-f6ef740b432e" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102298", 
+            "y" : "-100475"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "963bc6e1-40fd-4aff-991e-46db87d1c954" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104023", 
+            "y" : "-99863", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "7bf75734-5213-4011-a6a6-df90b5bdd708", 
+            "ec753204-f2c0-47f9-8e45-1c606bf30402", 
+            "1abe5eba-f6d0-40bb-bb9a-feafd30e2580", 
+            "78d69536-b620-47d6-b79b-daad43f9162f", 
+            "fe1879fa-2dc3-4a2d-b1df-b4faa6f62b72"
+         ], 
+         "text" : "#Fogelevka_Tofik2.963bc6e1-40fd-4aff-991e-46db87d1c954"
+      }, 
+      "7bf75734-5213-4011-a6a6-df90b5bdd708" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104323", 
+            "y" : "-99763", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.7bf75734-5213-4011-a6a6-df90b5bdd708"
+      }, 
+      "ec753204-f2c0-47f9-8e45-1c606bf30402" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104173", 
+            "y" : "-99663", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ec753204-f2c0-47f9-8e45-1c606bf30402"
+      }, 
+      "1abe5eba-f6d0-40bb-bb9a-feafd30e2580" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104023", 
+            "y" : "-99763", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1abe5eba-f6d0-40bb-bb9a-feafd30e2580"
+      }, 
+      "78d69536-b620-47d6-b79b-daad43f9162f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103873", 
+            "y" : "-99663", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.78d69536-b620-47d6-b79b-daad43f9162f"
+      }, 
+      "fe1879fa-2dc3-4a2d-b1df-b4faa6f62b72" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103723", 
+            "y" : "-99763", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.fe1879fa-2dc3-4a2d-b1df-b4faa6f62b72"
+      }, 
+      "5b11c3c4-da4b-472f-bc86-5dca3e9b017d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103085", 
+            "y" : "-99859", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "a1a9125c-6dfd-4b79-99e2-3d2b6a26f0cd", 
+            "e61b9b26-80c1-4a46-ad52-641b508e7385", 
+            "05982b14-f33d-4c79-bd41-9252696482c2", 
+            "6db905e3-502a-4b3c-bca6-cc2e809f2c79", 
+            "cfd8724a-870b-41aa-9117-64736f86228d"
+         ], 
+         "text" : "#Fogelevka_Tofik2.5b11c3c4-da4b-472f-bc86-5dca3e9b017d"
+      }, 
+      "a1a9125c-6dfd-4b79-99e2-3d2b6a26f0cd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103385", 
+            "y" : "-99759", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a1a9125c-6dfd-4b79-99e2-3d2b6a26f0cd"
+      }, 
+      "e61b9b26-80c1-4a46-ad52-641b508e7385" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103235", 
+            "y" : "-99659", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.e61b9b26-80c1-4a46-ad52-641b508e7385"
+      }, 
+      "05982b14-f33d-4c79-bd41-9252696482c2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103085", 
+            "y" : "-99759", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.05982b14-f33d-4c79-bd41-9252696482c2"
+      }, 
+      "6db905e3-502a-4b3c-bca6-cc2e809f2c79" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102935", 
+            "y" : "-99659", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.6db905e3-502a-4b3c-bca6-cc2e809f2c79"
+      }, 
+      "cfd8724a-870b-41aa-9117-64736f86228d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102785", 
+            "y" : "-99759", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.cfd8724a-870b-41aa-9117-64736f86228d"
+      }, 
+      "5c913e07-15c8-4ba1-bee4-57dc3f2a8fbd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104520", 
+            "y" : "-99484", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "bf1cf1cb-a1d8-410a-9caa-e219d5da965d", 
+            "ec51b54a-381a-4d8e-9f2e-7fdb4a8eb2fe", 
+            "ace6e35e-66be-4617-a6d6-bb4785fb3b28", 
+            "d302e83b-018f-46e1-8cc8-32e35559151f", 
+            "c263e0fd-8d91-43b8-9669-1206332a8247"
+         ], 
+         "text" : "#Fogelevka_Tofik2.5c913e07-15c8-4ba1-bee4-57dc3f2a8fbd"
+      }, 
+      "bf1cf1cb-a1d8-410a-9caa-e219d5da965d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104820", 
+            "y" : "-99387", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.bf1cf1cb-a1d8-410a-9caa-e219d5da965d"
+      }, 
+      "ec51b54a-381a-4d8e-9f2e-7fdb4a8eb2fe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104670", 
+            "y" : "-99287", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ec51b54a-381a-4d8e-9f2e-7fdb4a8eb2fe"
+      }, 
+      "ace6e35e-66be-4617-a6d6-bb4785fb3b28" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104520", 
+            "y" : "-99387", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ace6e35e-66be-4617-a6d6-bb4785fb3b28"
+      }, 
+      "d302e83b-018f-46e1-8cc8-32e35559151f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104370", 
+            "y" : "-99287", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d302e83b-018f-46e1-8cc8-32e35559151f"
+      }, 
+      "c263e0fd-8d91-43b8-9669-1206332a8247" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104220", 
+            "y" : "-99387", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c263e0fd-8d91-43b8-9669-1206332a8247"
+      }, 
+      "f0278688-60c1-43e9-8b7e-58cd3a1bd00e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103536", 
+            "y" : "-99457", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "36fd8162-91d2-4fd1-be48-b0bc5e1d33d7", 
+            "96a3299b-0237-4e41-9f97-068dc8ee096a", 
+            "8b618be7-f200-4587-81eb-f2f9d448b859", 
+            "39140485-8b42-46b7-adc4-adaa318db39a", 
+            "72f0a814-cb6f-4049-9363-d0c5e723ef36"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f0278688-60c1-43e9-8b7e-58cd3a1bd00e"
+      }, 
+      "36fd8162-91d2-4fd1-be48-b0bc5e1d33d7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103836", 
+            "y" : "-99357", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "3c054461-8693-46a7-9a41-b73b9e70b502"
+         ], 
+         "text" : "#Fogelevka_Tofik2.36fd8162-91d2-4fd1-be48-b0bc5e1d33d7"
+      }, 
+      "96a3299b-0237-4e41-9f97-068dc8ee096a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103686", 
+            "y" : "-99257", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.96a3299b-0237-4e41-9f97-068dc8ee096a"
+      }, 
+      "8b618be7-f200-4587-81eb-f2f9d448b859" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103536", 
+            "y" : "-99357", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.8b618be7-f200-4587-81eb-f2f9d448b859"
+      }, 
+      "39140485-8b42-46b7-adc4-adaa318db39a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103386", 
+            "y" : "-99257", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.39140485-8b42-46b7-adc4-adaa318db39a"
+      }, 
+      "72f0a814-cb6f-4049-9363-d0c5e723ef36" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103236", 
+            "y" : "-99357", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.72f0a814-cb6f-4049-9363-d0c5e723ef36"
+      }, 
+      "dca10c6a-21bf-45e8-9c21-d3a01947712f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104587", 
+            "y" : "-100570", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "7eca59a5-33db-491a-b8ea-7234f43e70f1"
+         ], 
+         "text" : "#Fogelevka_Tofik2.dca10c6a-21bf-45e8-9c21-d3a01947712f"
+      }, 
+      "7eca59a5-33db-491a-b8ea-7234f43e70f1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104534", 
+            "y" : "-100492"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9c4cbb0e-f547-42f1-b24d-081569cdcf4e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104082", 
+            "y" : "-100937", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "df8de02d-ef82-4185-a05c-5cfd47d381ef"
+         ], 
+         "text" : "#Fogelevka_Tofik2.9c4cbb0e-f547-42f1-b24d-081569cdcf4e"
+      }, 
+      "ff4645aa-eacf-4960-a832-89d858803a32" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103538", 
+            "y" : "-100949", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "d81b3349-9498-4816-b04d-4ec44ba4ee9c"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ff4645aa-eacf-4960-a832-89d858803a32"
+      }, 
+      "0fd9dc44-0f75-4a97-9dde-206f9db1bc7a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103052", 
+            "y" : "-100925", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "a91450ca-f8b4-4db2-9bc7-6579833163fd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.0fd9dc44-0f75-4a97-9dde-206f9db1bc7a"
+      }, 
+      "27fb2f0f-f2d9-49a4-a620-6d44659761f6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102684", 
+            "y" : "-100917", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "dd2b39ca-8b72-4990-b60d-c7997d01e7a0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.27fb2f0f-f2d9-49a4-a620-6d44659761f6"
+      }, 
+      "06710d5a-ecd1-4cc9-827b-f796aba783fb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102351", 
+            "y" : "-101460", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "1774d03c-7420-4c84-9fe5-a3a5e3d7aadf"
+         ], 
+         "text" : "#Fogelevka_Tofik2.06710d5a-ecd1-4cc9-827b-f796aba783fb"
+      }, 
+      "1774d03c-7420-4c84-9fe5-a3a5e3d7aadf" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102297", 
+            "y" : "-101378"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2cf7235a-657b-4436-98be-21fadd408d89" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101979", 
+            "y" : "-101879"
+         }, 
+         "child" : [ 
+            "2411c8be-2914-4600-9912-0906255de911"
+         ]
+      }, 
+      "2411c8be-2914-4600-9912-0906255de911" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-102028", 
+            "y" : "-101837"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/Fogelevka_Tofik3"
+      }, 
+      "2dbf218a-db21-4d54-9a25-a971f57cecec" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102176", 
+            "y" : "-101898"
+         }, 
+         "child" : [ 
+            "cb10bdf6-38df-434e-8cb0-6bce5d985717"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "cb10bdf6-38df-434e-8cb0-6bce5d985717" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101567", 
+            "y" : "-101359"
+         }, 
+         "child" : [ 
+            "e59c1836-9342-470a-b93e-943b9a4ffb8e", 
+            "d377ca42-542c-4b6e-8230-73a61d4de8ec"
+         ], 
+         "key" : "MEET2"
+      }, 
+      "e59c1836-9342-470a-b93e-943b9a4ffb8e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101764", 
+            "y" : "-101203", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "d8a06454-77a7-4a61-86a7-d8a96e4f07d3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.e59c1836-9342-470a-b93e-943b9a4ffb8e"
+      }, 
+      "d8a06454-77a7-4a61-86a7-d8a96e4f07d3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101764", 
+            "y" : "-101073"
+         }, 
+         "child" : [ 
+            "4c0aac26-1ebe-4b90-87f7-4cba2dc3d946"
+         ]
+      }, 
+      "4c0aac26-1ebe-4b90-87f7-4cba2dc3d946" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101765", 
+            "y" : "-101019"
+         }, 
+         "child" : [ 
+            "b71b5b03-4d24-4d42-acb4-7446a4a4c55f", 
+            "3c4552be-f807-4682-b6ab-7c3e2c8ae0b3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.4c0aac26-1ebe-4b90-87f7-4cba2dc3d946"
+      }, 
+      "b71b5b03-4d24-4d42-acb4-7446a4a4c55f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101996", 
+            "y" : "-100893", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "54490f89-7b69-40e3-829e-8b7cffc250c8"
+         ], 
+         "text" : "#Fogelevka_Tofik2.b71b5b03-4d24-4d42-acb4-7446a4a4c55f"
+      }, 
+      "54490f89-7b69-40e3-829e-8b7cffc250c8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101332", 
+            "y" : "-100732", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "c9e40cec-8ce8-4795-bfcc-40c214a786a8"
+         ], 
+         "text" : "#Fogelevka_Tofik2.54490f89-7b69-40e3-829e-8b7cffc250c8"
+      }, 
+      "c9e40cec-8ce8-4795-bfcc-40c214a786a8" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101279", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "e6026d73-6516-48ba-bf46-fcca97c4c7ef"
+         ], 
+         "exp" : "350"
+      }, 
+      "e6026d73-6516-48ba-bf46-fcca97c4c7ef" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101356", 
+            "y" : "-100553", 
+            "comment" : "(задание Замочил, см. Золотой (случайка)"
+         }, 
+         "child" : [ 
+            "345bf54c-ba98-43b0-826a-d4b455ff6843"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.ZOLOTOY.DEAD"
+      }, 
+      "345bf54c-ba98-43b0-826a-d4b455ff6843" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101330", 
+            "y" : "-100487"
+         }, 
+         "child" : [ 
+            "1f4e9984-42a9-478d-8ffa-a8863b956314"
+         ]
+      }, 
+      "1f4e9984-42a9-478d-8ffa-a8863b956314" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101331", 
+            "y" : "-100439"
+         }, 
+         "child" : [ 
+            "af383dab-bc1a-421d-aded-d7adf35c877d"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1f4e9984-42a9-478d-8ffa-a8863b956314"
+      }, 
+      "af383dab-bc1a-421d-aded-d7adf35c877d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101330", 
+            "y" : "-100322"
+         }, 
+         "child" : [ 
+            "3e9a0ca6-11e8-47f4-93e5-cf0534884ca2"
+         ]
+      }, 
+      "3e9a0ca6-11e8-47f4-93e5-cf0534884ca2" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101351", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+            "999d40c1-336b-4d5e-8435-156055d5dab2"
+         ], 
+         "portrait" : "Character/Uncle_Hook", 
+         "mode" : "SetCustomText"
+      }, 
+      "999d40c1-336b-4d5e-8435-156055d5dab2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101329", 
+            "y" : "-100195"
+         }, 
+         "child" : [ 
+            "ab295a02-bfb8-407e-96f3-44dc541d7d05"
+         ], 
+         "text" : "#Fogelevka_Tofik2.999d40c1-336b-4d5e-8435-156055d5dab2"
+      }, 
+      "ab295a02-bfb8-407e-96f3-44dc541d7d05" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101246", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+            "fded7bc7-0c6d-4315-8816-4835e76047d0", 
+            "6b6fb6bf-f65e-45fe-8d79-c035fb5f0988"
+         ], 
+         "portrait" : "Character/Uncle_Hook", 
+         "text" : "#Fogelevka_Tofik2.ab295a02-bfb8-407e-96f3-44dc541d7d05", 
+         "mode" : "SetCustomText"
+      }, 
+      "fded7bc7-0c6d-4315-8816-4835e76047d0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101328", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "877d9ae1-63a4-4db5-adfa-897d50722c37"
+         ]
+      }, 
+      "877d9ae1-63a4-4db5-adfa-897d50722c37" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+            "7bafc45a-7b55-4a41-9225-95409d90bab4"
+         ], 
+         "text" : "#Fogelevka_Tofik2.877d9ae1-63a4-4db5-adfa-897d50722c37"
+      }, 
+      "7bafc45a-7b55-4a41-9225-95409d90bab4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-99891"
+         }, 
+         "child" : [ 
+            "9217dbd0-7a6e-40a6-83e3-4be023066492"
+         ]
+      }, 
+      "9217dbd0-7a6e-40a6-83e3-4be023066492" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101324", 
+            "y" : "-99841"
+         }, 
+         "child" : [ 
+            "aeb963ac-eefd-4844-b0c0-047167ff1e44"
+         ], 
+         "text" : "#Fogelevka_Tofik2.9217dbd0-7a6e-40a6-83e3-4be023066492"
+      }, 
+      "aeb963ac-eefd-4844-b0c0-047167ff1e44" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-99745"
+         }, 
+         "child" : [ 
+            "84228a39-c427-4f5d-82af-72b78ed83d43"
+         ]
+      }, 
+      "84228a39-c427-4f5d-82af-72b78ed83d43" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101337", 
+            "y" : "-99702"
+         }, 
+         "child" : [ 
+            "82a08a13-9c18-4da7-990b-d09a90cbd19e"
+         ], 
+         "portrait" : "Character/Fogelevka_Tofik_bar", 
+         "mode" : "SetOwnerNameIfExist"
+      }, 
+      "82a08a13-9c18-4da7-990b-d09a90cbd19e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101321", 
+            "y" : "-99614"
+         }, 
+         "child" : [ 
+            "2785dd57-e224-47e2-9706-0719925e9b6a"
+         ], 
+         "text" : "#Fogelevka_Tofik2.82a08a13-9c18-4da7-990b-d09a90cbd19e"
+      }, 
+      "2785dd57-e224-47e2-9706-0719925e9b6a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-99503"
+         }, 
+         "child" : [ 
+            "52ecde70-661d-48eb-8672-334094e651eb"
+         ]
+      }, 
+      "52ecde70-661d-48eb-8672-334094e651eb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101323", 
+            "y" : "-99460"
+         }, 
+         "child" : [ 
+            "ec9e0bdc-f2ab-4242-b584-8316a43f6a40", 
+            "d534a0b5-bf74-4652-9aa5-0ca1723728aa", 
+            "f6774caf-b2c6-4efc-81c7-e694264d1309", 
+            "51ca30f9-1153-4485-ab05-f91e16d9db85"
+         ], 
+         "text" : "#Fogelevka_Tofik2.52ecde70-661d-48eb-8672-334094e651eb"
+      }, 
+      "ec9e0bdc-f2ab-4242-b584-8316a43f6a40" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102280", 
+            "y" : "-99093", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "c877001c-926a-41a5-8489-e13c8acaadb2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ec9e0bdc-f2ab-4242-b584-8316a43f6a40"
+      }, 
+      "c877001c-926a-41a5-8489-e13c8acaadb2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102514", 
+            "y" : "-98968", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "2aed65a0-5e27-44d9-a8be-bc1363f7433d"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c877001c-926a-41a5-8489-e13c8acaadb2"
+      }, 
+      "2aed65a0-5e27-44d9-a8be-bc1363f7433d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102484", 
+            "y" : "-98850", 
+            "comment" : "(+1000 Рублей)"
+         }, 
+         "child" : [ 
+            "ad767ab7-7b51-478c-9375-c68c96439367"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ad767ab7-7b51-478c-9375-c68c96439367" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102482", 
+            "y" : "-98758", 
+            "comment" : " (+3 Патроны .30 калибра (БП))"
+         }, 
+         "child" : [ 
+            "6c0d21cf-4b6b-4a37-a124-d4fadec17845"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "307cal_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6c0d21cf-4b6b-4a37-a124-d4fadec17845" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102484", 
+            "y" : "-98682", 
+            "comment" : "(+3 12 кал. (Жакан)"
+         }, 
+         "child" : [ 
+            "db45f3d4-6581-4494-9d8d-3cadf3e3d0ac"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "12_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "db45f3d4-6581-4494-9d8d-3cadf3e3d0ac" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-98610", 
+            "comment" : "(+3 5.45 мм. патроны (БП))"
+         }, 
+         "child" : [ 
+            "57cf4624-b365-40f1-9a50-21870c1704b0"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "5_45mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "57cf4624-b365-40f1-9a50-21870c1704b0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-98532", 
+            "comment" : " (+3 7.62×39 мм. патроны (БП))"
+         }, 
+         "child" : [ 
+            "51065592-df67-434f-9014-eeeb1abc27dc"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "7_62mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "51065592-df67-434f-9014-eeeb1abc27dc" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102490", 
+            "y" : "-98454", 
+            "comment" : "(+3 14.5 мм. патроны (ПП))"
+         }, 
+         "child" : [ 
+            "a342a25d-8cb0-4e40-8031-615c0fb9747a"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "14_5mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a342a25d-8cb0-4e40-8031-615c0fb9747a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102488", 
+            "y" : "-98376", 
+            "comment" : "(+3 6х49 патрон (специальный))"
+         }, 
+         "child" : [ 
+            "190d19e6-3032-47b2-ba24-ef68849a3da9"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "6_49mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "190d19e6-3032-47b2-ba24-ef68849a3da9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102490", 
+            "y" : "-98290", 
+            "comment" : "(+1 Аптечка) "
+         }, 
+         "child" : [ 
+            "d4fb8dc5-7d9f-4353-8209-aef179929188"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d4fb8dc5-7d9f-4353-8209-aef179929188" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102490", 
+            "y" : "-98210", 
+            "comment" : " (+2 Суперстимулятор) "
+         }, 
+         "child" : [ 
+            "5c882382-294e-4631-8c74-3fbcc566644e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "StimFEN2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5c882382-294e-4631-8c74-3fbcc566644e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-98132", 
+            "comment" : "(+1 БСФ-12)"
+         }, 
+         "child" : [ 
+            "2de7d7ef-ec29-4a84-b82d-19aa22fd20cd"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "BSF12"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2de7d7ef-ec29-4a84-b82d-19aa22fd20cd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-98048"
+         }, 
+         "child" : [ 
+            "5f8af807-7c2a-4866-9105-aad1cd801b2d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Can_Milk"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5f8af807-7c2a-4866-9105-aad1cd801b2d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102526", 
+            "y" : "-97964"
+         }, 
+         "child" : [ 
+            "06acb55f-1bdd-41fd-b860-456867cc4f50"
+         ]
+      }, 
+      "06acb55f-1bdd-41fd-b860-456867cc4f50" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102526", 
+            "y" : "-97916"
+         }, 
+         "child" : [ 
+            "102df118-9ed5-4787-b46d-e972ca8983a2", 
+            "7df4860c-3162-4384-ac67-b7fef50107f0", 
+            "93a72dfc-fb35-4a26-9431-ad6cc56a5241"
+         ], 
+         "text" : "#Fogelevka_Tofik2.06acb55f-1bdd-41fd-b860-456867cc4f50"
+      }, 
+      "102df118-9ed5-4787-b46d-e972ca8983a2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102810", 
+            "y" : "-97785", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "12c5b397-76ab-450d-aa31-45d665976bf2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.102df118-9ed5-4787-b46d-e972ca8983a2"
+      }, 
+      "12c5b397-76ab-450d-aa31-45d665976bf2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103037", 
+            "y" : "-97638", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "cad82b01-0de1-46c7-a7fa-12bfc4bf056b"
+         ], 
+         "text" : "#Fogelevka_Tofik2.12c5b397-76ab-450d-aa31-45d665976bf2"
+      }, 
+      "cad82b01-0de1-46c7-a7fa-12bfc4bf056b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103035", 
+            "y" : "-97541"
+         }, 
+         "child" : [ 
+            "b23006b2-21f7-4a40-be9a-6f0abc7ecce4"
+         ]
+      }, 
+      "b23006b2-21f7-4a40-be9a-6f0abc7ecce4" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-103057", 
+            "y" : "-97496"
+         }, 
+         "child" : [ 
+            "29fb2e0c-e685-4afb-a5af-6954a3da42a6"
+         ], 
+         "portrait" : "Character/Uncle_Hook", 
+         "text" : "#Fogelevka_Tofik2.b23006b2-21f7-4a40-be9a-6f0abc7ecce4", 
+         "mode" : "SetCustomText"
+      }, 
+      "29fb2e0c-e685-4afb-a5af-6954a3da42a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97408"
+         }, 
+         "child" : [ 
+            "957d0080-4c23-450f-b895-bcbcd8173dd6"
+         ], 
+         "text" : "#Fogelevka_Tofik2.29fb2e0c-e685-4afb-a5af-6954a3da42a6"
+      }, 
+      "957d0080-4c23-450f-b895-bcbcd8173dd6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97300"
+         }, 
+         "child" : [ 
+            "91a3d272-e3f2-494e-b706-b9ca824e43e3"
+         ]
+      }, 
+      "91a3d272-e3f2-494e-b706-b9ca824e43e3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97262"
+         }, 
+         "child" : [ 
+            "30843794-6d5d-49b3-ba64-3e7f484d6a44"
+         ], 
+         "text" : "#Fogelevka_Tofik2.91a3d272-e3f2-494e-b706-b9ca824e43e3"
+      }, 
+      "30843794-6d5d-49b3-ba64-3e7f484d6a44" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97162"
+         }, 
+         "child" : [ 
+            "512e5a3c-fc5d-476e-9f6a-9a0465567ad9"
+         ]
+      }, 
+      "512e5a3c-fc5d-476e-9f6a-9a0465567ad9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97122"
+         }, 
+         "child" : [ 
+            "1afd5add-6118-4675-9bbd-7bd7fc8133b7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.512e5a3c-fc5d-476e-9f6a-9a0465567ad9"
+      }, 
+      "1afd5add-6118-4675-9bbd-7bd7fc8133b7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-97010"
+         }, 
+         "child" : [ 
+            "077d8ad5-653d-422f-894c-a5753ecb46b4"
+         ]
+      }, 
+      "077d8ad5-653d-422f-894c-a5753ecb46b4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103027", 
+            "y" : "-96972"
+         }, 
+         "child" : [ 
+            "d46f9960-1ff3-4112-8b9c-7dd90702b580"
+         ], 
+         "text" : "#Fogelevka_Tofik2.077d8ad5-653d-422f-894c-a5753ecb46b4"
+      }, 
+      "d46f9960-1ff3-4112-8b9c-7dd90702b580" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103029", 
+            "y" : "-96864"
+         }, 
+         "child" : [ 
+            "55dc4a0a-56eb-442e-b2bf-5bc1a59631c0"
+         ]
+      }, 
+      "55dc4a0a-56eb-442e-b2bf-5bc1a59631c0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103029", 
+            "y" : "-96824"
+         }, 
+         "child" : [ 
+            "8fcca9be-98e2-4c47-b100-9c42f5b30c7d"
+         ], 
+         "text" : "#Fogelevka_Tofik2.55dc4a0a-56eb-442e-b2bf-5bc1a59631c0"
+      }, 
+      "8fcca9be-98e2-4c47-b100-9c42f5b30c7d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103031", 
+            "y" : "-96754"
+         }, 
+         "child" : [ 
+            "14419cd1-7fc1-4f14-b9b4-bb07e8b9ce12"
+         ]
+      }, 
+      "14419cd1-7fc1-4f14-b9b4-bb07e8b9ce12" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103031", 
+            "y" : "-96714"
+         }, 
+         "child" : [ 
+            "8e225ddb-a79e-4f2b-baf6-f78f1b886cf1", 
+            "f2183698-faa2-4ce9-a93f-57415bedcb39", 
+            "1acb4b7c-b4a8-4e52-9b72-d25c2080271c", 
+            "82c12278-943a-403b-9eba-97baa2b9a8f3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.14419cd1-7fc1-4f14-b9b4-bb07e8b9ce12"
+      }, 
+      "8e225ddb-a79e-4f2b-baf6-f78f1b886cf1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103850", 
+            "y" : "-96566", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "549d998f-d180-4ac8-81fb-79566b263b08"
+         ], 
+         "text" : "#Fogelevka_Tofik2.8e225ddb-a79e-4f2b-baf6-f78f1b886cf1"
+      }, 
+      "549d998f-d180-4ac8-81fb-79566b263b08" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103856", 
+            "y" : "-96420", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "6a5332d4-f51b-4244-ab68-052ca10633eb"
+         ], 
+         "text" : "#Fogelevka_Tofik2.549d998f-d180-4ac8-81fb-79566b263b08"
+      }, 
+      "6a5332d4-f51b-4244-ab68-052ca10633eb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103856", 
+            "y" : "-96312"
+         }, 
+         "child" : [ 
+            "126ae88c-df40-484c-a749-168a2a66b438"
+         ]
+      }, 
+      "126ae88c-df40-484c-a749-168a2a66b438" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103856", 
+            "y" : "-96273"
+         }, 
+         "child" : [ 
+            "6a952b64-1ede-4cf0-b098-bf3048597b82"
+         ], 
+         "text" : "#Fogelevka_Tofik2.126ae88c-df40-484c-a749-168a2a66b438"
+      }, 
+      "6a952b64-1ede-4cf0-b098-bf3048597b82" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103856", 
+            "y" : "-96164"
+         }, 
+         "child" : [ 
+            "c85ebe99-c8ab-4ed2-8d68-b508f636bb88"
+         ]
+      }, 
+      "c85ebe99-c8ab-4ed2-8d68-b508f636bb88" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103858", 
+            "y" : "-96124"
+         }, 
+         "child" : [ 
+            "2adf2229-9ffe-4c60-b5bb-1135314b1168"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c85ebe99-c8ab-4ed2-8d68-b508f636bb88"
+      }, 
+      "2adf2229-9ffe-4c60-b5bb-1135314b1168" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-103902", 
+            "y" : "-96028"
+         }, 
+         "child" : [ 
+            "f0e86446-7ad8-417c-a68d-413c4416d61f"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.BEGIN"
+      }, 
+      "f0e86446-7ad8-417c-a68d-413c4416d61f" : { 
+         "class" : "AddLocationToMapNode", 
+         "desc" : { 
+            "x" : "-103816", 
+            "y" : "-95967"
+         }, 
+         "child" : [ 
+            "5126ddf6-2dd0-410d-9b7b-ba78adfc7a82"
+         ], 
+         "location" : "Lost_Zil_1"
+      }, 
+      "5126ddf6-2dd0-410d-9b7b-ba78adfc7a82" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103831", 
+            "y" : "-95904", 
+            "comment" : "(+1 Записка с предупреждением)"
+         }, 
+         "child" : [ 
+            "14d6ce96-671c-415f-82e4-8a8665275a2c"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "Bloody_Note2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "14d6ce96-671c-415f-82e4-8a8665275a2c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103862", 
+            "y" : "-95823", 
+            "comment" : "(конец диалога, перенос А15)"
+         }, 
+         "child" : [ 
+            "eef35bd4-829a-4005-9237-85e1f1ac8450"
+         ], 
+         "text" : "#Fogelevka_Tofik2.14d6ce96-671c-415f-82e4-8a8665275a2c"
+      }, 
+      "eef35bd4-829a-4005-9237-85e1f1ac8450" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103809", 
+            "y" : "-95759"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f2183698-faa2-4ce9-a93f-57415bedcb39" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103145", 
+            "y" : "-96555", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d2cf9963-1468-4896-90be-a9a9d76eed38"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f2183698-faa2-4ce9-a93f-57415bedcb39"
+      }, 
+      "d2cf9963-1468-4896-90be-a9a9d76eed38" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103146", 
+            "y" : "-96445", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "20ca9462-ed31-47dd-87da-45d11d7d1a2b"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d2cf9963-1468-4896-90be-a9a9d76eed38"
+      }, 
+      "20ca9462-ed31-47dd-87da-45d11d7d1a2b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103092", 
+            "y" : "-96313"
+         }, 
+         "child" : [ 
+            "a41d2cc7-4daf-4cf1-8112-54bdf8d7eaa7", 
+            "1fdb8725-95f3-4c5f-a613-067fa34d37e5", 
+            "a00c54ff-fc06-4a66-948b-44715b360eb4"
+         ], 
+         "key" : "HEAD"
+      }, 
+      "a41d2cc7-4daf-4cf1-8112-54bdf8d7eaa7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103455", 
+            "y" : "-96145", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "549d998f-d180-4ac8-81fb-79566b263b08"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a41d2cc7-4daf-4cf1-8112-54bdf8d7eaa7"
+      }, 
+      "1fdb8725-95f3-4c5f-a613-067fa34d37e5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103133", 
+            "y" : "-96145", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "abb5b458-efce-4c28-a14f-f29e303b6fb7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1fdb8725-95f3-4c5f-a613-067fa34d37e5"
+      }, 
+      "abb5b458-efce-4c28-a14f-f29e303b6fb7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101564", 
+            "y" : "-96378", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "00780776-7437-42fc-bb23-ea8360dc4fcb", 
+            "919d37b9-431b-44d9-af48-4ed1017f1b69"
+         ], 
+         "text" : "#Fogelevka_Tofik2.abb5b458-efce-4c28-a14f-f29e303b6fb7"
+      }, 
+      "00780776-7437-42fc-bb23-ea8360dc4fcb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101745", 
+            "y" : "-96228"
+         }, 
+         "child" : [ 
+            "5876e587-3556-42a4-8628-6a4da19d235f"
+         ], 
+         "text" : "#Fogelevka_Tofik2.00780776-7437-42fc-bb23-ea8360dc4fcb"
+      }, 
+      "5876e587-3556-42a4-8628-6a4da19d235f" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101731", 
+            "y" : "-96151"
+         }, 
+         "child" : [ 
+            "1ad4d892-df43-480c-b8df-27f44ca1dc79"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "1ad4d892-df43-480c-b8df-27f44ca1dc79" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101695", 
+            "y" : "-96081"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "919d37b9-431b-44d9-af48-4ed1017f1b69" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101455", 
+            "y" : "-96221", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "549d998f-d180-4ac8-81fb-79566b263b08"
+         ], 
+         "text" : "#Fogelevka_Tofik2.919d37b9-431b-44d9-af48-4ed1017f1b69"
+      }, 
+      "a00c54ff-fc06-4a66-948b-44715b360eb4" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102799", 
+            "y" : "-96222", 
+            "comment" : "ПОДРУЧНЫЕ"
+         }, 
+         "child" : [ 
+            "5bf74e98-cb83-4202-a0bd-a9b2fef23161", 
+            "62a805cd-e32a-49db-b08d-d7dbcbbb4afe"
+         ], 
+         "key" : "ACCOMPLICE"
+      }, 
+      "5bf74e98-cb83-4202-a0bd-a9b2fef23161" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102845", 
+            "y" : "-96117"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "62a805cd-e32a-49db-b08d-d7dbcbbb4afe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102726", 
+            "y" : "-96111", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "88f52240-5228-47a4-b952-af8ae4220ea3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.62a805cd-e32a-49db-b08d-d7dbcbbb4afe"
+      }, 
+      "88f52240-5228-47a4-b952-af8ae4220ea3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100927", 
+            "y" : "-96383", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "08ca8f33-2197-4e66-8517-fe29f1d56874"
+         ], 
+         "text" : "#Fogelevka_Tofik2.88f52240-5228-47a4-b952-af8ae4220ea3"
+      }, 
+      "08ca8f33-2197-4e66-8517-fe29f1d56874" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100878", 
+            "y" : "-96263", 
+            "comment" : "ПОДРУЧНЫЕ"
+         }, 
+         "child" : [ 
+            "3f6d150e-2be4-471a-854d-fd168244b432", 
+            "64d79c50-b7a5-4040-91a0-1a4d969ab23b", 
+            "ac80368d-ad68-48bf-bcee-e1d7d21635e6"
+         ], 
+         "key" : "ACCOMPLICE"
+      }, 
+      "3f6d150e-2be4-471a-854d-fd168244b432" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101242", 
+            "y" : "-96070", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "549d998f-d180-4ac8-81fb-79566b263b08"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3f6d150e-2be4-471a-854d-fd168244b432"
+      }, 
+      "64d79c50-b7a5-4040-91a0-1a4d969ab23b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100916", 
+            "y" : "-96165"
+         }, 
+         "child" : [ 
+            "b8bf6fc4-b7e6-41d3-aa70-f341fa9c936c", 
+            "1029dd39-80a9-4f5b-bea6-ca87f5b739f2"
+         ], 
+         "key" : "HEAD"
+      }, 
+      "b8bf6fc4-b7e6-41d3-aa70-f341fa9c936c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100994", 
+            "y" : "-96047"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1029dd39-80a9-4f5b-bea6-ca87f5b739f2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100876", 
+            "y" : "-96059", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d2cf9963-1468-4896-90be-a9a9d76eed38"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1029dd39-80a9-4f5b-bea6-ca87f5b739f2"
+      }, 
+      "ac80368d-ad68-48bf-bcee-e1d7d21635e6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100627", 
+            "y" : "-96045", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "abb5b458-efce-4c28-a14f-f29e303b6fb7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.ac80368d-ad68-48bf-bcee-e1d7d21635e6"
+      }, 
+      "1acb4b7c-b4a8-4e52-9b72-d25c2080271c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102597", 
+            "y" : "-96545", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "abb5b458-efce-4c28-a14f-f29e303b6fb7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1acb4b7c-b4a8-4e52-9b72-d25c2080271c"
+      }, 
+      "82c12278-943a-403b-9eba-97baa2b9a8f3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102370", 
+            "y" : "-96551", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "88f52240-5228-47a4-b952-af8ae4220ea3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.82c12278-943a-403b-9eba-97baa2b9a8f3"
+      }, 
+      "7df4860c-3162-4384-ac67-b7fef50107f0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102526", 
+            "y" : "-97746", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "5db072d8-90c3-4910-ac41-00c6a9b0a621"
+         ], 
+         "text" : "#Fogelevka_Tofik2.7df4860c-3162-4384-ac67-b7fef50107f0"
+      }, 
+      "5db072d8-90c3-4910-ac41-00c6a9b0a621" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101468", 
+            "y" : "-97601", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "ee266c58-84ee-4d3f-8aa4-170fb7027606"
+         ], 
+         "text" : "#Fogelevka_Tofik2.5db072d8-90c3-4910-ac41-00c6a9b0a621"
+      }, 
+      "ee266c58-84ee-4d3f-8aa4-170fb7027606" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-97493"
+         }, 
+         "child" : [ 
+            "375136a2-946e-4b91-9782-deec234096da"
+         ]
+      }, 
+      "375136a2-946e-4b91-9782-deec234096da" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101489", 
+            "y" : "-97453"
+         }, 
+         "child" : [ 
+            "88dd717b-c64b-49fe-a540-d22834e5e1a1"
+         ], 
+         "portrait" : "Character/Fogelevka_Uncle_Hook", 
+         "text" : "#Fogelevka_Tofik2.375136a2-946e-4b91-9782-deec234096da", 
+         "mode" : "SetCustomText"
+      }, 
+      "88dd717b-c64b-49fe-a540-d22834e5e1a1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101468", 
+            "y" : "-97364"
+         }, 
+         "child" : [ 
+            "7ed3c159-e2bc-4b5a-ab32-c48fc4cc47b8"
+         ], 
+         "text" : "#Fogelevka_Tofik2.88dd717b-c64b-49fe-a540-d22834e5e1a1"
+      }, 
+      "7ed3c159-e2bc-4b5a-ab32-c48fc4cc47b8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-97258"
+         }, 
+         "child" : [ 
+            "2e222ae4-3eb0-4e29-b3d7-357720bbf63b"
+         ]
+      }, 
+      "2e222ae4-3eb0-4e29-b3d7-357720bbf63b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-97218"
+         }, 
+         "child" : [ 
+            "6da9d74e-5512-4f74-a230-6cd4a292404a"
+         ], 
+         "text" : "#Fogelevka_Tofik2.2e222ae4-3eb0-4e29-b3d7-357720bbf63b"
+      }, 
+      "6da9d74e-5512-4f74-a230-6cd4a292404a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101465", 
+            "y" : "-97122"
+         }, 
+         "child" : [ 
+            "5ef4f9bc-754c-488f-b90b-447980006a5e"
+         ]
+      }, 
+      "5ef4f9bc-754c-488f-b90b-447980006a5e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-97086"
+         }, 
+         "child" : [ 
+            "e80955ea-de92-42d7-b2c4-ee0c12116ffe"
+         ], 
+         "text" : "#Fogelevka_Tofik2.5ef4f9bc-754c-488f-b90b-447980006a5e"
+      }, 
+      "e80955ea-de92-42d7-b2c4-ee0c12116ffe" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-96980"
+         }, 
+         "child" : [ 
+            "1912c7ac-fd7d-47a6-be90-13b8de692cad"
+         ]
+      }, 
+      "1912c7ac-fd7d-47a6-be90-13b8de692cad" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101464", 
+            "y" : "-96941"
+         }, 
+         "child" : [ 
+            "749d2a40-fbc5-4701-ae1f-2fcda1a3b4ed"
+         ], 
+         "text" : "#Fogelevka_Tofik2.1912c7ac-fd7d-47a6-be90-13b8de692cad"
+      }, 
+      "749d2a40-fbc5-4701-ae1f-2fcda1a3b4ed" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-96836"
+         }, 
+         "child" : [ 
+            "0fa50d8c-4329-433e-ac09-3fb17ff2015e"
+         ]
+      }, 
+      "0fa50d8c-4329-433e-ac09-3fb17ff2015e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-96795"
+         }, 
+         "child" : [ 
+            "604f219e-8d80-4b47-ae23-8590f375fbca"
+         ], 
+         "text" : "#Fogelevka_Tofik2.0fa50d8c-4329-433e-ac09-3fb17ff2015e"
+      }, 
+      "604f219e-8d80-4b47-ae23-8590f375fbca" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-96723"
+         }, 
+         "child" : [ 
+            "3f37fc3d-8960-4f4e-af35-c01d21c934c7"
+         ]
+      }, 
+      "3f37fc3d-8960-4f4e-af35-c01d21c934c7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101470", 
+            "y" : "-96682"
+         }, 
+         "child" : [ 
+            "74fb6c8d-0b7f-4e45-bd77-4ff2ee13b164", 
+            "f2a72a83-88e5-47da-8164-41a16ff206de", 
+            "d0084a1c-ac70-4d6f-85f9-8d9d366266d1", 
+            "c348ecf5-e47b-4cb6-900b-b71930ad3a06"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3f37fc3d-8960-4f4e-af35-c01d21c934c7"
+      }, 
+      "74fb6c8d-0b7f-4e45-bd77-4ff2ee13b164" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102124", 
+            "y" : "-96526", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "549d998f-d180-4ac8-81fb-79566b263b08"
+         ], 
+         "text" : "#Fogelevka_Tofik2.74fb6c8d-0b7f-4e45-bd77-4ff2ee13b164"
+      }, 
+      "f2a72a83-88e5-47da-8164-41a16ff206de" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101887", 
+            "y" : "-96525", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d2cf9963-1468-4896-90be-a9a9d76eed38"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f2a72a83-88e5-47da-8164-41a16ff206de"
+      }, 
+      "d0084a1c-ac70-4d6f-85f9-8d9d366266d1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101563", 
+            "y" : "-96521", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "abb5b458-efce-4c28-a14f-f29e303b6fb7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d0084a1c-ac70-4d6f-85f9-8d9d366266d1"
+      }, 
+      "c348ecf5-e47b-4cb6-900b-b71930ad3a06" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100932", 
+            "y" : "-96510", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "88f52240-5228-47a4-b952-af8ae4220ea3"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c348ecf5-e47b-4cb6-900b-b71930ad3a06"
+      }, 
+      "93a72dfc-fb35-4a26-9431-ad6cc56a5241" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102198", 
+            "y" : "-97744", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2a313b3a-2936-4e25-8b0d-e7d3303b19c2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.93a72dfc-fb35-4a26-9431-ad6cc56a5241"
+      }, 
+      "2a313b3a-2936-4e25-8b0d-e7d3303b19c2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100286", 
+            "y" : "-97634", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "a62c7e11-0b34-4f9f-8474-09285bce39f8", 
+            "a019e94c-552b-4f46-ba6a-c2e6bfeb0de6"
+         ], 
+         "text" : "#Fogelevka_Tofik2.2a313b3a-2936-4e25-8b0d-e7d3303b19c2"
+      }, 
+      "a62c7e11-0b34-4f9f-8474-09285bce39f8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100435", 
+            "y" : "-97476", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "12c5b397-76ab-450d-aa31-45d665976bf2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a62c7e11-0b34-4f9f-8474-09285bce39f8"
+      }, 
+      "a019e94c-552b-4f46-ba6a-c2e6bfeb0de6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100127", 
+            "y" : "-97477"
+         }, 
+         "child" : [ 
+            "d39e5b6e-b191-4d0c-8d06-491481d76ff2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a019e94c-552b-4f46-ba6a-c2e6bfeb0de6"
+      }, 
+      "d39e5b6e-b191-4d0c-8d06-491481d76ff2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100114", 
+            "y" : "-97407"
+         }, 
+         "child" : [ 
+            "5a46e1c1-271c-440d-ae3f-4ea5bdce6b4a"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "5a46e1c1-271c-440d-ae3f-4ea5bdce6b4a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100073", 
+            "y" : "-97341"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d534a0b5-bf74-4652-9aa5-0ca1723728aa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101961", 
+            "y" : "-99082", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "3ba9e8d4-8235-4f79-beae-5ebb145e4a92"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d534a0b5-bf74-4652-9aa5-0ca1723728aa"
+      }, 
+      "3ba9e8d4-8235-4f79-beae-5ebb145e4a92" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101963", 
+            "y" : "-98954", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "446cd5f3-bd4e-4173-b758-17a9ec04c398"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3ba9e8d4-8235-4f79-beae-5ebb145e4a92"
+      }, 
+      "446cd5f3-bd4e-4173-b758-17a9ec04c398" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101913", 
+            "y" : "-98844"
+         }, 
+         "child" : [ 
+            "6d0e0ca0-3fb0-4db8-9cad-c909a59101b5"
+         ], 
+         "exp" : "111"
+      }, 
+      "6d0e0ca0-3fb0-4db8-9cad-c909a59101b5" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101966", 
+            "y" : "-98779"
+         }, 
+         "child" : [ 
+            "b8260c89-82a4-40ae-821a-8101171a6ee7"
+         ]
+      }, 
+      "b8260c89-82a4-40ae-821a-8101171a6ee7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101962", 
+            "y" : "-98731"
+         }, 
+         "child" : [ 
+            "9a98ca76-8da5-40b1-a32a-9517dfb4039d", 
+            "c2e2f154-aa23-4c7b-89b7-c96fb30aec59", 
+            "39f2455b-2391-4e8a-9fd5-9de529a70e81"
+         ], 
+         "text" : "#Fogelevka_Tofik2.b8260c89-82a4-40ae-821a-8101171a6ee7"
+      }, 
+      "9a98ca76-8da5-40b1-a32a-9517dfb4039d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102193", 
+            "y" : "-98568", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "12c5b397-76ab-450d-aa31-45d665976bf2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.9a98ca76-8da5-40b1-a32a-9517dfb4039d"
+      }, 
+      "c2e2f154-aa23-4c7b-89b7-c96fb30aec59" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101963", 
+            "y" : "-98570", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "5db072d8-90c3-4910-ac41-00c6a9b0a621"
+         ], 
+         "text" : "#Fogelevka_Tofik2.c2e2f154-aa23-4c7b-89b7-c96fb30aec59"
+      }, 
+      "39f2455b-2391-4e8a-9fd5-9de529a70e81" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-98570", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2a313b3a-2936-4e25-8b0d-e7d3303b19c2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.39f2455b-2391-4e8a-9fd5-9de529a70e81"
+      }, 
+      "f6774caf-b2c6-4efc-81c7-e694264d1309" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101147", 
+            "y" : "-99095", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "973c015b-cda0-4d02-905d-5c7f01a473e0"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f6774caf-b2c6-4efc-81c7-e694264d1309"
+      }, 
+      "973c015b-cda0-4d02-905d-5c7f01a473e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101148", 
+            "y" : "-98968", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "57e2aec7-6247-433b-a991-51ab4668873a"
+         ], 
+         "text" : "#Fogelevka_Tofik2.973c015b-cda0-4d02-905d-5c7f01a473e0"
+      }, 
+      "57e2aec7-6247-433b-a991-51ab4668873a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101108", 
+            "y" : "-98858", 
+            "comment" : "(+1000 Рублей)"
+         }, 
+         "child" : [ 
+            "13d7665d-4d0b-4dfd-a18e-ff34f5fbc7e2"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "13d7665d-4d0b-4dfd-a18e-ff34f5fbc7e2" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101148", 
+            "y" : "-98781"
+         }, 
+         "child" : [ 
+            "3481cdae-58ce-48e3-924f-380396b43c01"
+         ]
+      }, 
+      "3481cdae-58ce-48e3-924f-380396b43c01" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101146", 
+            "y" : "-98738"
+         }, 
+         "child" : [ 
+            "bca4e4cf-f92f-41f7-9700-0924b4ef27dc", 
+            "2093a9fa-f0e8-4770-9bd8-ec236074b6bb", 
+            "cd4be9fb-19d4-4332-9ac5-72ab00ee1370"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3481cdae-58ce-48e3-924f-380396b43c01"
+      }, 
+      "bca4e4cf-f92f-41f7-9700-0924b4ef27dc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101378", 
+            "y" : "-98573", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "12c5b397-76ab-450d-aa31-45d665976bf2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.bca4e4cf-f92f-41f7-9700-0924b4ef27dc"
+      }, 
+      "2093a9fa-f0e8-4770-9bd8-ec236074b6bb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101138", 
+            "y" : "-98575", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "5db072d8-90c3-4910-ac41-00c6a9b0a621"
+         ], 
+         "text" : "#Fogelevka_Tofik2.2093a9fa-f0e8-4770-9bd8-ec236074b6bb"
+      }, 
+      "cd4be9fb-19d4-4332-9ac5-72ab00ee1370" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100900", 
+            "y" : "-98575", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2a313b3a-2936-4e25-8b0d-e7d3303b19c2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.cd4be9fb-19d4-4332-9ac5-72ab00ee1370"
+      }, 
+      "51ca30f9-1153-4485-ab05-f91e16d9db85" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-99075", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "a5f246c4-de69-4caa-b340-1a2b2d3a6521"
+         ], 
+         "text" : "#Fogelevka_Tofik2.51ca30f9-1153-4485-ab05-f91e16d9db85"
+      }, 
+      "a5f246c4-de69-4caa-b340-1a2b2d3a6521" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100514", 
+            "y" : "-98951", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "60d38cba-a1ee-4e30-bcea-4d50bf0edf9d"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a5f246c4-de69-4caa-b340-1a2b2d3a6521"
+      }, 
+      "60d38cba-a1ee-4e30-bcea-4d50bf0edf9d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100474", 
+            "y" : "-98834", 
+            "comment" : " (+3 Патроны .30 калибра (БП))"
+         }, 
+         "child" : [ 
+            "5e870169-8d68-4cf7-ad3d-bff791938ea4"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "307cal_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5e870169-8d68-4cf7-ad3d-bff791938ea4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100476", 
+            "y" : "-98758", 
+            "comment" : "(+3 12 кал. (Жакан)"
+         }, 
+         "child" : [ 
+            "c3a9ea65-4a8b-44fd-a8ab-7a78daed2bbc"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "12_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c3a9ea65-4a8b-44fd-a8ab-7a78daed2bbc" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-98686", 
+            "comment" : "(+3 5.45 мм. патроны (БП))"
+         }, 
+         "child" : [ 
+            "74919296-bf33-47b7-96bd-082256b85ba0"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "5_45mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "74919296-bf33-47b7-96bd-082256b85ba0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-98608", 
+            "comment" : " (+3 7.62×39 мм. патроны (БП))"
+         }, 
+         "child" : [ 
+            "18657841-4243-4cc3-ac7a-2707a5006c22"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "7_62mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "18657841-4243-4cc3-ac7a-2707a5006c22" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100482", 
+            "y" : "-98530", 
+            "comment" : "(+3 14.5 мм. патроны (ПП))"
+         }, 
+         "child" : [ 
+            "c96d778b-7417-41d4-8ba5-aef5c2febd61"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "14_5mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c96d778b-7417-41d4-8ba5-aef5c2febd61" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100480", 
+            "y" : "-98452", 
+            "comment" : "(+3 6х49 патрон (специальный))"
+         }, 
+         "child" : [ 
+            "d63acf2e-2120-4624-9472-1dadf584e665"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "3", 
+            "proto" : "6_49mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d63acf2e-2120-4624-9472-1dadf584e665" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100482", 
+            "y" : "-98366", 
+            "comment" : "(+1 Аптечка) "
+         }, 
+         "child" : [ 
+            "e123aa86-df7c-4d54-b46a-a89caca7421c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e123aa86-df7c-4d54-b46a-a89caca7421c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100482", 
+            "y" : "-98286", 
+            "comment" : " (+2 Суперстимулятор) "
+         }, 
+         "child" : [ 
+            "9392064a-ccf1-4f44-97a3-be539cc0e1af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "StimFEN2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9392064a-ccf1-4f44-97a3-be539cc0e1af" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-98208", 
+            "comment" : "(+1 БСФ-12)"
+         }, 
+         "child" : [ 
+            "89959be1-e6c8-449e-a27d-426fdc3b3a12"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "BSF12"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "89959be1-e6c8-449e-a27d-426fdc3b3a12" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-98124"
+         }, 
+         "child" : [ 
+            "3a52c8c6-59a5-4ba4-88e5-94614cdf0844"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Can_Milk"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "3a52c8c6-59a5-4ba4-88e5-94614cdf0844" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100518", 
+            "y" : "-98037"
+         }, 
+         "child" : [ 
+            "13c5af69-46eb-45e1-86d2-65d5ea455773"
+         ]
+      }, 
+      "13c5af69-46eb-45e1-86d2-65d5ea455773" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100520", 
+            "y" : "-97990"
+         }, 
+         "child" : [ 
+            "83703549-d085-4442-a72f-67aee441b98f", 
+            "3329498a-2d78-485f-b2d5-2fb3e4ebcba5", 
+            "3e805834-9d0e-4f33-aed0-cc81e5bdd1bd"
+         ], 
+         "text" : "#Fogelevka_Tofik2.13c5af69-46eb-45e1-86d2-65d5ea455773"
+      }, 
+      "83703549-d085-4442-a72f-67aee441b98f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100783", 
+            "y" : "-97844", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "12c5b397-76ab-450d-aa31-45d665976bf2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.83703549-d085-4442-a72f-67aee441b98f"
+      }, 
+      "3329498a-2d78-485f-b2d5-2fb3e4ebcba5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100542", 
+            "y" : "-97846", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "5db072d8-90c3-4910-ac41-00c6a9b0a621"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3329498a-2d78-485f-b2d5-2fb3e4ebcba5"
+      }, 
+      "3e805834-9d0e-4f33-aed0-cc81e5bdd1bd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100294", 
+            "y" : "-97842", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "2a313b3a-2936-4e25-8b0d-e7d3303b19c2"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3e805834-9d0e-4f33-aed0-cc81e5bdd1bd"
+      }, 
+      "6b6fb6bf-f65e-45fe-8d79-c035fb5f0988" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-100032"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PLAYER_KNOWS_UNCLE_HOOK"
+      }, 
+      "3c4552be-f807-4682-b6ab-7c3e2c8ae0b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101687", 
+            "y" : "-100892", 
+            "comment" : "(конец диалога, перенос А2)"
+         }, 
+         "child" : [ 
+            "01277785-e3f4-41d9-af72-1f2924f3e395"
+         ], 
+         "text" : "#Fogelevka_Tofik2.3c4552be-f807-4682-b6ab-7c3e2c8ae0b3"
+      }, 
+      "01277785-e3f4-41d9-af72-1f2924f3e395" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101633", 
+            "y" : "-100820"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d377ca42-542c-4b6e-8230-73a61d4de8ec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101328", 
+            "y" : "-101197"
+         }, 
+         "child" : [ 
+            "0b2ab237-6474-4de0-a962-0435dd19c9d7"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d377ca42-542c-4b6e-8230-73a61d4de8ec"
+      }, 
+      "0b2ab237-6474-4de0-a962-0435dd19c9d7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101274", 
+            "y" : "-101069"
+         }, 
+         "child" : [ 
+            "408f3656-8e55-402e-a31e-156d20381e93"
+         ], 
+         "key" : "MEET2"
+      }, 
+      "408f3656-8e55-402e-a31e-156d20381e93" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101328", 
+            "y" : "-101004"
+         }, 
+         "child" : [ 
+            "a6b4efa1-180a-4bf7-9609-54822f96d4f5"
+         ]
+      }, 
+      "a6b4efa1-180a-4bf7-9609-54822f96d4f5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101324", 
+            "y" : "-100962"
+         }, 
+         "child" : [ 
+            "f6f9a855-8653-4677-8888-1143570cee0f", 
+            "d857c6b9-bc83-49cd-8260-5926cc4524a1"
+         ], 
+         "text" : "#Fogelevka_Tofik2.a6b4efa1-180a-4bf7-9609-54822f96d4f5"
+      }, 
+      "f6f9a855-8653-4677-8888-1143570cee0f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101355", 
+            "y" : "-100828", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "54490f89-7b69-40e3-829e-8b7cffc250c8"
+         ], 
+         "text" : "#Fogelevka_Tofik2.f6f9a855-8653-4677-8888-1143570cee0f"
+      }, 
+      "d857c6b9-bc83-49cd-8260-5926cc4524a1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101026", 
+            "y" : "-100844", 
+            "comment" : "(конец диалога, перенос А2)"
+         }, 
+         "child" : [ 
+            "959cc307-2007-41ea-bd87-6f86cda91255"
+         ], 
+         "text" : "#Fogelevka_Tofik2.d857c6b9-bc83-49cd-8260-5926cc4524a1"
+      }, 
+      "959cc307-2007-41ea-bd87-6f86cda91255" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-100761"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "16a2f64e-f729-4775-9b64-a33ec086bb3e"
+}

@@ -1,0 +1,378 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-100862", 
+            "y" : "-100579"
+         }, 
+         "child" : [ 
+            "256f2966-43a8-4def-a9cb-841bd6b50fe7", 
+            "742396fd-d886-444c-bf49-3ea4a514b66c", 
+            "809da822-4ccd-470d-9670-afcb3f5da29f"
+         ]
+      }, 
+      "256f2966-43a8-4def-a9cb-841bd6b50fe7" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100912", 
+            "y" : "-100467"
+         }, 
+         "child" : [ 
+            "0d4009ac-e19f-4095-8d77-6932b59361d3", 
+            "27c746cf-d442-4b97-9331-feaf97910b6b"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Hatchet"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0d4009ac-e19f-4095-8d77-6932b59361d3" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100911", 
+            "y" : "-100334"
+         }, 
+         "child" : [ 
+            "89b73139-298d-4493-8d47-7e1c1bfc414a", 
+            "22d8fc97-10bb-4044-9ef7-972e27d986fd"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wood"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "89b73139-298d-4493-8d47-7e1c1bfc414a" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100912", 
+            "y" : "-100200"
+         }, 
+         "child" : [ 
+            "cfa28ede-9649-41ce-8366-c78f3b4d49e8", 
+            "391f77ad-1c58-493d-8878-16f1b603d46d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cfa28ede-9649-41ce-8366-c78f3b4d49e8" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100911", 
+            "y" : "-100059"
+         }, 
+         "child" : [ 
+            "d3d4ecb6-20e5-4aee-af0a-249539943844", 
+            "6167badf-406b-4601-874a-57933983df85"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "DiselOil"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d3d4ecb6-20e5-4aee-af0a-249539943844" : { 
+         "class" : "MemoImageNode", 
+         "desc" : { 
+            "x" : "-101342", 
+            "y" : "-100559"
+         }, 
+         "child" : [ 
+            "3ae8f4be-b6fe-4aed-bf09-c87850612348", 
+            "ab760092-091b-405e-8b97-1d699760489b"
+         ], 
+         "img" : "zippo_bg"
+      }, 
+      "3ae8f4be-b6fe-4aed-bf09-c87850612348" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101410", 
+            "y" : "-100492"
+         }, 
+         "child" : [ 
+            "28053605-19f7-43da-894a-41af9bd3b15e"
+         ], 
+         "spawnPoint" : "Player", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "Campfire"
+         }, 
+         "outKeyName" : "my"
+      }, 
+      "28053605-19f7-43da-894a-41af9bd3b15e" : { 
+         "class" : "TransformSetScaleNode", 
+         "desc" : { 
+            "x" : "-101420", 
+            "y" : "-100422"
+         }, 
+         "child" : [ 
+            "5fc310a9-32de-42f7-96e9-9fdf059e7040", 
+            "d491ba4d-f104-4e18-bc27-62f7749294d5"
+         ], 
+         "objectName" : "CampfirePlayer", 
+         "worldSpace" : "false", 
+         "scale" : [ 
+            "0.7", 
+            "0.7", 
+            "0.7"
+         ]
+      }, 
+      "5fc310a9-32de-42f7-96e9-9fdf059e7040" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101861", 
+            "y" : "-100358"
+         }, 
+         "child" : [ 
+            "82f7ac81-b4a5-4de1-9849-47f153ab01b2", 
+            "e9980936-9e98-4156-a1d6-dc1725ee9db0", 
+            "8460fe25-97e4-469a-bd10-15f62f9cbbc1"
+         ]
+      }, 
+      "82f7ac81-b4a5-4de1-9849-47f153ab01b2" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102110", 
+            "y" : "-100289"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wood"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e9980936-9e98-4156-a1d6-dc1725ee9db0" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101909", 
+            "y" : "-100285"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "DiselOil"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8460fe25-97e4-469a-bd10-15f62f9cbbc1" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101703", 
+            "y" : "-100283"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d491ba4d-f104-4e18-bc27-62f7749294d5" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-101407", 
+            "y" : "-100323"
+         }, 
+         "child" : [ 
+            "c9d46c6e-47cf-4717-9e7e-ac1a2201532e"
+         ]
+      }, 
+      "c9d46c6e-47cf-4717-9e7e-ac1a2201532e" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101408", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+            "1a44ade4-a45b-4713-adfb-a2048c9466f6"
+         ], 
+         "objName" : "CampfirePlayer"
+      }, 
+      "1a44ade4-a45b-4713-adfb-a2048c9466f6" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101412", 
+            "y" : "-100200"
+         }, 
+         "child" : [ 
+            "7aa93989-b9f5-4884-8f61-caf88d7f6d09"
+         ], 
+         "key" : "ZIPPO"
+      }, 
+      "7aa93989-b9f5-4884-8f61-caf88d7f6d09" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101448", 
+            "y" : "-100128"
+         }, 
+         "child" : [ 
+            "3333dddb-38ac-4a33-8a15-829207bdb390"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "ZIPPO"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "3333dddb-38ac-4a33-8a15-829207bdb390" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101419", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "ZIPPO"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ab760092-091b-405e-8b97-1d699760489b" : { 
+         "class" : "SpawnPrefabNode", 
+         "desc" : { 
+            "x" : "-101285", 
+            "y" : "-100487"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Player", 
+         "prefab" : "Entities/Interactive/bonfire", 
+         "useRotation" : "true", 
+         "asChild" : "false"
+      }, 
+      "6167badf-406b-4601-874a-57933983df85" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-99949"
+         }, 
+         "child" : [ 
+            "f386a1d3-2169-41c7-8cd9-e7eb00b5f33e", 
+            "b824a45f-5ac6-4893-b7c2-500126030091"
+         ]
+      }, 
+      "f386a1d3-2169-41c7-8cd9-e7eb00b5f33e" : { 
+         "class" : "MemoImageNode", 
+         "desc" : { 
+            "x" : "-100817", 
+            "y" : "-99804"
+         }, 
+         "child" : [ 
+            "1a44ade4-a45b-4713-adfb-a2048c9466f6"
+         ], 
+         "img" : "zippono_bg"
+      }, 
+      "b824a45f-5ac6-4893-b7c2-500126030091" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100617", 
+            "y" : "-99930"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#ZIPPO.b824a45f-5ac6-4893-b7c2-500126030091"
+      }, 
+      "391f77ad-1c58-493d-8878-16f1b603d46d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100742", 
+            "y" : "-100092"
+         }, 
+         "child" : [ 
+            "f386a1d3-2169-41c7-8cd9-e7eb00b5f33e", 
+            "28901f18-ad5d-4599-b78a-01ed79cb7d99"
+         ]
+      }, 
+      "28901f18-ad5d-4599-b78a-01ed79cb7d99" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100617", 
+            "y" : "-100058"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#ZIPPO.28901f18-ad5d-4599-b78a-01ed79cb7d99"
+      }, 
+      "22d8fc97-10bb-4044-9ef7-972e27d986fd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100743", 
+            "y" : "-100230"
+         }, 
+         "child" : [ 
+            "f386a1d3-2169-41c7-8cd9-e7eb00b5f33e", 
+            "2cebbcd4-0b92-4050-a8b2-5d9ef1b4c33c"
+         ]
+      }, 
+      "2cebbcd4-0b92-4050-a8b2-5d9ef1b4c33c" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-100202"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#ZIPPO.2cebbcd4-0b92-4050-a8b2-5d9ef1b4c33c"
+      }, 
+      "27c746cf-d442-4b97-9331-feaf97910b6b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100752", 
+            "y" : "-100359"
+         }, 
+         "child" : [ 
+            "f386a1d3-2169-41c7-8cd9-e7eb00b5f33e", 
+            "9134abf2-af51-44ee-aee7-b6e2c1189e9c"
+         ]
+      }, 
+      "9134abf2-af51-44ee-aee7-b6e2c1189e9c" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100612", 
+            "y" : "-100321"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#ZIPPO.9134abf2-af51-44ee-aee7-b6e2c1189e9c"
+      }, 
+      "742396fd-d886-444c-bf49-3ea4a514b66c" : { 
+         "class" : "CloseBackpackNode", 
+         "desc" : { 
+            "x" : "-100717", 
+            "y" : "-100459"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "809da822-4ccd-470d-9670-afcb3f5da29f" : { 
+         "class" : "MemoWaitNode", 
+         "desc" : { 
+            "x" : "-100717", 
+            "y" : "-100508"
+         }, 
+         "child" : [ 
+            "742396fd-d886-444c-bf49-3ea4a514b66c"
+         ]
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

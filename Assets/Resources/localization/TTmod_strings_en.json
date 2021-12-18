@@ -12,6 +12,10 @@
             "short": "Anarchist cookbook",
             "full": "All secret recipes in one book!"
         },
+        "zippo": {
+            "short": "Lighter",
+            "full": "For a fire you need: wood, paper, diesel fuel and an ax"
+        },
         "craft_tt": {
             "short": "Modification of the TT pistol",
             "full": "TT higher rate of fire and reload"
@@ -19,7 +23,7 @@
     },
     "weapon": {
         "pps43_m": {
-            "short": "TTS-43 m2",
+            "short": "PPS-43 m2",
             "full": "A lighter version of PPS-43, more speed - less odds! (Ideal for a partner)"
         },
         "m24_m": {
@@ -90,7 +94,7 @@
         },
         "bearsteel": {
             "short": "Bugbear",
-            "full": "With the help of this potion, a crowbar and some mother, you can break any lock."
+            "full": "With the help of this potion, a crowbar and some f... mother, you can break any lock."
         },
         "bearsback": {
             "short": "Bearish back",
@@ -99,10 +103,25 @@
         "pegas": {
             "short": "Belomor pack",
             "full": "A drop of nikatin kills a horse, and blows a man to shreds!"
+        },
+        "barmatuha": {
+            "short": "Chatterbox",
+            "full": "Go blind? This is not the worst thing that can happen from it."
         }
+    },
+    "giveway": {
+        "alenka_comp": [
+            "Lead the way.",
+            "You saw something there?",
+            "Don't push me.",
+            "Hey! Don't tread on my feet.",
+            "Okay, okay. It's not hard for me to move."
+        ]
     },
     "quests": {
         "q_gauss": "[Wasteland] Find and collect 3 parts from the Gauss project (Perhaps you should look in military bunkers and at the bases of large organized crime groups)",
-        "tunnelofdeath_check": "[Driving] Find out why stalkers disappear in the Tunel of Death"
+        "tunnelofdeath_check": "[Peregon] Find out why stalkers disappear in the Tunel of Death",
+        "no_ment": "[Krasnoznamenny] To rid the city of corrupt cops and at the same time from bandit power (to clear the bunker of the Chamber of Commerce - optional)",
+        "finde_bormotuha": "[Otradnoye] Bring 2 bottles of vodka, vodka, brandy and 1 moonshine with fly agaric to the moonshiner to the outskirts of the village"
     }
 }

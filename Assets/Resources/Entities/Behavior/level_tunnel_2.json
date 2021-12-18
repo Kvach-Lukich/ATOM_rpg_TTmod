@@ -8,7 +8,7 @@
          }, 
          "child" : [ 
             "d6089f2d-1f4c-41c8-ab1b-e95bb052d013", 
-            "e7bb1eb5-8b74-4a53-9b93-e2e1a5fbc62f", 
+            "65926a87-d0d2-4eee-ba24-15178c898d2a", 
             "51259db0-57d2-408c-b0b7-559a84f9c415", 
             "4a232476-a34e-46f2-8205-52ced0b4c09d"
          ]
@@ -35,17 +35,6 @@
          "child" : [ 
          ], 
          "note_key" : "TUNNEL_1_OPEN_DOOR"
-      }, 
-      "e7bb1eb5-8b74-4a53-9b93-e2e1a5fbc62f" : { 
-         "class" : "RemoveKeywordNode", 
-         "desc" : { 
-            "x" : "-100770", 
-            "y" : "-100305"
-         }, 
-         "child" : [ 
-            "65926a87-d0d2-4eee-ba24-15178c898d2a"
-         ], 
-         "key" : "1_085"
       }, 
       "65926a87-d0d2-4eee-ba24-15178c898d2a" : { 
          "class" : "HasKeywordNode", 
@@ -167,28 +156,83 @@
       "025b1896-aec5-4a0c-8b94-55a14e2145cd" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100098", 
-            "y" : "-100182"
+            "x" : "-100092", 
+            "y" : "-100090"
          }, 
          "child" : [ 
-            "19ff8e13-8bb1-4c44-8a53-1180bc117337"
+            "0bbbb2ec-4591-4c92-993b-e01ae34455ea", 
+            "ab413552-5b24-41d3-b215-357c54ee9c4e", 
+            "64035995-8844-4198-a42d-738962bdc4a0"
          ], 
          "key" : "SCORPIONADDED"
       }, 
-      "19ff8e13-8bb1-4c44-8a53-1180bc117337" : { 
+      "0bbbb2ec-4591-4c92-993b-e01ae34455ea" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100090", 
-            "y" : "-100106"
+            "x" : "-100370", 
+            "y" : "-99975"
          }, 
          "child" : [ 
          ], 
          "item" : { 
             "class" : "Weapon", 
             "count" : "1", 
-            "proto" : "Scorpion"
+            "proto" : "PPS43", 
+            "ammo" : { 
+               "count" : "30", 
+               "proto" : "307cal_JHP"
+            }
+         }
+      }, 
+      "ab413552-5b24-41d3-b215-357c54ee9c4e" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100223", 
+            "y" : "-99980"
          }, 
-         "objectName" : "Safe_Openes"
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "20", 
+               "proto" : "307cal_JHP"
+            }
+         }
+      }, 
+      "64035995-8844-4198-a42d-738962bdc4a0" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100028", 
+            "y" : "-99979"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "BSF12"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "StimFEN2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Taren"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Mildronat"
+            }
+         ], 
+         "inventoryObject" : ""
       }
    }, 
    "entry" : "6f83c60b-5c56-4b73-af9c-7592f8a504fe"

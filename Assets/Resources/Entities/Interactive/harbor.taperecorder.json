@@ -1,0 +1,148 @@
+{ 
+   "states" : { 
+      "44697bef-d0ab-4c62-839e-e1431c1adb24" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100766", 
+            "y" : "-100939"
+         }, 
+         "child" : [ 
+            "0167e32b-15a6-43f2-9fbc-756e64037eda", 
+            "55b11482-3d1f-4ce4-93f7-26a99c6f0b92"
+         ]
+      }, 
+      "0167e32b-15a6-43f2-9fbc-756e64037eda" : { 
+         "class" : "InteractiveNoneNode", 
+         "desc" : { 
+            "x" : "-100854", 
+            "y" : "-100825"
+         }, 
+         "child" : [ 
+            "247bbf0a-92c0-4732-9846-774baf08141b"
+         ]
+      }, 
+      "247bbf0a-92c0-4732-9846-774baf08141b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100775", 
+            "y" : "-100749"
+         }, 
+         "child" : [ 
+            "af9bfd52-c305-44d3-8e26-ebbc4b4680b8", 
+            "bc101786-f43f-4618-89cc-55a05dcf276c"
+         ], 
+         "key" : "AUDIOPLAYINGPOSITION"
+      }, 
+      "af9bfd52-c305-44d3-8e26-ebbc4b4680b8" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-100260"
+         }, 
+         "child" : [ 
+            "fdac5484-3fd3-40ae-b241-1bec9b450184"
+         ], 
+         "sound" : "Entities/Sounds/chacknorris", 
+         "playOnObject" : "true", 
+         "saveStateOnSaveAndLoad" : "true"
+      }, 
+      "fdac5484-3fd3-40ae-b241-1bec9b450184" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100734", 
+            "y" : "-100181"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AUDIOPLAYINGPOSITION"
+      }, 
+      "bc101786-f43f-4618-89cc-55a05dcf276c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100730", 
+            "y" : "-100645"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "55b11482-3d1f-4ce4-93f7-26a99c6f0b92" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-100568", 
+            "y" : "-100935"
+         }, 
+         "child" : [ 
+            "bd9c77da-e245-42c9-9896-77a14a5cd94f"
+         ]
+      }, 
+      "bd9c77da-e245-42c9-9896-77a14a5cd94f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100524", 
+            "y" : "-100842"
+         }, 
+         "child" : [ 
+            "fd6cd946-3bc4-4c06-96b0-47a76d004018", 
+            "8ee8e7dc-3866-4caf-87ca-004a470ccc3f"
+         ], 
+         "key" : "GOT_EXP"
+      }, 
+      "fd6cd946-3bc4-4c06-96b0-47a76d004018" : { 
+         "class" : "HasPlayingSoundNode", 
+         "desc" : { 
+            "x" : "-100674", 
+            "y" : "-100465"
+         }, 
+         "child" : [ 
+            "b5f8489d-3aa1-47be-9388-8045c26efe32", 
+            "781a5788-9521-4970-9138-0de351ef6e75"
+         ]
+      }, 
+      "b5f8489d-3aa1-47be-9388-8045c26efe32" : { 
+         "class" : "StopSoundNode", 
+         "desc" : { 
+            "x" : "-100701", 
+            "y" : "-100329"
+         }, 
+         "child" : [ 
+            "fdac5484-3fd3-40ae-b241-1bec9b450184"
+         ]
+      }, 
+      "781a5788-9521-4970-9138-0de351ef6e75" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100561", 
+            "y" : "-100337"
+         }, 
+         "child" : [ 
+            "af9bfd52-c305-44d3-8e26-ebbc4b4680b8"
+         ], 
+         "key" : "AUDIOPLAYINGPOSITION", 
+         "value" : "0"
+      }, 
+      "8ee8e7dc-3866-4caf-87ca-004a470ccc3f" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-100364", 
+            "y" : "-100764"
+         }, 
+         "child" : [ 
+            "fd6cd946-3bc4-4c06-96b0-47a76d004018", 
+            "921144ee-ba7d-4067-8ed0-1c3e11bc1ee7"
+         ], 
+         "value" : "35", 
+         "skill" : "Science"
+      }, 
+      "921144ee-ba7d-4067-8ed0-1c3e11bc1ee7" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100232", 
+            "y" : "-100653"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Ruins.Patifon_1.921144ee-ba7d-4067-8ed0-1c3e11bc1ee7"
+      }
+   }, 
+   "entry" : "44697bef-d0ab-4c62-839e-e1431c1adb24"
+}
