@@ -38,8 +38,7 @@
          }, 
          "child" : [ 
             "8670cf34-928a-4a58-a46d-ce589d38475a"
-         ], 
-         "worldmapID" : ""
+         ]
       }, 
       "8670cf34-928a-4a58-a46d-ce589d38475a" : { 
          "class" : "PlayerSetWorldPosNode", 
@@ -91,8 +90,7 @@
          "child" : [ 
             "3261cdb0-db88-4419-9060-b0edb5ad361f"
          ], 
-         "targetName" : "Nurse_Door", 
-         "targetFractionName" : ""
+         "targetName" : "Nurse_Door"
       }, 
       "3261cdb0-db88-4419-9060-b0edb5ad361f" : { 
          "class" : "CharacterSetRelationshipNode", 
@@ -370,7 +368,6 @@
          "child" : [ 
             "2333e74e-79b1-41e5-b7f1-33d2fdd4b081"
          ], 
-         "targetName" : "", 
          "targetFractionName" : "krz_bravo"
       }, 
       "2333e74e-79b1-41e5-b7f1-33d2fdd4b081" : { 
@@ -415,9 +412,7 @@
             "3c8b921c-3ef7-4f8b-9507-0de2c7e0c318"
          ], 
          "filterMode" : "Victim", 
-         "victimName" : "", 
-         "victimFractionName" : "krz_sick", 
-         "victimPrototypeName" : ""
+         "victimFractionName" : "krz_sick"
       }, 
       "3c8b921c-3ef7-4f8b-9507-0de2c7e0c318" : { 
          "class" : "FractionSetRelationshipNode", 
@@ -439,8 +434,7 @@
          "child" : [ 
             "20a15091-4b97-4506-9ce1-9eb508f47d16"
          ], 
-         "targetName" : "City.Godgin", 
-         "targetFractionName" : ""
+         "targetName" : "City.Godgin"
       }, 
       "20a15091-4b97-4506-9ce1-9eb508f47d16" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2867,8 +2861,7 @@
          "child" : [ 
             "a98469af-780a-4986-ae0d-7e0fbded4245"
          ], 
-         "objectName" : "Krz_mirmik", 
-         "stateName" : ""
+         "objectName" : "Krz_mirmik"
       }, 
       "a98469af-780a-4986-ae0d-7e0fbded4245" : { 
          "class" : "CharacterInOutNode", 
@@ -8733,7 +8726,6 @@
          "child" : [ 
             "29da6c6d-0bfd-46fd-aad2-a6e539c6f004"
          ], 
-         "targetName" : "", 
          "targetFractionName" : "menti"
       }, 
       "29da6c6d-0bfd-46fd-aad2-a6e539c6f004" : { 
@@ -8988,9 +8980,7 @@
             "3725c50c-2536-4499-aae7-308d68140c6c"
          ], 
          "filterMode" : "Aggressor", 
-         "victimName" : "Player", 
-         "victimFractionName" : "", 
-         "victimPrototypeName" : ""
+         "victimName" : "Player"
       }, 
       "84e72a28-588b-46b4-af02-d2bc8656e189" : { 
          "class" : "NotebookAddNoteNode", 

@@ -72,7 +72,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "-100600", 
-            "y" : "-100060"
+            "y" : "-100058"
          }, 
          "child" : [ 
          ], 
@@ -156,13 +156,18 @@
       "025b1896-aec5-4a0c-8b94-55a14e2145cd" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100092", 
-            "y" : "-100090"
+            "x" : "-100035", 
+            "y" : "-100130"
          }, 
          "child" : [ 
             "0bbbb2ec-4591-4c92-993b-e01ae34455ea", 
+            "7a4a36cd-f318-401c-bd6d-b4f72aacd345", 
+            "d6dcf1b1-627e-4137-8fd1-87699beba1ae", 
+            "060947fd-0685-427a-b4a6-0f8d143587b5", 
+            "1c7bf5b8-3a97-4913-b2e0-cdd39e2864bf", 
+            "4412928f-74b2-42d2-856f-41e8b9382c11", 
             "ab413552-5b24-41d3-b215-357c54ee9c4e", 
-            "64035995-8844-4198-a42d-738962bdc4a0"
+            "152052b8-88e3-4b27-8871-e3295097eb50"
          ], 
          "key" : "SCORPIONADDED"
       }, 
@@ -182,13 +187,89 @@
                "count" : "30", 
                "proto" : "307cal_JHP"
             }
-         }
+         }, 
+         "objectName" : "Safe_Openes"
+      }, 
+      "7a4a36cd-f318-401c-bd6d-b4f72aacd345" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100245", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "BSF12"
+         }, 
+         "objectName" : "Safe_Openes"
+      }, 
+      "d6dcf1b1-627e-4137-8fd1-87699beba1ae" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100103", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Mildronat"
+         }, 
+         "objectName" : "Safe_Openes"
+      }, 
+      "060947fd-0685-427a-b4a6-0f8d143587b5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99957", 
+            "y" : "-99975"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "StimFEN2"
+         }, 
+         "objectName" : "Safe_Openes"
+      }, 
+      "1c7bf5b8-3a97-4913-b2e0-cdd39e2864bf" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99794", 
+            "y" : "-99970"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Taren"
+         }, 
+         "objectName" : "Safe_Openes"
+      }, 
+      "4412928f-74b2-42d2-856f-41e8b9382c11" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99597", 
+            "y" : "-99957"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "nocraft_cateye"
+         }, 
+         "objectName" : "Safe_Openes"
       }, 
       "ab413552-5b24-41d3-b215-357c54ee9c4e" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-100223", 
-            "y" : "-99980"
+            "x" : "-99463", 
+            "y" : "-99964"
          }, 
          "child" : [ 
          ], 
@@ -200,39 +281,23 @@
                "count" : "20", 
                "proto" : "307cal_JHP"
             }
-         }
+         }, 
+         "objectName" : "Safe_Openes"
       }, 
-      "64035995-8844-4198-a42d-738962bdc4a0" : { 
-         "class" : "InventorySetNode", 
+      "152052b8-88e3-4b27-8871-e3295097eb50" : { 
+         "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-100028", 
-            "y" : "-99979"
+            "x" : "-99232", 
+            "y" : "-99964"
          }, 
          "child" : [ 
          ], 
-         "inventory" : [ 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "BSF12"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "StimFEN2"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Taren"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Mildronat"
-            }
-         ], 
-         "inventoryObject" : ""
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "RedMoscow"
+         }, 
+         "objectName" : "Safe_Openes"
       }
    }, 
    "entry" : "6f83c60b-5c56-4b73-af9c-7592f8a504fe"

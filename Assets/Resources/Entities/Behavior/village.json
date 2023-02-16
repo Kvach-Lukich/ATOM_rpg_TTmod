@@ -1619,10 +1619,22 @@
             "y" : "-100357"
          }, 
          "child" : [ 
-            "65e7e15f-a74b-49a4-9f82-4bd9a1bdef8a"
+            "43e78ce7-3ae2-4b7f-8c24-523f8275bd8d"
          ], 
          "objectName" : "BarOwner", 
          "pointName" : "Way.Kate.Main"
+      }, 
+      "43e78ce7-3ae2-4b7f-8c24-523f8275bd8d" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-100351", 
+            "y" : "-100310"
+         }, 
+         "child" : [ 
+            "65e7e15f-a74b-49a4-9f82-4bd9a1bdef8a"
+         ], 
+         "objectName" : "Village.Mayor", 
+         "stateName" : ""
       }, 
       "65e7e15f-a74b-49a4-9f82-4bd9a1bdef8a" : { 
          "class" : "CharacterTeleportNode", 

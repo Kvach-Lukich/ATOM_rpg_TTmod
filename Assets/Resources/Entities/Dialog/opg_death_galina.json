@@ -42,8 +42,7 @@
          }, 
          "child" : [ 
             "62e1153d-ab5a-4ee8-a447-4359c93940c2"
-         ], 
-         "stateName" : ""
+         ]
       }, 
       "62e1153d-ab5a-4ee8-a447-4359c93940c2" : { 
          "class" : "HasKeywordNode", 
