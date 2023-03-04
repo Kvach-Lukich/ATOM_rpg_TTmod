@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171740231933799443}
   - component: {fileID: 6376495343417475475}
-  - component: {fileID: 4421497838563607154}
+  - component: {fileID: 2480688080903803850}
   m_Layer: 0
   m_Name: craft_tt
   m_TagString: Untagged
@@ -46,7 +46,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5341606, y: 0.10526276, z: 0.83351135}
   m_Center: {x: 0.15681267, y: -0.1834259, z: 0.17160797}
---- !u!114 &4421497838563607154
+--- !u!114 &2480688080903803850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,10 +55,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1388242439713271953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1789644586, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Script: {fileID: -1865410960, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mEntityData: '{"class":"Memo", "count":"0", "proto":"craft_anarchist_cookbook"}'
+  mEntityData: '{"class":"Memo", "count":"1", "proto":"craft_tt"}'
 --- !u!1001 &8530806480083712774
 PrefabInstance:
   m_ObjectHideFlags: 0

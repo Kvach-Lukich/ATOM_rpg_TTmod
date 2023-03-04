@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3171740231933799443}
   - component: {fileID: 6376495343417475475}
-  - component: {fileID: 4421497838563607154}
+  - component: {fileID: -2094986283562776850}
   m_Layer: 0
-  m_Name: gauss_pt
+  m_Name: opg_lena_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.90974236, y: 0.2548828, z: 0.6172447}
   m_Center: {x: 0.24218273, y: -0.020385742, z: 0.03008461}
---- !u!114 &4421497838563607154
+--- !u!114 &-2094986283562776850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,10 +55,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1388242439713271953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1789644586, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Script: {fileID: -1865410960, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mEntityData: 
+  mEntityData: '{"class":"Item", "count":"1", "proto":"opg_lena_head"}'
 --- !u!1001 &5125869556139907273
 PrefabInstance:
   m_ObjectHideFlags: 0

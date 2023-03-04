@@ -21,7 +21,7 @@ MonoBehaviour:
   Collectable: 1
   Modifiers:
   - _type: 28
-    _value: 6000
+    _value: 200
   - _type: 25
     _value: 100
   UniformType: 2

@@ -2238,8 +2238,8 @@
       "4e55b7b4-f781-4fe7-af94-633a6df2e088" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-97638", 
-            "y" : "-98615"
+            "x" : "-97651", 
+            "y" : "-98616"
          }, 
          "child" : [ 
             "71648187-6258-4a78-91df-ea8cfce0579e"
@@ -2258,14 +2258,25 @@
             "y" : "-98544"
          }, 
          "child" : [ 
-            "d40aac72-26c7-4bd5-944d-574db9ee3be8"
+            "8fb45af6-f3c4-48e4-819d-62311b22f0ed"
          ]
+      }, 
+      "8fb45af6-f3c4-48e4-819d-62311b22f0ed" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-97638", 
+            "y" : "-98506"
+         }, 
+         "child" : [ 
+            "d40aac72-26c7-4bd5-944d-574db9ee3be8"
+         ], 
+         "key" : "HELP"
       }, 
       "d40aac72-26c7-4bd5-944d-574db9ee3be8" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-97689", 
-            "y" : "-98480"
+            "x" : "-97700", 
+            "y" : "-98446"
          }, 
          "child" : [ 
             "038ac661-85fb-4c90-b895-e54f8b508cf5", 
@@ -2277,8 +2288,8 @@
       "038ac661-85fb-4c90-b895-e54f8b508cf5" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-97910", 
-            "y" : "-98371", 
+            "x" : "-97998", 
+            "y" : "-98306", 
             "comment" : "(перенос А3)"
          }, 
          "child" : [ 
@@ -2289,8 +2300,8 @@
       "11aa623c-673d-49d8-886d-6f7ca9d379c2" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-97713", 
-            "y" : "-98289", 
+            "x" : "-97722", 
+            "y" : "-98303", 
             "comment" : "(перенос А13)"
          }, 
          "child" : [ 
@@ -2313,8 +2324,8 @@
       "07a52957-62af-4a9d-a14f-3fd51a9944cc" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-97709", 
-            "y" : "-98106"
+            "x" : "-97711", 
+            "y" : "-98094"
          }, 
          "child" : [ 
             "dd09e879-7957-4e26-ab28-8b98bc8baaf3"
@@ -2323,19 +2334,8 @@
       "dd09e879-7957-4e26-ab28-8b98bc8baaf3" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-97710", 
-            "y" : "-98068"
-         }, 
-         "child" : [ 
-            "e4d57ed9-65bd-4f0e-8e18-7f2df16e61ef"
-         ], 
-         "text" : "#BusStop_4_Alenka.dd09e879-7957-4e26-ab28-8b98bc8baaf3"
-      }, 
-      "e4d57ed9-65bd-4f0e-8e18-7f2df16e61ef" : { 
-         "class" : "AddKeywordNode", 
-         "desc" : { 
-            "x" : "-97659", 
-            "y" : "-97965"
+            "x" : "-97734", 
+            "y" : "-98027"
          }, 
          "child" : [ 
             "dc9a05fc-8b4b-4b4f-819c-e5d8cd9d42cf", 
@@ -2344,13 +2344,13 @@
             "49721b33-6da8-4932-bd06-09047a35d4a1", 
             "da74b2d2-879a-4a69-8afd-00a0b6593d39"
          ], 
-         "key" : "HELP"
+         "text" : "#BusStop_4_Alenka.dd09e879-7957-4e26-ab28-8b98bc8baaf3"
       }, 
       "dc9a05fc-8b4b-4b4f-819c-e5d8cd9d42cf" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-98044", 
-            "y" : "-97856", 
+            "x" : "-98210", 
+            "y" : "-97816", 
             "comment" : "(перенос А19)"
          }, 
          "child" : [ 
@@ -2746,12 +2746,12 @@
       "8edd10a5-916d-4cf7-a18f-d6ce13b43fe6" : { 
          "class" : "HasSkillNode", 
          "desc" : { 
-            "x" : "-95452", 
-            "y" : "-99577"
+            "x" : "-95859", 
+            "y" : "-99613"
          }, 
          "child" : [ 
             "999cc5f9-8691-4888-a5e5-125ec33cd6b1", 
-            "949ffedd-bc01-48c0-ab3b-2c9104dd9a0d"
+            "0d58b217-86ea-4bca-9d79-b17c5c491d4d"
          ], 
          "value" : "66", 
          "skill" : "BigGuns"
@@ -2792,8 +2792,8 @@
       "c112434e-3b86-4a61-b05f-71ebeef2ced9" : { 
          "class" : "AddExpNode", 
          "desc" : { 
-            "x" : "-95625", 
-            "y" : "-99191"
+            "x" : "-95627", 
+            "y" : "-99190"
          }, 
          "child" : [ 
             "95b2fd8f-5009-4452-b7de-6e87f80ffa58"
@@ -2811,6 +2811,32 @@
             "b7907e69-30d8-475c-9714-7b7a1d39fe66"
          ], 
          "text" : "#BusStop_4_Alenka.95b2fd8f-5009-4452-b7de-6e87f80ffa58"
+      }, 
+      "0d58b217-86ea-4bca-9d79-b17c5c491d4d" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-95718", 
+            "y" : "-99707"
+         }, 
+         "child" : [ 
+            "999cc5f9-8691-4888-a5e5-125ec33cd6b1", 
+            "09e9d7a3-7b40-4cff-9d11-86a5a62afd1d"
+         ], 
+         "value" : "66", 
+         "skill" : "SmallGuns"
+      }, 
+      "09e9d7a3-7b40-4cff-9d11-86a5a62afd1d" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-95534", 
+            "y" : "-99705"
+         }, 
+         "child" : [ 
+            "999cc5f9-8691-4888-a5e5-125ec33cd6b1", 
+            "949ffedd-bc01-48c0-ab3b-2c9104dd9a0d"
+         ], 
+         "value" : "66", 
+         "skill" : "MeleeWeapons"
       }, 
       "949ffedd-bc01-48c0-ab3b-2c9104dd9a0d" : { 
          "class" : "DialogPhraseNode", 
@@ -3004,8 +3030,8 @@
       "49b95391-0347-4684-8dc5-ac3af4010a70" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-97542", 
-            "y" : "-98359", 
+            "x" : "-97392", 
+            "y" : "-98369", 
             "comment" : "(конец диалога, перенос А5)"
          }, 
          "child" : [ 
@@ -3016,8 +3042,8 @@
       "cb100060-8cc1-4178-951a-d38f164fc016" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-97393", 
-            "y" : "-98280"
+            "x" : "-97350", 
+            "y" : "-98248"
          }, 
          "child" : [ 
          ]
@@ -3727,6 +3753,7 @@
             "8d13921e-9d37-4209-acd9-8a70403e919d", 
             "64c0dce1-b6d1-4a25-b8e6-8013a593a68a", 
             "a0ef706d-a351-48dd-9929-389d7ff47356", 
+            "eee9c733-57c8-41b2-9edb-f3fb14cbc23c", 
             "239da9b1-b69e-484f-af55-f9e5b2a4f1c0", 
             "667ba87c-0b40-4ad5-943d-1bc2e766f731"
          ], 
@@ -3768,6 +3795,37 @@
          ], 
          "text" : "#BusStop_4_Alenka.a0ef706d-a351-48dd-9929-389d7ff47356"
       }, 
+      "eee9c733-57c8-41b2-9edb-f3fb14cbc23c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98134", 
+            "y" : "-98401"
+         }, 
+         "child" : [ 
+            "870fb51e-923a-4362-a926-d2f034e08955"
+         ]
+      }, 
+      "870fb51e-923a-4362-a926-d2f034e08955" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98162", 
+            "y" : "-98218"
+         }, 
+         "child" : [ 
+            "dd09e879-7957-4e26-ab28-8b98bc8baaf3", 
+            "6a9560dc-19a2-4b3a-ae74-aea794efd37e"
+         ], 
+         "key" : "HELP"
+      }, 
+      "6a9560dc-19a2-4b3a-ae74-aea794efd37e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98069", 
+            "y" : "-98036"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "239da9b1-b69e-484f-af55-f9e5b2a4f1c0" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
@@ -3783,8 +3841,8 @@
       "667ba87c-0b40-4ad5-943d-1bc2e766f731" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-100119", 
-            "y" : "-101001", 
+            "x" : "-100107", 
+            "y" : "-100981", 
             "comment" : "(перенос А10)"
          }, 
          "child" : [ 

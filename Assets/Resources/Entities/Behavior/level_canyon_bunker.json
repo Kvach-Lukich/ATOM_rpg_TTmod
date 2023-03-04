@@ -293,17 +293,19 @@
       "8d03a805-b5ba-4f8c-a082-20564fcc28eb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100535", 
-            "y" : "-100589"
+            "x" : "-100461", 
+            "y" : "-100586"
          }, 
          "child" : [ 
-            "dd8604db-f0fd-44c4-aa1c-136595ad4fef"
+            "dd8604db-f0fd-44c4-aa1c-136595ad4fef", 
+            "5890b5c6-0fb3-4d5b-9b1a-a08822bdf689", 
+            "8b03f694-f32d-4098-aecd-15575b1cfc64"
          ]
       }, 
       "dd8604db-f0fd-44c4-aa1c-136595ad4fef" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100542", 
+            "x" : "-100608", 
             "y" : "-100526"
          }, 
          "child" : [ 
@@ -319,12 +321,46 @@
       "1a592845-2801-49f1-8faa-b853681a29d7" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-100558", 
-            "y" : "-100423"
+            "x" : "-100633", 
+            "y" : "-100436"
          }, 
          "child" : [ 
          ], 
          "note_key" : "FST_CANYON_BUNKER"
+      }, 
+      "5890b5c6-0fb3-4d5b-9b1a-a08822bdf689" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-100527"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "DesertEagle", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "10mm_JHP"
+            }
+         }, 
+         "objectName" : "Suit_Scientist_Dead_3"
+      }, 
+      "8b03f694-f32d-4098-aecd-15575b1cfc64" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100314", 
+            "y" : "-100527"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "38", 
+            "proto" : "10mm_JHP"
+         }, 
+         "objectName" : "Suit_Scientist_Dead_3"
       }
    }, 
    "entry" : "bf35b3ef-546f-477c-bb2c-fa3fb22f417d"

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171740231933799443}
   - component: {fileID: 6376495343417475475}
-  - component: {fileID: 4421497838563607154}
+  - component: {fileID: 434760626871286682}
   - component: {fileID: 5514980973182213655}
   m_Layer: 0
   m_Name: pps43_m
@@ -49,7 +49,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3247061, y: 0.538826, z: 0.24552536}
   m_Center: {x: 0.27979994, y: -0.07003021, z: -0.00095558167}
---- !u!114 &4421497838563607154
+--- !u!114 &434760626871286682
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mEntityData: '{"class":"Weapon", "count":"1", "proto":"pps43_m", "ammo":{"count":"0",
-    "proto":"ammo.307cal_jhp"}}'
+    "proto":"307cal_JHP"}}'
 --- !u!114 &5514980973182213655
 MonoBehaviour:
   m_ObjectHideFlags: 0

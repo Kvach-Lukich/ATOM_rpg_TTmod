@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1333377599, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: pegas
+  m_Name: belamor
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Consumable/belomor
-  m_Localization: consumable.pegas
+  m_Localization: consumable.belamor
   Takeable: 1
   Cost: 300
   Weight: 5

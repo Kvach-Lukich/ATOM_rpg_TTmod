@@ -66,7 +66,9 @@
             "7b5c0ecf-36dc-4126-9813-3e553a036e4e", 
             "d017682a-7fb5-4961-b4d6-01b899dd4589", 
             "92dc0a30-0f42-435d-8d08-f919b7a32d8e", 
-            "83a51f58-8a3d-456d-9caf-e72547cb8e8e"
+            "83a51f58-8a3d-456d-9caf-e72547cb8e8e", 
+            "19769040-dd8f-4585-8b45-33c540fd177c", 
+            "1cc67870-0119-465b-9852-c99d24854a53"
          ]
       }, 
       "146b00b8-9740-43c6-9f27-6cff4b040ab0" : { 
@@ -616,6 +618,28 @@
          "child" : [ 
          ], 
          "recipe" : "craft_m81_m", 
+         "showMsg" : "true"
+      }, 
+      "19769040-dd8f-4585-8b45-33c540fd177c" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98407", 
+            "y" : "-100834"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_glases3", 
+         "showMsg" : "true"
+      }, 
+      "1cc67870-0119-465b-9852-c99d24854a53" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-98576", 
+            "y" : "-100836"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_glases2", 
          "showMsg" : "true"
       }, 
       "edd9cb0a-86b1-4d06-8b78-e1bd139475bf" : { 
