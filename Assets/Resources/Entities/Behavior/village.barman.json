@@ -1,0 +1,1030 @@
+{ 
+   "states" : { 
+      "cb217146-12c2-4fec-931c-eee4e0eb7aa3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-100587"
+         }, 
+         "child" : [ 
+            "1829bae7-cbf5-4f47-910f-9ff1fcacaae5"
+         ]
+      }, 
+      "1829bae7-cbf5-4f47-910f-9ff1fcacaae5" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100956", 
+            "y" : "-100489"
+         }, 
+         "child" : [ 
+            "66571e1e-94e0-42e2-9391-26895813a841", 
+            "f4d43086-17ae-4e29-bc22-d4fc9968f17b"
+         ]
+      }, 
+      "66571e1e-94e0-42e2-9391-26895813a841" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100847", 
+            "y" : "-100377"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f4d43086-17ae-4e29-bc22-d4fc9968f17b" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-101105", 
+            "y" : "-100411"
+         }, 
+         "child" : [ 
+            "39c4f885-5c1e-4c5b-b0fe-7b6bdfb81849", 
+            "3d54d24c-5607-4d51-a8bc-c47002f3f11f"
+         ], 
+         "stateName" : ""
+      }, 
+      "39c4f885-5c1e-4c5b-b0fe-7b6bdfb81849" : { 
+         "class" : "CharacterInIdleNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-100365"
+         }, 
+         "child" : [ 
+            "79682d74-cf39-4b26-9127-d731ef85d87d", 
+            "dec582d9-00ab-4d52-a3e2-75d15bfbcf17"
+         ]
+      }, 
+      "79682d74-cf39-4b26-9127-d731ef85d87d" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101178", 
+            "y" : "-100229"
+         }, 
+         "child" : [ 
+            "493f091b-0fc8-4b7a-9d19-c17c5f068a71"
+         ], 
+         "waitTimeMin" : "20", 
+         "waitTimeMax" : "40"
+      }, 
+      "493f091b-0fc8-4b7a-9d19-c17c5f068a71" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101338", 
+            "y" : "-100129"
+         }, 
+         "child" : [ 
+            "dec582d9-00ab-4d52-a3e2-75d15bfbcf17", 
+            "611284aa-3d3f-48d8-8f4f-0adfbd0fbbdb"
+         ]
+      }, 
+      "dec582d9-00ab-4d52-a3e2-75d15bfbcf17" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101032", 
+            "y" : "-100020"
+         }, 
+         "child" : [ 
+            "1829bae7-cbf5-4f47-910f-9ff1fcacaae5"
+         ], 
+         "waitTimeMin" : "30", 
+         "waitTimeMax" : "60"
+      }, 
+      "611284aa-3d3f-48d8-8f4f-0adfbd0fbbdb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101264", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+            "37e9444b-ca27-4f44-b98a-038024d89d56", 
+            "a2b7aae8-f174-473a-829b-c89a773983a3"
+         ]
+      }, 
+      "37e9444b-ca27-4f44-b98a-038024d89d56" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-101346", 
+            "y" : "-99953"
+         }, 
+         "child" : [ 
+            "1829bae7-cbf5-4f47-910f-9ff1fcacaae5"
+         ], 
+         "anim" : "Idle_Trader", 
+         "fade" : "true"
+      }, 
+      "a2b7aae8-f174-473a-829b-c89a773983a3" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-101202", 
+            "y" : "-99954"
+         }, 
+         "child" : [ 
+            "1829bae7-cbf5-4f47-910f-9ff1fcacaae5"
+         ], 
+         "anim" : "Idle_Bartender", 
+         "fade" : "true"
+      }, 
+      "3d54d24c-5607-4d51-a8bc-c47002f3f11f" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100660", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+            "89f1cb1f-b539-47d2-8f64-557bfb550118", 
+            "ca4da756-abfd-42f9-8c69-c066944cc4d1"
+         ], 
+         "objectName" : "Barman"
+      }, 
+      "89f1cb1f-b539-47d2-8f64-557bfb550118" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100740", 
+            "y" : "-100258"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ca4da756-abfd-42f9-8c69-c066944cc4d1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100538", 
+            "y" : "-100283"
+         }, 
+         "child" : [ 
+            "d05e9029-14a0-4fea-a0a4-0317e2cde251", 
+            "c58f6dd1-95b7-46fd-9139-ce74468de643"
+         ]
+      }, 
+      "d05e9029-14a0-4fea-a0a4-0317e2cde251" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100643", 
+            "y" : "-100198"
+         }, 
+         "child" : [ 
+            "8f12881a-1897-4ec8-9d59-59156ca9b6e6", 
+            "10372b96-6f11-4f54-ae0c-221feb0091ab"
+         ], 
+         "key" : "GOODS_BARMAN"
+      }, 
+      "8f12881a-1897-4ec8-9d59-59156ca9b6e6" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100462", 
+            "y" : "-100201"
+         }, 
+         "child" : [ 
+            "0811d947-200b-427c-9895-bb8c449e7082"
+         ], 
+         "time" : "6", 
+         "mode" : "Hour", 
+         "offsetValue" : "GOODS_BARMAN"
+      }, 
+      "0811d947-200b-427c-9895-bb8c449e7082" : { 
+         "class" : "GoodsAndMoneyNode", 
+         "desc" : { 
+            "x" : "-100482", 
+            "y" : "-100045"
+         }, 
+         "child" : [ 
+            "10372b96-6f11-4f54-ae0c-221feb0091ab", 
+            "aa6a5ff5-af2f-4a35-a147-37fc628ea820", 
+            "29bcbe84-0cd2-4a51-a982-64e224478cff"
+         ], 
+         "maxMoney" : "400", 
+         "maxGoodsToMoney" : "100", 
+         "costPercent" : "100", 
+         "wantToSellPercent" : "20"
+      }, 
+      "10372b96-6f11-4f54-ae0c-221feb0091ab" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100649", 
+            "y" : "-99924"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "GOODS_BARMAN", 
+         "value" : "$TIME$"
+      }, 
+      "aa6a5ff5-af2f-4a35-a147-37fc628ea820" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100448", 
+            "y" : "-99905"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_tier"
+      }, 
+      "29bcbe84-0cd2-4a51-a982-64e224478cff" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100217", 
+            "y" : "-99905"
+         }, 
+         "child" : [ 
+            "873be1dd-d7a6-43a3-a392-6809d0d331be", 
+            "19576ee7-16e7-4c84-b90d-1dba044264c6"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "873be1dd-d7a6-43a3-a392-6809d0d331be" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100131", 
+            "y" : "-99688"
+         }, 
+         "child" : [ 
+            "ca93985f-4d70-4bf7-96ef-707a57a5a9f4", 
+            "82324ce8-b722-4675-8236-490c9e124c4e", 
+            "3def0eca-0b24-4f9c-982e-d6488ddabf68", 
+            "7dbea762-c310-456e-93d7-8d3e5270f811"
+         ]
+      }, 
+      "ca93985f-4d70-4bf7-96ef-707a57a5a9f4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-99632"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Gorilka"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Spoon"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Soap"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Brandy"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wood"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "82324ce8-b722-4675-8236-490c9e124c4e" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100233", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "50", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tape"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife_Rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hat"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wood"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "3def0eca-0b24-4f9c-982e-d6488ddabf68" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100149", 
+            "y" : "-99532"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bumf"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Gorilka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "50", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Kaseta2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "7dbea762-c310-456e-93d7-8d3e5270f811" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100057", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "50", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Platok_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "19576ee7-16e7-4c84-b90d-1dba044264c6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100423", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+            "2f4d42ac-d45b-42b1-82f6-9dd6da3d756a", 
+            "c6854456-e378-411a-947e-acfa51748610"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "2f4d42ac-d45b-42b1-82f6-9dd6da3d756a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100353", 
+            "y" : "-99486"
+         }, 
+         "child" : [ 
+            "6784407c-207f-402b-bd9e-2071b41f9b49", 
+            "a5ec81db-4d23-4018-9b1c-9a65a7b960f8", 
+            "f9924466-2c3f-4935-9c89-e4d19649815a", 
+            "2d06ab3e-aa6e-4d04-8fa4-68ce2e3593d4"
+         ]
+      }, 
+      "6784407c-207f-402b-bd9e-2071b41f9b49" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-99430"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "75", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Spoon"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Soap"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Brandy"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Coffe"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "a5ec81db-4d23-4018-9b1c-9a65a7b960f8" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100453", 
+            "y" : "-99382"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "75", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Hatchet"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wood"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "f9924466-2c3f-4935-9c89-e4d19649815a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100369", 
+            "y" : "-99332"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Gorilka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "100", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Kaseta2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "2d06ab3e-aa6e-4d04-8fa4-68ce2e3593d4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100277", 
+            "y" : "-99380"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "75", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "StimFEN1"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Platok_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "c6854456-e378-411a-947e-acfa51748610" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100647", 
+            "y" : "-99634"
+         }, 
+         "child" : [ 
+            "96272801-e45a-4ab3-91ec-be287c42a04b", 
+            "884bfdac-a0e8-4bce-9524-d6b7ee65beaa", 
+            "b40b0f6f-76cb-4f0a-b728-9d044554d377", 
+            "baae5d54-bd08-4ad8-98b5-6d7f62316d19"
+         ]
+      }, 
+      "96272801-e45a-4ab3-91ec-be287c42a04b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100813", 
+            "y" : "-99578"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "150", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Spoon"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Soap"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Brandy"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Coffe"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "884bfdac-a0e8-4bce-9524-d6b7ee65beaa" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100749", 
+            "y" : "-99528"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "150", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Hatchet"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wood"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "b40b0f6f-76cb-4f0a-b728-9d044554d377" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100665", 
+            "y" : "-99478"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Gorilka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "100", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Kaseta2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "baae5d54-bd08-4ad8-98b5-6d7f62316d19" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100573", 
+            "y" : "-99528"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Beer"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "150", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Portwine"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "StimFEN1"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Razsol"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Platok_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "c58f6dd1-95b7-46fd-9139-ce74468de643" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100244", 
+            "y" : "-100382"
+         }, 
+         "child" : [ 
+            "fa92a451-257e-402b-b32a-73c72508614b", 
+            "ef4e4bf7-bd64-43f0-9327-8da327272ca4"
+         ], 
+         "key" : "FST_COFFE"
+      }, 
+      "fa92a451-257e-402b-b32a-73c72508614b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100275", 
+            "y" : "-100273"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ef4e4bf7-bd64-43f0-9327-8da327272ca4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100130", 
+            "y" : "-100280"
+         }, 
+         "child" : [ 
+            "a64e345f-5c9f-45af-aeaa-18215fa0d417"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Coffe"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "a64e345f-5c9f-45af-aeaa-18215fa0d417" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100127", 
+            "y" : "-100203"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "FST_COFFE"
+      }
+   }, 
+   "entry" : "cb217146-12c2-4fec-931c-eee4e0eb7aa3"
+}

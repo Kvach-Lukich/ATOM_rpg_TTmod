@@ -90,8 +90,8 @@
       "1379d576-45ec-492f-af28-965c7c1a504e" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101032", 
-            "y" : "-100264"
+            "x" : "-101033", 
+            "y" : "-100244"
          }, 
          "child" : [ 
          ], 
@@ -121,8 +121,8 @@
       "cc4eed0f-f0ae-4c42-b768-391858bdead5" : { 
          "class" : "TimeDateTriggerNode", 
          "desc" : { 
-            "x" : "-100543", 
-            "y" : "-100551"
+            "x" : "-100553", 
+            "y" : "-100540"
          }, 
          "child" : [ 
             "a84449e6-32e2-4612-adee-92284e4b4012"
@@ -134,16 +134,15 @@
       "a84449e6-32e2-4612-adee-92284e4b4012" : { 
          "class" : "GoodsAndMoneyNode", 
          "desc" : { 
-            "x" : "-100565", 
-            "y" : "-100449"
+            "x" : "-100577", 
+            "y" : "-100443"
          }, 
          "child" : [ 
             "e9d0bb57-0ec4-4fd9-899f-8f44da8fb35f", 
-            "bd7639ef-e7bf-4124-b748-adf642fe033a", 
-            "55525280-f30f-4ad3-b664-f277585161bd"
+            "bd7639ef-e7bf-4124-b748-adf642fe033a"
          ], 
-         "maxMoney" : "2000", 
-         "maxGoodsToMoney" : "50000", 
+         "maxMoney" : "5000", 
+         "maxGoodsToMoney" : "5000", 
          "costPercent" : "100", 
          "wantToSellPercent" : "20"
       }, 
@@ -202,8 +201,8 @@
       "494dc78a-1276-463e-a3e0-42946e982b6d" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100712", 
-            "y" : "-100137"
+            "x" : "-100714", 
+            "y" : "-100135"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
@@ -218,6 +217,26 @@
                "class" : "Ammo", 
                "count" : "2", 
                "proto" : "356cal_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "BSF12"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Morphine"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "10mm_AP"
             }
          ], 
          "inventoryObject" : "", 
@@ -259,8 +278,8 @@
       "937f07f4-91f4-49fb-8bd6-d1b45a8aa479" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100641", 
-            "y" : "-100242"
+            "x" : "-100640", 
+            "y" : "-100243"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125", 
@@ -345,6 +364,11 @@
                   "count" : "0", 
                   "proto" : "5_45mm_JHP"
                }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "10mm_ap"
             }
          ], 
          "inventoryObject" : "", 
@@ -353,8 +377,8 @@
       "8effacb6-3fee-4c68-9cb0-f159622bb932" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100587", 
-            "y" : "-100181"
+            "x" : "-100582", 
+            "y" : "-100173"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
@@ -379,6 +403,26 @@
                "class" : "Ammo", 
                "count" : "1", 
                "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "BSF12"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Morphine"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "10mm_AP"
             }
          ], 
          "inventoryObject" : "", 
@@ -448,6 +492,11 @@
                   "count" : "0", 
                   "proto" : "5_45mm_JHP"
                }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "3", 
+               "proto" : "10mm_jhp"
             }
          ], 
          "inventoryObject" : "", 
@@ -487,6 +536,11 @@
                "class" : "Ammo", 
                "count" : "1", 
                "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "3", 
+               "proto" : "10mm_jhp"
             }
          ], 
          "inventoryObject" : "", 
@@ -495,8 +549,8 @@
       "bd7639ef-e7bf-4124-b748-adf642fe033a" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100431", 
-            "y" : "-100351"
+            "x" : "-100376", 
+            "y" : "-100301"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
@@ -566,73 +620,20 @@
                "class" : "Consumable", 
                "count" : "1", 
                "proto" : "Petrol"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "55525280-f30f-4ad3-b664-f277585161bd" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100118", 
-            "y" : "-100318"
-         }, 
-         "child" : [ 
-            "4a84082a-bfd2-46b6-819d-341726114a98"
-         ]
-      }, 
-      "4a84082a-bfd2-46b6-819d-341726114a98" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-100121", 
-            "y" : "-100276"
-         }, 
-         "child" : [ 
-            "6d836892-bb7d-438c-bebe-06af1a1ea99d", 
-            "b503c380-c436-4172-b5a4-4bbeebf4b9b8"
-         ]
-      }, 
-      "6d836892-bb7d-438c-bebe-06af1a1ea99d" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100177", 
-            "y" : "-100203"
-         }, 
-         "child" : [ 
-            "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Morphine"
             }, 
             { 
-               "class" : "Consumable", 
+               "class" : "Item", 
                "count" : "1", 
-               "proto" : "BSF12"
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "10mm_jhp"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
-      }, 
-      "b503c380-c436-4172-b5a4-4bbeebf4b9b8" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100042", 
-            "y" : "-100192"
-         }, 
-         "child" : [ 
-            "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Ganja_Ciggy"
-            }
-         ], 
-         "inventoryObject" : ""
       }, 
       "4e0c6822-6cdf-488c-9cf0-3a66e8e17a95" : { 
          "class" : "InventorySetNode", 

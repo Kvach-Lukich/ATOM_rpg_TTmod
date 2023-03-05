@@ -1,0 +1,1143 @@
+[ 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat", 
+      "transform" : { 
+         "pos" : [ 
+            "86.93", 
+            "0.08", 
+            "52.73"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "MedBox", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Antidote"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "MedBox", 
+      "transform" : { 
+         "pos" : [ 
+            "73.066", 
+            "2.71", 
+            "51.414"
+         ], 
+         "rot" : [ 
+            "0", 
+            "270", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Item", 
+      "active" : "true", 
+      "count" : "1", 
+      "proto" : "Quest.Decoder", 
+      "name" : "Quest.Decoder", 
+      "transform" : { 
+         "pos" : [ 
+            "91.841", 
+            "4.362", 
+            "68.912"
+         ], 
+         "rot" : [ 
+            "0", 
+            "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "0.9999999", 
+            "0.9999999", 
+            "0.9999999"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Door", 
+      "active" : "true", 
+      "proto" : "Bunker_Door", 
+      "open" : "false", 
+      "lockLevel" : "70", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Bunker_Door", 
+      "transform" : { 
+         "pos" : [ 
+            "61.746", 
+            "5.2415", 
+            "47.601"
+         ], 
+         "rot" : [ 
+            "0", 
+            "90", 
+            "180"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "72.94", 
+            "-0.1241035", 
+            "70.79"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "IceBox_Big", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Antidote"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Fridge_dark_open", 
+      "transform" : { 
+         "pos" : [ 
+            "92.62", 
+            "2.367", 
+            "36.384"
+         ], 
+         "rot" : [ 
+            "0", 
+            "270", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "0.83"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Shelf_9", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Fork"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Locker_quad", 
+      "transform" : { 
+         "pos" : [ 
+            "92.608", 
+            "1.328", 
+            "38.41"
+         ], 
+         "rot" : [ 
+            "0", 
+            "270", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Shelf_9", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Spoon"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Locker_quad (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "92.608", 
+            "1.328", 
+            "42.04"
+         ], 
+         "rot" : [ 
+            "0", 
+            "270", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Book_Shelf_2", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Bookcase_glass", 
+      "transform" : { 
+         "pos" : [ 
+            "85.02", 
+            "2.845", 
+            "36.05"
+         ], 
+         "rot" : [ 
+            "0", 
+            "270", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Solt"
+         }, 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Fork"
+         }, 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Spoon"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3 (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "86.84", 
+            "0.1255718", 
+            "57.17"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "AK47_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "7_62mm_JHP"
+            }
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "60", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3 (2)", 
+      "transform" : { 
+         "pos" : [ 
+            "87.04", 
+            "0.1300001", 
+            "54.936"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "RadX"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3_(3)", 
+      "transform" : { 
+         "pos" : [ 
+            "85.73", 
+            "0.1255718", 
+            "64.274"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1_Empty", 
+      "inventory" : [ 
+         { 
+            "class" : "Ammo", 
+            "count" : "2", 
+            "proto" : "7_62mm_AP"
+         }
+      ], 
+      "open" : "true", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_1 (4)", 
+      "transform" : { 
+         "pos" : [ 
+            "87.21", 
+            "0.13", 
+            "64.272"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Antidote"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3 (5)", 
+      "transform" : { 
+         "pos" : [ 
+            "85.24", 
+            "0.127", 
+            "57.127"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "354.7952"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Shelf_8", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Bumf"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Locker_brown (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "92.007", 
+            "1.015", 
+            "60.86"
+         ], 
+         "rot" : [ 
+            "0", 
+            "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Shelf_8", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Locker_brown (2)", 
+      "transform" : { 
+         "pos" : [ 
+            "92.252", 
+            "1.015", 
+            "51.59"
+         ], 
+         "rot" : [ 
+            "0", 
+            "95.01296", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_2", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Bottle_Watter"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "shelf_A", 
+      "transform" : { 
+         "pos" : [ 
+            "86.57", 
+            "0.067", 
+            "28.77"
+         ], 
+         "rot" : [ 
+            "270", 
+            "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "0.9", 
+            "0.9", 
+            "0.9"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_2", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Solt"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "shelf_A (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "86.57", 
+            "0.067", 
+            "21.72"
+         ], 
+         "rot" : [ 
+            "270", 
+            "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "0.9", 
+            "0.9", 
+            "0.9"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_2", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "shelf_A (2)", 
+      "transform" : { 
+         "pos" : [ 
+            "89.61", 
+            "0.067", 
+            "16.12"
+         ], 
+         "rot" : [ 
+            "270", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "0.9", 
+            "0.9", 
+            "0.9"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Electro_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wires"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "40", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "ElectroShit_1", 
+      "transform" : { 
+         "pos" : [ 
+            "74.77", 
+            "0.195", 
+            "68.56"
+         ], 
+         "rot" : [ 
+            "270", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1.5", 
+            "1.500001", 
+            "1.500001"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Electro_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wires"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "40", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "ElectroShit_1 (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "74.77", 
+            "0.195", 
+            "70.89"
+         ], 
+         "rot" : [ 
+            "270", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1.500001", 
+            "1.500001", 
+            "1.500001"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "RadX"
+         }, 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Morphine"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3_ (3)", 
+      "transform" : { 
+         "pos" : [ 
+            "69.21", 
+            "0.1255718", 
+            "45.949"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Nails"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3_ (4)", 
+      "transform" : { 
+         "pos" : [ 
+            "67.972", 
+            "0.1255718", 
+            "45.949"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1_Empty", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Fotoramka"
+         }
+      ], 
+      "open" : "true", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_1 (5)", 
+      "transform" : { 
+         "pos" : [ 
+            "66.716", 
+            "0.12557", 
+            "45.949"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Metal_Shelf_1", 
+      "inventory" : [ 
+         { 
+            "class" : "Ammo", 
+            "count" : "1", 
+            "proto" : "9mm_AP"
+         }, 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "BSF12"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "50", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Metal_Shkaf_3_ (5)", 
+      "transform" : { 
+         "pos" : [ 
+            "65.483", 
+            "0.1255718", 
+            "45.949"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Skeleton_4", 
+      "inventory" : [ 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Ganja_Ciggy"
+         }, 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "BSF12"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Skeleton_human_Sit_2", 
+      "transform" : { 
+         "pos" : [ 
+            "90.516", 
+            "0.3816558", 
+            "50.808"
+         ], 
+         "rot" : [ 
+            "0", 
+            "87.09193", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Skeleton_3", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "7", 
+            "proto" : "Money"
+         },
+         { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "iz58"
+         },
+         { 
+            "class" : "Ammo", 
+            "count" : "30", 
+            "proto" : "12_JHP"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Skeleton_human_Sit_1", 
+      "transform" : { 
+         "pos" : [ 
+            "71.42271", 
+            "0.739", 
+            "54.123"
+         ], 
+         "rot" : [ 
+            "0", 
+            "263.3114", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Skeleton_2", 
+      "inventory" : [ 
+         { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wires"
+         }, 
+         { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Morphine"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Skeleton_human (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "70.27", 
+            "0.505", 
+            "69.83"
+         ], 
+         "rot" : [ 
+            "2.134434E-07", 
+            "41.8604", 
+            "358.5364"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Skeleton_1", 
+      "inventory" : [ 
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Skeleton_human", 
+      "transform" : { 
+         "pos" : [ 
+            "85.93", 
+            "0.505", 
+            "43.2"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "358.5364"
+         ], 
+         "scale" : [ 
+            "1.05", 
+            "1.05", 
+            "1.05"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat (2)", 
+      "transform" : { 
+         "pos" : [ 
+            "78.58", 
+            "-0.1241035", 
+            "78.98"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat (3)", 
+      "transform" : { 
+         "pos" : [ 
+            "66.03", 
+            "-0.1241035", 
+            "38.87"
+         ], 
+         "rot" : [ 
+            "0", 
+            "180", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }
+]
