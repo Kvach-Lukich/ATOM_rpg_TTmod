@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: opg_death_galina
+  m_Name: opg_death_galina_new
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Character/OPG_Death_Galina
@@ -42,7 +42,7 @@ MonoBehaviour:
     - _type: 27
       _value: 10
     Level: 12
-    ExperiencePoints: 60
+    ExperiencePoints: 30000
     Strength: 3
     Perception: 8
     Endurance: 8
@@ -69,7 +69,7 @@ MonoBehaviour:
       Gambling: 0
       Outdoorsman: 16
     Perks: 6a000000
-    FreeSkillPoints: 7
-    FreeStatPoints: 7
-    FreeSpecPoints: 7
-    SpecLevel: 1
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 4
+    SpecLevel: 0

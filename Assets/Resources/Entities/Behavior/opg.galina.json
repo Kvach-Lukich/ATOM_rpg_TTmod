@@ -86,7 +86,8 @@
          }, 
          "child" : [ 
             "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
-         ]
+         ], 
+         "stateName" : ""
       }, 
       "b3e6965b-eb1b-4218-a551-fdb967b6ace7" : { 
          "class" : "HasKeywordNode", 
@@ -148,8 +149,8 @@
       "9a485888-7101-49cb-a601-de667d78059c" : { 
          "class" : "WaitRandomNode", 
          "desc" : { 
-            "x" : "-101369", 
-            "y" : "-99838"
+            "x" : "-101476", 
+            "y" : "-99818"
          }, 
          "child" : [ 
             "95b468b6-18cb-4118-8a98-064070ccbf3d"
@@ -160,12 +161,12 @@
       "378f74f9-3eef-41fa-8a23-d144e30e3b8e" : { 
          "class" : "CharacterNeedUpdateNode", 
          "desc" : { 
-            "x" : "-101229", 
-            "y" : "-99831"
+            "x" : "-101315", 
+            "y" : "-99833"
          }, 
          "child" : [ 
          ], 
-         "stopState" : "false"
+         "stopState" : "true"
       }, 
       "75f8f344-e647-40d7-8fff-d9e4571d1a1a" : { 
          "class" : "CharacterInBattleNode", 

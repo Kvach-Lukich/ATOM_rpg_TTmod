@@ -12,19 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: -1559134194, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: craft_pps43mod
   m_EditorClassIdentifier: 
+  recipeOnly: 0
   result:
     path: Entities/Weapon/pps43_m
   resultCount: 1
   difficult: 10
   ingredients:
-  - count: 1
+  - count: 2
     variants:
     - path: entities/weapon/pps43
-    consumable: 1
-  - count: 1
-    variants:
-    - path: entities/weapon/pps43
-    consumable: 1
+    consumable: 2
   - count: 4
     variants:
     - path: entities/item/wastemetal

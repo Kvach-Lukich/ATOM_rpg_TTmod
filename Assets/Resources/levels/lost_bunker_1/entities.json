@@ -906,6 +906,11 @@
             "class" : "Consumable", 
             "count" : "1", 
             "proto" : "Ganja_Ciggy"
+         },
+         { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "iz58"
          }, 
          { 
             "class" : "Consumable", 
@@ -946,11 +951,6 @@
             "class" : "Item", 
             "count" : "7", 
             "proto" : "Money"
-         },
-         { 
-            "class" : "Weapon", 
-            "count" : "1", 
-            "proto" : "iz58"
          },
          { 
             "class" : "Ammo", 

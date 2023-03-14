@@ -28,7 +28,7 @@ MonoBehaviour:
   BothHands: 1
   Stack: 0
   DamageMin: 24
-  DamageMax: 40
+  DamageMax: 38
   DamageRadius: 1
   Fatality: 50
   Perks: 17858560

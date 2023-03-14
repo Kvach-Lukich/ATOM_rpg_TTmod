@@ -9,7 +9,6 @@
          "child" : [ 
             "07092b0b-b4fc-4de3-bc7f-b939c90d5f34", 
             "be553787-c681-4e98-97c1-9778ebddc2b3", 
-            "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261", 
             "cea2afb3-1757-460b-b547-bda49f1921c6", 
             "ded5cce1-0f1f-4fb9-a233-ca01c349dd7d", 
             "cb3d764c-2292-4cdc-8855-963c82ccea1d", 
@@ -536,306 +535,6 @@
             ], 
             "behavior" : "Baza.Cow"
          }
-      }, 
-      "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261" : { 
-         "class" : "NotebookHasNoteNode", 
-         "desc" : { 
-            "x" : "-101020", 
-            "y" : "-100990"
-         }, 
-         "child" : [ 
-            "5f26295d-3b8a-4675-8510-ace6dfff4118", 
-            "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d"
-         ], 
-         "note_key" : "BAZA_REQUEST_ALENKA"
-      }, 
-      "5f26295d-3b8a-4675-8510-ace6dfff4118" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101054", 
-            "y" : "-100875"
-         }, 
-         "child" : [ 
-            "7fda3b6d-f975-4d83-b713-bac43e931ce0", 
-            "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b"
-         ]
-      }, 
-      "7fda3b6d-f975-4d83-b713-bac43e931ce0" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-101142", 
-            "y" : "-100794"
-         }, 
-         "child" : [ 
-            "8da78e2d-9c93-482b-81eb-b8c8d78d3f48", 
-            "d1efe6fb-edaa-45ac-92db-7edcfffca0bc"
-         ], 
-         "key" : "SHOW_ALENKA"
-      }, 
-      "8da78e2d-9c93-482b-81eb-b8c8d78d3f48" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101200", 
-            "y" : "-100716"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "d1efe6fb-edaa-45ac-92db-7edcfffca0bc" : { 
-         "class" : "AddKeywordNode", 
-         "desc" : { 
-            "x" : "-101087", 
-            "y" : "-100711"
-         }, 
-         "child" : [ 
-            "8cc2f975-9973-4d54-880b-cd67341fb0b1"
-         ], 
-         "key" : "SHOW_ALENKA"
-      }, 
-      "8cc2f975-9973-4d54-880b-cd67341fb0b1" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101095", 
-            "y" : "-100652"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Baza_Alenka", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "BaseFemale15", 
-            "character" : "Baza_Alenka", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "baza", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Item", 
-                  "count" : "1", 
-                  "proto" : "Wood"
-               }, 
-               { 
-                  "class" : "Item", 
-                  "count" : "1", 
-                  "proto" : "Wastemetal"
-               }, 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "10", 
-                  "proto" : "BB_AP"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Pipe_Rifle", 
-               "ammo" : { 
-                  "count" : "1", 
-                  "proto" : "BB_AP"
-               }
-            }, 
-            "cap" : { 
-               "class" : "Uniform", 
-               "skin" : "Skin_2", 
-               "count" : "1", 
-               "proto" : "Fedora"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_2", 
-            "beard" : "Shaved", 
-            "hair" : "Girl_HighBangs", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "Rat.Swing"
-         }
-      }, 
-      "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b" : { 
-         "class" : "FractionIsEnemyRelationshipNode", 
-         "desc" : { 
-            "x" : "-98678", 
-            "y" : "-100074"
-         }, 
-         "child" : [ 
-            "6ff33099-c661-436c-8aeb-2f3a612fe78d", 
-            "fdddb845-4eea-4f87-a193-8afeee9ed66e"
-         ], 
-         "fractionA" : "player", 
-         "fractionB" : "~scavenger"
-      }, 
-      "6ff33099-c661-436c-8aeb-2f3a612fe78d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-98780", 
-            "y" : "-99978"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "fdddb845-4eea-4f87-a193-8afeee9ed66e" : { 
-         "class" : "TimeDatePeriodNode", 
-         "desc" : { 
-            "x" : "-98546", 
-            "y" : "-99988"
-         }, 
-         "child" : [ 
-            "6ed34783-ab6c-438a-a835-5010538ab220", 
-            "0e54f1ad-6d1b-4779-a02d-4e6986e29a47"
-         ], 
-         "timeStart" : "3", 
-         "modeStart" : "Day", 
-         "timeLen" : "4", 
-         "modeLen" : "Hour", 
-         "offsetValue" : "RANDOM_S_TRADE"
-      }, 
-      "6ed34783-ab6c-438a-a835-5010538ab220" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-98830", 
-            "y" : "-99816"
-         }, 
-         "child" : [ 
-            "cbddd971-f36d-4539-a9fb-da6ab7c8d17e", 
-            "c644d50d-2c95-49d3-a52e-f8d75a5cb368"
-         ], 
-         "key" : "INIT_RANDOM_S_TRADE"
-      }, 
-      "cbddd971-f36d-4539-a9fb-da6ab7c8d17e" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-98865", 
-            "y" : "-99723"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "c644d50d-2c95-49d3-a52e-f8d75a5cb368" : { 
-         "class" : "AddKeywordNode", 
-         "desc" : { 
-            "x" : "-98747", 
-            "y" : "-99725"
-         }, 
-         "child" : [ 
-            "f69a670b-efbe-466a-9eab-5b5a387f5d03"
-         ], 
-         "key" : "INIT_RANDOM_S_TRADE"
-      }, 
-      "f69a670b-efbe-466a-9eab-5b5a387f5d03" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-98774", 
-            "y" : "-99651"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Baza.Scavenger"
-      }, 
-      "0e54f1ad-6d1b-4779-a02d-4e6986e29a47" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-98476", 
-            "y" : "-99826"
-         }, 
-         "child" : [ 
-            "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a", 
-            "7f4623fe-c218-4475-b65a-ec87fa8e586a"
-         ], 
-         "key" : "INIT_RANDOM_S_TRADE"
-      }, 
-      "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a" : { 
-         "class" : "RemoveKeywordNode", 
-         "desc" : { 
-            "x" : "-98560", 
-            "y" : "-99736"
-         }, 
-         "child" : [ 
-            "38f31d99-f6a3-4e7d-bd2d-579d27d73783"
-         ], 
-         "key" : "INIT_RANDOM_S_TRADE"
-      }, 
-      "38f31d99-f6a3-4e7d-bd2d-579d27d73783" : { 
-         "class" : "CharacterRemoveNode", 
-         "desc" : { 
-            "x" : "-98547", 
-            "y" : "-99674"
-         }, 
-         "child" : [ 
-            "459f1dd6-1fae-49a3-a6f5-09f8f5095f62"
-         ], 
-         "objName" : "Spawn.Scavenger.1"
-      }, 
-      "459f1dd6-1fae-49a3-a6f5-09f8f5095f62" : { 
-         "class" : "CharacterRemoveNode", 
-         "desc" : { 
-            "x" : "-98547", 
-            "y" : "-99622"
-         }, 
-         "child" : [ 
-            "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86"
-         ], 
-         "objName" : "Spawn.Scavenger.2"
-      }, 
-      "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86" : { 
-         "class" : "CharacterRemoveNode", 
-         "desc" : { 
-            "x" : "-98548", 
-            "y" : "-99568"
-         }, 
-         "child" : [ 
-            "ed15ae02-f79a-4a98-8346-b5a1fc00603a"
-         ], 
-         "objName" : "Spawn.Scavenger.3"
-      }, 
-      "ed15ae02-f79a-4a98-8346-b5a1fc00603a" : { 
-         "class" : "CharacterRemoveNode", 
-         "desc" : { 
-            "x" : "-98407", 
-            "y" : "-99672"
-         }, 
-         "child" : [ 
-            "e7d6a459-b54c-44bb-9aab-2d433713e4a9"
-         ], 
-         "objName" : "Spawn.Scavenger.4"
-      }, 
-      "e7d6a459-b54c-44bb-9aab-2d433713e4a9" : { 
-         "class" : "CharacterRemoveNode", 
-         "desc" : { 
-            "x" : "-98412", 
-            "y" : "-99566"
-         }, 
-         "child" : [ 
-         ], 
-         "objName" : "Spawn.Scavenger.Trader"
-      }, 
-      "7f4623fe-c218-4475-b65a-ec87fa8e586a" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-98384", 
-            "y" : "-99724"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100897", 
-            "y" : "-100876"
-         }, 
-         "child" : [ 
-         ]
       }, 
       "cea2afb3-1757-460b-b547-bda49f1921c6" : { 
          "class" : "QuestStatusNode", 
@@ -1861,16 +1560,16 @@
             "y" : "-100495"
          }, 
          "child" : [ 
-            "2b9c8872-e387-4b0a-af0b-b100f58aecfa", 
+            "22403481-a950-4950-b632-94683dad3fb3", 
             "d09db640-b183-4f23-a985-d8e183db2c30"
          ], 
          "note_key" : "BAZE.MUTANTS.KILLED"
       }, 
-      "2b9c8872-e387-4b0a-af0b-b100f58aecfa" : { 
+      "22403481-a950-4950-b632-94683dad3fb3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100629", 
-            "y" : "-100405"
+            "x" : "-100633", 
+            "y" : "-100402"
          }, 
          "child" : [ 
          ]
@@ -2329,7 +2028,308 @@
             "y" : "-100340"
          }, 
          "child" : [ 
+            "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261", 
             "ce15f3f4-79f3-41e4-b069-9e1111ef705e"
+         ]
+      }, 
+      "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101011", 
+            "y" : "-101001"
+         }, 
+         "child" : [ 
+            "5f26295d-3b8a-4675-8510-ace6dfff4118", 
+            "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d"
+         ], 
+         "note_key" : "BAZA_REQUEST_ALENKA"
+      }, 
+      "5f26295d-3b8a-4675-8510-ace6dfff4118" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-100875"
+         }, 
+         "child" : [ 
+            "7fda3b6d-f975-4d83-b713-bac43e931ce0", 
+            "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b"
+         ]
+      }, 
+      "7fda3b6d-f975-4d83-b713-bac43e931ce0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101142", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+            "8da78e2d-9c93-482b-81eb-b8c8d78d3f48", 
+            "d1efe6fb-edaa-45ac-92db-7edcfffca0bc"
+         ], 
+         "key" : "SHOW_ALENKA"
+      }, 
+      "8da78e2d-9c93-482b-81eb-b8c8d78d3f48" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101200", 
+            "y" : "-100716"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d1efe6fb-edaa-45ac-92db-7edcfffca0bc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-100711"
+         }, 
+         "child" : [ 
+            "8cc2f975-9973-4d54-880b-cd67341fb0b1"
+         ], 
+         "key" : "SHOW_ALENKA"
+      }, 
+      "8cc2f975-9973-4d54-880b-cd67341fb0b1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-100643"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Baza_Alenka", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale15", 
+            "character" : "Baza_Alenka", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wood"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wastemetal"
+               }, 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "10", 
+                  "proto" : "BB_AP"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Rifle", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "skin" : "Skin_2", 
+               "count" : "1", 
+               "proto" : "Fedora"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_HighBangs", 
+            "hairColor" : "Blond_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-98678", 
+            "y" : "-100074"
+         }, 
+         "child" : [ 
+            "6ff33099-c661-436c-8aeb-2f3a612fe78d", 
+            "fdddb845-4eea-4f87-a193-8afeee9ed66e"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "~scavenger"
+      }, 
+      "6ff33099-c661-436c-8aeb-2f3a612fe78d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98780", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fdddb845-4eea-4f87-a193-8afeee9ed66e" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-98546", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "6ed34783-ab6c-438a-a835-5010538ab220", 
+            "0e54f1ad-6d1b-4779-a02d-4e6986e29a47"
+         ], 
+         "timeStart" : "3", 
+         "modeStart" : "Day", 
+         "timeLen" : "4", 
+         "modeLen" : "Hour", 
+         "offsetValue" : "RANDOM_S_TRADE"
+      }, 
+      "6ed34783-ab6c-438a-a835-5010538ab220" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98830", 
+            "y" : "-99816"
+         }, 
+         "child" : [ 
+            "cbddd971-f36d-4539-a9fb-da6ab7c8d17e", 
+            "c644d50d-2c95-49d3-a52e-f8d75a5cb368"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "cbddd971-f36d-4539-a9fb-da6ab7c8d17e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98865", 
+            "y" : "-99723"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c644d50d-2c95-49d3-a52e-f8d75a5cb368" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98747", 
+            "y" : "-99725"
+         }, 
+         "child" : [ 
+            "f69a670b-efbe-466a-9eab-5b5a387f5d03"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "f69a670b-efbe-466a-9eab-5b5a387f5d03" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98774", 
+            "y" : "-99651"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Baza.Scavenger"
+      }, 
+      "0e54f1ad-6d1b-4779-a02d-4e6986e29a47" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98476", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a", 
+            "7f4623fe-c218-4475-b65a-ec87fa8e586a"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-98560", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+            "38f31d99-f6a3-4e7d-bd2d-579d27d73783"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "38f31d99-f6a3-4e7d-bd2d-579d27d73783" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-98547", 
+            "y" : "-99674"
+         }, 
+         "child" : [ 
+            "459f1dd6-1fae-49a3-a6f5-09f8f5095f62"
+         ], 
+         "objName" : "Spawn.Scavenger.1"
+      }, 
+      "459f1dd6-1fae-49a3-a6f5-09f8f5095f62" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-98547", 
+            "y" : "-99622"
+         }, 
+         "child" : [ 
+            "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86"
+         ], 
+         "objName" : "Spawn.Scavenger.2"
+      }, 
+      "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-98548", 
+            "y" : "-99568"
+         }, 
+         "child" : [ 
+            "ed15ae02-f79a-4a98-8346-b5a1fc00603a"
+         ], 
+         "objName" : "Spawn.Scavenger.3"
+      }, 
+      "ed15ae02-f79a-4a98-8346-b5a1fc00603a" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-98407", 
+            "y" : "-99672"
+         }, 
+         "child" : [ 
+            "e7d6a459-b54c-44bb-9aab-2d433713e4a9"
+         ], 
+         "objName" : "Spawn.Scavenger.4"
+      }, 
+      "e7d6a459-b54c-44bb-9aab-2d433713e4a9" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-98412", 
+            "y" : "-99566"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Spawn.Scavenger.Trader"
+      }, 
+      "7f4623fe-c218-4475-b65a-ec87fa8e586a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98384", 
+            "y" : "-99724"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100897", 
+            "y" : "-100876"
+         }, 
+         "child" : [ 
          ]
       }, 
       "5867bf99-0e94-4498-bc8e-c1a8d556c634" : { 

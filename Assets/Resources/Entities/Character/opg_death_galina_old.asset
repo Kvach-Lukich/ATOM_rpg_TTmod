@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: opg_death_galina
+  m_Name: opg_death_galina_old
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Character/OPG_Death_Galina
@@ -42,18 +42,18 @@ MonoBehaviour:
     - _type: 27
       _value: 10
     Level: 12
-    ExperiencePoints: 60
-    Strength: 3
+    ExperiencePoints: 28800
+    Strength: 7
     Perception: 8
-    Endurance: 8
-    Charisma: 4
-    Intelligence: 6
+    Endurance: 6
+    Charisma: 2
+    Intelligence: 7
     Agility: 9
     Luck: 5
     skillsBonus:
       SmallGuns: 55
-      BigGuns: 50
-      AutomaticFirearms: 45
+      BigGuns: 45
+      AutomaticFirearms: 40
       Unarmed: 36
       MeleeWeapons: 35
       Throwing: 24
@@ -67,9 +67,9 @@ MonoBehaviour:
       Speech: 0
       Barter: 0
       Gambling: 0
-      Outdoorsman: 16
+      Outdoorsman: 55
     Perks: 6a000000
-    FreeSkillPoints: 7
-    FreeStatPoints: 7
-    FreeSpecPoints: 7
-    SpecLevel: 1
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 3
+    SpecLevel: 0

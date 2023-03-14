@@ -546,8 +546,8 @@
       "096166be-5133-4e3a-88a7-6688bbca2987" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
-            "x" : "-99078", 
-            "y" : "-100838"
+            "x" : "-99103", 
+            "y" : "-100841"
          }, 
          "child" : [ 
          ], 
@@ -590,12 +590,12 @@
       "d017682a-7fb5-4961-b4d6-01b899dd4589" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
-            "x" : "-98949", 
-            "y" : "-100837"
+            "x" : "-98982", 
+            "y" : "-100836"
          }, 
          "child" : [ 
          ], 
-         "recipe" : "craft_pegas", 
+         "recipe" : "craft_belamor", 
          "showMsg" : "true"
       }, 
       "92dc0a30-0f42-435d-8d08-f919b7a32d8e" : { 
