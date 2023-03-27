@@ -1,0 +1,2763 @@
+{ 
+   "states" : { 
+      "213f4b29-b8f7-478f-ac15-f2bcd35474cd" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102042", 
+            "y" : "-101180"
+         }, 
+         "child" : [ 
+            "c5f3b025-6588-40cc-a855-6b440bb805df", 
+            "085bafb7-64c6-47de-b954-ee8a53e199a2"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "c5f3b025-6588-40cc-a855-6b440bb805df" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102872", 
+            "y" : "-101485"
+         }, 
+         "child" : [ 
+            "c686f037-b61d-46ee-9809-3e03eb97ef4f", 
+            "a7046e4b-b35a-4904-947c-87d77795d800", 
+            "a9a45a95-228e-49cd-9711-0c988c9608f3", 
+            "32d7f914-7343-4668-8e3c-1ed4f37f2fe4", 
+            "27ac0093-89e5-47c9-a16b-29a87cdfcf69", 
+            "0a00eb49-c0aa-4743-a78c-0df055b68ed2", 
+            "5c266b42-04fa-4e2c-9b79-52998d724359"
+         ]
+      }, 
+      "c686f037-b61d-46ee-9809-3e03eb97ef4f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103282", 
+            "y" : "-100942"
+         }, 
+         "child" : [ 
+            "819f1758-ae60-4a2c-a8e8-8e59fc771705", 
+            "a0cfb977-dd59-486f-a23f-71badcefbc30", 
+            "dfaee543-b296-46f0-8ab5-de4fd1d5a05c", 
+            "23d8cc88-6ab5-4582-9067-c17c3e250b26", 
+            "82a166ab-cb24-4da8-9c04-9851903dfd52"
+         ]
+      }, 
+      "819f1758-ae60-4a2c-a8e8-8e59fc771705" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103444", 
+            "y" : "-100870"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_TIME", 
+         "text" : "#Baza_Maid.819f1758-ae60-4a2c-a8e8-8e59fc771705"
+      }, 
+      "a0cfb977-dd59-486f-a23f-71badcefbc30" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103394", 
+            "y" : "-100820"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_TIME", 
+         "text" : "#Baza_Maid.a0cfb977-dd59-486f-a23f-71badcefbc30"
+      }, 
+      "dfaee543-b296-46f0-8ab5-de4fd1d5a05c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103344", 
+            "y" : "-100770"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_TIME", 
+         "text" : "#Baza_Maid.dfaee543-b296-46f0-8ab5-de4fd1d5a05c"
+      }, 
+      "23d8cc88-6ab5-4582-9067-c17c3e250b26" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103218", 
+            "y" : "-100882"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_TIME", 
+         "text" : "#Baza_Maid.23d8cc88-6ab5-4582-9067-c17c3e250b26"
+      }, 
+      "82a166ab-cb24-4da8-9c04-9851903dfd52" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103168", 
+            "y" : "-100832"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_TIME", 
+         "text" : "#Baza_Maid.82a166ab-cb24-4da8-9c04-9851903dfd52"
+      }, 
+      "a7046e4b-b35a-4904-947c-87d77795d800" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101974", 
+            "y" : "-98449"
+         }, 
+         "child" : [ 
+            "29451f61-646a-47bc-9320-8d4de7cb6e24", 
+            "0bf6d8d9-0bd8-49b6-b392-99a9af5a34eb", 
+            "87278c75-9290-4781-a280-a3d040e8f4a6", 
+            "3df3a8f0-0351-4263-8675-36ec427f2d2b", 
+            "b019b6c6-1a75-43bc-950a-acc8889aa978", 
+            "66254139-5f3a-4b17-89eb-bc870462033a", 
+            "f66e4e77-d75e-4f6a-a3a5-984658e83479", 
+            "8c3290dd-5640-4574-89a5-fc22ea0bce0d", 
+            "7af4b0ed-ffa4-4c57-b0bd-e680c2d11e59", 
+            "6569b0a6-1afb-4bdd-91d1-df0f61246402", 
+            "3a75baec-3412-4928-8015-f84d936b1911"
+         ]
+      }, 
+      "29451f61-646a-47bc-9320-8d4de7cb6e24" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-98390"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.29451f61-646a-47bc-9320-8d4de7cb6e24"
+      }, 
+      "0bf6d8d9-0bd8-49b6-b392-99a9af5a34eb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101933.6", 
+            "y" : "-98282.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.0bf6d8d9-0bd8-49b6-b392-99a9af5a34eb"
+      }, 
+      "87278c75-9290-4781-a280-a3d040e8f4a6" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101912.1", 
+            "y" : "-98175.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.87278c75-9290-4781-a280-a3d040e8f4a6"
+      }, 
+      "3df3a8f0-0351-4263-8675-36ec427f2d2b" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101890.7", 
+            "y" : "-98068.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.3df3a8f0-0351-4263-8675-36ec427f2d2b"
+      }, 
+      "b019b6c6-1a75-43bc-950a-acc8889aa978" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101869.3", 
+            "y" : "-97961.43"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.b019b6c6-1a75-43bc-950a-acc8889aa978"
+      }, 
+      "66254139-5f3a-4b17-89eb-bc870462033a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101847.9", 
+            "y" : "-97854.29"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.66254139-5f3a-4b17-89eb-bc870462033a"
+      }, 
+      "f66e4e77-d75e-4f6a-a3a5-984658e83479" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101826.4", 
+            "y" : "-97747.14"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.f66e4e77-d75e-4f6a-a3a5-984658e83479"
+      }, 
+      "8c3290dd-5640-4574-89a5-fc22ea0bce0d" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-97640"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.8c3290dd-5640-4574-89a5-fc22ea0bce0d"
+      }, 
+      "7af4b0ed-ffa4-4c57-b0bd-e680c2d11e59" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101783.6", 
+            "y" : "-97532.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.7af4b0ed-ffa4-4c57-b0bd-e680c2d11e59"
+      }, 
+      "6569b0a6-1afb-4bdd-91d1-df0f61246402" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101762.1", 
+            "y" : "-97425.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.6569b0a6-1afb-4bdd-91d1-df0f61246402"
+      }, 
+      "3a75baec-3412-4928-8015-f84d936b1911" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101740.7", 
+            "y" : "-97318.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_ACTION", 
+         "text" : "#Baza_Maid.3a75baec-3412-4928-8015-f84d936b1911"
+      }, 
+      "a9a45a95-228e-49cd-9711-0c988c9608f3" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103158", 
+            "y" : "-99128"
+         }, 
+         "child" : [ 
+            "a98d874c-3f78-401d-a9eb-4116b451a6e2", 
+            "cbb72a8b-6cf5-4bd3-ad04-7c0861798a6a", 
+            "796949a2-162e-4a78-ac59-5fee1ce3a9c5", 
+            "f11a3178-cfb1-4f79-b487-e5a835ec2bfe", 
+            "cfc5ff04-972f-4246-abe3-007c128c2a8c", 
+            "ee344a2d-d641-4dff-aa59-ae1cf9d2a849", 
+            "108761fe-3d42-431a-bb29-d8c216285185", 
+            "9fad1c2f-fe79-4674-8723-9e37e791cfc9", 
+            "9dc5ef03-455c-4e27-9f97-c4fa905aceff", 
+            "f84d3103-170b-45cf-944a-54f3fb9018b0", 
+            "2df1ad15-4029-44cf-bdda-9f2bf12549a2", 
+            "57c7f510-ed12-436e-91cc-f690edeff7ee", 
+            "d4a09e2d-7b60-4928-8c6b-5000380b4e0c", 
+            "09be8242-8ecb-409c-9089-41ffd3fbea4c", 
+            "f33e2060-0f7d-4ad7-8a17-d5c778acaf4c", 
+            "f8e811c7-cf75-4c7e-b92f-2c8293f5902d"
+         ]
+      }, 
+      "a98d874c-3f78-401d-a9eb-4116b451a6e2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103132", 
+            "y" : "-99072"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.a98d874c-3f78-401d-a9eb-4116b451a6e2"
+      }, 
+      "cbb72a8b-6cf5-4bd3-ad04-7c0861798a6a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103110.6", 
+            "y" : "-98964.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.cbb72a8b-6cf5-4bd3-ad04-7c0861798a6a"
+      }, 
+      "796949a2-162e-4a78-ac59-5fee1ce3a9c5" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103089.1", 
+            "y" : "-98857.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.796949a2-162e-4a78-ac59-5fee1ce3a9c5"
+      }, 
+      "f11a3178-cfb1-4f79-b487-e5a835ec2bfe" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103067.7", 
+            "y" : "-98750.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.f11a3178-cfb1-4f79-b487-e5a835ec2bfe"
+      }, 
+      "cfc5ff04-972f-4246-abe3-007c128c2a8c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103046.3", 
+            "y" : "-98643.43"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.cfc5ff04-972f-4246-abe3-007c128c2a8c"
+      }, 
+      "ee344a2d-d641-4dff-aa59-ae1cf9d2a849" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103024.9", 
+            "y" : "-98536.29"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.ee344a2d-d641-4dff-aa59-ae1cf9d2a849"
+      }, 
+      "108761fe-3d42-431a-bb29-d8c216285185" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103003.4", 
+            "y" : "-98429.14"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.108761fe-3d42-431a-bb29-d8c216285185"
+      }, 
+      "9fad1c2f-fe79-4674-8723-9e37e791cfc9" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102982", 
+            "y" : "-98322"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.9fad1c2f-fe79-4674-8723-9e37e791cfc9"
+      }, 
+      "9dc5ef03-455c-4e27-9f97-c4fa905aceff" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102960.6", 
+            "y" : "-98214.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.9dc5ef03-455c-4e27-9f97-c4fa905aceff"
+      }, 
+      "f84d3103-170b-45cf-944a-54f3fb9018b0" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102939.1", 
+            "y" : "-98107.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.f84d3103-170b-45cf-944a-54f3fb9018b0"
+      }, 
+      "2df1ad15-4029-44cf-bdda-9f2bf12549a2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102917.7", 
+            "y" : "-98000.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.2df1ad15-4029-44cf-bdda-9f2bf12549a2"
+      }, 
+      "57c7f510-ed12-436e-91cc-f690edeff7ee" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102896.3", 
+            "y" : "-97893.43"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.57c7f510-ed12-436e-91cc-f690edeff7ee"
+      }, 
+      "d4a09e2d-7b60-4928-8c6b-5000380b4e0c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102874.9", 
+            "y" : "-97786.29"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.d4a09e2d-7b60-4928-8c6b-5000380b4e0c"
+      }, 
+      "09be8242-8ecb-409c-9089-41ffd3fbea4c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102853.4", 
+            "y" : "-97679.14"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.09be8242-8ecb-409c-9089-41ffd3fbea4c"
+      }, 
+      "f33e2060-0f7d-4ad7-8a17-d5c778acaf4c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102832", 
+            "y" : "-97572"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.f33e2060-0f7d-4ad7-8a17-d5c778acaf4c"
+      }, 
+      "f8e811c7-cf75-4c7e-b92f-2c8293f5902d" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102810.6", 
+            "y" : "-97464.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_EVENT", 
+         "text" : "#Baza_Maid.f8e811c7-cf75-4c7e-b92f-2c8293f5902d"
+      }, 
+      "32d7f914-7343-4668-8e3c-1ed4f37f2fe4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103851", 
+            "y" : "-99792"
+         }, 
+         "child" : [ 
+            "b8ed90ee-3aa7-4319-a9d5-9fad610b50f6", 
+            "2bf9834c-b041-436d-8466-a611a038b62e", 
+            "c1f61d31-db87-4d52-be60-55ea465c3479", 
+            "0fb6f7d9-79ea-4ff9-ac0e-6d955fd8b7d5", 
+            "daea85ae-7d15-41b2-9d7f-552b5863a113", 
+            "3a013532-845a-4fd8-a958-f54137711aba", 
+            "1d4d1d06-59f9-4600-993a-73cbda3b6c6c", 
+            "c9642f6e-2e53-4c70-9a1f-10987ccdee3c", 
+            "7c279ac4-e77b-4dda-91fc-2a9ea5451967", 
+            "ef7336af-9e97-47a4-bcdc-697bf549de84", 
+            "f01b6e68-98c2-42db-aa02-bf35a02ffd50", 
+            "fdc50362-1b0d-4f35-8efb-2cbfa9bebfb4", 
+            "037fda05-2823-406e-b3a8-d0895e50f2bb"
+         ]
+      }, 
+      "b8ed90ee-3aa7-4319-a9d5-9fad610b50f6" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103832", 
+            "y" : "-99687"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.b8ed90ee-3aa7-4319-a9d5-9fad610b50f6"
+      }, 
+      "2bf9834c-b041-436d-8466-a611a038b62e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103930.6", 
+            "y" : "-99637.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.2bf9834c-b041-436d-8466-a611a038b62e"
+      }, 
+      "c1f61d31-db87-4d52-be60-55ea465c3479" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103909.1", 
+            "y" : "-99530.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.c1f61d31-db87-4d52-be60-55ea465c3479"
+      }, 
+      "0fb6f7d9-79ea-4ff9-ac0e-6d955fd8b7d5" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103887.7", 
+            "y" : "-99423.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.0fb6f7d9-79ea-4ff9-ac0e-6d955fd8b7d5"
+      }, 
+      "daea85ae-7d15-41b2-9d7f-552b5863a113" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103866.3", 
+            "y" : "-99316.43"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.daea85ae-7d15-41b2-9d7f-552b5863a113"
+      }, 
+      "3a013532-845a-4fd8-a958-f54137711aba" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103844.9", 
+            "y" : "-99209.29"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.3a013532-845a-4fd8-a958-f54137711aba"
+      }, 
+      "1d4d1d06-59f9-4600-993a-73cbda3b6c6c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103823.4", 
+            "y" : "-99102.14"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.1d4d1d06-59f9-4600-993a-73cbda3b6c6c"
+      }, 
+      "c9642f6e-2e53-4c70-9a1f-10987ccdee3c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103802", 
+            "y" : "-98995"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.c9642f6e-2e53-4c70-9a1f-10987ccdee3c"
+      }, 
+      "7c279ac4-e77b-4dda-91fc-2a9ea5451967" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103780.6", 
+            "y" : "-98887.86"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.7c279ac4-e77b-4dda-91fc-2a9ea5451967"
+      }, 
+      "ef7336af-9e97-47a4-bcdc-697bf549de84" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103759.1", 
+            "y" : "-98780.71"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.ef7336af-9e97-47a4-bcdc-697bf549de84"
+      }, 
+      "f01b6e68-98c2-42db-aa02-bf35a02ffd50" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103737.7", 
+            "y" : "-98673.57"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.f01b6e68-98c2-42db-aa02-bf35a02ffd50"
+      }, 
+      "fdc50362-1b0d-4f35-8efb-2cbfa9bebfb4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103716.3", 
+            "y" : "-98566.43"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.fdc50362-1b0d-4f35-8efb-2cbfa9bebfb4"
+      }, 
+      "037fda05-2823-406e-b3a8-d0895e50f2bb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103694.9", 
+            "y" : "-98459.29"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STORY", 
+         "text" : "#Baza_Maid.037fda05-2823-406e-b3a8-d0895e50f2bb"
+      }, 
+      "27ac0093-89e5-47c9-a16b-29a87cdfcf69" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-104346", 
+            "y" : "-101351"
+         }, 
+         "child" : [ 
+            "70049420-407f-4a6e-9ec5-3f183552da36", 
+            "538d3a79-32a2-450f-a047-208ba4355944", 
+            "5e5c332a-2434-47a5-a64d-4ae02cc66fc4", 
+            "821d1b21-8d93-4aad-bacb-91d4406671c2", 
+            "665d85ab-8c0d-4b6d-99a2-133971b88d3d", 
+            "4fda7f50-c218-42a7-9aa6-665cb5c6b8a4", 
+            "0d532f00-53bb-4906-899f-6dca1f172ea1", 
+            "0031be5f-c70a-471c-ab1a-c91e379666e0", 
+            "f216f2ff-8213-478f-8a7f-de8dbd568414", 
+            "a5e8a5fa-6e54-4280-acca-56d4bcf66d5a", 
+            "c52df558-d5db-4f83-a4d0-2273303ae00d", 
+            "b6093a2d-3a73-4f49-8cd0-a699315986a8", 
+            "097ec432-aeb7-49a6-9593-68408c4b8cd7", 
+            "e8173879-be6b-4352-b799-9e8d3726cb22", 
+            "b17b4547-dee9-4734-b2db-61603dbef70c", 
+            "d29fedba-13df-45ac-89ed-110a9386466c", 
+            "e50b3c58-c101-47b4-a1c3-7109e2ab638f", 
+            "858bd6b6-6386-4a36-8dbf-c51734347208", 
+            "20182286-792b-48f0-9431-2d14a974265c", 
+            "575bd74f-f99e-4d34-82b8-772596f54ec2", 
+            "a7d47012-2233-4098-a91e-cedf34ede36f", 
+            "d33e6b3d-5e04-48fb-a384-417d42a683b4", 
+            "e63f3758-d344-4a9b-9367-60a0b8860dc8", 
+            "177295d0-32c8-4602-aff1-3b65dbe9b1d4", 
+            "319e35fe-866e-4ee1-b6d8-88b87bde2e43", 
+            "d821dde2-a89a-4cec-87ae-25275aedfe5e"
+         ]
+      }, 
+      "70049420-407f-4a6e-9ec5-3f183552da36" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104289", 
+            "y" : "-101301"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.70049420-407f-4a6e-9ec5-3f183552da36"
+      }, 
+      "538d3a79-32a2-450f-a047-208ba4355944" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104274", 
+            "y" : "-101226"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.538d3a79-32a2-450f-a047-208ba4355944"
+      }, 
+      "5e5c332a-2434-47a5-a64d-4ae02cc66fc4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104259", 
+            "y" : "-101151"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.5e5c332a-2434-47a5-a64d-4ae02cc66fc4"
+      }, 
+      "821d1b21-8d93-4aad-bacb-91d4406671c2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104244", 
+            "y" : "-101076"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.821d1b21-8d93-4aad-bacb-91d4406671c2"
+      }, 
+      "665d85ab-8c0d-4b6d-99a2-133971b88d3d" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104229", 
+            "y" : "-101001"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.665d85ab-8c0d-4b6d-99a2-133971b88d3d"
+      }, 
+      "4fda7f50-c218-42a7-9aa6-665cb5c6b8a4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104214", 
+            "y" : "-100926"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.4fda7f50-c218-42a7-9aa6-665cb5c6b8a4"
+      }, 
+      "0d532f00-53bb-4906-899f-6dca1f172ea1" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104199", 
+            "y" : "-100851"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.0d532f00-53bb-4906-899f-6dca1f172ea1"
+      }, 
+      "0031be5f-c70a-471c-ab1a-c91e379666e0" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104184", 
+            "y" : "-100776"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.0031be5f-c70a-471c-ab1a-c91e379666e0"
+      }, 
+      "f216f2ff-8213-478f-8a7f-de8dbd568414" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104169", 
+            "y" : "-100701"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.f216f2ff-8213-478f-8a7f-de8dbd568414"
+      }, 
+      "a5e8a5fa-6e54-4280-acca-56d4bcf66d5a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104154", 
+            "y" : "-100626"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.a5e8a5fa-6e54-4280-acca-56d4bcf66d5a"
+      }, 
+      "c52df558-d5db-4f83-a4d0-2273303ae00d" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104139", 
+            "y" : "-100551"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.c52df558-d5db-4f83-a4d0-2273303ae00d"
+      }, 
+      "b6093a2d-3a73-4f49-8cd0-a699315986a8" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104124", 
+            "y" : "-100476"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.b6093a2d-3a73-4f49-8cd0-a699315986a8"
+      }, 
+      "097ec432-aeb7-49a6-9593-68408c4b8cd7" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104109", 
+            "y" : "-100401"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.097ec432-aeb7-49a6-9593-68408c4b8cd7"
+      }, 
+      "e8173879-be6b-4352-b799-9e8d3726cb22" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104094", 
+            "y" : "-100326"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.e8173879-be6b-4352-b799-9e8d3726cb22"
+      }, 
+      "b17b4547-dee9-4734-b2db-61603dbef70c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104079", 
+            "y" : "-100251"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.b17b4547-dee9-4734-b2db-61603dbef70c"
+      }, 
+      "d29fedba-13df-45ac-89ed-110a9386466c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104064", 
+            "y" : "-100176"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.d29fedba-13df-45ac-89ed-110a9386466c"
+      }, 
+      "e50b3c58-c101-47b4-a1c3-7109e2ab638f" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104049", 
+            "y" : "-100101"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.e50b3c58-c101-47b4-a1c3-7109e2ab638f"
+      }, 
+      "858bd6b6-6386-4a36-8dbf-c51734347208" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104034", 
+            "y" : "-100026"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.858bd6b6-6386-4a36-8dbf-c51734347208"
+      }, 
+      "20182286-792b-48f0-9431-2d14a974265c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104019", 
+            "y" : "-99951"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.20182286-792b-48f0-9431-2d14a974265c"
+      }, 
+      "575bd74f-f99e-4d34-82b8-772596f54ec2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104004", 
+            "y" : "-99876"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.575bd74f-f99e-4d34-82b8-772596f54ec2"
+      }, 
+      "a7d47012-2233-4098-a91e-cedf34ede36f" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-104032", 
+            "y" : "-101006"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.a7d47012-2233-4098-a91e-cedf34ede36f"
+      }, 
+      "d33e6b3d-5e04-48fb-a384-417d42a683b4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103947", 
+            "y" : "-100954"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.d33e6b3d-5e04-48fb-a384-417d42a683b4"
+      }, 
+      "e63f3758-d344-4a9b-9367-60a0b8860dc8" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103908", 
+            "y" : "-100897"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.e63f3758-d344-4a9b-9367-60a0b8860dc8"
+      }, 
+      "177295d0-32c8-4602-aff1-3b65dbe9b1d4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103773", 
+            "y" : "-100862"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.177295d0-32c8-4602-aff1-3b65dbe9b1d4"
+      }, 
+      "319e35fe-866e-4ee1-b6d8-88b87bde2e43" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103902", 
+            "y" : "-100800"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.319e35fe-866e-4ee1-b6d8-88b87bde2e43"
+      }, 
+      "d821dde2-a89a-4cec-87ae-25275aedfe5e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103909", 
+            "y" : "-100697"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_CITY", 
+         "text" : "#Baza_Maid.d821dde2-a89a-4cec-87ae-25275aedfe5e"
+      }, 
+      "0a00eb49-c0aa-4743-a78c-0df055b68ed2" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103495", 
+            "y" : "-101398"
+         }, 
+         "child" : [ 
+            "ed0e9eef-79e0-424d-b863-c860afde3b39", 
+            "8cc62b01-56e9-4204-8cb8-35ca9e6c373a", 
+            "08c15bbb-b03a-4203-901f-13cf80e6d627", 
+            "f18ddb2d-90a1-4a40-9ada-88fb30a90882", 
+            "929bce12-39f3-4164-8327-06b5f6c39e9e", 
+            "20cc0923-c438-4989-b850-01e1e70e4d54", 
+            "f105834c-3690-44f2-b814-80a71cecbb3f"
+         ]
+      }, 
+      "ed0e9eef-79e0-424d-b863-c860afde3b39" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103675", 
+            "y" : "-101571"
+         }, 
+         "child" : [ 
+            "0a00eb49-c0aa-4743-a78c-0df055b68ed2", 
+            "7fe876da-122d-4b42-a8b0-cfdb81664e5a"
+         ], 
+         "note_key" : "BAZA_PASHA_DIED"
+      }, 
+      "7fe876da-122d-4b42-a8b0-cfdb81664e5a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103856", 
+            "y" : "-101242"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.7fe876da-122d-4b42-a8b0-cfdb81664e5a"
+      }, 
+      "8cc62b01-56e9-4204-8cb8-35ca9e6c373a" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103853", 
+            "y" : "-101569"
+         }, 
+         "child" : [ 
+            "0a00eb49-c0aa-4743-a78c-0df055b68ed2", 
+            "578306e0-abe1-45b5-9e00-b163b5bd3c1f"
+         ], 
+         "note_key" : "BAZA_GODGIN_DIED"
+      }, 
+      "578306e0-abe1-45b5-9e00-b163b5bd3c1f" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103967", 
+            "y" : "-101304"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.578306e0-abe1-45b5-9e00-b163b5bd3c1f"
+      }, 
+      "08c15bbb-b03a-4203-901f-13cf80e6d627" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103761", 
+            "y" : "-101186"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.08c15bbb-b03a-4203-901f-13cf80e6d627"
+      }, 
+      "f18ddb2d-90a1-4a40-9ada-88fb30a90882" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103661", 
+            "y" : "-101128"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.f18ddb2d-90a1-4a40-9ada-88fb30a90882"
+      }, 
+      "929bce12-39f3-4164-8327-06b5f6c39e9e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103611", 
+            "y" : "-101078"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.929bce12-39f3-4164-8327-06b5f6c39e9e"
+      }, 
+      "20cc0923-c438-4989-b850-01e1e70e4d54" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103267", 
+            "y" : "-101322"
+         }, 
+         "child" : [ 
+            "801f8657-3f0c-452e-85da-abcf8281e5d8"
+         ]
+      }, 
+      "801f8657-3f0c-452e-85da-abcf8281e5d8" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-103324", 
+            "y" : "-101274"
+         }, 
+         "child" : [ 
+            "fcafef33-7b2a-4b8f-a606-2827c26ff462"
+         ], 
+         "script" : "Entities/Behavior/Generator_Name"
+      }, 
+      "fcafef33-7b2a-4b8f-a606-2827c26ff462" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103353", 
+            "y" : "-101214"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.fcafef33-7b2a-4b8f-a606-2827c26ff462"
+      }, 
+      "f105834c-3690-44f2-b814-80a71cecbb3f" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103561", 
+            "y" : "-101024"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NAME", 
+         "text" : "#Baza_Maid.f105834c-3690-44f2-b814-80a71cecbb3f"
+      }, 
+      "5c266b42-04fa-4e2c-9b79-52998d724359" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102521", 
+            "y" : "-101256"
+         }, 
+         "child" : [ 
+            "b6119763-c7de-42f8-9913-6cf7f8e5a9bb", 
+            "bab65210-be6c-4c8d-8cda-e10b3ecc9109", 
+            "1e96e863-4e0e-4111-80d8-e7478b9d9545", 
+            "ae1f1a8d-6cff-42e2-940b-534a6ee8c0d6", 
+            "4dfecc7c-cc0b-48a1-8dd3-2e78ad6fff3c", 
+            "00280ce9-af3a-4c6f-b3bc-7f5bb47b27d1", 
+            "94f102b6-1057-4f53-804d-7c97aa70b0e6"
+         ]
+      }, 
+      "b6119763-c7de-42f8-9913-6cf7f8e5a9bb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102790", 
+            "y" : "-101181"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.b6119763-c7de-42f8-9913-6cf7f8e5a9bb"
+      }, 
+      "bab65210-be6c-4c8d-8cda-e10b3ecc9109" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102740", 
+            "y" : "-101131"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.bab65210-be6c-4c8d-8cda-e10b3ecc9109"
+      }, 
+      "1e96e863-4e0e-4111-80d8-e7478b9d9545" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102706", 
+            "y" : "-101074"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.1e96e863-4e0e-4111-80d8-e7478b9d9545"
+      }, 
+      "ae1f1a8d-6cff-42e2-940b-534a6ee8c0d6" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102421", 
+            "y" : "-101067"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.ae1f1a8d-6cff-42e2-940b-534a6ee8c0d6"
+      }, 
+      "4dfecc7c-cc0b-48a1-8dd3-2e78ad6fff3c" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102371", 
+            "y" : "-101017"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.4dfecc7c-cc0b-48a1-8dd3-2e78ad6fff3c"
+      }, 
+      "00280ce9-af3a-4c6f-b3bc-7f5bb47b27d1" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102321", 
+            "y" : "-100967"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.00280ce9-af3a-4c6f-b3bc-7f5bb47b27d1"
+      }, 
+      "94f102b6-1057-4f53-804d-7c97aa70b0e6" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102300", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_STATUS", 
+         "text" : "#Baza_Maid.94f102b6-1057-4f53-804d-7c97aa70b0e6"
+      }, 
+      "085bafb7-64c6-47de-b954-ee8a53e199a2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-101017"
+         }, 
+         "child" : [ 
+            "88a0960b-89fb-4ac1-8f86-07b7b4e2b4ef"
+         ], 
+         "text" : "#Baza_Maid.085bafb7-64c6-47de-b954-ee8a53e199a2"
+      }, 
+      "88a0960b-89fb-4ac1-8f86-07b7b4e2b4ef" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100913"
+         }, 
+         "child" : [ 
+            "d9e672db-10ab-46c0-b2cd-4d33099185bc"
+         ]
+      }, 
+      "d9e672db-10ab-46c0-b2cd-4d33099185bc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101957", 
+            "y" : "-100869"
+         }, 
+         "child" : [ 
+            "397cd593-7305-4659-a5db-3db0780b387e", 
+            "d9354b1f-e28d-4fb0-853e-105e75f726a1", 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "b3a710e0-29aa-41ab-a80d-60e6795b9d45"
+         ], 
+         "text" : "#Baza_Maid.d9e672db-10ab-46c0-b2cd-4d33099185bc"
+      }, 
+      "397cd593-7305-4659-a5db-3db0780b387e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102363", 
+            "y" : "-100765", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "c8c999e8-559c-44ab-8965-b9fc5607976f"
+         ], 
+         "text" : "#Baza_Maid.397cd593-7305-4659-a5db-3db0780b387e"
+      }, 
+      "c8c999e8-559c-44ab-8965-b9fc5607976f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102627", 
+            "y" : "-100681"
+         }, 
+         "child" : [ 
+            "49ffed42-2563-4f76-84cc-b5881e8285d9", 
+            "b185946b-7cfc-4e62-a5e5-37450c90228c", 
+            "5bb41b8b-5571-4bfe-94dc-3be81b9693e0", 
+            "7272a9bb-8598-4596-96aa-71c3192d1188"
+         ]
+      }, 
+      "49ffed42-2563-4f76-84cc-b5881e8285d9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103475", 
+            "y" : "-100506", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "4690f2c2-5bfb-409c-a5e8-2cd4487d1d49", 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "4652fa9f-f193-4e53-b7a0-2a0550a9f45a"
+         ], 
+         "text" : "#Baza_Maid.49ffed42-2563-4f76-84cc-b5881e8285d9"
+      }, 
+      "4690f2c2-5bfb-409c-a5e8-2cd4487d1d49" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103608", 
+            "y" : "-100313", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "6f9b8c5e-40b1-4597-839e-e787424250b5"
+         ], 
+         "text" : "#Baza_Maid.4690f2c2-5bfb-409c-a5e8-2cd4487d1d49"
+      }, 
+      "6f9b8c5e-40b1-4597-839e-e787424250b5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101249", 
+            "y" : "-100413"
+         }, 
+         "child" : [ 
+            "c4786a3c-4904-43a0-8577-76589974abbe"
+         ]
+      }, 
+      "c4786a3c-4904-43a0-8577-76589974abbe" : { 
+         "class" : "InventoryHasLootNode", 
+         "desc" : { 
+            "x" : "-101223", 
+            "y" : "-100352"
+         }, 
+         "child" : [ 
+            "f8d1031f-b08c-4034-9b1c-0dbacd39727a", 
+            "63ca6f8a-afa3-4c81-9aeb-5128f9bdf88d"
+         ], 
+         "objectName" : "IceBox_Big_2"
+      }, 
+      "f8d1031f-b08c-4034-9b1c-0dbacd39727a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101451", 
+            "y" : "-100240", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "18df19c2-c92d-46c7-b8a7-f6ebff932567", 
+            "a0b3723d-e072-4c00-a9aa-8cc17618e106"
+         ], 
+         "text" : "#Baza_Maid.f8d1031f-b08c-4034-9b1c-0dbacd39727a"
+      }, 
+      "da977fca-6369-4949-afc9-d7657aecb911" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101604", 
+            "y" : "-99821"
+         }, 
+         "child" : [ 
+            "1e0848c6-c70f-4867-8c14-0a050c3777a3"
+         ]
+      }, 
+      "1e0848c6-c70f-4867-8c14-0a050c3777a3" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101606", 
+            "y" : "-99767"
+         }, 
+         "child" : [ 
+            "c7c9f694-b8bd-45a1-829d-b32f7ba41def", 
+            "d609db92-49e4-4c92-8d54-e63c7ec0f5f6"
+         ], 
+         "teammate" : "Wolfter"
+      }, 
+      "c7c9f694-b8bd-45a1-829d-b32f7ba41def" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101773", 
+            "y" : "-99664", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "e9d34e6f-ce4d-4fe9-b256-64c1d58c508c"
+         ], 
+         "text" : "#Baza_Maid.c7c9f694-b8bd-45a1-829d-b32f7ba41def"
+      }, 
+      "e9d34e6f-ce4d-4fe9-b256-64c1d58c508c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101774", 
+            "y" : "-99575", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "0545cf50-8ee1-4be5-89d4-f0afecf56658"
+         ], 
+         "text" : "#Baza_Maid.e9d34e6f-ce4d-4fe9-b256-64c1d58c508c"
+      }, 
+      "0545cf50-8ee1-4be5-89d4-f0afecf56658" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101772", 
+            "y" : "-99501"
+         }, 
+         "child" : [ 
+            "01094099-e372-46f5-8692-1d0967570c60"
+         ]
+      }, 
+      "01094099-e372-46f5-8692-1d0967570c60" : { 
+         "class" : "CharacterHasHurtNode", 
+         "desc" : { 
+            "x" : "-101981", 
+            "y" : "-99470"
+         }, 
+         "child" : [ 
+            "f867e3cb-aa59-42a9-9817-d04a75af6407", 
+            "272817af-1ffc-4963-b27f-44ba1b7b0d1f"
+         ], 
+         "objectName" : "Wolfter"
+      }, 
+      "f867e3cb-aa59-42a9-9817-d04a75af6407" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101772", 
+            "y" : "-99415"
+         }, 
+         "child" : [ 
+            "350550cd-d5ad-4c0e-89a8-7b4fed1696b5"
+         ], 
+         "text" : "#Baza_Maid.f867e3cb-aa59-42a9-9817-d04a75af6407"
+      }, 
+      "350550cd-d5ad-4c0e-89a8-7b4fed1696b5" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-101734", 
+            "y" : "-99310"
+         }, 
+         "child" : [ 
+            "a5305396-de35-46e5-a4b6-15921d1008c7"
+         ], 
+         "proto" : "Heal_Full", 
+         "objectName" : "Wolfter"
+      }, 
+      "a5305396-de35-46e5-a4b6-15921d1008c7" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-99232"
+         }, 
+         "child" : [ 
+            "ccf2b5fd-7daa-4aa9-ba73-13ea12c81207"
+         ], 
+         "time" : "12", 
+         "timeMode" : "Hour"
+      }, 
+      "ccf2b5fd-7daa-4aa9-ba73-13ea12c81207" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101774", 
+            "y" : "-99166"
+         }, 
+         "child" : [ 
+            "e8305c52-7210-40f9-83c5-f0e114b0a4ce"
+         ], 
+         "text" : "#Baza_Maid.ccf2b5fd-7daa-4aa9-ba73-13ea12c81207"
+      }, 
+      "e8305c52-7210-40f9-83c5-f0e114b0a4ce" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-99084"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "272817af-1ffc-4963-b27f-44ba1b7b0d1f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102071", 
+            "y" : "-99353"
+         }, 
+         "child" : [ 
+            "9562517f-0f0b-492e-aa4b-9a470997cf0f"
+         ], 
+         "text" : "#Baza_Maid.272817af-1ffc-4963-b27f-44ba1b7b0d1f"
+      }, 
+      "9562517f-0f0b-492e-aa4b-9a470997cf0f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100950", 
+            "y" : "-100102", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "c99e697c-92f4-4b00-9d34-5fea138ff06c"
+         ], 
+         "text" : "#Baza_Maid.9562517f-0f0b-492e-aa4b-9a470997cf0f"
+      }, 
+      "c99e697c-92f4-4b00-9d34-5fea138ff06c" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100899", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d609db92-49e4-4c92-8d54-e63c7ec0f5f6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101456", 
+            "y" : "-99641"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "18df19c2-c92d-46c7-b8a7-f6ebff932567" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101113", 
+            "y" : "-99635"
+         }, 
+         "child" : [ 
+            "87819169-29c1-45d6-8ce6-3071f8aaef67"
+         ]
+      }, 
+      "87819169-29c1-45d6-8ce6-3071f8aaef67" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101139", 
+            "y" : "-99588"
+         }, 
+         "child" : [ 
+            "39d160a3-1ed6-47a3-ba26-b6d6e14be7e1", 
+            "3d22bf0c-7437-4862-96ca-a39f3e2abe1d"
+         ], 
+         "key" : "CRAFT_KVAS"
+      }, 
+      "39d160a3-1ed6-47a3-ba26-b6d6e14be7e1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100418", 
+            "y" : "-100028"
+         }, 
+         "child" : [ 
+            "73177a4a-b0e5-4dfd-8bcf-7928bea6f17d"
+         ], 
+         "text" : "Сможешь сделать Ядер квас?"
+      }, 
+      "73177a4a-b0e5-4dfd-8bcf-7928bea6f17d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100389", 
+            "y" : "-99936"
+         }, 
+         "child" : [ 
+            "20ced352-f631-4bdd-9773-83ec3ea17211", 
+            "39e306d9-282b-4f15-97c3-14f6102d8087"
+         ], 
+         "key" : "KVAS_TIME"
+      }, 
+      "20ced352-f631-4bdd-9773-83ec3ea17211" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99739", 
+            "y" : "-99929"
+         }, 
+         "child" : [ 
+            "3139e6f0-4a8b-413e-ba8d-95b0aa8388e7"
+         ], 
+         "text" : "Погоди я ещё старый не доделала"
+      }, 
+      "3139e6f0-4a8b-413e-ba8d-95b0aa8388e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100320", 
+            "y" : "-97852"
+         }, 
+         "child" : [ 
+            "52cadf08-84ed-45fb-aae3-b9c8d9e51eb0"
+         ]
+      }, 
+      "52cadf08-84ed-45fb-aae3-b9c8d9e51eb0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-97776"
+         }, 
+         "child" : [ 
+            "b7ae4d21-e996-4f3c-b738-e9e15e3a0784"
+         ], 
+         "text" : "Будем ждать. Пока"
+      }, 
+      "b7ae4d21-e996-4f3c-b738-e9e15e3a0784" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100505", 
+            "y" : "-97712"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "39e306d9-282b-4f15-97c3-14f6102d8087" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100463", 
+            "y" : "-99756"
+         }, 
+         "child" : [ 
+            "83bb7c55-8c2f-4e7b-878c-42ce3f70f6f3"
+         ], 
+         "text" : "Я постараюсь"
+      }, 
+      "83bb7c55-8c2f-4e7b-878c-42ce3f70f6f3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100409", 
+            "y" : "-99678"
+         }, 
+         "child" : [ 
+            "128b7ca8-82b6-4744-b6c6-aa498a48d99d", 
+            "82b901a2-b4e6-42e4-b37b-859364609788"
+         ]
+      }, 
+      "128b7ca8-82b6-4744-b6c6-aa498a48d99d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100863", 
+            "y" : "-99373"
+         }, 
+         "child" : [ 
+            "2491b5bd-4c1a-438a-bd2a-5b4537b19b43", 
+            "252bbe38-3246-4d53-8820-c0db22cad1a9"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2491b5bd-4c1a-438a-bd2a-5b4537b19b43" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100870", 
+            "y" : "-99246"
+         }, 
+         "child" : [ 
+            "bf7c221c-2fe2-42eb-a429-118924f5998a", 
+            "252bbe38-3246-4d53-8820-c0db22cad1a9"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bf7c221c-2fe2-42eb-a429-118924f5998a" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100880", 
+            "y" : "-99115"
+         }, 
+         "child" : [ 
+            "56bf4941-d2bf-4eac-ab9e-15fa0d0a9856", 
+            "252bbe38-3246-4d53-8820-c0db22cad1a9"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "56bf4941-d2bf-4eac-ab9e-15fa0d0a9856" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100891", 
+            "y" : "-98988"
+         }, 
+         "child" : [ 
+            "d9b2ba09-ddb6-4783-b2ae-6b7b25f910e1", 
+            "252bbe38-3246-4d53-8820-c0db22cad1a9"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "5", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d9b2ba09-ddb6-4783-b2ae-6b7b25f910e1" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100899", 
+            "y" : "-98863"
+         }, 
+         "child" : [ 
+            "a259112c-2343-46c6-817d-99087a7e57a8", 
+            "252bbe38-3246-4d53-8820-c0db22cad1a9"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a259112c-2343-46c6-817d-99087a7e57a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100901", 
+            "y" : "-98703"
+         }, 
+         "child" : [ 
+            "fda3edad-b451-48cb-ab9a-54f0c39f61a1", 
+            "37396608-1443-46d6-a604-ca123c828dcc"
+         ]
+      }, 
+      "fda3edad-b451-48cb-ab9a-54f0c39f61a1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100959", 
+            "y" : "-98634"
+         }, 
+         "child" : [ 
+            "48683550-2431-4cbb-aa85-e1b18cc37b42"
+         ], 
+         "text" : "Вот держи на 1 порцию"
+      }, 
+      "48683550-2431-4cbb-aa85-e1b18cc37b42" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100946", 
+            "y" : "-98552"
+         }, 
+         "child" : [ 
+            "687110b8-29c2-4910-bd9c-500240bcb9d0"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "687110b8-29c2-4910-bd9c-500240bcb9d0" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100947", 
+            "y" : "-98446"
+         }, 
+         "child" : [ 
+            "0edbe80f-6aa2-47b8-8c6d-1a60d572bef3"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0edbe80f-6aa2-47b8-8c6d-1a60d572bef3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100948", 
+            "y" : "-98336"
+         }, 
+         "child" : [ 
+            "39bfecee-b865-4b64-9ef5-e518bd894006"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "39bfecee-b865-4b64-9ef5-e518bd894006" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100948", 
+            "y" : "-98227"
+         }, 
+         "child" : [ 
+            "d5b3c496-4ae2-4f54-8406-87888addb77f"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "5", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d5b3c496-4ae2-4f54-8406-87888addb77f" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100949", 
+            "y" : "-98116"
+         }, 
+         "child" : [ 
+            "deb99a87-8760-4d98-96de-8d26e6de6c05"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "deb99a87-8760-4d98-96de-8d26e6de6c05" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100905", 
+            "y" : "-98013"
+         }, 
+         "child" : [ 
+            "dd9fd86f-6a56-441c-b461-5e0e5dc4c3be"
+         ], 
+         "key" : "MAKE_KVAS_1"
+      }, 
+      "dd9fd86f-6a56-441c-b461-5e0e5dc4c3be" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-98015"
+         }, 
+         "child" : [ 
+            "26547886-74b9-4414-9e18-084ebe24d14a"
+         ]
+      }, 
+      "26547886-74b9-4414-9e18-084ebe24d14a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100515", 
+            "y" : "-97961"
+         }, 
+         "child" : [ 
+            "e61109e6-dfbe-4f72-b60a-6db71c0bd248"
+         ], 
+         "key" : "KVAS_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "e61109e6-dfbe-4f72-b60a-6db71c0bd248" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100558", 
+            "y" : "-97867"
+         }, 
+         "child" : [ 
+            "52cadf08-84ed-45fb-aae3-b9c8d9e51eb0"
+         ], 
+         "text" : "Будет готово через 12 часо, быстрее никак"
+      }, 
+      "37396608-1443-46d6-a604-ca123c828dcc" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100631", 
+            "y" : "-99422"
+         }, 
+         "child" : [ 
+            "6ad1c3d4-b438-4a91-9f95-83d4c1c9bbfe", 
+            "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6ad1c3d4-b438-4a91-9f95-83d4c1c9bbfe" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100638", 
+            "y" : "-99295"
+         }, 
+         "child" : [ 
+            "eca8bbe8-a038-42c8-a03f-f7095a03fb45", 
+            "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "eca8bbe8-a038-42c8-a03f-f7095a03fb45" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100648", 
+            "y" : "-99164"
+         }, 
+         "child" : [ 
+            "6159e51d-25c1-4048-a1f9-64af88ce00d7", 
+            "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6159e51d-25c1-4048-a1f9-64af88ce00d7" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100659", 
+            "y" : "-99037"
+         }, 
+         "child" : [ 
+            "398593b1-a0e8-40e5-a9e2-23e04e56785d", 
+            "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "398593b1-a0e8-40e5-a9e2-23e04e56785d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100667", 
+            "y" : "-98912"
+         }, 
+         "child" : [ 
+            "6ae3315a-b7c2-464a-983f-3934c14d2112", 
+            "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "20", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6ae3315a-b7c2-464a-983f-3934c14d2112" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100665", 
+            "y" : "-98780"
+         }, 
+         "child" : [ 
+            "1a19575f-06d2-4414-8817-e7c814c217b0", 
+            "9ce9d5dd-acf7-4208-99d5-f2ea851654e1"
+         ]
+      }, 
+      "1a19575f-06d2-4414-8817-e7c814c217b0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100713", 
+            "y" : "-98705"
+         }, 
+         "child" : [ 
+            "b3c9aa09-ef0d-4f4b-8a70-40a40c214fd7"
+         ], 
+         "text" : "Вот держи на 2 порции"
+      }, 
+      "b3c9aa09-ef0d-4f4b-8a70-40a40c214fd7" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100699", 
+            "y" : "-98641"
+         }, 
+         "child" : [ 
+            "e25e29e8-cca4-457c-9842-3d497f316bb3"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e25e29e8-cca4-457c-9842-3d497f316bb3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100700", 
+            "y" : "-98535"
+         }, 
+         "child" : [ 
+            "ece1301a-7652-412b-bba9-c2d849725427"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ece1301a-7652-412b-bba9-c2d849725427" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100701", 
+            "y" : "-98424"
+         }, 
+         "child" : [ 
+            "526d24cf-b722-4a4e-8e02-137a2bfb18e4"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "526d24cf-b722-4a4e-8e02-137a2bfb18e4" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100701", 
+            "y" : "-98316"
+         }, 
+         "child" : [ 
+            "21b9ffea-c340-4d4c-91db-3b756ebd16da"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "21b9ffea-c340-4d4c-91db-3b756ebd16da" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100702", 
+            "y" : "-98205"
+         }, 
+         "child" : [ 
+            "ff85fb38-e7f5-4477-b3ff-dc33e1ba22c6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "20", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ff85fb38-e7f5-4477-b3ff-dc33e1ba22c6" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100658", 
+            "y" : "-98100"
+         }, 
+         "child" : [ 
+            "dd9fd86f-6a56-441c-b461-5e0e5dc4c3be"
+         ], 
+         "key" : "MAKE_KVAS_2"
+      }, 
+      "9ce9d5dd-acf7-4208-99d5-f2ea851654e1" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100403", 
+            "y" : "-99475"
+         }, 
+         "child" : [ 
+            "af8f1455-7fbe-494e-ae86-9429b07eaf7b", 
+            "77fdb1d8-6318-47b3-a864-e7a3749255af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "af8f1455-7fbe-494e-ae86-9429b07eaf7b" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100410", 
+            "y" : "-99348"
+         }, 
+         "child" : [ 
+            "bb6e2095-ba0e-46e7-a747-484c9fa077c6", 
+            "77fdb1d8-6318-47b3-a864-e7a3749255af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bb6e2095-ba0e-46e7-a747-484c9fa077c6" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100420", 
+            "y" : "-99217"
+         }, 
+         "child" : [ 
+            "fdd86250-11d8-4998-bb5d-c3e85318300e", 
+            "77fdb1d8-6318-47b3-a864-e7a3749255af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "9", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fdd86250-11d8-4998-bb5d-c3e85318300e" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100431", 
+            "y" : "-99090"
+         }, 
+         "child" : [ 
+            "072399e6-fb2c-4796-a368-72adc6f2d13c", 
+            "77fdb1d8-6318-47b3-a864-e7a3749255af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "15", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "072399e6-fb2c-4796-a368-72adc6f2d13c" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100439", 
+            "y" : "-98965"
+         }, 
+         "child" : [ 
+            "fa508355-5766-4baa-a03c-a52cfc1a5d1e", 
+            "77fdb1d8-6318-47b3-a864-e7a3749255af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "30", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fa508355-5766-4baa-a03c-a52cfc1a5d1e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100418", 
+            "y" : "-98781"
+         }, 
+         "child" : [ 
+            "2931ec8e-6f48-47e6-bfbc-0d6eb27f7d39", 
+            "cec4fc39-c398-43a0-9351-2b16b816fd80"
+         ]
+      }, 
+      "2931ec8e-6f48-47e6-bfbc-0d6eb27f7d39" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100460", 
+            "y" : "-98699"
+         }, 
+         "child" : [ 
+            "a01395bb-c445-4902-a71d-6418bd56c8fa"
+         ], 
+         "text" : "Вот держи на 3 порции"
+      }, 
+      "a01395bb-c445-4902-a71d-6418bd56c8fa" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100449", 
+            "y" : "-98633"
+         }, 
+         "child" : [ 
+            "d7803cf6-9f2b-4381-b00f-1437712cc9b8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d7803cf6-9f2b-4381-b00f-1437712cc9b8" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100449", 
+            "y" : "-98527"
+         }, 
+         "child" : [ 
+            "4300f38a-dc03-4b73-8578-298b3cbcc06b"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "6", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4300f38a-dc03-4b73-8578-298b3cbcc06b" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100451", 
+            "y" : "-98417"
+         }, 
+         "child" : [ 
+            "d103faf6-16a7-4d24-92dd-819c81e13707"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "9", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d103faf6-16a7-4d24-92dd-819c81e13707" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100451", 
+            "y" : "-98308"
+         }, 
+         "child" : [ 
+            "4699ea6a-c810-4717-83e2-f9a0fa264f6b"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "15", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4699ea6a-c810-4717-83e2-f9a0fa264f6b" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100452", 
+            "y" : "-98197"
+         }, 
+         "child" : [ 
+            "98e90d08-a6b5-44d4-9569-36c758fee2b2"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "30", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "98e90d08-a6b5-44d4-9569-36c758fee2b2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100402", 
+            "y" : "-98091"
+         }, 
+         "child" : [ 
+            "dd9fd86f-6a56-441c-b461-5e0e5dc4c3be"
+         ], 
+         "key" : "MAKE_KVAS_3"
+      }, 
+      "cec4fc39-c398-43a0-9351-2b16b816fd80" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100165", 
+            "y" : "-99535"
+         }, 
+         "child" : [ 
+            "f1eb3ce0-8e72-4638-96e0-ce24e3c3ce00", 
+            "7f3da228-ed48-4953-9164-4b639fc10995"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "8", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f1eb3ce0-8e72-4638-96e0-ce24e3c3ce00" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100172", 
+            "y" : "-99408"
+         }, 
+         "child" : [ 
+            "a7fed5bc-3508-487e-b6df-de0d71ede3d5", 
+            "7f3da228-ed48-4953-9164-4b639fc10995"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "8", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a7fed5bc-3508-487e-b6df-de0d71ede3d5" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-99277"
+         }, 
+         "child" : [ 
+            "78bafc90-5897-4e37-93e4-62e7f812170e", 
+            "7f3da228-ed48-4953-9164-4b639fc10995"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "12", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "78bafc90-5897-4e37-93e4-62e7f812170e" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100193", 
+            "y" : "-99150"
+         }, 
+         "child" : [ 
+            "24d7fde8-f90f-48a0-b63f-3de7b1f5f9d2", 
+            "7f3da228-ed48-4953-9164-4b639fc10995"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "20", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "24d7fde8-f90f-48a0-b63f-3de7b1f5f9d2" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100201", 
+            "y" : "-99025"
+         }, 
+         "child" : [ 
+            "15b8e8b0-8c7b-45c9-ba5e-d5464ae49618", 
+            "7f3da228-ed48-4953-9164-4b639fc10995"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "40", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "15b8e8b0-8c7b-45c9-ba5e-d5464ae49618" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100215", 
+            "y" : "-98722"
+         }, 
+         "child" : [ 
+            "5a4e5084-7c0a-447e-b9ec-426847237d68"
+         ], 
+         "text" : "Вот держи на 4 порции"
+      }, 
+      "5a4e5084-7c0a-447e-b9ec-426847237d68" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100203", 
+            "y" : "-98648"
+         }, 
+         "child" : [ 
+            "b946f4bb-d4de-4578-918f-1e5012827265"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "8", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b946f4bb-d4de-4578-918f-1e5012827265" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100204", 
+            "y" : "-98542"
+         }, 
+         "child" : [ 
+            "e6300b8a-0a03-4be0-98df-485b76147c70"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "8", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e6300b8a-0a03-4be0-98df-485b76147c70" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100205", 
+            "y" : "-98432"
+         }, 
+         "child" : [ 
+            "4d661610-438b-45b9-bdb6-b28073b8f133"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "12", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4d661610-438b-45b9-bdb6-b28073b8f133" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100205", 
+            "y" : "-98323"
+         }, 
+         "child" : [ 
+            "d31f28b5-baf7-456e-8760-0546858be819"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "20", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d31f28b5-baf7-456e-8760-0546858be819" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100206", 
+            "y" : "-98212"
+         }, 
+         "child" : [ 
+            "2aa9525e-a7e8-4dd3-9313-a5d9e23ef16f"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "40", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2aa9525e-a7e8-4dd3-9313-a5d9e23ef16f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100164", 
+            "y" : "-98102"
+         }, 
+         "child" : [ 
+            "dd9fd86f-6a56-441c-b461-5e0e5dc4c3be"
+         ], 
+         "key" : "MAKE_KVAS_4"
+      }, 
+      "7f3da228-ed48-4953-9164-4b639fc10995" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99974", 
+            "y" : "-98861"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "77fdb1d8-6318-47b3-a864-e7a3749255af" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100212", 
+            "y" : "-98801"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f300ef1c-d0e0-4257-9cbb-a32784eb1f1d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100529", 
+            "y" : "-98742"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "252bbe38-3246-4d53-8820-c0db22cad1a9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101191", 
+            "y" : "-98769"
+         }, 
+         "child" : [ 
+            "dde9e450-b671-4095-882c-c32a7595db3d"
+         ]
+      }, 
+      "dde9e450-b671-4095-882c-c32a7595db3d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101241", 
+            "y" : "-98697"
+         }, 
+         "child" : [ 
+            "017113d5-d973-40bd-8ec0-fe1c7cb82058"
+         ], 
+         "text" : "Как найду - принесу, а пока мне пора"
+      }, 
+      "017113d5-d973-40bd-8ec0-fe1c7cb82058" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101188", 
+            "y" : "-98607"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "82b901a2-b4e6-42e4-b37b-859364609788" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100085", 
+            "y" : "-99775"
+         }, 
+         "child" : [ 
+            "2a3eb4a2-47d4-4cb8-ba9c-4e0925e5a10b"
+         ], 
+         "text" : "Чего то мне перехотелось [уйти]"
+      }, 
+      "2a3eb4a2-47d4-4cb8-ba9c-4e0925e5a10b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100032", 
+            "y" : "-99707"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3d22bf0c-7437-4862-96ca-a39f3e2abe1d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101173", 
+            "y" : "-99442"
+         }, 
+         "child" : [ 
+            "2d893ea5-617f-4036-93f1-a53f07fa7f5e"
+         ]
+      }, 
+      "2d893ea5-617f-4036-93f1-a53f07fa7f5e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101225", 
+            "y" : "-99389"
+         }, 
+         "child" : [ 
+            "dfbe76ce-4cde-4601-b657-09b12303cbbd"
+         ], 
+         "text" : "А ещё чего то особенного можешь приготовить?"
+      }, 
+      "dfbe76ce-4cde-4601-b657-09b12303cbbd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101226", 
+            "y" : "-99287"
+         }, 
+         "child" : [ 
+            "c300c060-151c-4c03-8588-9d70d92c8714"
+         ], 
+         "text" : "Ну я знаю старый рецепт Ядер кваса - его делала моя бабушка до того как миру пришёл конец..."
+      }, 
+      "c300c060-151c-4c03-8588-9d70d92c8714" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101225", 
+            "y" : "-99168"
+         }, 
+         "child" : [ 
+            "749b2f10-210b-46ba-bcf6-c3289ee2a4e3"
+         ]
+      }, 
+      "749b2f10-210b-46ba-bcf6-c3289ee2a4e3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101222", 
+            "y" : "-99106"
+         }, 
+         "child" : [ 
+            "145b6051-6840-4fa9-8679-542fba8310b6"
+         ], 
+         "text" : "В нынешних условиях повторить его будет довольно сложно, мне понядобятся 2 бутылки воды в стекле, 2 в пластике, 10 свёкол (сахара же не найти), 3 пряника и 5 галет на мякину"
+      }, 
+      "145b6051-6840-4fa9-8679-542fba8310b6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-98981"
+         }, 
+         "child" : [ 
+            "31f2b067-6e09-4cf6-a6c3-81650ee9c18d"
+         ], 
+         "text" : "Отлично!"
+      }, 
+      "31f2b067-6e09-4cf6-a6c3-81650ee9c18d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101316", 
+            "y" : "-98914"
+         }, 
+         "child" : [ 
+            "73177a4a-b0e5-4dfd-8bcf-7928bea6f17d"
+         ], 
+         "key" : "CRAFT_KVAS"
+      }, 
+      "a0b3723d-e072-4c00-a9aa-8cc17618e106" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101192", 
+            "y" : "-99924", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "4087afb8-ea44-4a21-b17f-583d6f752de3"
+         ], 
+         "text" : "#Baza_Maid.a0b3723d-e072-4c00-a9aa-8cc17618e106"
+      }, 
+      "4087afb8-ea44-4a21-b17f-583d6f752de3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101139", 
+            "y" : "-99847"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "63ca6f8a-afa3-4c81-9aeb-5128f9bdf88d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101215", 
+            "y" : "-100247", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "18df19c2-c92d-46c7-b8a7-f6ebff932567", 
+            "9562517f-0f0b-492e-aa4b-9a470997cf0f"
+         ], 
+         "text" : "#Baza_Maid.63ca6f8a-afa3-4c81-9aeb-5128f9bdf88d"
+      }, 
+      "4652fa9f-f193-4e53-b7a0-2a0550a9f45a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103276", 
+            "y" : "-100387", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "9f16d2e3-fb58-46e6-93af-f621fda7c353"
+         ], 
+         "text" : "#Baza_Maid.4652fa9f-f193-4e53-b7a0-2a0550a9f45a"
+      }, 
+      "9f16d2e3-fb58-46e6-93af-f621fda7c353" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103222", 
+            "y" : "-100316"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b185946b-7cfc-4e62-a5e5-37450c90228c" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102782", 
+            "y" : "-100809"
+         }, 
+         "child" : [ 
+            "c8c999e8-559c-44ab-8965-b9fc5607976f", 
+            "b54ddb1e-dec9-4a8a-b57f-55098853e406"
+         ], 
+         "note_key" : "BAZA_PASHA_DIED"
+      }, 
+      "b54ddb1e-dec9-4a8a-b57f-55098853e406" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102864", 
+            "y" : "-100504", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "c7c3208e-ed44-406d-9a23-5f320d3a89cc", 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "1b230c31-d68f-494a-a5f5-594ee547b33b"
+         ], 
+         "text" : "#Baza_Maid.b54ddb1e-dec9-4a8a-b57f-55098853e406"
+      }, 
+      "c7c3208e-ed44-406d-9a23-5f320d3a89cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103059", 
+            "y" : "-100143", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "6f9b8c5e-40b1-4597-839e-e787424250b5"
+         ], 
+         "text" : "#Baza_Maid.c7c3208e-ed44-406d-9a23-5f320d3a89cc"
+      }, 
+      "1b230c31-d68f-494a-a5f5-594ee547b33b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102929", 
+            "y" : "-100037", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "8ce97d60-8c0a-48ba-8641-0f91eea210d9"
+         ], 
+         "text" : "#Baza_Maid.1b230c31-d68f-494a-a5f5-594ee547b33b"
+      }, 
+      "8ce97d60-8c0a-48ba-8641-0f91eea210d9" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102884", 
+            "y" : "-99935"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5bb41b8b-5571-4bfe-94dc-3be81b9693e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102542", 
+            "y" : "-100477", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "862a625e-b479-4bca-b87e-536f84dc753f", 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "56b32c16-49a5-4917-914d-e068016ddf3a"
+         ], 
+         "text" : "#Baza_Maid.5bb41b8b-5571-4bfe-94dc-3be81b9693e0"
+      }, 
+      "862a625e-b479-4bca-b87e-536f84dc753f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102636", 
+            "y" : "-100271", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "6f9b8c5e-40b1-4597-839e-e787424250b5"
+         ], 
+         "text" : "#Baza_Maid.862a625e-b479-4bca-b87e-536f84dc753f"
+      }, 
+      "56b32c16-49a5-4917-914d-e068016ddf3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102386", 
+            "y" : "-100067", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "2af84021-d7c2-4369-ad1b-67b518c2cc3b"
+         ], 
+         "text" : "#Baza_Maid.56b32c16-49a5-4917-914d-e068016ddf3a"
+      }, 
+      "2af84021-d7c2-4369-ad1b-67b518c2cc3b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102332", 
+            "y" : "-99987"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7272a9bb-8598-4596-96aa-71c3192d1188" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102173", 
+            "y" : "-100512", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "8fb640de-6e42-4d08-858f-054e990184da", 
+            "da977fca-6369-4949-afc9-d7657aecb911", 
+            "1dcddf70-30b6-4fed-9b8c-f65fdf8ae8b3"
+         ], 
+         "text" : "#Baza_Maid.7272a9bb-8598-4596-96aa-71c3192d1188"
+      }, 
+      "8fb640de-6e42-4d08-858f-054e990184da" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102302", 
+            "y" : "-100336", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "6f9b8c5e-40b1-4597-839e-e787424250b5"
+         ], 
+         "text" : "#Baza_Maid.8fb640de-6e42-4d08-858f-054e990184da"
+      }, 
+      "1dcddf70-30b6-4fed-9b8c-f65fdf8ae8b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101864", 
+            "y" : "-100290", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "24f73f26-1175-4341-9192-c9a50f92bfc5"
+         ], 
+         "text" : "#Baza_Maid.1dcddf70-30b6-4fed-9b8c-f65fdf8ae8b3"
+      }, 
+      "24f73f26-1175-4341-9192-c9a50f92bfc5" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-100213"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d9354b1f-e28d-4fb0-853e-105e75f726a1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102125", 
+            "y" : "-100703", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "6f9b8c5e-40b1-4597-839e-e787424250b5"
+         ], 
+         "text" : "#Baza_Maid.d9354b1f-e28d-4fb0-853e-105e75f726a1"
+      }, 
+      "b3a710e0-29aa-41ab-a80d-60e6795b9d45" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101685", 
+            "y" : "-100767", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "156504bb-eeff-4f57-9a86-cfc6c4f09459"
+         ], 
+         "text" : "#Baza_Maid.b3a710e0-29aa-41ab-a80d-60e6795b9d45"
+      }, 
+      "156504bb-eeff-4f57-9a86-cfc6c4f09459" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101630", 
+            "y" : "-100695"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "213f4b29-b8f7-478f-ac15-f2bcd35474cd"
+}

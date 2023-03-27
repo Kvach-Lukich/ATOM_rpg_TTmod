@@ -50,25 +50,19 @@
             "1d35b6eb-c734-4267-b3a7-86753d9f5d0d", 
             "cf26b1d7-b252-498d-a4ea-4a0ecf461905", 
             "b944ebc2-ebc9-4dc1-b246-407efd02609c", 
-            "b2e28b03-acc2-48a9-8620-9f0c578565c8", 
             "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11", 
             "810007ee-0499-4925-8e10-baff36199d02", 
             "e4478992-4476-48a2-b22f-c433595367b5", 
             "c4136e25-44fd-41dc-89ac-418adb6ef588", 
             "1e89bcb7-6c1e-48b2-93bd-c955088e07eb", 
-            "636bec7a-fca0-456b-989b-b0c5851042cc", 
             "ce8c56eb-a79f-4e43-a1be-dab657a1b5a1", 
-            "b8d4e18e-a9d0-4a57-b957-504c5384fd59", 
             "4e115a87-66f1-442a-b59c-731003952ecb", 
             "096166be-5133-4e3a-88a7-6688bbca2987", 
-            "4c537451-28e4-4a48-8d51-e601363d8647", 
             "6fce5766-7f19-488b-9869-9248964f92a5", 
             "7b5c0ecf-36dc-4126-9813-3e553a036e4e", 
             "d017682a-7fb5-4961-b4d6-01b899dd4589", 
             "92dc0a30-0f42-435d-8d08-f919b7a32d8e", 
-            "83a51f58-8a3d-456d-9caf-e72547cb8e8e", 
-            "19769040-dd8f-4585-8b45-33c540fd177c", 
-            "1cc67870-0119-465b-9852-c99d24854a53"
+            "83a51f58-8a3d-456d-9caf-e72547cb8e8e"
          ]
       }, 
       "146b00b8-9740-43c6-9f27-6cff4b040ab0" : { 
@@ -433,17 +427,6 @@
          "recipe" : "Rojo_full", 
          "showMsg" : "true"
       }, 
-      "b2e28b03-acc2-48a9-8620-9f0c578565c8" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-98141", 
-            "y" : "-99091"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "Scorpion_M", 
-         "showMsg" : "true"
-      }, 
       "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
@@ -499,17 +482,6 @@
          "recipe" : "SpikedTruncheon", 
          "showMsg" : "true"
       }, 
-      "636bec7a-fca0-456b-989b-b0c5851042cc" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-97891", 
-            "y" : "-98841"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "SVD_M", 
-         "showMsg" : "true"
-      }, 
       "ce8c56eb-a79f-4e43-a1be-dab657a1b5a1" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
@@ -519,17 +491,6 @@
          "child" : [ 
          ], 
          "recipe" : "Tin_Grenade", 
-         "showMsg" : "true"
-      }, 
-      "b8d4e18e-a9d0-4a57-b957-504c5384fd59" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-99503", 
-            "y" : "-100840"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "craft_m24_m", 
          "showMsg" : "true"
       }, 
       "4e115a87-66f1-442a-b59c-731003952ecb" : { 
@@ -552,17 +513,6 @@
          "child" : [ 
          ], 
          "recipe" : "craft_m81_inviz", 
-         "showMsg" : "true"
-      }, 
-      "4c537451-28e4-4a48-8d51-e601363d8647" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-99373", 
-            "y" : "-100839"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "craft_sks_s", 
          "showMsg" : "true"
       }, 
       "6fce5766-7f19-488b-9869-9248964f92a5" : { 
@@ -618,28 +568,6 @@
          "child" : [ 
          ], 
          "recipe" : "craft_m81_m", 
-         "showMsg" : "true"
-      }, 
-      "19769040-dd8f-4585-8b45-33c540fd177c" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-98407", 
-            "y" : "-100834"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "craft_glases3", 
-         "showMsg" : "true"
-      }, 
-      "1cc67870-0119-465b-9852-c99d24854a53" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-98576", 
-            "y" : "-100836"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "craft_glases2", 
          "showMsg" : "true"
       }, 
       "edd9cb0a-86b1-4d06-8b78-e1bd139475bf" : { 

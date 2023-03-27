@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: glasses2
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Uniform/glasses2
+    path: Entities/Uniform/Doc_Glasses
   m_Localization: uniform.glasses
   Takeable: 1
   Cost: 1000

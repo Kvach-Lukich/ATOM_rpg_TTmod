@@ -42,34 +42,34 @@ MonoBehaviour:
     - _type: 27
       _value: 10
     Level: 12
-    ExperiencePoints: 60
-    Strength: 3
+    ExperiencePoints: 53
+    Strength: 7
     Perception: 8
-    Endurance: 8
+    Endurance: 6
     Charisma: 4
-    Intelligence: 6
-    Agility: 9
-    Luck: 5
+    Intelligence: 7
+    Agility: 8
+    Luck: 6
     skillsBonus:
-      SmallGuns: 55
-      BigGuns: 50
-      AutomaticFirearms: 45
-      Unarmed: 36
+      SmallGuns: 26
+      BigGuns: 31
+      AutomaticFirearms: 30
+      Unarmed: 33
       MeleeWeapons: 35
-      Throwing: 24
+      Throwing: 25
       FirstAid: 25
       Crafting: 0
       Sneak: 58
       Lockpick: 99
       Steal: 0
-      Alertness: 50
+      Alertness: 98
       Science: 0
       Speech: 0
       Barter: 0
       Gambling: 0
-      Outdoorsman: 16
+      Outdoorsman: 26
     Perks: 6a000000
-    FreeSkillPoints: 7
-    FreeStatPoints: 7
+    FreeSkillPoints: 20
+    FreeStatPoints: 0
     FreeSpecPoints: 7
     SpecLevel: 1

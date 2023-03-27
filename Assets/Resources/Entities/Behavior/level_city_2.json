@@ -27,6 +27,7 @@
             "b22cc863-4cf6-49e5-9db0-070c72c3220b", 
             "d3445445-9292-46c1-8bed-60287446a547", 
             "eab64f31-6e2f-4454-a66f-ceb4493525c2", 
+            "f822410d-1756-4b75-8204-f6b1637eb2f2", 
             "2a8b0aaf-d7ec-4aac-b7e6-5f41b820eda5"
          ]
       }, 
@@ -38,7 +39,8 @@
          }, 
          "child" : [ 
             "8670cf34-928a-4a58-a46d-ce589d38475a"
-         ]
+         ], 
+         "worldmapID" : ""
       }, 
       "8670cf34-928a-4a58-a46d-ce589d38475a" : { 
          "class" : "PlayerSetWorldPosNode", 
@@ -90,7 +92,8 @@
          "child" : [ 
             "3261cdb0-db88-4419-9060-b0edb5ad361f"
          ], 
-         "targetName" : "Nurse_Door"
+         "targetName" : "Nurse_Door", 
+         "targetFractionName" : ""
       }, 
       "3261cdb0-db88-4419-9060-b0edb5ad361f" : { 
          "class" : "CharacterSetRelationshipNode", 
@@ -368,6 +371,7 @@
          "child" : [ 
             "2333e74e-79b1-41e5-b7f1-33d2fdd4b081"
          ], 
+         "targetName" : "", 
          "targetFractionName" : "krz_bravo"
       }, 
       "2333e74e-79b1-41e5-b7f1-33d2fdd4b081" : { 
@@ -412,7 +416,9 @@
             "3c8b921c-3ef7-4f8b-9507-0de2c7e0c318"
          ], 
          "filterMode" : "Victim", 
-         "victimFractionName" : "krz_sick"
+         "victimName" : "", 
+         "victimFractionName" : "krz_sick", 
+         "victimPrototypeName" : ""
       }, 
       "3c8b921c-3ef7-4f8b-9507-0de2c7e0c318" : { 
          "class" : "FractionSetRelationshipNode", 
@@ -434,7 +440,8 @@
          "child" : [ 
             "20a15091-4b97-4506-9ce1-9eb508f47d16"
          ], 
-         "targetName" : "City.Godgin"
+         "targetName" : "City.Godgin", 
+         "targetFractionName" : ""
       }, 
       "20a15091-4b97-4506-9ce1-9eb508f47d16" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2861,7 +2868,8 @@
          "child" : [ 
             "a98469af-780a-4986-ae0d-7e0fbded4245"
          ], 
-         "objectName" : "Krz_mirmik"
+         "objectName" : "Krz_mirmik", 
+         "stateName" : ""
       }, 
       "a98469af-780a-4986-ae0d-7e0fbded4245" : { 
          "class" : "CharacterInOutNode", 
@@ -8681,6 +8689,26 @@
          ], 
          "inventoryObject" : "Metal_Shkaf_3 (5)"
       }, 
+      "f822410d-1756-4b75-8204-f6b1637eb2f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99523", 
+            "y" : "-99348"
+         }, 
+         "child" : [ 
+            "8e710505-edc0-4fcb-8efb-44325ed907e8"
+         ]
+      }, 
+      "8e710505-edc0-4fcb-8efb-44325ed907e8" : { 
+         "class" : "CleanCorpsesNode", 
+         "desc" : { 
+            "x" : "-99576", 
+            "y" : "-99293"
+         }, 
+         "child" : [ 
+         ], 
+         "filterFractionName" : "krz"
+      }, 
       "2a8b0aaf-d7ec-4aac-b7e6-5f41b820eda5" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
@@ -8726,6 +8754,7 @@
          "child" : [ 
             "29da6c6d-0bfd-46fd-aad2-a6e539c6f004"
          ], 
+         "targetName" : "", 
          "targetFractionName" : "menti"
       }, 
       "29da6c6d-0bfd-46fd-aad2-a6e539c6f004" : { 
@@ -8980,7 +9009,9 @@
             "3725c50c-2536-4499-aae7-308d68140c6c"
          ], 
          "filterMode" : "Aggressor", 
-         "victimName" : "Player"
+         "victimName" : "Player", 
+         "victimFractionName" : "", 
+         "victimPrototypeName" : ""
       }, 
       "84e72a28-588b-46b4-af02-d2bc8656e189" : { 
          "class" : "NotebookAddNoteNode", 

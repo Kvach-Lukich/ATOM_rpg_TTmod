@@ -1,0 +1,402 @@
+{ 
+   "states" : { 
+      "37f5bfc8-3a2b-4b21-bdc7-122eb12272e1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101007", 
+            "y" : "-100694"
+         }, 
+         "child" : [ 
+            "474695ec-f088-4b11-a622-f1d14f8d2233", 
+            "0eeb46e5-01a7-4a34-be23-11f6f783a930", 
+            "a84151f9-3ffd-4c9f-8b0b-a0e4d819e821"
+         ]
+      }, 
+      "474695ec-f088-4b11-a622-f1d14f8d2233" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101356", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+            "cc58d37e-cb07-4d76-93b8-b9a61b002e51"
+         ]
+      }, 
+      "cc58d37e-cb07-4d76-93b8-b9a61b002e51" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-100433"
+         }, 
+         "child" : [ 
+            "67462452-268f-439e-bb89-48585e115a72"
+         ], 
+         "waitTimeMin" : "10", 
+         "waitTimeMax" : "15"
+      }, 
+      "67462452-268f-439e-bb89-48585e115a72" : { 
+         "class" : "CharacterMoveToRandomNode", 
+         "desc" : { 
+            "x" : "-101382", 
+            "y" : "-100304"
+         }, 
+         "child" : [ 
+            "ec3eed02-5353-4935-8564-95921e4d9cdb"
+         ], 
+         "pointName" : "waypoints", 
+         "waitEnd" : "true", 
+         "relative" : "true", 
+         "run" : "false", 
+         "keepCourse" : "true", 
+         "useRotation" : "true"
+      }, 
+      "ec3eed02-5353-4935-8564-95921e4d9cdb" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-101357", 
+            "y" : "-100201"
+         }, 
+         "child" : [ 
+            "18c512da-3418-4430-aa73-29c37764f7f2"
+         ], 
+         "anim" : "IdleFixIt", 
+         "fade" : "true"
+      }, 
+      "18c512da-3418-4430-aa73-29c37764f7f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-100028"
+         }, 
+         "child" : [ 
+            "474695ec-f088-4b11-a622-f1d14f8d2233"
+         ]
+      }, 
+      "0eeb46e5-01a7-4a34-be23-11f6f783a930" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100955", 
+            "y" : "-100457"
+         }, 
+         "child" : [ 
+            "ee8f98a6-7ecc-4679-afbd-80f6a9b24cb8", 
+            "7c8294cb-44f0-4551-8738-a2b8c64a3b06"
+         ], 
+         "key" : "GOODS_MAID"
+      }, 
+      "ee8f98a6-7ecc-4679-afbd-80f6a9b24cb8" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-101128", 
+            "y" : "-100339"
+         }, 
+         "child" : [ 
+            "7c8294cb-44f0-4551-8738-a2b8c64a3b06"
+         ], 
+         "time" : "3", 
+         "mode" : "Day", 
+         "offsetValue" : "GOODS_MAID"
+      }, 
+      "7c8294cb-44f0-4551-8738-a2b8c64a3b06" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+            "16d0571c-d30a-42e6-a1b2-736b88cc69f3", 
+            "be21f920-160f-4a44-a77b-df090ae26e31"
+         ], 
+         "key" : "GOODS_MAID", 
+         "value" : "$TIME$"
+      }, 
+      "16d0571c-d30a-42e6-a1b2-736b88cc69f3" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101120", 
+            "y" : "-100012"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "4", 
+               "proto" : "Stew"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "4", 
+               "proto" : "Corned_Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Fish.Gorbach"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "4", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Fish.Som"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Fish.Korushka"
+            }
+         ], 
+         "inventoryObject" : "IceBox_Big_2", 
+         "random" : "true"
+      }, 
+      "be21f920-160f-4a44-a77b-df090ae26e31" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101007", 
+            "y" : "-100010"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Herbal"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Coffe"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Corn"
+            }
+         ], 
+         "inventoryObject" : "Locker_big", 
+         "random" : "true"
+      }, 
+      "a84151f9-3ffd-4c9f-8b0b-a0e4d819e821" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100581", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+            "6dbf4cf8-5210-4a93-b901-fc2427026a4e", 
+            "19cc7a33-93ac-40ae-bbef-87d2a0f88c61"
+         ], 
+         "key" : "KVAS_TIME"
+      }, 
+      "6dbf4cf8-5210-4a93-b901-fc2427026a4e" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100619", 
+            "y" : "-100584"
+         }, 
+         "child" : [ 
+            "d76a0b9f-7b9e-4b9d-a32d-d4c4639cba76"
+         ], 
+         "time" : "12", 
+         "mode" : "Hour", 
+         "offsetValue" : "KVAS_TIME"
+      }, 
+      "d76a0b9f-7b9e-4b9d-a32d-d4c4639cba76" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100600", 
+            "y" : "-100476"
+         }, 
+         "child" : [ 
+            "a5d0ed7d-7f3a-44c7-8b99-15b26ce18e44"
+         ], 
+         "key" : "KVAS_TIME"
+      }, 
+      "a5d0ed7d-7f3a-44c7-8b99-15b26ce18e44" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100618", 
+            "y" : "-100382"
+         }, 
+         "child" : [ 
+            "35dbf238-b8c5-4fc8-ab8b-c9cb525c9a02", 
+            "380d9e94-fcea-4339-8124-31d748b83f84"
+         ], 
+         "key" : "MAKE_KVAS_1"
+      }, 
+      "35dbf238-b8c5-4fc8-ab8b-c9cb525c9a02" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100715", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+            "3730ba99-2a36-4a6e-89b5-cbc6944183a8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "kvas"
+         }, 
+         "objectName" : "IceBox_Big_2"
+      }, 
+      "3730ba99-2a36-4a6e-89b5-cbc6944183a8" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100709", 
+            "y" : "-100174"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "MAKE_KVAS_1"
+      }, 
+      "380d9e94-fcea-4339-8124-31d748b83f84" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100597", 
+            "y" : "-100264"
+         }, 
+         "child" : [ 
+            "0c415ea5-a20e-404b-ba25-f0e22d5502c6", 
+            "676e7fa8-621d-4db2-806c-b05b0168cbc7"
+         ], 
+         "key" : "MAKE_KVAS_2"
+      }, 
+      "0c415ea5-a20e-404b-ba25-f0e22d5502c6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100585", 
+            "y" : "-100151"
+         }, 
+         "child" : [ 
+            "66ff0cb5-8401-42d8-bc56-ff4cb05c8af2"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "kvas"
+         }, 
+         "objectName" : "IceBox_Big_2"
+      }, 
+      "66ff0cb5-8401-42d8-bc56-ff4cb05c8af2" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100568", 
+            "y" : "-100065"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "MAKE_KVAS_2"
+      }, 
+      "676e7fa8-621d-4db2-806c-b05b0168cbc7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100413", 
+            "y" : "-100157"
+         }, 
+         "child" : [ 
+            "db1e2892-6a79-4cec-a474-48df644ae780", 
+            "e092d54c-94d4-4644-9554-796b846bfd0a"
+         ], 
+         "key" : "MAKE_KVAS_3"
+      }, 
+      "db1e2892-6a79-4cec-a474-48df644ae780" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100401", 
+            "y" : "-100044"
+         }, 
+         "child" : [ 
+            "fb218bce-e6ac-41bf-b9cb-72583c31fa25"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "kvas"
+         }, 
+         "objectName" : "IceBox_Big_2"
+      }, 
+      "fb218bce-e6ac-41bf-b9cb-72583c31fa25" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100380", 
+            "y" : "-99960"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "MAKE_KVAS_3"
+      }, 
+      "e092d54c-94d4-4644-9554-796b846bfd0a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100238", 
+            "y" : "-100042"
+         }, 
+         "child" : [ 
+            "66f90fdd-8a6f-49f7-969b-f65433d99d5c", 
+            "ffbaff00-bce7-4f4f-b13c-4c7b9c68fe3e"
+         ], 
+         "key" : "MAKE_KVAS_4"
+      }, 
+      "66f90fdd-8a6f-49f7-969b-f65433d99d5c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100226", 
+            "y" : "-99929"
+         }, 
+         "child" : [ 
+            "08e6310e-da89-4b9e-bc2a-e34075db1e86"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "kvas"
+         }, 
+         "objectName" : "IceBox_Big_2"
+      }, 
+      "08e6310e-da89-4b9e-bc2a-e34075db1e86" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100219", 
+            "y" : "-99835"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "MAKE_KVAS_4"
+      }, 
+      "ffbaff00-bce7-4f4f-b13c-4c7b9c68fe3e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100075", 
+            "y" : "-99925"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "19cc7a33-93ac-40ae-bbef-87d2a0f88c61" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100429", 
+            "y" : "-100595"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "37f5bfc8-3a2b-4b21-bdc7-122eb12272e1"
+}

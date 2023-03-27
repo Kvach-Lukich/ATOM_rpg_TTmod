@@ -1566,7 +1566,8 @@
          "child" : [ 
             "56cbca16-9065-4760-82ea-dcb440bbed72", 
             "0c2de2f2-7b3c-4690-888d-63c2f55314c7"
-         ]
+         ], 
+         "stateName" : ""
       }, 
       "56cbca16-9065-4760-82ea-dcb440bbed72" : { 
          "class" : "PlaySoundNode", 
@@ -5457,7 +5458,8 @@
          "child" : [ 
             "018a7eee-deae-440b-a091-34955bb9159f"
          ], 
-         "targetName" : "Wood_Door_1Lenin.Door"
+         "targetName" : "Wood_Door_1Lenin.Door", 
+         "targetFractionName" : ""
       }, 
       "018a7eee-deae-440b-a091-34955bb9159f" : { 
          "class" : "WhoopRedhandedNode", 
@@ -5638,6 +5640,7 @@
          "child" : [ 
             "6947dcfb-c484-4abe-93cd-727d1cbb534f"
          ], 
+         "targetName" : "", 
          "targetFractionName" : "menti"
       }, 
       "6947dcfb-c484-4abe-93cd-727d1cbb534f" : { 
@@ -5880,7 +5883,9 @@
             "7bdad967-0af5-4ff3-99c1-eef8f2edc697"
          ], 
          "filterMode" : "Aggressor", 
-         "victimName" : "Player"
+         "victimName" : "Player", 
+         "victimFractionName" : "", 
+         "victimPrototypeName" : ""
       }, 
       "a6bc8967-c074-46c8-9367-c8ecdb6b20a6" : { 
          "class" : "NotebookAddNoteNode", 

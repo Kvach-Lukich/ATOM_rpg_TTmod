@@ -811,7 +811,7 @@
             "y" : "-97422"
          }, 
          "child" : [ 
-            "e895d671-560d-432c-bd8c-cca36f606171"
+            "6d0a1d9f-4500-4b89-861a-af3f8ed2e80e"
          ], 
          "item" : { 
             "class" : "Ammo", 
@@ -820,11 +820,27 @@
          }, 
          "objectName" : "Player"
       }, 
+      "6d0a1d9f-4500-4b89-861a-af3f8ed2e80e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99727", 
+            "y" : "-97420"
+         }, 
+         "child" : [ 
+            "e895d671-560d-432c-bd8c-cca36f606171"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_m24_m"
+         }, 
+         "objectName" : "Player"
+      }, 
       "e895d671-560d-432c-bd8c-cca36f606171" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100138", 
-            "y" : "-97319"
+            "x" : "-100116", 
+            "y" : "-97291"
          }, 
          "child" : [ 
             "56162668-5067-44a3-bbb1-b040d2368b76", 
@@ -1366,8 +1382,8 @@
       "015afb6a-d835-4767-9806-f34b565a28a6" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-101512", 
-            "y" : "-100971"
+            "x" : "-101488", 
+            "y" : "-100966"
          }, 
          "child" : [ 
             "a15aaa28-f7f9-4c97-bd6f-3bcf32e3c5bb", 

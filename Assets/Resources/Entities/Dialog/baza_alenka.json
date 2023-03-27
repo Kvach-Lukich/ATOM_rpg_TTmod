@@ -195,7 +195,7 @@
       "e2aee346-1fe0-4ea5-9cb0-4370108be84c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-93621", 
+            "x" : "-93622", 
             "y" : "-99878"
          }, 
          "child" : [ 

@@ -12,6 +12,10 @@ using System.Runtime.CompilerServices;
 using UnityEditor;
 #endif
 
+public static class Constants
+{
+    public const string modName="TTmod";
+}
 
 public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NAME
 {
@@ -98,8 +102,8 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
 
     void GameLoaded(GlobalEvents.GameStart evnt)
     {
-        Localization.LoadStrings(modName + "_strings_");
-        Localization.LoadTexts(modName + "_text_");
+        Localization.LoadStrings(Constants.modName + "_strings_");
+        Localization.LoadTexts(Constants.modName + "_text_");
         Game.World.console.DeveloperMode();
     }
 
@@ -128,8 +132,8 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
         {
         EditorApplication.update -= Init;
         Localization.Setup("ru", false);
-        Localization.LoadStrings("TTmod_strings_");
-        Localization.LoadTexts("TTmod_text_");
+        Localization.LoadStrings(Constants.modName+"_strings_");
+        Localization.LoadTexts(Constants.modName+"_text_");
         }
     }
 }

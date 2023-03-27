@@ -1,0 +1,3433 @@
+{ 
+   "states" : { 
+      "d90b995b-9b7d-4d99-a915-b52ce09cc4f9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102580", 
+            "y" : "-102763"
+         }, 
+         "child" : [ 
+            "0a8e0b5a-e9de-48b7-b415-529e239586f6"
+         ]
+      }, 
+      "0a8e0b5a-e9de-48b7-b415-529e239586f6" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102579", 
+            "y" : "-102723"
+         }, 
+         "child" : [ 
+            "e6c45116-1b2c-401e-844d-64112392f643"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "e6c45116-1b2c-401e-844d-64112392f643" : { 
+         "class" : "HandItemNode", 
+         "desc" : { 
+            "x" : "-103045", 
+            "y" : "-102792"
+         }, 
+         "child" : [ 
+            "689b2964-0bb3-4915-925c-ede8482ec167", 
+            "b92a7161-95b6-402f-8879-18b34daabab1"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "crocodildo"
+         }
+      }, 
+      "689b2964-0bb3-4915-925c-ede8482ec167" : { 
+         "class" : "CharacterHasEquipItemNode", 
+         "desc" : { 
+            "x" : "-103057", 
+            "y" : "-102654"
+         }, 
+         "child" : [ 
+            "ebe487a3-718a-4f78-9f27-fbcbe2c1ee12", 
+            "b92a7161-95b6-402f-8879-18b34daabab1"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ClownNose"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ebe487a3-718a-4f78-9f27-fbcbe2c1ee12" : { 
+         "class" : "PlayerHasConditionNode", 
+         "desc" : { 
+            "x" : "-103056", 
+            "y" : "-102500"
+         }, 
+         "child" : [ 
+            "001aef68-ca4a-425c-9f67-3d14ceca75ea", 
+            "b92a7161-95b6-402f-8879-18b34daabab1"
+         ], 
+         "conditionType" : "AlcoholAddiction"
+      }, 
+      "001aef68-ca4a-425c-9f67-3d14ceca75ea" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103116", 
+            "y" : "-102395"
+         }, 
+         "child" : [ 
+            "18e9fb23-6125-4b05-aa51-350feb886ee2", 
+            "ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38"
+         ], 
+         "text" : "Можно взять и ушатать [зависит от вашей удачи]"
+      }, 
+      "18e9fb23-6125-4b05-aa51-350feb886ee2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103062", 
+            "y" : "-102240"
+         }, 
+         "child" : [ 
+            "4f2cebaf-dfcb-4b48-a94f-455592564c50"
+         ], 
+         "text" : "Врезать со всей дури крокодилдой по кумполу"
+      }, 
+      "4f2cebaf-dfcb-4b48-a94f-455592564c50" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103594", 
+            "y" : "-102939"
+         }, 
+         "child" : [ 
+            "143b52f7-9f07-4d36-ac48-acfa464d8bb3"
+         ]
+      }, 
+      "143b52f7-9f07-4d36-ac48-acfa464d8bb3" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103714", 
+            "y" : "-102861"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "2f1c4c37-fd17-48a5-96e4-db4e4035a74e"
+         ], 
+         "value" : "11", 
+         "modifier" : "Luck"
+      }, 
+      "80820041-c994-47b1-b95c-a798ade5365b" : { 
+         "class" : "CharacterShootHimNode", 
+         "desc" : { 
+            "x" : "-103760", 
+            "y" : "-101936"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "Krz_WallGuard"
+      }, 
+      "2f1c4c37-fd17-48a5-96e4-db4e4035a74e" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103602", 
+            "y" : "-102748"
+         }, 
+         "child" : [ 
+            "f8ea6340-ea47-4feb-8ccc-bd3769e89f35", 
+            "053f37bf-75ab-4d73-9d10-d2a909305a6a"
+         ], 
+         "value" : "10", 
+         "modifier" : "Luck"
+      }, 
+      "f8ea6340-ea47-4feb-8ccc-bd3769e89f35" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103678", 
+            "y" : "-102646"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "50"
+      }, 
+      "fe87aba8-4467-4d5f-946a-5da33c91da69" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-103605", 
+            "y" : "-101934"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "Krz_WallGuard"
+      }, 
+      "053f37bf-75ab-4d73-9d10-d2a909305a6a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103501", 
+            "y" : "-102646"
+         }, 
+         "child" : [ 
+            "1055b074-14a1-45e2-9a0d-31d62dcf8697", 
+            "f0f58e84-d22c-4ac4-9e63-d400f7bc5558"
+         ], 
+         "value" : "9", 
+         "modifier" : "Luck"
+      }, 
+      "1055b074-14a1-45e2-9a0d-31d62dcf8697" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103630", 
+            "y" : "-102537"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "40"
+      }, 
+      "f0f58e84-d22c-4ac4-9e63-d400f7bc5558" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103430", 
+            "y" : "-102541"
+         }, 
+         "child" : [ 
+            "3452ddda-f3eb-4227-962b-d39b237104a8", 
+            "e7d32b2a-240d-4572-89c2-e143ebcb3f65"
+         ], 
+         "value" : "8", 
+         "modifier" : "Luck"
+      }, 
+      "3452ddda-f3eb-4227-962b-d39b237104a8" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103585", 
+            "y" : "-102437"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "30"
+      }, 
+      "e7d32b2a-240d-4572-89c2-e143ebcb3f65" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103376", 
+            "y" : "-102442"
+         }, 
+         "child" : [ 
+            "89f5edc3-b568-4668-acef-8a522cc039c9", 
+            "e79ae563-3fa5-4ab1-836a-42a29444cd97"
+         ], 
+         "value" : "7", 
+         "modifier" : "Luck"
+      }, 
+      "89f5edc3-b568-4668-acef-8a522cc039c9" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103527", 
+            "y" : "-102323"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "20"
+      }, 
+      "e79ae563-3fa5-4ab1-836a-42a29444cd97" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103312", 
+            "y" : "-102329"
+         }, 
+         "child" : [ 
+            "4dccb37e-e912-4552-94a8-3c5d4f078fa5", 
+            "e19b7769-736d-4975-9ebb-3ff62a98d4f6"
+         ], 
+         "value" : "6", 
+         "modifier" : "Luck"
+      }, 
+      "4dccb37e-e912-4552-94a8-3c5d4f078fa5" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103455", 
+            "y" : "-102218"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "10"
+      }, 
+      "e19b7769-736d-4975-9ebb-3ff62a98d4f6" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103262", 
+            "y" : "-102220"
+         }, 
+         "child" : [ 
+            "20ca94e0-c45d-4eb7-aad9-ce76cfe0b192", 
+            "d938e08b-5c36-4d0f-aa54-120d91227a31"
+         ], 
+         "value" : "5", 
+         "modifier" : "Luck"
+      }, 
+      "20ca94e0-c45d-4eb7-aad9-ce76cfe0b192" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103383", 
+            "y" : "-102118"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "5"
+      }, 
+      "d938e08b-5c36-4d0f-aa54-120d91227a31" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-103208", 
+            "y" : "-102107"
+         }, 
+         "child" : [ 
+            "80820041-c994-47b1-b95c-a798ade5365b", 
+            "fe87aba8-4467-4d5f-946a-5da33c91da69"
+         ], 
+         "max" : "100", 
+         "value" : "2"
+      }, 
+      "ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102956", 
+            "y" : "-102296"
+         }, 
+         "child" : [ 
+            "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d"
+         ], 
+         "text" : "Чего-то сыкотно"
+      }, 
+      "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102579", 
+            "y" : "-102392"
+         }, 
+         "child" : [ 
+            "3f85b4ab-0885-4839-b171-78285231c4d7", 
+            "436eaa06-056e-4037-a6f3-3a20f0e7579b"
+         ], 
+         "key" : "SICK"
+      }, 
+      "3f85b4ab-0885-4839-b171-78285231c4d7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102736", 
+            "y" : "-102257", 
+            "comment" : "А26"
+         }, 
+         "child" : [ 
+            "2042567f-0f0c-4e26-9fd0-1e83283aac8d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.3f85b4ab-0885-4839-b171-78285231c4d7"
+      }, 
+      "2042567f-0f0c-4e26-9fd0-1e83283aac8d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102736", 
+            "y" : "-102125"
+         }, 
+         "child" : [ 
+            "e80e4250-2fba-4b32-bdf0-f6e497887658"
+         ]
+      }, 
+      "e80e4250-2fba-4b32-bdf0-f6e497887658" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102732", 
+            "y" : "-102073"
+         }, 
+         "child" : [ 
+            "ca2f80b5-2a42-427f-8dc4-9924010957dd"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e80e4250-2fba-4b32-bdf0-f6e497887658"
+      }, 
+      "ca2f80b5-2a42-427f-8dc4-9924010957dd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102732", 
+            "y" : "-101973", 
+            "comment" : "(конец диалога, перенос А26)"
+         }, 
+         "child" : [ 
+            "1f8677df-cb7b-44b2-bf1d-bcbdd923e008"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ca2f80b5-2a42-427f-8dc4-9924010957dd"
+      }, 
+      "1f8677df-cb7b-44b2-bf1d-bcbdd923e008" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102678", 
+            "y" : "-101911"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "436eaa06-056e-4037-a6f3-3a20f0e7579b" : { 
+         "class" : "LockerIsOpenNode", 
+         "desc" : { 
+            "x" : "-102091", 
+            "y" : "-102442"
+         }, 
+         "child" : [ 
+            "751c946e-9dd9-42d6-b0da-27f17ed628b8", 
+            "8ccea85f-76a7-4c69-9364-bd46a39a101c"
+         ], 
+         "objectName" : "KRZ_Door"
+      }, 
+      "751c946e-9dd9-42d6-b0da-27f17ed628b8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101418", 
+            "y" : "-102011", 
+            "comment" : "А17"
+         }, 
+         "child" : [ 
+            "1abc00bb-a58e-4320-a4db-48421f9b62eb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.751c946e-9dd9-42d6-b0da-27f17ed628b8"
+      }, 
+      "1abc00bb-a58e-4320-a4db-48421f9b62eb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101418", 
+            "y" : "-101916"
+         }, 
+         "child" : [ 
+            "de9180a9-95da-4f2d-babc-df5b4a48499d"
+         ]
+      }, 
+      "de9180a9-95da-4f2d-babc-df5b4a48499d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101417", 
+            "y" : "-101875"
+         }, 
+         "child" : [ 
+            "a7e57332-5764-45a7-be3c-ddceac9d2a9c", 
+            "7aa2d609-8141-47cd-8fe9-d7cf6e0a31cf", 
+            "7c32f0c5-a484-4f0e-80f2-edcf62eb9903"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.de9180a9-95da-4f2d-babc-df5b4a48499d"
+      }, 
+      "a7e57332-5764-45a7-be3c-ddceac9d2a9c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101646", 
+            "y" : "-101716", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "08ed4d40-2b7a-4cbc-be4d-f041ea64c58b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a7e57332-5764-45a7-be3c-ddceac9d2a9c"
+      }, 
+      "08ed4d40-2b7a-4cbc-be4d-f041ea64c58b" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-98488", 
+            "y" : "-101230"
+         }, 
+         "child" : [ 
+            "013d4fd1-173b-4fd6-b784-0513e7a5d705", 
+            "6216038e-314e-4f32-bfe8-cdd51066d1f7"
+         ], 
+         "value" : "4", 
+         "stat" : "Charisma"
+      }, 
+      "013d4fd1-173b-4fd6-b784-0513e7a5d705" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98766", 
+            "y" : "-101048", 
+            "comment" : "А18"
+         }, 
+         "child" : [ 
+            "a1351e3e-6a15-4bff-82ca-b28b3b59fc4e", 
+            "e0c4138b-0c0c-437c-b6c0-fbe638d0f435", 
+            "d5050ea8-f90a-4fb1-920e-8f2928ca33f3", 
+            "d0f77b6d-32d0-4da5-a26f-9daaf42e6838", 
+            "460e206d-a1fc-4cae-8962-5a8c4f8102b2"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.013d4fd1-173b-4fd6-b784-0513e7a5d705"
+      }, 
+      "a1351e3e-6a15-4bff-82ca-b28b3b59fc4e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99066", 
+            "y" : "-100948", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "84870356-54bb-40f0-97b4-638937e7c38f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a1351e3e-6a15-4bff-82ca-b28b3b59fc4e"
+      }, 
+      "84870356-54bb-40f0-97b4-638937e7c38f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98089", 
+            "y" : "-99056", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "a3f626f5-279f-4a45-b365-388384495e35"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.84870356-54bb-40f0-97b4-638937e7c38f"
+      }, 
+      "a3f626f5-279f-4a45-b365-388384495e35" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98090", 
+            "y" : "-98933"
+         }, 
+         "child" : [ 
+            "247061b4-99a0-45e0-9ee1-b701c95efaf9"
+         ]
+      }, 
+      "247061b4-99a0-45e0-9ee1-b701c95efaf9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98090", 
+            "y" : "-98854"
+         }, 
+         "child" : [ 
+            "71b1249d-352b-4abd-bc9a-3ae55a2b036f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.247061b4-99a0-45e0-9ee1-b701c95efaf9"
+      }, 
+      "71b1249d-352b-4abd-bc9a-3ae55a2b036f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98090", 
+            "y" : "-98733"
+         }, 
+         "child" : [ 
+            "aee9b064-6b08-4268-93ca-3b789fce6168"
+         ]
+      }, 
+      "aee9b064-6b08-4268-93ca-3b789fce6168" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98090", 
+            "y" : "-98633"
+         }, 
+         "child" : [ 
+            "25ca2fbc-d9ce-43c3-bdcc-4a72db7a8ebd", 
+            "efcb1586-b52e-47d6-802e-a17e4c5fdb0d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.aee9b064-6b08-4268-93ca-3b789fce6168"
+      }, 
+      "25ca2fbc-d9ce-43c3-bdcc-4a72db7a8ebd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98240", 
+            "y" : "-98533", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.25ca2fbc-d9ce-43c3-bdcc-4a72db7a8ebd"
+      }, 
+      "3c17f658-55d0-43fe-826b-46a0cda9b2fe" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97655", 
+            "y" : "-99293", 
+            "comment" : "А27"
+         }, 
+         "child" : [ 
+            "4b14fcd9-55af-4b0b-b7f8-7a12461c2ee0", 
+            "fc213c53-a9fe-4cef-8c2f-03ffc836b75f", 
+            "55dc1571-1e28-4d6f-a466-382f6c97f7a5", 
+            "2a242232-2d2d-464b-81f4-6e645ff2ed58", 
+            "06d0790e-9c9a-4a23-8404-226e6ad9fd10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+      }, 
+      "4b14fcd9-55af-4b0b-b7f8-7a12461c2ee0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97955", 
+            "y" : "-99193", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "84870356-54bb-40f0-97b4-638937e7c38f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4b14fcd9-55af-4b0b-b7f8-7a12461c2ee0"
+      }, 
+      "fc213c53-a9fe-4cef-8c2f-03ffc836b75f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97793", 
+            "y" : "-99062", 
+            "comment" : "(перенос А23)"
+         }, 
+         "child" : [ 
+            "ea9fdc32-f855-4b9d-9133-9416396b1aeb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.fc213c53-a9fe-4cef-8c2f-03ffc836b75f"
+      }, 
+      "ea9fdc32-f855-4b9d-9133-9416396b1aeb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97736", 
+            "y" : "-98931", 
+            "comment" : "А23"
+         }, 
+         "child" : [ 
+            "fd2d90ba-c7f3-48e3-ba03-12a364bc4076"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ea9fdc32-f855-4b9d-9133-9416396b1aeb"
+      }, 
+      "fd2d90ba-c7f3-48e3-ba03-12a364bc4076" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-97736", 
+            "y" : "-98819"
+         }, 
+         "child" : [ 
+            "a716a6db-fb9b-4a41-8516-d03c7253c7d7"
+         ]
+      }, 
+      "a716a6db-fb9b-4a41-8516-d03c7253c7d7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97740", 
+            "y" : "-98761"
+         }, 
+         "child" : [ 
+            "69d35dd4-5151-495a-9b49-d13365c68fb4"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a716a6db-fb9b-4a41-8516-d03c7253c7d7"
+      }, 
+      "69d35dd4-5151-495a-9b49-d13365c68fb4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-97736", 
+            "y" : "-98631"
+         }, 
+         "child" : [ 
+            "70f42eea-725d-43e6-9526-bd6cb09feb90"
+         ]
+      }, 
+      "70f42eea-725d-43e6-9526-bd6cb09feb90" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97730", 
+            "y" : "-98576"
+         }, 
+         "child" : [ 
+            "a9f25d08-747b-4111-98d4-27006e67f018", 
+            "e6448167-1bdb-433c-a530-381ffc8dce7f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.70f42eea-725d-43e6-9526-bd6cb09feb90"
+      }, 
+      "a9f25d08-747b-4111-98d4-27006e67f018" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97882", 
+            "y" : "-98362", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a9f25d08-747b-4111-98d4-27006e67f018"
+      }, 
+      "e6448167-1bdb-433c-a530-381ffc8dce7f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97691", 
+            "y" : "-98424", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "c89819f3-56bd-449e-8047-f70d2d63fe44"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e6448167-1bdb-433c-a530-381ffc8dce7f"
+      }, 
+      "c89819f3-56bd-449e-8047-f70d2d63fe44" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97643", 
+            "y" : "-98323"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "55dc1571-1e28-4d6f-a466-382f6c97f7a5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97655", 
+            "y" : "-99193", 
+            "comment" : "(перенос А24)"
+         }, 
+         "child" : [ 
+            "592af2eb-d4a6-4514-9886-d8e162f8a35e"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.55dc1571-1e28-4d6f-a466-382f6c97f7a5"
+      }, 
+      "592af2eb-d4a6-4514-9886-d8e162f8a35e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97333", 
+            "y" : "-98777", 
+            "comment" : "А24"
+         }, 
+         "child" : [ 
+            "71c5bd17-d033-4cc3-b6bd-42013814559a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.592af2eb-d4a6-4514-9886-d8e162f8a35e"
+      }, 
+      "71c5bd17-d033-4cc3-b6bd-42013814559a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-97339", 
+            "y" : "-98656"
+         }, 
+         "child" : [ 
+            "9f5e4f87-1da6-4910-ac2f-10359ba37e14"
+         ]
+      }, 
+      "9f5e4f87-1da6-4910-ac2f-10359ba37e14" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97333", 
+            "y" : "-98601"
+         }, 
+         "child" : [ 
+            "85434428-7429-460e-8ba1-c604d9f834ad"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.9f5e4f87-1da6-4910-ac2f-10359ba37e14"
+      }, 
+      "85434428-7429-460e-8ba1-c604d9f834ad" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-97333", 
+            "y" : "-98477"
+         }, 
+         "child" : [ 
+            "437c5b4d-e5cd-4644-88f7-d06a330b6ed0"
+         ]
+      }, 
+      "437c5b4d-e5cd-4644-88f7-d06a330b6ed0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97331", 
+            "y" : "-98411"
+         }, 
+         "child" : [ 
+            "6b693606-8267-49a9-bd8b-e7b917c8818b", 
+            "85532ea6-aeeb-4e4e-9d0c-75b6f457e157"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.437c5b4d-e5cd-4644-88f7-d06a330b6ed0"
+      }, 
+      "6b693606-8267-49a9-bd8b-e7b917c8818b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97500", 
+            "y" : "-98305", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6b693606-8267-49a9-bd8b-e7b917c8818b"
+      }, 
+      "85532ea6-aeeb-4e4e-9d0c-75b6f457e157" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97178", 
+            "y" : "-98295", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "617a37ed-a215-499a-bf23-83ba3e6b23f7"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.85532ea6-aeeb-4e4e-9d0c-75b6f457e157"
+      }, 
+      "617a37ed-a215-499a-bf23-83ba3e6b23f7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97131", 
+            "y" : "-98204"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2a242232-2d2d-464b-81f4-6e645ff2ed58" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97505", 
+            "y" : "-99093", 
+            "comment" : "(перенос А25)"
+         }, 
+         "child" : [ 
+            "85e22f0f-0f4e-4941-bb3b-e6d36dcd4a00"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2a242232-2d2d-464b-81f4-6e645ff2ed58"
+      }, 
+      "85e22f0f-0f4e-4941-bb3b-e6d36dcd4a00" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96782", 
+            "y" : "-98770"
+         }, 
+         "child" : [ 
+            "7ede1f6f-c09a-40fe-97d5-c209049193d9", 
+            "92e89fbb-d5bb-4f31-aa02-7739eb8e9aab"
+         ], 
+         "key" : "A_25"
+      }, 
+      "7ede1f6f-c09a-40fe-97d5-c209049193d9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96944", 
+            "y" : "-98664", 
+            "comment" : "А25"
+         }, 
+         "child" : [ 
+            "68dddb94-397c-477b-82d1-f1b206eed438", 
+            "63d48a66-78c9-47b6-bcd7-ca9819020d16"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.7ede1f6f-c09a-40fe-97d5-c209049193d9"
+      }, 
+      "68dddb94-397c-477b-82d1-f1b206eed438" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97094", 
+            "y" : "-98564", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.68dddb94-397c-477b-82d1-f1b206eed438"
+      }, 
+      "63d48a66-78c9-47b6-bcd7-ca9819020d16" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96944", 
+            "y" : "-98464", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "9c71ca0e-6b2c-459b-82b2-ae62141863af"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.63d48a66-78c9-47b6-bcd7-ca9819020d16"
+      }, 
+      "9c71ca0e-6b2c-459b-82b2-ae62141863af" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96893", 
+            "y" : "-98369"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "92e89fbb-d5bb-4f31-aa02-7739eb8e9aab" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96604", 
+            "y" : "-98672", 
+            "comment" : "А25"
+         }, 
+         "child" : [ 
+            "d967781d-d34a-49df-b9b1-eb60909fad7d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.92e89fbb-d5bb-4f31-aa02-7739eb8e9aab"
+      }, 
+      "d967781d-d34a-49df-b9b1-eb60909fad7d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-96604", 
+            "y" : "-98572"
+         }, 
+         "child" : [ 
+            "b0679fd8-f21c-4c4c-ade4-2ee3c8a01f4e"
+         ]
+      }, 
+      "b0679fd8-f21c-4c4c-ade4-2ee3c8a01f4e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96608", 
+            "y" : "-98500"
+         }, 
+         "child" : [ 
+            "4ed7f849-e669-4daf-b3f4-a791b9468ba6"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b0679fd8-f21c-4c4c-ade4-2ee3c8a01f4e"
+      }, 
+      "4ed7f849-e669-4daf-b3f4-a791b9468ba6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-96604", 
+            "y" : "-98372"
+         }, 
+         "child" : [ 
+            "0c9998fd-c765-43d6-8231-b03dcfbece62"
+         ]
+      }, 
+      "0c9998fd-c765-43d6-8231-b03dcfbece62" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96594", 
+            "y" : "-98310"
+         }, 
+         "child" : [ 
+            "4c8a7dc1-504e-4683-9670-28616a48f8c9"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.0c9998fd-c765-43d6-8231-b03dcfbece62"
+      }, 
+      "4c8a7dc1-504e-4683-9670-28616a48f8c9" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96540", 
+            "y" : "-98206"
+         }, 
+         "child" : [ 
+            "5fae4fd8-bedb-433e-8da5-61da7f5565d2", 
+            "bd1ea807-c51e-44ce-a4cb-ea5df04a05d5"
+         ], 
+         "key" : "A_25"
+      }, 
+      "5fae4fd8-bedb-433e-8da5-61da7f5565d2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96786", 
+            "y" : "-98142", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "3c17f658-55d0-43fe-826b-46a0cda9b2fe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.5fae4fd8-bedb-433e-8da5-61da7f5565d2"
+      }, 
+      "bd1ea807-c51e-44ce-a4cb-ea5df04a05d5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96538", 
+            "y" : "-98070", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "80025ae2-b11d-48a1-9fdf-c5fcb13b3f48"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.bd1ea807-c51e-44ce-a4cb-ea5df04a05d5"
+      }, 
+      "80025ae2-b11d-48a1-9fdf-c5fcb13b3f48" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96490", 
+            "y" : "-97987"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "06d0790e-9c9a-4a23-8404-226e6ad9fd10" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97355", 
+            "y" : "-99193", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "66f12c75-c609-40e6-a0a2-e95985b3b552"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.06d0790e-9c9a-4a23-8404-226e6ad9fd10"
+      }, 
+      "66f12c75-c609-40e6-a0a2-e95985b3b552" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97268", 
+            "y" : "-99134"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "efcb1586-b52e-47d6-802e-a17e4c5fdb0d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98000", 
+            "y" : "-98507", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "6bc4d3d8-de7a-4c72-bf61-1eef04f1a252"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.efcb1586-b52e-47d6-802e-a17e4c5fdb0d"
+      }, 
+      "6bc4d3d8-de7a-4c72-bf61-1eef04f1a252" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97946", 
+            "y" : "-98441"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e0c4138b-0c0c-437c-b6c0-fbe638d0f435" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98916", 
+            "y" : "-100848", 
+            "comment" : "(перенос А23)"
+         }, 
+         "child" : [ 
+            "ea9fdc32-f855-4b9d-9133-9416396b1aeb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e0c4138b-0c0c-437c-b6c0-fbe638d0f435"
+      }, 
+      "d5050ea8-f90a-4fb1-920e-8f2928ca33f3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98775", 
+            "y" : "-100936", 
+            "comment" : "(перенос А24)"
+         }, 
+         "child" : [ 
+            "592af2eb-d4a6-4514-9886-d8e162f8a35e"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d5050ea8-f90a-4fb1-920e-8f2928ca33f3"
+      }, 
+      "d0f77b6d-32d0-4da5-a26f-9daaf42e6838" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98616", 
+            "y" : "-100848", 
+            "comment" : "(перенос А25)"
+         }, 
+         "child" : [ 
+            "85e22f0f-0f4e-4941-bb3b-e6d36dcd4a00"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d0f77b6d-32d0-4da5-a26f-9daaf42e6838"
+      }, 
+      "460e206d-a1fc-4cae-8962-5a8c4f8102b2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98466", 
+            "y" : "-100948", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "31779415-5ac6-4fcd-aeb5-d3b349f54916"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.460e206d-a1fc-4cae-8962-5a8c4f8102b2"
+      }, 
+      "31779415-5ac6-4fcd-aeb5-d3b349f54916" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98399", 
+            "y" : "-100886"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6216038e-314e-4f32-bfe8-cdd51066d1f7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98136", 
+            "y" : "-101129", 
+            "comment" : "А18"
+         }, 
+         "child" : [ 
+            "2ec30359-c71b-47a3-b917-9c9bccfb6638", 
+            "11494891-a5f0-472d-b9fe-04389a665457", 
+            "c5e10d49-88e8-4559-a3e8-bf4fe1f19fe1"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6216038e-314e-4f32-bfe8-cdd51066d1f7"
+      }, 
+      "2ec30359-c71b-47a3-b917-9c9bccfb6638" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98282", 
+            "y" : "-101012", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "beff830e-b364-4251-8eed-9a57cc3caab3"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2ec30359-c71b-47a3-b917-9c9bccfb6638"
+      }, 
+      "beff830e-b364-4251-8eed-9a57cc3caab3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98227", 
+            "y" : "-100826"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "11494891-a5f0-472d-b9fe-04389a665457" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98130", 
+            "y" : "-100914", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "9cc7613f-1071-4789-9d70-1c00f966fa1c"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.11494891-a5f0-472d-b9fe-04389a665457"
+      }, 
+      "9cc7613f-1071-4789-9d70-1c00f966fa1c" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-98073", 
+            "y" : "-100820"
+         }, 
+         "child" : [ 
+            "2b82c7e8-e681-44df-9c47-0888e5a0f4ca"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "Krz_WallGuard"
+      }, 
+      "2b82c7e8-e681-44df-9c47-0888e5a0f4ca" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-98074", 
+            "y" : "-100702"
+         }, 
+         "child" : [ 
+            "6a6e9c2b-eee3-4a10-8fa2-f690782a936a"
+         ], 
+         "fraction" : "krz", 
+         "value" : "0"
+      }, 
+      "6a6e9c2b-eee3-4a10-8fa2-f690782a936a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98056", 
+            "y" : "-100620"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c5e10d49-88e8-4559-a3e8-bf4fe1f19fe1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97975", 
+            "y" : "-101018", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "bcb83cfe-4937-4a81-ae93-62ddaef105f6"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c5e10d49-88e8-4559-a3e8-bf4fe1f19fe1"
+      }, 
+      "bcb83cfe-4937-4a81-ae93-62ddaef105f6" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97867", 
+            "y" : "-100953"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7aa2d609-8141-47cd-8fe9-d7cf6e0a31cf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101418", 
+            "y" : "-101616", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "3131f3d4-1b94-46fb-8444-27d36f457e9b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.7aa2d609-8141-47cd-8fe9-d7cf6e0a31cf"
+      }, 
+      "3131f3d4-1b94-46fb-8444-27d36f457e9b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101316", 
+            "y" : "-101384"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7c32f0c5-a484-4f0e-80f2-edcf62eb9903" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101268", 
+            "y" : "-101716", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "3131f3d4-1b94-46fb-8444-27d36f457e9b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.7c32f0c5-a484-4f0e-80f2-edcf62eb9903"
+      }, 
+      "8ccea85f-76a7-4c69-9364-bd46a39a101c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102155", 
+            "y" : "-102327"
+         }, 
+         "child" : [ 
+            "f1df70c7-4b5a-4497-9ff8-ed5d30119252", 
+            "8b07b5bf-0d56-4066-8573-231f488d2788"
+         ], 
+         "key" : "HEAL"
+      }, 
+      "f1df70c7-4b5a-4497-9ff8-ed5d30119252" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102289", 
+            "y" : "-102118", 
+            "comment" : "А20"
+         }, 
+         "child" : [ 
+            "60676c67-5213-4e50-86dd-807fa040563a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f1df70c7-4b5a-4497-9ff8-ed5d30119252"
+      }, 
+      "60676c67-5213-4e50-86dd-807fa040563a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102279", 
+            "y" : "-101968"
+         }, 
+         "child" : [ 
+            "f4cf986a-1fcd-45e5-932c-d8c3a91b2996"
+         ]
+      }, 
+      "f4cf986a-1fcd-45e5-932c-d8c3a91b2996" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102279", 
+            "y" : "-101888"
+         }, 
+         "child" : [ 
+            "4cef6d81-7d47-4218-9011-56b87c7ecd1a", 
+            "6faede0e-7d46-41ec-a4cd-bb287b351b53"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f4cf986a-1fcd-45e5-932c-d8c3a91b2996"
+      }, 
+      "4cef6d81-7d47-4218-9011-56b87c7ecd1a" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102448", 
+            "y" : "-101771"
+         }, 
+         "child" : [ 
+            "535f4bbf-b187-4ccb-9876-b577ffb71ca7", 
+            "0a9ac419-59d5-4cd1-a3b6-f595d9007f07"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "535f4bbf-b187-4ccb-9876-b577ffb71ca7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102634", 
+            "y" : "-101641", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "13ad3da4-8b4c-4e4d-a203-0aa726fad70d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.535f4bbf-b187-4ccb-9876-b577ffb71ca7"
+      }, 
+      "13ad3da4-8b4c-4e4d-a203-0aa726fad70d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99007", 
+            "y" : "-99069", 
+            "comment" : "А19"
+         }, 
+         "child" : [ 
+            "c9fc32e7-bfda-4e54-bb1e-3fe9b98ee2d6"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.13ad3da4-8b4c-4e4d-a203-0aa726fad70d"
+      }, 
+      "c9fc32e7-bfda-4e54-bb1e-3fe9b98ee2d6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99007", 
+            "y" : "-98969"
+         }, 
+         "child" : [ 
+            "fb468d5a-10a8-461b-963f-fe732de49151"
+         ]
+      }, 
+      "fb468d5a-10a8-461b-963f-fe732de49151" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99009", 
+            "y" : "-98918"
+         }, 
+         "child" : [ 
+            "187dbb41-8484-494b-89c9-fc764b003766", 
+            "26d4c120-5e8d-43f3-924f-52c7edb83559"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.fb468d5a-10a8-461b-963f-fe732de49151"
+      }, 
+      "187dbb41-8484-494b-89c9-fc764b003766" : { 
+         "class" : "OpenDoorNode", 
+         "desc" : { 
+            "x" : "-99282", 
+            "y" : "-98752"
+         }, 
+         "child" : [ 
+         ], 
+         "lockLevel" : "0", 
+         "objectName" : "KRZ_Door"
+      }, 
+      "26d4c120-5e8d-43f3-924f-52c7edb83559" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-98976", 
+            "y" : "-98686"
+         }, 
+         "child" : [ 
+            "0e32d685-4e21-4aff-b274-c509cdcb278e", 
+            "1737f420-8475-4b92-a173-b8f09c4ff113", 
+            "ec45bc53-1aa5-4199-83a2-21503d72f197"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0e32d685-4e21-4aff-b274-c509cdcb278e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99252", 
+            "y" : "-98600", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "0fa65464-af68-419b-b469-c47796601ef4"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.0e32d685-4e21-4aff-b274-c509cdcb278e"
+      }, 
+      "0fa65464-af68-419b-b469-c47796601ef4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99184", 
+            "y" : "-98533"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1737f420-8475-4b92-a173-b8f09c4ff113" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99049", 
+            "y" : "-98504", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "08ed4d40-2b7a-4cbc-be4d-f041ea64c58b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.1737f420-8475-4b92-a173-b8f09c4ff113"
+      }, 
+      "ec45bc53-1aa5-4199-83a2-21503d72f197" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98865", 
+            "y" : "-98594", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "f8c5017e-66d5-40dc-a7c6-6c1d5d6b38d7"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ec45bc53-1aa5-4199-83a2-21503d72f197"
+      }, 
+      "f8c5017e-66d5-40dc-a7c6-6c1d5d6b38d7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98739", 
+            "y" : "-98525"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0a9ac419-59d5-4cd1-a3b6-f595d9007f07" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102370", 
+            "y" : "-101645"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6faede0e-7d46-41ec-a4cd-bb287b351b53" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102234", 
+            "y" : "-101723", 
+            "comment" : "(конец диалога, перенос А20)"
+         }, 
+         "child" : [ 
+            "368f7b3c-7b8e-4b0f-a680-58580528d894"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6faede0e-7d46-41ec-a4cd-bb287b351b53"
+      }, 
+      "368f7b3c-7b8e-4b0f-a680-58580528d894" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102203", 
+            "y" : "-101636"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8b07b5bf-0d56-4066-8573-231f488d2788" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101911", 
+            "y" : "-102098"
+         }, 
+         "child" : [ 
+            "f6a97888-127d-4930-a053-f150b67fefaf", 
+            "4e7a1683-a400-4f70-9e80-af1f4f49f511"
+         ], 
+         "key" : "MEET"
+      }, 
+      "f6a97888-127d-4930-a053-f150b67fefaf" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102985", 
+            "y" : "-101765"
+         }, 
+         "child" : [ 
+            "b1ec86af-b1b5-40cb-81ef-2ac368a3f216", 
+            "e30ee5ca-782d-4183-a0f8-590647cd16c7"
+         ], 
+         "key" : "HALF"
+      }, 
+      "b1ec86af-b1b5-40cb-81ef-2ac368a3f216" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103354", 
+            "y" : "-101636", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "76845acd-c4b2-4e5f-bec4-394113fd3b0f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b1ec86af-b1b5-40cb-81ef-2ac368a3f216"
+      }, 
+      "76845acd-c4b2-4e5f-bec4-394113fd3b0f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103354", 
+            "y" : "-101508"
+         }, 
+         "child" : [ 
+            "891a05be-9dd3-4c08-9f17-7488ad6d2c60"
+         ]
+      }, 
+      "891a05be-9dd3-4c08-9f17-7488ad6d2c60" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103366", 
+            "y" : "-101464"
+         }, 
+         "child" : [ 
+            "679c0633-6fcb-4f9f-b07e-94120e48a680", 
+            "a110fc72-6fbb-4cdf-91c1-8be7d51914b9"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.891a05be-9dd3-4c08-9f17-7488ad6d2c60"
+      }, 
+      "679c0633-6fcb-4f9f-b07e-94120e48a680" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103572", 
+            "y" : "-101362"
+         }, 
+         "child" : [ 
+            "eb076eb1-955a-457a-b67b-6fb72169d6c9", 
+            "f7bdddc7-e75f-4668-9565-add1c149caec"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "500", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "eb076eb1-955a-457a-b67b-6fb72169d6c9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103730", 
+            "y" : "-101256", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.eb076eb1-955a-457a-b67b-6fb72169d6c9"
+      }, 
+      "d9174aac-9bfb-432b-823b-49a760006f10" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100560", 
+            "y" : "-98998", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "e51f165d-6804-4ab9-94f9-3a4b63668dbb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d9174aac-9bfb-432b-823b-49a760006f10"
+      }, 
+      "e51f165d-6804-4ab9-94f9-3a4b63668dbb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-98876"
+         }, 
+         "child" : [ 
+            "ffb4c398-7cc6-4bdd-b1e9-137aac4d1f49"
+         ]
+      }, 
+      "ffb4c398-7cc6-4bdd-b1e9-137aac4d1f49" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100541", 
+            "y" : "-98830"
+         }, 
+         "child" : [ 
+            "0d50f46d-daf2-4baf-a875-40780566ddaf", 
+            "646d59e3-c87d-4e1c-9300-01fd0054060f"
+         ], 
+         "key" : "HALF"
+      }, 
+      "0d50f46d-daf2-4baf-a875-40780566ddaf" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100715", 
+            "y" : "-98727"
+         }, 
+         "child" : [ 
+            "2904060c-7676-459f-a77d-06e6a3e36d01"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "500", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2904060c-7676-459f-a77d-06e6a3e36d01" : { 
+         "class" : "OpenDoorNode", 
+         "desc" : { 
+            "x" : "-100551", 
+            "y" : "-98624"
+         }, 
+         "child" : [ 
+            "782d5b3b-61f3-45e6-8982-afcb01dcc59b"
+         ], 
+         "lockLevel" : "0", 
+         "objectName" : "KRZ_Door"
+      }, 
+      "782d5b3b-61f3-45e6-8982-afcb01dcc59b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-98542"
+         }, 
+         "child" : [ 
+            "2d7d30b4-6e9d-4268-abfb-77e550f5953b", 
+            "b4bea5c6-5f38-4170-a69d-5e98f6657327", 
+            "d3fb2e61-97c2-489d-9288-328eacba9786"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.782d5b3b-61f3-45e6-8982-afcb01dcc59b"
+      }, 
+      "2d7d30b4-6e9d-4268-abfb-77e550f5953b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100809", 
+            "y" : "-98422", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "13d1238f-e816-4c17-862c-a22b3ae32541"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2d7d30b4-6e9d-4268-abfb-77e550f5953b"
+      }, 
+      "13d1238f-e816-4c17-862c-a22b3ae32541" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100782", 
+            "y" : "-98305"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b4bea5c6-5f38-4170-a69d-5e98f6657327" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100603", 
+            "y" : "-98337", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "08ed4d40-2b7a-4cbc-be4d-f041ea64c58b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b4bea5c6-5f38-4170-a69d-5e98f6657327"
+      }, 
+      "d3fb2e61-97c2-489d-9288-328eacba9786" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100397", 
+            "y" : "-98422", 
+            "comment" : "(конец диалога, перенос А17)"
+         }, 
+         "child" : [ 
+            "94a82195-3aa4-4b54-b877-760672704807"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d3fb2e61-97c2-489d-9288-328eacba9786"
+      }, 
+      "94a82195-3aa4-4b54-b877-760672704807" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100293", 
+            "y" : "-98317"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "646d59e3-c87d-4e1c-9300-01fd0054060f" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100429", 
+            "y" : "-98722"
+         }, 
+         "child" : [ 
+            "2904060c-7676-459f-a77d-06e6a3e36d01"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f7bdddc7-e75f-4668-9565-add1c149caec" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103496", 
+            "y" : "-101174"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a110fc72-6fbb-4cdf-91c1-8be7d51914b9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103282", 
+            "y" : "-101322", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "c9dc680d-ba1a-4740-b766-3e6581c8dd0a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a110fc72-6fbb-4cdf-91c1-8be7d51914b9"
+      }, 
+      "c9dc680d-ba1a-4740-b766-3e6581c8dd0a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103236", 
+            "y" : "-101238"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e30ee5ca-782d-4183-a0f8-590647cd16c7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102841", 
+            "y" : "-101479", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "81af5576-2a9d-472a-b649-38e11425986b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e30ee5ca-782d-4183-a0f8-590647cd16c7"
+      }, 
+      "81af5576-2a9d-472a-b649-38e11425986b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102839", 
+            "y" : "-101354"
+         }, 
+         "child" : [ 
+            "ed4b40d0-a9d5-4d00-a79b-ea516b04fe26"
+         ]
+      }, 
+      "ed4b40d0-a9d5-4d00-a79b-ea516b04fe26" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102847", 
+            "y" : "-101307"
+         }, 
+         "child" : [ 
+            "73d5d7d8-8efb-44c3-81a4-c0e4d3666997"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ed4b40d0-a9d5-4d00-a79b-ea516b04fe26"
+      }, 
+      "73d5d7d8-8efb-44c3-81a4-c0e4d3666997" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102805", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+            "d42034f8-4921-4b0b-aee0-de31357e2200", 
+            "147e973b-be36-483a-9b7c-b72b4574a961", 
+            "530791ac-6cc8-4454-8a65-99b6b7e28ce1", 
+            "2b59a1d9-1ce9-4277-b135-f1084ccb59aa"
+         ]
+      }, 
+      "d42034f8-4921-4b0b-aee0-de31357e2200" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103113", 
+            "y" : "-101161"
+         }, 
+         "child" : [ 
+            "35f5a418-2588-4ae2-b6ee-c9db6c91e8cd", 
+            "250b4b17-5e21-4434-837c-21b387cdf72b"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "35f5a418-2588-4ae2-b6ee-c9db6c91e8cd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103274", 
+            "y" : "-101008", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.35f5a418-2588-4ae2-b6ee-c9db6c91e8cd"
+      }, 
+      "250b4b17-5e21-4434-837c-21b387cdf72b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103021", 
+            "y" : "-101050"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "147e973b-be36-483a-9b7c-b72b4574a961" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102991", 
+            "y" : "-100971", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "06625634-5c87-4d27-a51c-e9d4fec817f1"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.147e973b-be36-483a-9b7c-b72b4574a961"
+      }, 
+      "06625634-5c87-4d27-a51c-e9d4fec817f1" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-100378", 
+            "y" : "-99935"
+         }, 
+         "child" : [ 
+            "0c093e15-46d7-42ce-bc42-362e8c14f663", 
+            "3eab9e84-7fad-4f11-80f2-759d63424744"
+         ], 
+         "value" : "90", 
+         "skill" : "Speech"
+      }, 
+      "0c093e15-46d7-42ce-bc42-362e8c14f663" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100577", 
+            "y" : "-99773", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "573f835f-e45f-4736-a6d7-c39dcbba95eb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.0c093e15-46d7-42ce-bc42-362e8c14f663"
+      }, 
+      "573f835f-e45f-4736-a6d7-c39dcbba95eb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100577", 
+            "y" : "-99692"
+         }, 
+         "child" : [ 
+            "dae7b790-4584-4d9e-9607-cd1c7a9bc174"
+         ]
+      }, 
+      "dae7b790-4584-4d9e-9607-cd1c7a9bc174" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100523", 
+            "y" : "-99653"
+         }, 
+         "child" : [ 
+            "06078fc0-75d6-4215-a0ac-a3098f0508c2"
+         ], 
+         "exp" : "91"
+      }, 
+      "06078fc0-75d6-4215-a0ac-a3098f0508c2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-99597"
+         }, 
+         "child" : [ 
+            "384fecff-d792-454e-94ee-d7a2e6e192e4"
+         ], 
+         "key" : "HALF"
+      }, 
+      "384fecff-d792-454e-94ee-d7a2e6e192e4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100581", 
+            "y" : "-99542"
+         }, 
+         "child" : [ 
+            "1b509697-ca42-4eb2-a02c-a1652c748f9e", 
+            "e388adaf-33f3-45d9-873f-98c0a7abd849"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.384fecff-d792-454e-94ee-d7a2e6e192e4"
+      }, 
+      "1b509697-ca42-4eb2-a02c-a1652c748f9e" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-99390"
+         }, 
+         "child" : [ 
+            "96b02b11-ceae-4b90-8809-1ebab66ab71d", 
+            "cf826834-a30a-4430-b6d9-90ef3eb3317a"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "500", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "96b02b11-ceae-4b90-8809-1ebab66ab71d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100912", 
+            "y" : "-99225", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.96b02b11-ceae-4b90-8809-1ebab66ab71d"
+      }, 
+      "cf826834-a30a-4430-b6d9-90ef3eb3317a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100746", 
+            "y" : "-99261"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e388adaf-33f3-45d9-873f-98c0a7abd849" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100623", 
+            "y" : "-99265", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "4edb52b0-7c40-4b0f-a286-941ced81688a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e388adaf-33f3-45d9-873f-98c0a7abd849"
+      }, 
+      "4edb52b0-7c40-4b0f-a286-941ced81688a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100580", 
+            "y" : "-99181"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3eab9e84-7fad-4f11-80f2-759d63424744" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100235", 
+            "y" : "-99777", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "64dbcad6-fdac-410a-b572-602649be85ad"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.3eab9e84-7fad-4f11-80f2-759d63424744"
+      }, 
+      "64dbcad6-fdac-410a-b572-602649be85ad" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100233", 
+            "y" : "-99665"
+         }, 
+         "child" : [ 
+            "594711a3-91f9-4b13-9b4f-1dad5a127e0b"
+         ]
+      }, 
+      "594711a3-91f9-4b13-9b4f-1dad5a127e0b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100223", 
+            "y" : "-99615"
+         }, 
+         "child" : [ 
+            "820b491c-5453-4656-a106-27d0ebd23cce", 
+            "d0384a7d-e77d-4276-af54-fc947e868fc4", 
+            "fafa776c-4a3a-45d2-8540-8d7ecac4e25b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.594711a3-91f9-4b13-9b4f-1dad5a127e0b"
+      }, 
+      "820b491c-5453-4656-a106-27d0ebd23cce" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100367", 
+            "y" : "-99423"
+         }, 
+         "child" : [ 
+            "7d8e07e9-8460-4a26-959a-6b7914310419", 
+            "4552bbcb-ad7d-4b02-a3a9-aaf472f53e31"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7d8e07e9-8460-4a26-959a-6b7914310419" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100363", 
+            "y" : "-99239", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.7d8e07e9-8460-4a26-959a-6b7914310419"
+      }, 
+      "4552bbcb-ad7d-4b02-a3a9-aaf472f53e31" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100281", 
+            "y" : "-99313"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0384a7d-e77d-4276-af54-fc947e868fc4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100157", 
+            "y" : "-99317", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "183dfd7a-442d-4cad-869a-aaca74fb211a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d0384a7d-e77d-4276-af54-fc947e868fc4"
+      }, 
+      "183dfd7a-442d-4cad-869a-aaca74fb211a" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-99307", 
+            "y" : "-100034"
+         }, 
+         "child" : [ 
+            "1c8b87b5-2038-4cd0-b88d-b481867ab885", 
+            "c93c255d-2046-43fd-add8-3ce626322620"
+         ], 
+         "value" : "90", 
+         "skill" : "Barter"
+      }, 
+      "1c8b87b5-2038-4cd0-b88d-b481867ab885" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99568", 
+            "y" : "-99943", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "8f2acd3f-727f-4b36-8972-7c7fb1ba4e2b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.1c8b87b5-2038-4cd0-b88d-b481867ab885"
+      }, 
+      "8f2acd3f-727f-4b36-8972-7c7fb1ba4e2b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99568", 
+            "y" : "-99843"
+         }, 
+         "child" : [ 
+            "88de0e37-4c0f-4217-89d6-316079a3a5fd"
+         ]
+      }, 
+      "88de0e37-4c0f-4217-89d6-316079a3a5fd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99564", 
+            "y" : "-99771"
+         }, 
+         "child" : [ 
+            "d385c429-68a4-4145-830e-07b43cb5aad0", 
+            "a723d7f6-bad1-49aa-ab78-e71db0d69ea7"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.88de0e37-4c0f-4217-89d6-316079a3a5fd"
+      }, 
+      "d385c429-68a4-4145-830e-07b43cb5aad0" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99758", 
+            "y" : "-99663"
+         }, 
+         "child" : [ 
+            "b065a5e6-53d8-4282-af8a-7c41613e2cba", 
+            "f7042803-98fd-4548-8c1c-0494b6002d7a"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "500", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b065a5e6-53d8-4282-af8a-7c41613e2cba" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99884", 
+            "y" : "-99515", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b065a5e6-53d8-4282-af8a-7c41613e2cba"
+      }, 
+      "f7042803-98fd-4548-8c1c-0494b6002d7a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99682", 
+            "y" : "-99543"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a723d7f6-bad1-49aa-ab78-e71db0d69ea7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99556", 
+            "y" : "-99641"
+         }, 
+         "child" : [ 
+            "38206e78-5688-407a-8b88-fc591389b17f"
+         ], 
+         "exp" : "91"
+      }, 
+      "38206e78-5688-407a-8b88-fc591389b17f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99566", 
+            "y" : "-99589"
+         }, 
+         "child" : [ 
+            "c0b382aa-1d68-4579-9ce2-b096495b404b"
+         ], 
+         "key" : "HALF"
+      }, 
+      "c0b382aa-1d68-4579-9ce2-b096495b404b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99592", 
+            "y" : "-99439", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "07e583d7-e739-414e-bad3-436eecc3ea2a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c0b382aa-1d68-4579-9ce2-b096495b404b"
+      }, 
+      "07e583d7-e739-414e-bad3-436eecc3ea2a" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99541", 
+            "y" : "-99373"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c93c255d-2046-43fd-add8-3ce626322620" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99230", 
+            "y" : "-99951", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "39a06917-7e7c-4452-84ed-aa0d9d14a676"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c93c255d-2046-43fd-add8-3ce626322620"
+      }, 
+      "39a06917-7e7c-4452-84ed-aa0d9d14a676" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99230", 
+            "y" : "-99839"
+         }, 
+         "child" : [ 
+            "1f812e94-9da9-4799-99a3-739c762b4292"
+         ]
+      }, 
+      "1f812e94-9da9-4799-99a3-739c762b4292" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99226", 
+            "y" : "-99791"
+         }, 
+         "child" : [ 
+            "9016e695-044c-4115-ba6c-73ceba01e100", 
+            "f30229c1-1e7f-4fac-a254-12d3a36bfb72", 
+            "307a9262-9cee-48e4-abc9-7f52a97e6fcf"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.1f812e94-9da9-4799-99a3-739c762b4292"
+      }, 
+      "9016e695-044c-4115-ba6c-73ceba01e100" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99274", 
+            "y" : "-99663"
+         }, 
+         "child" : [ 
+            "6d630d46-6435-4ead-9515-71cb77a8bad4", 
+            "bf949c17-0d2e-45a9-bbbf-9ff276f39f49"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6d630d46-6435-4ead-9515-71cb77a8bad4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99437", 
+            "y" : "-99555", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6d630d46-6435-4ead-9515-71cb77a8bad4"
+      }, 
+      "bf949c17-0d2e-45a9-bbbf-9ff276f39f49" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99174", 
+            "y" : "-99537"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f30229c1-1e7f-4fac-a254-12d3a36bfb72" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99190", 
+            "y" : "-99483", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "06625634-5c87-4d27-a51c-e9d4fec817f1"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f30229c1-1e7f-4fac-a254-12d3a36bfb72"
+      }, 
+      "307a9262-9cee-48e4-abc9-7f52a97e6fcf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99080", 
+            "y" : "-99651", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "9f2730de-e2c1-4627-9601-673dcf4ec595"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.307a9262-9cee-48e4-abc9-7f52a97e6fcf"
+      }, 
+      "9f2730de-e2c1-4627-9601-673dcf4ec595" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98954", 
+            "y" : "-99589"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fafa776c-4a3a-45d2-8540-8d7ecac4e25b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100045", 
+            "y" : "-99427", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "93d7e586-c6c6-4d83-a961-13dbaf76f367"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.fafa776c-4a3a-45d2-8540-8d7ecac4e25b"
+      }, 
+      "93d7e586-c6c6-4d83-a961-13dbaf76f367" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99917", 
+            "y" : "-99343"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "530791ac-6cc8-4454-8a65-99b6b7e28ce1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102798", 
+            "y" : "-100871", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "183dfd7a-442d-4cad-869a-aaca74fb211a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.530791ac-6cc8-4454-8a65-99b6b7e28ce1"
+      }, 
+      "2b59a1d9-1ce9-4277-b135-f1084ccb59aa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102623", 
+            "y" : "-100997", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "e879f795-0068-4b79-96c0-93442e8cd186"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2b59a1d9-1ce9-4277-b135-f1084ccb59aa"
+      }, 
+      "e879f795-0068-4b79-96c0-93442e8cd186" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102598", 
+            "y" : "-100909"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4e7a1683-a400-4f70-9e80-af1f4f49f511" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101728.2", 
+            "y" : "-101936.1"
+         }, 
+         "child" : [ 
+            "5f51034b-630a-4a8f-b896-e2e52207d900"
+         ], 
+         "key" : "MEET"
+      }, 
+      "5f51034b-630a-4a8f-b896-e2e52207d900" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101786", 
+            "y" : "-101130"
+         }, 
+         "child" : [ 
+            "d0856662-0866-4715-9406-b48c56dcb0c1"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.5f51034b-630a-4a8f-b896-e2e52207d900"
+      }, 
+      "d0856662-0866-4715-9406-b48c56dcb0c1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101786", 
+            "y" : "-101036"
+         }, 
+         "child" : [ 
+            "2b1f3c7d-6a5a-408c-9557-9eb8e01f9229"
+         ]
+      }, 
+      "2b1f3c7d-6a5a-408c-9557-9eb8e01f9229" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101787", 
+            "y" : "-100996"
+         }, 
+         "child" : [ 
+            "34254842-55eb-44b7-bcc7-ba2a996fee43", 
+            "23041fca-d1d1-4691-97ad-aa1011fb2cb4", 
+            "b4e89bc4-13a0-46d4-9f1f-3bcb52b7a06f", 
+            "df38a4fd-c812-403f-baec-27da1793836a", 
+            "8dbf7002-707a-4eee-a93b-991375cdf8b5", 
+            "7eb063cf-2dad-49d6-99f1-3eedcd7f18b7"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2b1f3c7d-6a5a-408c-9557-9eb8e01f9229"
+      }, 
+      "34254842-55eb-44b7-bcc7-ba2a996fee43" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102231", 
+            "y" : "-100859"
+         }, 
+         "child" : [ 
+            "4372272f-cc03-44a4-8ff0-2bb6d092de78", 
+            "29e6046a-276f-4316-8643-37733e7678aa"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4372272f-cc03-44a4-8ff0-2bb6d092de78" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102395", 
+            "y" : "-100692", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "69721266-030a-4dcd-9172-71d244d7353d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4372272f-cc03-44a4-8ff0-2bb6d092de78"
+      }, 
+      "69721266-030a-4dcd-9172-71d244d7353d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102418", 
+            "y" : "-100253", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "170f9fe9-e79c-42bb-8cbd-5224c68085f0"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.69721266-030a-4dcd-9172-71d244d7353d"
+      }, 
+      "170f9fe9-e79c-42bb-8cbd-5224c68085f0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101885", 
+            "y" : "-100127"
+         }, 
+         "child" : [ 
+            "832e103e-3ce8-47a1-9ae1-6de9bfb25c9c"
+         ]
+      }, 
+      "832e103e-3ce8-47a1-9ae1-6de9bfb25c9c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101885", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+            "dd1394da-59d0-41d3-826d-5f723e25398d", 
+            "4db75664-2549-4f43-8ab9-095f8610444b", 
+            "49996fbb-800d-4930-a790-f452a42a7f8d", 
+            "16bb312e-16eb-4087-98f0-e0b2d1e5da7e", 
+            "4b9677f5-c6f7-410c-a4b0-2a4fa5b84825"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.832e103e-3ce8-47a1-9ae1-6de9bfb25c9c"
+      }, 
+      "dd1394da-59d0-41d3-826d-5f723e25398d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102337", 
+            "y" : "-99773", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "f45f2812-de57-44c5-991a-ce77f750d98d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.dd1394da-59d0-41d3-826d-5f723e25398d"
+      }, 
+      "f45f2812-de57-44c5-991a-ce77f750d98d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100983", 
+            "y" : "-101018", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "055a2ee4-91de-4644-be1c-9260b7eb5643"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f45f2812-de57-44c5-991a-ce77f750d98d"
+      }, 
+      "055a2ee4-91de-4644-be1c-9260b7eb5643" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100755", 
+            "y" : "-100913"
+         }, 
+         "child" : [ 
+            "4d372761-aa1b-4b67-87c6-123d1cc4967c"
+         ]
+      }, 
+      "4d372761-aa1b-4b67-87c6-123d1cc4967c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100755", 
+            "y" : "-100842"
+         }, 
+         "child" : [ 
+            "83d88198-12f5-453d-b46b-d264945a14e6"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4d372761-aa1b-4b67-87c6-123d1cc4967c"
+      }, 
+      "83d88198-12f5-453d-b46b-d264945a14e6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100755", 
+            "y" : "-100713"
+         }, 
+         "child" : [ 
+            "c998968d-cc92-4f17-a991-d2cceb84b425"
+         ]
+      }, 
+      "c998968d-cc92-4f17-a991-d2cceb84b425" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100755", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "ba3b74c9-ceec-41d3-863d-ff47ea0a85ac"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c998968d-cc92-4f17-a991-d2cceb84b425"
+      }, 
+      "ba3b74c9-ceec-41d3-863d-ff47ea0a85ac" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100755", 
+            "y" : "-100513"
+         }, 
+         "child" : [ 
+            "15ee3ff3-c9bc-437a-93b2-7e1ca6fe916c"
+         ]
+      }, 
+      "15ee3ff3-c9bc-437a-93b2-7e1ca6fe916c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100754", 
+            "y" : "-100413"
+         }, 
+         "child" : [ 
+            "17bb4b6d-2491-49c9-b0f9-9a620fc51199", 
+            "e051c320-f549-4b20-8d4f-f8c7fcf8c580", 
+            "06354098-948b-4b05-ac76-4e24d00bc689", 
+            "2ba40257-3f05-4f15-b513-2dc0bdd45dd1", 
+            "6269b0c8-13ba-4c6c-8e75-984cbd501205"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.15ee3ff3-c9bc-437a-93b2-7e1ca6fe916c"
+      }, 
+      "17bb4b6d-2491-49c9-b0f9-9a620fc51199" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101014", 
+            "y" : "-100400"
+         }, 
+         "child" : [ 
+            "9dd67567-9025-4d6d-b3c7-f07d5ef47bea", 
+            "bd0fbaec-0693-4571-8936-4b7a36f7c04c"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "9dd67567-9025-4d6d-b3c7-f07d5ef47bea" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101133", 
+            "y" : "-100274", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "dc7a1c92-ec67-4a6a-ad03-7465ae7287d3"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.9dd67567-9025-4d6d-b3c7-f07d5ef47bea"
+      }, 
+      "dc7a1c92-ec67-4a6a-ad03-7465ae7287d3" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101026", 
+            "y" : "-99970"
+         }, 
+         "child" : [ 
+            "011c9754-e4e5-4c85-8d43-49ee414dfff6"
+         ], 
+         "objectName" : "Fidel", 
+         "portrait" : "Character/Fidel_City", 
+         "mode" : "AutoName"
+      }, 
+      "011c9754-e4e5-4c85-8d43-49ee414dfff6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-99896", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "9ac16933-9cd8-4e68-ad55-85a63082f611"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.011c9754-e4e5-4c85-8d43-49ee414dfff6"
+      }, 
+      "9ac16933-9cd8-4e68-ad55-85a63082f611" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-99796"
+         }, 
+         "child" : [ 
+            "f5190c07-7ff7-424f-aad3-7ab54c24c380"
+         ]
+      }, 
+      "f5190c07-7ff7-424f-aad3-7ab54c24c380" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101038", 
+            "y" : "-99756"
+         }, 
+         "child" : [ 
+            "ee571ff4-aada-43fb-98ec-66d2d652d057"
+         ], 
+         "portrait" : "Character/Zvezda_Guard_Wall", 
+         "mode" : "SetOwnerNameIfExist"
+      }, 
+      "ee571ff4-aada-43fb-98ec-66d2d652d057" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "8ce89702-6fbb-4e90-9a8b-7e2237fa290c"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ee571ff4-aada-43fb-98ec-66d2d652d057"
+      }, 
+      "8ce89702-6fbb-4e90-9a8b-7e2237fa290c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-99562"
+         }, 
+         "child" : [ 
+            "e81506d9-a853-4c1c-aab5-e4ef9ff2cc0e"
+         ]
+      }, 
+      "e81506d9-a853-4c1c-aab5-e4ef9ff2cc0e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101082", 
+            "y" : "-99520"
+         }, 
+         "child" : [ 
+            "73d5d7d8-8efb-44c3-81a4-c0e4d3666997"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e81506d9-a853-4c1c-aab5-e4ef9ff2cc0e"
+      }, 
+      "bd0fbaec-0693-4571-8936-4b7a36f7c04c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e051c320-f549-4b20-8d4f-f8c7fcf8c580" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100832", 
+            "y" : "-100275"
+         }, 
+         "child" : [ 
+            "b3fb0a6f-f21f-4c13-b51e-7ed445fca58c", 
+            "f632c686-d3c9-4c00-96e7-58af650e8a78"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b3fb0a6f-f21f-4c13-b51e-7ed445fca58c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100933", 
+            "y" : "-100077", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "d9174aac-9bfb-432b-823b-49a760006f10"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b3fb0a6f-f21f-4c13-b51e-7ed445fca58c"
+      }, 
+      "f632c686-d3c9-4c00-96e7-58af650e8a78" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100753", 
+            "y" : "-100164"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "06354098-948b-4b05-ac76-4e24d00bc689" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100668", 
+            "y" : "-100151", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "06625634-5c87-4d27-a51c-e9d4fec817f1"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.06354098-948b-4b05-ac76-4e24d00bc689"
+      }, 
+      "2ba40257-3f05-4f15-b513-2dc0bdd45dd1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100403", 
+            "y" : "-100176", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "183dfd7a-442d-4cad-869a-aaca74fb211a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2ba40257-3f05-4f15-b513-2dc0bdd45dd1"
+      }, 
+      "6269b0c8-13ba-4c6c-8e75-984cbd501205" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100293", 
+            "y" : "-100258", 
+            "comment" : "(конец диалога, перенос А14)"
+         }, 
+         "child" : [ 
+            "95bf26dd-277c-43f4-b4b8-7706cbf40dac"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6269b0c8-13ba-4c6c-8e75-984cbd501205"
+      }, 
+      "95bf26dd-277c-43f4-b4b8-7706cbf40dac" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100097", 
+            "y" : "-100185"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4db75664-2549-4f43-8ab9-095f8610444b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102188", 
+            "y" : "-99690", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "f81b453e-d620-45fa-83fc-3851c54ced00"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4db75664-2549-4f43-8ab9-095f8610444b"
+      }, 
+      "f81b453e-d620-45fa-83fc-3851c54ced00" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100709", 
+            "y" : "-101009", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "055a2ee4-91de-4644-be1c-9260b7eb5643"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f81b453e-d620-45fa-83fc-3851c54ced00"
+      }, 
+      "49996fbb-800d-4930-a790-f452a42a7f8d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102031", 
+            "y" : "-99764", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "4f0128cc-8bf4-495b-8072-525bd3bd54f4"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.49996fbb-800d-4930-a790-f452a42a7f8d"
+      }, 
+      "4f0128cc-8bf4-495b-8072-525bd3bd54f4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100440", 
+            "y" : "-101007", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "00686789-1c7b-42f3-83e0-4f8bee1c50fa"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4f0128cc-8bf4-495b-8072-525bd3bd54f4"
+      }, 
+      "00686789-1c7b-42f3-83e0-4f8bee1c50fa" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100440", 
+            "y" : "-100874"
+         }, 
+         "child" : [ 
+            "7173a387-2ac2-43ae-9b80-7895cd67a4a1"
+         ]
+      }, 
+      "7173a387-2ac2-43ae-9b80-7895cd67a4a1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100440", 
+            "y" : "-100807"
+         }, 
+         "child" : [ 
+            "83d88198-12f5-453d-b46b-d264945a14e6"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.7173a387-2ac2-43ae-9b80-7895cd67a4a1"
+      }, 
+      "16bb312e-16eb-4087-98f0-e0b2d1e5da7e" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101740", 
+            "y" : "-99865"
+         }, 
+         "child" : [ 
+            "cb92ae14-c2dc-4901-825f-18f9b855b615", 
+            "412d276f-313d-4f0c-9830-4f56c06f5c6b"
+         ], 
+         "value" : "6", 
+         "stat" : "Intelligence"
+      }, 
+      "cb92ae14-c2dc-4901-825f-18f9b855b615" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101798", 
+            "y" : "-99679", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "88b3c235-b7bb-4361-ba51-4336a11176ab"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.cb92ae14-c2dc-4901-825f-18f9b855b615"
+      }, 
+      "88b3c235-b7bb-4361-ba51-4336a11176ab" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100184", 
+            "y" : "-101011", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "af025306-fcb5-4864-9e3f-ff92ef1f3f53"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.88b3c235-b7bb-4361-ba51-4336a11176ab"
+      }, 
+      "af025306-fcb5-4864-9e3f-ff92ef1f3f53" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100129", 
+            "y" : "-100908"
+         }, 
+         "child" : [ 
+            "00686789-1c7b-42f3-83e0-4f8bee1c50fa"
+         ], 
+         "exp" : "20"
+      }, 
+      "412d276f-313d-4f0c-9830-4f56c06f5c6b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101629", 
+            "y" : "-99776"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4b9677f5-c6f7-410c-a4b0-2a4fa5b84825" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101508", 
+            "y" : "-99902", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "c84d677d-58cb-4829-b95f-f3740aae2a6f"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.4b9677f5-c6f7-410c-a4b0-2a4fa5b84825"
+      }, 
+      "c84d677d-58cb-4829-b95f-f3740aae2a6f" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-99659", 
+            "y" : "-101067"
+         }, 
+         "child" : [ 
+            "a43b783b-ecc0-4830-9df7-0934bd9c9b57", 
+            "ecf974c2-2cd1-45c2-961f-84868c46cb83"
+         ], 
+         "value" : "111", 
+         "skill" : "FirstAid"
+      }, 
+      "a43b783b-ecc0-4830-9df7-0934bd9c9b57" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99863", 
+            "y" : "-100961", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "a7500539-b57f-48d0-a769-927bf0c9fe76"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.a43b783b-ecc0-4830-9df7-0934bd9c9b57"
+      }, 
+      "a7500539-b57f-48d0-a769-927bf0c9fe76" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99863", 
+            "y" : "-100861"
+         }, 
+         "child" : [ 
+            "c408e607-b8d7-43be-bd36-2a91b79c093a"
+         ]
+      }, 
+      "c408e607-b8d7-43be-bd36-2a91b79c093a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99818", 
+            "y" : "-100829"
+         }, 
+         "child" : [ 
+            "259374ee-80df-4572-8e6b-096f7f58e26b"
+         ], 
+         "exp" : "71"
+      }, 
+      "259374ee-80df-4572-8e6b-096f7f58e26b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99973", 
+            "y" : "-100801"
+         }, 
+         "child" : [ 
+            "d667c3df-75c4-421a-802a-c0ca2b6bb3ba"
+         ], 
+         "key" : "HEAL"
+      }, 
+      "d667c3df-75c4-421a-802a-c0ca2b6bb3ba" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99863", 
+            "y" : "-100761"
+         }, 
+         "child" : [ 
+            "08a9f4ce-1b03-4811-af71-9c0a7ac571a8", 
+            "57572808-0947-4da6-b091-83ac552450bb"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.d667c3df-75c4-421a-802a-c0ca2b6bb3ba"
+      }, 
+      "08a9f4ce-1b03-4811-af71-9c0a7ac571a8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100176", 
+            "y" : "-100636", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "153a094a-d6e3-4f0a-958d-1301f8579941"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.08a9f4ce-1b03-4811-af71-9c0a7ac571a8"
+      }, 
+      "153a094a-d6e3-4f0a-958d-1301f8579941" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-99356", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "cace8771-2bd5-457c-a6d1-415a42cbcc1e"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.153a094a-d6e3-4f0a-958d-1301f8579941"
+      }, 
+      "cace8771-2bd5-457c-a6d1-415a42cbcc1e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-99256"
+         }, 
+         "child" : [ 
+            "51be754b-f4c2-4eb9-a3f7-0f87e512b7ff"
+         ]
+      }, 
+      "51be754b-f4c2-4eb9-a3f7-0f87e512b7ff" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-99156"
+         }, 
+         "child" : [ 
+            "e2e0393f-5075-42f9-a30e-7ff080da2c25"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.51be754b-f4c2-4eb9-a3f7-0f87e512b7ff"
+      }, 
+      "e2e0393f-5075-42f9-a30e-7ff080da2c25" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-99056"
+         }, 
+         "child" : [ 
+            "09a8be53-9deb-49cb-ab36-ad39ba42dbb0"
+         ]
+      }, 
+      "09a8be53-9deb-49cb-ab36-ad39ba42dbb0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-98956"
+         }, 
+         "child" : [ 
+            "9873b87a-1495-415a-af98-9796412fa872", 
+            "3cfc9e7b-ef2d-40b9-8a93-cc6194030d3a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.09a8be53-9deb-49cb-ab36-ad39ba42dbb0"
+      }, 
+      "9873b87a-1495-415a-af98-9796412fa872" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99957", 
+            "y" : "-98891"
+         }, 
+         "child" : [ 
+            "c864738b-b947-4765-a93e-88542fa527d3", 
+            "094fda79-df39-46fe-a24c-430654ed5bbe"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c864738b-b947-4765-a93e-88542fa527d3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100076", 
+            "y" : "-98733", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "13ad3da4-8b4c-4e4d-a203-0aa726fad70d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c864738b-b947-4765-a93e-88542fa527d3"
+      }, 
+      "094fda79-df39-46fe-a24c-430654ed5bbe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99864", 
+            "y" : "-98773"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3cfc9e7b-ef2d-40b9-8a93-cc6194030d3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-98756", 
+            "comment" : "(конец диалога, перенос А20)"
+         }, 
+         "child" : [ 
+            "55e12f75-187c-437b-bb3e-436284ae78bf"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.3cfc9e7b-ef2d-40b9-8a93-cc6194030d3a"
+      }, 
+      "55e12f75-187c-437b-bb3e-436284ae78bf" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99617.51", 
+            "y" : "-98571.92"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "57572808-0947-4da6-b091-83ac552450bb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99848", 
+            "y" : "-100575", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "c9be349a-a292-4784-bddb-275d24ca749b"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.57572808-0947-4da6-b091-83ac552450bb"
+      }, 
+      "c9be349a-a292-4784-bddb-275d24ca749b" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-98714", 
+            "y" : "-100544"
+         }, 
+         "child" : [ 
+            "6125c615-2a47-4e3b-a9fb-66e9d8c1a006", 
+            "72f2f829-c6e6-4137-bf77-52a12f7d4624"
+         ], 
+         "value" : "5", 
+         "stat" : "Charisma"
+      }, 
+      "6125c615-2a47-4e3b-a9fb-66e9d8c1a006" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98901", 
+            "y" : "-100402", 
+            "comment" : "А16"
+         }, 
+         "child" : [ 
+            "84dd554f-ed9b-4468-8e99-f357a4f9838a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.6125c615-2a47-4e3b-a9fb-66e9d8c1a006"
+      }, 
+      "84dd554f-ed9b-4468-8e99-f357a4f9838a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98862", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+            "fc226d86-c0e3-4b12-a895-8622b16299b2"
+         ], 
+         "exp" : "20"
+      }, 
+      "fc226d86-c0e3-4b12-a895-8622b16299b2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98927", 
+            "y" : "-100208", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "90e7e2c3-0523-43cf-b921-0967e863f0a8"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.fc226d86-c0e3-4b12-a895-8622b16299b2"
+      }, 
+      "90e7e2c3-0523-43cf-b921-0967e863f0a8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98203", 
+            "y" : "-100098", 
+            "comment" : "А21"
+         }, 
+         "child" : [ 
+            "cfab7c1d-a243-4c42-a89b-ce921b911e91"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.90e7e2c3-0523-43cf-b921-0967e863f0a8"
+      }, 
+      "cfab7c1d-a243-4c42-a89b-ce921b911e91" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98203", 
+            "y" : "-99998"
+         }, 
+         "child" : [ 
+            "8ef3f8f4-55c2-45bf-9729-61ec2299ec56"
+         ]
+      }, 
+      "8ef3f8f4-55c2-45bf-9729-61ec2299ec56" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98203", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+            "2f7506cf-9eac-4de8-8b13-a9d945aa2ec2"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.8ef3f8f4-55c2-45bf-9729-61ec2299ec56"
+      }, 
+      "2f7506cf-9eac-4de8-8b13-a9d945aa2ec2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98181", 
+            "y" : "-99756"
+         }, 
+         "child" : [ 
+            "e313fb88-834b-46cc-89c8-a194ad18ecaf"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.2f7506cf-9eac-4de8-8b13-a9d945aa2ec2"
+      }, 
+      "e313fb88-834b-46cc-89c8-a194ad18ecaf" : { 
+         "class" : "OpenDoorNode", 
+         "desc" : { 
+            "x" : "-98127", 
+            "y" : "-99629"
+         }, 
+         "child" : [ 
+            "2fbe4bbf-0a73-4336-8acb-8eb662341234"
+         ], 
+         "lockLevel" : "0", 
+         "objectName" : "KRZ_Door"
+      }, 
+      "2fbe4bbf-0a73-4336-8acb-8eb662341234" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98138", 
+            "y" : "-99531"
+         }, 
+         "child" : [ 
+            "5229194e-f96a-41fa-8eb5-bac544dba140"
+         ], 
+         "key" : "SICK"
+      }, 
+      "5229194e-f96a-41fa-8eb5-bac544dba140" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98128", 
+            "y" : "-99452"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "72f2f829-c6e6-4137-bf77-52a12f7d4624" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98556", 
+            "y" : "-100412", 
+            "comment" : "А16"
+         }, 
+         "child" : [ 
+            "27b4097d-140e-4605-8cd9-d67ee633681c"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.72f2f829-c6e6-4137-bf77-52a12f7d4624"
+      }, 
+      "27b4097d-140e-4605-8cd9-d67ee633681c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98556", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+            "402db0f3-2e36-41c2-a317-8253996a4494"
+         ]
+      }, 
+      "402db0f3-2e36-41c2-a317-8253996a4494" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98556", 
+            "y" : "-100212"
+         }, 
+         "child" : [ 
+            "1e501431-cf08-46dc-8b06-d818242fcefe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.402db0f3-2e36-41c2-a317-8253996a4494"
+      }, 
+      "1e501431-cf08-46dc-8b06-d818242fcefe" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98556", 
+            "y" : "-100112"
+         }, 
+         "child" : [ 
+            "f349b9a7-3b6a-4161-9886-65e3c5a058f0"
+         ]
+      }, 
+      "f349b9a7-3b6a-4161-9886-65e3c5a058f0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98556", 
+            "y" : "-100034"
+         }, 
+         "child" : [ 
+            "3c3f234f-3ca9-4394-9d9a-58875adafe89", 
+            "986f84d6-8b7d-4d89-b9cd-391ccf02d97a"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.f349b9a7-3b6a-4161-9886-65e3c5a058f0"
+      }, 
+      "3c3f234f-3ca9-4394-9d9a-58875adafe89" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-98790", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "37b28103-b6a9-439c-a8ab-0264357655a9", 
+            "3a62e8e7-0585-468e-9e27-d3418ad12355"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "37b28103-b6a9-439c-a8ab-0264357655a9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98879", 
+            "y" : "-99835", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "13ad3da4-8b4c-4e4d-a203-0aa726fad70d"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.37b28103-b6a9-439c-a8ab-0264357655a9"
+      }, 
+      "3a62e8e7-0585-468e-9e27-d3418ad12355" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98654", 
+            "y" : "-99872"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "986f84d6-8b7d-4d89-b9cd-391ccf02d97a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98525", 
+            "y" : "-99831", 
+            "comment" : "(конец диалога, перенос А20)"
+         }, 
+         "child" : [ 
+            "4a8c5232-a867-48fd-ac7d-1828f89fb4f9"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.986f84d6-8b7d-4d89-b9cd-391ccf02d97a"
+      }, 
+      "4a8c5232-a867-48fd-ac7d-1828f89fb4f9" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98456", 
+            "y" : "-99760"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ecf974c2-2cd1-45c2-961f-84868c46cb83" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99536", 
+            "y" : "-100954", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "56317622-32a1-4689-bd04-964407e40abe"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.ecf974c2-2cd1-45c2-961f-84868c46cb83"
+      }, 
+      "56317622-32a1-4689-bd04-964407e40abe" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99536", 
+            "y" : "-100854"
+         }, 
+         "child" : [ 
+            "84a46e08-5f1c-44c3-83b6-4e07916ab507"
+         ]
+      }, 
+      "84a46e08-5f1c-44c3-83b6-4e07916ab507" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99536", 
+            "y" : "-100754"
+         }, 
+         "child" : [ 
+            "00686789-1c7b-42f3-83e0-4f8bee1c50fa"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.84a46e08-5f1c-44c3-83b6-4e07916ab507"
+      }, 
+      "29e6046a-276f-4316-8643-37733e7678aa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102145", 
+            "y" : "-100687"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "23041fca-d1d1-4691-97ad-aa1011fb2cb4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102105", 
+            "y" : "-100613", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "e0ac0bfb-d346-43ef-b224-6b2589327ca8"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.23041fca-d1d1-4691-97ad-aa1011fb2cb4"
+      }, 
+      "e0ac0bfb-d346-43ef-b224-6b2589327ca8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101885", 
+            "y" : "-100430", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "e95da15a-7650-4633-9dba-499dff99fce3"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e0ac0bfb-d346-43ef-b224-6b2589327ca8"
+      }, 
+      "e95da15a-7650-4633-9dba-499dff99fce3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101886", 
+            "y" : "-100309"
+         }, 
+         "child" : [ 
+            "67f0d95a-cb82-4e9f-bedf-2ba5670d68c9"
+         ]
+      }, 
+      "67f0d95a-cb82-4e9f-bedf-2ba5670d68c9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101859", 
+            "y" : "-100253"
+         }, 
+         "child" : [ 
+            "170f9fe9-e79c-42bb-8cbd-5224c68085f0"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.67f0d95a-cb82-4e9f-bedf-2ba5670d68c9"
+      }, 
+      "b4e89bc4-13a0-46d4-9f1f-3bcb52b7a06f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100713", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "c35be0a4-19f5-4e87-88c0-a9555afa81fc"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.b4e89bc4-13a0-46d4-9f1f-3bcb52b7a06f"
+      }, 
+      "c35be0a4-19f5-4e87-88c0-a9555afa81fc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102186", 
+            "y" : "-100436", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "e95da15a-7650-4633-9dba-499dff99fce3"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.c35be0a4-19f5-4e87-88c0-a9555afa81fc"
+      }, 
+      "df38a4fd-c812-403f-baec-27da1793836a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101778", 
+            "y" : "-100617", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "e1648a65-945e-4150-98dc-434ca338d527"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.df38a4fd-c812-403f-baec-27da1793836a"
+      }, 
+      "e1648a65-945e-4150-98dc-434ca338d527" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101600", 
+            "y" : "-100412", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "e95da15a-7650-4633-9dba-499dff99fce3"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.e1648a65-945e-4150-98dc-434ca338d527"
+      }, 
+      "8dbf7002-707a-4eee-a93b-991375cdf8b5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101530", 
+            "y" : "-100701", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "f3cea057-5f82-41e3-83e0-699d6f5cd6f7"
+         ], 
+         "text" : "#Zvezda_Guard_Wall.8dbf7002-707a-4eee-a93b-991375cdf8b5"
+      }, 
+      "f3cea057-5f82-41e3-83e0-699d6f5cd6f7" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101483.6", 
+            "y" : "-100635.8"
+         }, 
+         "child" : [ 
+            "9eff5b82-ee14-4ad2-8acd-19fa079a6f43"
+         ], 
+         "key" : "MEET"
+      }, 
+      "9eff5b82-ee14-4ad2-8acd-19fa079a6f43" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101477", 
+            "y" : "-100570"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7eb063cf-2dad-49d6-99f1-3eedcd7f18b7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101533", 
+            "y" : "-100876"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "KRZ_WALLGUARD_ASKED_MONEY"
+      }, 
+      "b92a7161-95b6-402f-8879-18b34daabab1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102786", 
+            "y" : "-102464"
+         }, 
+         "child" : [ 
+            "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d"
+         ]
+      }
+   }, 
+   "entry" : "d90b995b-9b7d-4d99-a915-b52ce09cc4f9"
+}

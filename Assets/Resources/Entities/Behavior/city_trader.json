@@ -3,8 +3,8 @@
       "27d2cb71-d550-4812-a9ad-0ea3aea74912" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100720", 
-            "y" : "-100636"
+            "x" : "-100745", 
+            "y" : "-100866"
          }, 
          "child" : [ 
             "511c9150-aea9-4c9a-9589-f5b2c8ec5760"
@@ -13,27 +13,39 @@
       "511c9150-aea9-4c9a-9589-f5b2c8ec5760" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-100753", 
-            "y" : "-100546"
+            "x" : "-100768", 
+            "y" : "-100824"
          }, 
          "child" : [ 
-            "3df2bb36-8c2b-41f1-8769-a57576fc4a6b", 
+            "ca2068cd-46d6-4198-9e51-3856fbb98039", 
             "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26"
          ], 
          "key" : "GOODS_TRADER"
       }, 
-      "3df2bb36-8c2b-41f1-8769-a57576fc4a6b" : { 
+      "ca2068cd-46d6-4198-9e51-3856fbb98039" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101404", 
+            "y" : "-101004"
+         }, 
+         "child" : [ 
+            "77681582-094d-4a95-b6cc-e9dee5065ad2", 
+            "fee196f0-1fb8-4940-894d-143b7c1336a6"
+         ], 
+         "key" : "RENEW_1H"
+      }, 
+      "77681582-094d-4a95-b6cc-e9dee5065ad2" : { 
          "class" : "HasTimeDateComeNode", 
          "desc" : { 
-            "x" : "-100506", 
-            "y" : "-100449"
+            "x" : "-101635", 
+            "y" : "-100657"
          }, 
          "child" : [ 
             "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26", 
             "5d616a07-ab72-4686-8300-02769bc139b2"
          ], 
          "time" : "1", 
-         "mode" : "Day", 
+         "mode" : "Hour", 
          "offsetValue" : "GOODS_TRADER"
       }, 
       "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26" : { 
@@ -63,8 +75,8 @@
       "152cb559-0710-4845-abac-4f2205a3a3bd" : { 
          "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-100457", 
-            "y" : "-100129"
+            "x" : "-100479", 
+            "y" : "-100113"
          }, 
          "child" : [ 
             "4f8a2be0-71ed-4d1f-b7a1-a8b01eb5f566", 
@@ -1453,8 +1465,8 @@
       "d810a3c4-f616-4df2-9f48-30033c0a7b20" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100533", 
-            "y" : "-99806"
+            "x" : "-100608", 
+            "y" : "-99751"
          }, 
          "child" : [ 
             "7bd8943c-d536-478e-a0b3-e9cea0949774", 
@@ -1475,7 +1487,7 @@
       "561154cf-8713-42ef-8a4b-c9898842f772" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100260", 
+            "x" : "-100261", 
             "y" : "-99738"
          }, 
          "child" : [ 
@@ -1503,11 +1515,63 @@
       "5d616a07-ab72-4686-8300-02769bc139b2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100391", 
-            "y" : "-100289"
+            "x" : "-101320", 
+            "y" : "-100207"
          }, 
          "child" : [ 
          ]
+      }, 
+      "fee196f0-1fb8-4940-894d-143b7c1336a6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101312", 
+            "y" : "-100898"
+         }, 
+         "child" : [ 
+            "3df2bb36-8c2b-41f1-8769-a57576fc4a6b", 
+            "0d69ab4f-9554-40fe-ae93-15569a247a14"
+         ], 
+         "key" : "RENEW_1D"
+      }, 
+      "3df2bb36-8c2b-41f1-8769-a57576fc4a6b" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101428", 
+            "y" : "-100656"
+         }, 
+         "child" : [ 
+            "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26", 
+            "5d616a07-ab72-4686-8300-02769bc139b2"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "GOODS_TRADER"
+      }, 
+      "0d69ab4f-9554-40fe-ae93-15569a247a14" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101206", 
+            "y" : "-100790"
+         }, 
+         "child" : [ 
+            "a788d986-dc9f-4428-8fea-90b0944f9334", 
+            "3df2bb36-8c2b-41f1-8769-a57576fc4a6b"
+         ], 
+         "key" : "RENEW_3D"
+      }, 
+      "a788d986-dc9f-4428-8fea-90b0944f9334" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101216", 
+            "y" : "-100658"
+         }, 
+         "child" : [ 
+            "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26", 
+            "5d616a07-ab72-4686-8300-02769bc139b2"
+         ], 
+         "time" : "3", 
+         "mode" : "Day", 
+         "offsetValue" : "GOODS_TRADER"
       }
    }, 
    "entry" : "27d2cb71-d550-4812-a9ad-0ea3aea74912"

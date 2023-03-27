@@ -1,0 +1,401 @@
+{ 
+   "states" : { 
+      "fa5922bf-df6d-40b6-a3f3-76d61f4d88e5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103658", 
+            "y" : "-102599"
+         }, 
+         "child" : [ 
+            "83f706e6-484e-44f2-9a83-db54a0fa00ba"
+         ]
+      }, 
+      "83f706e6-484e-44f2-9a83-db54a0fa00ba" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-103652", 
+            "y" : "-102528"
+         }, 
+         "child" : [ 
+            "64c425e2-8ffc-4c06-906f-433e78632f2e", 
+            "273aeced-a048-40f9-b5da-04e3a70c8194"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "64c425e2-8ffc-4c06-906f-433e78632f2e" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-103826", 
+            "y" : "-102428"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Dialog/ChaosNpc"
+      }, 
+      "273aeced-a048-40f9-b5da-04e3a70c8194" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103541", 
+            "y" : "-102407"
+         }, 
+         "child" : [ 
+            "17b7cd0a-446e-490a-9e00-f24f7ffc3d0c"
+         ]
+      }, 
+      "17b7cd0a-446e-490a-9e00-f24f7ffc3d0c" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-103520", 
+            "y" : "-102336"
+         }, 
+         "child" : [ 
+            "0a448282-2ac8-4174-ba48-f3f46e1d47e5", 
+            "4270645c-fa10-4d8e-bfd5-fc89c5fa5666", 
+            "40c74d05-7d93-450d-af89-54913bfd3716"
+         ], 
+         "quest_key" : "HARBOR.HELP"
+      }, 
+      "0a448282-2ac8-4174-ba48-f3f46e1d47e5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103714", 
+            "y" : "-102120"
+         }, 
+         "child" : [ 
+            "a2762037-904d-407e-9f96-8abd286e4402", 
+            "d997c4f3-3e0a-44c2-8368-c654ee893dff"
+         ], 
+         "key" : "MEET"
+      }, 
+      "a2762037-904d-407e-9f96-8abd286e4402" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103899", 
+            "y" : "-102015"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Harbor_Help.a2762037-904d-407e-9f96-8abd286e4402", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d997c4f3-3e0a-44c2-8368-c654ee893dff" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103638", 
+            "y" : "-102010"
+         }, 
+         "child" : [ 
+            "d40114fb-3c22-41e1-a5d2-da130f5569a6"
+         ], 
+         "key" : "MEET"
+      }, 
+      "d40114fb-3c22-41e1-a5d2-da130f5569a6" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-103676", 
+            "y" : "-101928"
+         }, 
+         "child" : [ 
+            "12bb63ab-f3b2-4d76-8bbb-8599a57d96b9"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "12bb63ab-f3b2-4d76-8bbb-8599a57d96b9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103796", 
+            "y" : "-101868", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "fbc82dc4-0431-4691-9b83-c49732c698d8"
+         ], 
+         "text" : "#Harbor_Help.12bb63ab-f3b2-4d76-8bbb-8599a57d96b9"
+      }, 
+      "fbc82dc4-0431-4691-9b83-c49732c698d8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103798", 
+            "y" : "-101735"
+         }, 
+         "child" : [ 
+            "778c98d3-05d0-409f-8467-966d75cc6cd4"
+         ]
+      }, 
+      "778c98d3-05d0-409f-8467-966d75cc6cd4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103799", 
+            "y" : "-101676"
+         }, 
+         "child" : [ 
+            "01591c2c-de48-4a91-9e40-7fc8cee25c56"
+         ], 
+         "text" : "#Harbor_Help.778c98d3-05d0-409f-8467-966d75cc6cd4"
+      }, 
+      "01591c2c-de48-4a91-9e40-7fc8cee25c56" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103796", 
+            "y" : "-101554"
+         }, 
+         "child" : [ 
+            "a884c180-6625-4170-825e-5ab46641a14a"
+         ]
+      }, 
+      "a884c180-6625-4170-825e-5ab46641a14a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103796", 
+            "y" : "-101454"
+         }, 
+         "child" : [ 
+            "284897a7-d282-4bd6-8b60-066e88b86647"
+         ], 
+         "text" : "#Harbor_Help.a884c180-6625-4170-825e-5ab46641a14a"
+      }, 
+      "284897a7-d282-4bd6-8b60-066e88b86647" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-103790", 
+            "y" : "-101317"
+         }, 
+         "child" : [ 
+            "e7f31024-e4de-46c3-942e-9dbe6d356379", 
+            "854eaac9-a948-47cd-babe-6f5e82dfc9c9"
+         ], 
+         "value" : "5", 
+         "stat" : "Intelligence"
+      }, 
+      "e7f31024-e4de-46c3-942e-9dbe6d356379" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104055", 
+            "y" : "-101196", 
+            "comment" : "(если охранник погибает, то гг может просто выйти из локи и его переносит в начало Перегона. Охранник пропадает со своего поста)(конец диалога) (охранник начинает ходить за гг. Если гг выходит из локи, то он (гг) оказывается на входе в Перегоне. Тогда в диалоге с охранником перенос А8) (если гг перебивает всех волков, то автоматом начинается диалог, перенос А14)"
+         }, 
+         "child" : [ 
+            "e3a2f04e-7cff-4e70-9f73-d9f7bdd2ea9e"
+         ], 
+         "text" : "#Harbor_Help.e7f31024-e4de-46c3-942e-9dbe6d356379"
+      }, 
+      "e3a2f04e-7cff-4e70-9f73-d9f7bdd2ea9e" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103790", 
+            "y" : "-100936"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "854eaac9-a948-47cd-babe-6f5e82dfc9c9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103625", 
+            "y" : "-101188", 
+            "comment" : "(если охранник погибает, то гг может просто выйти из локи и его переносит в начало Перегона. Охранник пропадает со своего поста)(конец диалога) (охранник начинает ходить за гг. Если гг выходит из локи, то он оказывается на входе в Перегоне. Тогда в диалоге с охранником перенос А8) (если гг перебивает всех волков, то автоматом начинается диалог, перенос А14)"
+         }, 
+         "child" : [ 
+            "e3a2f04e-7cff-4e70-9f73-d9f7bdd2ea9e"
+         ], 
+         "text" : "#Harbor_Help.854eaac9-a948-47cd-babe-6f5e82dfc9c9"
+      }, 
+      "4270645c-fa10-4d8e-bfd5-fc89c5fa5666" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103244", 
+            "y" : "-102152"
+         }, 
+         "child" : [ 
+            "984f6352-ba36-439d-a624-c0eb830cba19", 
+            "6a6cca5e-6b8c-4526-b7b2-040cfd2e8138"
+         ], 
+         "key" : "MEET2"
+      }, 
+      "984f6352-ba36-439d-a624-c0eb830cba19" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103429", 
+            "y" : "-102047"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Harbor_Help.984f6352-ba36-439d-a624-c0eb830cba19", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6a6cca5e-6b8c-4526-b7b2-040cfd2e8138" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103168", 
+            "y" : "-102042"
+         }, 
+         "child" : [ 
+            "c52b75f5-57b3-44f0-9c15-56694d529c87"
+         ], 
+         "key" : "MEET2"
+      }, 
+      "c52b75f5-57b3-44f0-9c15-56694d529c87" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-103206", 
+            "y" : "-101960"
+         }, 
+         "child" : [ 
+            "f1bbeb23-0c0a-40fc-915a-47d4df786d4d"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "f1bbeb23-0c0a-40fc-915a-47d4df786d4d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103182", 
+            "y" : "-101849", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "da285242-cb13-4897-a97c-7c229e0fc59f"
+         ], 
+         "text" : "#Harbor_Help.f1bbeb23-0c0a-40fc-915a-47d4df786d4d"
+      }, 
+      "da285242-cb13-4897-a97c-7c229e0fc59f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103182", 
+            "y" : "-101749"
+         }, 
+         "child" : [ 
+            "282f6a24-2fe0-413a-b81b-3452c1e002f4"
+         ]
+      }, 
+      "282f6a24-2fe0-413a-b81b-3452c1e002f4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103182", 
+            "y" : "-101649"
+         }, 
+         "child" : [ 
+            "001f162f-c436-49c1-b85c-a32c7ea5ac3c"
+         ], 
+         "text" : "#Harbor_Help.282f6a24-2fe0-413a-b81b-3452c1e002f4"
+      }, 
+      "001f162f-c436-49c1-b85c-a32c7ea5ac3c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103164", 
+            "y" : "-101517"
+         }, 
+         "child" : [ 
+            "862175d2-7141-4228-ae69-6a912606c0d6"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "5", 
+            "proto" : "7_62mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "862175d2-7141-4228-ae69-6a912606c0d6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103159", 
+            "y" : "-101426"
+         }, 
+         "child" : [ 
+            "85ae7ae0-ba5d-47bc-b5c9-74c0c4ef1d23"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "5", 
+            "proto" : "9mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "85ae7ae0-ba5d-47bc-b5c9-74c0c4ef1d23" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103160", 
+            "y" : "-101351"
+         }, 
+         "child" : [ 
+            "823557cc-116a-483f-96b9-45f127e613f7"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "5", 
+            "proto" : "5_45mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "823557cc-116a-483f-96b9-45f127e613f7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103205", 
+            "y" : "-101260", 
+            "comment" : "(если гг выходит из локи, то он оказывается на входе в Перегоне. Тогда в диалоге с охранником перенос А15)"
+         }, 
+         "child" : [ 
+            "b3f33666-716b-44b1-b72d-10a16824cd61"
+         ], 
+         "text" : "#Harbor_Help.823557cc-116a-483f-96b9-45f127e613f7"
+      }, 
+      "b3f33666-716b-44b1-b72d-10a16824cd61" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103169", 
+            "y" : "-101172"
+         }, 
+         "child" : [ 
+            "42fee6f3-178f-4962-b091-27c72a046ced"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_scorpion_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "42fee6f3-178f-4962-b091-27c72a046ced" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103203", 
+            "y" : "-101074"
+         }, 
+         "child" : [ 
+            "0eb7279a-d506-4c67-a915-0aeceb62c50f"
+         ], 
+         "text" : "Вдруг охранник вам протягивает инструкцию для ПП скорпион"
+      }, 
+      "0eb7279a-d506-4c67-a915-0aeceb62c50f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103204", 
+            "y" : "-100969"
+         }, 
+         "child" : [ 
+            "1f9b8275-077f-4af0-803f-7e688ec82d5b"
+         ], 
+         "text" : "Вот это да! Спасибо огромное!"
+      }, 
+      "1f9b8275-077f-4af0-803f-7e688ec82d5b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103148", 
+            "y" : "-100892"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "40c74d05-7d93-450d-af89-54913bfd3716" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103361", 
+            "y" : "-102240"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "fa5922bf-df6d-40b6-a3f3-76d61f4d88e5"
+}

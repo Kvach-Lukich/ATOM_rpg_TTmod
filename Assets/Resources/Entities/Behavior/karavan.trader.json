@@ -132,26 +132,55 @@
       "f6a508a3-5bd0-48e4-9a03-af8e524810e7" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100584", 
-            "y" : "-100431"
+            "x" : "-100535", 
+            "y" : "-100433"
          }, 
          "child" : [ 
+            "2a9587b2-3faf-4c72-98b7-8efe4cf007e8"
          ], 
          "inventory" : [ 
             { 
                "class" : "Item", 
                "count" : "1", 
-               "proto" : "battary"
+               "proto" : "Battary"
             }, 
             { 
                "class" : "Item", 
                "count" : "2", 
-               "proto" : "battary"
+               "proto" : "Battary"
             }, 
             { 
                "class" : "Item", 
                "count" : "3", 
-               "proto" : "battary"
+               "proto" : "Battary"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "2a9587b2-3faf-4c72-98b7-8efe4cf007e8" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100533", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "10mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "10mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "10mm_ap"
             }
          ], 
          "inventoryObject" : "", 

@@ -1,0 +1,1244 @@
+{ 
+   "states" : { 
+      "f8b557b8-e3fb-49bf-a391-ae49ac79ad8b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101799", 
+            "y" : "-101493"
+         }, 
+         "child" : [ 
+            "02fc782a-f6fc-4992-bdc4-d8b7e8bd4043"
+         ]
+      }, 
+      "02fc782a-f6fc-4992-bdc4-d8b7e8bd4043" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-101793", 
+            "y" : "-101421"
+         }, 
+         "child" : [ 
+            "92c5482b-0511-464b-b375-a2ad08908be3", 
+            "26aaf188-4e3d-428f-a3ee-4d9461312582"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "92c5482b-0511-464b-b375-a2ad08908be3" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101967", 
+            "y" : "-101321"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Dialog/ChaosNpc"
+      }, 
+      "26aaf188-4e3d-428f-a3ee-4d9461312582" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-101687", 
+            "y" : "-101251"
+         }, 
+         "child" : [ 
+            "55ea20a8-c46f-4029-b9c2-a33bb4dfabdd"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "55ea20a8-c46f-4029-b9c2-a33bb4dfabdd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101675", 
+            "y" : "-101145"
+         }, 
+         "child" : [ 
+            "53d240e7-1dc3-4557-8629-06d2fe27ac75", 
+            "8da3e146-0afb-4850-9a5d-d4eff5d697f7"
+         ], 
+         "key" : "MEET"
+      }, 
+      "53d240e7-1dc3-4557-8629-06d2fe27ac75" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-101212", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "4bcff252-0466-42ac-801f-795fbddde732"
+         ], 
+         "text" : "#Harbor_H1.53d240e7-1dc3-4557-8629-06d2fe27ac75"
+      }, 
+      "4bcff252-0466-42ac-801f-795fbddde732" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-101112"
+         }, 
+         "child" : [ 
+            "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+         ]
+      }, 
+      "fa25ae89-3cf1-45ba-b3b0-46d414eee126" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-101012"
+         }, 
+         "child" : [ 
+            "387c7557-79c0-43df-9be8-c16da8d47003", 
+            "e7cdf1ff-2709-4e1b-8d06-8d4eec145674", 
+            "09b6b687-dc63-4f75-9858-54c178a6e870", 
+            "086a66c5-cf9a-44b3-8ee6-20a04af4e2b3"
+         ], 
+         "text" : "#Harbor_H1.fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+      }, 
+      "387c7557-79c0-43df-9be8-c16da8d47003" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102523", 
+            "y" : "-100832"
+         }, 
+         "child" : [ 
+            "d5c23651-458d-4d17-859f-8e05f39d8155"
+         ], 
+         "text" : "#Harbor_H1.387c7557-79c0-43df-9be8-c16da8d47003"
+      }, 
+      "d5c23651-458d-4d17-859f-8e05f39d8155" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102575", 
+            "y" : "-100718"
+         }, 
+         "child" : [ 
+            "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+         ]
+      }, 
+      "e7cdf1ff-2709-4e1b-8d06-8d4eec145674" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102310", 
+            "y" : "-100802"
+         }, 
+         "child" : [ 
+            "f442e69b-4e9d-43ce-a6fe-c5e9a788c50d", 
+            "b6f387aa-ce58-4bf7-88d5-5f64ae01bf31"
+         ], 
+         "key" : "A_5"
+      }, 
+      "f442e69b-4e9d-43ce-a6fe-c5e9a788c50d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102457", 
+            "y" : "-100719"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b6f387aa-ce58-4bf7-88d5-5f64ae01bf31" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102327", 
+            "y" : "-100712", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "74d7e83f-e18d-4481-b991-13eb4cf69954"
+         ], 
+         "text" : "#Harbor_H1.b6f387aa-ce58-4bf7-88d5-5f64ae01bf31"
+      }, 
+      "74d7e83f-e18d-4481-b991-13eb4cf69954" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-102661", 
+            "y" : "-100122"
+         }, 
+         "child" : [ 
+            "05f1bd08-f1ac-49dc-8127-81b746377676", 
+            "e61eae55-caf6-4caa-9b05-150b2178b98e"
+         ], 
+         "value" : "71", 
+         "skill" : "Barter"
+      }, 
+      "05f1bd08-f1ac-49dc-8127-81b746377676" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-103033", 
+            "y" : "-100241"
+         }, 
+         "child" : [ 
+            "a408a83a-999a-4ec8-afe5-2f5b72178fd7"
+         ], 
+         "exp" : "20"
+      }, 
+      "a408a83a-999a-4ec8-afe5-2f5b72178fd7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103033", 
+            "y" : "-100177"
+         }, 
+         "child" : [ 
+            "27811ec6-7099-4ba5-aa58-12aa5da7cbff"
+         ], 
+         "key" : "A_5"
+      }, 
+      "27811ec6-7099-4ba5-aa58-12aa5da7cbff" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-100105"
+         }, 
+         "child" : [ 
+            "e4faeeb6-c203-4256-9cd4-d6d22cd9832b"
+         ], 
+         "discount" : "5"
+      }, 
+      "e4faeeb6-c203-4256-9cd4-d6d22cd9832b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102892", 
+            "y" : "-100008", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "a7de9f45-fb35-4ae3-865d-7f23a67ccb04", 
+            "ca68e96d-a907-4f4d-97e2-2b137c13e687", 
+            "1eb9411a-08b6-4ed4-9175-575cc5fa3cf0"
+         ], 
+         "text" : "#Harbor_H1.e4faeeb6-c203-4256-9cd4-d6d22cd9832b"
+      }, 
+      "a7de9f45-fb35-4ae3-865d-7f23a67ccb04" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103157", 
+            "y" : "-99842"
+         }, 
+         "child" : [ 
+            "cbfaa1cb-b3a6-4758-b98d-f84ef0ad0332"
+         ], 
+         "text" : "#Harbor_H1.a7de9f45-fb35-4ae3-865d-7f23a67ccb04"
+      }, 
+      "cbfaa1cb-b3a6-4758-b98d-f84ef0ad0332" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-103200.2", 
+            "y" : "-99725.38"
+         }, 
+         "child" : [ 
+            "e4faeeb6-c203-4256-9cd4-d6d22cd9832b"
+         ]
+      }, 
+      "ca68e96d-a907-4f4d-97e2-2b137c13e687" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103042", 
+            "y" : "-99708", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "42de261d-97f9-4f50-a4fd-28bdda37a75f"
+         ], 
+         "text" : "#Harbor_H1.ca68e96d-a907-4f4d-97e2-2b137c13e687"
+      }, 
+      "42de261d-97f9-4f50-a4fd-28bdda37a75f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102096", 
+            "y" : "-99516", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "31bb3677-d268-40ec-8f7c-cb7e0393ad92", 
+            "74a3e103-f0f4-4b6d-a0e6-edcbcc138822", 
+            "d02cad5d-1ee1-4832-98f5-1bd4c781e460", 
+            "ec5368b7-964a-4256-9df1-63349d493b59", 
+            "f8408962-60ac-4fe2-a6e7-85e287368f95"
+         ], 
+         "text" : "#Harbor_H1.42de261d-97f9-4f50-a4fd-28bdda37a75f"
+      }, 
+      "31bb3677-d268-40ec-8f7c-cb7e0393ad92" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102396", 
+            "y" : "-99416", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "69bfc07c-cc61-4249-924a-136998a57d1f"
+         ], 
+         "text" : "#Harbor_H1.31bb3677-d268-40ec-8f7c-cb7e0393ad92"
+      }, 
+      "69bfc07c-cc61-4249-924a-136998a57d1f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-99210", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "b0ba97fc-48c9-4b43-9227-6205894b3701", 
+            "0416ed5b-05f2-4110-9e5e-b940659b6980"
+         ], 
+         "text" : "#Harbor_H1.69bfc07c-cc61-4249-924a-136998a57d1f"
+      }, 
+      "b0ba97fc-48c9-4b43-9227-6205894b3701" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102636", 
+            "y" : "-99110", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "242bd14d-6c1f-4459-82fa-b583d915d31d"
+         ], 
+         "text" : "#Harbor_H1.b0ba97fc-48c9-4b43-9227-6205894b3701"
+      }, 
+      "242bd14d-6c1f-4459-82fa-b583d915d31d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101651", 
+            "y" : "-98434", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "64a06a31-44b3-4e33-8670-ea4da961f54d", 
+            "353b48b1-a825-4583-9039-5a86d7efb5e9", 
+            "2a57f79b-87fc-4877-b024-a80422de4533", 
+            "1158e811-5890-49e8-8a44-3682de0b8246", 
+            "c1464ad0-94b2-45a0-a6ae-d3109e8ebe0a"
+         ], 
+         "text" : "#Harbor_H1.242bd14d-6c1f-4459-82fa-b583d915d31d"
+      }, 
+      "64a06a31-44b3-4e33-8670-ea4da961f54d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101951", 
+            "y" : "-98334", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "69bfc07c-cc61-4249-924a-136998a57d1f"
+         ], 
+         "text" : "#Harbor_H1.64a06a31-44b3-4e33-8670-ea4da961f54d"
+      }, 
+      "353b48b1-a825-4583-9039-5a86d7efb5e9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101801", 
+            "y" : "-98234", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "37417828-c5c2-41bb-b336-90f1845a6561"
+         ], 
+         "text" : "#Harbor_H1.353b48b1-a825-4583-9039-5a86d7efb5e9"
+      }, 
+      "37417828-c5c2-41bb-b336-90f1845a6561" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102174", 
+            "y" : "-99026", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "372bcee8-4ec7-46af-9d31-f3e616da2dd4", 
+            "0143b48d-f5b0-48e8-880c-f2af58ee653d"
+         ], 
+         "text" : "#Harbor_H1.37417828-c5c2-41bb-b336-90f1845a6561"
+      }, 
+      "372bcee8-4ec7-46af-9d31-f3e616da2dd4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102324", 
+            "y" : "-98926", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "242bd14d-6c1f-4459-82fa-b583d915d31d"
+         ], 
+         "text" : "#Harbor_H1.372bcee8-4ec7-46af-9d31-f3e616da2dd4"
+      }, 
+      "0143b48d-f5b0-48e8-880c-f2af58ee653d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102174", 
+            "y" : "-98826", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "760f130d-0654-48b6-9d58-c72bf6219972"
+         ], 
+         "text" : "#Harbor_H1.0143b48d-f5b0-48e8-880c-f2af58ee653d"
+      }, 
+      "760f130d-0654-48b6-9d58-c72bf6219972" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102398.5", 
+            "y" : "-98714.4"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2a57f79b-87fc-4877-b024-a80422de4533" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101651", 
+            "y" : "-98334", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f2776e25-1c04-40f9-b09b-32e063a7bbd5"
+         ], 
+         "text" : "#Harbor_H1.2a57f79b-87fc-4877-b024-a80422de4533"
+      }, 
+      "f2776e25-1c04-40f9-b09b-32e063a7bbd5" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101559", 
+            "y" : "-99193"
+         }, 
+         "child" : [ 
+            "e77ea148-b176-4536-95a7-e2a0ef33590a", 
+            "6c2ae144-4cb4-47b2-8a75-3025001aadbb"
+         ], 
+         "note_key" : "NUCLEAR_STRIKE"
+      }, 
+      "e77ea148-b176-4536-95a7-e2a0ef33590a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-99090", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "f516f969-5b05-4589-a261-6edd23fc8529", 
+            "dcb9f46d-23c0-4f91-ba35-6797e20cc204"
+         ], 
+         "text" : "#Harbor_H1.e77ea148-b176-4536-95a7-e2a0ef33590a"
+      }, 
+      "f516f969-5b05-4589-a261-6edd23fc8529" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101548", 
+            "y" : "-98990", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "242bd14d-6c1f-4459-82fa-b583d915d31d"
+         ], 
+         "text" : "#Harbor_H1.f516f969-5b05-4589-a261-6edd23fc8529"
+      }, 
+      "dcb9f46d-23c0-4f91-ba35-6797e20cc204" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-98890", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "2b2de859-237a-4ca5-9cf9-04966a22c4b4"
+         ], 
+         "text" : "#Harbor_H1.dcb9f46d-23c0-4f91-ba35-6797e20cc204"
+      }, 
+      "2b2de859-237a-4ca5-9cf9-04966a22c4b4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101288.6", 
+            "y" : "-98766.64"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6c2ae144-4cb4-47b2-8a75-3025001aadbb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101778", 
+            "y" : "-99102", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "d3ff5718-6a30-411d-b65e-0fe73c9d76cb", 
+            "0e5c3d8b-e417-43fc-bb74-bdd85ed49eb4"
+         ], 
+         "text" : "#Harbor_H1.6c2ae144-4cb4-47b2-8a75-3025001aadbb"
+      }, 
+      "d3ff5718-6a30-411d-b65e-0fe73c9d76cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101928", 
+            "y" : "-99002", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "242bd14d-6c1f-4459-82fa-b583d915d31d"
+         ], 
+         "text" : "#Harbor_H1.d3ff5718-6a30-411d-b65e-0fe73c9d76cb"
+      }, 
+      "0e5c3d8b-e417-43fc-bb74-bdd85ed49eb4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101778", 
+            "y" : "-98902", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "93a83e58-d48f-432d-a756-bd2f024a067f"
+         ], 
+         "text" : "#Harbor_H1.0e5c3d8b-e417-43fc-bb74-bdd85ed49eb4"
+      }, 
+      "93a83e58-d48f-432d-a756-bd2f024a067f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-98809"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1158e811-5890-49e8-8a44-3682de0b8246" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101501", 
+            "y" : "-98234", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "d9d954d6-94b3-4d52-946f-27162549222c"
+         ], 
+         "text" : "#Harbor_H1.1158e811-5890-49e8-8a44-3682de0b8246"
+      }, 
+      "d9d954d6-94b3-4d52-946f-27162549222c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101134", 
+            "y" : "-99388", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "74a512fc-9630-4ea8-a33e-129e64c539e9", 
+            "924b2497-d425-4b6a-b905-90d3b6c07124"
+         ], 
+         "text" : "#Harbor_H1.d9d954d6-94b3-4d52-946f-27162549222c"
+      }, 
+      "74a512fc-9630-4ea8-a33e-129e64c539e9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101284", 
+            "y" : "-99288", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "242bd14d-6c1f-4459-82fa-b583d915d31d"
+         ], 
+         "text" : "#Harbor_H1.74a512fc-9630-4ea8-a33e-129e64c539e9"
+      }, 
+      "924b2497-d425-4b6a-b905-90d3b6c07124" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101134", 
+            "y" : "-99188", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "77104237-75a9-4602-a64e-37ace0e55777"
+         ], 
+         "text" : "#Harbor_H1.924b2497-d425-4b6a-b905-90d3b6c07124"
+      }, 
+      "77104237-75a9-4602-a64e-37ace0e55777" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100997.3", 
+            "y" : "-99061.7"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1464ad0-94b2-45a0-a6ae-d3109e8ebe0a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101351", 
+            "y" : "-98334", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "7a5708cd-1fb3-4fd5-9520-ab71a1053ff6"
+         ], 
+         "text" : "#Harbor_H1.c1464ad0-94b2-45a0-a6ae-d3109e8ebe0a"
+      }, 
+      "7a5708cd-1fb3-4fd5-9520-ab71a1053ff6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101044", 
+            "y" : "-98862", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "63837344-d3ec-4fa4-a8e5-8658c433c80e", 
+            "5a6a0fa2-4fa9-4508-bdd3-a3543a0c86d9", 
+            "76df8f3c-0e97-4b34-a2ad-78ef7646ad73", 
+            "07411000-1d38-4017-a857-626f52b8fc71"
+         ], 
+         "text" : "#Harbor_H1.7a5708cd-1fb3-4fd5-9520-ab71a1053ff6"
+      }, 
+      "63837344-d3ec-4fa4-a8e5-8658c433c80e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101360", 
+            "y" : "-98684"
+         }, 
+         "child" : [ 
+            "ed927dea-6e4c-47fe-a54b-4f47f84912b5"
+         ], 
+         "text" : "#Harbor_H1.63837344-d3ec-4fa4-a8e5-8658c433c80e"
+      }, 
+      "ed927dea-6e4c-47fe-a54b-4f47f84912b5" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-101389", 
+            "y" : "-98600"
+         }, 
+         "child" : [ 
+            "7a5708cd-1fb3-4fd5-9520-ab71a1053ff6"
+         ]
+      }, 
+      "5a6a0fa2-4fa9-4508-bdd3-a3543a0c86d9" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101154", 
+            "y" : "-98671"
+         }, 
+         "child" : [ 
+            "34d81f92-630b-4dbf-bfe9-6109d1404757", 
+            "945d5a6a-d23f-4639-950b-c81871d46416"
+         ], 
+         "key" : "A_5"
+      }, 
+      "34d81f92-630b-4dbf-bfe9-6109d1404757" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101210", 
+            "y" : "-98580"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "945d5a6a-d23f-4639-950b-c81871d46416" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101179", 
+            "y" : "-98541", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "74d7e83f-e18d-4481-b991-13eb4cf69954"
+         ], 
+         "text" : "#Harbor_H1.945d5a6a-d23f-4639-950b-c81871d46416"
+      }, 
+      "76df8f3c-0e97-4b34-a2ad-78ef7646ad73" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100958", 
+            "y" : "-98612", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "42de261d-97f9-4f50-a4fd-28bdda37a75f"
+         ], 
+         "text" : "#Harbor_H1.76df8f3c-0e97-4b34-a2ad-78ef7646ad73"
+      }, 
+      "07411000-1d38-4017-a857-626f52b8fc71" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100840", 
+            "y" : "-98694", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "2fb92a0f-a77d-474d-a3b8-7584772a0413"
+         ], 
+         "text" : "#Harbor_H1.07411000-1d38-4017-a857-626f52b8fc71"
+      }, 
+      "2fb92a0f-a77d-474d-a3b8-7584772a0413" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100594.8", 
+            "y" : "-98584.25"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0416ed5b-05f2-4110-9e5e-b940659b6980" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102486", 
+            "y" : "-99010", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "760f130d-0654-48b6-9d58-c72bf6219972"
+         ], 
+         "text" : "#Harbor_H1.0416ed5b-05f2-4110-9e5e-b940659b6980"
+      }, 
+      "74a3e103-f0f4-4b6d-a0e6-edcbcc138822" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102246", 
+            "y" : "-99316", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "37417828-c5c2-41bb-b336-90f1845a6561"
+         ], 
+         "text" : "#Harbor_H1.74a3e103-f0f4-4b6d-a0e6-edcbcc138822"
+      }, 
+      "d02cad5d-1ee1-4832-98f5-1bd4c781e460" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102020", 
+            "y" : "-99314", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "d9d954d6-94b3-4d52-946f-27162549222c"
+         ], 
+         "text" : "#Harbor_H1.d02cad5d-1ee1-4832-98f5-1bd4c781e460"
+      }, 
+      "ec5368b7-964a-4256-9df1-63349d493b59" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103562", 
+            "y" : "-100745"
+         }, 
+         "child" : [ 
+            "82cca579-3789-46c6-a2cf-873e8cc75aeb"
+         ], 
+         "text" : "Расскажи - а как часто у тебя бывают поставки?"
+      }, 
+      "82cca579-3789-46c6-a2cf-873e8cc75aeb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103562", 
+            "y" : "-100644"
+         }, 
+         "child" : [ 
+            "2f44ba54-6712-4bce-ac3b-a2e6d9454d51", 
+            "a22d485c-c7fa-47ca-8474-7fa0f4fc4d59", 
+            "15ea670d-a251-41ad-b651-9f276e932bc6", 
+            "370687ec-d347-466d-983d-08da48cedf5c"
+         ], 
+         "text" : "Всё для клиента, говори когда захочешь прийти и я всё подготовлю"
+      }, 
+      "2f44ba54-6712-4bce-ac3b-a2e6d9454d51" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103824", 
+            "y" : "-100503"
+         }, 
+         "child" : [ 
+            "c6b18635-4656-4fa2-ba94-9e5ea68478f9", 
+            "565206af-2b50-477f-b30c-9ed07c4e22d0", 
+            "0f7946da-ddf9-41fa-90dc-0d2efd7855fd"
+         ], 
+         "text" : "Через час"
+      }, 
+      "c6b18635-4656-4fa2-ba94-9e5ea68478f9" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103898", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+            "566cb25c-5f3b-46d7-baa7-eb9e04262633"
+         ], 
+         "key" : "HT1_RENEW_1H"
+      }, 
+      "566cb25c-5f3b-46d7-baa7-eb9e04262633" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103556", 
+            "y" : "-100142"
+         }, 
+         "child" : [ 
+            "6e022da6-dcea-4add-9b53-7c3e32476186"
+         ], 
+         "text" : "Договорились - буду ждать"
+      }, 
+      "6e022da6-dcea-4add-9b53-7c3e32476186" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103556", 
+            "y" : "-100068"
+         }, 
+         "child" : [ 
+            "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+         ], 
+         "text" : "Супер!"
+      }, 
+      "565206af-2b50-477f-b30c-9ed07c4e22d0" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103785", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HT1_RENEW_1D"
+      }, 
+      "0f7946da-ddf9-41fa-90dc-0d2efd7855fd" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103664", 
+            "y" : "-100404"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HT1_RENEW_3D"
+      }, 
+      "a22d485c-c7fa-47ca-8474-7fa0f4fc4d59" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103562", 
+            "y" : "-100504"
+         }, 
+         "child" : [ 
+            "0f7946da-ddf9-41fa-90dc-0d2efd7855fd", 
+            "294dbc2e-ac29-424e-b9c2-d7e85e00d20c", 
+            "cb1036cb-2a01-49df-b8b4-7f649a96c949"
+         ], 
+         "text" : "Через день"
+      }, 
+      "294dbc2e-ac29-424e-b9c2-d7e85e00d20c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103541", 
+            "y" : "-100402"
+         }, 
+         "child" : [ 
+            "566cb25c-5f3b-46d7-baa7-eb9e04262633"
+         ], 
+         "key" : "HT1_RENEW_1D"
+      }, 
+      "cb1036cb-2a01-49df-b8b4-7f649a96c949" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103420", 
+            "y" : "-100399"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HT1_RENEW_1H"
+      }, 
+      "15ea670d-a251-41ad-b651-9f276e932bc6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103300", 
+            "y" : "-100502"
+         }, 
+         "child" : [ 
+            "565206af-2b50-477f-b30c-9ed07c4e22d0", 
+            "cb1036cb-2a01-49df-b8b4-7f649a96c949", 
+            "7264c0ed-bf8a-491c-9351-7ca1f6293d79"
+         ], 
+         "text" : "Через 3 дня"
+      }, 
+      "7264c0ed-bf8a-491c-9351-7ca1f6293d79" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103191", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+            "566cb25c-5f3b-46d7-baa7-eb9e04262633"
+         ], 
+         "key" : "HT1_RENEW_3D"
+      }, 
+      "370687ec-d347-466d-983d-08da48cedf5c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104158", 
+            "y" : "-100497"
+         }, 
+         "child" : [ 
+            "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+         ], 
+         "text" : "Ой, я пока передумал"
+      }, 
+      "f8408962-60ac-4fe2-a6e7-85e287368f95" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101597", 
+            "y" : "-99595"
+         }, 
+         "child" : [ 
+            "2b821991-e018-4cab-a2cd-414975c06162"
+         ]
+      }, 
+      "2b821991-e018-4cab-a2cd-414975c06162" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101601", 
+            "y" : "-99542", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "c0f09d91-ee40-48ed-a016-19753363b875", 
+            "0991d391-cafd-44f4-8ef2-76005fce29a2"
+         ], 
+         "text" : "#Harbor_H1.42de261d-97f9-4f50-a4fd-28bdda37a75f"
+      }, 
+      "c0f09d91-ee40-48ed-a016-19753363b875" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101777", 
+            "y" : "-99454", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "f2776e25-1c04-40f9-b09b-32e063a7bbd5"
+         ], 
+         "text" : "#Harbor_H1.c0f09d91-ee40-48ed-a016-19753363b875"
+      }, 
+      "0991d391-cafd-44f4-8ef2-76005fce29a2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101554", 
+            "y" : "-99457", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "7a5708cd-1fb3-4fd5-9520-ab71a1053ff6"
+         ], 
+         "text" : "#Harbor_H1.0991d391-cafd-44f4-8ef2-76005fce29a2"
+      }, 
+      "1eb9411a-08b6-4ed4-9175-575cc5fa3cf0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102892", 
+            "y" : "-99608", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "ea7e9d42-aff4-47da-a30b-284f67e70793"
+         ], 
+         "text" : "#Harbor_H1.1eb9411a-08b6-4ed4-9175-575cc5fa3cf0"
+      }, 
+      "ea7e9d42-aff4-47da-a30b-284f67e70793" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102733.1", 
+            "y" : "-99460.22"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e61eae55-caf6-4caa-9b05-150b2178b98e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102520", 
+            "y" : "-100010", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "be046e09-75cb-4c33-9d7d-dee56159684d", 
+            "91c1b7da-2529-4660-9d44-ca184ccfb5f5", 
+            "4e78fb66-bda2-4af8-9485-a37604e611f9"
+         ], 
+         "text" : "#Harbor_H1.e61eae55-caf6-4caa-9b05-150b2178b98e"
+      }, 
+      "be046e09-75cb-4c33-9d7d-dee56159684d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102723", 
+            "y" : "-99863"
+         }, 
+         "child" : [ 
+            "63e413ed-22d8-4d7f-9c90-8f6a4494ca24"
+         ], 
+         "text" : "#Harbor_H1.be046e09-75cb-4c33-9d7d-dee56159684d"
+      }, 
+      "63e413ed-22d8-4d7f-9c90-8f6a4494ca24" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102727", 
+            "y" : "-99769"
+         }, 
+         "child" : [ 
+            "e61eae55-caf6-4caa-9b05-150b2178b98e"
+         ]
+      }, 
+      "91c1b7da-2529-4660-9d44-ca184ccfb5f5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102670", 
+            "y" : "-99710", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "42de261d-97f9-4f50-a4fd-28bdda37a75f"
+         ], 
+         "text" : "#Harbor_H1.91c1b7da-2529-4660-9d44-ca184ccfb5f5"
+      }, 
+      "4e78fb66-bda2-4af8-9485-a37604e611f9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102520", 
+            "y" : "-99610", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "ea7e9d42-aff4-47da-a30b-284f67e70793"
+         ], 
+         "text" : "#Harbor_H1.4e78fb66-bda2-4af8-9485-a37604e611f9"
+      }, 
+      "09b6b687-dc63-4f75-9858-54c178a6e870" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-100612", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "42de261d-97f9-4f50-a4fd-28bdda37a75f"
+         ], 
+         "text" : "#Harbor_H1.09b6b687-dc63-4f75-9858-54c178a6e870"
+      }, 
+      "086a66c5-cf9a-44b3-8ee6-20a04af4e2b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102012", 
+            "y" : "-100712", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "3f87081d-a118-4caf-afb9-1ad0db2bedd7"
+         ], 
+         "text" : "#Harbor_H1.086a66c5-cf9a-44b3-8ee6-20a04af4e2b3"
+      }, 
+      "3f87081d-a118-4caf-afb9-1ad0db2bedd7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101855", 
+            "y" : "-100609"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8da3e146-0afb-4850-9a5d-d4eff5d697f7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101506", 
+            "y" : "-100974"
+         }, 
+         "child" : [ 
+            "f3c6bccd-0b0d-47cf-bd88-f20c56208241"
+         ], 
+         "key" : "MEET"
+      }, 
+      "f3c6bccd-0b0d-47cf-bd88-f20c56208241" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-100864"
+         }, 
+         "child" : [ 
+            "d084439a-be79-43af-8df3-fd3ab36cd229"
+         ], 
+         "text" : "#Harbor_H1.f3c6bccd-0b0d-47cf-bd88-f20c56208241"
+      }, 
+      "d084439a-be79-43af-8df3-fd3ab36cd229" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-100764"
+         }, 
+         "child" : [ 
+            "85690741-b7c9-4741-bb90-f5f6e9baebd4"
+         ]
+      }, 
+      "85690741-b7c9-4741-bb90-f5f6e9baebd4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-100664"
+         }, 
+         "child" : [ 
+            "796e8523-c392-4c57-8bd6-84cadff83aad", 
+            "74af05bf-87ae-4c90-858f-d957ebda7872", 
+            "6949daa4-21f7-4514-a562-e560ef9094b9", 
+            "c04fa818-3e16-4f62-8816-cd4379273c06"
+         ], 
+         "text" : "#Harbor_H1.85690741-b7c9-4741-bb90-f5f6e9baebd4"
+      }, 
+      "796e8523-c392-4c57-8bd6-84cadff83aad" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101722", 
+            "y" : "-100564", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "394ed65e-0853-43bc-9945-ac55c2716465"
+         ], 
+         "text" : "#Harbor_H1.796e8523-c392-4c57-8bd6-84cadff83aad"
+      }, 
+      "394ed65e-0853-43bc-9945-ac55c2716465" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101988", 
+            "y" : "-100454", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "a013f5af-0672-4455-8e2a-8e02c2cc4e85"
+         ], 
+         "text" : "#Harbor_H1.394ed65e-0853-43bc-9945-ac55c2716465"
+      }, 
+      "a013f5af-0672-4455-8e2a-8e02c2cc4e85" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102128", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+            "67d7f83c-7d64-48bc-96b8-a0d97f26b0ab", 
+            "1db6d587-087c-4b45-a8a6-1089d1a06879", 
+            "bff24134-09c0-4133-b05d-c99b80669133", 
+            "b80d606f-e320-41ee-937c-1bf417eaaf54"
+         ]
+      }, 
+      "67d7f83c-7d64-48bc-96b8-a0d97f26b0ab" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102321", 
+            "y" : "-100249"
+         }, 
+         "child" : [ 
+            "4210616d-cb64-463f-b4ca-121cafdd814e"
+         ], 
+         "text" : "#Harbor_H1.67d7f83c-7d64-48bc-96b8-a0d97f26b0ab"
+      }, 
+      "4210616d-cb64-463f-b4ca-121cafdd814e" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102328", 
+            "y" : "-100136"
+         }, 
+         "child" : [ 
+            "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
+         ]
+      }, 
+      "1db6d587-087c-4b45-a8a6-1089d1a06879" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102138", 
+            "y" : "-100154", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "74d7e83f-e18d-4481-b991-13eb4cf69954"
+         ], 
+         "text" : "#Harbor_H1.1db6d587-087c-4b45-a8a6-1089d1a06879"
+      }, 
+      "bff24134-09c0-4133-b05d-c99b80669133" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101973", 
+            "y" : "-100081", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "42de261d-97f9-4f50-a4fd-28bdda37a75f"
+         ], 
+         "text" : "#Harbor_H1.bff24134-09c0-4133-b05d-c99b80669133"
+      }, 
+      "b80d606f-e320-41ee-937c-1bf417eaaf54" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-100269", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7fbc76f9-0eb5-493c-9103-71da161e77d5"
+         ], 
+         "text" : "#Harbor_H1.b80d606f-e320-41ee-937c-1bf417eaaf54"
+      }, 
+      "7fbc76f9-0eb5-493c-9103-71da161e77d5" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101788", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "74af05bf-87ae-4c90-858f-d957ebda7872" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101572", 
+            "y" : "-100464", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "c147185f-61b8-4d67-b312-e79d37cde51f"
+         ], 
+         "text" : "#Harbor_H1.74af05bf-87ae-4c90-858f-d957ebda7872"
+      }, 
+      "c147185f-61b8-4d67-b312-e79d37cde51f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102564", 
+            "y" : "-100446", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "a013f5af-0672-4455-8e2a-8e02c2cc4e85"
+         ], 
+         "text" : "#Harbor_H1.c147185f-61b8-4d67-b312-e79d37cde51f"
+      }, 
+      "6949daa4-21f7-4514-a562-e560ef9094b9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-100564", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "940ca547-fbfa-455e-a993-8a55f9e30efe"
+         ], 
+         "text" : "#Harbor_H1.6949daa4-21f7-4514-a562-e560ef9094b9"
+      }, 
+      "940ca547-fbfa-455e-a993-8a55f9e30efe" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102253", 
+            "y" : "-100473", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "a013f5af-0672-4455-8e2a-8e02c2cc4e85"
+         ], 
+         "text" : "#Harbor_H1.940ca547-fbfa-455e-a993-8a55f9e30efe"
+      }, 
+      "c04fa818-3e16-4f62-8816-cd4379273c06" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101272", 
+            "y" : "-100464", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7e1b8a8b-2260-4cf9-916a-d20c7a6a76e0"
+         ], 
+         "text" : "#Harbor_H1.c04fa818-3e16-4f62-8816-cd4379273c06"
+      }, 
+      "7e1b8a8b-2260-4cf9-916a-d20c7a6a76e0" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101174", 
+            "y" : "-100361"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "f8b557b8-e3fb-49bf-a391-ae49ac79ad8b"
+}

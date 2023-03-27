@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1333377599, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: waterfall_ampoule
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Consumable/waterfall_ampoule
+  m_Localization: consumable.waterfall_ampoule
+  Takeable: 1
+  Cost: 70
+  Weight: 80
+  Collectable: 1
+  Modifiers: []
+  _effects:
+  - path: entities/effect/petrol
+  canUseInBattle: 0
+  waste:
+    path: entities/item/oblivionampoule_empty
+  useSounds:
+  - path: Sounds/SFX/Consumables/injection
+  UseAP: 2
+  UseDistance: 1
+  Perks: 0
+  AnimationTrigger: 

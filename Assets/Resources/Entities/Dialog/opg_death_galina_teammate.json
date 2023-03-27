@@ -440,7 +440,6 @@
             "f7ca0a5c-cf51-4644-b4de-c6671e83f8be", 
             "fee52569-eb20-440c-b6ad-9ae1c652fcc4", 
             "420237d2-6f40-4923-97b5-219f0b6a51de", 
-            "193518e2-1e0d-43f9-95e7-1aa58a6eabea", 
             "c362a663-0760-4a3d-858f-7857dec7ea4b"
          ], 
          "text" : "#OPG_Death_Galina_Teammate.0908450e-05a1-4cd5-9e19-e802245b94db"
@@ -691,8 +690,8 @@
       "4c2ddce9-d536-4181-a8e9-00668971c9ad" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99550", 
-            "y" : "-100949", 
+            "x" : "-99549", 
+            "y" : "-100940", 
             "comment" : "к А6"
          }, 
          "child" : [ 
@@ -730,8 +729,8 @@
       "3bec211a-d609-4e98-8f61-8fcb9a2df9a9" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-99705", 
-            "y" : "-100613", 
+            "x" : "-99712", 
+            "y" : "-100597", 
             "comment" : "(перенос на А2)"
          }, 
          "child" : [ 
@@ -2931,8 +2930,8 @@
       "f38c3a56-4f1b-4dee-b66d-a1297ea75fd1" : { 
          "class" : "HasLocationNode", 
          "desc" : { 
-            "x" : "-101954", 
-            "y" : "-99983", 
+            "x" : "-101971", 
+            "y" : "-99986", 
             "comment" : "А3"
          }, 
          "child" : [ 
@@ -2956,8 +2955,8 @@
       "040c1e05-74dc-427f-a529-b564708a0eb1" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-102469", 
-            "y" : "-99794", 
+            "x" : "-102449", 
+            "y" : "-99798", 
             "comment" : "А3"
          }, 
          "child" : [ 
@@ -2973,6 +2972,7 @@
          }, 
          "child" : [ 
             "f7347680-e987-4b86-9a24-90e1ff8d124b", 
+            "a50380b3-ebc9-41f3-aa9a-ef56306012cf", 
             "5ccd13a7-0faa-43c0-87a8-1989d65fad01"
          ]
       }, 
@@ -2988,11 +2988,287 @@
          ], 
          "text" : "#OPG_Death_Galina_Teammate.f7347680-e987-4b86-9a24-90e1ff8d124b"
       }, 
+      "a50380b3-ebc9-41f3-aa9a-ef56306012cf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103633", 
+            "y" : "-100418"
+         }, 
+         "child" : [ 
+            "193518e2-1e0d-43f9-95e7-1aa58a6eabea"
+         ]
+      }, 
+      "193518e2-1e0d-43f9-95e7-1aa58a6eabea" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-103654", 
+            "y" : "-100309"
+         }, 
+         "child" : [ 
+            "dcaf5620-5432-4f5e-a1fd-1f601c9f4359", 
+            "3b974320-9c35-4b6a-97ae-50db16f9dc6a"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "dcaf5620-5432-4f5e-a1fd-1f601c9f4359" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103833", 
+            "y" : "-100194"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3b974320-9c35-4b6a-97ae-50db16f9dc6a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103670", 
+            "y" : "-100159"
+         }, 
+         "child" : [ 
+            "552e93a5-3699-466b-80a0-55a95d4116ea"
+         ], 
+         "text" : "#opg_death_galina_teammate.3b974320-9c35-4b6a-97ae-50db16f9dc6a"
+      }, 
+      "552e93a5-3699-466b-80a0-55a95d4116ea" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103669", 
+            "y" : "-100066"
+         }, 
+         "child" : [ 
+            "6d428b43-7b50-48cf-b200-bf5e6c444290", 
+            "5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a"
+         ], 
+         "text" : "#opg_death_galina_teammate.552e93a5-3699-466b-80a0-55a95d4116ea"
+      }, 
+      "6d428b43-7b50-48cf-b200-bf5e6c444290" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103792", 
+            "y" : "-99963"
+         }, 
+         "child" : [ 
+            "7455ff24-9123-4aa3-adaf-9efa3dc93bc7"
+         ], 
+         "text" : "#opg_death_galina_teammate.6d428b43-7b50-48cf-b200-bf5e6c444290"
+      }, 
+      "7455ff24-9123-4aa3-adaf-9efa3dc93bc7" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104151", 
+            "y" : "-100033"
+         }, 
+         "child" : [ 
+            "dbfc46c3-fb79-4c7a-9543-7a874cf2444a", 
+            "033d903c-13e0-4c0d-b084-f279ecb586c6"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "dbfc46c3-fb79-4c7a-9543-7a874cf2444a" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-104407", 
+            "y" : "-99937"
+         }, 
+         "child" : [ 
+            "255d1816-a1be-4351-a4f2-f8af0943f76e"
+         ], 
+         "objectName" : "Fidel", 
+         "portrait" : "Character/Fidel_Lab", 
+         "mode" : "AutoName"
+      }, 
+      "255d1816-a1be-4351-a4f2-f8af0943f76e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104405", 
+            "y" : "-99856", 
+            "comment" : "Я всё это время ломал голову"
+         }, 
+         "child" : [ 
+            "236bd8b9-618c-4dcc-badd-669b892ef1bd"
+         ], 
+         "text" : "#OPG_Death_Galina.30f8c6c2-322c-4d14-8800-5d808cd91a51"
+      }, 
+      "236bd8b9-618c-4dcc-badd-669b892ef1bd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104409", 
+            "y" : "-99742"
+         }, 
+         "child" : [ 
+            "04ca84f4-33ec-402a-997e-4629bcb1be19"
+         ]
+      }, 
+      "04ca84f4-33ec-402a-997e-4629bcb1be19" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-104342", 
+            "y" : "-99674"
+         }, 
+         "child" : [ 
+            "83a8ba4c-8920-4877-bec7-d653add14214"
+         ], 
+         "objectName" : "Fidel", 
+         "active" : "false"
+      }, 
+      "83a8ba4c-8920-4877-bec7-d653add14214" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104207", 
+            "y" : "-99563"
+         }, 
+         "child" : [ 
+            "494a4b98-dcbb-4f5c-96b8-84fea79830ba", 
+            "5eb7086b-4f8c-4a7e-a4db-79e388e15585"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "494a4b98-dcbb-4f5c-96b8-84fea79830ba" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-104499", 
+            "y" : "-99455"
+         }, 
+         "child" : [ 
+            "a5aa4333-d692-43c0-980a-c293a1ac3161"
+         ], 
+         "objectName" : "Gexogen", 
+         "portrait" : "Character/Gexgen_Lab", 
+         "mode" : "AutoName"
+      }, 
+      "a5aa4333-d692-43c0-980a-c293a1ac3161" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104498", 
+            "y" : "-99356"
+         }, 
+         "child" : [ 
+            "a8b5f01f-1b7b-45aa-959c-d19aea38dfff"
+         ], 
+         "text" : "#OPG_Death_Galina.55b26549-0315-4bf9-b412-a9aafe2646d3"
+      }, 
+      "a8b5f01f-1b7b-45aa-959c-d19aea38dfff" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104497", 
+            "y" : "-99235"
+         }, 
+         "child" : [ 
+            "fa072585-2bde-403b-a841-fe894fe7fbd8"
+         ]
+      }, 
+      "fa072585-2bde-403b-a841-fe894fe7fbd8" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-104403", 
+            "y" : "-99181"
+         }, 
+         "child" : [ 
+            "5eb7086b-4f8c-4a7e-a4db-79e388e15585"
+         ], 
+         "objectName" : "Gexogen", 
+         "active" : "false"
+      }, 
+      "5eb7086b-4f8c-4a7e-a4db-79e388e15585" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104172", 
+            "y" : "-99330"
+         }, 
+         "child" : [ 
+            "cd1489e1-8461-425b-9278-ea7d7e682a4e"
+         ]
+      }, 
+      "cd1489e1-8461-425b-9278-ea7d7e682a4e" : { 
+         "class" : "PlayerAddPerkNode", 
+         "desc" : { 
+            "x" : "-103480", 
+            "y" : "-99604"
+         }, 
+         "child" : [ 
+            "1974c29f-1a8e-4894-b2b4-9c99f9f7f7d0"
+         ], 
+         "perk" : "Chaos", 
+         "showMsg" : "true"
+      }, 
+      "1974c29f-1a8e-4894-b2b4-9c99f9f7f7d0" : { 
+         "class" : "DoneAllQuestsNode", 
+         "desc" : { 
+            "x" : "-103486", 
+            "y" : "-99540"
+         }, 
+         "child" : [ 
+            "049faa5e-08b7-49af-8359-fe2b9135ffff"
+         ]
+      }, 
+      "049faa5e-08b7-49af-8359-fe2b9135ffff" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-103486", 
+            "y" : "-99488"
+         }, 
+         "child" : [ 
+            "44429902-76a5-4206-8356-f1034bf3cc2d"
+         ], 
+         "quest_key" : "CHAOS"
+      }, 
+      "44429902-76a5-4206-8356-f1034bf3cc2d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103492", 
+            "y" : "-99415"
+         }, 
+         "child" : [ 
+            "5866efaa-9d4e-4fcf-b5f5-4c3e51b0f772"
+         ]
+      }, 
+      "5866efaa-9d4e-4fcf-b5f5-4c3e51b0f772" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-103499", 
+            "y" : "-99362"
+         }, 
+         "child" : [ 
+         ], 
+         "waitEnd" : "true", 
+         "waitTime" : "1.5"
+      }, 
+      "033d903c-13e0-4c0d-b084-f279ecb586c6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104127", 
+            "y" : "-99766"
+         }, 
+         "child" : [ 
+            "cd1489e1-8461-425b-9278-ea7d7e682a4e"
+         ]
+      }, 
+      "5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103500", 
+            "y" : "-99960"
+         }, 
+         "child" : [ 
+            "5d571e16-3147-470d-bfbb-fb4cba187a1b"
+         ], 
+         "text" : "#opg_death_galina_teammate.5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a"
+      }, 
+      "5d571e16-3147-470d-bfbb-fb4cba187a1b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103445", 
+            "y" : "-99849"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "5ccd13a7-0faa-43c0-87a8-1989d65fad01" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-101715", 
-            "y" : "-99606", 
+            "x" : "-101759", 
+            "y" : "-99589", 
             "comment" : "(конец диалога)"
          }, 
          "child" : [ 
@@ -3083,8 +3359,8 @@
       "61aa3911-b1c3-4543-8628-5a5c70416fd6" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-102146", 
-            "y" : "-99797", 
+            "x" : "-102173", 
+            "y" : "-99838", 
             "comment" : "А3"
          }, 
          "child" : [ 
@@ -3095,8 +3371,8 @@
       "79895281-5f4b-409a-9c7d-5e4fa3c37133" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-99405", 
-            "y" : "-100613", 
+            "x" : "-99409", 
+            "y" : "-100615", 
             "comment" : "(перенос на А4)"
          }, 
          "child" : [ 
@@ -3107,8 +3383,8 @@
       "6d10372e-d78f-4952-a333-7245af1d7348" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100246", 
-            "y" : "-102128", 
+            "x" : "-100292", 
+            "y" : "-102098", 
             "comment" : "А4"
          }, 
          "child" : [ 
@@ -3313,8 +3589,8 @@
       "53a34ba6-df45-407a-95b0-913e391f6316" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-98574", 
-            "y" : "-99950", 
+            "x" : "-98668", 
+            "y" : "-99908", 
             "comment" : "(перенос А33)"
          }, 
          "child" : [ 
@@ -3325,8 +3601,8 @@
       "165a1775-6327-4e8e-ae56-89d551be2424" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-98346", 
-            "y" : "-99920", 
+            "x" : "-98211", 
+            "y" : "-99912", 
             "comment" : "(конец диалога)"
          }, 
          "child" : [ 
@@ -3337,8 +3613,8 @@
       "9dfaa850-2d97-43f9-a2de-44863407c650" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-98131", 
-            "y" : "-99786"
+            "x" : "-98150", 
+            "y" : "-99804"
          }, 
          "child" : [ 
          ]
@@ -4632,6 +4908,7 @@
             "de2f54c4-ccd3-420d-b9c4-2bda18700122", 
             "857d8b01-d568-49f4-96de-9da8c25df665", 
             "f5a17533-7077-40d0-939d-5d2ef002c837", 
+            "a50380b3-ebc9-41f3-aa9a-ef56306012cf", 
             "ff1a4e77-4b74-4299-a48d-2f670f56cc86"
          ]
       }, 
@@ -4782,8 +5059,8 @@
       "ff1a4e77-4b74-4299-a48d-2f670f56cc86" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-95109", 
-            "y" : "-101535", 
+            "x" : "-95103", 
+            "y" : "-101507", 
             "comment" : "(перенос на А6)"
          }, 
          "child" : [ 
@@ -5103,8 +5380,8 @@
       "fee52569-eb20-440c-b6ad-9ae1c652fcc4" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102778", 
-            "y" : "-100143", 
+            "x" : "-102764", 
+            "y" : "-100149", 
             "comment" : "(перенос на А3)"
          }, 
          "child" : [ 
@@ -5123,272 +5400,6 @@
             "6d10372e-d78f-4952-a333-7245af1d7348"
          ], 
          "text" : "#OPG_Death_Galina_Teammate.420237d2-6f40-4923-97b5-219f0b6a51de"
-      }, 
-      "193518e2-1e0d-43f9-95e7-1aa58a6eabea" : { 
-         "class" : "HasPlayerPerkNode", 
-         "desc" : { 
-            "x" : "-103654", 
-            "y" : "-100309"
-         }, 
-         "child" : [ 
-            "dcaf5620-5432-4f5e-a1fd-1f601c9f4359", 
-            "3b974320-9c35-4b6a-97ae-50db16f9dc6a"
-         ], 
-         "perk" : "Chaos"
-      }, 
-      "dcaf5620-5432-4f5e-a1fd-1f601c9f4359" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-103833", 
-            "y" : "-100194"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "3b974320-9c35-4b6a-97ae-50db16f9dc6a" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-103670", 
-            "y" : "-100159"
-         }, 
-         "child" : [ 
-            "552e93a5-3699-466b-80a0-55a95d4116ea"
-         ], 
-         "text" : "#opg_death_galina_teammate.3b974320-9c35-4b6a-97ae-50db16f9dc6a"
-      }, 
-      "552e93a5-3699-466b-80a0-55a95d4116ea" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-103669", 
-            "y" : "-100066"
-         }, 
-         "child" : [ 
-            "6d428b43-7b50-48cf-b200-bf5e6c444290", 
-            "5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a"
-         ], 
-         "text" : "#opg_death_galina_teammate.552e93a5-3699-466b-80a0-55a95d4116ea"
-      }, 
-      "6d428b43-7b50-48cf-b200-bf5e6c444290" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-103792", 
-            "y" : "-99963"
-         }, 
-         "child" : [ 
-            "7455ff24-9123-4aa3-adaf-9efa3dc93bc7"
-         ], 
-         "text" : "#opg_death_galina_teammate.6d428b43-7b50-48cf-b200-bf5e6c444290"
-      }, 
-      "7455ff24-9123-4aa3-adaf-9efa3dc93bc7" : { 
-         "class" : "HasTeamMateNode", 
-         "desc" : { 
-            "x" : "-104151", 
-            "y" : "-100033"
-         }, 
-         "child" : [ 
-            "dbfc46c3-fb79-4c7a-9543-7a874cf2444a", 
-            "033d903c-13e0-4c0d-b084-f279ecb586c6"
-         ], 
-         "teammate" : "Fidel"
-      }, 
-      "dbfc46c3-fb79-4c7a-9543-7a874cf2444a" : { 
-         "class" : "DialogPortraitNode", 
-         "desc" : { 
-            "x" : "-104407", 
-            "y" : "-99937"
-         }, 
-         "child" : [ 
-            "255d1816-a1be-4351-a4f2-f8af0943f76e"
-         ], 
-         "objectName" : "Fidel", 
-         "portrait" : "Character/Fidel_Lab", 
-         "mode" : "AutoName"
-      }, 
-      "255d1816-a1be-4351-a4f2-f8af0943f76e" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-104405", 
-            "y" : "-99856", 
-            "comment" : "Я всё это время ломал голову"
-         }, 
-         "child" : [ 
-            "236bd8b9-618c-4dcc-badd-669b892ef1bd"
-         ], 
-         "text" : "#OPG_Death_Galina.30f8c6c2-322c-4d14-8800-5d808cd91a51"
-      }, 
-      "236bd8b9-618c-4dcc-badd-669b892ef1bd" : { 
-         "class" : "DialogContinueNode", 
-         "desc" : { 
-            "x" : "-104409", 
-            "y" : "-99742"
-         }, 
-         "child" : [ 
-            "04ca84f4-33ec-402a-997e-4629bcb1be19"
-         ]
-      }, 
-      "04ca84f4-33ec-402a-997e-4629bcb1be19" : { 
-         "class" : "ActiveObjectNode", 
-         "desc" : { 
-            "x" : "-104342", 
-            "y" : "-99674"
-         }, 
-         "child" : [ 
-            "83a8ba4c-8920-4877-bec7-d653add14214"
-         ], 
-         "objectName" : "Fidel", 
-         "active" : "false"
-      }, 
-      "83a8ba4c-8920-4877-bec7-d653add14214" : { 
-         "class" : "HasTeamMateNode", 
-         "desc" : { 
-            "x" : "-104207", 
-            "y" : "-99563"
-         }, 
-         "child" : [ 
-            "494a4b98-dcbb-4f5c-96b8-84fea79830ba", 
-            "5eb7086b-4f8c-4a7e-a4db-79e388e15585"
-         ], 
-         "teammate" : "Gexogen"
-      }, 
-      "494a4b98-dcbb-4f5c-96b8-84fea79830ba" : { 
-         "class" : "DialogPortraitNode", 
-         "desc" : { 
-            "x" : "-104499", 
-            "y" : "-99455"
-         }, 
-         "child" : [ 
-            "a5aa4333-d692-43c0-980a-c293a1ac3161"
-         ], 
-         "objectName" : "Gexogen", 
-         "portrait" : "Character/Gexgen_Lab", 
-         "mode" : "AutoName"
-      }, 
-      "a5aa4333-d692-43c0-980a-c293a1ac3161" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-104498", 
-            "y" : "-99356"
-         }, 
-         "child" : [ 
-            "a8b5f01f-1b7b-45aa-959c-d19aea38dfff"
-         ], 
-         "text" : "#OPG_Death_Galina.55b26549-0315-4bf9-b412-a9aafe2646d3"
-      }, 
-      "a8b5f01f-1b7b-45aa-959c-d19aea38dfff" : { 
-         "class" : "DialogContinueNode", 
-         "desc" : { 
-            "x" : "-104497", 
-            "y" : "-99235"
-         }, 
-         "child" : [ 
-            "fa072585-2bde-403b-a841-fe894fe7fbd8"
-         ]
-      }, 
-      "fa072585-2bde-403b-a841-fe894fe7fbd8" : { 
-         "class" : "ActiveObjectNode", 
-         "desc" : { 
-            "x" : "-104403", 
-            "y" : "-99181"
-         }, 
-         "child" : [ 
-            "5eb7086b-4f8c-4a7e-a4db-79e388e15585"
-         ], 
-         "objectName" : "Gexogen", 
-         "active" : "false"
-      }, 
-      "5eb7086b-4f8c-4a7e-a4db-79e388e15585" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-104172", 
-            "y" : "-99330"
-         }, 
-         "child" : [ 
-            "cd1489e1-8461-425b-9278-ea7d7e682a4e"
-         ]
-      }, 
-      "cd1489e1-8461-425b-9278-ea7d7e682a4e" : { 
-         "class" : "PlayerAddPerkNode", 
-         "desc" : { 
-            "x" : "-103480", 
-            "y" : "-99604"
-         }, 
-         "child" : [ 
-            "1974c29f-1a8e-4894-b2b4-9c99f9f7f7d0"
-         ], 
-         "perk" : "Chaos", 
-         "showMsg" : "true"
-      }, 
-      "1974c29f-1a8e-4894-b2b4-9c99f9f7f7d0" : { 
-         "class" : "DoneAllQuestsNode", 
-         "desc" : { 
-            "x" : "-103486", 
-            "y" : "-99540"
-         }, 
-         "child" : [ 
-            "049faa5e-08b7-49af-8359-fe2b9135ffff"
-         ]
-      }, 
-      "049faa5e-08b7-49af-8359-fe2b9135ffff" : { 
-         "class" : "QuestBeginNode", 
-         "desc" : { 
-            "x" : "-103486", 
-            "y" : "-99488"
-         }, 
-         "child" : [ 
-            "44429902-76a5-4206-8356-f1034bf3cc2d"
-         ], 
-         "quest_key" : "CHAOS"
-      }, 
-      "44429902-76a5-4206-8356-f1034bf3cc2d" : { 
-         "class" : "DialogEndNode", 
-         "desc" : { 
-            "x" : "-103492", 
-            "y" : "-99415"
-         }, 
-         "child" : [ 
-            "5866efaa-9d4e-4fcf-b5f5-4c3e51b0f772"
-         ]
-      }, 
-      "5866efaa-9d4e-4fcf-b5f5-4c3e51b0f772" : { 
-         "class" : "FlashSplashNode", 
-         "desc" : { 
-            "x" : "-103499", 
-            "y" : "-99362"
-         }, 
-         "child" : [ 
-         ], 
-         "waitEnd" : "true", 
-         "waitTime" : "1.5"
-      }, 
-      "033d903c-13e0-4c0d-b084-f279ecb586c6" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-104127", 
-            "y" : "-99766"
-         }, 
-         "child" : [ 
-            "cd1489e1-8461-425b-9278-ea7d7e682a4e"
-         ]
-      }, 
-      "5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-103500", 
-            "y" : "-99960"
-         }, 
-         "child" : [ 
-            "5d571e16-3147-470d-bfbb-fb4cba187a1b"
-         ], 
-         "text" : "#opg_death_galina_teammate.5dd9cf2f-c4b6-4bb0-9764-002e3be5fe8a"
-      }, 
-      "5d571e16-3147-470d-bfbb-fb4cba187a1b" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-103445", 
-            "y" : "-99849"
-         }, 
-         "child" : [ 
-         ]
       }, 
       "c362a663-0760-4a3d-858f-7857dec7ea4b" : { 
          "class" : "DialogAnswerNode", 

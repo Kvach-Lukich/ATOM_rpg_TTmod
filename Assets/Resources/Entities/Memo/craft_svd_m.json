@@ -1,0 +1,37 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-100834", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "9af8f920-0d22-4f6a-9b0c-cb2ff387960c", 
+            "98225ee3-a9ab-423e-b6c5-ef109eb55269"
+         ]
+      }, 
+      "9af8f920-0d22-4f6a-9b0c-cb2ff387960c" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101053", 
+            "y" : "-100553"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Схема SVD Модифицированная"
+      }, 
+      "98225ee3-a9ab-423e-b6c5-ef109eb55269" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-100771", 
+            "y" : "-100542"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "svd_m", 
+         "showMsg" : "true"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

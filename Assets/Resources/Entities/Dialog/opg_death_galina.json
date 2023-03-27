@@ -74,7 +74,8 @@
             "y" : "-102338"
          }, 
          "child" : [ 
-            "abd99521-ae3d-494b-97e6-2256cbfe8f61"
+            "abd99521-ae3d-494b-97e6-2256cbfe8f61", 
+            "52f28e91-a3ae-4f56-a1de-38338f33339d"
          ], 
          "canBarter" : "false"
       }, 
@@ -1121,8 +1122,8 @@
       "c055b5c0-3ca5-42e3-8944-efa27bc09a82" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-100207", 
-            "y" : "-98789"
+            "x" : "-100201", 
+            "y" : "-98781"
          }, 
          "child" : [ 
             "27a3f7d4-3a20-45da-9e65-5d0108460797"
@@ -2629,178 +2630,96 @@
             "y" : "-97696"
          }, 
          "child" : [ 
-            "1ca3d3a2-8281-4b77-8c67-6c7f445576ed", 
+            "ec4304c1-d165-4721-98da-5f8c9d074279", 
             "0acba35d-9661-4c51-8650-23819caf90d0"
          ], 
          "key" : "EAR"
       }, 
+      "ec4304c1-d165-4721-98da-5f8c9d074279" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97761", 
+            "y" : "-97591"
+         }, 
+         "child" : [ 
+            "1ca3d3a2-8281-4b77-8c67-6c7f445576ed"
+         ]
+      }, 
       "1ca3d3a2-8281-4b77-8c67-6c7f445576ed" : { 
          "class" : "CharacterCapsNode", 
          "desc" : { 
-            "x" : "-97726", 
-            "y" : "-97614"
-         }, 
-         "child" : [ 
-            "c657cb30-dcc5-47a0-a7e7-dce9d405bc0a", 
-            "ed85bc09-f1d3-4421-8628-a47071fb1719"
-         ], 
-         "caps" : "TeamMate"
-      }, 
-      "c657cb30-dcc5-47a0-a7e7-dce9d405bc0a" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-97890", 
-            "y" : "-97606"
-         }, 
-         "child" : [ 
-            "549b0171-dac0-408b-84f4-ae7d6423d4db", 
-            "5498ca25-848b-497a-a907-5d9096896ef5"
-         ], 
-         "key" : "EXP_JOIN"
-      }, 
-      "549b0171-dac0-408b-84f4-ae7d6423d4db" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-97948", 
-            "y" : "-97525"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "5498ca25-848b-497a-a907-5d9096896ef5" : { 
-         "class" : "AddKeywordNode", 
-         "desc" : { 
-            "x" : "-97869", 
-            "y" : "-97486"
-         }, 
-         "child" : [ 
-            "4dafdbeb-684a-47ae-8152-8f2752b2b0d4"
-         ], 
-         "key" : "EXP_JOIN"
-      }, 
-      "4dafdbeb-684a-47ae-8152-8f2752b2b0d4" : { 
-         "class" : "CharacterAddExpNode", 
-         "desc" : { 
-            "x" : "-97876", 
-            "y" : "-97429"
-         }, 
-         "child" : [ 
-            "a5912b34-e233-4ba6-a873-bb36f5998c51"
-         ], 
-         "value" : "23000"
-      }, 
-      "a5912b34-e233-4ba6-a873-bb36f5998c51" : { 
-         "class" : "CharacterAddSpecPointsNode", 
-         "desc" : { 
-            "x" : "-97881", 
-            "y" : "-97315"
-         }, 
-         "child" : [ 
-            "385bd55a-66f6-4a59-9175-9c142a02f78b"
-         ], 
-         "value" : "4"
-      }, 
-      "385bd55a-66f6-4a59-9175-9c142a02f78b" : { 
-         "class" : "CharacterNeedUpdateNode", 
-         "desc" : { 
-            "x" : "-97378", 
-            "y" : "-97303"
-         }, 
-         "child" : [ 
-         ], 
-         "stopState" : "true"
-      }, 
-      "ed85bc09-f1d3-4421-8628-a47071fb1719" : { 
-         "class" : "CharacterSetRelationshipNode", 
-         "desc" : { 
-            "x" : "-97739", 
-            "y" : "-97475"
+            "x" : "-97765", 
+            "y" : "-97510"
          }, 
          "child" : [ 
             "3919f895-2bbc-4342-b93d-b11a36050ca4"
          ], 
-         "fraction" : "player", 
-         "value" : "100"
+         "caps" : "TeamMate"
       }, 
       "3919f895-2bbc-4342-b93d-b11a36050ca4" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-97714", 
-            "y" : "-97389"
+            "x" : "-97756", 
+            "y" : "-97425"
          }, 
          "child" : [ 
-            "ff3107e9-cd10-49c6-9896-96344af1c023"
+            "ed85bc09-f1d3-4421-8628-a47071fb1719"
          ], 
          "key" : "TEAMMATE"
       }, 
-      "ff3107e9-cd10-49c6-9896-96344af1c023" : { 
-         "class" : "LogNode", 
+      "ed85bc09-f1d3-4421-8628-a47071fb1719" : { 
+         "class" : "CharacterSetRelationshipNode", 
          "desc" : { 
-            "x" : "-97843", 
-            "y" : "-97188"
+            "x" : "-97782", 
+            "y" : "-97358"
          }, 
          "child" : [ 
-            "619a8dd1-2b9b-4331-88e8-9ed65ded9022"
+            "4dafdbeb-684a-47ae-8152-8f2752b2b0d4"
          ], 
-         "text" : "#opg_death_galina.ff3107e9-cd10-49c6-9896-96344af1c023"
+         "fraction" : "player", 
+         "value" : "100"
       }, 
-      "619a8dd1-2b9b-4331-88e8-9ed65ded9022" : { 
-         "class" : "InventoryRemoveItemNode", 
+      "4dafdbeb-684a-47ae-8152-8f2752b2b0d4" : { 
+         "class" : "CharacterAddExpNode", 
          "desc" : { 
-            "x" : "-97783", 
-            "y" : "-97119"
-         }, 
-         "child" : [ 
-            "7831facf-2ed7-48d0-9dbe-61a3c35b39fe"
-         ], 
-         "item" : { 
-            "class" : "Item", 
-            "count" : "1", 
-            "proto" : "opg_lena_head"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "7831facf-2ed7-48d0-9dbe-61a3c35b39fe" : { 
-         "class" : "InventoryRemoveItemNode", 
-         "desc" : { 
-            "x" : "-97785", 
-            "y" : "-97026"
-         }, 
-         "child" : [ 
-            "9c5b9b0d-f036-4f39-a5ef-29a74fd42009"
-         ], 
-         "item" : { 
-            "class" : "Item", 
-            "count" : "1", 
-            "proto" : "opg_igor_head"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "9c5b9b0d-f036-4f39-a5ef-29a74fd42009" : { 
-         "class" : "InventoryRemoveItemNode", 
-         "desc" : { 
-            "x" : "-97786", 
-            "y" : "-96919"
-         }, 
-         "child" : [ 
-         ], 
-         "item" : { 
-            "class" : "Item", 
-            "count" : "1", 
-            "proto" : "opg_dima_head"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "0acba35d-9661-4c51-8650-23819caf90d0" : { 
-         "class" : "CharacterSetStateNode", 
-         "desc" : { 
-            "x" : "-97529", 
-            "y" : "-97572"
+            "x" : "-97760", 
+            "y" : "-97270"
          }, 
          "child" : [ 
             "385bd55a-66f6-4a59-9175-9c142a02f78b"
          ], 
+         "value" : "38000"
+      }, 
+      "385bd55a-66f6-4a59-9175-9c142a02f78b" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-97791", 
+            "y" : "-97177"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
+      }, 
+      "0acba35d-9661-4c51-8650-23819caf90d0" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-97514", 
+            "y" : "-97584"
+         }, 
+         "child" : [ 
+            "4d8b185c-648c-4ada-8c01-f8b83685fd43"
+         ], 
          "stateName" : "OUT"
+      }, 
+      "4d8b185c-648c-4ada-8c01-f8b83685fd43" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-97530", 
+            "y" : "-97482"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
       }, 
       "52c52666-c1c5-40a0-894d-a27e20f785eb" : { 
          "class" : "PlayerAddPerkNode", 
@@ -2896,12 +2815,23 @@
       "a8bdbbe5-e03c-4c40-8e3c-2f2184d84101" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-97934", 
-            "y" : "-97810"
+            "x" : "-97863", 
+            "y" : "-97818"
          }, 
          "child" : [ 
+            "ad70e5dd-59f6-4a77-9ddc-3e5d23f3d24d", 
             "277a0464-d6c1-40b9-9a1d-f95eeed99722"
          ]
+      }, 
+      "ad70e5dd-59f6-4a77-9ddc-3e5d23f3d24d" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-98054", 
+            "y" : "-97753"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.SICK.END"
       }, 
       "277a0464-d6c1-40b9-9a1d-f95eeed99722" : { 
          "class" : "QuestDoneNode", 
@@ -2910,9 +2840,68 @@
             "y" : "-97756"
          }, 
          "child" : [ 
-            "1ca3d3a2-8281-4b77-8c67-6c7f445576ed"
+            "ec4304c1-d165-4721-98da-5f8c9d074279", 
+            "ff3107e9-cd10-49c6-9896-96344af1c023"
          ], 
          "quest_key" : "CITY.SICK.KILL"
+      }, 
+      "ff3107e9-cd10-49c6-9896-96344af1c023" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-97517", 
+            "y" : "-98043"
+         }, 
+         "child" : [ 
+            "619a8dd1-2b9b-4331-88e8-9ed65ded9022"
+         ], 
+         "text" : "#opg_death_galina.ff3107e9-cd10-49c6-9896-96344af1c023"
+      }, 
+      "619a8dd1-2b9b-4331-88e8-9ed65ded9022" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-97461", 
+            "y" : "-97977"
+         }, 
+         "child" : [ 
+            "7831facf-2ed7-48d0-9dbe-61a3c35b39fe"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_lena_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7831facf-2ed7-48d0-9dbe-61a3c35b39fe" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-97463", 
+            "y" : "-97884"
+         }, 
+         "child" : [ 
+            "9c5b9b0d-f036-4f39-a5ef-29a74fd42009"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_igor_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9c5b9b0d-f036-4f39-a5ef-29a74fd42009" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-97464", 
+            "y" : "-97777"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_dima_head"
+         }, 
+         "objectName" : "Player"
       }, 
       "c8e4546c-4c6b-4a64-9e9e-7af3aa58fa9d" : { 
          "class" : "DialogPhraseNode", 
@@ -3589,6 +3578,103 @@
          }, 
          "child" : [ 
             "6649717d-5add-4d56-b191-db839c8ec450"
+         ]
+      }, 
+      "52f28e91-a3ae-4f56-a1de-38338f33339d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102869", 
+            "y" : "-102241"
+         }, 
+         "child" : [ 
+            "94f63b0a-f504-4f40-b1cf-b7f3eba84089"
+         ], 
+         "text" : "Reset"
+      }, 
+      "94f63b0a-f504-4f40-b1cf-b7f3eba84089" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-102742", 
+            "y" : "-102175"
+         }, 
+         "child" : [ 
+            "201a328a-908d-4e0e-8349-348946d775be"
+         ], 
+         "objName" : "galina"
+      }, 
+      "201a328a-908d-4e0e-8349-348946d775be" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102699", 
+            "y" : "-102099"
+         }, 
+         "child" : [ 
+            "5817548d-06b4-428b-a0e9-392543788b2e"
+         ], 
+         "spawnPoint" : "galina", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "OPG_Death_Galina", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor_galina", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "LockPicks"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "30", 
+                  "proto" : "Money"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Beer"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Dice"
+               }, 
+               { 
+                  "class" : "Weapon", 
+                  "count" : "1", 
+                  "proto" : "Knife_Sharp"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_PonyTail", 
+            "hairColor" : "Foxy", 
+            "behavior" : "OPG.Galina"
+         }
+      }, 
+      "5817548d-06b4-428b-a0e9-392543788b2e" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102668", 
+            "y" : "-101981"
+         }, 
+         "child" : [ 
          ]
       }
    }, 

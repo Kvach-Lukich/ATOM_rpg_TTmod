@@ -39,6 +39,10 @@
         "alenka_comp": {
             "short": "Alyonka",
             "full": "Alyonka"
+        },
+        "wolf_5": {
+            "short": "Wolf",
+            "full": "Wolf"
         }
     },
     "item": {

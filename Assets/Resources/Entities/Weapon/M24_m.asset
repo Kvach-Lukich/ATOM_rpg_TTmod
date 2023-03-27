@@ -70,9 +70,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 7
+    _value: 6
   - _type: 9
-    _value: 95
+    _value: 75
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/M24/m24_empty
   PreAttackSounds: []

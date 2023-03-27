@@ -3,8 +3,8 @@
       "121ee4f1-53d9-4b73-9562-ec0b3e4f76f6" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100679", 
-            "y" : "-100793"
+            "x" : "-100639", 
+            "y" : "-100949"
          }, 
          "child" : [ 
             "80e641c8-fbc4-49b7-a920-bb4a0c2b839d", 
@@ -14,8 +14,8 @@
       "80e641c8-fbc4-49b7-a920-bb4a0c2b839d" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100914", 
-            "y" : "-100668"
+            "x" : "-101482", 
+            "y" : "-100733"
          }, 
          "child" : [ 
             "6a7de462-011c-42c3-9467-9e61995f2b6f"
@@ -25,8 +25,8 @@
       "6a7de462-011c-42c3-9467-9e61995f2b6f" : { 
          "class" : "CharacterInBattleNode", 
          "desc" : { 
-            "x" : "-100921", 
-            "y" : "-100608"
+            "x" : "-101489", 
+            "y" : "-100673"
          }, 
          "child" : [ 
             "b8711bb6-ed0f-46ea-a18a-c7fa65fe30a5", 
@@ -36,8 +36,8 @@
       "b8711bb6-ed0f-46ea-a18a-c7fa65fe30a5" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100965", 
-            "y" : "-100521"
+            "x" : "-101533", 
+            "y" : "-100586"
          }, 
          "child" : [ 
          ]
@@ -45,8 +45,8 @@
       "135b805e-a16e-4526-88ff-ecbf01302899" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-100841", 
-            "y" : "-100519"
+            "x" : "-101409", 
+            "y" : "-100584"
          }, 
          "child" : [ 
             "d2e32ba6-1147-47b0-b696-2874df370380", 
@@ -57,8 +57,8 @@
       "d2e32ba6-1147-47b0-b696-2874df370380" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101007", 
-            "y" : "-100444"
+            "x" : "-101575", 
+            "y" : "-100509"
          }, 
          "child" : [ 
          ]
@@ -66,8 +66,8 @@
       "f9b9ec39-f8b3-474f-9be4-9b6032de95f0" : { 
          "class" : "PlayerHasHallucinationsNode", 
          "desc" : { 
-            "x" : "-100942", 
-            "y" : "-100409"
+            "x" : "-101510", 
+            "y" : "-100474"
          }, 
          "child" : [ 
             "e61586c8-6ea3-4302-b4f7-13847f5054fb", 
@@ -77,8 +77,8 @@
       "e61586c8-6ea3-4302-b4f7-13847f5054fb" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-101083", 
-            "y" : "-100324"
+            "x" : "-101651", 
+            "y" : "-100389"
          }, 
          "child" : [ 
             "1379d576-45ec-492f-af28-965c7c1a504e"
@@ -90,8 +90,8 @@
       "1379d576-45ec-492f-af28-965c7c1a504e" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101033", 
-            "y" : "-100244"
+            "x" : "-101602", 
+            "y" : "-100309"
          }, 
          "child" : [ 
          ], 
@@ -100,8 +100,8 @@
       "b40245c4-833d-49bd-94e7-36a343e74d82" : { 
          "class" : "PlayDialogNode", 
          "desc" : { 
-            "x" : "-100858", 
-            "y" : "-100318"
+            "x" : "-101426", 
+            "y" : "-100383"
          }, 
          "child" : [ 
          ]
@@ -109,25 +109,49 @@
       "fd226681-a343-4cce-ae0f-b85368929999" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-100392", 
-            "y" : "-100643"
+            "x" : "-100313", 
+            "y" : "-100881"
          }, 
          "child" : [ 
-            "cc4eed0f-f0ae-4c42-b768-391858bdead5", 
+            "dd2ae629-0fde-404b-8df5-758b5d888e00", 
             "4e0c6822-6cdf-488c-9cf0-3a66e8e17a95"
          ], 
          "key" : "GOODS_TRADER"
       }, 
+      "dd2ae629-0fde-404b-8df5-758b5d888e00" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100636", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "2b0cd20c-e801-45b8-b294-42cd1b0559d2", 
+            "0798ff4c-eb5f-4ec2-8bac-3f0234d2946e", 
+            "c582ced7-d317-4863-a8ec-0dbead5dc465"
+         ]
+      }, 
+      "2b0cd20c-e801-45b8-b294-42cd1b0559d2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100838", 
+            "y" : "-100726"
+         }, 
+         "child" : [ 
+            "cc4eed0f-f0ae-4c42-b768-391858bdead5", 
+            "ae5f2f26-7c86-416c-94fb-9b9d5e680a18"
+         ], 
+         "key" : "HT1_RENEW_1H"
+      }, 
       "cc4eed0f-f0ae-4c42-b768-391858bdead5" : { 
          "class" : "TimeDateTriggerNode", 
          "desc" : { 
-            "x" : "-100553", 
-            "y" : "-100540"
+            "x" : "-100862", 
+            "y" : "-100606"
          }, 
          "child" : [ 
             "a84449e6-32e2-4612-adee-92284e4b4012"
          ], 
-         "time" : "24", 
+         "time" : "1", 
          "mode" : "Hour", 
          "offsetValue" : "GOODS_TRADER"
       }, 
@@ -368,7 +392,17 @@
             { 
                "class" : "Ammo", 
                "count" : "2", 
-               "proto" : "10mm_ap"
+               "proto" : "10mm_AP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "bsf12"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "morphine"
             }
          ], 
          "inventoryObject" : "", 
@@ -378,7 +412,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "-100582", 
-            "y" : "-100173"
+            "y" : "-100160"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
@@ -496,7 +530,7 @@
             { 
                "class" : "Ammo", 
                "count" : "3", 
-               "proto" : "10mm_jhp"
+               "proto" : "10mm_JHP"
             }
          ], 
          "inventoryObject" : "", 
@@ -540,7 +574,7 @@
             { 
                "class" : "Ammo", 
                "count" : "3", 
-               "proto" : "10mm_jhp"
+               "proto" : "10mm_JHP"
             }
          ], 
          "inventoryObject" : "", 
@@ -549,8 +583,8 @@
       "bd7639ef-e7bf-4124-b748-adf642fe033a" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100376", 
-            "y" : "-100301"
+            "x" : "-100373", 
+            "y" : "-100303"
          }, 
          "child" : [ 
             "1c92ef83-bfc6-4727-b7a5-a14917c1b125"
@@ -629,11 +663,70 @@
             { 
                "class" : "Ammo", 
                "count" : "2", 
-               "proto" : "10mm_jhp"
+               "proto" : "10mm_JHP"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
+      }, 
+      "ae5f2f26-7c86-416c-94fb-9b9d5e680a18" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-100602"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0798ff4c-eb5f-4ec2-8bac-3f0234d2946e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100665", 
+            "y" : "-100729"
+         }, 
+         "child" : [ 
+            "5cdd0822-d837-402b-b948-96262c7121f8", 
+            "ae5f2f26-7c86-416c-94fb-9b9d5e680a18"
+         ], 
+         "key" : "HT1_RENEW_1D"
+      }, 
+      "5cdd0822-d837-402b-b948-96262c7121f8" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100657", 
+            "y" : "-100609"
+         }, 
+         "child" : [ 
+            "a84449e6-32e2-4612-adee-92284e4b4012"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "GOODS_TRADER"
+      }, 
+      "c582ced7-d317-4863-a8ec-0dbead5dc465" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100492", 
+            "y" : "-100731"
+         }, 
+         "child" : [ 
+            "6010db2f-09d3-4bee-a85b-1172c3c9d98d", 
+            "ae5f2f26-7c86-416c-94fb-9b9d5e680a18"
+         ], 
+         "key" : "HT1_RENEW_3D"
+      }, 
+      "6010db2f-09d3-4bee-a85b-1172c3c9d98d" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100461", 
+            "y" : "-100607"
+         }, 
+         "child" : [ 
+            "a84449e6-32e2-4612-adee-92284e4b4012"
+         ], 
+         "time" : "3", 
+         "mode" : "Day", 
+         "offsetValue" : "GOODS_TRADER"
       }, 
       "4e0c6822-6cdf-488c-9cf0-3a66e8e17a95" : { 
          "class" : "InventorySetNode", 

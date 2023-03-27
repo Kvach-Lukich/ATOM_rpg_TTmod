@@ -19,8 +19,8 @@ MonoBehaviour:
   _addiction: 0
   _modifiers:
   - _type: 15
-    _value: 100
-    _duration: 30
+    _value: 30
+    _duration: 20
     _durationMode: 0
     _delay: 0
     _delayMode: 0

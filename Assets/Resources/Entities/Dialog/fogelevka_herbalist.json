@@ -1,0 +1,2293 @@
+{ 
+   "states" : { 
+      "52a58744-efc3-4ff7-8950-e109d6ed4793" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-102136", 
+            "y" : "-101467"
+         }, 
+         "child" : [ 
+            "4df2acca-3d6c-44a8-bd57-9e0b3744729e", 
+            "22e09686-3644-43e1-a0f5-40c794ebb526"
+         ]
+      }, 
+      "4df2acca-3d6c-44a8-bd57-9e0b3744729e" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102371", 
+            "y" : "-101407"
+         }, 
+         "child" : [ 
+            "c46d8662-04e8-474f-a8fa-0f6d5afdb542"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "c46d8662-04e8-474f-a8fa-0f6d5afdb542" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102325.5", 
+            "y" : "-101244.2"
+         }, 
+         "child" : [ 
+            "cee2aa85-fe77-4eb3-8698-be2162cc695f", 
+            "65ca34e7-165f-4b22-ab9d-10a53ec1bbd7"
+         ], 
+         "key" : "MEET"
+      }, 
+      "cee2aa85-fe77-4eb3-8698-be2162cc695f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102805", 
+            "y" : "-101265", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "5c03e0ab-60ea-495a-ac26-ee10754037ad"
+         ], 
+         "text" : "#Fogelevka_Herbalist.cee2aa85-fe77-4eb3-8698-be2162cc695f"
+      }, 
+      "5c03e0ab-60ea-495a-ac26-ee10754037ad" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102802", 
+            "y" : "-101150"
+         }, 
+         "child" : [ 
+            "54b85098-c3e0-4605-9b1f-54dbbd695b5c"
+         ]
+      }, 
+      "54b85098-c3e0-4605-9b1f-54dbbd695b5c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102829", 
+            "y" : "-100982"
+         }, 
+         "child" : [ 
+            "0a24d903-d6c8-4d9d-b1e1-17db79439bad", 
+            "780b4bbe-d906-4109-a08e-f783f73a648b", 
+            "0c9a554e-5a8f-4982-80cc-7edc1f76c504", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "82dccb89-fa6d-44d3-ab68-d23ac5765c77"
+         ], 
+         "text" : "#Fogelevka_Herbalist.54b85098-c3e0-4605-9b1f-54dbbd695b5c"
+      }, 
+      "0a24d903-d6c8-4d9d-b1e1-17db79439bad" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103129", 
+            "y" : "-100899", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "76f61776-058b-48de-a37a-0f887d0a6d3b"
+         ], 
+         "text" : "#Fogelevka_Herbalist.0a24d903-d6c8-4d9d-b1e1-17db79439bad"
+      }, 
+      "76f61776-058b-48de-a37a-0f887d0a6d3b" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-103132", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+            "54b85098-c3e0-4605-9b1f-54dbbd695b5c"
+         ]
+      }, 
+      "780b4bbe-d906-4109-a08e-f783f73a648b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102934", 
+            "y" : "-100830"
+         }, 
+         "child" : [ 
+            "d5e9dbf2-dc61-49b1-aa2b-9836db014d2b", 
+            "f356fbce-c112-4000-9ea9-da9baf305815"
+         ], 
+         "key" : "A_1"
+      }, 
+      "d5e9dbf2-dc61-49b1-aa2b-9836db014d2b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103069", 
+            "y" : "-100750"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f356fbce-c112-4000-9ea9-da9baf305815" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102960", 
+            "y" : "-100732", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "d2de658c-a5fc-4cab-ad5e-c9f2c1e020b9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.f356fbce-c112-4000-9ea9-da9baf305815"
+      }, 
+      "d2de658c-a5fc-4cab-ad5e-c9f2c1e020b9" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-102932", 
+            "y" : "-100633"
+         }, 
+         "child" : [ 
+            "e7bb5b64-cd93-4f6a-b222-05e0197bb35e", 
+            "87800e89-d29f-4ea8-9708-d3fc42d5861f"
+         ], 
+         "value" : "87", 
+         "skill" : "Barter"
+      }, 
+      "e7bb5b64-cd93-4f6a-b222-05e0197bb35e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103261", 
+            "y" : "-100746"
+         }, 
+         "child" : [ 
+            "8f3c6975-01e3-4f7a-a671-16af05736c10"
+         ], 
+         "key" : "A_1"
+      }, 
+      "8f3c6975-01e3-4f7a-a671-16af05736c10" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-103251", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+            "02368e80-89e2-4dda-9b92-54897fce2a8f"
+         ], 
+         "discount" : "10"
+      }, 
+      "02368e80-89e2-4dda-9b92-54897fce2a8f" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-103248", 
+            "y" : "-100624"
+         }, 
+         "child" : [ 
+            "cf294cad-7459-4cec-80c8-90353b49d2c7"
+         ], 
+         "exp" : "30"
+      }, 
+      "cf294cad-7459-4cec-80c8-90353b49d2c7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103242", 
+            "y" : "-100568", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "3629750e-a2a1-48b4-aadc-e82f34643c34", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "11e2e6f8-c5dd-4e83-92c0-b73a9f18af20", 
+            "1850908b-0b47-483a-81d7-057f688aafa0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.cf294cad-7459-4cec-80c8-90353b49d2c7"
+      }, 
+      "3629750e-a2a1-48b4-aadc-e82f34643c34" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103550", 
+            "y" : "-100461", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "1758ddb3-b7a8-4f5f-afdb-fead0716e6bc"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3629750e-a2a1-48b4-aadc-e82f34643c34"
+      }, 
+      "1758ddb3-b7a8-4f5f-afdb-fead0716e6bc" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-103534", 
+            "y" : "-100390"
+         }, 
+         "child" : [ 
+            "cf294cad-7459-4cec-80c8-90353b49d2c7"
+         ]
+      }, 
+      "ee4ddd76-c28d-42dc-837e-7b347aed59f6" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101978", 
+            "y" : "-100658"
+         }, 
+         "child" : [ 
+            "6ec2bd7d-e152-491c-9471-3113537fbde6", 
+            "25ff12c6-1d8c-4251-88ca-625b2eb9f973", 
+            "a8292575-3373-4d2a-8144-5b4f002cd246"
+         ], 
+         "quest_key" : "FOGELEVKA.HERBAL"
+      }, 
+      "6ec2bd7d-e152-491c-9471-3113537fbde6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102109", 
+            "y" : "-100563", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "b0519a90-e419-4f93-ba8d-48b89086666c"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6ec2bd7d-e152-491c-9471-3113537fbde6"
+      }, 
+      "b0519a90-e419-4f93-ba8d-48b89086666c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-100437", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "82f554d8-da34-49d8-bce8-21494e12ba7a"
+         ], 
+         "text" : "#Fogelevka_Herbalist.b0519a90-e419-4f93-ba8d-48b89086666c"
+      }, 
+      "82f554d8-da34-49d8-bce8-21494e12ba7a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102084", 
+            "y" : "-100343"
+         }, 
+         "child" : [ 
+            "6fa3732e-783d-4f14-9e99-f5b9c6549218"
+         ]
+      }, 
+      "6fa3732e-783d-4f14-9e99-f5b9c6549218" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102077", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+            "30fd214a-4ba6-4284-bf72-c57da85e411b"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6fa3732e-783d-4f14-9e99-f5b9c6549218"
+      }, 
+      "30fd214a-4ba6-4284-bf72-c57da85e411b" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102050", 
+            "y" : "-100189"
+         }, 
+         "child" : [ 
+            "eedd8c36-0d1d-4904-b70a-3134db4ecd52", 
+            "fa1797e1-fdd6-44ad-94fa-5d9c33d31b8c"
+         ], 
+         "quest_key" : "FOGELEVKA.HERBAL"
+      }, 
+      "eedd8c36-0d1d-4904-b70a-3134db4ecd52" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-102264", 
+            "y" : "-100137"
+         }, 
+         "child" : [ 
+            "af83c0df-610e-4911-9bd3-885d9a2f4064", 
+            "ea4b559f-6c6b-44e0-bb71-34c1f8ed27a7"
+         ], 
+         "value" : "5", 
+         "stat" : "Intelligence"
+      }, 
+      "af83c0df-610e-4911-9bd3-885d9a2f4064" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102365", 
+            "y" : "-100007", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "cca29ee3-bf81-4b3e-a04a-559a6811ac50"
+         ], 
+         "text" : "#Fogelevka_Herbalist.af83c0df-610e-4911-9bd3-885d9a2f4064"
+      }, 
+      "cca29ee3-bf81-4b3e-a04a-559a6811ac50" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102332", 
+            "y" : "-99791", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "e89dda30-cc5b-4187-a3fd-7cea6f2450b4", 
+            "f147e67d-a31f-4aa6-80dd-c94c7021a038", 
+            "37881c7a-71f0-4394-a2f4-b018fbf10ddd"
+         ], 
+         "text" : "#Fogelevka_Herbalist.cca29ee3-bf81-4b3e-a04a-559a6811ac50"
+      }, 
+      "e89dda30-cc5b-4187-a3fd-7cea6f2450b4" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-102459", 
+            "y" : "-99691"
+         }, 
+         "child" : [ 
+            "8064e40c-e173-407a-a979-e3f5dfac6fa8", 
+            "5a7a9b9f-35dc-4f47-9baf-8dde091ecce6"
+         ], 
+         "value" : "5", 
+         "stat" : "Intelligence"
+      }, 
+      "8064e40c-e173-407a-a979-e3f5dfac6fa8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102524", 
+            "y" : "-99573", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "60bf5431-15b0-4bef-b868-68c277647b78"
+         ], 
+         "text" : "#Fogelevka_Herbalist.8064e40c-e173-407a-a979-e3f5dfac6fa8"
+      }, 
+      "60bf5431-15b0-4bef-b868-68c277647b78" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-99429", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "27b90d92-e619-4860-bf3d-9f504ec0d0db"
+         ], 
+         "text" : "#Fogelevka_Herbalist.60bf5431-15b0-4bef-b868-68c277647b78"
+      }, 
+      "27b90d92-e619-4860-bf3d-9f504ec0d0db" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-99329"
+         }, 
+         "child" : [ 
+            "3552520f-a799-47d7-829b-cb74a81885a6"
+         ]
+      }, 
+      "3552520f-a799-47d7-829b-cb74a81885a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-99229"
+         }, 
+         "child" : [ 
+            "532ff110-e13f-4f79-b5dc-91cfa126bb6c"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3552520f-a799-47d7-829b-cb74a81885a6"
+      }, 
+      "532ff110-e13f-4f79-b5dc-91cfa126bb6c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-99129"
+         }, 
+         "child" : [ 
+            "483dd260-eb73-4d39-a9f2-fab46adf376a"
+         ]
+      }, 
+      "483dd260-eb73-4d39-a9f2-fab46adf376a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-99029"
+         }, 
+         "child" : [ 
+            "5e5723b2-57e9-4bec-9a0c-83d806d737c8"
+         ], 
+         "text" : "#Fogelevka_Herbalist.483dd260-eb73-4d39-a9f2-fab46adf376a"
+      }, 
+      "5e5723b2-57e9-4bec-9a0c-83d806d737c8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-98929"
+         }, 
+         "child" : [ 
+            "5188f07d-ed20-42d8-9c58-de8caa05651b"
+         ]
+      }, 
+      "5188f07d-ed20-42d8-9c58-de8caa05651b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-98829"
+         }, 
+         "child" : [ 
+            "07712750-90cc-42c7-811c-042f5d62837e", 
+            "222bb74b-291e-45cf-81bb-691b525f6eee", 
+            "9c28b2ff-859d-4ccd-8b6d-ea86a3f48f55", 
+            "64bfc231-404a-41dd-b1c2-ec169a9c34c8"
+         ], 
+         "text" : "#Fogelevka_Herbalist.5188f07d-ed20-42d8-9c58-de8caa05651b"
+      }, 
+      "07712750-90cc-42c7-811c-042f5d62837e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102047", 
+            "y" : "-98729", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "6f28e35d-3167-42d9-833c-196796b9c5ab"
+         ], 
+         "text" : "#Fogelevka_Herbalist.07712750-90cc-42c7-811c-042f5d62837e"
+      }, 
+      "6f28e35d-3167-42d9-833c-196796b9c5ab" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102015", 
+            "y" : "-98503", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "dc1959ef-6d65-4153-bece-893cdebd69d7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6f28e35d-3167-42d9-833c-196796b9c5ab"
+      }, 
+      "dc1959ef-6d65-4153-bece-893cdebd69d7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102015", 
+            "y" : "-98403", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "3d1a5be8-b11c-4fa8-8ee7-4a02858d04f7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.dc1959ef-6d65-4153-bece-893cdebd69d7"
+      }, 
+      "3d1a5be8-b11c-4fa8-8ee7-4a02858d04f7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101868", 
+            "y" : "-98270"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "222bb74b-291e-45cf-81bb-691b525f6eee" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101897", 
+            "y" : "-98629", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "93ce78b8-94ce-4f8f-a5a3-48240b90f8e4"
+         ], 
+         "text" : "#Fogelevka_Herbalist.222bb74b-291e-45cf-81bb-691b525f6eee"
+      }, 
+      "93ce78b8-94ce-4f8f-a5a3-48240b90f8e4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101743", 
+            "y" : "-98508", 
+            "comment" : "А16"
+         }, 
+         "child" : [ 
+            "aedf4a6e-acdb-4428-ba2b-be4d98311aab"
+         ], 
+         "text" : "#Fogelevka_Herbalist.93ce78b8-94ce-4f8f-a5a3-48240b90f8e4"
+      }, 
+      "aedf4a6e-acdb-4428-ba2b-be4d98311aab" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101743", 
+            "y" : "-98408", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "3d1a5be8-b11c-4fa8-8ee7-4a02858d04f7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.aedf4a6e-acdb-4428-ba2b-be4d98311aab"
+      }, 
+      "9c28b2ff-859d-4ccd-8b6d-ea86a3f48f55" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-98729", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "2e1149d3-4561-4d9b-90af-fad08bee6392"
+         ], 
+         "text" : "#Fogelevka_Herbalist.9c28b2ff-859d-4ccd-8b6d-ea86a3f48f55"
+      }, 
+      "2e1149d3-4561-4d9b-90af-fad08bee6392" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102255", 
+            "y" : "-98490", 
+            "comment" : "А17"
+         }, 
+         "child" : [ 
+            "d2071a61-7a48-444c-a5fe-104cc4c3683f"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2e1149d3-4561-4d9b-90af-fad08bee6392"
+      }, 
+      "d2071a61-7a48-444c-a5fe-104cc4c3683f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102255", 
+            "y" : "-98390", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "3d1a5be8-b11c-4fa8-8ee7-4a02858d04f7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.d2071a61-7a48-444c-a5fe-104cc4c3683f"
+      }, 
+      "64bfc231-404a-41dd-b1c2-ec169a9c34c8" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101568", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+            "e1d9a9fe-1475-4da6-aabe-9cd559de0380"
+         ], 
+         "exp" : "40"
+      }, 
+      "e1d9a9fe-1475-4da6-aabe-9cd559de0380" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-101613", 
+            "y" : "-98864"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FOGELEVKA.HERBAL.END"
+      }, 
+      "5a7a9b9f-35dc-4f47-9baf-8dde091ecce6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102343", 
+            "y" : "-99606"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f147e67d-a31f-4aa6-80dd-c94c7021a038" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102299", 
+            "y" : "-99510", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "f639dc29-6878-4ef5-a686-77b4c75b6b38"
+         ], 
+         "text" : "#Fogelevka_Herbalist.f147e67d-a31f-4aa6-80dd-c94c7021a038"
+      }, 
+      "f639dc29-6878-4ef5-a686-77b4c75b6b38" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99503", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "eda524bc-1aa6-4396-93a5-5d2027005012"
+         ], 
+         "text" : "#Fogelevka_Herbalist.f639dc29-6878-4ef5-a686-77b4c75b6b38"
+      }, 
+      "eda524bc-1aa6-4396-93a5-5d2027005012" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99403"
+         }, 
+         "child" : [ 
+            "e780b6bf-997d-4d64-8a14-a5b00ce0e5f8"
+         ]
+      }, 
+      "e780b6bf-997d-4d64-8a14-a5b00ce0e5f8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99303"
+         }, 
+         "child" : [ 
+            "79b5a2af-5fbb-4cf9-be97-d855ca3bbab1"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e780b6bf-997d-4d64-8a14-a5b00ce0e5f8"
+      }, 
+      "79b5a2af-5fbb-4cf9-be97-d855ca3bbab1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99203"
+         }, 
+         "child" : [ 
+            "e084a988-e601-4d2c-b2ea-09cabc1642e9"
+         ]
+      }, 
+      "e084a988-e601-4d2c-b2ea-09cabc1642e9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99103"
+         }, 
+         "child" : [ 
+            "5d9381f9-54b0-49c9-8ac9-7e22d44a3ebc"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e084a988-e601-4d2c-b2ea-09cabc1642e9"
+      }, 
+      "5d9381f9-54b0-49c9-8ac9-7e22d44a3ebc" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99003"
+         }, 
+         "child" : [ 
+            "4d3d2f0b-5291-4c6b-98e6-87cadc3c2f87"
+         ]
+      }, 
+      "4d3d2f0b-5291-4c6b-98e6-87cadc3c2f87" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101288", 
+            "y" : "-98936"
+         }, 
+         "child" : [ 
+            "64bfc231-404a-41dd-b1c2-ec169a9c34c8", 
+            "4af110ae-14fd-4af8-abb8-ef94842ab488", 
+            "d18210a3-6827-4340-b803-81502030217a", 
+            "34233ee2-e9af-4a95-bfc2-91c1fb87a8a2"
+         ], 
+         "text" : "#Fogelevka_Herbalist.4d3d2f0b-5291-4c6b-98e6-87cadc3c2f87"
+      }, 
+      "4af110ae-14fd-4af8-abb8-ef94842ab488" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101443", 
+            "y" : "-98803", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "6f28e35d-3167-42d9-833c-196796b9c5ab"
+         ], 
+         "text" : "#Fogelevka_Herbalist.4af110ae-14fd-4af8-abb8-ef94842ab488"
+      }, 
+      "d18210a3-6827-4340-b803-81502030217a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-98703", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "93ce78b8-94ce-4f8f-a5a3-48240b90f8e4"
+         ], 
+         "text" : "#Fogelevka_Herbalist.d18210a3-6827-4340-b803-81502030217a"
+      }, 
+      "34233ee2-e9af-4a95-bfc2-91c1fb87a8a2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101143", 
+            "y" : "-98803", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "2e1149d3-4561-4d9b-90af-fad08bee6392"
+         ], 
+         "text" : "#Fogelevka_Herbalist.34233ee2-e9af-4a95-bfc2-91c1fb87a8a2"
+      }, 
+      "37881c7a-71f0-4394-a2f4-b018fbf10ddd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102180", 
+            "y" : "-99608", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "f639dc29-6878-4ef5-a686-77b4c75b6b38"
+         ], 
+         "text" : "#Fogelevka_Herbalist.37881c7a-71f0-4394-a2f4-b018fbf10ddd"
+      }, 
+      "ea4b559f-6c6b-44e0-bb71-34c1f8ed27a7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102190", 
+            "y" : "-100040"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fa1797e1-fdd6-44ad-94fa-5d9c33d31b8c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102025", 
+            "y" : "-100072", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "a2a3f720-6f1b-46f9-a7eb-ad1a67d2fae7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.fa1797e1-fdd6-44ad-94fa-5d9c33d31b8c"
+      }, 
+      "a2a3f720-6f1b-46f9-a7eb-ad1a67d2fae7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101710", 
+            "y" : "-99960", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "ca8ad23e-3719-42fd-b648-b604e8461507"
+         ], 
+         "text" : "#Fogelevka_Herbalist.a2a3f720-6f1b-46f9-a7eb-ad1a67d2fae7"
+      }, 
+      "ca8ad23e-3719-42fd-b648-b604e8461507" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101710", 
+            "y" : "-99860"
+         }, 
+         "child" : [ 
+            "2552649b-3d22-4e09-9b57-d264e73010fd"
+         ]
+      }, 
+      "2552649b-3d22-4e09-9b57-d264e73010fd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101706", 
+            "y" : "-99805"
+         }, 
+         "child" : [ 
+            "40e09b88-69e4-48ca-ac78-9ffff5496b39", 
+            "93d24dea-9b82-417c-b9d2-1ec15ee7256a"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2552649b-3d22-4e09-9b57-d264e73010fd"
+      }, 
+      "40e09b88-69e4-48ca-ac78-9ffff5496b39" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101910", 
+            "y" : "-99766"
+         }, 
+         "child" : [ 
+            "6f4b95b8-540d-4a91-b26e-8d2b929345e7", 
+            "9b834f88-3dcf-429e-a2a8-263fac48af49"
+         ], 
+         "value" : "5", 
+         "stat" : "Intelligence"
+      }, 
+      "6f4b95b8-540d-4a91-b26e-8d2b929345e7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101862", 
+            "y" : "-99615", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "60bf5431-15b0-4bef-b868-68c277647b78"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6f4b95b8-540d-4a91-b26e-8d2b929345e7"
+      }, 
+      "9b834f88-3dcf-429e-a2a8-263fac48af49" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101724", 
+            "y" : "-99674"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "93d24dea-9b82-417c-b9d2-1ec15ee7256a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101595", 
+            "y" : "-99593", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "f639dc29-6878-4ef5-a686-77b4c75b6b38"
+         ], 
+         "text" : "#Fogelevka_Herbalist.93d24dea-9b82-417c-b9d2-1ec15ee7256a"
+      }, 
+      "25ff12c6-1d8c-4251-88ca-625b2eb9f973" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101901", 
+            "y" : "-100536"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a8292575-3373-4d2a-8144-5b4f002cd246" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101777", 
+            "y" : "-100525"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "11e2e6f8-c5dd-4e83-92c0-b73a9f18af20" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103240", 
+            "y" : "-100439", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "62ef2397-9810-4ef7-a4cd-a214c0777323"
+         ], 
+         "text" : "#Fogelevka_Herbalist.11e2e6f8-c5dd-4e83-92c0-b73a9f18af20"
+      }, 
+      "62ef2397-9810-4ef7-a4cd-a214c0777323" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-103381", 
+            "y" : "-100044"
+         }, 
+         "child" : [ 
+            "bd17acfe-771b-458b-a8bd-69d0ac78494a", 
+            "677906a1-8b6c-4bc5-8f45-f8208a59200b"
+         ], 
+         "value" : "2", 
+         "stat" : "Charisma"
+      }, 
+      "bd17acfe-771b-458b-a8bd-69d0ac78494a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103836", 
+            "y" : "-99806", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "cc22fec0-2580-4cc9-b17f-cc9765651b76", 
+            "194ba030-f99b-4e77-9321-8c9a628d48cc", 
+            "97e2c277-760e-41da-a250-003107298be6", 
+            "397b7282-f96e-4ec1-86a9-155f389f8455", 
+            "c1ee5bbd-6e90-48f8-96ac-fb4e5d17f227"
+         ], 
+         "text" : "#Fogelevka_Herbalist.bd17acfe-771b-458b-a8bd-69d0ac78494a"
+      }, 
+      "cc22fec0-2580-4cc9-b17f-cc9765651b76" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103991", 
+            "y" : "-99695", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "30d1b018-cdbf-4a0d-b0b4-36ee40517df9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.cc22fec0-2580-4cc9-b17f-cc9765651b76"
+      }, 
+      "30d1b018-cdbf-4a0d-b0b4-36ee40517df9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101204", 
+            "y" : "-100080", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "1e6a8047-720c-464f-9bb6-d71759426169", 
+            "3ee54b0d-be13-4693-ad54-269d55654e57"
+         ], 
+         "text" : "#Fogelevka_Herbalist.30d1b018-cdbf-4a0d-b0b4-36ee40517df9"
+      }, 
+      "1e6a8047-720c-464f-9bb6-d71759426169" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101382", 
+            "y" : "-99965", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "820980df-3e57-4d1d-8d6c-870c4b5cddd0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.1e6a8047-720c-464f-9bb6-d71759426169"
+      }, 
+      "820980df-3e57-4d1d-8d6c-870c4b5cddd0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100664", 
+            "y" : "-99900"
+         }, 
+         "child" : [ 
+            "aad28ec7-daaa-4369-b098-953b4ea52ebb"
+         ]
+      }, 
+      "aad28ec7-daaa-4369-b098-953b4ea52ebb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100317", 
+            "y" : "-100517"
+         }, 
+         "child" : [ 
+            "87e41c3a-5259-4482-af47-6f93fab5cb1b", 
+            "3befe05c-4a58-4494-90a3-5745d76eb768", 
+            "6874983e-97c7-43fb-9d4f-d561f2645b48", 
+            "1aeaac51-988b-488b-9d1e-a16be1dcb08b", 
+            "f319f441-0971-44f3-ae03-010ca205b047"
+         ]
+      }, 
+      "87e41c3a-5259-4482-af47-6f93fab5cb1b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100749", 
+            "y" : "-100399", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "d520290e-7540-4087-9b5b-026df4c429a7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.87e41c3a-5259-4482-af47-6f93fab5cb1b"
+      }, 
+      "d520290e-7540-4087-9b5b-026df4c429a7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100194", 
+            "y" : "-100320"
+         }, 
+         "child" : [ 
+            "e3582c0d-3a35-45ea-9060-982e3b5ef1e6", 
+            "69ad5d02-df70-47ca-a9ec-beafee9d4d32", 
+            "825f3904-f46c-4335-b125-d414f85574bb", 
+            "f5e552f4-8665-4d2e-acdf-05b758dfb474", 
+            "8df7e196-e82b-4774-93a2-07b8e8b3aa28"
+         ]
+      }, 
+      "e3582c0d-3a35-45ea-9060-982e3b5ef1e6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100541", 
+            "y" : "-100259", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "30d1b018-cdbf-4a0d-b0b4-36ee40517df9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e3582c0d-3a35-45ea-9060-982e3b5ef1e6"
+      }, 
+      "69ad5d02-df70-47ca-a9ec-beafee9d4d32" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100391", 
+            "y" : "-100159", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "83f26f76-bd5e-4cfc-b84d-dc69715442c9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.69ad5d02-df70-47ca-a9ec-beafee9d4d32"
+      }, 
+      "83f26f76-bd5e-4cfc-b84d-dc69715442c9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103839", 
+            "y" : "-99499", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "ca29f228-739f-4d93-bf8b-5c82832847d0", 
+            "6f313484-5721-4def-9cb1-9fcf346c4cf5", 
+            "0af13865-3e8a-4252-b0ac-def172b893e1"
+         ], 
+         "text" : "#Fogelevka_Herbalist.83f26f76-bd5e-4cfc-b84d-dc69715442c9"
+      }, 
+      "ca29f228-739f-4d93-bf8b-5c82832847d0" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-104261", 
+            "y" : "-99461"
+         }, 
+         "child" : [ 
+            "3be02b28-4321-4760-abe5-cc34a7659286", 
+            "d99caea1-117d-4902-98af-a332f19efc1b", 
+            "2f6d8f17-721d-46eb-9b59-ce8ccf4c938d"
+         ], 
+         "quest_key" : "OBLIVION_QUEST"
+      }, 
+      "3be02b28-4321-4760-abe5-cc34a7659286" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104445", 
+            "y" : "-99300"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d99caea1-117d-4902-98af-a332f19efc1b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104501", 
+            "y" : "-99325"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2f6d8f17-721d-46eb-9b59-ce8ccf4c938d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104268", 
+            "y" : "-99327"
+         }, 
+         "child" : [ 
+            "865576ef-df4b-48f1-9ca0-3db752246f3a"
+         ], 
+         "text" : "И ты находишь всё прям сдесь?"
+      }, 
+      "865576ef-df4b-48f1-9ca0-3db752246f3a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104268", 
+            "y" : "-99256"
+         }, 
+         "child" : [ 
+            "793eb137-f6a9-464f-a9db-77dd12621ad3"
+         ], 
+         "text" : "Ну... почти... всё..."
+      }, 
+      "793eb137-f6a9-464f-a9db-77dd12621ad3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104268", 
+            "y" : "-99190"
+         }, 
+         "child" : [ 
+            "74c0def2-2ecb-4e79-a7ef-d230c8565803"
+         ]
+      }, 
+      "74c0def2-2ecb-4e79-a7ef-d230c8565803" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104267", 
+            "y" : "-99142"
+         }, 
+         "child" : [ 
+            "a9aa11d2-b107-4dd6-b8ed-556b895e48ca", 
+            "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e"
+         ], 
+         "text" : "А ведь и правда, ты явно много путешествуешь"
+      }, 
+      "a9aa11d2-b107-4dd6-b8ed-556b895e48ca" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-99034"
+         }, 
+         "child" : [ 
+            "4c716562-768b-457e-b62a-6dd9844d2ee3"
+         ], 
+         "text" : "Конечно и подозреваю тебе нужно что-то достать?"
+      }, 
+      "4c716562-768b-457e-b62a-6dd9844d2ee3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-98942"
+         }, 
+         "child" : [ 
+            "de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3"
+         ], 
+         "text" : "Правильно подозреваешь. Через нашу деревню проходят множество караванов и мне рассказывали что в вущелье бед есть странное озеро..."
+      }, 
+      "de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-98816"
+         }, 
+         "child" : [ 
+            "2656ed29-c361-4d8c-b0ca-339fc96bec46"
+         ], 
+         "text" : "Что с этим озером нетак?"
+      }, 
+      "2656ed29-c361-4d8c-b0ca-339fc96bec46" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104386", 
+            "y" : "-98747"
+         }, 
+         "child" : [ 
+            "e00c02ce-23bd-40dc-b65b-08e319e18da7"
+         ], 
+         "text" : "Оно кроваво красного цвета от соленых примесей и вода в нём обладает галлюциногенными свойствами..."
+      }, 
+      "e00c02ce-23bd-40dc-b65b-08e319e18da7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104387", 
+            "y" : "-98629"
+         }, 
+         "child" : [ 
+            "9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1"
+         ], 
+         "text" : "И зачем она тебе?"
+      }, 
+      "9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-98562"
+         }, 
+         "child" : [ 
+            "f205cdd1-9005-43b9-8601-8718476a832d"
+         ], 
+         "text" : "Для опытов конечно же. Но проблема в том что она не стабильна и соли ралагаются на нерасстворимый осадок..."
+      }, 
+      "f205cdd1-9005-43b9-8601-8718476a832d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-98452"
+         }, 
+         "child" : [ 
+            "d0f70641-9294-4363-998e-5107e8d694b2"
+         ]
+      }, 
+      "d0f70641-9294-4363-998e-5107e8d694b2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104389", 
+            "y" : "-98400"
+         }, 
+         "child" : [ 
+            "0999b939-f340-4104-8ad0-c4057f332b48", 
+            "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e"
+         ], 
+         "text" : "Мне нужно чтобы её выпарили на месте и доставили дистилят сюда в специальной ампуле"
+      }, 
+      "0999b939-f340-4104-8ad0-c4057f332b48" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104391", 
+            "y" : "-98293"
+         }, 
+         "child" : [ 
+            "a876c1a6-689d-4c55-a1b8-c5d7087ed72c"
+         ], 
+         "text" : "Давай сюда свою ампулу, посмотрим что получится сделать"
+      }, 
+      "a876c1a6-689d-4c55-a1b8-c5d7087ed72c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104363", 
+            "y" : "-98194"
+         }, 
+         "child" : [ 
+            "03479316-6d66-4a1a-8542-618d463bcc46"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "03479316-6d66-4a1a-8542-618d463bcc46" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-104343", 
+            "y" : "-98110"
+         }, 
+         "child" : [ 
+            "ed73d17f-c9d6-4dcd-b041-9ee7834aa115"
+         ], 
+         "quest_key" : "OBLIVION_QUEST"
+      }, 
+      "ed73d17f-c9d6-4dcd-b041-9ee7834aa115" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104334", 
+            "y" : "-98033"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104163", 
+            "y" : "-99037"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "Не... я уже стар для всего этого говна"
+      }, 
+      "7d522ad7-2b53-444e-813c-7682fe6e6ec3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103293", 
+            "y" : "-98777"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6f313484-5721-4def-9cb1-9fcf346c4cf5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104004", 
+            "y" : "-99331", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "820980df-3e57-4d1d-8d6c-870c4b5cddd0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6f313484-5721-4def-9cb1-9fcf346c4cf5"
+      }, 
+      "0af13865-3e8a-4252-b0ac-def172b893e1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103778", 
+            "y" : "-99335", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.0af13865-3e8a-4252-b0ac-def172b893e1"
+      }, 
+      "825f3904-f46c-4335-b125-d414f85574bb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100247", 
+            "y" : "-100219", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "eca026ad-ce00-4e39-bc38-0e0149030492"
+         ], 
+         "text" : "#Fogelevka_Herbalist.825f3904-f46c-4335-b125-d414f85574bb"
+      }, 
+      "eca026ad-ce00-4e39-bc38-0e0149030492" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100223", 
+            "y" : "-100011"
+         }, 
+         "child" : [ 
+            "75a2f989-c2d8-4e9a-ad1f-bcffc4be8189", 
+            "73e380e5-dad2-49d3-ae85-1d992a102855", 
+            "e03df295-d88a-45b3-b6ab-86da9dcd70b8"
+         ], 
+         "quest_key" : "CITY.STRATEG.END"
+      }, 
+      "75a2f989-c2d8-4e9a-ad1f-bcffc4be8189" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100397", 
+            "y" : "-99862", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "294af73a-f7be-4c25-9231-225c90f7c622", 
+            "495f0a78-62ff-46d0-a9eb-ec09b124f39d"
+         ], 
+         "text" : "#Fogelevka_Herbalist.75a2f989-c2d8-4e9a-ad1f-bcffc4be8189"
+      }, 
+      "294af73a-f7be-4c25-9231-225c90f7c622" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100567", 
+            "y" : "-99755", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "820980df-3e57-4d1d-8d6c-870c4b5cddd0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.294af73a-f7be-4c25-9231-225c90f7c622"
+      }, 
+      "495f0a78-62ff-46d0-a9eb-ec09b124f39d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100398", 
+            "y" : "-99662", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.495f0a78-62ff-46d0-a9eb-ec09b124f39d"
+      }, 
+      "73e380e5-dad2-49d3-ae85-1d992a102855" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100160", 
+            "y" : "-99894"
+         }, 
+         "child" : [ 
+            "75a2f989-c2d8-4e9a-ad1f-bcffc4be8189"
+         ]
+      }, 
+      "e03df295-d88a-45b3-b6ab-86da9dcd70b8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100082", 
+            "y" : "-99852", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "3a796e08-c7ec-489f-ad9c-a2e22f6ced71", 
+            "aa8a9d16-4540-4181-8d33-ab3e39d8315a"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e03df295-d88a-45b3-b6ab-86da9dcd70b8"
+      }, 
+      "3a796e08-c7ec-489f-ad9c-a2e22f6ced71" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100233", 
+            "y" : "-99747", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "820980df-3e57-4d1d-8d6c-870c4b5cddd0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3a796e08-c7ec-489f-ad9c-a2e22f6ced71"
+      }, 
+      "aa8a9d16-4540-4181-8d33-ab3e39d8315a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100082", 
+            "y" : "-99652", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.aa8a9d16-4540-4181-8d33-ab3e39d8315a"
+      }, 
+      "f5e552f4-8665-4d2e-acdf-05b758dfb474" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100091", 
+            "y" : "-100159", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "e9537927-0d17-463c-9b71-f9690ac86e68"
+         ], 
+         "text" : "#Fogelevka_Herbalist.f5e552f4-8665-4d2e-acdf-05b758dfb474"
+      }, 
+      "e9537927-0d17-463c-9b71-f9690ac86e68" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103773", 
+            "y" : "-99164", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "7b36db29-92a2-427e-9224-a7567496ac43", 
+            "ee60f531-dbe2-4e83-a01a-c23781cd52c2"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e9537927-0d17-463c-9b71-f9690ac86e68"
+      }, 
+      "7b36db29-92a2-427e-9224-a7567496ac43" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103923", 
+            "y" : "-99064", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "820980df-3e57-4d1d-8d6c-870c4b5cddd0"
+         ], 
+         "text" : "#Fogelevka_Herbalist.7b36db29-92a2-427e-9224-a7567496ac43"
+      }, 
+      "ee60f531-dbe2-4e83-a01a-c23781cd52c2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103773", 
+            "y" : "-98964", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.ee60f531-dbe2-4e83-a01a-c23781cd52c2"
+      }, 
+      "8df7e196-e82b-4774-93a2-07b8e8b3aa28" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99941", 
+            "y" : "-100259", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "87feda55-a59e-4c7f-9350-f4d43fbb0031"
+         ], 
+         "text" : "#Fogelevka_Herbalist.8df7e196-e82b-4774-93a2-07b8e8b3aa28"
+      }, 
+      "87feda55-a59e-4c7f-9350-f4d43fbb0031" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103298", 
+            "y" : "-99374", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "2fb99f54-fe36-4261-bda5-c842e38f1856", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "3c899bdd-4811-4a7a-aa55-d0f62204a010", 
+            "732fa8c8-64db-4701-8a44-38f82f1a7800"
+         ], 
+         "text" : "#Fogelevka_Herbalist.87feda55-a59e-4c7f-9350-f4d43fbb0031"
+      }, 
+      "2fb99f54-fe36-4261-bda5-c842e38f1856" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103598", 
+            "y" : "-99274", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "1ed72917-432b-42b0-94a0-4451dd5aa8e3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2fb99f54-fe36-4261-bda5-c842e38f1856"
+      }, 
+      "1ed72917-432b-42b0-94a0-4451dd5aa8e3" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-103547", 
+            "y" : "-99187"
+         }, 
+         "child" : [ 
+            "87feda55-a59e-4c7f-9350-f4d43fbb0031"
+         ]
+      }, 
+      "3c899bdd-4811-4a7a-aa55-d0f62204a010" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103151", 
+            "y" : "-99193", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "62ef2397-9810-4ef7-a4cd-a214c0777323"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3c899bdd-4811-4a7a-aa55-d0f62204a010"
+      }, 
+      "732fa8c8-64db-4701-8a44-38f82f1a7800" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102998", 
+            "y" : "-99274", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
+         ], 
+         "text" : "#Fogelevka_Herbalist.732fa8c8-64db-4701-8a44-38f82f1a7800"
+      }, 
+      "3befe05c-4a58-4494-90a3-5745d76eb768" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100497", 
+            "y" : "-100404", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "d520290e-7540-4087-9b5b-026df4c429a7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3befe05c-4a58-4494-90a3-5745d76eb768"
+      }, 
+      "6874983e-97c7-43fb-9d4f-d561f2645b48" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100246", 
+            "y" : "-100398", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "d520290e-7540-4087-9b5b-026df4c429a7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.6874983e-97c7-43fb-9d4f-d561f2645b48"
+      }, 
+      "1aeaac51-988b-488b-9d1e-a16be1dcb08b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99963", 
+            "y" : "-100408", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "d520290e-7540-4087-9b5b-026df4c429a7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.1aeaac51-988b-488b-9d1e-a16be1dcb08b"
+      }, 
+      "f319f441-0971-44f3-ae03-010ca205b047" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99703", 
+            "y" : "-100404", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "d520290e-7540-4087-9b5b-026df4c429a7"
+         ], 
+         "text" : "#Fogelevka_Herbalist.f319f441-0971-44f3-ae03-010ca205b047"
+      }, 
+      "3ee54b0d-be13-4693-ad54-269d55654e57" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101204", 
+            "y" : "-99880", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "2dfab767-221e-4875-8132-e0ba98693595"
+         ], 
+         "text" : "#Fogelevka_Herbalist.3ee54b0d-be13-4693-ad54-269d55654e57"
+      }, 
+      "2dfab767-221e-4875-8132-e0ba98693595" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101133", 
+            "y" : "-99754"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "194ba030-f99b-4e77-9321-8c9a628d48cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103841", 
+            "y" : "-99595", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "83f26f76-bd5e-4cfc-b84d-dc69715442c9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.194ba030-f99b-4e77-9321-8c9a628d48cc"
+      }, 
+      "97e2c277-760e-41da-a250-003107298be6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103691", 
+            "y" : "-99675", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "eca026ad-ce00-4e39-bc38-0e0149030492"
+         ], 
+         "text" : "#Fogelevka_Herbalist.97e2c277-760e-41da-a250-003107298be6"
+      }, 
+      "397b7282-f96e-4ec1-86a9-155f389f8455" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103541", 
+            "y" : "-99595", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "e9537927-0d17-463c-9b71-f9690ac86e68"
+         ], 
+         "text" : "#Fogelevka_Herbalist.397b7282-f96e-4ec1-86a9-155f389f8455"
+      }, 
+      "c1ee5bbd-6e90-48f8-96ac-fb4e5d17f227" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103422", 
+            "y" : "-99674", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "87feda55-a59e-4c7f-9350-f4d43fbb0031"
+         ], 
+         "text" : "#Fogelevka_Herbalist.c1ee5bbd-6e90-48f8-96ac-fb4e5d17f227"
+      }, 
+      "677906a1-8b6c-4bc5-8f45-f8208a59200b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102978", 
+            "y" : "-99897", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "2507e1c9-9407-4837-a12e-e8a2a53745c9", 
+            "1e2b5f27-17fc-4dbc-9ff1-d9a380c49cf2", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "4fa3a141-8042-495d-8835-a81f53f0b133"
+         ], 
+         "text" : "#Fogelevka_Herbalist.677906a1-8b6c-4bc5-8f45-f8208a59200b"
+      }, 
+      "2507e1c9-9407-4837-a12e-e8a2a53745c9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103275", 
+            "y" : "-99814", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "43307257-0a3b-4004-bc8e-d3feeddc4cc4"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2507e1c9-9407-4837-a12e-e8a2a53745c9"
+      }, 
+      "43307257-0a3b-4004-bc8e-d3feeddc4cc4" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-103249", 
+            "y" : "-99743"
+         }, 
+         "child" : [ 
+            "677906a1-8b6c-4bc5-8f45-f8208a59200b"
+         ]
+      }, 
+      "1e2b5f27-17fc-4dbc-9ff1-d9a380c49cf2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103156", 
+            "y" : "-99654"
+         }, 
+         "child" : [ 
+            "7eef911c-9765-4933-894b-236bae2c52f4", 
+            "c1c9a113-5e3a-4085-b7fc-5fec5121e787"
+         ], 
+         "key" : "A_1"
+      }, 
+      "7eef911c-9765-4933-894b-236bae2c52f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103204", 
+            "y" : "-99561"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1c9a113-5e3a-4085-b7fc-5fec5121e787" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103083", 
+            "y" : "-99558", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "d2de658c-a5fc-4cab-ad5e-c9f2c1e020b9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.c1c9a113-5e3a-4085-b7fc-5fec5121e787"
+      }, 
+      "4fa3a141-8042-495d-8835-a81f53f0b133" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102827", 
+            "y" : "-99677", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "8613f75a-3701-45bd-81bf-8a1940024143"
+         ], 
+         "text" : "#Fogelevka_Herbalist.4fa3a141-8042-495d-8835-a81f53f0b133"
+      }, 
+      "8613f75a-3701-45bd-81bf-8a1940024143" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102739", 
+            "y" : "-99547"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1850908b-0b47-483a-81d7-057f688aafa0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103092", 
+            "y" : "-100368", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "a9101798-73e0-482f-a7b5-bd4a48a19dce"
+         ], 
+         "text" : "#Fogelevka_Herbalist.1850908b-0b47-483a-81d7-057f688aafa0"
+      }, 
+      "a9101798-73e0-482f-a7b5-bd4a48a19dce" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103034", 
+            "y" : "-100259"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "87800e89-d29f-4ea8-9708-d3fc42d5861f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102648", 
+            "y" : "-100563", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "cd773333-5dba-4553-be40-cdf7a18981bd", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "2af0dbee-f75c-46bd-8b39-d15875a95126", 
+            "10aeb8ef-6889-4a3a-a5ae-23589c5d04cb"
+         ], 
+         "text" : "#Fogelevka_Herbalist.87800e89-d29f-4ea8-9708-d3fc42d5861f"
+      }, 
+      "cd773333-5dba-4553-be40-cdf7a18981bd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102948", 
+            "y" : "-100463", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "8c35508e-5076-4075-9b4a-4b9efc29a795"
+         ], 
+         "text" : "#Fogelevka_Herbalist.cd773333-5dba-4553-be40-cdf7a18981bd"
+      }, 
+      "8c35508e-5076-4075-9b4a-4b9efc29a795" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102899", 
+            "y" : "-100392"
+         }, 
+         "child" : [ 
+            "87800e89-d29f-4ea8-9708-d3fc42d5861f"
+         ]
+      }, 
+      "2af0dbee-f75c-46bd-8b39-d15875a95126" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102664", 
+            "y" : "-100439", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "62ef2397-9810-4ef7-a4cd-a214c0777323"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2af0dbee-f75c-46bd-8b39-d15875a95126"
+      }, 
+      "10aeb8ef-6889-4a3a-a5ae-23589c5d04cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102498", 
+            "y" : "-100363", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "82388130-f1ad-4d3e-b71f-8bbac0b331cb"
+         ], 
+         "text" : "#Fogelevka_Herbalist.10aeb8ef-6889-4a3a-a5ae-23589c5d04cb"
+      }, 
+      "82388130-f1ad-4d3e-b71f-8bbac0b331cb" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102412", 
+            "y" : "-100268"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0c9a554e-5a8f-4982-80cc-7edc1f76c504" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103042", 
+            "y" : "-101355"
+         }, 
+         "child" : [ 
+            "187db02f-3aa4-4c6e-b0c2-743419693332", 
+            "9339e504-49df-4f90-a8b9-824db3a9515e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "waterfall_ampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "187db02f-3aa4-4c6e-b0c2-743419693332" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-103086", 
+            "y" : "-101250"
+         }, 
+         "child" : [ 
+            "38655b84-e082-4b0a-a0dc-a6e696516a12", 
+            "272f9df0-194a-4771-a6d9-a88ed086d170", 
+            "9339e504-49df-4f90-a8b9-824db3a9515e"
+         ], 
+         "quest_key" : "OBLIVION_QUEST"
+      }, 
+      "38655b84-e082-4b0a-a0dc-a6e696516a12" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103521", 
+            "y" : "-101844"
+         }, 
+         "child" : [ 
+            "2b7fea93-1150-4f85-875e-acfb6dd37d08"
+         ], 
+         "text" : "Смотри что у меня есть"
+      }, 
+      "2b7fea93-1150-4f85-875e-acfb6dd37d08" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101771"
+         }, 
+         "child" : [ 
+            "0abd7fc9-b6dc-4d07-964d-8755daafd7d6"
+         ], 
+         "text" : "Ого тебе удалось сделать дестилят! Так и знала, что у тебя получится..."
+      }, 
+      "0abd7fc9-b6dc-4d07-964d-8755daafd7d6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101676"
+         }, 
+         "child" : [ 
+            "103c7231-91ec-4f44-9d5f-2d707686a75a"
+         ]
+      }, 
+      "103c7231-91ec-4f44-9d5f-2d707686a75a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101626"
+         }, 
+         "child" : [ 
+            "aa8c043d-39ef-4ba8-8a02-90d91a56b8aa"
+         ], 
+         "text" : "[Выхватывает у вас ампулу с кровавой жидкостью и необращая на вас ни какого внимания убегает к себе в коморку]"
+      }, 
+      "aa8c043d-39ef-4ba8-8a02-90d91a56b8aa" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-103510", 
+            "y" : "-101517"
+         }, 
+         "child" : [ 
+            "7552246b-c394-4ecb-bf80-b752c7313a23", 
+            "15bfa699-d856-4bf2-9185-6d626be08af4"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "waterfall_ampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7552246b-c394-4ecb-bf80-b752c7313a23" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-103691", 
+            "y" : "-101411"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "OBLIVION_QUEST"
+      }, 
+      "15bfa699-d856-4bf2-9185-6d626be08af4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101412"
+         }, 
+         "child" : [ 
+            "83266565-8461-4f44-ba13-a82201481893"
+         ], 
+         "text" : "Постой..."
+      }, 
+      "83266565-8461-4f44-ba13-a82201481893" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-103469", 
+            "y" : "-101351"
+         }, 
+         "child" : [ 
+            "64417422-8d86-4aa1-acf5-3dd9285fb4bd"
+         ], 
+         "time" : "15", 
+         "timeMode" : "Minute"
+      }, 
+      "64417422-8d86-4aa1-acf5-3dd9285fb4bd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101286"
+         }, 
+         "child" : [ 
+            "6209aa0e-b5d1-4f93-b59c-722236c2369b"
+         ], 
+         "text" : "[Возвращается через 15 минут]"
+      }, 
+      "6209aa0e-b5d1-4f93-b59c-722236c2369b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103522", 
+            "y" : "-101223"
+         }, 
+         "child" : [ 
+            "6b6ca5f2-9c29-4e87-9c6a-5436b8ae302d"
+         ]
+      }, 
+      "6b6ca5f2-9c29-4e87-9c6a-5436b8ae302d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103523", 
+            "y" : "-101174"
+         }, 
+         "child" : [ 
+            "3fab32d8-881c-4435-abf8-4d93be9c9d8f"
+         ], 
+         "text" : "Вот держи"
+      }, 
+      "3fab32d8-881c-4435-abf8-4d93be9c9d8f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103484", 
+            "y" : "-101100"
+         }, 
+         "child" : [ 
+            "ace12d88-9232-4c96-b48d-46a1df3d2605"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "oblivionampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ace12d88-9232-4c96-b48d-46a1df3d2605" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103523", 
+            "y" : "-101024"
+         }, 
+         "child" : [ 
+            "ef0ccd09-2af2-4913-9475-79e12a33d82d"
+         ], 
+         "text" : "И что мне с этим делать? Пить я это точно не стану - даже не проси"
+      }, 
+      "ef0ccd09-2af2-4913-9475-79e12a33d82d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103523", 
+            "y" : "-100940"
+         }, 
+         "child" : [ 
+            "0c738757-c3be-411c-8861-ef6751a81cfe", 
+            "9339e504-49df-4f90-a8b9-824db3a9515e"
+         ], 
+         "text" : "Как хочешь, тем более что если ты всё таки выпьеш - то забудешь о своём обещани! Это зелье забвения..."
+      }, 
+      "0c738757-c3be-411c-8861-ef6751a81cfe" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103521", 
+            "y" : "-100825"
+         }, 
+         "child" : [ 
+            "e9132a1f-d9f7-473e-af8c-d51b894601d1"
+         ], 
+         "text" : "Ну спасибо... Я пойду"
+      }, 
+      "e9132a1f-d9f7-473e-af8c-d51b894601d1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103467", 
+            "y" : "-100752"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9339e504-49df-4f90-a8b9-824db3a9515e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102720", 
+            "y" : "-100722", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "62ef2397-9810-4ef7-a4cd-a214c0777323"
+         ], 
+         "text" : "#Fogelevka_Herbalist.9339e504-49df-4f90-a8b9-824db3a9515e"
+      }, 
+      "272f9df0-194a-4771-a6d9-a88ed086d170" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103975", 
+            "y" : "-101914"
+         }, 
+         "child" : [ 
+            "05676b0d-e7f2-48e2-92b6-f3450c6624bc"
+         ]
+      }, 
+      "05676b0d-e7f2-48e2-92b6-f3450c6624bc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104028", 
+            "y" : "-101868"
+         }, 
+         "child" : [ 
+            "4fb18601-2a6b-4abc-9f30-f236e0fc3717"
+         ], 
+         "text" : "А можешь ещё изготовить своё зелье?"
+      }, 
+      "4fb18601-2a6b-4abc-9f30-f236e0fc3717" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104028", 
+            "y" : "-101784"
+         }, 
+         "child" : [ 
+            "6072511b-e03e-44b7-94eb-54f48774cfaa"
+         ], 
+         "text" : "Конечно! [забирет ампулу и удаляется к себе в коморку]"
+      }, 
+      "6072511b-e03e-44b7-94eb-54f48774cfaa" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-104017", 
+            "y" : "-101711"
+         }, 
+         "child" : [ 
+            "06318985-8e15-4748-b0b5-bf8068afa73c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "waterfall_ampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "06318985-8e15-4748-b0b5-bf8068afa73c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104028", 
+            "y" : "-101601"
+         }, 
+         "child" : [ 
+            "d006f2f5-248b-4759-8074-4e0af70b17c5"
+         ], 
+         "text" : "Ждёте... Как обычно - через 15 минут травница - отравница приносит вам ампулу"
+      }, 
+      "d006f2f5-248b-4759-8074-4e0af70b17c5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103990", 
+            "y" : "-101508"
+         }, 
+         "child" : [ 
+            "bb916151-f604-4523-97e1-5cd86b527198"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bb916151-f604-4523-97e1-5cd86b527198" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104028", 
+            "y" : "-101417"
+         }, 
+         "child" : [ 
+            "f7c92aec-5cee-4fb6-8c89-f1f028460a56", 
+            "9339e504-49df-4f90-a8b9-824db3a9515e"
+         ], 
+         "text" : "Только будь осторожен, а то не вспомнишь как тебя зовут!"
+      }, 
+      "f7c92aec-5cee-4fb6-8c89-f1f028460a56" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104079", 
+            "y" : "-101327"
+         }, 
+         "child" : [ 
+            "8ec103ba-2f08-47c9-a83f-184e7d5cdc99"
+         ], 
+         "text" : "Спасибо, учту, покеда..."
+      }, 
+      "8ec103ba-2f08-47c9-a83f-184e7d5cdc99" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103973", 
+            "y" : "-101260"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "82dccb89-fa6d-44d3-ab68-d23ac5765c77" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102529", 
+            "y" : "-100882", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "9ac346e0-d448-4817-994b-9cd1edc30e9c"
+         ], 
+         "text" : "#Fogelevka_Herbalist.82dccb89-fa6d-44d3-ab68-d23ac5765c77"
+      }, 
+      "9ac346e0-d448-4817-994b-9cd1edc30e9c" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102418", 
+            "y" : "-100801"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "65ca34e7-165f-4b22-ab9d-10a53ec1bbd7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102028", 
+            "y" : "-101102.2"
+         }, 
+         "child" : [ 
+            "975465af-9766-4dd0-b71f-ac824eaa5912"
+         ], 
+         "key" : "MEET"
+      }, 
+      "975465af-9766-4dd0-b71f-ac824eaa5912" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101958", 
+            "y" : "-101050"
+         }, 
+         "child" : [ 
+            "b04d5a4c-417b-4ba6-b9d5-473452236442"
+         ], 
+         "text" : "#Fogelevka_Herbalist.975465af-9766-4dd0-b71f-ac824eaa5912"
+      }, 
+      "b04d5a4c-417b-4ba6-b9d5-473452236442" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100925"
+         }, 
+         "child" : [ 
+            "aed0b0dc-8024-4ef3-be45-5d9234958ef0"
+         ]
+      }, 
+      "aed0b0dc-8024-4ef3-be45-5d9234958ef0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100825"
+         }, 
+         "child" : [ 
+            "773c3d62-af0a-49a7-ba1c-0bb956425e51", 
+            "e88f8004-03f4-4445-a783-a1413f3a744d", 
+            "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
+            "1e6ef627-c0be-4188-b13b-00b0901d1178", 
+            "307e6a6f-7578-47b5-8299-d94eed4358ef"
+         ], 
+         "text" : "#Fogelevka_Herbalist.aed0b0dc-8024-4ef3-be45-5d9234958ef0"
+      }, 
+      "773c3d62-af0a-49a7-ba1c-0bb956425e51" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-100750", 
+            "comment" : "(перенос Бартер)"
+         }, 
+         "child" : [ 
+            "00970519-5d5e-48f8-a055-5edd8fb582fe"
+         ], 
+         "text" : "#Fogelevka_Herbalist.773c3d62-af0a-49a7-ba1c-0bb956425e51"
+      }, 
+      "00970519-5d5e-48f8-a055-5edd8fb582fe" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102339", 
+            "y" : "-100676"
+         }, 
+         "child" : [ 
+            "aed0b0dc-8024-4ef3-be45-5d9234958ef0"
+         ]
+      }, 
+      "e88f8004-03f4-4445-a783-a1413f3a744d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102241", 
+            "y" : "-100663", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "d2de658c-a5fc-4cab-ad5e-c9f2c1e020b9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.e88f8004-03f4-4445-a783-a1413f3a744d"
+      }, 
+      "1e6ef627-c0be-4188-b13b-00b0901d1178" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101649", 
+            "y" : "-100637", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "62ef2397-9810-4ef7-a4cd-a214c0777323"
+         ], 
+         "text" : "#Fogelevka_Herbalist.1e6ef627-c0be-4188-b13b-00b0901d1178"
+      }, 
+      "307e6a6f-7578-47b5-8299-d94eed4358ef" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101502", 
+            "y" : "-100755", 
+            "comment" : "(конец диалога, перенос А4)"
+         }, 
+         "child" : [ 
+            "7e7c2f9e-2592-40eb-83b8-f807fdda2a84"
+         ], 
+         "text" : "#Fogelevka_Herbalist.307e6a6f-7578-47b5-8299-d94eed4358ef"
+      }, 
+      "7e7c2f9e-2592-40eb-83b8-f807fdda2a84" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101369", 
+            "y" : "-100659"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "22e09686-3644-43e1-a0f5-40c794ebb526" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102033", 
+            "y" : "-101361"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Fogelevka_Herbalist.22e09686-3644-43e1-a0f5-40c794ebb526", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "2d4ba526-145d-4804-b475-b2c014ace3d6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103419", 
+            "y" : "-99136", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "d2de658c-a5fc-4cab-ad5e-c9f2c1e020b9"
+         ], 
+         "text" : "#Fogelevka_Herbalist.2d4ba526-145d-4804-b475-b2c014ace3d6"
+      }, 
+      "9e201ec7-b402-4626-b71d-3bb76b289b41" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103402", 
+            "y" : "-99243"
+         }, 
+         "child" : [ 
+            "9485c9b9-5d0f-47bf-8522-08dd1ec8dd6c", 
+            "2d4ba526-145d-4804-b475-b2c014ace3d6"
+         ], 
+         "key" : "A_1"
+      }, 
+      "9485c9b9-5d0f-47bf-8522-08dd1ec8dd6c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103450", 
+            "y" : "-99150"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "52a58744-efc3-4ff7-8950-e109d6ed4793"
+}

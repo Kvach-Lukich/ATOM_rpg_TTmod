@@ -21,7 +21,7 @@ MonoBehaviour:
   Collectable: 1
   Modifiers: []
   _effects:
-  - path: Entities/Effect/Petrol
+  - path: entities/effect/petrol
   canUseInBattle: 1
   waste:
     path: entities/item/bottle_empty2

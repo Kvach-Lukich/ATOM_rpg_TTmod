@@ -24,6 +24,10 @@ MonoBehaviour:
     consumable: 1
   - count: 2
     variants:
+    - path: entities/item/tape
+    consumable: 1
+  - count: 1
+    variants:
     - path: entities/item/toolbox
     consumable: 0
   dependencies: []
