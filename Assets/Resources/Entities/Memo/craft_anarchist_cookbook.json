@@ -62,6 +62,7 @@
             "7b5c0ecf-36dc-4126-9813-3e553a036e4e", 
             "d017682a-7fb5-4961-b4d6-01b899dd4589", 
             "92dc0a30-0f42-435d-8d08-f919b7a32d8e", 
+            "d473e0dc-6acb-4cfc-8478-8a5c2ece4f2b", 
             "83a51f58-8a3d-456d-9caf-e72547cb8e8e"
          ]
       }, 
@@ -557,6 +558,17 @@
          "child" : [ 
          ], 
          "recipe" : "bearsteel", 
+         "showMsg" : "true"
+      }, 
+      "d473e0dc-6acb-4cfc-8478-8a5c2ece4f2b" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-99448", 
+            "y" : "-100838"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "svd_m", 
          "showMsg" : "true"
       }, 
       "83a51f58-8a3d-456d-9caf-e72547cb8e8e" : { 

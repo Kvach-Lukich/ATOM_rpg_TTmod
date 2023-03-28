@@ -28,16 +28,83 @@
             "y" : "-100749"
          }, 
          "child" : [ 
-            "af9bfd52-c305-44d3-8e26-ebbc4b4680b8", 
+            "5c687df3-a8a3-4239-93c1-f4aecbf5388e", 
             "bc101786-f43f-4618-89cc-55a05dcf276c"
          ], 
          "key" : "AUDIOPLAYINGPOSITION"
       }, 
+      "5c687df3-a8a3-4239-93c1-f4aecbf5388e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101103", 
+            "y" : "-100556"
+         }, 
+         "child" : [ 
+            "441dde22-06a5-4f16-8640-5d3e68803a9f", 
+            "e7763cf9-c7bb-4f21-b05a-fe12ca7f7651"
+         ]
+      }, 
+      "441dde22-06a5-4f16-8640-5d3e68803a9f" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-101265", 
+            "y" : "-100466"
+         }, 
+         "child" : [ 
+            "5fee51cd-978a-48b5-b662-7d9d55ed5c05", 
+            "f08956f7-8404-4f4f-bd48-9ff36bc0d988"
+         ], 
+         "mapName" : "Castle"
+      }, 
+      "5fee51cd-978a-48b5-b662-7d9d55ed5c05" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "-101160", 
+            "y" : "-100197"
+         }, 
+         "child" : [ 
+            "fdac5484-3fd3-40ae-b241-1bec9b450184"
+         ], 
+         "sound" : "Entities/Sounds/est_smoke", 
+         "playOnObject" : "true", 
+         "saveStateOnSaveAndLoad" : "true"
+      }, 
+      "fdac5484-3fd3-40ae-b241-1bec9b450184" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101062", 
+            "y" : "-100006"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AUDIOPLAYINGPOSITION"
+      }, 
+      "f08956f7-8404-4f4f-bd48-9ff36bc0d988" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101334", 
+            "y" : "-100226"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e7763cf9-c7bb-4f21-b05a-fe12ca7f7651" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-101043", 
+            "y" : "-100459"
+         }, 
+         "child" : [ 
+            "af9bfd52-c305-44d3-8e26-ebbc4b4680b8", 
+            "f08956f7-8404-4f4f-bd48-9ff36bc0d988"
+         ], 
+         "mapName" : "harbor_1"
+      }, 
       "af9bfd52-c305-44d3-8e26-ebbc4b4680b8" : { 
          "class" : "PlaySoundNode", 
          "desc" : { 
-            "x" : "-100940", 
-            "y" : "-100260"
+            "x" : "-100945", 
+            "y" : "-100248"
          }, 
          "child" : [ 
             "fdac5484-3fd3-40ae-b241-1bec9b450184"
@@ -45,16 +112,6 @@
          "sound" : "Entities/Sounds/chacknorris", 
          "playOnObject" : "true", 
          "saveStateOnSaveAndLoad" : "true"
-      }, 
-      "fdac5484-3fd3-40ae-b241-1bec9b450184" : { 
-         "class" : "RemoveKeywordNode", 
-         "desc" : { 
-            "x" : "-100734", 
-            "y" : "-100181"
-         }, 
-         "child" : [ 
-         ], 
-         "key" : "AUDIOPLAYINGPOSITION"
       }, 
       "bc101786-f43f-4618-89cc-55a05dcf276c" : { 
          "class" : "DummyNode", 
@@ -68,8 +125,8 @@
       "55b11482-3d1f-4ce4-93f7-26a99c6f0b92" : { 
          "class" : "InteractiveUseNode", 
          "desc" : { 
-            "x" : "-100568", 
-            "y" : "-100935"
+            "x" : "-100603", 
+            "y" : "-100884"
          }, 
          "child" : [ 
             "bd9c77da-e245-42c9-9896-77a14a5cd94f"
@@ -115,7 +172,7 @@
             "y" : "-100337"
          }, 
          "child" : [ 
-            "af9bfd52-c305-44d3-8e26-ebbc4b4680b8"
+            "5c687df3-a8a3-4239-93c1-f4aecbf5388e"
          ], 
          "key" : "AUDIOPLAYINGPOSITION", 
          "value" : "0"
