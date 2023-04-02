@@ -1,0 +1,323 @@
+{ 
+   "states" : { 
+      "68fb346e-abf7-4566-bfbf-d87d362615a3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100822", 
+            "y" : "-100574"
+         }, 
+         "child" : [ 
+            "f63b0ea5-0b1d-4d4a-8503-121b1be60ec7", 
+            "dc49891e-1b69-458f-9541-a1a05b230da8", 
+            "30f8529d-7928-4003-a288-f0624e417084", 
+            "620cf57a-b165-48d0-a710-27561bfcc486"
+         ]
+      }, 
+      "f63b0ea5-0b1d-4d4a-8503-121b1be60ec7" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101430", 
+            "y" : "-100494"
+         }, 
+         "child" : [ 
+            "d502dfa1-3320-47c3-989e-0766e5bbac31", 
+            "893475a4-9d0e-48c6-b6cc-41f9694a897d"
+         ], 
+         "note_key" : "GASY_DEAD"
+      }, 
+      "d502dfa1-3320-47c3-989e-0766e5bbac31" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101494", 
+            "y" : "-100388"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Guard3"
+      }, 
+      "893475a4-9d0e-48c6-b6cc-41f9694a897d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101365", 
+            "y" : "-100377"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dc49891e-1b69-458f-9541-a1a05b230da8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101126", 
+            "y" : "-100450"
+         }, 
+         "child" : [ 
+            "9c2cf4b1-1f2a-49f8-bd01-36ed7e2f099d", 
+            "4d292506-e2ff-4759-8ac2-bd4b0b1b26f7"
+         ], 
+         "note_key" : "EDUARD_RIP"
+      }, 
+      "9c2cf4b1-1f2a-49f8-bd01-36ed7e2f099d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101197", 
+            "y" : "-100323"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4d292506-e2ff-4759-8ac2-bd4b0b1b26f7" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-101060", 
+            "y" : "-100324"
+         }, 
+         "child" : [ 
+            "db391fe4-9333-464d-9aa6-6ba9f85b91ce"
+         ], 
+         "targetName" : "Eduard", 
+         "targetFractionName" : ""
+      }, 
+      "db391fe4-9333-464d-9aa6-6ba9f85b91ce" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101057", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "EDUARD_RIP"
+      }, 
+      "30f8529d-7928-4003-a288-f0624e417084" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100830", 
+            "y" : "-100456"
+         }, 
+         "child" : [ 
+            "e0ccd18e-6505-449e-9767-80fec6c7d714", 
+            "5b0fbf11-10df-40e1-b89a-511ad8bd7eea"
+         ], 
+         "note_key" : "ARSEN_BACK"
+      }, 
+      "e0ccd18e-6505-449e-9767-80fec6c7d714" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100882", 
+            "y" : "-100369"
+         }, 
+         "child" : [ 
+            "5b0fbf11-10df-40e1-b89a-511ad8bd7eea", 
+            "36120f95-9ba3-47be-8a9d-42cb1c974960"
+         ], 
+         "objectName" : "Eduard"
+      }, 
+      "5b0fbf11-10df-40e1-b89a-511ad8bd7eea" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100709", 
+            "y" : "-100261"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "36120f95-9ba3-47be-8a9d-42cb1c974960" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100859", 
+            "y" : "-100263"
+         }, 
+         "child" : [ 
+            "486b771e-16e5-4bc9-b1ca-77b8061f6bce"
+         ], 
+         "objectName" : "Alina", 
+         "active" : "true"
+      }, 
+      "486b771e-16e5-4bc9-b1ca-77b8061f6bce" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100862", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alina", 
+         "key" : "__SHOWNAME", 
+         "value" : "1"
+      }, 
+      "620cf57a-b165-48d0-a710-27561bfcc486" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100494", 
+            "y" : "-100465"
+         }, 
+         "child" : [ 
+            "d66ed814-bdbd-40fd-959e-9d07495579eb", 
+            "a4c9b0fe-e017-49de-97e2-43ef6d4e3d1e"
+         ]
+      }, 
+      "d66ed814-bdbd-40fd-959e-9d07495579eb" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+            "d0ccee2d-d2ec-4747-9288-84a0928bd426", 
+            "5b0fbf11-10df-40e1-b89a-511ad8bd7eea"
+         ], 
+         "objectName" : "Eduard"
+      }, 
+      "d0ccee2d-d2ec-4747-9288-84a0928bd426" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100551", 
+            "y" : "-100275"
+         }, 
+         "child" : [ 
+            "77d07cc6-e0ab-4634-afc5-b7eb15dcffb1"
+         ], 
+         "quest_key" : "CASTLE.KILL"
+      }, 
+      "77d07cc6-e0ab-4634-afc5-b7eb15dcffb1" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-100213"
+         }, 
+         "child" : [ 
+            "a84a7b94-59bd-478a-95ea-db9475f8a112"
+         ], 
+         "quest_key" : "CASTLE.BEST"
+      }, 
+      "a84a7b94-59bd-478a-95ea-db9475f8a112" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-100153"
+         }, 
+         "child" : [ 
+            "35457711-2174-461e-9265-9c9eee4833d9"
+         ], 
+         "quest_key" : "CASTLE.BREAK"
+      }, 
+      "35457711-2174-461e-9265-9c9eee4833d9" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-100094"
+         }, 
+         "child" : [ 
+            "f938ed2a-81a1-4bc7-9ddb-8179f3fbc5f3"
+         ], 
+         "quest_key" : "CASTLE.DP"
+      }, 
+      "f938ed2a-81a1-4bc7-9ddb-8179f3fbc5f3" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-100036"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alina", 
+         "active" : "false"
+      }, 
+      "a4c9b0fe-e017-49de-97e2-43ef6d4e3d1e" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100438", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+            "9cb74e9a-42ba-4c4a-865b-906f055a102c", 
+            "5b0fbf11-10df-40e1-b89a-511ad8bd7eea"
+         ], 
+         "objectName" : "Matvey"
+      }, 
+      "9cb74e9a-42ba-4c4a-865b-906f055a102c" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100428", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+            "efce5392-09ec-4de2-994f-a0cd6a57b733"
+         ], 
+         "note_key" : "CASTLE_MATVEY_DEAD"
+      }, 
+      "efce5392-09ec-4de2-994f-a0cd6a57b733" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100414", 
+            "y" : "-100223"
+         }, 
+         "child" : [ 
+            "2610dfe0-ef8b-40e8-8241-ff11b25e2626", 
+            "b7054407-6134-402e-ab12-22045b90776f", 
+            "9627692c-ad38-4d96-849f-63639614866d"
+         ], 
+         "quest_key" : "FOGELEVKA.S3"
+      }, 
+      "2610dfe0-ef8b-40e8-8241-ff11b25e2626" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100422", 
+            "y" : "-100124"
+         }, 
+         "child" : [ 
+            "a5a32d61-f242-4f5d-8a66-fa470831171e"
+         ], 
+         "quest_key" : "FOGELEVKA.S3"
+      }, 
+      "a5a32d61-f242-4f5d-8a66-fa470831171e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100426", 
+            "y" : "-100064"
+         }, 
+         "child" : [ 
+            "e89f4c8c-7e49-443a-9fb3-79ebc78d0890", 
+            "adf734b6-dc4e-4dfb-b531-0d82a95cb2ed"
+         ], 
+         "note_key" : "FOGELEVKA_ZAKONNIK_FAIL"
+      }, 
+      "e89f4c8c-7e49-443a-9fb3-79ebc78d0890" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100427", 
+            "y" : "-99986"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "adf734b6-dc4e-4dfb-b531-0d82a95cb2ed" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100317", 
+            "y" : "-99984"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FOGELEVKA.S3.END"
+      }, 
+      "b7054407-6134-402e-ab12-22045b90776f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100309", 
+            "y" : "-100135"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9627692c-ad38-4d96-849f-63639614866d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100307", 
+            "y" : "-100098"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "68fb346e-abf7-4566-bfbf-d87d362615a3"
+}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Uniform/Doc_Glasses
-  m_Localization: uniform.glasses
+  m_Localization: uniform.glasses2
   Takeable: 1
   Cost: 1000
   Weight: 7

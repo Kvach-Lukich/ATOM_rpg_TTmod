@@ -57,13 +57,14 @@
       "5e437239-bdc7-4d7c-8452-24740004786e" : { 
          "class" : "CharacterAddEffectNode", 
          "desc" : { 
-            "x" : "-101441", 
-            "y" : "-100610"
+            "x" : "-101448", 
+            "y" : "-100604"
          }, 
          "child" : [ 
             "6bd73ed9-b064-4d5c-8d70-631b4050d0ec"
          ], 
-         "proto" : "e_gauss_book"
+         "proto" : "e_gauss_book", 
+         "objectName" : "Player"
       }, 
       "6bd73ed9-b064-4d5c-8d70-631b4050d0ec" : { 
          "class" : "MemoPageNode", 
@@ -116,6 +117,7 @@
             "y" : "-100537"
          }, 
          "child" : [ 
+            "8b7ef5f2-74da-4e86-8fe6-6d80f0b08cf2"
          ]
       }, 
       "e5c0ae41-6f5a-4c3c-9c4e-16918aace845" : { 

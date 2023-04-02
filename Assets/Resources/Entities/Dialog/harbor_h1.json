@@ -710,7 +710,7 @@
          "child" : [ 
             "82cca579-3789-46c6-a2cf-873e8cc75aeb"
          ], 
-         "text" : "Расскажи - а как часто у тебя бывают поставки?"
+         "text" : "#harbor_h1.ec5368b7-964a-4256-9df1-63349d493b59"
       }, 
       "82cca579-3789-46c6-a2cf-873e8cc75aeb" : { 
          "class" : "DialogPhraseNode", 
@@ -724,7 +724,7 @@
             "15ea670d-a251-41ad-b651-9f276e932bc6", 
             "370687ec-d347-466d-983d-08da48cedf5c"
          ], 
-         "text" : "Всё для клиента, говори когда захочешь прийти и я всё подготовлю"
+         "text" : "#harbor_h1.82cca579-3789-46c6-a2cf-873e8cc75aeb"
       }, 
       "2f44ba54-6712-4bce-ac3b-a2e6d9454d51" : { 
          "class" : "DialogAnswerNode", 
@@ -737,7 +737,7 @@
             "565206af-2b50-477f-b30c-9ed07c4e22d0", 
             "0f7946da-ddf9-41fa-90dc-0d2efd7855fd"
          ], 
-         "text" : "Через час"
+         "text" : "#harbor_h1.2f44ba54-6712-4bce-ac3b-a2e6d9454d51"
       }, 
       "c6b18635-4656-4fa2-ba94-9e5ea68478f9" : { 
          "class" : "AddKeywordNode", 
@@ -759,7 +759,7 @@
          "child" : [ 
             "6e022da6-dcea-4add-9b53-7c3e32476186"
          ], 
-         "text" : "Договорились - буду ждать"
+         "text" : "#harbor_h1.566cb25c-5f3b-46d7-baa7-eb9e04262633"
       }, 
       "6e022da6-dcea-4add-9b53-7c3e32476186" : { 
          "class" : "DialogAnswerNode", 
@@ -770,7 +770,7 @@
          "child" : [ 
             "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
          ], 
-         "text" : "Супер!"
+         "text" : "#harbor_h1.6e022da6-dcea-4add-9b53-7c3e32476186"
       }, 
       "565206af-2b50-477f-b30c-9ed07c4e22d0" : { 
          "class" : "RemoveKeywordNode", 
@@ -803,7 +803,7 @@
             "294dbc2e-ac29-424e-b9c2-d7e85e00d20c", 
             "cb1036cb-2a01-49df-b8b4-7f649a96c949"
          ], 
-         "text" : "Через день"
+         "text" : "#harbor_h1.a22d485c-c7fa-47ca-8474-7fa0f4fc4d59"
       }, 
       "294dbc2e-ac29-424e-b9c2-d7e85e00d20c" : { 
          "class" : "AddKeywordNode", 
@@ -837,7 +837,7 @@
             "cb1036cb-2a01-49df-b8b4-7f649a96c949", 
             "7264c0ed-bf8a-491c-9351-7ca1f6293d79"
          ], 
-         "text" : "Через 3 дня"
+         "text" : "#harbor_h1.15ea670d-a251-41ad-b651-9f276e932bc6"
       }, 
       "7264c0ed-bf8a-491c-9351-7ca1f6293d79" : { 
          "class" : "AddKeywordNode", 
@@ -859,7 +859,7 @@
          "child" : [ 
             "fa25ae89-3cf1-45ba-b3b0-46d414eee126"
          ], 
-         "text" : "Ой, я пока передумал"
+         "text" : "#harbor_h1.370687ec-d347-466d-983d-08da48cedf5c"
       }, 
       "f8408962-60ac-4fe2-a6e7-85e287368f95" : { 
          "class" : "DialogContinueNode", 

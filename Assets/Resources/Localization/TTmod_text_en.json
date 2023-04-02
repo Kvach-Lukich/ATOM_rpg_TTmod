@@ -184,7 +184,8 @@
         "ff3107e9-cd10-49c6-9896-96344af1c023": "Galina Bathory has joined your gang.",
         "55bd70b3-02cc-45d4-ab6a-1c3ca0d4aebf": "Why do I need your corpse? You are funny. But shout at every corner that \"We are Death, We are Chaos!\" not worth it. Let's first reconnoiter what's what and get it right.",
         "3098f990-0073-4dcc-b57a-1ba82a0d0f4a": "I was leaving here on important matters. Do we have a new plan?",
-        "7c74e06c-45e8-4dcc-9dab-3ad6e2926b6d": "Well, like that, we'll tell you later. By the way, the toothy one is with us now. Just call her - Galya, she likes it."
+        "7c74e06c-45e8-4dcc-9dab-3ad6e2926b6d": "Well, like that, we'll tell you later. By the way, the toothy one is with us now. Just call her - Galya, she likes it.",
+        "52f28e91-a3ae-4f56-a1de-38338f33339d": "reset"
     },
     "opg_death_galina_teammate": {
         "3b974320-9c35-4b6a-97ae-50db16f9dc6a": "> Look, I think it's time to kill.",
@@ -301,5 +302,190 @@
         "28901f18-ad5d-4599-b78a-01ed79cb7d99": "A campfire needs paper",
         "2cebbcd4-0b92-4050-a8b2-5d9ef1b4c33c": "You need wood for a fire",
         "9134abf2-af51-44ee-aee7-b6e2c1189e9c": "An ax is needed for a fire"
+    },
+    "baza_maid": {
+        "39d160a3-1ed6-47a3-ba26-b6d6e14be7e1": "Can you make Yader kvass?",
+        "20ced352-f631-4bdd-9773-83ec3ea17211": "Wait, I haven't finished the old one yet",
+        "52cadf08-84ed-45fb-aae3-b9c8d9e51eb0": "Will wait. Bye",
+        "39e306d9-282b-4f15-97c3-14f6102d8087": "I will try",
+        "fda3edad-b451-48cb-ab9a-54f0c39f61a1": "Here you go for 1 serving.",
+        "e61109e6-dfbe-4f72-b60a-6db71c0bd248": "Will be ready in 12 hours, no faster",
+        "1a19575f-06d2-4414-8817-e7c814c217b0": "Here you go for 2 servings",
+        "2931ec8e-6f48-47e6-bfbc-0d6eb27f7d39": "Here you go for 3 servings",
+        "15b8e8b0-8c7b-45c9-ba5e-d5464ae49618": "Here you go for 4 servings",
+        "dde9e450-b671-4095-882c-c32a7595db3d": "When I find it, I'll bring it, but for now I have to go",
+        "82b901a2-b4e6-42e4-b37b-859364609788": "What did I want to [leave]",
+        "2d893ea5-617f-4036-93f1-a53f07fa7f5e": "What else can you cook for something special?",
+        "dfbe76ce-4cde-4601-b657-09b12303cbbd": "Well, I know the old recipe for Yader kvass - my grandmother made it before the world ended...",
+        "749b2f10-210b-46ba-bcf6-c3289ee2a4e3": "In the current conditions, it will be quite difficult to repeat it, I will need 2 bottles of water in glass, 2 in plastic, 10 beets (you can’t find sugar), 3 gingerbread and 5 biscuits for chaff",
+        "145b6051-6840-4fa9-8679-542fba8310b6": "Great!"
+    },
+    "castle_guard_3": {
+        "115a90df-b33b-4086-992f-c9f4b045e2be": "[You see the horror in the eyes of the once cheerful man]",
+        "4581ada0-fb70-4b93-89bd-046cd40d792f": "What the hell is this? Where do these monsters come from in such numbers?",
+        "604299cb-f68f-45d5-9e5d-c7bdb78cad8e": "Satan knows them! But we figured it out.",
+        "52e65d40-63f5-4ee5-8a24-65e62985532d": "I want to look around here (suddenly we will find something interesting), and then get out of here and never remember this place",
+        "1b450f56-532d-44cc-90f5-acb4e0285fda": "Satan knows them! We have two options: either kill all the bastards, or get out of here, then come back and kill all the bastards!",
+        "bd3b7de5-73fa-40e8-b356-1ce12523be51": "I propose the first option - rid the world of these mutants",
+        "ccc9effa-ef8d-48f6-8f15-9500ebd77f19": "I agree, otherwise they won’t believe us without evidence - we’ll take a couple of trophies",
+        "a372bfe5-8e6d-4121-9647-318ceea7a0e5": "Agreed",
+        "afd98e30-ea0a-4220-8808-997510e8437b": "I propose the second option - we bring down until we are devoured",
+        "203c8468-78fc-408c-af5b-ffa2e6343b88": "Let's quietly dump, and then we'll get ready and then we'll show them, otherwise they won't give us peace here",
+        "d4fc9d25-71b5-4720-a769-df9962404348": "[Waves at you to come closer and smiles as usual]",
+        "61c3e479-8f04-4d3d-95bc-ff3ff4c09c36": "[Sit beside]",
+        "8d8b7e76-85b1-4aac-8d1d-8927542fefde": "You especially don’t tell everyone what we saw, otherwise panic will begin, but we don’t need it - right?",
+        "94a6127b-78f9-4a61-9037-e28764ede7a6": "And what do you suggest?",
+        "8eae149a-d58c-48d9-b45f-f6478b8d4d4a": "Here, take what I have left in the bins - all yours, And I will agree with the hunters - we will set traps, traps...",
+        "e5a0e443-fece-48bb-ae73-8d34b430acad": "Yes, not thick",
+        "1d1273d3-93d0-4590-a169-fccfde0d7a2b": "And let me tell you how to make the same sniper rifle as mine",
+        "be44b7a6-4d33-4794-b7b0-4c5595080624": "Wow, thanks for that buddy!",
+        "3081e5ae-6a00-48a5-a54d-b1175b4abc0f": "Thank you",
+        "222b67c4-e6a3-44dc-b26b-b4d90784b229": "No! I believe that people should know what awaits them in these neighborhoods, forewarned is forearmed",
+        "cd10e569-82c5-4288-8e60-5b84fb610bfe": "Don't make noise like that! We killed everyone",
+        "c378fb3f-8165-412f-ba36-1ec1177f1bac": "And that's right, for the Red Book there will definitely be no losses from this",
+        "d7f2f2a2-2410-49b9-b7bb-79f1766dd41c": "And what am I talking about.",
+        "d102cd00-da15-4d48-a119-b7e3736e2e11": "And now what?",
+        "f8440498-345e-42ea-8234-6d2b47cf49cd": "And if there are still the same monsters somewhere else, and if children fall into their clutches?",
+        "54f3d9df-ec8c-425e-8603-eaf271a2026d": "Do as you please [turns away]",
+        "b69f6805-b6f4-4a04-98bb-468daef8a827": "[shrug and walk away]",
+        "0a5c9ea2-8848-4f4f-ad24-6c9a37f2c3bb": "Let's go look for a monster with wolves",
+        "b1d81dcc-99b7-4674-81d2-e024259e149c": "You won't find the way on your own, let's go together. Tell me when you're ready",
+        "92c4edb1-de1c-4ece-af54-48b5378bce93": "Ready, let's go!",
+        "c75e23a0-3e8a-4009-b19a-bffe518ee567": "Okay, wait, I'll just get ready.",
+        "ed31a528-27ee-4134-8821-123c6bd4b9c7": "Why are you sitting thoughtful today?",
+        "6534bab5-9d7c-4f29-96d7-eeb495cce07c": "Yes, brother, your truth is something to think about...",
+        "869f32e2-56b8-440d-a417-823ecb61bcf7": "We are the only ones here who maintain any kind of order - caravans with provisions go through these places...",
+        "19d074fa-0094-48c4-a344-3d74ee5af0d1": "We know your food...",
+        "7dada849-d3d3-4d54-bc53-e1c58fe16500": "So we missed the bandits and wolves that attack, so now some kind of monsters have appeared and they command other mutants...",
+        "2a1fe957-aee8-4ec9-b3af-1be1ef44edbe": "Don't tell me that you also believe in these fairy tales?",
+        "e3e6b86c-353f-485b-9551-931b069fd3c4": "[The man stops smiling] I don't believe it myself, but I need to check it out and have at least 2 people confirm it...",
+        "cecf2db8-3a02-4043-8aed-07221a492555": "So maybe I'll fit in this role?",
+        "ef45e2b0-8858-4f2d-8feb-7af4269b1ce2": "[Smiling again] And that's true! There is no hope for Efendi, and the rest do not even want to listen to the frightened caravaners. I’ll fill you with ammo for your help and show you how to assemble a cool rifle!",
+        "dbcef605-00e1-44fc-b901-0c5e912d13b6": "And where should I start?",
+        "6237fa39-3c44-40fa-9436-18a178df9450": "Well, I hope you can sort out your problems.",
+        "b7b942cb-ed79-4886-9b36-abda0fe1540c": "[Looks sullenly into the distance]",
+        "c45ec179-0fed-4bc5-ad9b-26533ab5b4b9": "No, not interested [leave]"
+    },
+    "city_trader": {
+        "ec5368b7-964a-4256-9df1-63349d493b59": "Tell me - how often do you have deliveries?",
+        "82cca579-3789-46c6-a2cf-873e8cc75aeb": "Everything for the client, tell me when you want to come and I will arrange everything",
+        "2f44ba54-6712-4bce-ac3b-a2e6d9454d51": "In one hour",
+        "566cb25c-5f3b-46d7-baa7-eb9e04262633": "Agreed - I'll be waiting",
+        "6e022da6-dcea-4add-9b53-7c3e32476186": "Super!",
+        "a22d485c-c7fa-47ca-8474-7fa0f4fc4d59": "In one day",
+        "15ea670d-a251-41ad-b651-9f276e932bc6": "In 3 days",
+        "370687ec-d347-466d-983d-08da48cedf5c": "Oops, I've changed my mind"
+    },
+    "fogelevka_herbalist": {
+        "2f6d8f17-721d-46eb-9b59-ce8ccf4c938d": "And you find everything right here?",
+        "865576ef-df4b-48f1-9ca0-3db752246f3a": "Well... almost... everything...",
+        "74c0def2-2ecb-4e79-a7ef-d230c8565803": "It's true, you obviously travel a lot.",
+        "a9aa11d2-b107-4dd6-b8ed-556b895e48ca": "Of course, and I suspect you need to get something?",
+        "4c716562-768b-457e-b62a-6dd9844d2ee3": "You suspect correctly. Many caravans pass through our village, and I was told that there is a strange lake in the gorge of troubles...",
+        "de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3": "What's wrong with this lake?",
+        "2656ed29-c361-4d8c-b0ca-339fc96bec46": "It is blood red from salty impurities and the water in it has hallucinogenic properties...",
+        "e00c02ce-23bd-40dc-b65b-08e319e18da7": "And why do you need her?",
+        "9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1": "For experience, of course. But the problem is that it is not stable and the salts decompose into an insoluble precipitate...",
+        "d0f70641-9294-4363-998e-5107e8d694b2": "I need it to be evaporated on the spot and the distillate delivered here in a special ampoule.",
+        "0999b939-f340-4104-8ad0-c4057f332b48": "Give me your ampoule here, let's see what we can do",
+        "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e": "No... I'm too old for all this shit",
+        "38655b84-e082-4b0a-a0dc-a6e696516a12": "look what I have",
+        "2b7fea93-1150-4f85-875e-acfb6dd37d08": "Wow you managed to make a distillate! I knew that you could...",
+        "103c7231-91ec-4f44-9d5f-2d707686a75a": "[He snatches an ampoule of bloody liquid from you and, without paying any attention to you, runs away to his closet]",
+        "15bfa699-d856-4bf2-9185-6d626be08af4": "Wait...",
+        "64417422-8d86-4aa1-acf5-3dd9285fb4bd": "[Comes back 15 minutes later]",
+        "6b6ca5f2-9c29-4e87-9c6a-5436b8ae302d": "Here you are",
+        "ace12d88-9232-4c96-b48d-46a1df3d2605": "And what should I do about it? I definitely won’t drink it - don’t even ask",
+        "ef0ccd09-2af2-4913-9475-79e12a33d82d": "As you wish, especially since if you still drink, you will forget about your promise! It's a forgetting potion...",
+        "0c738757-c3be-411c-8861-ef6751a81cfe": "Well thanks... I'll go",
+        "05676b0d-e7f2-48e2-92b6-f3450c6624bc": "Can you make your own potion?",
+        "4fb18601-2a6b-4abc-9f30-f236e0fc3717": "Certainly! [takes the ampoule and retires to his closet]",
+        "06318985-8e15-4748-b0b5-bf8068afa73c": "Wait... As usual - after 15 minutes the herbalist - the poisoner brings you an ampoule",
+        "bb916151-f604-4523-97e1-5cd86b527198": "Just be careful, otherwise you won't remember your name!",
+        "f7c92aec-5cee-4fb6-8c89-f1f028460a56": "Thanks, I'll keep it in mind..."
+    },
+    "harbor_h1": {
+        "ec5368b7-964a-4256-9df1-63349d493b59": "Tell me - how often do you have deliveries?",
+        "82cca579-3789-46c6-a2cf-873e8cc75aeb": "Everything for the client, tell me when you want to come and I'll prepare everything",
+        "2f44ba54-6712-4bce-ac3b-a2e6d9454d51": "In one hour",
+        "566cb25c-5f3b-46d7-baa7-eb9e04262633": "Agreed - I'll be waiting",
+        "6e022da6-dcea-4add-9b53-7c3e32476186": "Super!",
+        "a22d485c-c7fa-47ca-8474-7fa0f4fc4d59": "In one day",
+        "15ea670d-a251-41ad-b651-9f276e932bc6": "In 3 days",
+        "370687ec-d347-466d-983d-08da48cedf5c": "Oops, I've changed my mind"
+    },
+    "harbor_help": {
+        "42fee6f3-178f-4962-b091-27c72a046ced": "Suddenly, the guard hands you instructions for the PP scorpion",
+        "0eb7279a-d506-4c67-a915-0aeceb62c50f": "Wow! Thanks a lot!"
+    },
+    "village_trader": {
+        "efe2b333-7b1b-4d16-b7ae-10a8de22974e": "About your task",
+        "c2fff8dd-66e7-4be6-a6de-ded58f55dc59": "Ideal - what you need [Takes your instructions for processing metals and creating a modified PPS and gives you a bundle of bills]",
+        "fa0bf0d6-b5cb-48fb-8f0c-050adb87c118": "OK it's all over Now",
+        "1c62fae4-f7ea-4a56-8fd7-c386928e74f2": "I'm listening...",
+        "10dca171-fa24-4106-8d1b-46ef3c4c2379": "Ok, I'm ready, where do I go?",
+        "0c4ab824-34a3-4dde-8747-0012d2120f87": "The last base was very close, the caravaners told me about this place",
+        "bab3cff9-b519-4325-bd0b-430fa8b92602": "[You go to the raider's base]",
+        "7d8bc629-b709-487d-86ac-17b27bc40d8d": "[changed my mind]",
+        "5b82c897-996d-47b2-bd48-11bdb680fe45": "In progress...",
+        "5b62a5dc-75c2-4865-9887-0837eee46aa1": "Great! you managed to find what you need [takes the rusty PPS and gives you the money]",
+        "d6ee69e6-eaf7-41f9-9d07-9cde0dfb2329": "That's not all. We need to find another metalworking recipe that these savages stole. Why does it need them?",
+        "61ad2a11-3984-40a4-ae07-0c97bea2ed6c": "Ok, but I need to get ready first.",
+        "332e3923-912e-48ad-8431-5c91104134b7": "Oh, this is not up to me yet",
+        "0a0f989a-c6b3-4097-89ce-1668fff29d10": "Great! you managed to find what you need [takes the rusty PPS and gives you the money]",
+        "1d201f9d-b244-450d-b6b2-4ef0725e8007": "That's not all. Need to find another one",
+        "d51e5357-6224-43dc-8693-c0e6c1116f8d": "Oh, I see you're on the radio trying to contact someone?",
+        "000604bc-3c66-4900-9d6b-93da2ebf7c62": "I'm trying... but it's useless...",
+        "25f16233-2248-4339-8d26-f4a34e84a75b": "Can give something to someone, I travel a lot, I can help",
+        "be728e7e-08ff-43f6-be23-8d380322f6e6": "There is nothing and no one to transfer - everyone is dead",
+        "cd5f3c7e-4e02-4810-9272-097be41edfba": "Why do you think so?",
+        "accf618b-7fce-4701-961b-eb51edab7156": "The places here are not calm, caravans are constantly attacked by raiders. If only someone could shoot them all to hell!",
+        "62f77bb3-0407-48b6-8bdb-cb0875c18405": "[He clenches his fists and you can clearly see his eye twitching]",
+        "e65a07db-f814-467e-88b0-3515f5b7f3a3": "So can I help you deal with them?",
+        "77758804-2115-4604-b767-89ae5ecc2b36": "Perhaps, but business is above all, I need to return at least some of the weapons stolen from me. There is no need to be a hero, you just need to find their temporary base and steal my spare parts for PPS",
+        "e1fa8c82-775b-4882-8cee-23948dc8d514": "What will I get for this?",
+        "4a662ed1-a1f8-45df-a091-6d9395a033b9": "These are the gopniks, they have a bunch of looted trash, I only need a Rusty PPS-43, don’t be heroic, take it and come back right away, I’ll throw another 300 on top",
+        "f17dc801-e0f5-4a5b-b44c-1b6d64537efd": "And where can I look for your property?",
+        "e11b6160-6702-4588-a72d-bd9c779dc870": "Robbers don't sit in one place for long, they have temporary bases, maybe you will stumble upon one during your travels through the wastelands or you need to go right now",
+        "251ac63e-65dc-45ff-bc03-df1de370ae3c": "Not interested",
+        "5f00e898-6144-4196-94dc-70e8d04b2d95": "It's annoying to hear it"
+    },
+    "zvezda_avram": {
+        "c15325e2-f724-465e-ae55-6c7aab256c67": "[The old man hands you a stack of banknotes and quickly shows you how to fix glasses, in which you will look much more presentable to the interlocutor]"
+    },
+    "zvezda_guard_wall": {
+        "001aef68-ca4a-425c-9f67-3d14ceca75ea": "You can take and stagger [depends on your luck]",
+        "18e9fb23-6125-4b05-aa51-350feb886ee2": "Punch with all the dope by crocodildo",
+        "ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38": "Sad somehow"
+    },
+    "campfire": {
+        "b6de4ede-844c-4ed6-8dc3-04a982475ae3": "[You see a bloody waterfall with a lake and a fire next to it, where you can perfectly evaporate the water]",
+        "d6b3774f-58e5-47fc-829a-6e19c1037bab": "Try to boil water",
+        "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc": "Success [You put an ampoule with some very poisonous blood-colored liquid in your pocket]",
+        "b390f969-6368-4cea-860c-52d931fda6d2": "[Leave]",
+        "1dbd027c-cc62-4de9-a2d6-d7beef56c755": "[Further]"
+    },
+    "z_13": {
+        "71198a2e-e574-4fc2-b791-f16c58062df9": "[You found the stolen blueprints]",
+        "6b14c35b-11f5-4444-b086-ff12acbf6048": "[It would be nice to read them yourself!]",
+        "e5a02d42-952d-4310-bfd9-72ca4c6f6a7e": "[You found the stolen weapon]"
+    },
+    "craft_m24_m": {
+        "6c296d15-0af4-4b42-b223-c2c6a3b4670d": "The most vandal way to remove the optics from a Remington 700M rifle, after that it will not be possible to return it back, if it will shoot at all after that..."
+    },
+    "craft_pps43_m": {
+        "9af8f920-0d22-4f6a-9b0c-cb2ff387960c": "Blueing of steel (oxidation, blackening, blueing) is the process of obtaining a layer of iron oxides 1-10 microns thick on the surface of carbon or low-alloy steel or cast iron. Its color depends on the thickness of this layer - the so-called. tint colors that change as the film grows (yellow, brown, cherry, purple, blue, gray).\n\nThere are the following types of bluing:\n\n    alkaline - bluing in alkaline solutions with oxidizing agents at a temperature of 135-150 ° C;\n    acid - bluing in acidic solutions by chemical or electrochemical methods;\n    thermal - oxidation of steel at high temperatures: in vapors of an ammonia-alcohol mixture at 520–880 °C, in molten salts at 400–600 °C, and also in an air atmosphere at 310–450 °C with a preliminary coating of the surface of the part with a thin layer of asphalt or oil varnish.\n\nThe coating structure is fine-crystalline, microporous. To add shine, as well as improve the protective properties of the oxide film, it is also impregnated with oil (mineral or vegetable)."
+    },
+    "craft_scorpion_m": {
+        "9af8f920-0d22-4f6a-9b0c-cb2ff387960c": "Scheme of modification of PP scorpion"
+    },
+    "craft_sks_s": {
+        "9af8f920-0d22-4f6a-9b0c-cb2ff387960c": "Scheme of installation of optics on the SCS"
+    },
+    "craft_svd_m": {
+        "9af8f920-0d22-4f6a-9b0c-cb2ff387960c": "Schema SVD Modified"
+    },
+    "redbook": {
+        "146b00b8-9740-43c6-9f27-6cff4b040ab0": "This is a test book."
     }
 }

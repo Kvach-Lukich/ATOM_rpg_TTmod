@@ -1473,7 +1473,7 @@
          "child" : [ 
             "73177a4a-b0e5-4dfd-8bcf-7928bea6f17d"
          ], 
-         "text" : "Сможешь сделать Ядер квас?"
+         "text" : "#baza_maid.39d160a3-1ed6-47a3-ba26-b6d6e14be7e1"
       }, 
       "73177a4a-b0e5-4dfd-8bcf-7928bea6f17d" : { 
          "class" : "HasKeywordNode", 
@@ -1496,7 +1496,7 @@
          "child" : [ 
             "3139e6f0-4a8b-413e-ba8d-95b0aa8388e7"
          ], 
-         "text" : "Погоди я ещё старый не доделала"
+         "text" : "#baza_maid.20ced352-f631-4bdd-9773-83ec3ea17211"
       }, 
       "3139e6f0-4a8b-413e-ba8d-95b0aa8388e7" : { 
          "class" : "DummyNode", 
@@ -1517,7 +1517,7 @@
          "child" : [ 
             "b7ae4d21-e996-4f3c-b738-e9e15e3a0784"
          ], 
-         "text" : "Будем ждать. Пока"
+         "text" : "#baza_maid.52cadf08-84ed-45fb-aae3-b9c8d9e51eb0"
       }, 
       "b7ae4d21-e996-4f3c-b738-e9e15e3a0784" : { 
          "class" : "DialogEndNode", 
@@ -1537,7 +1537,7 @@
          "child" : [ 
             "83bb7c55-8c2f-4e7b-878c-42ce3f70f6f3"
          ], 
-         "text" : "Я постараюсь"
+         "text" : "#baza_maid.39e306d9-282b-4f15-97c3-14f6102d8087"
       }, 
       "83bb7c55-8c2f-4e7b-878c-42ce3f70f6f3" : { 
          "class" : "DummyNode", 
@@ -1655,7 +1655,7 @@
          "child" : [ 
             "48683550-2431-4cbb-aa85-e1b18cc37b42"
          ], 
-         "text" : "Вот держи на 1 порцию"
+         "text" : "#baza_maid.fda3edad-b451-48cb-ab9a-54f0c39f61a1"
       }, 
       "48683550-2431-4cbb-aa85-e1b18cc37b42" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -1779,7 +1779,7 @@
          "child" : [ 
             "52cadf08-84ed-45fb-aae3-b9c8d9e51eb0"
          ], 
-         "text" : "Будет готово через 12 часо, быстрее никак"
+         "text" : "#baza_maid.e61109e6-dfbe-4f72-b60a-6db71c0bd248"
       }, 
       "37396608-1443-46d6-a604-ca123c828dcc" : { 
          "class" : "InventoryHasItemNode", 
@@ -1886,7 +1886,7 @@
          "child" : [ 
             "b3c9aa09-ef0d-4f4b-8a70-40a40c214fd7"
          ], 
-         "text" : "Вот держи на 2 порции"
+         "text" : "#baza_maid.1a19575f-06d2-4414-8817-e7c814c217b0"
       }, 
       "b3c9aa09-ef0d-4f4b-8a70-40a40c214fd7" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -2084,7 +2084,7 @@
          "child" : [ 
             "a01395bb-c445-4902-a71d-6418bd56c8fa"
          ], 
-         "text" : "Вот держи на 3 порции"
+         "text" : "#baza_maid.2931ec8e-6f48-47e6-bfbc-0d6eb27f7d39"
       }, 
       "a01395bb-c445-4902-a71d-6418bd56c8fa" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -2271,7 +2271,7 @@
          "child" : [ 
             "5a4e5084-7c0a-447e-b9ec-426847237d68"
          ], 
-         "text" : "Вот держи на 4 порции"
+         "text" : "#baza_maid.15b8e8b0-8c7b-45c9-ba5e-d5464ae49618"
       }, 
       "5a4e5084-7c0a-447e-b9ec-426847237d68" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -2410,7 +2410,7 @@
          "child" : [ 
             "017113d5-d973-40bd-8ec0-fe1c7cb82058"
          ], 
-         "text" : "Как найду - принесу, а пока мне пора"
+         "text" : "#baza_maid.dde9e450-b671-4095-882c-c32a7595db3d"
       }, 
       "017113d5-d973-40bd-8ec0-fe1c7cb82058" : { 
          "class" : "DialogEndNode", 
@@ -2430,7 +2430,7 @@
          "child" : [ 
             "2a3eb4a2-47d4-4cb8-ba9c-4e0925e5a10b"
          ], 
-         "text" : "Чего то мне перехотелось [уйти]"
+         "text" : "#baza_maid.82b901a2-b4e6-42e4-b37b-859364609788"
       }, 
       "2a3eb4a2-47d4-4cb8-ba9c-4e0925e5a10b" : { 
          "class" : "DialogEndNode", 
@@ -2460,7 +2460,7 @@
          "child" : [ 
             "dfbe76ce-4cde-4601-b657-09b12303cbbd"
          ], 
-         "text" : "А ещё чего то особенного можешь приготовить?"
+         "text" : "#baza_maid.2d893ea5-617f-4036-93f1-a53f07fa7f5e"
       }, 
       "dfbe76ce-4cde-4601-b657-09b12303cbbd" : { 
          "class" : "DialogPhraseNode", 
@@ -2471,7 +2471,7 @@
          "child" : [ 
             "c300c060-151c-4c03-8588-9d70d92c8714"
          ], 
-         "text" : "Ну я знаю старый рецепт Ядер кваса - его делала моя бабушка до того как миру пришёл конец..."
+         "text" : "#baza_maid.dfbe76ce-4cde-4601-b657-09b12303cbbd"
       }, 
       "c300c060-151c-4c03-8588-9d70d92c8714" : { 
          "class" : "DialogContinueNode", 
@@ -2492,7 +2492,7 @@
          "child" : [ 
             "145b6051-6840-4fa9-8679-542fba8310b6"
          ], 
-         "text" : "В нынешних условиях повторить его будет довольно сложно, мне понядобятся 2 бутылки воды в стекле, 2 в пластике, 10 свёкол (сахара же не найти), 3 пряника и 5 галет на мякину"
+         "text" : "#baza_maid.749b2f10-210b-46ba-bcf6-c3289ee2a4e3"
       }, 
       "145b6051-6840-4fa9-8679-542fba8310b6" : { 
          "class" : "DialogAnswerNode", 
@@ -2503,7 +2503,7 @@
          "child" : [ 
             "31f2b067-6e09-4cf6-a6c3-81650ee9c18d"
          ], 
-         "text" : "Отлично!"
+         "text" : "#baza_maid.145b6051-6840-4fa9-8679-542fba8310b6"
       }, 
       "31f2b067-6e09-4cf6-a6c3-81650ee9c18d" : { 
          "class" : "AddKeywordNode", 

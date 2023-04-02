@@ -10,25 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1333377599, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: bsf12
+  m_Name: diseloil
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Consumable/BSF12
-  m_Localization: consumable.bsf12
+    path: Entities/Consumable/diselOil
+  m_Localization: consumable.diseloil
   Takeable: 1
-  Cost: 930
-  Weight: 50
+  Cost: 41
+  Weight: 1061
   Collectable: 1
   Modifiers: []
   _effects:
-  - path: entities/effect/bsf12
-  - path: entities/effect/bsf12_neg
-  - path: entities/effect/bsf12_side
+  - path: entities/effect/disel
   canUseInBattle: 1
   waste:
-    path: 
+    path: entities/item/bottle_empty2
   useSounds:
-  - path: Sounds/SFX/Consumables/injection
+  - path: Sounds/SFX/Consumables/drinking
   UseAP: 2
   UseDistance: 1
   Perks: 0

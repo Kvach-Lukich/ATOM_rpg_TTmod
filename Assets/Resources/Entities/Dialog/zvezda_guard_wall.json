@@ -3,8 +3,8 @@
       "d90b995b-9b7d-4d99-a915-b52ce09cc4f9" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102580", 
-            "y" : "-102763"
+            "x" : "-102682", 
+            "y" : "-103307"
          }, 
          "child" : [ 
             "0a8e0b5a-e9de-48b7-b415-529e239586f6"
@@ -13,8 +13,8 @@
       "0a8e0b5a-e9de-48b7-b415-529e239586f6" : { 
          "class" : "DialogBeginNode", 
          "desc" : { 
-            "x" : "-102579", 
-            "y" : "-102723"
+            "x" : "-102683", 
+            "y" : "-103265"
          }, 
          "child" : [ 
             "e6c45116-1b2c-401e-844d-64112392f643"
@@ -24,8 +24,8 @@
       "e6c45116-1b2c-401e-844d-64112392f643" : { 
          "class" : "HandItemNode", 
          "desc" : { 
-            "x" : "-103045", 
-            "y" : "-102792"
+            "x" : "-102701", 
+            "y" : "-103165"
          }, 
          "child" : [ 
             "689b2964-0bb3-4915-925c-ede8482ec167", 
@@ -40,11 +40,11 @@
       "689b2964-0bb3-4915-925c-ede8482ec167" : { 
          "class" : "CharacterHasEquipItemNode", 
          "desc" : { 
-            "x" : "-103057", 
-            "y" : "-102654"
+            "x" : "-102752", 
+            "y" : "-103061"
          }, 
          "child" : [ 
-            "ebe487a3-718a-4f78-9f27-fbcbe2c1ee12", 
+            "88cf3b85-1a62-4596-95d7-5abe8f53120c", 
             "b92a7161-95b6-402f-8879-18b34daabab1"
          ], 
          "item" : { 
@@ -54,40 +54,51 @@
          }, 
          "objectName" : "Player"
       }, 
-      "ebe487a3-718a-4f78-9f27-fbcbe2c1ee12" : { 
-         "class" : "PlayerHasConditionNode", 
+      "88cf3b85-1a62-4596-95d7-5abe8f53120c" : { 
+         "class" : "CharacterHasEffectNode", 
          "desc" : { 
-            "x" : "-103056", 
-            "y" : "-102500"
+            "x" : "-103176", 
+            "y" : "-103346"
          }, 
          "child" : [ 
-            "001aef68-ca4a-425c-9f67-3d14ceca75ea", 
-            "b92a7161-95b6-402f-8879-18b34daabab1"
+            "c723ce67-0491-4f2f-9c3d-f411ea683302", 
+            "117689a0-65ad-490d-825f-282f99724615"
          ], 
-         "conditionType" : "AlcoholAddiction"
+         "proto" : "Vodka", 
+         "objectName" : "Player"
+      }, 
+      "c723ce67-0491-4f2f-9c3d-f411ea683302" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103123", 
+            "y" : "-102882"
+         }, 
+         "child" : [ 
+            "001aef68-ca4a-425c-9f67-3d14ceca75ea"
+         ]
       }, 
       "001aef68-ca4a-425c-9f67-3d14ceca75ea" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103116", 
-            "y" : "-102395"
+            "x" : "-103109", 
+            "y" : "-102400"
          }, 
          "child" : [ 
             "18e9fb23-6125-4b05-aa51-350feb886ee2", 
             "ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38"
          ], 
-         "text" : "Можно взять и ушатать [зависит от вашей удачи]"
+         "text" : "#zvezda_guard_wall.001aef68-ca4a-425c-9f67-3d14ceca75ea"
       }, 
       "18e9fb23-6125-4b05-aa51-350feb886ee2" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-103062", 
-            "y" : "-102240"
+            "x" : "-103169", 
+            "y" : "-102302"
          }, 
          "child" : [ 
             "4f2cebaf-dfcb-4b48-a94f-455592564c50"
          ], 
-         "text" : "Врезать со всей дури крокодилдой по кумполу"
+         "text" : "#zvezda_guard_wall.18e9fb23-6125-4b05-aa51-350feb886ee2"
       }, 
       "4f2cebaf-dfcb-4b48-a94f-455592564c50" : { 
          "class" : "DialogEndNode", 
@@ -306,13 +317,13 @@
       "ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102956", 
-            "y" : "-102296"
+            "x" : "-102953", 
+            "y" : "-102298"
          }, 
          "child" : [ 
             "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d"
          ], 
-         "text" : "Чего-то сыкотно"
+         "text" : "#zvezda_guard_wall.ff91f0b5-f3ac-4df6-af1a-be5a4ac2bb38"
       }, 
       "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d" : { 
          "class" : "HasKeywordNode", 
@@ -3418,11 +3429,36 @@
          ], 
          "note_key" : "KRZ_WALLGUARD_ASKED_MONEY"
       }, 
+      "117689a0-65ad-490d-825f-282f99724615" : { 
+         "class" : "CharacterHasEffectNode", 
+         "desc" : { 
+            "x" : "-103106", 
+            "y" : "-103215"
+         }, 
+         "child" : [ 
+            "c723ce67-0491-4f2f-9c3d-f411ea683302", 
+            "c8b89c50-962e-4590-8a58-55bfec03eda2"
+         ], 
+         "proto" : "bormotuha", 
+         "objectName" : "Player"
+      }, 
+      "c8b89c50-962e-4590-8a58-55bfec03eda2" : { 
+         "class" : "CharacterHasEffectNode", 
+         "desc" : { 
+            "x" : "-103031", 
+            "y" : "-103084"
+         }, 
+         "child" : [ 
+            "c723ce67-0491-4f2f-9c3d-f411ea683302", 
+            "b92a7161-95b6-402f-8879-18b34daabab1"
+         ], 
+         "proto" : "booze"
+      }, 
       "b92a7161-95b6-402f-8879-18b34daabab1" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102786", 
-            "y" : "-102464"
+            "x" : "-102738", 
+            "y" : "-102562"
          }, 
          "child" : [ 
             "d1df6a2d-a499-4efc-81b0-b6e9e21b8c8d"

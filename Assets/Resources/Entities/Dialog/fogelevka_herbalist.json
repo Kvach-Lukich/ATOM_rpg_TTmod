@@ -1031,7 +1031,7 @@
          "child" : [ 
             "865576ef-df4b-48f1-9ca0-3db752246f3a"
          ], 
-         "text" : "И ты находишь всё прям сдесь?"
+         "text" : "#fogelevka_herbalist.2f6d8f17-721d-46eb-9b59-ce8ccf4c938d"
       }, 
       "865576ef-df4b-48f1-9ca0-3db752246f3a" : { 
          "class" : "DialogPhraseNode", 
@@ -1042,7 +1042,7 @@
          "child" : [ 
             "793eb137-f6a9-464f-a9db-77dd12621ad3"
          ], 
-         "text" : "Ну... почти... всё..."
+         "text" : "#fogelevka_herbalist.865576ef-df4b-48f1-9ca0-3db752246f3a"
       }, 
       "793eb137-f6a9-464f-a9db-77dd12621ad3" : { 
          "class" : "DialogContinueNode", 
@@ -1064,7 +1064,7 @@
             "a9aa11d2-b107-4dd6-b8ed-556b895e48ca", 
             "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e"
          ], 
-         "text" : "А ведь и правда, ты явно много путешествуешь"
+         "text" : "#fogelevka_herbalist.74c0def2-2ecb-4e79-a7ef-d230c8565803"
       }, 
       "a9aa11d2-b107-4dd6-b8ed-556b895e48ca" : { 
          "class" : "DialogAnswerNode", 
@@ -1075,7 +1075,7 @@
          "child" : [ 
             "4c716562-768b-457e-b62a-6dd9844d2ee3"
          ], 
-         "text" : "Конечно и подозреваю тебе нужно что-то достать?"
+         "text" : "#fogelevka_herbalist.a9aa11d2-b107-4dd6-b8ed-556b895e48ca"
       }, 
       "4c716562-768b-457e-b62a-6dd9844d2ee3" : { 
          "class" : "DialogPhraseNode", 
@@ -1086,7 +1086,7 @@
          "child" : [ 
             "de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3"
          ], 
-         "text" : "Правильно подозреваешь. Через нашу деревню проходят множество караванов и мне рассказывали что в вущелье бед есть странное озеро..."
+         "text" : "#fogelevka_herbalist.4c716562-768b-457e-b62a-6dd9844d2ee3"
       }, 
       "de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3" : { 
          "class" : "DialogAnswerNode", 
@@ -1097,7 +1097,7 @@
          "child" : [ 
             "2656ed29-c361-4d8c-b0ca-339fc96bec46"
          ], 
-         "text" : "Что с этим озером нетак?"
+         "text" : "#fogelevka_herbalist.de6f8e40-0d04-4ab6-a5c1-eb86c8bf23b3"
       }, 
       "2656ed29-c361-4d8c-b0ca-339fc96bec46" : { 
          "class" : "DialogPhraseNode", 
@@ -1108,7 +1108,7 @@
          "child" : [ 
             "e00c02ce-23bd-40dc-b65b-08e319e18da7"
          ], 
-         "text" : "Оно кроваво красного цвета от соленых примесей и вода в нём обладает галлюциногенными свойствами..."
+         "text" : "#fogelevka_herbalist.2656ed29-c361-4d8c-b0ca-339fc96bec46"
       }, 
       "e00c02ce-23bd-40dc-b65b-08e319e18da7" : { 
          "class" : "DialogAnswerNode", 
@@ -1119,7 +1119,7 @@
          "child" : [ 
             "9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1"
          ], 
-         "text" : "И зачем она тебе?"
+         "text" : "#fogelevka_herbalist.e00c02ce-23bd-40dc-b65b-08e319e18da7"
       }, 
       "9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1" : { 
          "class" : "DialogPhraseNode", 
@@ -1130,7 +1130,7 @@
          "child" : [ 
             "f205cdd1-9005-43b9-8601-8718476a832d"
          ], 
-         "text" : "Для опытов конечно же. Но проблема в том что она не стабильна и соли ралагаются на нерасстворимый осадок..."
+         "text" : "#fogelevka_herbalist.9a0bcbc3-d5f9-437a-b2e4-c851ff80c2c1"
       }, 
       "f205cdd1-9005-43b9-8601-8718476a832d" : { 
          "class" : "DialogContinueNode", 
@@ -1152,7 +1152,7 @@
             "0999b939-f340-4104-8ad0-c4057f332b48", 
             "bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e"
          ], 
-         "text" : "Мне нужно чтобы её выпарили на месте и доставили дистилят сюда в специальной ампуле"
+         "text" : "#fogelevka_herbalist.d0f70641-9294-4363-998e-5107e8d694b2"
       }, 
       "0999b939-f340-4104-8ad0-c4057f332b48" : { 
          "class" : "DialogAnswerNode", 
@@ -1163,7 +1163,7 @@
          "child" : [ 
             "a876c1a6-689d-4c55-a1b8-c5d7087ed72c"
          ], 
-         "text" : "Давай сюда свою ампулу, посмотрим что получится сделать"
+         "text" : "#fogelevka_herbalist.0999b939-f340-4104-8ad0-c4057f332b48"
       }, 
       "a876c1a6-689d-4c55-a1b8-c5d7087ed72c" : { 
          "class" : "InventoryAddItemNode", 
@@ -1210,7 +1210,7 @@
          "child" : [ 
             "7d522ad7-2b53-444e-813c-7682fe6e6ec3"
          ], 
-         "text" : "Не... я уже стар для всего этого говна"
+         "text" : "#fogelevka_herbalist.bb4e78d3-d11a-4aa5-ae1b-787cf7361f2e"
       }, 
       "7d522ad7-2b53-444e-813c-7682fe6e6ec3" : { 
          "class" : "DialogEndNode", 
@@ -1814,7 +1814,7 @@
          "child" : [ 
             "2b7fea93-1150-4f85-875e-acfb6dd37d08"
          ], 
-         "text" : "Смотри что у меня есть"
+         "text" : "#fogelevka_herbalist.38655b84-e082-4b0a-a0dc-a6e696516a12"
       }, 
       "2b7fea93-1150-4f85-875e-acfb6dd37d08" : { 
          "class" : "DialogPhraseNode", 
@@ -1825,7 +1825,7 @@
          "child" : [ 
             "0abd7fc9-b6dc-4d07-964d-8755daafd7d6"
          ], 
-         "text" : "Ого тебе удалось сделать дестилят! Так и знала, что у тебя получится..."
+         "text" : "#fogelevka_herbalist.2b7fea93-1150-4f85-875e-acfb6dd37d08"
       }, 
       "0abd7fc9-b6dc-4d07-964d-8755daafd7d6" : { 
          "class" : "DialogContinueNode", 
@@ -1846,7 +1846,7 @@
          "child" : [ 
             "aa8c043d-39ef-4ba8-8a02-90d91a56b8aa"
          ], 
-         "text" : "[Выхватывает у вас ампулу с кровавой жидкостью и необращая на вас ни какого внимания убегает к себе в коморку]"
+         "text" : "#fogelevka_herbalist.103c7231-91ec-4f44-9d5f-2d707686a75a"
       }, 
       "aa8c043d-39ef-4ba8-8a02-90d91a56b8aa" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -1884,7 +1884,7 @@
          "child" : [ 
             "83266565-8461-4f44-ba13-a82201481893"
          ], 
-         "text" : "Постой..."
+         "text" : "#fogelevka_herbalist.15bfa699-d856-4bf2-9185-6d626be08af4"
       }, 
       "83266565-8461-4f44-ba13-a82201481893" : { 
          "class" : "ScrollTimeNode", 
@@ -1907,7 +1907,7 @@
          "child" : [ 
             "6209aa0e-b5d1-4f93-b59c-722236c2369b"
          ], 
-         "text" : "[Возвращается через 15 минут]"
+         "text" : "#fogelevka_herbalist.64417422-8d86-4aa1-acf5-3dd9285fb4bd"
       }, 
       "6209aa0e-b5d1-4f93-b59c-722236c2369b" : { 
          "class" : "DialogContinueNode", 
@@ -1928,7 +1928,7 @@
          "child" : [ 
             "3fab32d8-881c-4435-abf8-4d93be9c9d8f"
          ], 
-         "text" : "Вот держи"
+         "text" : "#fogelevka_herbalist.6b6ca5f2-9c29-4e87-9c6a-5436b8ae302d"
       }, 
       "3fab32d8-881c-4435-abf8-4d93be9c9d8f" : { 
          "class" : "InventoryAddItemNode", 
@@ -1955,7 +1955,7 @@
          "child" : [ 
             "ef0ccd09-2af2-4913-9475-79e12a33d82d"
          ], 
-         "text" : "И что мне с этим делать? Пить я это точно не стану - даже не проси"
+         "text" : "#fogelevka_herbalist.ace12d88-9232-4c96-b48d-46a1df3d2605"
       }, 
       "ef0ccd09-2af2-4913-9475-79e12a33d82d" : { 
          "class" : "DialogPhraseNode", 
@@ -1967,7 +1967,7 @@
             "0c738757-c3be-411c-8861-ef6751a81cfe", 
             "9339e504-49df-4f90-a8b9-824db3a9515e"
          ], 
-         "text" : "Как хочешь, тем более что если ты всё таки выпьеш - то забудешь о своём обещани! Это зелье забвения..."
+         "text" : "#fogelevka_herbalist.ef0ccd09-2af2-4913-9475-79e12a33d82d"
       }, 
       "0c738757-c3be-411c-8861-ef6751a81cfe" : { 
          "class" : "DialogAnswerNode", 
@@ -1978,7 +1978,7 @@
          "child" : [ 
             "e9132a1f-d9f7-473e-af8c-d51b894601d1"
          ], 
-         "text" : "Ну спасибо... Я пойду"
+         "text" : "#fogelevka_herbalist.0c738757-c3be-411c-8861-ef6751a81cfe"
       }, 
       "e9132a1f-d9f7-473e-af8c-d51b894601d1" : { 
          "class" : "DialogEndNode", 
@@ -2020,7 +2020,7 @@
          "child" : [ 
             "4fb18601-2a6b-4abc-9f30-f236e0fc3717"
          ], 
-         "text" : "А можешь ещё изготовить своё зелье?"
+         "text" : "#fogelevka_herbalist.05676b0d-e7f2-48e2-92b6-f3450c6624bc"
       }, 
       "4fb18601-2a6b-4abc-9f30-f236e0fc3717" : { 
          "class" : "DialogPhraseNode", 
@@ -2031,7 +2031,7 @@
          "child" : [ 
             "6072511b-e03e-44b7-94eb-54f48774cfaa"
          ], 
-         "text" : "Конечно! [забирет ампулу и удаляется к себе в коморку]"
+         "text" : "#fogelevka_herbalist.4fb18601-2a6b-4abc-9f30-f236e0fc3717"
       }, 
       "6072511b-e03e-44b7-94eb-54f48774cfaa" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -2058,7 +2058,7 @@
          "child" : [ 
             "d006f2f5-248b-4759-8074-4e0af70b17c5"
          ], 
-         "text" : "Ждёте... Как обычно - через 15 минут травница - отравница приносит вам ампулу"
+         "text" : "#fogelevka_herbalist.06318985-8e15-4748-b0b5-bf8068afa73c"
       }, 
       "d006f2f5-248b-4759-8074-4e0af70b17c5" : { 
          "class" : "InventoryAddItemNode", 
@@ -2086,7 +2086,7 @@
             "f7c92aec-5cee-4fb6-8c89-f1f028460a56", 
             "9339e504-49df-4f90-a8b9-824db3a9515e"
          ], 
-         "text" : "Только будь осторожен, а то не вспомнишь как тебя зовут!"
+         "text" : "#fogelevka_herbalist.bb916151-f604-4523-97e1-5cd86b527198"
       }, 
       "f7c92aec-5cee-4fb6-8c89-f1f028460a56" : { 
          "class" : "DialogAnswerNode", 
@@ -2097,7 +2097,7 @@
          "child" : [ 
             "8ec103ba-2f08-47c9-a83f-184e7d5cdc99"
          ], 
-         "text" : "Спасибо, учту, покеда..."
+         "text" : "#fogelevka_herbalist.f7c92aec-5cee-4fb6-8c89-f1f028460a56"
       }, 
       "8ec103ba-2f08-47c9-a83f-184e7d5cdc99" : { 
          "class" : "DialogEndNode", 

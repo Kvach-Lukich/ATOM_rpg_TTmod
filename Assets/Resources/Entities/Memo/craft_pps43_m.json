@@ -7,29 +7,29 @@
             "y" : "-100613"
          }, 
          "child" : [ 
-            "6c296d15-0af4-4b42-b223-c2c6a3b4670d", 
+            "9af8f920-0d22-4f6a-9b0c-cb2ff387960c", 
             "98225ee3-a9ab-423e-b6c5-ef109eb55269"
          ]
       }, 
-      "6c296d15-0af4-4b42-b223-c2c6a3b4670d" : { 
+      "9af8f920-0d22-4f6a-9b0c-cb2ff387960c" : { 
          "class" : "MemoPageNode", 
          "desc" : { 
-            "x" : "-101041", 
-            "y" : "-100563"
-         }, 
-         "child" : [ 
-         ], 
-         "text" : "#craft_m24_m.6c296d15-0af4-4b42-b223-c2c6a3b4670d"
-      }, 
-      "98225ee3-a9ab-423e-b6c5-ef109eb55269" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-100786", 
+            "x" : "-101053", 
             "y" : "-100553"
          }, 
          "child" : [ 
          ], 
-         "recipe" : "craft_m24_m", 
+         "text" : "#craft_pps43_m.9af8f920-0d22-4f6a-9b0c-cb2ff387960c"
+      }, 
+      "98225ee3-a9ab-423e-b6c5-ef109eb55269" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-100771", 
+            "y" : "-100542"
+         }, 
+         "child" : [ 
+         ], 
+         "recipe" : "craft_pps43mod", 
          "showMsg" : "true"
       }
    }, 

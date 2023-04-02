@@ -30,8 +30,12 @@ MonoBehaviour:
     variants:
     - path: entities/item/toolbox
     consumable: 0
+  - count: 1
+    variants:
+    - path: entities/consumable/diseloil
+    consumable: 1
   dependencies: []
   soundCreate:
-    path: Sounds/SFX/Craft/Craft_Armor
+    path: Sounds/SFX/Craft/Craft_Weapon
   soundFail:
     path: Sounds/SFX/Craft/Fail_Craft

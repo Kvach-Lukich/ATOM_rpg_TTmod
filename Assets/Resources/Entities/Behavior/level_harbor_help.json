@@ -1,0 +1,1655 @@
+{ 
+   "states" : { 
+      "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101200", 
+            "y" : "-101128"
+         }, 
+         "child" : [ 
+            "9cdfee59-e29f-404a-9de8-143cce061d1b"
+         ]
+      }, 
+      "9cdfee59-e29f-404a-9de8-143cce061d1b" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-101056"
+         }, 
+         "child" : [ 
+            "2479e01e-0aff-4574-8f9e-a20403182429", 
+            "e2bd00a8-f9f4-432e-b95f-7936f04b956c", 
+            "93446831-15a1-49dc-a638-97e0f99a31ba"
+         ], 
+         "quest_key" : "CASTLE_HELP"
+      }, 
+      "2479e01e-0aff-4574-8f9e-a20403182429" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100589", 
+            "y" : "-101049"
+         }, 
+         "child" : [ 
+            "b017ccb5-0115-4136-814c-b38b6e24f58a", 
+            "35330393-0859-4e67-a1ca-8e5a7a6e5783", 
+            "e11ac109-8360-4782-b206-d727cc2403a1", 
+            "fd6d2127-6e39-4dd3-b1e8-3caf907b7f10"
+         ]
+      }, 
+      "b017ccb5-0115-4136-814c-b38b6e24f58a" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100791", 
+            "y" : "-100904"
+         }, 
+         "child" : [ 
+            "603ff89b-7610-4e74-8a1f-ad7fbd7a2414"
+         ], 
+         "spawnName" : "gasy_help", 
+         "pos" : [ 
+            "90.18", 
+            "0.69", 
+            "8.19"
+         ], 
+         "angles" : [ 
+            "0", 
+            "303.4", 
+            "0"
+         ]
+      }, 
+      "603ff89b-7610-4e74-8a1f-ad7fbd7a2414" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100790", 
+            "y" : "-100792"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "gasy_help", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale15", 
+            "character" : "Castle_Guard_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "player", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Razsol"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wastepaper"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "10", 
+                  "proto" : "Tobacco"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "SeedCorn"
+               }, 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "40", 
+                  "proto" : "7mm_54R"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVD_M", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "BlueBeret"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "BeardAndMustache", 
+            "hair" : "Hairless", 
+            "hairColor" : "Dark", 
+            "behavior" : "gasy_help"
+         }
+      }, 
+      "35330393-0859-4e67-a1ca-8e5a7a6e5783" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100583", 
+            "y" : "-100902"
+         }, 
+         "child" : [ 
+            "1cd8523b-342b-4a1b-bade-9072e71ec1a7"
+         ], 
+         "spawnName" : "w1", 
+         "pos" : [ 
+            "49.5", 
+            "0.1234542", 
+            "44.75"
+         ], 
+         "angles" : [ 
+            "0", 
+            "85.92999", 
+            "0"
+         ]
+      }, 
+      "1cd8523b-342b-4a1b-bade-9072e71ec1a7" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100577", 
+            "y" : "-100804"
+         }, 
+         "child" : [ 
+            "8e382acc-b5c6-4a88-aef6-24261c7dfe38"
+         ], 
+         "spawnName" : "w4", 
+         "pos" : [ 
+            "50.02", 
+            "0.1234542", 
+            "48.07"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "8e382acc-b5c6-4a88-aef6-24261c7dfe38" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100465", 
+            "y" : "-100903"
+         }, 
+         "child" : [ 
+            "f5109ed6-6383-4cb8-82c4-6a2ea4f5a37f"
+         ], 
+         "spawnName" : "w2", 
+         "pos" : [ 
+            "49.35", 
+            "0.1234542", 
+            "46.76"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "f5109ed6-6383-4cb8-82c4-6a2ea4f5a37f" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100457", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+            "5224cb37-bc55-4e00-ac65-6dc519445514"
+         ], 
+         "spawnName" : "w5", 
+         "pos" : [ 
+            "48.03", 
+            "0.1234542", 
+            "59.35"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "5224cb37-bc55-4e00-ac65-6dc519445514" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100345", 
+            "y" : "-100907"
+         }, 
+         "child" : [ 
+            "3b6dc7cb-650a-4925-8ea8-36c9ba37264b"
+         ], 
+         "spawnName" : "w3", 
+         "pos" : [ 
+            "41.44", 
+            "0.1234542", 
+            "44.22"
+         ], 
+         "angles" : [ 
+            "0", 
+            "85.92999", 
+            "0"
+         ]
+      }, 
+      "3b6dc7cb-650a-4925-8ea8-36c9ba37264b" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100336", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+            "168cfe84-02dd-497d-a2e5-17f3e6c47d14"
+         ], 
+         "spawnName" : "w6", 
+         "pos" : [ 
+            "47.36", 
+            "0.1234542", 
+            "58.04"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "168cfe84-02dd-497d-a2e5-17f3e6c47d14" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100225", 
+            "y" : "-100902"
+         }, 
+         "child" : [ 
+            "8d9a7a38-4fb2-446a-b4d4-a788be386182"
+         ], 
+         "spawnName" : "w7", 
+         "pos" : [ 
+            "42.57978", 
+            "0.1234542", 
+            "41.68237"
+         ], 
+         "angles" : [ 
+            "0", 
+            "53.24263", 
+            "0"
+         ]
+      }, 
+      "8d9a7a38-4fb2-446a-b4d4-a788be386182" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100095", 
+            "y" : "-100798"
+         }, 
+         "child" : [ 
+            "f900a738-c7b7-4beb-8332-ae902794169f"
+         ], 
+         "spawnName" : "w8", 
+         "pos" : [ 
+            "65", 
+            "-1.1", 
+            "71"
+         ], 
+         "angles" : [ 
+            "0", 
+            "-1", 
+            "0"
+         ]
+      }, 
+      "f900a738-c7b7-4beb-8332-ae902794169f" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99972", 
+            "y" : "-100904"
+         }, 
+         "child" : [ 
+            "e0994e97-674c-4056-a766-5a2126e7ab8a"
+         ], 
+         "spawnName" : "w9", 
+         "pos" : [ 
+            "45", 
+            "-1", 
+            "83"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0.6", 
+            "0"
+         ]
+      }, 
+      "e0994e97-674c-4056-a766-5a2126e7ab8a" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99970", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+            "d943fda5-bdb9-490f-a1d9-17e73b78a8b7"
+         ], 
+         "spawnName" : "w10", 
+         "pos" : [ 
+            "11", 
+            "-0.8", 
+            "65.1"
+         ], 
+         "angles" : [ 
+            "0", 
+            "1", 
+            "0"
+         ]
+      }, 
+      "d943fda5-bdb9-490f-a1d9-17e73b78a8b7" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99837", 
+            "y" : "-100905"
+         }, 
+         "child" : [ 
+            "d16f93b2-9f7e-416c-b8d9-996fe1a2420b"
+         ], 
+         "spawnName" : "w11", 
+         "pos" : [ 
+            "70.9", 
+            "0.1", 
+            "88.9"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0.5", 
+            "0"
+         ]
+      }, 
+      "d16f93b2-9f7e-416c-b8d9-996fe1a2420b" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-99837", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+            "0351bd2b-1421-489c-b622-b9c551caa078"
+         ], 
+         "spawnName" : "w12", 
+         "pos" : [ 
+            "79", 
+            "-1.1", 
+            "73"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0.9", 
+            "0"
+         ]
+      }, 
+      "0351bd2b-1421-489c-b622-b9c551caa078" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100058", 
+            "y" : "-100638"
+         }, 
+         "child" : [ 
+            "74df6a30-305c-45f4-a8ec-8efeb4ae8b1e", 
+            "d1842f00-33b2-4dea-81a8-7edb08294de9", 
+            "2441927c-e388-4162-80b8-718f0a6be382", 
+            "e1de718b-2d39-4169-adec-4a88a69ac8d1", 
+            "7db39492-33f0-4822-88a1-853b7315265a", 
+            "1843a951-45b7-4d6f-89b5-7dde6d81a52b", 
+            "e00464f1-c88c-47e8-8ecf-0fd009856187", 
+            "f951e950-5ae0-436f-8a90-bf25a83dd585", 
+            "2860e11f-1e27-4da2-85ae-f01a073f8677", 
+            "8ed7e78d-4e5b-4f24-b918-cd2a49ccf5e2", 
+            "996b25a9-e8e4-4791-a5fa-446265441263", 
+            "b3fbf145-567e-42c4-8153-11c01269b743", 
+            "ec8870c2-fde9-4c32-8c5b-412bba6fd9dd"
+         ]
+      }, 
+      "74df6a30-305c-45f4-a8ec-8efeb4ae8b1e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100519", 
+            "y" : "-100550"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lacodon", 
+            "character" : "Lacodon", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d1842f00-33b2-4dea-81a8-7edb08294de9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100382", 
+            "y" : "-100549"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w12", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lacodon", 
+            "character" : "Lacodon", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "2441927c-e388-4162-80b8-718f0a6be382" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100244", 
+            "y" : "-100542"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "Deinodonte", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Marlock"
+         }
+      }, 
+      "e1de718b-2d39-4169-adec-4a88a69ac8d1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100114", 
+            "y" : "-100541"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w9", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "Deinodonte", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Marlock"
+         }
+      }, 
+      "7db39492-33f0-4822-88a1-853b7315265a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99969", 
+            "y" : "-100540"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w10", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lacodon", 
+            "character" : "Lacodon", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1843a951-45b7-4d6f-89b5-7dde6d81a52b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99832", 
+            "y" : "-100539"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w11", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lacodon", 
+            "character" : "Lacodon", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e00464f1-c88c-47e8-8ecf-0fd009856187" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99703", 
+            "y" : "-100527"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w12", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f951e950-5ae0-436f-8a90-bf25a83dd585" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99116", 
+            "y" : "-100514"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "2860e11f-1e27-4da2-85ae-f01a073f8677" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98970", 
+            "y" : "-100514"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "8ed7e78d-4e5b-4f24-b918-cd2a49ccf5e2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98826", 
+            "y" : "-100515"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "996b25a9-e8e4-4791-a5fa-446265441263" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98679", 
+            "y" : "-100511"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w9", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "b3fbf145-567e-42c4-8153-11c01269b743" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98534", 
+            "y" : "-100506"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w10", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ec8870c2-fde9-4c32-8c5b-412bba6fd9dd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98389", 
+            "y" : "-100505"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w11", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat_Head", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e11ac109-8360-4782-b206-d727cc2403a1" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-100343", 
+            "y" : "-101273"
+         }, 
+         "child" : [ 
+            "f9a045fb-9ea7-4213-8593-ef6026fe5bee"
+         ], 
+         "objName" : "Harbor_Guard1"
+      }, 
+      "f9a045fb-9ea7-4213-8593-ef6026fe5bee" : { 
+         "class" : "StopBehaviorNode", 
+         "desc" : { 
+            "x" : "-100337", 
+            "y" : "-101211"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Harbor_Guard1"
+      }, 
+      "fd6d2127-6e39-4dd3-b1e8-3caf907b7f10" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-101472"
+         }, 
+         "child" : [ 
+            "0077dac9-18f7-44ef-98c0-d9c4950a0e44"
+         ]
+      }, 
+      "0077dac9-18f7-44ef-98c0-d9c4950a0e44" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100140", 
+            "y" : "-101426"
+         }, 
+         "child" : [ 
+            "62cb2c43-b16e-4563-b9ae-7e2bc62f45ee"
+         ], 
+         "note_key" : "ON_HELP_MAP"
+      }, 
+      "62cb2c43-b16e-4563-b9ae-7e2bc62f45ee" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100145", 
+            "y" : "-101361"
+         }, 
+         "child" : [ 
+            "837d7025-4746-42c3-8782-34fb0383ffc0", 
+            "c443c0b4-ac76-4c58-b65d-448b73ce1f93"
+         ], 
+         "objectName" : "gasy_help"
+      }, 
+      "837d7025-4746-42c3-8782-34fb0383ffc0" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100186", 
+            "y" : "-101251"
+         }, 
+         "child" : [ 
+            "c443c0b4-ac76-4c58-b65d-448b73ce1f93"
+         ], 
+         "note_key" : "GASY_DEAD"
+      }, 
+      "c443c0b4-ac76-4c58-b65d-448b73ce1f93" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-100132", 
+            "y" : "-101149"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "castle", 
+         "entrance" : "EnterPoint"
+      }, 
+      "e2bd00a8-f9f4-432e-b95f-7936f04b956c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102233", 
+            "y" : "-101588"
+         }, 
+         "child" : [ 
+            "b304731d-04cb-4164-81a5-124756b58591", 
+            "53deea36-4d63-46f6-90a8-7be71dd25e98"
+         ]
+      }, 
+      "b304731d-04cb-4164-81a5-124756b58591" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-102544", 
+            "y" : "-101649"
+         }, 
+         "child" : [ 
+            "4c6ffa33-9520-4d42-842f-318df31eff33"
+         ], 
+         "targetName" : "Harbor_Guard1", 
+         "targetFractionName" : ""
+      }, 
+      "4c6ffa33-9520-4d42-842f-318df31eff33" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102489", 
+            "y" : "-101537"
+         }, 
+         "child" : [ 
+            "1e1b3236-7fed-4543-9dda-609aa8ac51e5"
+         ], 
+         "quest_key" : "HARBOR.HELP"
+      }, 
+      "1e1b3236-7fed-4543-9dda-609aa8ac51e5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102477", 
+            "y" : "-101465"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "HARBOR_HELP_KILLED"
+      }, 
+      "53deea36-4d63-46f6-90a8-7be71dd25e98" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102217", 
+            "y" : "-101503"
+         }, 
+         "child" : [ 
+            "7525f1e1-778e-4190-bdbd-55347820a74e"
+         ], 
+         "spawnName" : "w1", 
+         "pos" : [ 
+            "49.5", 
+            "0.1234542", 
+            "44.75"
+         ], 
+         "angles" : [ 
+            "0", 
+            "85.92999", 
+            "0"
+         ]
+      }, 
+      "7525f1e1-778e-4190-bdbd-55347820a74e" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102211", 
+            "y" : "-101401"
+         }, 
+         "child" : [ 
+            "9ca87018-41ac-4ef3-9b86-1d3cf606a915"
+         ], 
+         "spawnName" : "w4", 
+         "pos" : [ 
+            "50.02", 
+            "0.1234542", 
+            "48.07"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "9ca87018-41ac-4ef3-9b86-1d3cf606a915" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102099", 
+            "y" : "-101500"
+         }, 
+         "child" : [ 
+            "26e06cc9-f290-4e6d-8f75-ecdda92e83c3"
+         ], 
+         "spawnName" : "w2", 
+         "pos" : [ 
+            "49.35", 
+            "0.1234542", 
+            "46.76"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "26e06cc9-f290-4e6d-8f75-ecdda92e83c3" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102091", 
+            "y" : "-101405"
+         }, 
+         "child" : [ 
+            "6fb8a9d0-317a-4cf4-a773-fd2b2003fc43"
+         ], 
+         "spawnName" : "w5", 
+         "pos" : [ 
+            "48.03", 
+            "0.1234542", 
+            "59.35"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "6fb8a9d0-317a-4cf4-a773-fd2b2003fc43" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101979", 
+            "y" : "-101504"
+         }, 
+         "child" : [ 
+            "82b11d93-1193-42f8-8b95-b73f4cbcd7c1"
+         ], 
+         "spawnName" : "w3", 
+         "pos" : [ 
+            "41.44", 
+            "0.1234542", 
+            "44.22"
+         ], 
+         "angles" : [ 
+            "0", 
+            "85.92999", 
+            "0"
+         ]
+      }, 
+      "82b11d93-1193-42f8-8b95-b73f4cbcd7c1" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101970", 
+            "y" : "-101393"
+         }, 
+         "child" : [ 
+            "aa42e5da-d29c-42d1-9025-29d5d1eeadf4"
+         ], 
+         "spawnName" : "w6", 
+         "pos" : [ 
+            "47.36", 
+            "0.1234542", 
+            "58.04"
+         ], 
+         "angles" : [ 
+            "0", 
+            "122.84", 
+            "0"
+         ]
+      }, 
+      "aa42e5da-d29c-42d1-9025-29d5d1eeadf4" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101963", 
+            "y" : "-101282"
+         }, 
+         "child" : [ 
+            "d5b59c8f-24f8-40d1-9a38-e65dba389a16"
+         ], 
+         "spawnName" : "w7", 
+         "pos" : [ 
+            "42.57978", 
+            "0.1234542", 
+            "41.68237"
+         ], 
+         "angles" : [ 
+            "0", 
+            "53.24263", 
+            "0"
+         ]
+      }, 
+      "d5b59c8f-24f8-40d1-9a38-e65dba389a16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102569", 
+            "y" : "-101191"
+         }, 
+         "child" : [ 
+            "9aaa6066-c858-4dd1-85c0-0421db91debe", 
+            "28c019c0-f3fb-4f60-8b62-e2b3d3dadbbb", 
+            "fbb02042-934a-407b-9580-c1e3ff0cc342", 
+            "4666dbaf-ac1c-4eed-83bc-e1a64f1eaaa9", 
+            "bd39d041-863f-423e-b9e7-d993ff84113c", 
+            "ec3862f7-c006-4690-bb89-c0f7a5bbdabf", 
+            "ee84e79f-898b-4a60-8826-5435d774487c", 
+            "626f76a4-23fa-4072-b282-66c72e99b124", 
+            "7261b7f8-a680-43f0-a134-cefb924a44ba", 
+            "4766887c-5f3f-4edf-994b-61e2c25b20ff", 
+            "86484fa3-e8dd-475c-bbf1-ed188c8db7e0", 
+            "44741fcb-a3b9-455a-81b1-e2fbb5b7e6bf", 
+            "f1ce5a9e-935f-45b3-a06b-7806db954167"
+         ]
+      }, 
+      "9aaa6066-c858-4dd1-85c0-0421db91debe" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103351", 
+            "y" : "-101095"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "28c019c0-f3fb-4f60-8b62-e2b3d3dadbbb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103226", 
+            "y" : "-101092"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "fbb02042-934a-407b-9580-c1e3ff0cc342" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103087", 
+            "y" : "-101086"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4666dbaf-ac1c-4eed-83bc-e1a64f1eaaa9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102957", 
+            "y" : "-101088"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "bd39d041-863f-423e-b9e7-d993ff84113c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102829", 
+            "y" : "-101084"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ec3862f7-c006-4690-bb89-c0f7a5bbdabf" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102706", 
+            "y" : "-101083"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ee84e79f-898b-4a60-8826-5435d774487c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102586", 
+            "y" : "-101080"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "626f76a4-23fa-4072-b282-66c72e99b124" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102454", 
+            "y" : "-101076"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "7261b7f8-a680-43f0-a134-cefb924a44ba" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102317", 
+            "y" : "-101078"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4766887c-5f3f-4edf-994b-61e2c25b20ff" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102187", 
+            "y" : "-101074"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "86484fa3-e8dd-475c-bbf1-ed188c8db7e0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102059", 
+            "y" : "-101076"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "44741fcb-a3b9-455a-81b1-e2fbb5b7e6bf" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101938", 
+            "y" : "-101067"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f1ce5a9e-935f-45b3-a06b-7806db954167" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101803", 
+            "y" : "-101070"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "w6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "harbor_wolf", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "93446831-15a1-49dc-a638-97e0f99a31ba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101136", 
+            "y" : "-100913"
+         }, 
+         "child" : [ 
+            "e2bd00a8-f9f4-432e-b95f-7936f04b956c"
+         ]
+      }
+   }, 
+   "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"
+}

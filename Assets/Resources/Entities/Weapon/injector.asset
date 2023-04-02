@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/Air_Pistol
-  m_Localization: weapon.air_pistol
+  m_Localization: weapon.injector
   Takeable: 1
   Cost: 50
   Weight: 800

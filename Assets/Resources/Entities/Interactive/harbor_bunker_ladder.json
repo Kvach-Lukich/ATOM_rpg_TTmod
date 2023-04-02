@@ -50,6 +50,7 @@
             "y" : "-101370"
          }, 
          "child" : [ 
+            "0d257cff-c9bb-4c77-be5c-cfe5c5b1e331"
          ], 
          "item" : { 
             "class" : "Item", 
@@ -57,6 +58,21 @@
             "proto" : "gauss_pt1"
          }, 
          "objectName" : "Metal_Shkaf_1 (1)"
+      }, 
+      "0d257cff-c9bb-4c77-be5c-cfe5c5b1e331" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101818", 
+            "y" : "-101287"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "crocodildo"
+         }, 
+         "objectName" : "Shelf_1"
       }, 
       "ad60d03b-82b9-4149-aade-6cf05be1dc63" : { 
          "class" : "NotebookAddNoteNode", 

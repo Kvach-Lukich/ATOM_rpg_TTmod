@@ -14,11 +14,35 @@
         },
         "zippo": {
             "short": "Lighter",
-            "full": "For a fire you need: wood, paper, diesel fuel and an ax"
+            "full": "For a fire you need: wood, paper, diesel fuel and ax"
         },
         "craft_tt": {
             "short": "Modification of the TT pistol",
             "full": "TT higher rate of fire and reload"
+        },
+        "craft_pps43_m": {
+            "short": "PPS modification",
+            "full": "Blued steel is very suitable for this PP"
+        },
+        "craft_m24_m": {
+            "short": "Remington 700M without optics",
+            "full": "This is the most vandalizing advice you've ever seen."
+        },
+        "craft_scorpion_m": {
+            "short": "Scorpion M2",
+            "full": "Extended magazine 40 rounds"
+        },
+        "craft_sks_s": {
+            "short": "Mounting the sight on the SKS",
+            "full": "Difficult but worth it"
+        },
+        "nocraft_cateye": {
+            "short": "Pickpocket serum recipe",
+            "full": "Military development makes a person almost invisible"
+        },
+        "craft_svd_m": {
+            "short": "SVD modification",
+            "full": "Dragunov sniper rifle modification"
         }
     },
     "weapon": {
@@ -33,6 +57,10 @@
         "gauss": {
             "short": "Gauss rifle",
             "full": "Yes, yes - that same Gauss rifle"
+        },
+        "crocodildo": {
+            "short": "Crocodildo",
+            "full": "No one wants to mess with a deadly drunk clown with a crocodildo, and I know one security guard who will really like this dilda"
         }
     },
     "character": {
@@ -111,6 +139,14 @@
         "bormotuha": {
             "short": "Chatterbox",
             "full": "Go blind? This is not the worst thing that can happen from it."
+        },
+        "waterfall_ampoule": {
+            "short": "Blood water ampoule",
+            "full": "Concentrated water from the Bed Gorge waterfall - it is better not to use this without supervision"
+        },
+        "kvas": {
+            "short": "Kvass",
+            "full": "It's the rarest drink in the wastelands."
         }
     },
     "giveway": {
@@ -126,6 +162,9 @@
         "q_gauss": "[Wasteland] Find and collect 3 parts from the Gauss project (Perhaps you should look in military bunkers and at the bases of large organized crime groups)",
         "tunnelofdeath_check": "[Peregon] Find out why stalkers disappear in the Tunel of Death",
         "no_ment": "[Krasnoznamenny] To rid the city of corrupt cops and at the same time from bandit power (to clear the bunker of the Chamber of Commerce - optional)",
-        "finde_bormotuha": "[Otradnoye] Bring 2 bottles of vodka, vodka, brandy and 1 moonshine with fly agaric to the moonshiner to the outskirts of the village"
+        "oblivion_quest": "[Waterfall] Bring the Distillate from the Mysterious Waterfall to the Herbalist",
+        "finde_bormotuha": "[Otradnoye] Bring 2 bottles of vodka, vodka, brandy and 1 moonshine with fly agaric to the moonshiner to the outskirts of the village",
+        "lost_caravan_ya1": "[Otradnoye] Merchant Yashin asks to take away the weapons plundered from his caravan from the raiders",
+        "castle_help": "[Castle] Help Gazi-Mohammad check what kind of monsters are attacking the caravans"
     }
 }

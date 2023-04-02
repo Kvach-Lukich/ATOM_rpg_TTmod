@@ -22,523 +22,319 @@ xmlns:html="http://www.w3.org/TR/REC-html40">
 <Worksheet ss:Name="WorkSheet">
 <Table>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">alenka_comp</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Алёнка салютует вам]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Всё нормально?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Оставайся на базе и патрулируй периметр.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть оставаться на базе и патрулировать периметр!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">До связи.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Выдвигаемся.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отставить! Нужно решить ещё один вопрос.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Пошли.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Идём со мной.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Будь начеку, смотри в оба.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да, командир?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Полный порядок, командир![d]$CHARACTER.HP$/$CHARACTER.MAXHP$[/d]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Спасибо! Так куда лучше...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сейчас я держусь подальше от противника.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Держись ближе ко мне.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть держаться ближе к тебе!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сменим тему.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вот и хорошо. Нам пора.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Действуй активнее, преследуй противника.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть, командир!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">стреляю, но я очень осторожна</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">стреляю, но стараюсь быть осторожной</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">лечусь, если я ранена</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">лечусь, если легко ранена</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сейчас я $TACTIC_BURST$;$TACTIC_RETREAT$;$TACTIC_ATTACK$ и $TACTIC_HEAL$.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Стреляй иногда, но будь осторожна.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Теперь я $TACTIC_BURST$;$TACTIC_RETREAT$;$TACTIC_ATTACK$ и $TACTIC_HEAL$.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отступай, если ранена.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отступай, если легко ранена.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Лечись, если ты ранена.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Лечись, если легко ранена.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">У меня есть иное предложение.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Алёнка вопросительно смотрит на вас]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Жди тут, я пока разведаю обстановку.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Так точно!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">&lt;Кивнуть и уйти&gt;</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отставить. Идём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Алёнка, такое дело, дальше без тебя. Оставайся на базе. Отдыхай, неси охрану.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Приказ поняла, командир. Ладно, выполняю. Ты уж... береги себя.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Пока!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Дальше без тебя, возвращайся на базу, отдыхай, неси посильную охрану.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Командир, я не спорю, но давай хотя бы не отсюда... Дойдём до базы, без проблем.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ладно.Тогда, как вернёмся на базу.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сейчас я держусь ближе к тебе.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Действуй инициативнее, перемещайся без оглядки на меня.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Держи дистанцию, не приближайся к противнику.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отлично, буду бить прицельным огнём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Хорошо. Сейчас я перемещаюсь по полю боя и преследую противника.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Дышится-то как! Что хотел, командир?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что ты думаешь об этом лесе?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Красиво, но я бы держалась отсюда подальше. Не знаю, что трясёт землю, но не думаю, что что-то хорошее.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Мы обязательно узнаем. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Задавай...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Любишь природу?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да, наверное. Приятно, когда вокруг зелень. Хоть и видно в ней недалеко.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Верная мысль. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Слышала интересные истории об этом месте?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что и обычно - про бункеры, железную дорогу... Думаю, ты знаешь. Не верится мне в это.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Посмотреть бы, что там. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ничего, пойдём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Алёнка бодро кивает]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как тебе это место?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Так себе... Мне кажется, здесь кто-то живёт. И ест оно явно не картошку. Не шуми.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Будем осторожны. Алёнка?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как думаешь, эти пещеры природные или искусственные?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Не знаю. Но, боюсь, как бы они не обвалились, если мы начнём активно стрелять.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Кто знает... Алёнка?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Почему тут свежий воздух?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сквозняк. Значит, есть выходы. Это хорошо.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Очень. Алёнка?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Значит, вот он - тот самый 317-й... Да, что?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что думаешь о бункере 317</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Впечатляющее сооружение! Подумать только, что раньше умели строить. Даже техника до сих пор работает!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Согласен. Ещё спрошу...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Конечно.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Интересно, много таких мест в Пустошах?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">На наших Пустошах, не знаю. Но, вообще, таких должно быть много на территории Союза и не только.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да, мы можем только гадать. Ещё спрошу...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как думаешь, что здесь изучали?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что-то, что хотели спрятать. А значит очень дорогое или опасное.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Логично. Ещё спрошу...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да я так... Пошли.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Место любопытное... Спрашивай, командир.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что ты думаешь об этом бункере?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Интересно, что стало со всеми людьми здесь? Перебили друг-друга, что ли?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Тоже интересно. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как тебе кажется, что тут изучали?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Наверняка что-то военное, не иначе.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">В АТОМе должны знать. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ну что, как настроение?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">От такого места… удивительно спокойное. Не понимаю, почему.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Хм. То же самое. Ещё вопрос...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Задавай, командир!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как настроение, боец?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Хорошее! Всё лучше, чем стоять на посту.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Рада слышать. Есть ещё вопрос…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Рад слышать. Есть ещё вопрос…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вот и славно. Идём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что думаешь о нашей операции?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да что тут думать... Ты планируешь, я выполняю. Мне нравится - повидала уже столько всего, впечатлений хватит на всю оставшуюся жизнь.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Так держать! Вот еще что…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Это верно. Идём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Сменим тему, Алёнка.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Понятно. Идём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Спасибо, командир!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ещё кое-что…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Здорово. Пошли.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Терпимо, воевать могу![d]$CHARACTER.HP$/$CHARACTER.MAXHP$[/d]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Потерпи. Ещё кое-что…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Mммх... вколите мне что-нибудь...[d]$CHARACTER.HP$/$CHARACTER.MAXHP$[/d]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Потерпи, боец. Ещё кое-что…</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Идём.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">У меня к тебе вопрос.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Алёнка готова выслушать приказ. Вы замечаете, что она ранена, но не подаёт вида]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Алёнка, вопросительно смотрит на вас, с трудом пытаясь скрыть сильную боль]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">...Да...?</Data></Cell></Row>
-<Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">baza_alenka</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Ваша знакомая воительница, Алёнка, деловито ходит по посёлку. В руках она сжимает своё верное ружьё, а в глазах её горит живой огонь энергии. Заметив Вас, она салютует]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Как служба? Не скучно?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Наблюдаю. Пока тихо.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть предложение! Хочешь ко мне в отряд?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да, было бы интересно. А что нужно будет делать?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">У меня важное задание Центра, расскажу по дороге. Мне нужен лишний ствол и лишний рюкзак.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Хорошо, я готова. Когда начинать?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вчера. Идём!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Подожди, я хочу спросить ещё кое-что.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Спрашивай, конечно!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Пока не особо. Мой заклятый враг, Стёпа Балаган, временно затаился. Но я знаю, он не забыл обо мне. Он ещё даст о себе знать! Вот тогда мы с ним и повоюем! Прям, как раньше! Хи-хи...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ну, давай.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Слушай, давай ко мне в отряд!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Рад поговорить, но мне пора.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Я просто хотела узнать твоё мнение. Я пойду.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Я просто хотел узнать твоё мнение. Я пойду.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Что я скажу и не задавать лишних вопросов.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Честно и практично. Мне нравится! Ну что, я в деле?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Конечно, пошли.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Есть вопросы. Ответишь?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Мне пора. До встречи!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Здравия желаю!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Неплохо тут у вас! Гожин велел мне следить за обстановкой вокруг посёлка. Так что, вот, несу посильную охрану. Почти как дома, только территория намного больше.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Верное решение, но у меня есть идея лучше. Хочешь ко мне в отряд?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Дело нужное. Ответишь на пару вопросов?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Славно. Я пойду.</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Хе-хе, привет! Ну как, ответишь на несколько вопросов?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Приветствую, но мне надо идти.</Data></Cell></Row>
-<Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">citysub_simon_shpak</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Расскажи о вашем картеле, где у вас ещё есть филиалы?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да по всем пустошам: от Ущелья бед до Мёртвого города и даже в Перегоне</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Здорово, ну, мне пора</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Здорово, у меня ещё пару вопросов</Data></Cell></Row>
-<Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">harbor_ticketman</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Возможно у вас есть какие то не решённые проблемы, я ищу подработку</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Пожалуй у меня есть небольшое поручение для человека вроде вас, который много путешествует</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Внимательно слушаю...</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Оплата не большая, но и поручение не сложное - нужно разузнать что происходит в местечке под названием Тоннель смерти</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">А я там уже бывал</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Тогда расскажите почему кроме вас от туда никто не вернулся из сталкеров?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Конечно, потому что там пролизующе токсичные испарения, жуткая радиация и огромные радиоктивные монстры</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Какой ужас</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Протягиваете чиновнику записку згинувшего сталкера]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Теперь понятно, вот вам за старания, 200 рублей и немного патронов, что остались от прошлых искателей преключений, думаю им они уже не понадобятся</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Спасибо, мне снова пора в дорогу</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ни чего себе название!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вам нужно разузнать почему, сталкеры уходят туда и больше не возвращаются и если найдёте полезные записи - обязательно дайте знать</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">С удовольствем прогуляюсь в новые места [Помечаете у себя на крте -  Тоннель смерти]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Отлично</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Скоро вернусь [уходите]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">По поводу вашего поручения</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вы узнали почему никто от туда не возвращается?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Пока нет</Data></Cell></Row>
-<Row>
 <Cell ss:StyleID="s74"><Data ss:Type="String">opg_death_galina</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Погоди, так это ты сделал?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Reset</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Сделал что?</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">baza_maid</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Завалил этих пафосных никчёмных слобаков</Data></Cell></Row>
+<Cell><Data ss:Type="String">Сможешь сделать Ядер квас?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Да! [швыряете под ноги  изуродованные головы быших авторитетов ОПГ Смерть]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Погоди я ещё старый не доделала</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Блеск! \nЭти слабаки не достойны чтобы жить...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Будем ждать. Пока</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[вы с недоумением смотрите на собеседницу]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Я постараюсь</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Но остался ещё один старый хрыч в КРЗ.\nЗавали старого ханжу и принеси мне сувенир - его ухо и мы станем единственными хозяевами этих земель!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи на 1 порцию</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Нет, я ни чего не сделал и вообще я тут мимо проходил...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Будет готово через 12 часо, быстрее никак</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Погоди...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи на 2 порции</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[свалить по-тихому]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи на 3 порции</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ну пошли. (Внимание! Вы станете агентом хаоса - всё живое нужно будет стереть с лица земли)</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи на 4 порции</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ну пошли.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Как найду - принесу, а пока мне пора</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Галина Батори присоединилась к вашей банде.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Чего то мне перехотелось [уйти]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Зачем мне твой труп? Ты забавная. Но вот орать на каждом углу, что \"Мы - Смерть, Мы - Хаос!\" не стоит. Разведаем сначала что к чему и прибарахлимся как следует.</Data></Cell></Row>
+<Cell><Data ss:Type="String">А ещё чего то особенного можешь приготовить?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я тут отходил по важным делам. У нас какой-то новый план?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ну я знаю старый рецепт Ядер кваса - его делала моя бабушка до того как миру пришёл конец...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ну типа того, мы тебе потом расскажем. Кстати, зубастенькая теперь с нами. Зови ее просто - Галя, ей нравиться.</Data></Cell></Row>
+<Cell><Data ss:Type="String">В нынешних условиях повторить его будет довольно сложно, мне понядобятся 2 бутылки воды в стекле, 2 в пластике, 10 свёкол (сахара же не найти), 3 пряника и 5 галет на мякину</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">opg_death_galina_teammate</Data></Cell></Row>
+<Cell><Data ss:Type="String">Отлично!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">&gt; Слушай, мне кажется пришло время убивать.</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">castle_guard_3</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ну наконец-то. Я то всегда готова. А ты?</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Вы видите ужас в глазах некогда весёлого человека]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Да, убить всех человеков!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Что это за чертавщина такая? Откуда эти монстры в таком количестве?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я пока что-то очкую. Надо еще подумать.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Шайтан их знает! Но мы сними разобрались.</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Петь песню]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Я хочу осмотреться тут (вдруг чего интересного найдём), а потом свалить отсюда и не вспоминать это место никогда</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ехали козаки из Дону до дому,\nПидманули Галю - забрали с собою....</Data></Cell></Row>
+<Cell><Data ss:Type="String">Шайтан их знает! У нас два выхода или убить всех гадов, или свалить отсюда, потом вернуться и убить всех гадов!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я тебе сейчас в глаз плюну!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Предлагаю первый вариант - избавить мир от этих мутантов</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ой, ты Галю, Галю молодая,\nОбманули Галю - забрали с собою.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Согласен, иначе нам не поверят без даказательств - возьмём пару трофеев</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Заткнись!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Договорились</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">village_bum</Data></Cell></Row>
+<Cell><Data ss:Type="String">Предлагаю второй вариант - валим пока нас не сожрали</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Может нальёшь?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Давай по тихому свалим, а потом подготовимся и уж тогда покажем им, иначе они покоя нам тут не дадут</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Конечно!\nПриноси по 2 бутылки всех крепких напитков (кроме портвейна) и 1 бутылку самогонки и мухомор не забудь</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Машет вам рукой чтобы вы подошли поближе и как обычно улыбается во весь рот]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Вот держи</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Садитесь рядом]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Мужик протягивает вам очень стрёмную бутылку с мутной жидкостью, это можно употребить только перед самой смертью, но лучше не стоит</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ты особо всем не рассказывай что мы увидели, а то тут начнётся паника, а нам это не кчему - правильно?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Спасибо! пойду в бар - начищу кому-нибудь рыло</Data></Cell></Row>
+<Cell><Data ss:Type="String">И что ты предлагаешь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">А ещё есть?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Вот держи что у меня в закромах осталось - всё твоё, А я договорюсь с охотниками - расставим ловушек, капканов...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Понятно, как найду - загляну</Data></Cell></Row>
+<Cell><Data ss:Type="String">Да не густо</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Чего это ты тут мастеришь?</Data></Cell></Row>
+<Cell><Data ss:Type="String">А ещё давай я тебе расскажу как сделать такуюже снайперскую винтовку как у меня</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Проверяю самогонный аппарат, я знаю секретный рецепт самого крутого пойла во всей пустоши - Бормотуха!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ого, а вот за это спасибо дружище!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">И много желающих?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Спасибо</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Полно! Все кто хочет в азартных играх забыться, к душевной стремясь красоте, доуг другу рабочие лица стараются набить в темноте</Data></Cell></Row>
+<Cell><Data ss:Type="String">Нет! я считаю что люди должны знать что их поджидает в этих окресностях, предупреждён значит вооружён</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">village_wallguard</Data></Cell></Row>
+<Cell><Data ss:Type="String">Да не шуми ты так! Мы же всех перебили</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Может сообразим на двоих?</Data></Cell></Row>
+<Cell><Data ss:Type="String">И то верно, для красной книги точно потерь от этого не будет</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ещё бы!</Data></Cell></Row>
+<Cell><Data ss:Type="String">И я о чём тебе говорю.</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Понеслась]</Data></Cell></Row>
+<Cell><Data ss:Type="String">И что теперь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Вы бухнули у костра и услышав множество народных мудростей - научились передвигаться по населённым пунктам на много быстрее</Data></Cell></Row>
+<Cell><Data ss:Type="String">А если ещё где-то остались такие же монстры, а если дети к ним попадут в лапы?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ваша скорость передвижения увиличилась в 2 раза</Data></Cell></Row>
+<Cell><Data ss:Type="String">Поступай как знаешь [отвернулся в сторону]</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">tunnel.comp_2</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Пожать плечами и уйти]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Попытаться найти информацию о проекте Гаусс</Data></Cell></Row>
+<Cell><Data ss:Type="String">Пошли искать чудовище с волками</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Успех] Вы нашли все необходимые чертежи.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Сам ты дорогу не найдёшь, пойдём вместе. Скажи когда будешь готов</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Попытаться собрать Винтовку Гаусса</Data></Cell></Row>
+<Cell><Data ss:Type="String">Готов, пошли!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Успех] У вас получилось! Вы собрали Винтовку Гаусса и нашли способ как изготовить заряды для неё.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Хорошо, погоди я только подготовлюсь</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Уйти]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Что то ты сегодня задумчивый сидишь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Провал] Вам не хватило научных знаний, возможно следует перечитать документацию...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Да, брат, твоя прада и есть над чем подумать...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">У вас нету всех компонентов, нужно поискать в военных бункерах, а также в логове крупных приступных картелей.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Мы тут единственные кто хоть какой никакой порядок поддерживаем - через эти места краваны с провиантом ходят...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Провал] Вы не смогли разобраться в потоке бесконечных чертежей и формул, возможно стоит сначала перечитать документацию...</Data></Cell></Row>
+<Cell><Data ss:Type="String">Знаем мы ваш провиант...</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">level_city_1</Data></Cell></Row>
+<Cell><Data ss:Type="String">Так не хватало нам бандитов и волков, которые нападают, так теперь ещё и какието чудовища говорят появились и они командуют другими мутантами...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Наконец-то получилось очитсть город от продажных ментов</Data></Cell></Row>
+<Cell><Data ss:Type="String">Только не говори, что ты тоже веришь в эти сказки?</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">level_lab_level_2</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Мужик перестаёт улыбаться] Сам не верю, но проверить надо и чтобы как минимум 2 человека подттвердили...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Какая глушь, если тут что-то произойдёт, снаружи никто даже не узнает!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Так может я сгожусь на эту роль?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Больше нету чиновников в КРЗ</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Снова улыбается] А ведь и то верно! На Эфенди надёги нет, а остальные даже слушать перепуганных караванщиков не хотят. Я тебе за помощь патронов отсыплю и классную винтовку покажу как собрать!</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я ничего не видел</Data></Cell></Row>
+<Cell><Data ss:Type="String">И с чего мне начать?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Не трогайте меня!</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ну бывает, надеюсь вы разберётесь со своими проблемами</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Упс</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Угрюмо смотрит в даль]</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">opg.galina</Data></Cell></Row>
+<Cell><Data ss:Type="String">Нет, не интересно [уходите]</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Однажды тёмной ночью</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">city_trader</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">А может светлым днём</Data></Cell></Row>
+<Cell><Data ss:Type="String">Расскажи - а как часто у тебя бывают поставки?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я выйду из засады</Data></Cell></Row>
+<Cell><Data ss:Type="String">Всё для клиента, говори когда захочешь прийти и я всё подготовлю</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">И мы окажемся вдвоём</Data></Cell></Row>
+<Cell><Data ss:Type="String">Через час</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">А если ты удавишься от страха и тоски</Data></Cell></Row>
+<Cell><Data ss:Type="String">Договорились - буду ждать</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я всё равно найду тебя и вышибу мозги</Data></Cell></Row>
+<Cell><Data ss:Type="String">Супер!</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">craft_anarchist_cookbook</Data></Cell></Row>
+<Cell><Data ss:Type="String">Через день</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">В этой книге записаны самые редкие рецепты.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Через 3 дня</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">craft_gazmask</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ой, я пока передумал</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Что может быть лучше старых добрых противогазов - один новый!</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">fogelevka_herbalist</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">craft_tt</Data></Cell></Row>
+<Cell><Data ss:Type="String">И ты находишь всё прям сдесь?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Эта схема модификации пистолета ТТ </Data></Cell></Row>
+<Cell><Data ss:Type="String">Ну... почти... всё...</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">gauss_book</Data></Cell></Row>
+<Cell><Data ss:Type="String">А ведь и правда, ты явно много путешествуешь</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Теперь вы начали понимать - эти записи хронят ключ к мощнейшему оружию]\nВ этой книге собраны какие-то странные записи о исследовании электромагнитных полей и когерентных излучениях. Вы не в сотоянии разобрать о чём сдесь написано, но в ней гворится о побочном открытии сверх мощного эффекта электромагнитной индукции и о прототипе нового оружия, которое названо в честь великого физика  Иоганн Карл Фридрих Гаусса. Также вам удалось понять, что более подробная информация находится на технической ракетной базе на военных серверах.</Data></Cell></Row>
+<Cell><Data ss:Type="String">Конечно и подозреваю тебе нужно что-то достать?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Ваш навык понимания технологий увиличился на 150 (но это не на долго)</Data></Cell></Row>
+<Cell><Data ss:Type="String">Правильно подозреваешь. Через нашу деревню проходят множество караванов и мне рассказывали что в вущелье бед есть странное озеро...</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">nocraft_cateye</Data></Cell></Row>
+<Cell><Data ss:Type="String">Что с этим озером нетак?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Набор деверсанта, военные препараты позволяют стать почти невидимым для врагов.\nНужно опастаься побочного действия, как и от любых военных разработок</Data></Cell></Row>
+<Cell><Data ss:Type="String">Оно кроваво красного цвета от соленых примесей и вода в нём обладает галлюциногенными свойствами...</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">tunnel_memo_2</Data></Cell></Row>
+<Cell><Data ss:Type="String">И зачем она тебе?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Эту записку следует показать в ближайшем населённом пункте, наверняка этих людей кто-то ищет</Data></Cell></Row>
+<Cell><Data ss:Type="String">Для опытов конечно же. Но проблема в том что она не стабильна и соли ралагаются на нерасстворимый осадок...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[эту записку лучше сохранить и не продавать]</Data></Cell></Row>
+<Cell><Data ss:Type="String">Мне нужно чтобы её выпарили на месте и доставили дистилят сюда в специальной ампуле</Data></Cell></Row>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">zippo</Data></Cell></Row>
+<Cell><Data ss:Type="String">Давай сюда свою ампулу, посмотрим что получится сделать</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Для костра нужна солярка</Data></Cell></Row>
+<Cell><Data ss:Type="String">Не... я уже стар для всего этого говна</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Для костра нужна бумага</Data></Cell></Row>
+<Cell><Data ss:Type="String">Смотри что у меня есть</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Для костра нужно дерево</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ого тебе удалось сделать дестилят! Так и знала, что у тебя получится...</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Для костра нужен топор</Data></Cell></Row>
+<Cell><Data ss:Type="String">[Выхватывает у вас ампулу с кровавой жидкостью и необращая на вас ни какого внимания убегает к себе в коморку]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Постой...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Возвращается через 15 минут]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">И что мне с этим делать? Пить я это точно не стану - даже не проси</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Как хочешь, тем более что если ты всё таки выпьеш - то забудешь о своём обещани! Это зелье забвения...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ну спасибо... Я пойду</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">А можешь ещё изготовить своё зелье?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Конечно! [забирет ампулу и удаляется к себе в коморку]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ждёте... Как обычно - через 15 минут травница - отравница приносит вам ампулу</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Только будь осторожен, а то не вспомнишь как тебя зовут!</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Спасибо, учту, покеда...</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">harbor_help</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Вдруг охранник вам протягивает инструкцию для ПП скорпион</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Вот это да! Спасибо огромное!</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">village_trader</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">По поводу твоего задания</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Идеально - то что нужно [Забирает у вас инструкцию по обработке металлов и созданию модифицированного ППС и отдаёт вам пачку купюр]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ну вот и всё</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Слушаю...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ок, я готов, куда идти?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Последняя база была совсем рядом, об этом месте мне рассказали караванщики</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Вы отправляетесь на базу налётчиков]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Передумал]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">В процессе...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Отлично! у тебя получилось найти то, что нужно [забирает ржавый ППС и отдаёт вам деньги]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Это ещё не всё. Нужно найти ещё рецепт обработки металла, который эти дикари украли. Зачем он им?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ок, но мне нужно сначала подготовиться</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Ох, такое мне пока не по зубам</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Это ещё не всё. Нужно найти ещё такой же</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">О вижу ты по радио с кем-то пытаешься связаться?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Пытаюсь... но бесполезно...</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Может передать комуто что-то надо, я много путешествую, могу помочь</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Уже не чего и не кому передавать - все мертвы</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">С чего ты взял?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Места здесь не спокойные, караваны постоянно атакуются налётчиками. Вот еслибы кто-то смог их перестрелять всех к чертям!</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Он сжимает кулаки и явно видно что у него начинается дёргаться глаз]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Так может я помогу разобраться с ними?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Возможно, но бизнес превыше всего, мне нужно вернуть хотябы часть украденного у меня оружия. Геройствовать не надо, нужно только найти их временную базу и стащить мои запчасти для ппш</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">А что я получу за это?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Этоже гопники у них куча награбленного хлама, мне нужен только Ржавый ППС-43, не геройствуй забирай итутже возвращайся, я сверху ещё 300 накину</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">И где же мне искать ваше имущество?</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Грабители не сидят долго на одном месте, у них есть временные базы, возможно ты наткнёшься на такую во время своих путешествий по пустошам или нужно отправляться прямо сейчас</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Не интересно</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Досадно это слышать</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">zvezda_avram</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Старик протягивает вам стопку банкнот и быстро показывает как можно починить очки, в которых вы будите на много более презентабельнее выглядеть для собиседника]</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">zvezda_guard_wall</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Можно взять и ушатать [зависит от вашей удачи]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Врезать со всей дури крокодилдой по кумполу</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Чего-то сыкотно</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">campfire</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Вы видите кровавый водопад с озером и рядом костёр на котором можно тлично выпарить воду ]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Попытаться прокипятить воду</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Успех [Вы кладёте в карман ампулу с какой-то очень ядовитой жидкостью кровавого цвета]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Далее]</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">z_13</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Вы нашли украденные чертежи]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Хорошо бы самому их прочитать!]</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">[Вы нашли украденное оружее]</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_m24_m</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Самый вандальный способ снять оптику с винтовки Remington 700М , после этого обратно вернуть уже не получится, если она вообще после этого стрелять будет...</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_pps43_m</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Вороне́ние стали (оксидирование, чернение, синение) — процесс получения на поверхности углеродистой или низколегированной стали или чугуна слоя окислов железа толщиной 1-10 мкм. От толщины этого слоя зависит его цвет — т. н. цвета побежалости, сменяющие друг друга по мере роста плёнки (жёлтый, бурый, вишнёвый, фиолетовый, синий, серый).\r\n\r\nСуществуют следующие виды воронения:\r\n\r\n    щелочное — воронение в щелочных растворах с окислителями при температуре 135—150 °C;\r\n    кислотное — воронение в кислых растворах химическим или электрохимическим способами;\r\n    термическое — окисление стали при высоких температурах: в парах аммиачно-спиртовой смеси при 520—880 °C, в расплавленных солях при 400—600 °C, а также в воздушной атмосфере при 310—450 °C с предварительным покрытием поверхности детали тонким слоем асфальтового или масляного лака.\r\n\r\nСтруктура покрытия — мелкокристаллическая, микропористая. Для придания блеска, а также улучшения защитных свойств оксидной плёнки её также пропитывают маслом (минеральным или растительным). </Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_scorpion_m</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Схема модификации ПП скорпион</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_sks_s</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Схема установки оптики на СКС</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">craft_svd_m</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Схема SVD Модифицированная</Data></Cell></Row>
+<Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">redbook</Data></Cell></Row>
+<Row>
+<Cell><Data ss:Type="String">Это тестовая книга</Data></Cell></Row>
 </Table></Worksheet></Workbook>

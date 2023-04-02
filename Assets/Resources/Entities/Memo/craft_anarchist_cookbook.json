@@ -50,7 +50,6 @@
             "1d35b6eb-c734-4267-b3a7-86753d9f5d0d", 
             "cf26b1d7-b252-498d-a4ea-4a0ecf461905", 
             "b944ebc2-ebc9-4dc1-b246-407efd02609c", 
-            "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11", 
             "810007ee-0499-4925-8e10-baff36199d02", 
             "e4478992-4476-48a2-b22f-c433595367b5", 
             "c4136e25-44fd-41dc-89ac-418adb6ef588", 
@@ -428,17 +427,6 @@
          "recipe" : "Rojo_full", 
          "showMsg" : "true"
       }, 
-      "8e3fb5d1-acba-4cb0-87cf-af7e84b3ab11" : { 
-         "class" : "PlayerAddRecipeNode", 
-         "desc" : { 
-            "x" : "-99632", 
-            "y" : "-100841"
-         }, 
-         "child" : [ 
-         ], 
-         "recipe" : "craft_pps43mod", 
-         "showMsg" : "true"
-      }, 
       "810007ee-0499-4925-8e10-baff36199d02" : { 
          "class" : "PlayerAddRecipeNode", 
          "desc" : { 
@@ -568,7 +556,7 @@
          }, 
          "child" : [ 
          ], 
-         "recipe" : "svd_m", 
+         "recipe" : "SVD_M", 
          "showMsg" : "true"
       }, 
       "83a51f58-8a3d-456d-9caf-e72547cb8e8e" : { 

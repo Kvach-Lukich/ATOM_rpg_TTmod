@@ -134,7 +134,7 @@
          "child" : [ 
             "d6b3774f-58e5-47fc-829a-6e19c1037bab"
          ], 
-         "text" : "[Вы видите кровавый водопад с озером и рядом костёр на котором можно тлично выпарить воду ]"
+         "text" : "#campfire.b6de4ede-844c-4ed6-8dc3-04a982475ae3"
       }, 
       "d6b3774f-58e5-47fc-829a-6e19c1037bab" : { 
          "class" : "DialogAnswerNode", 
@@ -145,7 +145,7 @@
          "child" : [ 
             "702aad08-0584-4ca8-a66d-fca4480ff342"
          ], 
-         "text" : "Попытаться прокипятить воду"
+         "text" : "#campfire.d6b3774f-58e5-47fc-829a-6e19c1037bab"
       }, 
       "702aad08-0584-4ca8-a66d-fca4480ff342" : { 
          "class" : "InventoryRemoveItemNode", 
@@ -189,7 +189,7 @@
             "b390f969-6368-4cea-860c-52d931fda6d2", 
             "1dbd027c-cc62-4de9-a2d6-d7beef56c755"
          ], 
-         "text" : "Успех [Вы кладёте в карман ампулу с какой-то очень ядовитой жидкостью кровавого цвета]"
+         "text" : "#campfire.1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
       }, 
       "b390f969-6368-4cea-860c-52d931fda6d2" : { 
          "class" : "DialogAnswerNode", 
@@ -200,7 +200,7 @@
          "child" : [ 
             "6a140602-db56-4007-bf87-8e016a9d14d9"
          ], 
-         "text" : "[Уйти]"
+         "text" : "#campfire.b390f969-6368-4cea-860c-52d931fda6d2"
       }, 
       "6a140602-db56-4007-bf87-8e016a9d14d9" : { 
          "class" : "DialogEndNode", 
@@ -220,7 +220,7 @@
          "child" : [ 
             "a39e573c-0a63-4528-bebd-a860b67f48ed"
          ], 
-         "text" : "[Далее]"
+         "text" : "#campfire.1dbd027c-cc62-4de9-a2d6-d7beef56c755"
       }, 
       "a39e573c-0a63-4528-bebd-a860b67f48ed" : { 
          "class" : "DialogPhraseNode", 

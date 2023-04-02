@@ -1,0 +1,156 @@
+{ 
+   "states" : { 
+      "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100979", 
+            "y" : "-100776"
+         }, 
+         "child" : [ 
+            "4c28939a-229d-450c-a9ea-e9984fb9c8c9"
+         ]
+      }, 
+      "4c28939a-229d-450c-a9ea-e9984fb9c8c9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-100992", 
+            "y" : "-100693"
+         }, 
+         "child" : [ 
+            "cc599c36-a707-4d23-8c29-272c9e4c187f", 
+            "75f8f344-e647-40d7-8fff-d9e4571d1a1a"
+         ], 
+         "stateName" : ""
+      }, 
+      "cc599c36-a707-4d23-8c29-272c9e4c187f" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-101237", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "5f6bcf9c-0ec4-414a-a769-14dc6aa7917b"
+         ]
+      }, 
+      "5f6bcf9c-0ec4-414a-a769-14dc6aa7917b" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-100559"
+         }, 
+         "child" : [ 
+            "48afef09-197d-43ee-9d70-418a1334e042", 
+            "49882526-4b94-4fd8-9f28-c97e331d599b"
+         ], 
+         "filterFractionName" : "harbor_wolf"
+      }, 
+      "48afef09-197d-43ee-9d70-418a1334e042" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101383", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "GASY_KILL_ALL_MONSTERS"
+      }, 
+      "49882526-4b94-4fd8-9f28-c97e331d599b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101178", 
+            "y" : "-100429"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "75f8f344-e647-40d7-8fff-d9e4571d1a1a" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100879", 
+            "y" : "-100599"
+         }, 
+         "child" : [ 
+            "9a485888-7101-49cb-a601-de667d78059c", 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ]
+      }, 
+      "9a485888-7101-49cb-a601-de667d78059c" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101052", 
+            "y" : "-100395"
+         }, 
+         "child" : [ 
+            "bc21cc03-5419-4d4f-a398-2c566cd44dde"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "5"
+      }, 
+      "bc21cc03-5419-4d4f-a398-2c566cd44dde" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-100291"
+         }, 
+         "child" : [ 
+            "28470171-df64-4a14-b55c-9aace50997c2"
+         ]
+      }, 
+      "28470171-df64-4a14-b55c-9aace50997c2" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100900", 
+            "y" : "-100162"
+         }, 
+         "child" : [ 
+            "75f8f344-e647-40d7-8fff-d9e4571d1a1a"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "dff11213-f260-4db2-b405-488f7cfc2e49" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100802", 
+            "y" : "-100486"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ], 
+         "waitTimeMin" : "1", 
+         "waitTimeMax" : "2"
+      }, 
+      "95b468b6-18cb-4118-8a98-064070ccbf3d" : { 
+         "class" : "CharacterInDialogNode", 
+         "desc" : { 
+            "x" : "-100831", 
+            "y" : "-100392"
+         }, 
+         "child" : [ 
+            "ede6f67d-f966-4175-a1fb-701c403d3022", 
+            "b2b706ac-fee4-45d1-9e52-b3d9477c087c"
+         ]
+      }, 
+      "ede6f67d-f966-4175-a1fb-701c403d3022" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100919", 
+            "y" : "-100301"
+         }, 
+         "child" : [ 
+            "28470171-df64-4a14-b55c-9aace50997c2"
+         ]
+      }, 
+      "b2b706ac-fee4-45d1-9e52-b3d9477c087c" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-100794", 
+            "y" : "-100295"
+         }, 
+         "child" : [ 
+            "28470171-df64-4a14-b55c-9aace50997c2"
+         ], 
+         "pointName" : "Player"
+      }
+   }, 
+   "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"
+}

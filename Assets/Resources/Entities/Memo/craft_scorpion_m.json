@@ -19,7 +19,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Схема модификации ПП скорпион"
+         "text" : "#craft_scorpion_m.9af8f920-0d22-4f6a-9b0c-cb2ff387960c"
       }, 
       "98225ee3-a9ab-423e-b6c5-ef109eb55269" : { 
          "class" : "PlayerAddRecipeNode", 

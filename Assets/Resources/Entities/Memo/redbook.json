@@ -1,0 +1,931 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-102097", 
+            "y" : "-101291"
+         }, 
+         "child" : [ 
+            "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683"
+         ]
+      }, 
+      "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102102", 
+            "y" : "-101248"
+         }, 
+         "child" : [ 
+            "146b00b8-9740-43c6-9f27-6cff4b040ab0", 
+            "e9acc999-63aa-4c2a-90b4-cc56cd93afb9", 
+            "adb34483-2787-4875-8b26-a94ba0c2646a", 
+            "26896825-9a6f-46db-bef5-2c89b054ca30", 
+            "2b081f93-d579-4c48-815e-9f6423021fd9", 
+            "d3dc3e64-7d0f-4833-ae26-ece3314e6a3b", 
+            "2e3a3d1f-1c2a-468d-85fc-0f308bd994f9", 
+            "caf4605d-6ee3-416f-a0ad-9669ebd5a4e6", 
+            "4914e0fc-1c44-45df-a40c-9923b4aa0024", 
+            "7d2c2aa9-39d5-47a6-b21d-3849e2990937", 
+            "2955ccd2-d6b2-4071-a334-3509d5068d32", 
+            "4747ae2f-f5dc-4738-a8b9-41b158845dbe", 
+            "781ef5d7-e5cb-4f19-b242-a877a1975897", 
+            "494ea372-fad4-4ee2-876a-13ccd3a52780", 
+            "039e810a-96ec-4fc0-8245-27462934931a", 
+            "7f7f33e3-bf4e-439a-b602-77eea80811f6", 
+            "d684b976-a0ec-4d74-bea4-267bce1b8589", 
+            "a3fbc4ad-851c-472a-8338-3cec05c52518", 
+            "435f76fd-90a7-47d4-b664-5420e66eba67", 
+            "c459e2e5-2b1b-4f9b-892b-83e0be5dad9e", 
+            "e76f404b-6def-4eef-8098-b2c965f04041", 
+            "fd756fe4-ca3d-4f0e-a326-4597d95d6e6f", 
+            "5a3ade96-d0c8-47d9-a272-06c6fc15de51", 
+            "fedf8ef3-f08c-4ad2-b806-b2b198e79244", 
+            "27fc008e-23fa-4418-93d6-dd7cb3770a56", 
+            "a95b9523-06e8-416c-81d7-7048a4f5007b", 
+            "8c096f88-0d51-44f2-830b-ac8a19877161", 
+            "2692c789-5e0c-43ff-bc84-49faf167dd5b", 
+            "b0427fdc-fd39-4504-b802-8771c5020dab", 
+            "ff68ceb4-6267-41f7-942d-323506cc80e8", 
+            "74c4b63f-7384-4e43-b5d1-1b44b6b343af", 
+            "ab03c4e4-066c-4b9a-87b3-6e38d10265ab", 
+            "17914783-adb1-4e50-873b-6cff095f53de", 
+            "35a796b5-75a3-4346-bfda-5d55c9afdbeb", 
+            "f7d51c4f-cada-4eda-9595-95a51ce2d1e1", 
+            "506e23e2-0d82-4f63-b469-fe0d04029926", 
+            "62d6ca31-5b48-40e1-a8e6-a7ce86fd5967", 
+            "03a087f3-cc21-4510-a6a5-6ec6e258be38", 
+            "24ce42b6-23ac-4d4f-ba73-5c08bc9c6fa1", 
+            "c3f0a0c4-c848-45e9-bb9e-c3bad26f1b99", 
+            "640bed43-e874-4fd8-86be-2839076d4fd5", 
+            "0d9d4627-796c-4115-9c82-ae14cebada10", 
+            "14a80cc9-1123-4d72-bce8-3ce39d71c6e2", 
+            "9d47609f-dc7d-40dd-8ec7-b278e0b32873", 
+            "bdf6b4ff-cfeb-4e03-b91c-e8223038e16a", 
+            "68687cd2-5be6-41de-a1ba-6428822ff426", 
+            "c9cde281-2bea-4a27-a017-f87c822a3821", 
+            "25044d01-9cc4-492f-b0a9-0047eef5c6d9", 
+            "c77ba216-3af5-4ccc-a87d-84543ba55373", 
+            "b2f429e4-17ed-4645-9f04-e82345b68973", 
+            "ed296722-d887-4afa-a779-ab7e2df470fa", 
+            "3298bdc5-99a2-470e-9813-ea49ae7dd35a", 
+            "ea20f312-6353-4d56-ac4f-2f3a39d1049d", 
+            "ae57c931-ec11-4f74-b162-b3ec894e5051", 
+            "133364cc-8a7a-484b-95d9-59df81972a21", 
+            "0d1eb426-6c92-4224-9ea4-d7aee7259b44", 
+            "6a83ea1c-c21a-40aa-83f7-434cedf74dbb"
+         ]
+      }, 
+      "146b00b8-9740-43c6-9f27-6cff4b040ab0" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101695", 
+            "y" : "-101189"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#redbook.146b00b8-9740-43c6-9f27-6cff4b040ab0"
+      }, 
+      "e9acc999-63aa-4c2a-90b4-cc56cd93afb9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102337", 
+            "y" : "-101167"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "1", 
+            "proto" : "10mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "adb34483-2787-4875-8b26-a94ba0c2646a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102387", 
+            "y" : "-101217"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "1", 
+            "proto" : "10mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "26896825-9a6f-46db-bef5-2c89b054ca30" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102437", 
+            "y" : "-101267"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "1", 
+            "proto" : "6_49mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2b081f93-d579-4c48-815e-9f6423021fd9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102487", 
+            "y" : "-101317"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "1", 
+            "proto" : "gauss_nails"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d3dc3e64-7d0f-4833-ae26-ece3314e6a3b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102537", 
+            "y" : "-101367"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "bearsback"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2e3a3d1f-1c2a-468d-85fc-0f308bd994f9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102587", 
+            "y" : "-101417"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "bearsteel"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "caf4605d-6ee3-416f-a0ad-9669ebd5a4e6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102637", 
+            "y" : "-101467"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "belamor"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4914e0fc-1c44-45df-a40c-9923b4aa0024" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102687", 
+            "y" : "-101517"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "bormotuha"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7d2c2aa9-39d5-47a6-b21d-3849e2990937" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102737", 
+            "y" : "-101567"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Cake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2955ccd2-d6b2-4071-a334-3509d5068d32" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102787", 
+            "y" : "-101617"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "cateye"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4747ae2f-f5dc-4738-a8b9-41b158845dbe" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102837", 
+            "y" : "-101667"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "DiselOil"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "781ef5d7-e5cb-4f19-b242-a877a1975897" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102887", 
+            "y" : "-101717"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "kvas"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "494ea372-fad4-4ee2-876a-13ccd3a52780" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102937", 
+            "y" : "-101767"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Petrol"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "039e810a-96ec-4fc0-8245-27462934931a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-102987", 
+            "y" : "-101817"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "waterfall_ampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7f7f33e3-bf4e-439a-b602-77eea80811f6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103037", 
+            "y" : "-101867"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d684b976-a0ec-4d74-bea4-267bce1b8589" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103087", 
+            "y" : "-101917"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a3fbc4ad-851c-472a-8338-3cec05c52518" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103137", 
+            "y" : "-101967"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "gauss_pt3"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "435f76fd-90a7-47d4-b664-5420e66eba67" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103187", 
+            "y" : "-102017"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Geiger"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c459e2e5-2b1b-4f9b-892b-83e0be5dad9e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103237", 
+            "y" : "-102067"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e76f404b-6def-4eef-8098-b2c965f04041" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103287", 
+            "y" : "-102117"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_dima_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fd756fe4-ca3d-4f0e-a326-4597d95d6e6f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103337", 
+            "y" : "-102167"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_igor_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5a3ade96-d0c8-47d9-a272-06c6fc15de51" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103387", 
+            "y" : "-102217"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "opg_lena_head"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fedf8ef3-f08c-4ad2-b806-b2b198e79244" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103437", 
+            "y" : "-102267"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "ZIPPO"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "27fc008e-23fa-4418-93d6-dd7cb3770a56" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103487", 
+            "y" : "-102317"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_anarchist_cookbook"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a95b9523-06e8-416c-81d7-7048a4f5007b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103537", 
+            "y" : "-102367"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_gazmask"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8c096f88-0d51-44f2-830b-ac8a19877161" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103587", 
+            "y" : "-102417"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_m24_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2692c789-5e0c-43ff-bc84-49faf167dd5b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103637", 
+            "y" : "-102467"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b0427fdc-fd39-4504-b802-8771c5020dab" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103687", 
+            "y" : "-102517"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_scorpion_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ff68ceb4-6267-41f7-942d-323506cc80e8" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103737", 
+            "y" : "-102567"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_sks_s"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "74c4b63f-7384-4e43-b5d1-1b44b6b343af" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103787", 
+            "y" : "-102617"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_svd_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ab03c4e4-066c-4b9a-87b3-6e38d10265ab" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103837", 
+            "y" : "-102667"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_tt"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "17914783-adb1-4e50-873b-6cff095f53de" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103887", 
+            "y" : "-102717"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "gauss_book"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "35a796b5-75a3-4346-bfda-5d55c9afdbeb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103937", 
+            "y" : "-102767"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "nocraft_cateye"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f7d51c4f-cada-4eda-9595-95a51ce2d1e1" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-103987", 
+            "y" : "-102817"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "redbook"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "506e23e2-0d82-4f63-b469-fe0d04029926" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104037", 
+            "y" : "-102867"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Amulet_Satanik"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "62d6ca31-5b48-40e1-a8e6-a7ce86fd5967" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104087", 
+            "y" : "-102917"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Armor81"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "03a087f3-cc21-4510-a6a5-6ec6e258be38" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104137", 
+            "y" : "-102967"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "armor81_inviz"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "24ce42b6-23ac-4d4f-ba73-5c08bc9c6fa1" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104187", 
+            "y" : "-103017"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "armor81_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c3f0a0c4-c848-45e9-bb9e-c3bad26f1b99" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104237", 
+            "y" : "-103067"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ClownNose"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "640bed43-e874-4fd8-86be-2839076d4fd5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104287", 
+            "y" : "-103117"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Fedora"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0d9d4627-796c-4115-9c82-ae14cebada10" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104337", 
+            "y" : "-103167"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "gidrator"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "14a80cc9-1123-4d72-bce8-3ce39d71c6e2" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104387", 
+            "y" : "-103217"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Glasses"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9d47609f-dc7d-40dd-8ec7-b278e0b32873" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104437", 
+            "y" : "-103267"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "glasses2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bdf6b4ff-cfeb-4e03-b91c-e8223038e16a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104487", 
+            "y" : "-103317"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "glasses3"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "68687cd2-5be6-41de-a1ba-6428822ff426" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104537", 
+            "y" : "-103367"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Hand_Bag"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c9cde281-2bea-4a27-a017-f87c822a3821" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104587", 
+            "y" : "-103417"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "M24_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "25044d01-9cc4-492f-b0a9-0047eef5c6d9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104637", 
+            "y" : "-103467"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "crocodildo"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c77ba216-3af5-4ccc-a87d-84543ba55373" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104687", 
+            "y" : "-103517"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "DesertEagle"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b2f429e4-17ed-4645-9f04-e82345b68973" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104737", 
+            "y" : "-103567"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "gauss"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ed296722-d887-4afa-a779-ab7e2df470fa" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104787", 
+            "y" : "-103617"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "injector"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "3298bdc5-99a2-470e-9813-ea49ae7dd35a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104837", 
+            "y" : "-103667"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Pistol_AK"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ea20f312-6353-4d56-ac4f-2f3a39d1049d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104887", 
+            "y" : "-103717"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "pps43_m"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ae57c931-ec11-4f74-b162-b3ec894e5051" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104937", 
+            "y" : "-103767"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "SVD_M"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "133364cc-8a7a-484b-95d9-59df81972a21" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104987", 
+            "y" : "-103817"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Tokarev_M"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0d1eb426-6c92-4224-9ea4-d7aee7259b44" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105037", 
+            "y" : "-103867"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "VVE"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6a83ea1c-c21a-40aa-83f7-434cedf74dbb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105087", 
+            "y" : "-103917"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "WrathLenin"
+         }, 
+         "objectName" : "Player"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}

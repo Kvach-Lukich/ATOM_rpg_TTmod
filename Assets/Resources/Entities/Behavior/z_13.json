@@ -1,0 +1,2964 @@
+{ 
+   "states" : { 
+      "a452d7a5-3590-4f6b-bdd2-f5a1e82dd029" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101757", 
+            "y" : "-101509"
+         }, 
+         "child" : [ 
+            "c7436742-a9f0-48a9-bc17-4ffad7318d8e"
+         ]
+      }, 
+      "c7436742-a9f0-48a9-bc17-4ffad7318d8e" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101772", 
+            "y" : "-101432"
+         }, 
+         "child" : [ 
+            "76b789a6-ca0a-4500-bcfd-2630dc28ec13", 
+            "3f4cc447-536d-42bd-8616-699e633de3b9", 
+            "2ef25d78-eed1-4098-a3a2-5104aaeb3924"
+         ], 
+         "quest_key" : "LOST_CARAVAN_YA1"
+      }, 
+      "76b789a6-ca0a-4500-bcfd-2630dc28ec13" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101833", 
+            "y" : "-101308"
+         }, 
+         "child" : [ 
+            "1f2746a2-243f-47fc-b47e-3a86494b8ba2"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "1f2746a2-243f-47fc-b47e-3a86494b8ba2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101831", 
+            "y" : "-101245"
+         }, 
+         "child" : [ 
+            "cb7edaa5-8db5-4dc4-b298-282bcab53723"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "cb7edaa5-8db5-4dc4-b298-282bcab53723" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101832", 
+            "y" : "-101182"
+         }, 
+         "child" : [ 
+            "8a1c0bc3-b8fe-4f29-9048-abefcfb2b2d2", 
+            "2e52a33d-23f9-4b10-b8aa-90d7c87414d8", 
+            "2ff8de54-26b7-4d3c-b7a4-e7f499395fdf"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "8a1c0bc3-b8fe-4f29-9048-abefcfb2b2d2" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-102197", 
+            "y" : "-101042"
+         }, 
+         "child" : [ 
+            "4a3f26d6-9157-43fb-8f1f-3f6be8b8839e"
+         ]
+      }, 
+      "4a3f26d6-9157-43fb-8f1f-3f6be8b8839e" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-102197", 
+            "y" : "-100999"
+         }, 
+         "child" : [ 
+            "d75bd28d-1757-4002-a889-1d8793d25c87"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "d75bd28d-1757-4002-a889-1d8793d25c87" : { 
+         "class" : "ResetLevelDataNode", 
+         "desc" : { 
+            "x" : "-102199", 
+            "y" : "-100959"
+         }, 
+         "child" : [ 
+            "748c2c8d-2fea-4c4f-9090-3514a8b50c18"
+         ], 
+         "level" : "z_13"
+      }, 
+      "748c2c8d-2fea-4c4f-9090-3514a8b50c18" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-102232", 
+            "y" : "-100902"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "village_ground_1", 
+         "entrance" : "EnterPoint"
+      }, 
+      "2e52a33d-23f9-4b10-b8aa-90d7c87414d8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101752", 
+            "y" : "-101039"
+         }, 
+         "child" : [ 
+            "c26ce1c5-632d-4e5a-a246-fd8ee00e5e21", 
+            "8d439948-6f12-41e2-8c5e-5479630a04ba"
+         ]
+      }, 
+      "c26ce1c5-632d-4e5a-a246-fd8ee00e5e21" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101931", 
+            "y" : "-100920"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_map"
+      }, 
+      "8d439948-6f12-41e2-8c5e-5479630a04ba" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101676", 
+            "y" : "-100923"
+         }, 
+         "child" : [ 
+            "d6b334d4-edfa-4e48-a21c-c392df28ef8b", 
+            "ede48387-6022-409d-b125-ceaadbb3fc88"
+         ], 
+         "key" : "INIT"
+      }, 
+      "d6b334d4-edfa-4e48-a21c-c392df28ef8b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101712", 
+            "y" : "-100834"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ede48387-6022-409d-b125-ceaadbb3fc88" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101595", 
+            "y" : "-100835"
+         }, 
+         "child" : [ 
+            "8ebf1428-103e-4376-be99-df1c6fc705ce"
+         ], 
+         "key" : "INIT"
+      }, 
+      "8ebf1428-103e-4376-be99-df1c6fc705ce" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101551", 
+            "y" : "-100780"
+         }, 
+         "child" : [ 
+            "993145b5-ae22-4591-89af-bc247b30dd1f", 
+            "7141f6ea-1f94-4961-82a3-bf6447ba2a9b"
+         ]
+      }, 
+      "993145b5-ae22-4591-89af-bc247b30dd1f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101943", 
+            "y" : "-100237"
+         }, 
+         "child" : [ 
+            "b337463e-8031-4ceb-b479-f68620fac159"
+         ]
+      }, 
+      "b337463e-8031-4ceb-b479-f68620fac159" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101995", 
+            "y" : "-100119"
+         }, 
+         "child" : [ 
+            "c8e10d2c-d364-4e30-b26c-41e28b1a7d57"
+         ], 
+         "script" : "entities/behavior/z_z_tier"
+      }, 
+      "c8e10d2c-d364-4e30-b26c-41e28b1a7d57" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102128", 
+            "y" : "-100000"
+         }, 
+         "child" : [ 
+            "6cf1775e-18a1-4fb3-b133-2d528cecc76e", 
+            "35e5cdb6-5413-4e7c-8d41-b2c00b2f22cb"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "6cf1775e-18a1-4fb3-b133-2d528cecc76e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102211", 
+            "y" : "-99701", 
+            "comment" : "5-6"
+         }, 
+         "child" : [ 
+            "bb6f713c-58bb-4abe-ade2-701cba086998", 
+            "31154c88-c204-4567-bd6e-37589eb568b2"
+         ]
+      }, 
+      "bb6f713c-58bb-4abe-ade2-701cba086998" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102263", 
+            "y" : "-99652", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "81b4c8ef-0e32-4b25-b46c-901ee7051904", 
+            "31154c88-c204-4567-bd6e-37589eb568b2"
+         ]
+      }, 
+      "81b4c8ef-0e32-4b25-b46c-901ee7051904" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102357", 
+            "y" : "-99487"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.6"
+      }, 
+      "5e9422f5-475e-4607-88a1-faecf0115e66" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101866", 
+            "y" : "-99225"
+         }, 
+         "child" : [ 
+            "e91c1112-0469-4597-9479-9ccf9fc4797a"
+         ]
+      }, 
+      "e91c1112-0469-4597-9479-9ccf9fc4797a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101862", 
+            "y" : "-99148"
+         }, 
+         "child" : [ 
+            "d7b204a5-8f42-4c07-80f8-debd734e621d", 
+            "ecd1aa31-d8d6-466b-89bf-75e2d6637fd6"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "d7b204a5-8f42-4c07-80f8-debd734e621d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102025", 
+            "y" : "-99002", 
+            "comment" : "TIER_1"
+         }, 
+         "child" : [ 
+            "58c07b1f-a375-41cf-9ce9-10e5c3260448", 
+            "cc0c8fb2-a873-495d-b769-4437548ec45c", 
+            "d911aba3-9760-46a0-935f-f37c1bf36e60", 
+            "c8986340-f9ee-4904-bbc2-23380644f12a", 
+            "7c7c8c1d-a275-4c7d-8828-7a8c3b545722", 
+            "8a3d04fe-2a79-4d4a-a0e1-f89900b207a2", 
+            "8ec4a8ff-710b-4b13-bc04-ae62b2571e25", 
+            "bea0e733-4578-4686-8782-3b8934b984d2"
+         ]
+      }, 
+      "58c07b1f-a375-41cf-9ce9-10e5c3260448" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102510", 
+            "y" : "-98826"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "31d829e3-cb69-4cf6-8479-feeee9457577" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102292", 
+            "y" : "-98582"
+         }, 
+         "child" : [ 
+            "af2cf90c-530a-47a2-b698-5a1be129bf67"
+         ]
+      }, 
+      "af2cf90c-530a-47a2-b698-5a1be129bf67" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102174", 
+            "y" : "-98250", 
+            "comment" : "generator"
+         }, 
+         "child" : [ 
+            "cf8263e0-a888-422e-8164-9b873fd9d4f3", 
+            "788eba56-1f36-455a-b959-6adb6d992e03", 
+            "6e2c0094-491c-41bd-aac3-d3d6f56e235d", 
+            "ac001b1e-c2d9-4055-85e3-86fdd21d32a8", 
+            "9ad00980-4834-47fd-a172-19a6229eb48c", 
+            "2b72031f-2be0-4749-ad92-38eab454c3b9", 
+            "30c85711-79e7-465e-a79d-b5388de25141"
+         ]
+      }, 
+      "cf8263e0-a888-422e-8164-9b873fd9d4f3" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102376", 
+            "y" : "-98352"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_disease1"
+      }, 
+      "788eba56-1f36-455a-b959-6adb6d992e03" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102552", 
+            "y" : "-98405"
+         }, 
+         "child" : [ 
+            "f649ee41-5cc6-4513-b64a-1612a9d37e18", 
+            "084d99e4-58ab-4b04-9401-28fe72da94f9"
+         ], 
+         "key" : "UNIQUE"
+      }, 
+      "f649ee41-5cc6-4513-b64a-1612a9d37e18" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102641", 
+            "y" : "-98302"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "084d99e4-58ab-4b04-9401-28fe72da94f9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102560", 
+            "y" : "-98241"
+         }, 
+         "child" : [ 
+            "ebfdfe20-9e8f-49f3-b3e7-0487fad50128", 
+            "53e99da7-fd03-4c6c-88b2-342ee7d20dcc", 
+            "36b6faed-a39a-43bd-bff4-9a028dc01c09"
+         ]
+      }, 
+      "ebfdfe20-9e8f-49f3-b3e7-0487fad50128" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102720", 
+            "y" : "-98203", 
+            "comment" : "mask"
+         }, 
+         "child" : [ 
+            "7da7cec4-b136-4c6a-bae0-6ad325da034e"
+         ]
+      }, 
+      "7da7cec4-b136-4c6a-bae0-6ad325da034e" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102821", 
+            "y" : "-98112"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Mask_1"
+      }, 
+      "53e99da7-fd03-4c6c-88b2-342ee7d20dcc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102474", 
+            "y" : "-98138", 
+            "comment" : "armor"
+         }, 
+         "child" : [ 
+            "63449493-a130-4d59-bdae-3534cc21a08d"
+         ]
+      }, 
+      "63449493-a130-4d59-bdae-3534cc21a08d" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102582", 
+            "y" : "-98066"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_armor_1"
+      }, 
+      "36b6faed-a39a-43bd-bff4-9a028dc01c09" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102344", 
+            "y" : "-98102", 
+            "comment" : "hat"
+         }, 
+         "child" : [ 
+            "04e88863-f4aa-41c4-921c-a8039a67ec09"
+         ]
+      }, 
+      "04e88863-f4aa-41c4-921c-a8039a67ec09" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102476", 
+            "y" : "-97949"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_hat_1"
+      }, 
+      "6e2c0094-491c-41bd-aac3-d3d6f56e235d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102234", 
+            "y" : "-98062", 
+            "comment" : "weapon"
+         }, 
+         "child" : [ 
+            "73ab4a85-4977-4961-b81c-6cb45c391dfb"
+         ]
+      }, 
+      "73ab4a85-4977-4961-b81c-6cb45c391dfb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102621", 
+            "y" : "-97721"
+         }, 
+         "child" : [ 
+            "3da94e46-b64c-4859-a68b-65f421bb9284", 
+            "eb5a3f35-9780-4a41-beb8-2de567fd8fe6"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "3da94e46-b64c-4859-a68b-65f421bb9284" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102628", 
+            "y" : "-97478"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_weapon_2"
+      }, 
+      "eb5a3f35-9780-4a41-beb8-2de567fd8fe6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102323", 
+            "y" : "-97643"
+         }, 
+         "child" : [ 
+            "3da94e46-b64c-4859-a68b-65f421bb9284", 
+            "3721c7cd-3a6f-4e76-bb69-8358c480cb80"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "3721c7cd-3a6f-4e76-bb69-8358c480cb80" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102233", 
+            "y" : "-97512"
+         }, 
+         "child" : [ 
+            "f7d41797-15be-4142-b10a-af834c44c770", 
+            "7a914912-b84c-4443-8d8c-e7c3e4fc223f"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "f7d41797-15be-4142-b10a-af834c44c770" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102438", 
+            "y" : "-97382"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_weapon_3"
+      }, 
+      "7a914912-b84c-4443-8d8c-e7c3e4fc223f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102161", 
+            "y" : "-97385"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_weapon_4"
+      }, 
+      "ac001b1e-c2d9-4055-85e3-86fdd21d32a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102054", 
+            "y" : "-98046", 
+            "comment" : "money"
+         }, 
+         "child" : [ 
+            "219c1312-c6c7-4a44-8f7b-282c3f9854a2"
+         ]
+      }, 
+      "219c1312-c6c7-4a44-8f7b-282c3f9854a2" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102235", 
+            "y" : "-97773"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Money_1"
+      }, 
+      "9ad00980-4834-47fd-a172-19a6229eb48c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101920", 
+            "y" : "-98088", 
+            "comment" : "loot"
+         }, 
+         "child" : [ 
+            "c4215c55-4158-4583-b919-9d31dedd5500"
+         ]
+      }, 
+      "c4215c55-4158-4583-b919-9d31dedd5500" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101986", 
+            "y" : "-97773"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_loot_1"
+      }, 
+      "2b72031f-2be0-4749-ad92-38eab454c3b9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101771", 
+            "y" : "-98088", 
+            "comment" : "heal"
+         }, 
+         "child" : [ 
+            "6654e4e6-e28a-454c-84da-e0a070691996"
+         ]
+      }, 
+      "6654e4e6-e28a-454c-84da-e0a070691996" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101760", 
+            "y" : "-97945"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Heal_1"
+      }, 
+      "30c85711-79e7-465e-a79d-b5388de25141" : { 
+         "class" : "CharacterRegimentEquipNode", 
+         "desc" : { 
+            "x" : "-101715", 
+            "y" : "-98201"
+         }, 
+         "child" : [ 
+            "da4917d8-90a9-4939-ab53-ef41b21fead1"
+         ], 
+         "objectName" : "$SPAWN_GENERATOR$", 
+         "armor" : "true", 
+         "weapon" : "true", 
+         "cap" : "true", 
+         "backpack" : "true", 
+         "head_mask" : "true", 
+         "shield" : "true"
+      }, 
+      "da4917d8-90a9-4939-ab53-ef41b21fead1" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101583", 
+            "y" : "-98086"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "UNIQUE"
+      }, 
+      "cc0c8fb2-a873-495d-b769-4437548ec45c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102676", 
+            "y" : "-98827"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "d911aba3-9760-46a0-935f-f37c1bf36e60" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102413", 
+            "y" : "-98737"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "c8986340-f9ee-4904-bbc2-23380644f12a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102429", 
+            "y" : "-98930"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "7c7c8c1d-a275-4c7d-8828-7a8c3b545722" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102246", 
+            "y" : "-98739"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "8a3d04fe-2a79-4d4a-a0e1-f89900b207a2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102262", 
+            "y" : "-98932"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "8ec4a8ff-710b-4b13-bc04-ae62b2571e25" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102087", 
+            "y" : "-98880"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "bea0e733-4578-4686-8782-3b8934b984d2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101921", 
+            "y" : "-98882"
+         }, 
+         "child" : [ 
+            "31d829e3-cb69-4cf6-8479-feeee9457577"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "ecd1aa31-d8d6-466b-89bf-75e2d6637fd6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101707", 
+            "y" : "-99078"
+         }, 
+         "child" : [ 
+            "d7b204a5-8f42-4c07-80f8-debd734e621d", 
+            "1a91aa72-ba89-4800-9cbf-b200a70c52eb"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "1a91aa72-ba89-4800-9cbf-b200a70c52eb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101517", 
+            "y" : "-99018"
+         }, 
+         "child" : [ 
+            "3a345379-e018-4038-b3d3-21fffc6f736c", 
+            "1b6087a7-d038-482a-805c-a44190742f9d"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "3a345379-e018-4038-b3d3-21fffc6f736c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101651", 
+            "y" : "-98851", 
+            "comment" : "TIER_2"
+         }, 
+         "child" : [ 
+            "45e2eef5-b561-47d3-8b89-dc30e90d6403", 
+            "164993b1-ecb7-4b5a-b3cb-e33f0bb4c9c9", 
+            "6caec9f7-a9e8-4bdb-a556-2f932145a4e0", 
+            "b0845468-8b89-43ca-a47d-f5271c05c847", 
+            "d8514bda-e7b8-4b98-aab4-3e39ea978bad", 
+            "2851f3b7-2c8b-42a0-a68a-e7fb8cc9765e", 
+            "86ecd8a2-d683-45b2-9381-77e3b0a813b9", 
+            "28969626-70a9-4140-ba39-4fe3595de46c", 
+            "f93dd540-706d-4967-a94a-373a77d615d1", 
+            "fe64696d-7af2-4567-bc97-878e2c43ae51"
+         ]
+      }, 
+      "45e2eef5-b561-47d3-8b89-dc30e90d6403" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102010", 
+            "y" : "-98461"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "e14db888-f4f1-449b-a17a-7b4580c1a83c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101590", 
+            "y" : "-98432"
+         }, 
+         "child" : [ 
+            "af2cf90c-530a-47a2-b698-5a1be129bf67"
+         ]
+      }, 
+      "164993b1-ecb7-4b5a-b3cb-e33f0bb4c9c9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-98654"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "6caec9f7-a9e8-4bdb-a556-2f932145a4e0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101842", 
+            "y" : "-98463"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "b0845468-8b89-43ca-a47d-f5271c05c847" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101859", 
+            "y" : "-98656"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "d8514bda-e7b8-4b98-aab4-3e39ea978bad" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101847", 
+            "y" : "-98560"
+         }, 
+         "child" : [ 
+            "1ae9aca4-c8e5-4930-a164-ba17992e0225", 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "1ae9aca4-c8e5-4930-a164-ba17992e0225" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102739", 
+            "y" : "-98659"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "UNIQUE"
+      }, 
+      "2851f3b7-2c8b-42a0-a68a-e7fb8cc9765e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102012", 
+            "y" : "-98561"
+         }, 
+         "child" : [ 
+            "1ae9aca4-c8e5-4930-a164-ba17992e0225", 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "86ecd8a2-d683-45b2-9381-77e3b0a813b9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101678", 
+            "y" : "-98640"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "28969626-70a9-4140-ba39-4fe3595de46c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101718", 
+            "y" : "-98762"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "f93dd540-706d-4967-a94a-373a77d615d1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101546", 
+            "y" : "-98760"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "fe64696d-7af2-4567-bc97-878e2c43ae51" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101512", 
+            "y" : "-98639"
+         }, 
+         "child" : [ 
+            "e14db888-f4f1-449b-a17a-7b4580c1a83c"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "1b6087a7-d038-482a-805c-a44190742f9d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100832", 
+            "y" : "-98844", 
+            "comment" : "TIER_3"
+         }, 
+         "child" : [ 
+            "9c1710a0-48cf-4ceb-8c30-ac03f82755c5", 
+            "4054712d-11ce-4dfd-ae6c-3abc6785cf2a", 
+            "8d84379f-a460-402c-8b72-e2ed3cb0cab8", 
+            "32f6fab8-6ea5-488d-8304-810a7a326db1", 
+            "0d34e6ae-fc95-4eca-9214-b5003b3d2d8d", 
+            "639178e1-3812-46f0-89f2-2fc3c208f936", 
+            "c046d968-e471-47b8-a44d-90a643a47eba", 
+            "712497db-68a1-44dd-a466-64f0966c9498", 
+            "69113a4e-a791-4dc6-ba4a-862067db7201", 
+            "44306f24-65f3-4f6e-b59e-6b91ed4101b2"
+         ]
+      }, 
+      "9c1710a0-48cf-4ceb-8c30-ac03f82755c5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101131", 
+            "y" : "-98828"
+         }, 
+         "child" : [ 
+            "639178e1-3812-46f0-89f2-2fc3c208f936"
+         ]
+      }, 
+      "639178e1-3812-46f0-89f2-2fc3c208f936" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101253", 
+            "y" : "-98644"
+         }, 
+         "child" : [ 
+            "1ae9aca4-c8e5-4930-a164-ba17992e0225", 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "34dc9a60-a2d4-4e25-b1d0-df201f22e10a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100854", 
+            "y" : "-98468"
+         }, 
+         "child" : [ 
+            "af2cf90c-530a-47a2-b698-5a1be129bf67"
+         ]
+      }, 
+      "4054712d-11ce-4dfd-ae6c-3abc6785cf2a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-98543"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "8d84379f-a460-402c-8b72-e2ed3cb0cab8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101267", 
+            "y" : "-98736"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "32f6fab8-6ea5-488d-8304-810a7a326db1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101100", 
+            "y" : "-98738"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "0d34e6ae-fc95-4eca-9214-b5003b3d2d8d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101084", 
+            "y" : "-98545"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "c046d968-e471-47b8-a44d-90a643a47eba" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101088", 
+            "y" : "-98642"
+         }, 
+         "child" : [ 
+            "1ae9aca4-c8e5-4930-a164-ba17992e0225", 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "712497db-68a1-44dd-a466-64f0966c9498" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-98684"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "69113a4e-a791-4dc6-ba4a-862067db7201" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100768", 
+            "y" : "-98682"
+         }, 
+         "child" : [ 
+            "34dc9a60-a2d4-4e25-b1d0-df201f22e10a"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "Bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "ASim.Patrol"
+         }
+      }, 
+      "44306f24-65f3-4f6e-b59e-6b91ed4101b2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101002", 
+            "y" : "-98817"
+         }, 
+         "child" : [ 
+            "c046d968-e471-47b8-a44d-90a643a47eba"
+         ]
+      }, 
+      "31154c88-c204-4567-bd6e-37589eb568b2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102130", 
+            "y" : "-99653", 
+            "comment" : "5"
+         }, 
+         "child" : [ 
+            "e3ab147a-e762-49ea-bcdd-01cff485c3d3", 
+            "68fec58e-358c-42e0-8e76-e0f3f5fdd105", 
+            "0296a7f9-d6e6-48c0-9f23-6eb1c0e0a4f1", 
+            "bf73be69-8bdd-4b5f-b40c-f0c597cea6c4", 
+            "1929b2d6-9cf8-485e-b900-ff9df362604a"
+         ]
+      }, 
+      "e3ab147a-e762-49ea-bcdd-01cff485c3d3" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102130", 
+            "y" : "-99370"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.1"
+      }, 
+      "68fec58e-358c-42e0-8e76-e0f3f5fdd105" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101952", 
+            "y" : "-99416"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.4"
+      }, 
+      "0296a7f9-d6e6-48c0-9f23-6eb1c0e0a4f1" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101867", 
+            "y" : "-99480"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.2"
+      }, 
+      "bf73be69-8bdd-4b5f-b40c-f0c597cea6c4" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101729", 
+            "y" : "-99540"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.3"
+      }, 
+      "1929b2d6-9cf8-485e-b900-ff9df362604a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101605", 
+            "y" : "-99609"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.5"
+      }, 
+      "35e5cdb6-5413-4e7c-8d41-b2c00b2f22cb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102293", 
+            "y" : "-99915"
+         }, 
+         "child" : [ 
+            "6732083d-327d-49c9-9909-21e1ae1e3efb", 
+            "7348a05a-d201-41ca-8018-690f495b4deb"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "6732083d-327d-49c9-9909-21e1ae1e3efb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102354", 
+            "y" : "-99702", 
+            "comment" : "6-7"
+         }, 
+         "child" : [ 
+            "550098cf-87ad-4438-abe1-4caea4638f15", 
+            "bb6f713c-58bb-4abe-ade2-701cba086998"
+         ]
+      }, 
+      "550098cf-87ad-4438-abe1-4caea4638f15" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102408", 
+            "y" : "-99636", 
+            "comment" : "7"
+         }, 
+         "child" : [ 
+            "86c416dd-4f9e-4e97-9403-b167b1991d53", 
+            "bb6f713c-58bb-4abe-ade2-701cba086998"
+         ]
+      }, 
+      "86c416dd-4f9e-4e97-9403-b167b1991d53" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102582", 
+            "y" : "-99464"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.7"
+      }, 
+      "7348a05a-d201-41ca-8018-690f495b4deb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102466", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "6732083d-327d-49c9-9909-21e1ae1e3efb", 
+            "7878ef84-01cb-4d84-bfd1-74b2aba005bd"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "7878ef84-01cb-4d84-bfd1-74b2aba005bd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102571", 
+            "y" : "-99717", 
+            "comment" : "7-8"
+         }, 
+         "child" : [ 
+            "47b335d0-dbda-407f-951d-b41ebe587211", 
+            "550098cf-87ad-4438-abe1-4caea4638f15"
+         ]
+      }, 
+      "47b335d0-dbda-407f-951d-b41ebe587211" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102615", 
+            "y" : "-99650", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "dcc19bd5-f637-41dc-8aee-204e40223f59", 
+            "550098cf-87ad-4438-abe1-4caea4638f15"
+         ]
+      }, 
+      "dcc19bd5-f637-41dc-8aee-204e40223f59" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102851", 
+            "y" : "-99457"
+         }, 
+         "child" : [ 
+            "5e9422f5-475e-4607-88a1-faecf0115e66"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.8"
+      }, 
+      "7141f6ea-1f94-4961-82a3-bf6447ba2a9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100641", 
+            "y" : "-100995"
+         }, 
+         "child" : [ 
+            "77888347-9a4e-477d-b3d2-dbc8a8d8ae6f", 
+            "9d357428-d2de-4656-b744-04abaf203919", 
+            "1a6751e2-a180-4678-a35c-3e729ff32761", 
+            "e49dcb69-9d7d-44bd-8b9c-5b745fa9ca7d", 
+            "429c01ea-5294-4fe3-8af3-d5585d9c526d", 
+            "2908f596-09f0-449e-a235-131f4805ed6c"
+         ]
+      }, 
+      "77888347-9a4e-477d-b3d2-dbc8a8d8ae6f" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101380", 
+            "y" : "-100647"
+         }, 
+         "child" : [ 
+            "d947fc55-68fe-44b5-830f-cf035d726201"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.1", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Ammo_Box", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "d947fc55-68fe-44b5-830f-cf035d726201" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101475", 
+            "y" : "-100542"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.1"
+      }, 
+      "3b320e4e-0109-43b0-88c4-998ac430acb4" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101309", 
+            "y" : "-100377"
+         }, 
+         "child" : [ 
+            "56ad28b7-965c-44a4-b7d5-12206a9b7eec"
+         ], 
+         "script" : "entities/behavior/z_z_loot_1"
+      }, 
+      "56ad28b7-965c-44a4-b7d5-12206a9b7eec" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-100274"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_weapon_2"
+      }, 
+      "9d357428-d2de-4656-b744-04abaf203919" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-100691"
+         }, 
+         "child" : [ 
+            "db13cb73-c398-492b-9ca8-8c735bc151c4", 
+            "163277ef-fab7-4bfe-b3ba-4483113d6314", 
+            "48d07a4b-d5a5-44a9-b619-f6e65577ad60"
+         ]
+      }, 
+      "db13cb73-c398-492b-9ca8-8c735bc151c4" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+            "2fbcfb9f-96f0-4f99-9d66-55b77bf9f305"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.2", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "2fbcfb9f-96f0-4f99-9d66-55b77bf9f305" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101186", 
+            "y" : "-100529"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4", 
+            "b520c0bc-a1d6-476b-8f97-ad20717f50c6"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.2"
+      }, 
+      "b520c0bc-a1d6-476b-8f97-ad20717f50c6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101074", 
+            "y" : "-100437"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4"
+         ]
+      }, 
+      "163277ef-fab7-4bfe-b3ba-4483113d6314" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101111", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "2fbcfb9f-96f0-4f99-9d66-55b77bf9f305"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.2", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box_2", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "48d07a4b-d5a5-44a9-b619-f6e65577ad60" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100971", 
+            "y" : "-100614"
+         }, 
+         "child" : [ 
+            "2fbcfb9f-96f0-4f99-9d66-55b77bf9f305"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.2", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "WoodBox_1", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "1a6751e2-a180-4678-a35c-3e729ff32761" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-100743"
+         }, 
+         "child" : [ 
+            "d19d4086-ba4c-42ff-ab50-c0d27db2de58", 
+            "ab02e259-ecf7-475d-8c48-c48f0a25559a", 
+            "8e74cee6-f506-4132-a7fe-0deff8620056"
+         ]
+      }, 
+      "d19d4086-ba4c-42ff-ab50-c0d27db2de58" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100867", 
+            "y" : "-100682"
+         }, 
+         "child" : [ 
+            "463538c8-2a6f-495d-b6f0-d82590b9ef9d"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.3", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "463538c8-2a6f-495d-b6f0-d82590b9ef9d" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100875", 
+            "y" : "-100550"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4", 
+            "cc08c6e6-b79d-4e74-8e1f-42e0a67e4218", 
+            "1dc88983-19f7-40c8-9e6b-4f7a37e8865c", 
+            "0b244fff-8de2-4daf-98c9-6d40e5dc1a10"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.3"
+      }, 
+      "cc08c6e6-b79d-4e74-8e1f-42e0a67e4218" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100985", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_heal_1"
+      }, 
+      "1dc88983-19f7-40c8-9e6b-4f7a37e8865c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100812", 
+            "y" : "-100424"
+         }, 
+         "child" : [ 
+            "cc08c6e6-b79d-4e74-8e1f-42e0a67e4218"
+         ]
+      }, 
+      "0b244fff-8de2-4daf-98c9-6d40e5dc1a10" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-100374"
+         }, 
+         "child" : [ 
+            "cc08c6e6-b79d-4e74-8e1f-42e0a67e4218"
+         ]
+      }, 
+      "ab02e259-ecf7-475d-8c48-c48f0a25559a" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100727", 
+            "y" : "-100683"
+         }, 
+         "child" : [ 
+            "463538c8-2a6f-495d-b6f0-d82590b9ef9d"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.3", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box_2", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "8e74cee6-f506-4132-a7fe-0deff8620056" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100587", 
+            "y" : "-100684"
+         }, 
+         "child" : [ 
+            "463538c8-2a6f-495d-b6f0-d82590b9ef9d"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.3", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "WoodBox_1", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "e49dcb69-9d7d-44bd-8b9c-5b745fa9ca7d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100322", 
+            "y" : "-100741"
+         }, 
+         "child" : [ 
+            "bdef105b-ecfe-47ef-8f47-b5c57e6c1169", 
+            "7b1da75a-5741-4380-b6bf-e12e14816db2", 
+            "31b08e88-eef3-4673-8bd3-44817cc774a0"
+         ]
+      }, 
+      "bdef105b-ecfe-47ef-8f47-b5c57e6c1169" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100444", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+            "b4367a75-bbf5-483b-a98e-2ac7b0a99250"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.4", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "b4367a75-bbf5-483b-a98e-2ac7b0a99250" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-100507"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4", 
+            "62b57d4e-980c-4ad1-9ff6-f93e274c0759", 
+            "adc03eed-abd9-4c58-bf21-b736373b3cbf", 
+            "ed487199-b578-4e2f-9149-1847e0a5a317"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.4"
+      }, 
+      "62b57d4e-980c-4ad1-9ff6-f93e274c0759" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100318", 
+            "y" : "-100357"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_weapon_2"
+      }, 
+      "adc03eed-abd9-4c58-bf21-b736373b3cbf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100119", 
+            "y" : "-100418"
+         }, 
+         "child" : [ 
+            "62b57d4e-980c-4ad1-9ff6-f93e274c0759"
+         ]
+      }, 
+      "ed487199-b578-4e2f-9149-1847e0a5a317" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100041", 
+            "y" : "-100362"
+         }, 
+         "child" : [ 
+            "62b57d4e-980c-4ad1-9ff6-f93e274c0759"
+         ]
+      }, 
+      "7b1da75a-5741-4380-b6bf-e12e14816db2" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100304", 
+            "y" : "-100681"
+         }, 
+         "child" : [ 
+            "b4367a75-bbf5-483b-a98e-2ac7b0a99250"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.4", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Chest_Box_2", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "31b08e88-eef3-4673-8bd3-44817cc774a0" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-100164", 
+            "y" : "-100682"
+         }, 
+         "child" : [ 
+            "b4367a75-bbf5-483b-a98e-2ac7b0a99250"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.4", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "WoodBox_1", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "429c01ea-5294-4fe3-8af3-d5585d9c526d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99820", 
+            "y" : "-100780"
+         }, 
+         "child" : [ 
+            "bbb29641-46c1-4f6a-86ac-78f88c942f32", 
+            "b41d04b6-b810-43da-a4dc-bc51e34fb9e3"
+         ]
+      }, 
+      "bbb29641-46c1-4f6a-86ac-78f88c942f32" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99842", 
+            "y" : "-100675"
+         }, 
+         "child" : [ 
+            "1e031844-ead9-4cac-88f1-22991832b69a"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.5", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Metal_Shelf_1", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "1e031844-ead9-4cac-88f1-22991832b69a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99901", 
+            "y" : "-100513"
+         }, 
+         "child" : [ 
+            "7ae4e21e-8c3c-4891-b899-0d570212532c", 
+            "7e48cc56-7339-4236-a5bd-cece0f156a05", 
+            "d5d0bfbe-3390-45ee-b033-059a83120a88"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.5"
+      }, 
+      "7ae4e21e-8c3c-4891-b899-0d570212532c" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99926", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_heal_1"
+      }, 
+      "7e48cc56-7339-4236-a5bd-cece0f156a05" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99807", 
+            "y" : "-100425"
+         }, 
+         "child" : [ 
+            "7ae4e21e-8c3c-4891-b899-0d570212532c"
+         ]
+      }, 
+      "d5d0bfbe-3390-45ee-b033-059a83120a88" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99723", 
+            "y" : "-100378"
+         }, 
+         "child" : [ 
+            "7ae4e21e-8c3c-4891-b899-0d570212532c"
+         ]
+      }, 
+      "b41d04b6-b810-43da-a4dc-bc51e34fb9e3" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99718", 
+            "y" : "-100672"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Ammo.5", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Metal_Shelf_1", 
+            "inventory" : [ 
+            ], 
+            "open" : "true", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "2908f596-09f0-449e-a235-131f4805ed6c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99515", 
+            "y" : "-100817"
+         }, 
+         "child" : [ 
+            "192e34db-9940-402e-b693-05278e7916e0", 
+            "785c93ec-8a68-4f74-8c2f-2276462056f9"
+         ]
+      }, 
+      "192e34db-9940-402e-b693-05278e7916e0" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99537", 
+            "y" : "-100712"
+         }, 
+         "child" : [ 
+            "6bc5f039-6c88-43fa-8fdf-ae4037c4a27f"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.6", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Metal_Shelf_2", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "6bc5f039-6c88-43fa-8fdf-ae4037c4a27f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99586", 
+            "y" : "-100559"
+         }, 
+         "child" : [ 
+            "f02f1fd1-93fe-4a89-b9cc-8eab7b071704", 
+            "0bf50ee7-a06a-447a-8720-9d45e48ad588", 
+            "e343874f-6e48-4465-989e-788b08d2915a"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.6"
+      }, 
+      "f02f1fd1-93fe-4a89-b9cc-8eab7b071704" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99604", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+            "3b320e4e-0109-43b0-88c4-998ac430acb4"
+         ], 
+         "script" : "entities/behavior/z_z_heal_1"
+      }, 
+      "0bf50ee7-a06a-447a-8720-9d45e48ad588" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99502", 
+            "y" : "-100462"
+         }, 
+         "child" : [ 
+            "f02f1fd1-93fe-4a89-b9cc-8eab7b071704"
+         ]
+      }, 
+      "e343874f-6e48-4465-989e-788b08d2915a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99418", 
+            "y" : "-100415"
+         }, 
+         "child" : [ 
+            "f02f1fd1-93fe-4a89-b9cc-8eab7b071704"
+         ]
+      }, 
+      "785c93ec-8a68-4f74-8c2f-2276462056f9" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99408", 
+            "y" : "-100703"
+         }, 
+         "child" : [ 
+            "16451389-e0c2-4027-8cbd-49cf560183e4"
+         ], 
+         "spawnPoint" : "Spawn.Ammo.6", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "Metal_Shelf_2", 
+            "inventory" : [ 
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "0", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }, 
+         "addName" : "false"
+      }, 
+      "16451389-e0c2-4027-8cbd-49cf560183e4" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99324", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+            "3b91e1ab-2141-42dc-b46b-f67131c8c646", 
+            "0e040a23-81ba-454f-ad2e-7733d6f63df9"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Ammo.6"
+      }, 
+      "3b91e1ab-2141-42dc-b46b-f67131c8c646" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99267", 
+            "y" : "-100464"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_loot_1"
+      }, 
+      "0e040a23-81ba-454f-ad2e-7733d6f63df9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99121", 
+            "y" : "-100567"
+         }, 
+         "child" : [ 
+            "3b91e1ab-2141-42dc-b46b-f67131c8c646", 
+            "02d23aa7-e984-4de1-b29d-d31e83160ef2"
+         ]
+      }, 
+      "02d23aa7-e984-4de1-b29d-d31e83160ef2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99071", 
+            "y" : "-100517"
+         }, 
+         "child" : [ 
+            "3b91e1ab-2141-42dc-b46b-f67131c8c646"
+         ]
+      }, 
+      "2ff8de54-26b7-4d3c-b7a4-e7f499395fdf" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100562", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+            "5fc1495d-952e-44b9-a2d4-f724d5356c85"
+         ]
+      }, 
+      "5fc1495d-952e-44b9-a2d4-f724d5356c85" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100579", 
+            "y" : "-99991"
+         }, 
+         "child" : [ 
+            "50411f9d-cde0-4772-ae83-cb058cf1d671", 
+            "54cf6c07-0bcc-4b51-b535-41c8b03adafd"
+         ], 
+         "note_key" : "LOST_CARAVAN_P2"
+      }, 
+      "50411f9d-cde0-4772-ae83-cb058cf1d671" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99422", 
+            "y" : "-99930"
+         }, 
+         "child" : [ 
+            "b798b2cf-c978-4212-8366-87c20c595c71", 
+            "39a0dc01-d93d-41b0-ae36-5e432e9047a6"
+         ], 
+         "note_key" : "LOST_CARAVAN_P3"
+      }, 
+      "b798b2cf-c978-4212-8366-87c20c595c71" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99586", 
+            "y" : "-99834"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "39a0dc01-d93d-41b0-ae36-5e432e9047a6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99389", 
+            "y" : "-99777"
+         }, 
+         "child" : [ 
+            "e6d61921-e1a5-4782-899c-28db713bc929", 
+            "3fd2038d-330c-46a3-b17a-2c16b3948566", 
+            "c076f429-ff3d-4992-8c6e-bd710f87747c", 
+            "d0a36593-9b14-423b-b170-5aa4aded9eff", 
+            "c6542a78-21a7-478d-83a8-42d6e3441eb1", 
+            "078ffdbe-78e5-4318-a483-48d632812d7e", 
+            "60fc6980-c25f-4551-b472-7e07ca13cfe4"
+         ]
+      }, 
+      "e6d61921-e1a5-4782-899c-28db713bc929" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99833", 
+            "y" : "-99672"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.1"
+      }, 
+      "c42362ac-90b4-4a31-bd36-a396a7767d64" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99423", 
+            "y" : "-99525"
+         }, 
+         "child" : [ 
+            "b1d85384-c420-42f0-b4e8-2ff3309d4ef1"
+         ]
+      }, 
+      "b1d85384-c420-42f0-b4e8-2ff3309d4ef1" : { 
+         "class" : "OnTakeItemEventNode", 
+         "desc" : { 
+            "x" : "-99441", 
+            "y" : "-99469"
+         }, 
+         "child" : [ 
+            "7b46daa8-7291-40f4-8576-492ec7c86751", 
+            "71198a2e-e574-4fc2-b791-f16c58062df9"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }
+      }, 
+      "7b46daa8-7291-40f4-8576-492ec7c86751" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99525", 
+            "y" : "-99335"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "LOST_CARAVAN_P3"
+      }, 
+      "71198a2e-e574-4fc2-b791-f16c58062df9" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99365", 
+            "y" : "-99343"
+         }, 
+         "child" : [ 
+            "6b14c35b-11f5-4444-b086-ff12acbf6048"
+         ], 
+         "text" : "#z_13.71198a2e-e574-4fc2-b791-f16c58062df9"
+      }, 
+      "6b14c35b-11f5-4444-b086-ff12acbf6048" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99371", 
+            "y" : "-99281"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#z_13.6b14c35b-11f5-4444-b086-ff12acbf6048"
+      }, 
+      "3fd2038d-330c-46a3-b17a-2c16b3948566" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99659", 
+            "y" : "-99668"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.2"
+      }, 
+      "c076f429-ff3d-4992-8c6e-bd710f87747c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99494", 
+            "y" : "-99667"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.3"
+      }, 
+      "d0a36593-9b14-423b-b170-5aa4aded9eff" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99321", 
+            "y" : "-99668"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.4"
+      }, 
+      "c6542a78-21a7-478d-83a8-42d6e3441eb1" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99141", 
+            "y" : "-99668"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.5"
+      }, 
+      "078ffdbe-78e5-4318-a483-48d632812d7e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-98966", 
+            "y" : "-99665"
+         }, 
+         "child" : [ 
+            "c42362ac-90b4-4a31-bd36-a396a7767d64"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_pps43_m"
+         }, 
+         "objectName" : "Spawn.Ammo.6"
+      }, 
+      "60fc6980-c25f-4551-b472-7e07ca13cfe4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99130", 
+            "y" : "-99780"
+         }, 
+         "child" : [ 
+            "c6542a78-21a7-478d-83a8-42d6e3441eb1"
+         ]
+      }, 
+      "54cf6c07-0bcc-4b51-b535-41c8b03adafd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100548", 
+            "y" : "-99785"
+         }, 
+         "child" : [ 
+            "c6e1f589-6d5e-4093-8860-625dee7ae3fd", 
+            "204e70c7-d1b7-413b-a3b3-28a0a16bef34", 
+            "9004ff15-ba83-49ee-bbda-47dbeca68990", 
+            "6dfba67a-c41d-479a-810a-1fd9a4e79e6a", 
+            "8bf6ff38-b13c-4ab3-a111-2f9f2c8d8eac", 
+            "25ee35e6-1a9a-4696-a891-f111c6a894df", 
+            "977094c5-85f2-47b6-bdaa-4c0f979dc12b"
+         ]
+      }, 
+      "c6e1f589-6d5e-4093-8860-625dee7ae3fd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100921", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.1"
+      }, 
+      "073a664b-28a2-4f4d-860c-db0d3598da54" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100492", 
+            "y" : "-99542"
+         }, 
+         "child" : [ 
+            "ee948ee5-9188-42ea-8e6e-0cf726f9309e"
+         ]
+      }, 
+      "ee948ee5-9188-42ea-8e6e-0cf726f9309e" : { 
+         "class" : "OnTakeItemEventNode", 
+         "desc" : { 
+            "x" : "-100496", 
+            "y" : "-99486"
+         }, 
+         "child" : [ 
+            "14ec5055-0493-4f36-8cbe-e7d1cd4da252", 
+            "e5a02d42-952d-4310-bfd9-72ca4c6f6a7e"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }
+      }, 
+      "14ec5055-0493-4f36-8cbe-e7d1cd4da252" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100609", 
+            "y" : "-99292"
+         }, 
+         "child" : [ 
+            "6ecd0591-c7b8-4250-9575-1a42cffc3c54", 
+            "bfc45ae4-14d3-4447-a022-e6b3d2c3e0c3"
+         ], 
+         "note_key" : "LOST_CARAVAN_P1"
+      }, 
+      "6ecd0591-c7b8-4250-9575-1a42cffc3c54" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100686", 
+            "y" : "-99176"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "LOST_CARAVAN_P2"
+      }, 
+      "bfc45ae4-14d3-4447-a022-e6b3d2c3e0c3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100540", 
+            "y" : "-99177"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "LOST_CARAVAN_P1"
+      }, 
+      "e5a02d42-952d-4310-bfd9-72ca4c6f6a7e" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100409", 
+            "y" : "-99276"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#z_13.e5a02d42-952d-4310-bfd9-72ca4c6f6a7e"
+      }, 
+      "204e70c7-d1b7-413b-a3b3-28a0a16bef34" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100747", 
+            "y" : "-99692"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.2"
+      }, 
+      "9004ff15-ba83-49ee-bbda-47dbeca68990" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100582", 
+            "y" : "-99691"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.3"
+      }, 
+      "6dfba67a-c41d-479a-810a-1fd9a4e79e6a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100389", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.4"
+      }, 
+      "8bf6ff38-b13c-4ab3-a111-2f9f2c8d8eac" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100229", 
+            "y" : "-99692"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.5"
+      }, 
+      "25ee35e6-1a9a-4696-a891-f111c6a894df" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100054", 
+            "y" : "-99689"
+         }, 
+         "child" : [ 
+            "073a664b-28a2-4f4d-860c-db0d3598da54"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "PPS43_Rust", 
+            "ammo" : { 
+               "count" : "0", 
+               "proto" : "307cal_JHP"
+            }
+         }, 
+         "objectName" : "Spawn.Ammo.6"
+      }, 
+      "977094c5-85f2-47b6-bdaa-4c0f979dc12b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100210", 
+            "y" : "-99802"
+         }, 
+         "child" : [ 
+            "8bf6ff38-b13c-4ab3-a111-2f9f2c8d8eac"
+         ]
+      }, 
+      "3f4cc447-536d-42bd-8616-699e633de3b9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101693", 
+            "y" : "-101121"
+         }, 
+         "child" : [ 
+            "2e52a33d-23f9-4b10-b8aa-90d7c87414d8"
+         ]
+      }, 
+      "2ef25d78-eed1-4098-a3a2-5104aaeb3924" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101608", 
+            "y" : "-101092"
+         }, 
+         "child" : [ 
+            "2e52a33d-23f9-4b10-b8aa-90d7c87414d8"
+         ]
+      }
+   }, 
+   "entry" : "a452d7a5-3590-4f6b-bdd2-f5a1e82dd029"
+}

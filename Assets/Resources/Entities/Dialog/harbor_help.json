@@ -365,7 +365,7 @@
          "child" : [ 
             "0eb7279a-d506-4c67-a915-0aeceb62c50f"
          ], 
-         "text" : "Вдруг охранник вам протягивает инструкцию для ПП скорпион"
+         "text" : "#harbor_help.42fee6f3-178f-4962-b091-27c72a046ced"
       }, 
       "0eb7279a-d506-4c67-a915-0aeceb62c50f" : { 
          "class" : "DialogAnswerNode", 
@@ -376,7 +376,7 @@
          "child" : [ 
             "1f9b8275-077f-4af0-803f-7e688ec82d5b"
          ], 
-         "text" : "Вот это да! Спасибо огромное!"
+         "text" : "#harbor_help.0eb7279a-d506-4c67-a915-0aeceb62c50f"
       }, 
       "1f9b8275-077f-4af0-803f-7e688ec82d5b" : { 
          "class" : "DialogEndNode", 
