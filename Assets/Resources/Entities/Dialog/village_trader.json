@@ -1930,8 +1930,8 @@
       "a6c1e20d-a850-4b0c-864e-ab34ae883364" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "2931", 
-            "y" : "-343"
+            "x" : "2913", 
+            "y" : "-471"
          }, 
          "child" : [ 
             "bbc029d9-3ac6-4e11-8ab7-6e935ae96ccc"
@@ -1940,8 +1940,8 @@
       "bbc029d9-3ac6-4e11-8ab7-6e935ae96ccc" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "2902", 
-            "y" : "-298"
+            "x" : "2908", 
+            "y" : "-415"
          }, 
          "child" : [ 
             "c2fff8dd-66e7-4be6-a6de-ded58f55dc59", 
@@ -1957,8 +1957,8 @@
       "c2fff8dd-66e7-4be6-a6de-ded58f55dc59" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "2850", 
-            "y" : "-170"
+            "x" : "2853", 
+            "y" : "-313"
          }, 
          "child" : [ 
             "afb1fe14-8e36-4076-951a-1708327f05fe"
@@ -1968,8 +1968,8 @@
       "afb1fe14-8e36-4076-951a-1708327f05fe" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "2862", 
-            "y" : "-38"
+            "x" : "2865", 
+            "y" : "-183"
          }, 
          "child" : [ 
             "c2f4cfce-bf38-4113-80b0-8b2627b34685"
@@ -1984,8 +1984,8 @@
       "c2f4cfce-bf38-4113-80b0-8b2627b34685" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "2906", 
-            "y" : "78"
+            "x" : "2909", 
+            "y" : "-67"
          }, 
          "child" : [ 
             "1747e38b-bbcf-4ab8-8ce8-7462d370ca31"
@@ -2000,13 +2000,24 @@
       "1747e38b-bbcf-4ab8-8ce8-7462d370ca31" : { 
          "class" : "AddExpNode", 
          "desc" : { 
-            "x" : "2913", 
-            "y" : "167"
+            "x" : "2916", 
+            "y" : "22"
+         }, 
+         "child" : [ 
+            "a786e791-0b89-4fe5-81e4-9aa1edce0e11"
+         ], 
+         "exp" : "600"
+      }, 
+      "a786e791-0b89-4fe5-81e4-9aa1edce0e11" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "2895", 
+            "y" : "138"
          }, 
          "child" : [ 
             "1f9651ab-7d3c-47a1-836c-55ab95de92aa"
          ], 
-         "exp" : "600"
+         "note_key" : "LOST_CARAVAN_P3"
       }, 
       "1f9651ab-7d3c-47a1-836c-55ab95de92aa" : { 
          "class" : "QuestDoneNode", 
@@ -2200,8 +2211,8 @@
       "5b82c897-996d-47b2-bd48-11bdb680fe45" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "3011", 
-            "y" : "557"
+            "x" : "3036", 
+            "y" : "570"
          }, 
          "child" : [ 
             "0c1b8f19-db8e-499c-98d1-d14ad3297d06"
@@ -2305,15 +2316,26 @@
             "y" : "750"
          }, 
          "child" : [ 
-            "c919379a-3fd6-408b-9787-4ac6a0f45f17"
+            "8cf89d6c-6058-4066-a7b4-da892459cb3d"
          ], 
          "exp" : "500"
+      }, 
+      "8cf89d6c-6058-4066-a7b4-da892459cb3d" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "2680", 
+            "y" : "826"
+         }, 
+         "child" : [ 
+            "c919379a-3fd6-408b-9787-4ac6a0f45f17"
+         ], 
+         "note_key" : "LOST_CARAVAN_P2"
       }, 
       "c919379a-3fd6-408b-9787-4ac6a0f45f17" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "2653", 
-            "y" : "818"
+            "x" : "2648", 
+            "y" : "886"
          }, 
          "child" : [ 
             "d6ee69e6-eaf7-41f9-9d07-9cde0dfb2329"
@@ -2322,8 +2344,8 @@
       "d6ee69e6-eaf7-41f9-9d07-9cde0dfb2329" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "2656", 
-            "y" : "869"
+            "x" : "2651", 
+            "y" : "937"
          }, 
          "child" : [ 
             "10dca171-fa24-4106-8d1b-46ef3c4c2379", 
@@ -2441,15 +2463,26 @@
             "y" : "845"
          }, 
          "child" : [ 
-            "729787cd-2ec0-48fa-9f4a-a2b68ff9517e"
+            "1797e7ca-0d77-45ac-86bc-5c0a4c07c83b"
          ], 
          "exp" : "400"
+      }, 
+      "1797e7ca-0d77-45ac-86bc-5c0a4c07c83b" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "2286", 
+            "y" : "920"
+         }, 
+         "child" : [ 
+            "729787cd-2ec0-48fa-9f4a-a2b68ff9517e"
+         ], 
+         "note_key" : "LOST_CARAVAN_P1"
       }, 
       "729787cd-2ec0-48fa-9f4a-a2b68ff9517e" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "2255", 
-            "y" : "913"
+            "x" : "2254", 
+            "y" : "987"
          }, 
          "child" : [ 
             "1d201f9d-b244-450d-b6b2-4ef0725e8007"
@@ -2459,7 +2492,7 @@
          "class" : "DialogPhraseNode", 
          "desc" : { 
             "x" : "2255", 
-            "y" : "967"
+            "y" : "1060"
          }, 
          "child" : [ 
             "10dca171-fa24-4106-8d1b-46ef3c4c2379", 

@@ -17,7 +17,8 @@
             "y" : "-101564"
          }, 
          "child" : [ 
-            "b3937e4e-a545-420e-a2a9-000c54670981"
+            "b3937e4e-a545-420e-a2a9-000c54670981", 
+            "25b6caf3-8054-4f13-87e1-fd72d8796e53"
          ], 
          "canBarter" : "true"
       }, 
@@ -2485,8 +2486,8 @@
       "cc70a736-7b35-43a7-8ec1-e2c4b7807e28" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-102188", 
-            "y" : "-101479"
+            "x" : "-102207", 
+            "y" : "-101476"
          }, 
          "child" : [ 
             "cf0a1694-24ec-4480-a841-2a1ba67227ea", 
@@ -2558,8 +2559,8 @@
       "1d9f38d6-7daf-435c-a7c0-c00340ec1a27" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-102376", 
-            "y" : "-101016"
+            "x" : "-102351", 
+            "y" : "-101026"
          }, 
          "child" : [ 
             "878e0807-972a-4233-9359-3e6f0a70aa8c", 
@@ -4140,8 +4141,8 @@
       "07b5b034-6f93-4af3-8d10-893d82555556" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102385", 
-            "y" : "-100825"
+            "x" : "-102415", 
+            "y" : "-100822"
          }, 
          "child" : [ 
          ]
@@ -4159,8 +4160,8 @@
       "167434fb-9d62-4175-971b-3ede218f0ba7" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102224", 
-            "y" : "-100895"
+            "x" : "-102262", 
+            "y" : "-100929"
          }, 
          "child" : [ 
             "878e0807-972a-4233-9359-3e6f0a70aa8c"
@@ -4203,7 +4204,8 @@
             "y" : "-101280"
          }, 
          "child" : [ 
-            "de6bd431-3224-4f51-af9c-0d412b9ac2f3"
+            "de6bd431-3224-4f51-af9c-0d412b9ac2f3", 
+            "c607108b-9218-46c0-962b-4516052d97c1"
          ], 
          "key" : "MEET"
       }, 
@@ -4287,6 +4289,96 @@
             "7fbeab41-4865-42e2-b39e-0c7f6735575f"
          ], 
          "text" : "#Zvezda_Avram.3ad9b6c4-ef63-4163-beb9-37c5743d4f2a"
+      }, 
+      "c607108b-9218-46c0-962b-4516052d97c1" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101834", 
+            "y" : "-101220"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "RENEW_GLASS", 
+         "value" : "$TIME$"
+      }, 
+      "25b6caf3-8054-4f13-87e1-fd72d8796e53" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101396", 
+            "y" : "-101614"
+         }, 
+         "child" : [ 
+            "c7a6b7c1-57ae-42d8-bd11-9f5f3243ac12"
+         ]
+      }, 
+      "c7a6b7c1-57ae-42d8-bd11-9f5f3243ac12" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101432", 
+            "y" : "-101562"
+         }, 
+         "child" : [ 
+            "1aef520e-2781-4b7d-9c4d-05aafb3ff490", 
+            "9af78cab-eb30-439a-ac13-f07e6211001d"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "RENEW_GLASS"
+      }, 
+      "1aef520e-2781-4b7d-9c4d-05aafb3ff490" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101415", 
+            "y" : "-101401"
+         }, 
+         "child" : [ 
+            "bfa4bbf2-c08e-4e04-9e6a-377115706b39"
+         ], 
+         "key" : "RENEW_GLASS", 
+         "value" : "$TIME$"
+      }, 
+      "bfa4bbf2-c08e-4e04-9e6a-377115706b39" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101397", 
+            "y" : "-101308"
+         }, 
+         "child" : [ 
+            "a1470ac8-b710-4902-9623-76c83fc2e676", 
+            "d0ecf30e-2475-440d-bfdf-6170b59a41ad"
+         ]
+      }, 
+      "a1470ac8-b710-4902-9623-76c83fc2e676" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101464", 
+            "y" : "-101235"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0ecf30e-2475-440d-bfdf-6170b59a41ad" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101318", 
+            "y" : "-101243"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Glasses"
+         }
+      }, 
+      "9af78cab-eb30-439a-ac13-f07e6211001d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101198", 
+            "y" : "-101418"
+         }, 
+         "child" : [ 
+         ]
       }
    }, 
    "entry" : "bdf80dd0-589e-445d-8740-f024fd17a589"

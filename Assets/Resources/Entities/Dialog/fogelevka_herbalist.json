@@ -1933,18 +1933,29 @@
       "3fab32d8-881c-4435-abf8-4d93be9c9d8f" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-103484", 
-            "y" : "-101100"
+            "x" : "-103477", 
+            "y" : "-101111"
          }, 
          "child" : [ 
+            "0fdf57c0-0705-4e67-99fa-8228da408ec6", 
             "ace12d88-9232-4c96-b48d-46a1df3d2605"
          ], 
          "item" : { 
             "class" : "Consumable", 
             "count" : "1", 
-            "proto" : "oblivionampoule"
+            "proto" : "OblivionAmpoule"
          }, 
          "objectName" : "Player"
+      }, 
+      "0fdf57c0-0705-4e67-99fa-8228da408ec6" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-103810", 
+            "y" : "-101183"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "WATERFALL_AMP_DONE"
       }, 
       "ace12d88-9232-4c96-b48d-46a1df3d2605" : { 
          "class" : "DialogAnswerNode", 
@@ -2067,7 +2078,8 @@
             "y" : "-101508"
          }, 
          "child" : [ 
-            "bb916151-f604-4523-97e1-5cd86b527198"
+            "bb916151-f604-4523-97e1-5cd86b527198", 
+            "0fdf57c0-0705-4e67-99fa-8228da408ec6"
          ], 
          "item" : { 
             "class" : "Consumable", 
@@ -2102,8 +2114,8 @@
       "8ec103ba-2f08-47c9-a83f-184e7d5cdc99" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-103973", 
-            "y" : "-101260"
+            "x" : "-104025", 
+            "y" : "-101262"
          }, 
          "child" : [ 
          ]

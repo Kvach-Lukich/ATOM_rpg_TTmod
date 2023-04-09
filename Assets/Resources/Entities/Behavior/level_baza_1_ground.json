@@ -2008,7 +2008,7 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "Entities/Behavior/Level_Baza_1_Ground_showItems"
+         "script" : "entities/behavior/level_baza_1_ground_showitems"
       }, 
       "f7e41407-4c46-4734-b177-d68f15dda27c" : { 
          "class" : "CharacterNeedUpdateNode", 
@@ -2537,8 +2537,8 @@
       "7c49eefc-d510-4193-91d6-597d66e1faa8" : { 
          "class" : "HasKeyValueNode", 
          "desc" : { 
-            "x" : "-99642", 
-            "y" : "-99902"
+            "x" : "-99628", 
+            "y" : "-99896"
          }, 
          "child" : [ 
             "bc899033-d9d4-4423-bbaf-9d1aea553a90", 

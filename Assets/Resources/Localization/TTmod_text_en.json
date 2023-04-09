@@ -415,7 +415,7 @@
         "370687ec-d347-466d-983d-08da48cedf5c": "Oops, I've changed my mind"
     },
     "harbor_help": {
-        "42fee6f3-178f-4962-b091-27c72a046ced": "Suddenly, the guard hands you instructions for the PP scorpion",
+        "42fee6f3-178f-4962-b091-27c72a046ced": "Suddenly, the guard hands you instructions for PPS",
         "0eb7279a-d506-4c67-a915-0aeceb62c50f": "Wow! Thanks a lot!"
     },
     "village_trader": {
@@ -461,7 +461,7 @@
     "campfire": {
         "b6de4ede-844c-4ed6-8dc3-04a982475ae3": "[You see a bloody waterfall with a lake and a fire next to it, where you can perfectly evaporate the water]",
         "d6b3774f-58e5-47fc-829a-6e19c1037bab": "Try to boil water",
-        "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc": "Success [You put an ampoule with some very poisonous blood-colored liquid in your pocket]",
+        "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc": "You managed to save only one ampoule, the rest burst from overheating [You put an ampoule with some very poisonous blood-colored liquid in your pocket]",
         "b390f969-6368-4cea-860c-52d931fda6d2": "[Leave]",
         "1dbd027c-cc62-4de9-a2d6-d7beef56c755": "[Further]"
     },
@@ -487,5 +487,32 @@
     },
     "redbook": {
         "146b00b8-9740-43c6-9f27-6cff4b040ab0": "This is a test book."
+    },
+    "busstop_1_man2": {
+        "93783ed4-ed61-462c-9453-148499abe36b": "I'm talking about the race",
+        "151f4b35-3793-4ab8-b375-73576022a304": "Come on, tell me what's going on?",
+        "c74bc743-e10c-4ca9-ae24-5a8cc625e149": "Everything is bad, but there is hope for reconciliation",
+        "9a7406e3-2da3-4ebf-bc7d-ea84d10da297": "[The head of the fortress nervously fiddles with a cigarette in his hands] If they do not agree, they will let us in first for distribution",
+        "e7148391-f8b5-4756-ac82-3024e1a73df6": "Don't panic, you might be able to subdue them.",
+        "74a843e6-50e6-4ef0-81d0-a32eaf92689d": "Tell what you saw and how it ended",
+        "47727159-13fd-4399-bee9-b2bb3dbc01ca": "Nothing for themselves - they started undercover games, well, at least somehow it was resolved",
+        "b647ec14-1df9-493e-ad82-539bcef1b85a": "Here you go, with money we are now tense, and we have shit-ton of confiscated",
+        "b94168ac-b13d-4c65-8e9b-4b2c2fa3706f": "It's clear how you make money here",
+        "43a144b0-0f6e-46db-a69a-8d1474ce0ec2": "The head of the fortress does not even listen to you, he has clearly withdrawn into himself and calculates with whom it is more profitable for him to be",
+        "265c6c4b-da58-488c-83f6-1c249d177484": "[Go away]",
+        "46d1eac2-b832-42e0-9afc-db46d021704f": "Everything is bad",
+        "645dacfe-b77a-4a5e-95d7-90efada641ca": "And who even put you here?",
+        "b00bc601-f992-497d-95c2-5fed2b71a97e": "Of course Peregon, they pay us to drive all evil spirits away from the main highway",
+        "a2185497-408b-4915-b330-93dedc47a2cb": "How can I get there?",
+        "17494b8f-b2af-4200-94d5-d430ac3098b6": "Yes, it’s nearby [marks Peregon on your map]",
+        "1d94f0f1-7a74-44b1-9b95-78e6629fdf31": "Well thanks, I'll go",
+        "eb3dd838-0cf6-4337-803e-899aa7158b5e": "Wait, if you are in those parts, find out what they decided about our outpost, they are not having joke political skirmishes there now, and we have no salary",
+        "3d31c1c1-b6d7-4e18-ad97-ff7052ed0654": "And what can I do?",
+        "50efb5dc-9994-45b3-8e21-8498af9986ce": "Just find out what's the matter and let me know, and if you manage to resolve their dispute, it will be generally super!",
+        "c788176c-1289-4ddc-825a-5c1267db018c": "Oh well I'll see what I can do",
+        "fdbe9a96-8b00-4d99-9495-85c863f6fe3c": "I'm not interested, figure it out yourself"
+    },
+    "rat_forest_campman2": {
+        "f77f508b-1bb3-448d-becd-61ae891e561f": "You received the blueprints for Scorpio"
     }
 }

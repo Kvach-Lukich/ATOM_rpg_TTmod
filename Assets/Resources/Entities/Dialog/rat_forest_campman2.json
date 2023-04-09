@@ -1728,11 +1728,11 @@
       "5480abc8-4442-4a42-b801-4ec71bda6822" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101161", 
-            "y" : "-95973"
+            "x" : "-101157", 
+            "y" : "-95967"
          }, 
          "child" : [ 
-            "523109bc-a1bb-4e70-aea4-4dd1ca69a2ef"
+            "f77f508b-1bb3-448d-becd-61ae891e561f"
          ], 
          "inventory" : [ 
             { 
@@ -1768,16 +1768,27 @@
             { 
                "class" : "Memo", 
                "count" : "1", 
-               "proto" : "craft_svd_m"
+               "proto" : "craft_scorpion_m"
             }
          ], 
          "inventoryObject" : "Player"
       }, 
+      "f77f508b-1bb3-448d-becd-61ae891e561f" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-95892"
+         }, 
+         "child" : [ 
+            "523109bc-a1bb-4e70-aea4-4dd1ca69a2ef"
+         ], 
+         "text" : "#rat_forest_campman2.f77f508b-1bb3-448d-becd-61ae891e561f"
+      }, 
       "523109bc-a1bb-4e70-aea4-4dd1ca69a2ef" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101208", 
-            "y" : "-95909"
+            "x" : "-101201", 
+            "y" : "-95813"
          }, 
          "child" : [ 
             "ca6be583-4e86-486c-bf02-9634d9c03bf8", 
@@ -1788,8 +1799,8 @@
       "ca6be583-4e86-486c-bf02-9634d9c03bf8" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-101358", 
-            "y" : "-95809", 
+            "x" : "-101351", 
+            "y" : "-95713", 
             "comment" : "(перенос А15)"
          }, 
          "child" : [ 
@@ -1800,8 +1811,8 @@
       "4a21eef9-30ed-4e80-919b-2de582875480" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-101122", 
-            "y" : "-95787", 
+            "x" : "-101115", 
+            "y" : "-95691", 
             "comment" : "(конец диалога, перенос А11)"
          }, 
          "child" : [ 
@@ -1812,8 +1823,8 @@
       "880f7ac0-2407-4102-9ce4-029fce1f3122" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-101094", 
-            "y" : "-95722"
+            "x" : "-101087", 
+            "y" : "-95626"
          }, 
          "child" : [ 
          ]

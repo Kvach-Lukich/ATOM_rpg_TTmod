@@ -28,6 +28,7 @@
             "d3445445-9292-46c1-8bed-60287446a547", 
             "eab64f31-6e2f-4454-a66f-ceb4493525c2", 
             "f822410d-1756-4b75-8204-f6b1637eb2f2", 
+            "fc6461d4-f056-4fb8-92f4-78ca8849cca7", 
             "2a8b0aaf-d7ec-4aac-b7e6-5f41b820eda5"
          ]
       }, 
@@ -8709,11 +8710,72 @@
          ], 
          "filterFractionName" : "krz"
       }, 
+      "fc6461d4-f056-4fb8-92f4-78ca8849cca7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99512", 
+            "y" : "-99159"
+         }, 
+         "child" : [ 
+            "62dae841-0df0-4cf8-b52d-e996cdf0318a"
+         ]
+      }, 
+      "62dae841-0df0-4cf8-b52d-e996cdf0318a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99519", 
+            "y" : "-99090"
+         }, 
+         "child" : [ 
+            "995214cd-f8e8-4b04-8e63-65d0a92733ea", 
+            "925294a4-cad5-40d7-ab4a-a936db1e8523"
+         ], 
+         "key" : "FST_IN_GRIB"
+      }, 
+      "995214cd-f8e8-4b04-8e63-65d0a92733ea" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99592", 
+            "y" : "-98986"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "925294a4-cad5-40d7-ab4a-a936db1e8523" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99500", 
+            "y" : "-98959"
+         }, 
+         "child" : [ 
+            "3c1140a8-6c5c-4cfd-8d44-3d2c3a9701e9"
+         ], 
+         "key" : "FST_IN_GRIB"
+      }, 
+      "3c1140a8-6c5c-4cfd-8d44-3d2c3a9701e9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99515", 
+            "y" : "-98886"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "DesertEagle", 
+            "ammo" : { 
+               "count" : "9", 
+               "proto" : "10mm_JHP"
+            }
+         }, 
+         "objectName" : "Chest_Box"
+      }, 
       "2a8b0aaf-d7ec-4aac-b7e6-5f41b820eda5" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-100620", 
-            "y" : "-99436"
+            "x" : "-100612", 
+            "y" : "-99460"
          }, 
          "child" : [ 
             "ae2926b6-0df1-430f-9474-de567b640467", 

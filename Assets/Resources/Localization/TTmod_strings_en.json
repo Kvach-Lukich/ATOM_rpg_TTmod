@@ -110,6 +110,15 @@
             "short": "Bulletproof vest with cuirass",
             "full": "Armor combined with body armor"
         },
+        "glasses2": {
+            "short": "Glasses x2",
+            "full": "Double diopter glasses",
+            "fail": ".uniform.glasses2.fail"
+        },
+        "glasses3": {
+            "short": "Glasses x3",
+            "full": "Glasses n-n-n-n-n-needed?"
+        },
         "gidrator": {
             "short": "Hydrator",
             "full": "Saves from dehydration in the wasteland, despite being hidden under clothes"
@@ -145,9 +154,12 @@
             "full": "Concentrated water from the Bed Gorge waterfall - it is better not to use this without supervision"
         },
         "kvas": {
-            "short": "Kvass",
-            "full": "It's the rarest drink in the wastelands."
+            "short": "Kvas",
+            "full": "Nuka Kvas it's the rarest drink in the wastelands."
         }
+    },
+    "params": {
+        "criticalchance": "Critical chance"
     },
     "giveway": {
         "alenka_comp": [

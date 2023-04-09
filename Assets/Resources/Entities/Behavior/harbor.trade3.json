@@ -1,0 +1,471 @@
+{ 
+   "states" : { 
+      "c68be0c0-6100-483a-a229-5e1c55265a25" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101035", 
+            "y" : "-100741"
+         }, 
+         "child" : [ 
+            "c0d9373e-3446-4d32-b264-733641cb185d", 
+            "c98363e5-aac1-473e-adf9-1f258878c971"
+         ]
+      }, 
+      "c0d9373e-3446-4d32-b264-733641cb185d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101183", 
+            "y" : "-100518"
+         }, 
+         "child" : [ 
+            "421e1656-cd5a-42bc-924a-fb4f2c183951", 
+            "44eb8209-42cb-495d-9d66-2dde13b8f169"
+         ], 
+         "key" : "INIT"
+      }, 
+      "421e1656-cd5a-42bc-924a-fb4f2c183951" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101235", 
+            "y" : "-100408"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "44eb8209-42cb-495d-9d66-2dde13b8f169" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101109", 
+            "y" : "-100413"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "INIT"
+      }, 
+      "c98363e5-aac1-473e-adf9-1f258878c971" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100935", 
+            "y" : "-100628"
+         }, 
+         "child" : [ 
+            "f56f0281-a882-46c8-83e9-855997ccfc7f", 
+            "51031207-f816-4e03-9654-f9ab22e84e11"
+         ]
+      }, 
+      "f56f0281-a882-46c8-83e9-855997ccfc7f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100947", 
+            "y" : "-100525"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "51031207-f816-4e03-9654-f9ab22e84e11" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100752", 
+            "y" : "-100485"
+         }, 
+         "child" : [ 
+            "91d58c0f-54b9-412f-a191-2229cc648a32", 
+            "f767a7f5-5a4d-4177-ab4b-61275cdaa276"
+         ]
+      }, 
+      "91d58c0f-54b9-412f-a191-2229cc648a32" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100948", 
+            "y" : "-100406"
+         }, 
+         "child" : [ 
+            "7151efec-eafe-496c-b435-4e6fab8379ad", 
+            "1414aa7d-8e89-4234-ae16-4a70fabfdd1f"
+         ], 
+         "key" : "GOODS_TRADER"
+      }, 
+      "7151efec-eafe-496c-b435-4e6fab8379ad" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101074", 
+            "y" : "-100317"
+         }, 
+         "child" : [ 
+            "9845d6f4-8aaf-417f-8b56-446fb74b1f16", 
+            "3d39d527-07e9-421e-9d92-d204732fc947"
+         ], 
+         "time" : "24", 
+         "mode" : "Hour", 
+         "offsetValue" : "GOODS_TRADER"
+      }, 
+      "9845d6f4-8aaf-417f-8b56-446fb74b1f16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101102", 
+            "y" : "-100163"
+         }, 
+         "child" : [ 
+            "c604f646-719b-44ed-970a-00820de919c5"
+         ]
+      }, 
+      "c604f646-719b-44ed-970a-00820de919c5" : { 
+         "class" : "GoodsAndMoneyNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-100071"
+         }, 
+         "child" : [ 
+            "fdb54fdf-c0d4-442c-9d63-3aaac3ec411f"
+         ], 
+         "maxMoney" : "300", 
+         "maxGoodsToMoney" : "80", 
+         "costPercent" : "100", 
+         "wantToSellPercent" : "20"
+      }, 
+      "fdb54fdf-c0d4-442c-9d63-3aaac3ec411f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101058", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+            "8ed0968e-0c5b-4cb6-ae5a-9316d6dadd52"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Corned_Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Stew"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Cheese"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "30", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "cake"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "cake"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "cake"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "4", 
+               "proto" : "cake"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "8ed0968e-0c5b-4cb6-ae5a-9316d6dadd52" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100954", 
+            "y" : "-99910"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "GOODS_TRADER", 
+         "value" : "$TIME$"
+      }, 
+      "3d39d527-07e9-421e-9d92-d204732fc947" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-100164"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1414aa7d-8e89-4234-ae16-4a70fabfdd1f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100870", 
+            "y" : "-100164"
+         }, 
+         "child" : [ 
+            "81979525-82fe-41be-bea9-31b089258eed"
+         ]
+      }, 
+      "81979525-82fe-41be-bea9-31b089258eed" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100886", 
+            "y" : "-99986"
+         }, 
+         "child" : [ 
+            "8ed0968e-0c5b-4cb6-ae5a-9316d6dadd52"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Corned_Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Stew"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Cheese"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Biscuit"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "3", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "30", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "cake"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f767a7f5-5a4d-4177-ab4b-61275cdaa276" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100514", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+            "d8389080-8f07-4fbb-aacd-97ceccdb361d", 
+            "ae0a76e4-424a-4bd9-8e08-59d4eaf3abd3"
+         ]
+      }, 
+      "d8389080-8f07-4fbb-aacd-97ceccdb361d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100614", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ae0a76e4-424a-4bd9-8e08-59d4eaf3abd3" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100369", 
+            "y" : "-100524"
+         }, 
+         "child" : [ 
+            "e1605605-0a68-4516-a55d-9026019b89f5"
+         ], 
+         "waitTimeMin" : "7", 
+         "waitTimeMax" : "10"
+      }, 
+      "e1605605-0a68-4516-a55d-9026019b89f5" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100373", 
+            "y" : "-100416"
+         }, 
+         "child" : [ 
+            "ea318270-e75a-4e86-b16a-d6d45971badb", 
+            "b2c37985-ba2c-4943-9806-3a6ac383f6ab", 
+            "56971b5a-2aef-4b26-a18d-a2ba38098188", 
+            "46346083-8482-48de-bcbf-3b889e2dd305", 
+            "a7f8d64d-d7f1-44da-b008-ef1aa554f076", 
+            "508c4ef1-3327-4723-be58-9fff0df235d4", 
+            "052b14cf-06af-43a3-84f7-94741a8e527d", 
+            "6fdc2767-dc2a-4a0e-a5c9-a8d5ae2bd2b4", 
+            "a1273673-49f6-4334-ac85-fb73e733fc84", 
+            "cb37b6c1-c347-4c00-b5e0-a8f93c147fce"
+         ]
+      }, 
+      "ea318270-e75a-4e86-b16a-d6d45971badb" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100682", 
+            "y" : "-100336"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.ea318270-e75a-4e86-b16a-d6d45971badb", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9b453271-f4e1-477c-aebb-269243d7874d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100660", 
+            "y" : "-99992"
+         }, 
+         "child" : [ 
+            "f767a7f5-5a4d-4177-ab4b-61275cdaa276"
+         ]
+      }, 
+      "b2c37985-ba2c-4943-9806-3a6ac383f6ab" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100527", 
+            "y" : "-100280"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.b2c37985-ba2c-4943-9806-3a6ac383f6ab", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "56971b5a-2aef-4b26-a18d-a2ba38098188" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100402", 
+            "y" : "-100228"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.56971b5a-2aef-4b26-a18d-a2ba38098188", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "46346083-8482-48de-bcbf-3b889e2dd305" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100305", 
+            "y" : "-100287"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.46346083-8482-48de-bcbf-3b889e2dd305", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a7f8d64d-d7f1-44da-b008-ef1aa554f076" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100150", 
+            "y" : "-100231"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.a7f8d64d-d7f1-44da-b008-ef1aa554f076", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "508c4ef1-3327-4723-be58-9fff0df235d4" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100025", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.508c4ef1-3327-4723-be58-9fff0df235d4", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "052b14cf-06af-43a3-84f7-94741a8e527d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99962", 
+            "y" : "-100117"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.052b14cf-06af-43a3-84f7-94741a8e527d", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6fdc2767-dc2a-4a0e-a5c9-a8d5ae2bd2b4" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99837", 
+            "y" : "-100065"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.6fdc2767-dc2a-4a0e-a5c9-a8d5ae2bd2b4", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a1273673-49f6-4334-ac85-fb73e733fc84" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99779", 
+            "y" : "-100241"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.a1273673-49f6-4334-ac85-fb73e733fc84", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "cb37b6c1-c347-4c00-b5e0-a8f93c147fce" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99647", 
+            "y" : "-100321"
+         }, 
+         "child" : [ 
+            "9b453271-f4e1-477c-aebb-269243d7874d"
+         ], 
+         "text" : "#Krz.Trader_2.cb37b6c1-c347-4c00-b5e0-a8f93c147fce", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }
+   }, 
+   "entry" : "c68be0c0-6100-483a-a229-5e1c55265a25"
+}

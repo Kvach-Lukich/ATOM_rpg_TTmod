@@ -2507,7 +2507,9 @@
          }, 
          "child" : [ 
             "5fc1495d-952e-44b9-a2d4-f724d5356c85"
-         ]
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : ""
       }, 
       "5fc1495d-952e-44b9-a2d4-f724d5356c85" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2519,7 +2521,7 @@
             "50411f9d-cde0-4772-ae83-cb058cf1d671", 
             "54cf6c07-0bcc-4b51-b535-41c8b03adafd"
          ], 
-         "note_key" : "LOST_CARAVAN_P2"
+         "note_key" : "LOST_CARAVAN_R2"
       }, 
       "50411f9d-cde0-4772-ae83-cb058cf1d671" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2531,7 +2533,7 @@
             "b798b2cf-c978-4212-8366-87c20c595c71", 
             "39a0dc01-d93d-41b0-ae36-5e432e9047a6"
          ], 
-         "note_key" : "LOST_CARAVAN_P3"
+         "note_key" : "LOST_CARAVAN_R3"
       }, 
       "b798b2cf-c978-4212-8366-87c20c595c71" : { 
          "class" : "DummyNode", 
@@ -2605,6 +2607,17 @@
          "desc" : { 
             "x" : "-99525", 
             "y" : "-99335"
+         }, 
+         "child" : [ 
+            "4addc16a-d7ef-49ef-a1f5-94f84a7adac7"
+         ], 
+         "note_key" : "LOST_CARAVAN_R3"
+      }, 
+      "4addc16a-d7ef-49ef-a1f5-94f84a7adac7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99529", 
+            "y" : "-99272"
          }, 
          "child" : [ 
          ], 
@@ -2797,27 +2810,49 @@
             "6ecd0591-c7b8-4250-9575-1a42cffc3c54", 
             "bfc45ae4-14d3-4447-a022-e6b3d2c3e0c3"
          ], 
-         "note_key" : "LOST_CARAVAN_P1"
+         "note_key" : "LOST_CARAVAN_R1"
       }, 
       "6ecd0591-c7b8-4250-9575-1a42cffc3c54" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
             "x" : "-100686", 
-            "y" : "-99176"
+            "y" : "-99186"
+         }, 
+         "child" : [ 
+            "e6004c4c-fd9c-49e8-a898-0d7ebe4f864c"
+         ], 
+         "note_key" : "LOST_CARAVAN_P2"
+      }, 
+      "e6004c4c-fd9c-49e8-a898-0d7ebe4f864c" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100685", 
+            "y" : "-99115"
          }, 
          "child" : [ 
          ], 
-         "note_key" : "LOST_CARAVAN_P2"
+         "note_key" : "LOST_CARAVAN_R2"
       }, 
       "bfc45ae4-14d3-4447-a022-e6b3d2c3e0c3" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-100540", 
-            "y" : "-99177"
+            "x" : "-100519", 
+            "y" : "-99185"
+         }, 
+         "child" : [ 
+            "4637bf3c-20e3-4185-8a75-c81c5c3897e4"
+         ], 
+         "note_key" : "LOST_CARAVAN_P1"
+      }, 
+      "4637bf3c-20e3-4185-8a75-c81c5c3897e4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100520", 
+            "y" : "-99115"
          }, 
          "child" : [ 
          ], 
-         "note_key" : "LOST_CARAVAN_P1"
+         "note_key" : "LOST_CARAVAN_R1"
       }, 
       "e5a02d42-952d-4310-bfd9-72ca4c6f6a7e" : { 
          "class" : "LogNode", 

@@ -1,0 +1,1164 @@
+{ 
+   "states" : { 
+      "499ffa2f-de73-4498-b49b-951a3e90afc7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101807", 
+            "y" : "-101376"
+         }, 
+         "child" : [ 
+            "17041da7-4d3f-4732-b125-9910d941c73c"
+         ]
+      }, 
+      "17041da7-4d3f-4732-b125-9910d941c73c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-101186"
+         }, 
+         "child" : [ 
+            "c51e067d-b1d1-4da9-b6f1-08b1a048e595"
+         ], 
+         "text" : "#Zvezda_Strateg_End.17041da7-4d3f-4732-b125-9910d941c73c"
+      }, 
+      "c51e067d-b1d1-4da9-b6f1-08b1a048e595" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-101086"
+         }, 
+         "child" : [ 
+            "027f15b1-de45-4030-9cdf-502502a905e2"
+         ]
+      }, 
+      "027f15b1-de45-4030-9cdf-502502a905e2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-100986"
+         }, 
+         "child" : [ 
+            "013ca00e-9438-4263-a20b-bd4487da9c77", 
+            "8aaab188-6d8c-4f4a-b225-50397289341f"
+         ], 
+         "text" : "#Zvezda_Strateg_End.027f15b1-de45-4030-9cdf-502502a905e2"
+      }, 
+      "013ca00e-9438-4263-a20b-bd4487da9c77" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101978", 
+            "y" : "-100886", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "df4b8fd6-0409-4779-a182-91ec4720e333"
+         ], 
+         "text" : "#Zvezda_Strateg_End.013ca00e-9438-4263-a20b-bd4487da9c77"
+      }, 
+      "df4b8fd6-0409-4779-a182-91ec4720e333" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101953", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+            "3c340c0a-3211-4658-ab43-70a5d3643efb", 
+            "e01b72fa-7ab4-4235-8817-1f725899a0a6"
+         ], 
+         "note_key" : "LOST_RAIL_FIDEL_DEAD"
+      }, 
+      "3c340c0a-3211-4658-ab43-70a5d3643efb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100686", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "c7039a93-e788-4dbe-b60a-6eeb36fac4f8"
+         ], 
+         "text" : "#Zvezda_Strateg_End.3c340c0a-3211-4658-ab43-70a5d3643efb"
+      }, 
+      "c7039a93-e788-4dbe-b60a-6eeb36fac4f8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100586"
+         }, 
+         "child" : [ 
+            "4b9367ff-b77d-4ed7-9a44-beec1814ea8f"
+         ]
+      }, 
+      "4b9367ff-b77d-4ed7-9a44-beec1814ea8f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100486"
+         }, 
+         "child" : [ 
+            "d5157be6-b12f-44f6-8e1f-78eef86681e8"
+         ], 
+         "text" : "#Zvezda_Strateg_End.4b9367ff-b77d-4ed7-9a44-beec1814ea8f"
+      }, 
+      "d5157be6-b12f-44f6-8e1f-78eef86681e8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100386", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "59b3ac0c-ac51-4561-83bc-0e7b04d746ff"
+         ], 
+         "text" : "#Zvezda_Strateg_End.d5157be6-b12f-44f6-8e1f-78eef86681e8"
+      }, 
+      "59b3ac0c-ac51-4561-83bc-0e7b04d746ff" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102230", 
+            "y" : "-100251"
+         }, 
+         "child" : [ 
+            "a263340e-6ac0-43ca-a4c7-938d5a26ba0c", 
+            "7aa051c2-a716-4952-a652-bde3a93dc3c8"
+         ], 
+         "note_key" : "STRATEG_SAVE_3"
+      }, 
+      "a263340e-6ac0-43ca-a4c7-938d5a26ba0c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-100065", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "e546d41c-60e6-42f6-8170-4e0a30f1cf52"
+         ], 
+         "text" : "#Zvezda_Strateg_End.a263340e-6ac0-43ca-a4c7-938d5a26ba0c"
+      }, 
+      "e546d41c-60e6-42f6-8170-4e0a30f1cf52" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-99965"
+         }, 
+         "child" : [ 
+            "c9548c28-fb08-4777-a18a-aaaf188d8b9c"
+         ]
+      }, 
+      "c9548c28-fb08-4777-a18a-aaaf188d8b9c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-99884"
+         }, 
+         "child" : [ 
+            "39d83359-1ce4-4de9-9531-0588da31213c"
+         ], 
+         "text" : "#Zvezda_Strateg_End.c9548c28-fb08-4777-a18a-aaaf188d8b9c"
+      }, 
+      "39d83359-1ce4-4de9-9531-0588da31213c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-99765"
+         }, 
+         "child" : [ 
+            "9214d97d-6b70-4368-8880-9542110206f4"
+         ]
+      }, 
+      "9214d97d-6b70-4368-8880-9542110206f4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99662"
+         }, 
+         "child" : [ 
+            "e5ab3766-dba3-424d-93b9-7214eed2b69e", 
+            "27ef2811-3369-4295-892e-27f696f5164a", 
+            "03d60b44-a740-4165-b177-da66d8984ebb", 
+            "e2bd64cc-5ccc-4388-bc73-08e1d26a0bfd"
+         ], 
+         "text" : "#Zvezda_Strateg_End.9214d97d-6b70-4368-8880-9542110206f4"
+      }, 
+      "e5ab3766-dba3-424d-93b9-7214eed2b69e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101992", 
+            "y" : "-99562", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "d181fd35-06f5-44e9-b2c0-0e373080f67d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.e5ab3766-dba3-424d-93b9-7214eed2b69e"
+      }, 
+      "d181fd35-06f5-44e9-b2c0-0e373080f67d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101107", 
+            "y" : "-100290", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "eafc1761-e8d5-40f3-ab78-c1089274f424"
+         ], 
+         "text" : "#Zvezda_Strateg_End.d181fd35-06f5-44e9-b2c0-0e373080f67d"
+      }, 
+      "eafc1761-e8d5-40f3-ab78-c1089274f424" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-100184"
+         }, 
+         "child" : [ 
+            "7ffdaa45-260a-4d51-b1ab-e34a566b21f6"
+         ]
+      }, 
+      "7ffdaa45-260a-4d51-b1ab-e34a566b21f6" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101051", 
+            "y" : "-100146"
+         }, 
+         "child" : [ 
+            "a7809e10-3edd-46cc-a881-35edbca88a6a"
+         ], 
+         "exp" : "81"
+      }, 
+      "a7809e10-3edd-46cc-a881-35edbca88a6a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101057", 
+            "y" : "-100087"
+         }, 
+         "child" : [ 
+            "b1fe0305-8a6b-4aa5-8cf0-1f9864a1ca8b"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "500", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b1fe0305-8a6b-4aa5-8cf0-1f9864a1ca8b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101069", 
+            "y" : "-99989"
+         }, 
+         "child" : [ 
+            "9ee6289a-f351-49f5-8185-f1d5d61f7b60"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "craft_sks_s"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9ee6289a-f351-49f5-8185-f1d5d61f7b60" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101065", 
+            "y" : "-99893"
+         }, 
+         "child" : [ 
+            "8efa9794-eea4-4363-a441-25773eb97418"
+         ], 
+         "quest_key" : "CITY.STRATEG.END"
+      }, 
+      "8efa9794-eea4-4363-a441-25773eb97418" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-99813"
+         }, 
+         "child" : [ 
+            "37317c72-3f9a-4922-be55-e04a403029bd", 
+            "79890b9d-d423-4e65-929f-634ab5fe405d", 
+            "eaad3c0c-da56-4a13-b08e-6139f22ef4fd"
+         ], 
+         "text" : "#Zvezda_Strateg_End.8efa9794-eea4-4363-a441-25773eb97418"
+      }, 
+      "37317c72-3f9a-4922-be55-e04a403029bd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101343", 
+            "y" : "-99655", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "074c18e2-8400-408c-9c33-519d866a1203"
+         ], 
+         "text" : "#Zvezda_Strateg_End.37317c72-3f9a-4922-be55-e04a403029bd"
+      }, 
+      "074c18e2-8400-408c-9c33-519d866a1203" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-98128", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "633d6b43-fe38-418e-a259-c56a3f1e4fa6"
+         ], 
+         "text" : "#Zvezda_Strateg_End.074c18e2-8400-408c-9c33-519d866a1203"
+      }, 
+      "633d6b43-fe38-418e-a259-c56a3f1e4fa6" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-98028"
+         }, 
+         "child" : [ 
+            "e1c5665f-cb8b-4896-a321-1739f383c0a8"
+         ]
+      }, 
+      "e1c5665f-cb8b-4896-a321-1739f383c0a8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-97928"
+         }, 
+         "child" : [ 
+            "faf65384-bf03-4bff-9db3-f7924ab70669"
+         ], 
+         "text" : "#Zvezda_Strateg_End.e1c5665f-cb8b-4896-a321-1739f383c0a8"
+      }, 
+      "faf65384-bf03-4bff-9db3-f7924ab70669" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-97828"
+         }, 
+         "child" : [ 
+            "5f897a01-b212-4b8a-984b-b061970c8e19"
+         ]
+      }, 
+      "5f897a01-b212-4b8a-984b-b061970c8e19" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-97728"
+         }, 
+         "child" : [ 
+            "45c3c219-4fef-449a-a7e8-94c716024c81", 
+            "eef8f016-46d1-4e36-9139-7a19dee6bae0"
+         ], 
+         "text" : "#Zvezda_Strateg_End.5f897a01-b212-4b8a-984b-b061970c8e19"
+      }, 
+      "45c3c219-4fef-449a-a7e8-94c716024c81" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100724", 
+            "y" : "-97590"
+         }, 
+         "child" : [ 
+            "a9d45fc5-fb8c-46b7-9f51-2c5ac1e98b8b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.45c3c219-4fef-449a-a7e8-94c716024c81"
+      }, 
+      "a9d45fc5-fb8c-46b7-9f51-2c5ac1e98b8b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100457", 
+            "y" : "-99793"
+         }, 
+         "child" : [ 
+            "71c43431-5832-46a5-9006-da24fec01c97"
+         ]
+      }, 
+      "71c43431-5832-46a5-9006-da24fec01c97" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100452", 
+            "y" : "-99711"
+         }, 
+         "child" : [ 
+            "d758cc01-ba4c-442b-99ed-8fc7f9903e01"
+         ], 
+         "note_key" : "STRATEG_OUT"
+      }, 
+      "d758cc01-ba4c-442b-99ed-8fc7f9903e01" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-100451", 
+            "y" : "-99639"
+         }, 
+         "child" : [ 
+            "56df7299-80b1-4c52-9452-d1096150868f"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "56df7299-80b1-4c52-9452-d1096150868f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100448", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+            "4f0d9dfe-4a22-4b7e-b421-a9935d8f0306"
+         ], 
+         "objectName" : "mapsmics", 
+         "active" : "false"
+      }, 
+      "4f0d9dfe-4a22-4b7e-b421-a9935d8f0306" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100435", 
+            "y" : "-99489"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false"
+      }, 
+      "eef8f016-46d1-4e36-9139-7a19dee6bae0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100488", 
+            "y" : "-97558"
+         }, 
+         "child" : [ 
+            "a9d45fc5-fb8c-46b7-9f51-2c5ac1e98b8b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.eef8f016-46d1-4e36-9139-7a19dee6bae0"
+      }, 
+      "79890b9d-d423-4e65-929f-634ab5fe405d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-99609"
+         }, 
+         "child" : [ 
+            "a9d45fc5-fb8c-46b7-9f51-2c5ac1e98b8b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.79890b9d-d423-4e65-929f-634ab5fe405d"
+      }, 
+      "eaad3c0c-da56-4a13-b08e-6139f22ef4fd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100902", 
+            "y" : "-99650"
+         }, 
+         "child" : [ 
+            "a9d45fc5-fb8c-46b7-9f51-2c5ac1e98b8b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.eaad3c0c-da56-4a13-b08e-6139f22ef4fd"
+      }, 
+      "27ef2811-3369-4295-892e-27f696f5164a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101842", 
+            "y" : "-99462", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "3b778d7b-7d26-48ef-b71e-666b5ccede97"
+         ], 
+         "text" : "#Zvezda_Strateg_End.27ef2811-3369-4295-892e-27f696f5164a"
+      }, 
+      "3b778d7b-7d26-48ef-b71e-666b5ccede97" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-101145", 
+            "y" : "-99264"
+         }, 
+         "child" : [ 
+            "b6b2687c-6d6e-4980-bbc2-928158bbcfd7", 
+            "41c04b21-2219-4ceb-9714-3910939bc8ce"
+         ], 
+         "value" : "103", 
+         "skill" : "Speech"
+      }, 
+      "b6b2687c-6d6e-4980-bbc2-928158bbcfd7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101353", 
+            "y" : "-99130", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "f7598fa8-9d17-4b6e-aa7a-87515937d7dd"
+         ], 
+         "text" : "#Zvezda_Strateg_End.b6b2687c-6d6e-4980-bbc2-928158bbcfd7"
+      }, 
+      "f7598fa8-9d17-4b6e-aa7a-87515937d7dd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101353", 
+            "y" : "-99030"
+         }, 
+         "child" : [ 
+            "f212443d-61c3-48c0-b5ca-82bd5d8d2acb"
+         ]
+      }, 
+      "f212443d-61c3-48c0-b5ca-82bd5d8d2acb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101352", 
+            "y" : "-98985"
+         }, 
+         "child" : [ 
+            "85119bfb-e9e5-4671-a7ef-34541ec2da66"
+         ], 
+         "text" : "#Zvezda_Strateg_End.f212443d-61c3-48c0-b5ca-82bd5d8d2acb"
+      }, 
+      "85119bfb-e9e5-4671-a7ef-34541ec2da66" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101299", 
+            "y" : "-98890"
+         }, 
+         "child" : [ 
+            "5ac534c7-43ab-42e0-82e6-0cc1878a4264"
+         ], 
+         "exp" : "50"
+      }, 
+      "5ac534c7-43ab-42e0-82e6-0cc1878a4264" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101304", 
+            "y" : "-98824"
+         }, 
+         "child" : [ 
+            "d6590dd8-b2b7-4fd5-a041-4c1793d1f61e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "100", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d6590dd8-b2b7-4fd5-a041-4c1793d1f61e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101350", 
+            "y" : "-98744", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "d181fd35-06f5-44e9-b2c0-0e373080f67d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.d6590dd8-b2b7-4fd5-a041-4c1793d1f61e"
+      }, 
+      "41c04b21-2219-4ceb-9714-3910939bc8ce" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-99133", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "930883c8-cf6d-43d5-b64a-b5595a70885a"
+         ], 
+         "text" : "#Zvezda_Strateg_End.41c04b21-2219-4ceb-9714-3910939bc8ce"
+      }, 
+      "930883c8-cf6d-43d5-b64a-b5595a70885a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-99033"
+         }, 
+         "child" : [ 
+            "96e7825a-e698-42ed-9dc0-1ff476d0bdc7"
+         ]
+      }, 
+      "96e7825a-e698-42ed-9dc0-1ff476d0bdc7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100973", 
+            "y" : "-98990"
+         }, 
+         "child" : [ 
+            "4afbeeca-85ea-4944-a87c-d1a8d11521c5"
+         ], 
+         "text" : "#Zvezda_Strateg_End.96e7825a-e698-42ed-9dc0-1ff476d0bdc7"
+      }, 
+      "4afbeeca-85ea-4944-a87c-d1a8d11521c5" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100926", 
+            "y" : "-98890"
+         }, 
+         "child" : [ 
+            "cf6c0c78-60f2-4cc9-85d7-55f0db13a866", 
+            "c2754e11-4dd3-4d8d-820c-56d1f4706d4e", 
+            "dadf1be4-5d41-42dc-a7e7-7d2575c78ec7"
+         ], 
+         "key" : "A_4"
+      }, 
+      "cf6c0c78-60f2-4cc9-85d7-55f0db13a866" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101124", 
+            "y" : "-98833", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "d181fd35-06f5-44e9-b2c0-0e373080f67d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.cf6c0c78-60f2-4cc9-85d7-55f0db13a866"
+      }, 
+      "c2754e11-4dd3-4d8d-820c-56d1f4706d4e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-98776"
+         }, 
+         "child" : [ 
+            "9b613aee-3a44-41db-b613-2898700ea5bf", 
+            "a40670e0-b9c6-4c7c-8eff-629e63e9d89c"
+         ], 
+         "key" : "A_5"
+      }, 
+      "9b613aee-3a44-41db-b613-2898700ea5bf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-98667"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a40670e0-b9c6-4c7c-8eff-629e63e9d89c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-98674", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "265f8a61-9656-4a32-b650-6421cc35c38d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.a40670e0-b9c6-4c7c-8eff-629e63e9d89c"
+      }, 
+      "265f8a61-9656-4a32-b650-6421cc35c38d" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-100708", 
+            "y" : "-99440"
+         }, 
+         "child" : [ 
+            "dbe5208c-b5c7-4e3a-a0d1-eeead1003a1f", 
+            "9bed0f0e-2f96-4396-813f-65e238ad9836"
+         ], 
+         "value" : "103", 
+         "skill" : "Barter"
+      }, 
+      "dbe5208c-b5c7-4e3a-a0d1-eeead1003a1f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100914", 
+            "y" : "-99302", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "f7598fa8-9d17-4b6e-aa7a-87515937d7dd"
+         ], 
+         "text" : "#Zvezda_Strateg_End.dbe5208c-b5c7-4e3a-a0d1-eeead1003a1f"
+      }, 
+      "9bed0f0e-2f96-4396-813f-65e238ad9836" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100424", 
+            "y" : "-99344", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "d46b5851-2e82-4f46-bef3-8b0e5edbac3d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.9bed0f0e-2f96-4396-813f-65e238ad9836"
+      }, 
+      "d46b5851-2e82-4f46-bef3-8b0e5edbac3d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100424", 
+            "y" : "-99244"
+         }, 
+         "child" : [ 
+            "d16f9bbc-af5b-4d0b-aa64-6d6488ecd5ca"
+         ]
+      }, 
+      "d16f9bbc-af5b-4d0b-aa64-6d6488ecd5ca" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100424", 
+            "y" : "-99204"
+         }, 
+         "child" : [ 
+            "cab92b6b-b493-42f8-9cde-7b4001cf7e7c"
+         ], 
+         "text" : "#Zvezda_Strateg_End.d16f9bbc-af5b-4d0b-aa64-6d6488ecd5ca"
+      }, 
+      "cab92b6b-b493-42f8-9cde-7b4001cf7e7c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100386", 
+            "y" : "-99092"
+         }, 
+         "child" : [ 
+            "a2067878-467c-4aa8-983f-cd2bc8502c90", 
+            "51d0ad70-63e8-45e3-9fd1-6f876e04a6dd", 
+            "47ac6845-3c83-46d0-8594-408eb7ea8b65"
+         ], 
+         "key" : "A_5"
+      }, 
+      "a2067878-467c-4aa8-983f-cd2bc8502c90" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100660", 
+            "y" : "-99044", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "d181fd35-06f5-44e9-b2c0-0e373080f67d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.a2067878-467c-4aa8-983f-cd2bc8502c90"
+      }, 
+      "51d0ad70-63e8-45e3-9fd1-6f876e04a6dd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100428", 
+            "y" : "-98964"
+         }, 
+         "child" : [ 
+            "d5cce417-a637-4cde-8cf1-0091d46c4a16", 
+            "79e93704-ec0c-45f2-8f66-06f253631be4"
+         ], 
+         "key" : "A_4"
+      }, 
+      "d5cce417-a637-4cde-8cf1-0091d46c4a16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100494", 
+            "y" : "-98866"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "79e93704-ec0c-45f2-8f66-06f253631be4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100358", 
+            "y" : "-98870", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "3b778d7b-7d26-48ef-b71e-666b5ccede97"
+         ], 
+         "text" : "#Zvezda_Strateg_End.79e93704-ec0c-45f2-8f66-06f253631be4"
+      }, 
+      "47ac6845-3c83-46d0-8594-408eb7ea8b65" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100274", 
+            "y" : "-99044", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "9570f207-0bf2-4a26-ac5e-e7be106f949b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.47ac6845-3c83-46d0-8594-408eb7ea8b65"
+      }, 
+      "9570f207-0bf2-4a26-ac5e-e7be106f949b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100568", 
+            "y" : "-98670", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "0224fb9f-6dd1-44a6-b38d-7347a326cedb"
+         ], 
+         "text" : "#Zvezda_Strateg_End.9570f207-0bf2-4a26-ac5e-e7be106f949b"
+      }, 
+      "0224fb9f-6dd1-44a6-b38d-7347a326cedb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100568", 
+            "y" : "-98590"
+         }, 
+         "child" : [ 
+            "8917a653-2905-4900-9678-2111ec859df0"
+         ]
+      }, 
+      "8917a653-2905-4900-9678-2111ec859df0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100568", 
+            "y" : "-98552"
+         }, 
+         "child" : [ 
+            "670a28d6-beb9-4f0c-be43-7713ec2f024f"
+         ], 
+         "text" : "#Zvezda_Strateg_End.8917a653-2905-4900-9678-2111ec859df0"
+      }, 
+      "670a28d6-beb9-4f0c-be43-7713ec2f024f" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100527", 
+            "y" : "-98446"
+         }, 
+         "child" : [ 
+            "0bc6d712-4100-49f0-aeab-7fddfa46b9f3"
+         ], 
+         "quest_key" : "CITY.STRATEG.END"
+      }, 
+      "0bc6d712-4100-49f0-aeab-7fddfa46b9f3" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100515", 
+            "y" : "-98392"
+         }, 
+         "child" : [ 
+            "4b206b01-fef6-45e1-bcbd-2b5a45fcdc01", 
+            "d9d4302b-3a98-4dc5-8799-2984e439891e", 
+            "2407a998-e199-4c6f-99eb-1a4630224b99"
+         ], 
+         "exp" : "200"
+      }, 
+      "4b206b01-fef6-45e1-bcbd-2b5a45fcdc01" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100796", 
+            "y" : "-98328", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "a01dfdc6-7b79-451f-b889-f7160e51716a"
+         ], 
+         "text" : "#Zvezda_Strateg_End.4b206b01-fef6-45e1-bcbd-2b5a45fcdc01"
+      }, 
+      "a01dfdc6-7b79-451f-b889-f7160e51716a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101066", 
+            "y" : "-97898", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "63bfa3ca-492e-4054-aa9e-67bcb9de0870"
+         ], 
+         "text" : "#Zvezda_Strateg_End.a01dfdc6-7b79-451f-b889-f7160e51716a"
+      }, 
+      "63bfa3ca-492e-4054-aa9e-67bcb9de0870" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101066", 
+            "y" : "-97798"
+         }, 
+         "child" : [ 
+            "c7bbc589-4103-454a-b6eb-441bec7e2436"
+         ]
+      }, 
+      "c7bbc589-4103-454a-b6eb-441bec7e2436" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101066", 
+            "y" : "-97698"
+         }, 
+         "child" : [ 
+            "62b17a75-75dc-4339-b708-61d4d52cda83", 
+            "45c3c219-4fef-449a-a7e8-94c716024c81", 
+            "eef8f016-46d1-4e36-9139-7a19dee6bae0"
+         ], 
+         "text" : "#Zvezda_Strateg_End.c7bbc589-4103-454a-b6eb-441bec7e2436"
+      }, 
+      "62b17a75-75dc-4339-b708-61d4d52cda83" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101066", 
+            "y" : "-97576", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "074c18e2-8400-408c-9c33-519d866a1203"
+         ], 
+         "text" : "#Zvezda_Strateg_End.62b17a75-75dc-4339-b708-61d4d52cda83"
+      }, 
+      "d9d4302b-3a98-4dc5-8799-2984e439891e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100698", 
+            "y" : "-98244", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "a01dfdc6-7b79-451f-b889-f7160e51716a"
+         ], 
+         "text" : "#Zvezda_Strateg_End.d9d4302b-3a98-4dc5-8799-2984e439891e"
+      }, 
+      "2407a998-e199-4c6f-99eb-1a4630224b99" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100444", 
+            "y" : "-98328", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "a01dfdc6-7b79-451f-b889-f7160e51716a"
+         ], 
+         "text" : "#Zvezda_Strateg_End.2407a998-e199-4c6f-99eb-1a4630224b99"
+      }, 
+      "dadf1be4-5d41-42dc-a7e7-7d2575c78ec7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100783", 
+            "y" : "-98833", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "9570f207-0bf2-4a26-ac5e-e7be106f949b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.dadf1be4-5d41-42dc-a7e7-7d2575c78ec7"
+      }, 
+      "03d60b44-a740-4165-b177-da66d8984ebb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99562", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "265f8a61-9656-4a32-b650-6421cc35c38d"
+         ], 
+         "text" : "#Zvezda_Strateg_End.03d60b44-a740-4165-b177-da66d8984ebb"
+      }, 
+      "e2bd64cc-5ccc-4388-bc73-08e1d26a0bfd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101542", 
+            "y" : "-99462", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "9570f207-0bf2-4a26-ac5e-e7be106f949b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.e2bd64cc-5ccc-4388-bc73-08e1d26a0bfd"
+      }, 
+      "7aa051c2-a716-4952-a652-bde3a93dc3c8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102058", 
+            "y" : "-100266"
+         }, 
+         "child" : [ 
+            "e20d3c54-e300-4878-9d10-c442db992689", 
+            "61faea0d-3b01-45c0-a4b2-c560b017f1e4"
+         ], 
+         "note_key" : "STRATEG_SAVE_2"
+      }, 
+      "e20d3c54-e300-4878-9d10-c442db992689" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-100068", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "a27c15c5-5043-4458-9b60-4d79c87d0439"
+         ], 
+         "text" : "#Zvezda_Strateg_End.e20d3c54-e300-4878-9d10-c442db992689"
+      }, 
+      "a27c15c5-5043-4458-9b60-4d79c87d0439" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-99968"
+         }, 
+         "child" : [ 
+            "0ef7fb56-8c60-4da1-ab3d-ebeb2fcc976c"
+         ]
+      }, 
+      "0ef7fb56-8c60-4da1-ab3d-ebeb2fcc976c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-99868"
+         }, 
+         "child" : [ 
+            "3b96a5a0-315a-4d26-9763-907ea7247009"
+         ], 
+         "text" : "#Zvezda_Strateg_End.0ef7fb56-8c60-4da1-ab3d-ebeb2fcc976c"
+      }, 
+      "3b96a5a0-315a-4d26-9763-907ea7247009" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-99768"
+         }, 
+         "child" : [ 
+            "9214d97d-6b70-4368-8880-9542110206f4"
+         ]
+      }, 
+      "61faea0d-3b01-45c0-a4b2-c560b017f1e4" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101847", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+            "755218de-a183-49e2-82ab-6c95903906d9", 
+            "ef332039-904d-4e83-9840-68eaaa48e7da"
+         ], 
+         "note_key" : "STRATEG_SAVE_1"
+      }, 
+      "755218de-a183-49e2-82ab-6c95903906d9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-100076", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "1f6b6477-24ca-46b5-b693-8c2aaad68239"
+         ], 
+         "text" : "#Zvezda_Strateg_End.755218de-a183-49e2-82ab-6c95903906d9"
+      }, 
+      "1f6b6477-24ca-46b5-b693-8c2aaad68239" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-99976"
+         }, 
+         "child" : [ 
+            "9cb2d84d-bc28-48f5-b01a-7102693e9fa3"
+         ]
+      }, 
+      "9cb2d84d-bc28-48f5-b01a-7102693e9fa3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-99876"
+         }, 
+         "child" : [ 
+            "09847113-dd1a-4cd9-97b3-e4cf06da9f64"
+         ], 
+         "text" : "#Zvezda_Strateg_End.9cb2d84d-bc28-48f5-b01a-7102693e9fa3"
+      }, 
+      "09847113-dd1a-4cd9-97b3-e4cf06da9f64" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-99776"
+         }, 
+         "child" : [ 
+            "9214d97d-6b70-4368-8880-9542110206f4"
+         ]
+      }, 
+      "ef332039-904d-4e83-9840-68eaaa48e7da" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-100062", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "fe17326b-2688-4b80-8fff-229dd6f66f0b"
+         ], 
+         "text" : "#Zvezda_Strateg_End.ef332039-904d-4e83-9840-68eaaa48e7da"
+      }, 
+      "fe17326b-2688-4b80-8fff-229dd6f66f0b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99939"
+         }, 
+         "child" : [ 
+            "ab27a478-9134-4a26-b1b1-abf0d4d06a49"
+         ]
+      }, 
+      "ab27a478-9134-4a26-b1b1-abf0d4d06a49" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99862"
+         }, 
+         "child" : [ 
+            "bb9bac40-ab04-45cb-9483-5dca3e7e1eff"
+         ], 
+         "text" : "#Zvezda_Strateg_End.ab27a478-9134-4a26-b1b1-abf0d4d06a49"
+      }, 
+      "bb9bac40-ab04-45cb-9483-5dca3e7e1eff" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99762"
+         }, 
+         "child" : [ 
+            "9214d97d-6b70-4368-8880-9542110206f4"
+         ]
+      }, 
+      "e01b72fa-7ab4-4235-8817-1f725899a0a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-100686", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "369c1b95-62db-48bc-9bab-c6fb4deeb0e5"
+         ], 
+         "text" : "#Zvezda_Strateg_End.e01b72fa-7ab4-4235-8817-1f725899a0a6"
+      }, 
+      "369c1b95-62db-48bc-9bab-c6fb4deeb0e5" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-100586"
+         }, 
+         "child" : [ 
+            "45632e67-1934-49ba-ad38-c47b3e8fb0e3"
+         ]
+      }, 
+      "45632e67-1934-49ba-ad38-c47b3e8fb0e3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-100486"
+         }, 
+         "child" : [ 
+            "0865fd8b-2605-43a9-9c9c-05c86af2c5b5"
+         ], 
+         "text" : "#Zvezda_Strateg_End.45632e67-1934-49ba-ad38-c47b3e8fb0e3"
+      }, 
+      "0865fd8b-2605-43a9-9c9c-05c86af2c5b5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-100386", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "59b3ac0c-ac51-4561-83bc-0e7b04d746ff"
+         ], 
+         "text" : "#Zvezda_Strateg_End.0865fd8b-2605-43a9-9c9c-05c86af2c5b5"
+      }, 
+      "8aaab188-6d8c-4f4a-b225-50397289341f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101735", 
+            "y" : "-100855", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "2352a43d-4a90-45e3-aa64-4156e1d87f94"
+         ], 
+         "text" : "#Zvezda_Strateg_End.8aaab188-6d8c-4f4a-b225-50397289341f"
+      }, 
+      "2352a43d-4a90-45e3-aa64-4156e1d87f94" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101624", 
+            "y" : "-100790"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "499ffa2f-de73-4498-b49b-951a3e90afc7"
+}

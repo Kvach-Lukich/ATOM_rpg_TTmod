@@ -803,7 +803,8 @@
             "47b5584a-6557-4673-95d6-f196d2d38f50", 
             "a1fbbb62-31fa-4285-bc14-7dffe5773d75", 
             "886b50d8-cb8d-4ca0-9cda-78a50abd7b7d", 
-            "dc6cff6a-3da2-4f4c-a71d-46998542924c"
+            "dc6cff6a-3da2-4f4c-a71d-46998542924c", 
+            "06eb7347-e701-4eb3-b795-d186fd27ff3a"
          ]
       }, 
       "0a352db8-63c3-4c51-9ede-092bd8c1a3ba" : { 
@@ -881,8 +882,8 @@
       "dc6cff6a-3da2-4f4c-a71d-46998542924c" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-98822", 
-            "y" : "-99494"
+            "x" : "-98805", 
+            "y" : "-99334"
          }, 
          "child" : [ 
          ], 
@@ -892,6 +893,24 @@
             "proto" : "APS", 
             "ammo" : { 
                "count" : "20", 
+               "proto" : "9mm_JHP"
+            }
+         }
+      }, 
+      "06eb7347-e701-4eb3-b795-d186fd27ff3a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-98652", 
+            "y" : "-99336"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "pistol_ak", 
+            "ammo" : { 
+               "count" : "18", 
                "proto" : "9mm_JHP"
             }
          }

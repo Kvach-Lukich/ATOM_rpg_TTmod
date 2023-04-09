@@ -24,10 +24,14 @@ MonoBehaviour:
     _value: 1
   - _type: 6
     _value: 1
-  - _type: 1
-    _value: 1
+  - _type: 7
+    _value: 5
   - _type: 16
     _value: 170
+  - _type: 22
+    _value: -199
+  - _type: 4
+    _value: -9
   UniformType: 3
   HideMask: 0
   ArmorDurability: 0

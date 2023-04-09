@@ -27,7 +27,7 @@ MonoBehaviour:
   AmmoCapacity: 9
   BothHands: 0
   Stack: 0
-  DamageMin: 18
+  DamageMin: 19
   DamageMax: 24
   DamageRadius: 1
   Fatality: 50

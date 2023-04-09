@@ -1,0 +1,464 @@
+{ 
+   "states" : { 
+      "676d78c4-5b4a-4f90-bf2e-3e37659bc242" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100991"
+         }, 
+         "child" : [ 
+            "68217934-85c8-4c6b-b48a-bfc69d8e03ed", 
+            "9b139e83-6949-465b-b20c-a4cc59de76c2", 
+            "b290f144-c30d-45e9-b9d3-1da29be53953", 
+            "c8d70b32-5d7f-4f20-ad48-367e161e1e56", 
+            "22ceb79a-23a0-4c55-8ea8-dd3fb0977d95", 
+            "8704c5e2-9549-4f56-a74c-8aa99824fd30"
+         ]
+      }, 
+      "68217934-85c8-4c6b-b48a-bfc69d8e03ed" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101181", 
+            "y" : "-100804"
+         }, 
+         "child" : [ 
+            "f4c8ae4b-4957-4e76-86d7-f8f474e4e4e7", 
+            "91f05795-0c4d-4606-a46f-a23ebd021df3"
+         ], 
+         "key" : "REPAIR_TIME_1D"
+      }, 
+      "f4c8ae4b-4957-4e76-86d7-f8f474e4e4e7" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-101330", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+            "01755613-bea2-4a3d-9245-c1e31501478b"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "REPAIR_TIME_1D"
+      }, 
+      "01755613-bea2-4a3d-9245-c1e31501478b" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101281", 
+            "y" : "-100592"
+         }, 
+         "child" : [ 
+            "6be46244-b68f-4819-b940-94255b939a6e"
+         ], 
+         "key" : "REPAIR_TIME_1D"
+      }, 
+      "6be46244-b68f-4819-b940-94255b939a6e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101058", 
+            "y" : "-99686"
+         }, 
+         "child" : [ 
+            "a4a683e9-1d43-415a-95a6-404c5a7601f7"
+         ]
+      }, 
+      "a4a683e9-1d43-415a-95a6-404c5a7601f7" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101082", 
+            "y" : "-99647"
+         }, 
+         "child" : [ 
+            "e03f7892-9ef4-437e-8da3-2cdd41f56b88"
+         ], 
+         "note_key" : "BAZA_MAINTENANCE"
+      }, 
+      "e03f7892-9ef4-437e-8da3-2cdd41f56b88" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101096", 
+            "y" : "-99591"
+         }, 
+         "child" : [ 
+            "29437da2-561d-4c5f-b7b8-4220d2652027"
+         ], 
+         "objectName" : "Hermo_Door_box_CLOSE", 
+         "active" : "false"
+      }, 
+      "29437da2-561d-4c5f-b7b8-4220d2652027" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101093", 
+            "y" : "-99518"
+         }, 
+         "child" : [ 
+            "12b11f53-186a-4e54-868d-26c8542c46a3"
+         ], 
+         "objectName" : "Hermo_Door_box_OPEN", 
+         "active" : "true"
+      }, 
+      "12b11f53-186a-4e54-868d-26c8542c46a3" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101079", 
+            "y" : "-99445"
+         }, 
+         "child" : [ 
+            "365ecdbb-5c76-4c71-8fec-3ad3339ac764"
+         ], 
+         "objectName" : "Baza_Ladder_Down", 
+         "active" : "true"
+      }, 
+      "365ecdbb-5c76-4c71-8fec-3ad3339ac764" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99368", 
+            "comment" : "убрать \"странные звуки\" из люка"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LogicLevel", 
+         "key" : "HERMO_DOOR_SFX", 
+         "value" : "0"
+      }, 
+      "91f05795-0c4d-4606-a46f-a23ebd021df3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-100686"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9b139e83-6949-465b-b20c-a4cc59de76c2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100956", 
+            "y" : "-100652"
+         }, 
+         "child" : [ 
+            "f88b9003-7776-4df8-9c8b-cc24aaf96782", 
+            "3c5e000b-b990-479d-b2a9-04324f2f7fbc"
+         ], 
+         "key" : "REPAIR_TIME_2D"
+      }, 
+      "f88b9003-7776-4df8-9c8b-cc24aaf96782" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-101114", 
+            "y" : "-100549"
+         }, 
+         "child" : [ 
+            "620837ca-6bd8-4262-bc42-60c71560067b"
+         ], 
+         "time" : "2", 
+         "mode" : "Day", 
+         "offsetValue" : "REPAIR_TIME_2D"
+      }, 
+      "620837ca-6bd8-4262-bc42-60c71560067b" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101065", 
+            "y" : "-100453"
+         }, 
+         "child" : [ 
+            "6be46244-b68f-4819-b940-94255b939a6e"
+         ], 
+         "key" : "REPAIR_TIME_2D"
+      }, 
+      "3c5e000b-b990-479d-b2a9-04324f2f7fbc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100884", 
+            "y" : "-100546"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b290f144-c30d-45e9-b9d3-1da29be53953" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-100543"
+         }, 
+         "child" : [ 
+            "9e2aa0ef-c24b-469e-b59a-d801f656ba80", 
+            "6aa6aa9b-5954-425d-8f7a-f5503c87e048"
+         ], 
+         "key" : "REPAIR_TIME_3D"
+      }, 
+      "9e2aa0ef-c24b-469e-b59a-d801f656ba80" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100894", 
+            "y" : "-100428"
+         }, 
+         "child" : [ 
+            "676bbe58-70cb-4dea-a85a-55bb598e9cef"
+         ], 
+         "time" : "3", 
+         "mode" : "Day", 
+         "offsetValue" : "REPAIR_TIME_3D"
+      }, 
+      "676bbe58-70cb-4dea-a85a-55bb598e9cef" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100845", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+            "6be46244-b68f-4819-b940-94255b939a6e"
+         ], 
+         "key" : "REPAIR_TIME_3D"
+      }, 
+      "6aa6aa9b-5954-425d-8f7a-f5503c87e048" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100670", 
+            "y" : "-100429"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c8d70b32-5d7f-4f20-ad48-367e161e1e56" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100584", 
+            "y" : "-100354"
+         }, 
+         "child" : [ 
+            "22552c2a-cac1-464b-a507-78291ced3424", 
+            "dea38c14-15c5-4cc3-af93-9eb303e46f00"
+         ], 
+         "key" : "BAZA_FUEL_BEGIN_TIME_3D"
+      }, 
+      "22552c2a-cac1-464b-a507-78291ced3424" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100733", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+            "69e97b90-9cd9-4103-9468-9d10571e893b"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "BAZA_FUEL_BEGIN_TIME_3D"
+      }, 
+      "69e97b90-9cd9-4103-9468-9d10571e893b" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100682", 
+            "y" : "-100145"
+         }, 
+         "child" : [ 
+            "b102e361-9beb-402e-83c6-4207b53f681b"
+         ], 
+         "key" : "BAZA_FUEL_BEGIN_TIME_3D"
+      }, 
+      "b102e361-9beb-402e-83c6-4207b53f681b" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100652", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+            "cad3b0b6-366e-4c24-8061-60504da2c77a"
+         ], 
+         "note_key" : "BAZA.FUEL.READY"
+      }, 
+      "cad3b0b6-366e-4c24-8061-60504da2c77a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100670", 
+            "y" : "-100029", 
+            "comment" : "запустить генератор, если он еще не был запущен"
+         }, 
+         "child" : [ 
+            "d82435b1-efda-495a-a4e5-7ee963f78a44"
+         ], 
+         "note_key" : "BAZA.GENERATOR.READY"
+      }, 
+      "d82435b1-efda-495a-a4e5-7ee963f78a44" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100691", 
+            "y" : "-99968", 
+            "comment" : "передать уровню время появления машины"
+         }, 
+         "child" : [ 
+            "aa88f3f3-bee1-484d-8edb-e852109139d7"
+         ], 
+         "objectName" : "LogicLevel", 
+         "key" : "BAZA_FUEL_TRUCK_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "aa88f3f3-bee1-484d-8edb-e852109139d7" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100699", 
+            "y" : "-99893", 
+            "comment" : "Гожин и Николай появляются в домике гг (перед столом с Пашей) ЧЕРЕЗ 1 день после того, как гг заправил Генератор и открыл возможность ремонтировать бункер!!! "
+         }, 
+         "child" : [ 
+            "c4fc6180-0d03-456a-a979-33d1e80e881b"
+         ], 
+         "objectName" : "LogicLevel", 
+         "key" : "BAZA_REQUEST_NIKO_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "c4fc6180-0d03-456a-a979-33d1e80e881b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100638", 
+            "y" : "-99816"
+         }, 
+         "child" : [ 
+            "6be46244-b68f-4819-b940-94255b939a6e", 
+            "f5204cdc-074f-4d29-82e0-953ab68a5d68"
+         ], 
+         "objectName" : "Truck", 
+         "active" : "true"
+      }, 
+      "f5204cdc-074f-4d29-82e0-953ab68a5d68" : { 
+         "class" : "PlayerFixPositionIfInObstacleNode", 
+         "desc" : { 
+            "x" : "-100595", 
+            "y" : "-99725"
+         }, 
+         "child" : [ 
+            "61ae0f7f-d0e5-4ac2-aca0-9d0c27d71ea4", 
+            "fa31a888-18d4-410d-972c-260c4473f53b"
+         ], 
+         "radius" : "3"
+      }, 
+      "61ae0f7f-d0e5-4ac2-aca0-9d0c27d71ea4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100612", 
+            "y" : "-99611"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fa31a888-18d4-410d-972c-260c4473f53b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100491", 
+            "y" : "-99610"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dea38c14-15c5-4cc3-af93-9eb303e46f00" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100425", 
+            "y" : "-100235"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "22ceb79a-23a0-4c55-8ea8-dd3fb0977d95" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-100300", 
+            "y" : "-100605"
+         }, 
+         "child" : [ 
+            "f95910eb-3240-4b61-8fe0-c888ae968748"
+         ], 
+         "stateName" : ""
+      }, 
+      "f95910eb-3240-4b61-8fe0-c888ae968748" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-100566"
+         }, 
+         "child" : [ 
+         ], 
+         "anim" : "Sitting"
+      }, 
+      "8704c5e2-9549-4f56-a74c-8aa99824fd30" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100045", 
+            "y" : "-100715"
+         }, 
+         "child" : [ 
+            "0a526e43-8003-47ff-9062-c40e3f93499a", 
+            "aaed38fa-f0a2-42ce-bea2-91270c99f071"
+         ], 
+         "note_key" : "BAZA_MAINTENANCE"
+      }, 
+      "0a526e43-8003-47ff-9062-c40e3f93499a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100149", 
+            "y" : "-100619"
+         }, 
+         "child" : [ 
+            "62559782-b2ea-47b3-bfb8-da0ef60c7bb9"
+         ], 
+         "objectName" : "Hermo_Door_box_CLOSE", 
+         "active" : "true"
+      }, 
+      "62559782-b2ea-47b3-bfb8-da0ef60c7bb9" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100147", 
+            "y" : "-100547"
+         }, 
+         "child" : [ 
+            "5ae73efe-a865-4de1-a6a8-2a5e3f88c58e"
+         ], 
+         "objectName" : "Hermo_Door_box_OPEN", 
+         "active" : "false"
+      }, 
+      "5ae73efe-a865-4de1-a6a8-2a5e3f88c58e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100135", 
+            "y" : "-100473"
+         }, 
+         "child" : [ 
+            "cf51ca74-21db-4231-a9c4-e327e0a015ca"
+         ], 
+         "objectName" : "Baza_Ladder_Down", 
+         "active" : "false"
+      }, 
+      "cf51ca74-21db-4231-a9c4-e327e0a015ca" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100116", 
+            "y" : "-100400"
+         }, 
+         "child" : [ 
+            "a97d13bd-9dbc-4d7d-ac49-1a3244dc324f"
+         ], 
+         "active" : "false"
+      }, 
+      "a97d13bd-9dbc-4d7d-ac49-1a3244dc324f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100120", 
+            "y" : "-100325"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Pasha_blocker", 
+         "active" : "true"
+      }, 
+      "aaed38fa-f0a2-42ce-bea2-91270c99f071" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99943", 
+            "y" : "-100611"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "676d78c4-5b4a-4f90-bf2e-3e37659bc242"
+}

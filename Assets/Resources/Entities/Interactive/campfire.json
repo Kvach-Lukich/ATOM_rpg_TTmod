@@ -105,122 +105,37 @@
       "0a78e825-e745-4523-b322-0ae7905963e5" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-615", 
-            "y" : "-661"
+            "x" : "-600", 
+            "y" : "-672"
          }, 
          "child" : [ 
+            "8e3e6de6-536c-43d7-ada1-9153aab939d9", 
             "e75ca871-d0ae-4c6d-a1a2-a1eea5d523e7", 
-            "b6de4ede-844c-4ed6-8dc3-04a982475ae3", 
             "b6600148-6fe6-4b50-987d-ad563363f0f6"
          ], 
          "quest_key" : "OBLIVION_QUEST"
       }, 
-      "e75ca871-d0ae-4c6d-a1a2-a1eea5d523e7" : { 
+      "8e3e6de6-536c-43d7-ada1-9153aab939d9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-631", 
+            "y" : "-498"
+         }, 
+         "child" : [ 
+            "b6600148-6fe6-4b50-987d-ad563363f0f6", 
+            "b6de4ede-844c-4ed6-8dc3-04a982475ae3"
+         ], 
+         "note_key" : "WATERFALL_AMP_DONE"
+      }, 
+      "b6600148-6fe6-4b50-987d-ad563363f0f6" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-645", 
-            "y" : "-543"
-         }, 
-         "child" : [ 
-            "b6de4ede-844c-4ed6-8dc3-04a982475ae3"
-         ]
-      }, 
-      "b6de4ede-844c-4ed6-8dc3-04a982475ae3" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-620", 
-            "y" : "-484"
-         }, 
-         "child" : [ 
-            "d6b3774f-58e5-47fc-829a-6e19c1037bab"
-         ], 
-         "text" : "#campfire.b6de4ede-844c-4ed6-8dc3-04a982475ae3"
-      }, 
-      "d6b3774f-58e5-47fc-829a-6e19c1037bab" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-621", 
-            "y" : "-353"
-         }, 
-         "child" : [ 
-            "702aad08-0584-4ca8-a66d-fca4480ff342"
-         ], 
-         "text" : "#campfire.d6b3774f-58e5-47fc-829a-6e19c1037bab"
-      }, 
-      "702aad08-0584-4ca8-a66d-fca4480ff342" : { 
-         "class" : "InventoryRemoveItemNode", 
-         "desc" : { 
-            "x" : "-611", 
-            "y" : "-272"
-         }, 
-         "child" : [ 
-            "04735d49-db99-4f9b-aa48-9761bb7064ae"
-         ], 
-         "item" : { 
-            "class" : "Item", 
-            "count" : "1", 
-            "proto" : "OblivionAmpoule_empty"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "04735d49-db99-4f9b-aa48-9761bb7064ae" : { 
-         "class" : "InventoryAddItemNode", 
-         "desc" : { 
-            "x" : "-584", 
-            "y" : "-170"
-         }, 
-         "child" : [ 
-            "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
-         ], 
-         "item" : { 
-            "class" : "Consumable", 
-            "count" : "1", 
-            "proto" : "waterfall_ampoule"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-623", 
-            "y" : "-75"
-         }, 
-         "child" : [ 
-            "b390f969-6368-4cea-860c-52d931fda6d2", 
-            "1dbd027c-cc62-4de9-a2d6-d7beef56c755"
-         ], 
-         "text" : "#campfire.1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
-      }, 
-      "b390f969-6368-4cea-860c-52d931fda6d2" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-740", 
-            "y" : "36"
-         }, 
-         "child" : [ 
-            "6a140602-db56-4007-bf87-8e016a9d14d9"
-         ], 
-         "text" : "#campfire.b390f969-6368-4cea-860c-52d931fda6d2"
-      }, 
-      "6a140602-db56-4007-bf87-8e016a9d14d9" : { 
-         "class" : "DialogEndNode", 
-         "desc" : { 
-            "x" : "-689", 
-            "y" : "102"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "1dbd027c-cc62-4de9-a2d6-d7beef56c755" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-513", 
-            "y" : "41"
+            "x" : "-131", 
+            "y" : "-611"
          }, 
          "child" : [ 
             "a39e573c-0a63-4528-bebd-a860b67f48ed"
-         ], 
-         "text" : "#campfire.1dbd027c-cc62-4de9-a2d6-d7beef56c755"
+         ]
       }, 
       "a39e573c-0a63-4528-bebd-a860b67f48ed" : { 
          "class" : "DialogPhraseNode", 
@@ -2199,14 +2114,138 @@
          "value" : "4", 
          "opp" : "Add"
       }, 
-      "b6600148-6fe6-4b50-987d-ad563363f0f6" : { 
+      "b6de4ede-844c-4ed6-8dc3-04a982475ae3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-633", 
+            "y" : "-401"
+         }, 
+         "child" : [ 
+            "d6b3774f-58e5-47fc-829a-6e19c1037bab"
+         ], 
+         "text" : "#campfire.b6de4ede-844c-4ed6-8dc3-04a982475ae3"
+      }, 
+      "d6b3774f-58e5-47fc-829a-6e19c1037bab" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-635", 
+            "y" : "-290"
+         }, 
+         "child" : [ 
+            "702aad08-0584-4ca8-a66d-fca4480ff342"
+         ], 
+         "text" : "#campfire.d6b3774f-58e5-47fc-829a-6e19c1037bab"
+      }, 
+      "702aad08-0584-4ca8-a66d-fca4480ff342" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-773", 
+            "y" : "-225"
+         }, 
+         "child" : [ 
+            "80e7f3ba-3cd2-452b-b380-2623de83173c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "80e7f3ba-3cd2-452b-b380-2623de83173c" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-791", 
+            "y" : "-120"
+         }, 
+         "child" : [ 
+            "62043311-f9f8-4504-ba90-1e37e34d3151", 
+            "04735d49-db99-4f9b-aa48-9761bb7064ae"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "62043311-f9f8-4504-ba90-1e37e34d3151" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-131", 
-            "y" : "-611"
+            "x" : "-960", 
+            "y" : "-122"
+         }, 
+         "child" : [ 
+            "702aad08-0584-4ca8-a66d-fca4480ff342"
+         ]
+      }, 
+      "04735d49-db99-4f9b-aa48-9761bb7064ae" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-749", 
+            "y" : "-10"
+         }, 
+         "child" : [ 
+            "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "waterfall_ampoule"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-788", 
+            "y" : "85"
+         }, 
+         "child" : [ 
+            "b390f969-6368-4cea-860c-52d931fda6d2", 
+            "1dbd027c-cc62-4de9-a2d6-d7beef56c755"
+         ], 
+         "text" : "#campfire.1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
+      }, 
+      "b390f969-6368-4cea-860c-52d931fda6d2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-905", 
+            "y" : "196"
+         }, 
+         "child" : [ 
+            "6a140602-db56-4007-bf87-8e016a9d14d9"
+         ], 
+         "text" : "#campfire.b390f969-6368-4cea-860c-52d931fda6d2"
+      }, 
+      "6a140602-db56-4007-bf87-8e016a9d14d9" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-854", 
+            "y" : "262"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1dbd027c-cc62-4de9-a2d6-d7beef56c755" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-678", 
+            "y" : "201"
          }, 
          "child" : [ 
             "a39e573c-0a63-4528-bebd-a860b67f48ed"
+         ], 
+         "text" : "#campfire.1dbd027c-cc62-4de9-a2d6-d7beef56c755"
+      }, 
+      "e75ca871-d0ae-4c6d-a1a2-a1eea5d523e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-506", 
+            "y" : "-558"
+         }, 
+         "child" : [ 
+            "8e3e6de6-536c-43d7-ada1-9153aab939d9"
          ]
       }
    }, 

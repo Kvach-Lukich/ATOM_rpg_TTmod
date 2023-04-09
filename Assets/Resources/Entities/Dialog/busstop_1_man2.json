@@ -1,0 +1,6152 @@
+{ 
+   "states" : { 
+      "e2ad1e3a-83e7-4c68-87d3-138d7314162f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-101682"
+         }, 
+         "child" : [ 
+            "a993b39e-4d85-4f18-9e85-0714d7e393ed"
+         ]
+      }, 
+      "a993b39e-4d85-4f18-9e85-0714d7e393ed" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102087", 
+            "y" : "-101610"
+         }, 
+         "child" : [ 
+            "72e9d731-d75d-46db-aeb8-1b788419ab4b"
+         ], 
+         "key" : "INIT"
+      }, 
+      "72e9d731-d75d-46db-aeb8-1b788419ab4b" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-102050", 
+            "y" : "-101538"
+         }, 
+         "child" : [ 
+            "084647fc-d6a7-4bc6-bea9-1e20c84dca65"
+         ]
+      }, 
+      "084647fc-d6a7-4bc6-bea9-1e20c84dca65" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102080.7", 
+            "y" : "-101455.7"
+         }, 
+         "child" : [ 
+            "af2717df-d753-46d5-8492-1240f6238607"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "af2717df-d753-46d5-8492-1240f6238607" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102078", 
+            "y" : "-101319"
+         }, 
+         "child" : [ 
+            "673c6b1b-0237-4062-8326-11b31218c5d5", 
+            "32943e44-2909-4aaf-94e1-7cdf01ff7c21"
+         ], 
+         "key" : "MEET"
+      }, 
+      "673c6b1b-0237-4062-8326-11b31218c5d5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102663", 
+            "y" : "-101315"
+         }, 
+         "child" : [ 
+            "56018907-e007-431b-9275-09f31f794997", 
+            "7f51e576-70f2-428c-b1ac-ada35333b62e"
+         ], 
+         "key" : "A_55"
+      }, 
+      "56018907-e007-431b-9275-09f31f794997" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102986", 
+            "y" : "-101166"
+         }, 
+         "child" : [ 
+            "ca4b21ed-5eee-4449-81da-6d8f7fd46797"
+         ], 
+         "key" : "A_55"
+      }, 
+      "ca4b21ed-5eee-4449-81da-6d8f7fd46797" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102978", 
+            "y" : "-101083"
+         }, 
+         "child" : [ 
+            "90e35a2c-ce5d-4e54-990e-6b612d07c902"
+         ], 
+         "key" : "JAIL"
+      }, 
+      "90e35a2c-ce5d-4e54-990e-6b612d07c902" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103041", 
+            "y" : "-101013", 
+            "comment" : "А55"
+         }, 
+         "child" : [ 
+            "295c9c79-81bd-4fc7-ad3f-314d850ac16a"
+         ], 
+         "text" : "#BusStop_1_Man2.90e35a2c-ce5d-4e54-990e-6b612d07c902"
+      }, 
+      "295c9c79-81bd-4fc7-ad3f-314d850ac16a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103043", 
+            "y" : "-100881"
+         }, 
+         "child" : [ 
+            "a369c4b4-abd4-4304-ba8c-44c2ba7b7f7d"
+         ]
+      }, 
+      "a369c4b4-abd4-4304-ba8c-44c2ba7b7f7d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103043", 
+            "y" : "-100815"
+         }, 
+         "child" : [ 
+            "875c0505-38e3-4c6e-a118-5562f6b9f4cb"
+         ], 
+         "text" : "#BusStop_1_Man2.a369c4b4-abd4-4304-ba8c-44c2ba7b7f7d"
+      }, 
+      "875c0505-38e3-4c6e-a118-5562f6b9f4cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103043", 
+            "y" : "-100651", 
+            "comment" : "(перенос А56)"
+         }, 
+         "child" : [ 
+            "e4a5e24c-fb8b-433e-9a57-d83378cc7992"
+         ], 
+         "text" : "#BusStop_1_Man2.875c0505-38e3-4c6e-a118-5562f6b9f4cb"
+      }, 
+      "e4a5e24c-fb8b-433e-9a57-d83378cc7992" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102984", 
+            "y" : "-100522", 
+            "comment" : "А56"
+         }, 
+         "child" : [ 
+            "7605e928-fe63-4841-86a9-ea268c57bdf6"
+         ], 
+         "text" : "#BusStop_1_Man2.e4a5e24c-fb8b-433e-9a57-d83378cc7992"
+      }, 
+      "7605e928-fe63-4841-86a9-ea268c57bdf6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102982", 
+            "y" : "-100403", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "9e99b58d-6848-463d-a3ed-4ae958b1d9ac"
+         ], 
+         "text" : "#BusStop_1_Man2.7605e928-fe63-4841-86a9-ea268c57bdf6"
+      }, 
+      "9e99b58d-6848-463d-a3ed-4ae958b1d9ac" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102942", 
+            "y" : "-100294"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7f51e576-70f2-428c-b1ac-ada35333b62e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102311", 
+            "y" : "-101175"
+         }, 
+         "child" : [ 
+            "1f8d4e4b-b118-4f5e-9f57-3b6c1b36cec4", 
+            "30b4854e-70d4-4ea1-b6c0-1362ff0623a3"
+         ], 
+         "key" : "JAIL"
+      }, 
+      "1f8d4e4b-b118-4f5e-9f57-3b6c1b36cec4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-101045", 
+            "comment" : "А25"
+         }, 
+         "child" : [ 
+            "59fd1f25-1d8a-49b0-800d-f1197c3bd638"
+         ], 
+         "text" : "#BusStop_1_Man2.1f8d4e4b-b118-4f5e-9f57-3b6c1b36cec4"
+      }, 
+      "59fd1f25-1d8a-49b0-800d-f1197c3bd638" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102553", 
+            "y" : "-100929"
+         }, 
+         "child" : [ 
+            "99a451a7-812f-4f07-818e-1a1cc6d164dc"
+         ]
+      }, 
+      "99a451a7-812f-4f07-818e-1a1cc6d164dc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102553", 
+            "y" : "-100871"
+         }, 
+         "child" : [ 
+            "531e0b26-1706-440e-8d03-b4e47480eb58", 
+            "2d2831a6-a65f-4f75-924b-1153da455dc8", 
+            "e2173a4e-183f-4a22-b456-b6d0a53f031f"
+         ], 
+         "text" : "#BusStop_1_Man2.99a451a7-812f-4f07-818e-1a1cc6d164dc"
+      }, 
+      "531e0b26-1706-440e-8d03-b4e47480eb58" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102703", 
+            "y" : "-100800"
+         }, 
+         "child" : [ 
+            "a2ddac7c-d87d-4af4-953f-532659427802", 
+            "15edd863-6cb5-4b16-a333-74c9646bd847"
+         ], 
+         "key" : "HALTER"
+      }, 
+      "a2ddac7c-d87d-4af4-953f-532659427802" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102758", 
+            "y" : "-100720"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "15edd863-6cb5-4b16-a333-74c9646bd847" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102726", 
+            "y" : "-100667", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "b210c4ee-822a-4120-937b-5603ddced86d"
+         ], 
+         "text" : "#BusStop_1_Man2.15edd863-6cb5-4b16-a333-74c9646bd847"
+      }, 
+      "b210c4ee-822a-4120-937b-5603ddced86d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103815", 
+            "y" : "-98193"
+         }, 
+         "child" : [ 
+            "d9b66c8d-93bd-48e6-bbbe-e916abfe53d4"
+         ], 
+         "key" : "HALTER"
+      }, 
+      "d9b66c8d-93bd-48e6-bbbe-e916abfe53d4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103811", 
+            "y" : "-98114", 
+            "comment" : "А21"
+         }, 
+         "child" : [ 
+            "20a2b06e-255f-4c8e-bbb4-3e40811d65db", 
+            "957cf716-4420-4de4-88c2-274cf823037b"
+         ], 
+         "text" : "#BusStop_1_Man2.d9b66c8d-93bd-48e6-bbbe-e916abfe53d4"
+      }, 
+      "20a2b06e-255f-4c8e-bbb4-3e40811d65db" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104116", 
+            "y" : "-97986", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.20a2b06e-255f-4c8e-bbb4-3e40811d65db"
+      }, 
+      "8a565040-cfb8-4f52-927a-40ddd4d6d821" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103948", 
+            "y" : "-99250", 
+            "comment" : "А32"
+         }, 
+         "child" : [ 
+            "102f301d-a119-4f35-b688-49b421dc8709", 
+            "6cd94f33-3d0b-4061-8505-67968308ea1d"
+         ], 
+         "text" : "#BusStop_1_Man2.8a565040-cfb8-4f52-927a-40ddd4d6d821"
+      }, 
+      "102f301d-a119-4f35-b688-49b421dc8709" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103958", 
+            "y" : "-99144"
+         }, 
+         "child" : [ 
+            "6c372d77-fa3a-406a-9054-74588ecfc93e", 
+            "be14c789-d76f-4652-9160-5e5077799a37", 
+            "30f6a774-dd52-4a83-93ca-62cb9bed8470", 
+            "8fdbe51c-92be-4b02-ae64-e74e3692d46c", 
+            "2832248e-651f-42ae-83b0-bfb0119af905"
+         ]
+      }, 
+      "6c372d77-fa3a-406a-9054-74588ecfc93e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104665", 
+            "y" : "-99275"
+         }, 
+         "child" : [ 
+            "7c62f1a8-9e1a-4194-a4e7-03fbac65193b", 
+            "045cfa58-b439-4a6f-9ff9-0ae46bc2887d"
+         ], 
+         "key" : "HALTER"
+      }, 
+      "7c62f1a8-9e1a-4194-a4e7-03fbac65193b" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-104769", 
+            "y" : "-99155"
+         }, 
+         "child" : [ 
+            "7ea09645-8404-406b-9765-021541c3e4bb", 
+            "6d217b24-ce2e-4e4b-a968-0b4acfad52ea", 
+            "16f64e7b-925a-4246-9837-35c8fa4a8f00"
+         ], 
+         "quest_key" : "HARBOR_ZASTAVA1"
+      }, 
+      "7ea09645-8404-406b-9765-021541c3e4bb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105126", 
+            "y" : "-99138"
+         }, 
+         "child" : [ 
+            "93783ed4-ed61-462c-9453-148499abe36b"
+         ]
+      }, 
+      "93783ed4-ed61-462c-9453-148499abe36b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105181", 
+            "y" : "-99082"
+         }, 
+         "child" : [ 
+            "151f4b35-3793-4ab8-b375-73576022a304"
+         ], 
+         "text" : "#busstop_1_man2.93783ed4-ed61-462c-9453-148499abe36b"
+      }, 
+      "151f4b35-3793-4ab8-b375-73576022a304" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105187", 
+            "y" : "-99006"
+         }, 
+         "child" : [ 
+            "6150d260-decf-455e-99f3-a2a39f44ad7e"
+         ], 
+         "text" : "#busstop_1_man2.151f4b35-3793-4ab8-b375-73576022a304"
+      }, 
+      "6150d260-decf-455e-99f3-a2a39f44ad7e" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-105268", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+            "c74bc743-e10c-4ca9-ae24-5a8cc625e149", 
+            "74a843e6-50e6-4ef0-81d0-a32eaf92689d", 
+            "46d1eac2-b832-42e0-9afc-db46d021704f"
+         ], 
+         "quest_key" : "HARBOR.SIDE.END"
+      }, 
+      "c74bc743-e10c-4ca9-ae24-5a8cc625e149" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105422", 
+            "y" : "-98792"
+         }, 
+         "child" : [ 
+            "4eaa0d26-2446-4c60-855c-632e41a0264c"
+         ], 
+         "text" : "#busstop_1_man2.c74bc743-e10c-4ca9-ae24-5a8cc625e149"
+      }, 
+      "4eaa0d26-2446-4c60-855c-632e41a0264c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105037", 
+            "y" : "-98666"
+         }, 
+         "child" : [ 
+            "9a7406e3-2da3-4ebf-bc7d-ea84d10da297"
+         ]
+      }, 
+      "9a7406e3-2da3-4ebf-bc7d-ea84d10da297" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105092", 
+            "y" : "-98611"
+         }, 
+         "child" : [ 
+            "e7148391-f8b5-4756-ac82-3024e1a73df6"
+         ], 
+         "text" : "#busstop_1_man2.9a7406e3-2da3-4ebf-bc7d-ea84d10da297"
+      }, 
+      "e7148391-f8b5-4756-ac82-3024e1a73df6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105092", 
+            "y" : "-98494"
+         }, 
+         "child" : [ 
+            "9ede275e-1e92-4d72-8b1d-c990212c0c8d"
+         ], 
+         "text" : "#busstop_1_man2.e7148391-f8b5-4756-ac82-3024e1a73df6"
+      }, 
+      "9ede275e-1e92-4d72-8b1d-c990212c0c8d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105044", 
+            "y" : "-98389"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "74a843e6-50e6-4ef0-81d0-a32eaf92689d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105306", 
+            "y" : "-98685"
+         }, 
+         "child" : [ 
+            "47727159-13fd-4399-bee9-b2bb3dbc01ca"
+         ], 
+         "text" : "#busstop_1_man2.74a843e6-50e6-4ef0-81d0-a32eaf92689d"
+      }, 
+      "47727159-13fd-4399-bee9-b2bb3dbc01ca" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105316", 
+            "y" : "-98595"
+         }, 
+         "child" : [ 
+            "6bf881d1-2dbe-42c8-a702-29bd4c9bb7e8"
+         ], 
+         "text" : "#busstop_1_man2.47727159-13fd-4399-bee9-b2bb3dbc01ca"
+      }, 
+      "6bf881d1-2dbe-42c8-a702-29bd4c9bb7e8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-105315", 
+            "y" : "-98503"
+         }, 
+         "child" : [ 
+            "b647ec14-1df9-493e-ad82-539bcef1b85a"
+         ]
+      }, 
+      "b647ec14-1df9-493e-ad82-539bcef1b85a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105313", 
+            "y" : "-98457"
+         }, 
+         "child" : [ 
+            "67d386a8-b139-4603-bdbe-9d7932158a57"
+         ], 
+         "text" : "#busstop_1_man2.b647ec14-1df9-493e-ad82-539bcef1b85a"
+      }, 
+      "67d386a8-b139-4603-bdbe-9d7932158a57" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105298", 
+            "y" : "-98351"
+         }, 
+         "child" : [ 
+            "bd7aa2ef-1f4e-4768-bf23-c9a987ac0a7e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "25", 
+            "proto" : "Tobacco"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bd7aa2ef-1f4e-4768-bf23-c9a987ac0a7e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105283", 
+            "y" : "-98266"
+         }, 
+         "child" : [ 
+            "b67a2d7e-8e40-4e3f-94b3-4326246ba54e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Cologne"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b67a2d7e-8e40-4e3f-94b3-4326246ba54e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105282", 
+            "y" : "-98175"
+         }, 
+         "child" : [ 
+            "915298ec-0a71-4ee2-9ff4-2d8f1f303041"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "RedMoscow"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "915298ec-0a71-4ee2-9ff4-2d8f1f303041" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105277", 
+            "y" : "-98083"
+         }, 
+         "child" : [ 
+            "85cd7679-0b21-4803-bb12-8ff35617d87f", 
+            "b94168ac-b13d-4c65-8e9b-4b2c2fa3706f"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Maybe"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "85cd7679-0b21-4803-bb12-8ff35617d87f" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-105457", 
+            "y" : "-98013"
+         }, 
+         "child" : [ 
+         ], 
+         "exp" : "320"
+      }, 
+      "b94168ac-b13d-4c65-8e9b-4b2c2fa3706f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105330", 
+            "y" : "-97996"
+         }, 
+         "child" : [ 
+            "43a144b0-0f6e-46db-a69a-8d1474ce0ec2"
+         ], 
+         "text" : "#busstop_1_man2.b94168ac-b13d-4c65-8e9b-4b2c2fa3706f"
+      }, 
+      "43a144b0-0f6e-46db-a69a-8d1474ce0ec2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105322", 
+            "y" : "-97906"
+         }, 
+         "child" : [ 
+            "265c6c4b-da58-488c-83f6-1c249d177484"
+         ], 
+         "text" : "#busstop_1_man2.43a144b0-0f6e-46db-a69a-8d1474ce0ec2"
+      }, 
+      "265c6c4b-da58-488c-83f6-1c249d177484" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105322", 
+            "y" : "-97796"
+         }, 
+         "child" : [ 
+            "69e90ec0-e984-44b7-99ac-111f67f69b29"
+         ], 
+         "text" : "#busstop_1_man2.265c6c4b-da58-488c-83f6-1c249d177484"
+      }, 
+      "69e90ec0-e984-44b7-99ac-111f67f69b29" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105271", 
+            "y" : "-97731"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "46d1eac2-b832-42e0-9afc-db46d021704f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105135", 
+            "y" : "-98787"
+         }, 
+         "child" : [ 
+            "4eaa0d26-2446-4c60-855c-632e41a0264c"
+         ], 
+         "text" : "#busstop_1_man2.46d1eac2-b832-42e0-9afc-db46d021704f"
+      }, 
+      "6d217b24-ce2e-4e4b-a968-0b4acfad52ea" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104861", 
+            "y" : "-99028"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "16f64e7b-925a-4246-9837-35c8fa4a8f00" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104744", 
+            "y" : "-99018"
+         }, 
+         "child" : [ 
+            "645dacfe-b77a-4a5e-95d7-90efada641ca"
+         ]
+      }, 
+      "645dacfe-b77a-4a5e-95d7-90efada641ca" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104855", 
+            "y" : "-98947"
+         }, 
+         "child" : [ 
+            "b00bc601-f992-497d-95c2-5fed2b71a97e"
+         ], 
+         "text" : "#busstop_1_man2.645dacfe-b77a-4a5e-95d7-90efada641ca"
+      }, 
+      "b00bc601-f992-497d-95c2-5fed2b71a97e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104853", 
+            "y" : "-98867"
+         }, 
+         "child" : [ 
+            "a2185497-408b-4915-b330-93dedc47a2cb"
+         ], 
+         "text" : "#busstop_1_man2.b00bc601-f992-497d-95c2-5fed2b71a97e"
+      }, 
+      "a2185497-408b-4915-b330-93dedc47a2cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104856", 
+            "y" : "-98750"
+         }, 
+         "child" : [ 
+            "17494b8f-b2af-4200-94d5-d430ac3098b6"
+         ], 
+         "text" : "#busstop_1_man2.a2185497-408b-4915-b330-93dedc47a2cb"
+      }, 
+      "17494b8f-b2af-4200-94d5-d430ac3098b6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104840", 
+            "y" : "-98678"
+         }, 
+         "child" : [ 
+            "086d723b-ac52-499a-8c50-6c74a7756179"
+         ], 
+         "text" : "#busstop_1_man2.17494b8f-b2af-4200-94d5-d430ac3098b6"
+      }, 
+      "086d723b-ac52-499a-8c50-6c74a7756179" : { 
+         "class" : "AddLocationToMapNode", 
+         "desc" : { 
+            "x" : "-104788", 
+            "y" : "-98599"
+         }, 
+         "child" : [ 
+            "1d94f0f1-7a74-44b1-9b95-78e6629fdf31"
+         ], 
+         "location" : "Harbor_1"
+      }, 
+      "1d94f0f1-7a74-44b1-9b95-78e6629fdf31" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104837", 
+            "y" : "-98533"
+         }, 
+         "child" : [ 
+            "eb3dd838-0cf6-4337-803e-899aa7158b5e"
+         ], 
+         "text" : "#busstop_1_man2.1d94f0f1-7a74-44b1-9b95-78e6629fdf31"
+      }, 
+      "eb3dd838-0cf6-4337-803e-899aa7158b5e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104837", 
+            "y" : "-98466"
+         }, 
+         "child" : [ 
+            "3d31c1c1-b6d7-4e18-ad97-ff7052ed0654", 
+            "fdbe9a96-8b00-4d99-9495-85c863f6fe3c"
+         ], 
+         "text" : "#busstop_1_man2.eb3dd838-0cf6-4337-803e-899aa7158b5e"
+      }, 
+      "3d31c1c1-b6d7-4e18-ad97-ff7052ed0654" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104915", 
+            "y" : "-98343"
+         }, 
+         "child" : [ 
+            "50efb5dc-9994-45b3-8e21-8498af9986ce"
+         ], 
+         "text" : "#busstop_1_man2.3d31c1c1-b6d7-4e18-ad97-ff7052ed0654"
+      }, 
+      "50efb5dc-9994-45b3-8e21-8498af9986ce" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104846", 
+            "y" : "-98270"
+         }, 
+         "child" : [ 
+            "c788176c-1289-4ddc-825a-5c1267db018c", 
+            "fdbe9a96-8b00-4d99-9495-85c863f6fe3c"
+         ], 
+         "text" : "#busstop_1_man2.50efb5dc-9994-45b3-8e21-8498af9986ce"
+      }, 
+      "c788176c-1289-4ddc-825a-5c1267db018c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104856", 
+            "y" : "-98131"
+         }, 
+         "child" : [ 
+            "26143d4a-d81a-4009-8c1d-43d2ef3c4774"
+         ], 
+         "text" : "#busstop_1_man2.c788176c-1289-4ddc-825a-5c1267db018c"
+      }, 
+      "26143d4a-d81a-4009-8c1d-43d2ef3c4774" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-104808", 
+            "y" : "-98054"
+         }, 
+         "child" : [ 
+            "0ada5a69-f563-4d10-875c-fe8f3680a004"
+         ], 
+         "quest_key" : "HARBOR_ZASTAVA1"
+      }, 
+      "0ada5a69-f563-4d10-875c-fe8f3680a004" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104789", 
+            "y" : "-97982"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fdbe9a96-8b00-4d99-9495-85c863f6fe3c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104687", 
+            "y" : "-98355"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#busstop_1_man2.fdbe9a96-8b00-4d99-9495-85c863f6fe3c"
+      }, 
+      "045cfa58-b439-4a6f-9ff9-0ae46bc2887d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104509", 
+            "y" : "-98999", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "b210c4ee-822a-4120-937b-5603ddced86d"
+         ], 
+         "text" : "#BusStop_1_Man2.045cfa58-b439-4a6f-9ff9-0ae46bc2887d"
+      }, 
+      "be14c789-d76f-4652-9160-5e5077799a37" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104379", 
+            "y" : "-98923", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "f2324460-705b-4d07-a1f9-2d6d9d974ec2"
+         ], 
+         "text" : "#BusStop_1_Man2.be14c789-d76f-4652-9160-5e5077799a37"
+      }, 
+      "f2324460-705b-4d07-a1f9-2d6d9d974ec2" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-103180", 
+            "y" : "-97942", 
+            "comment" : "А22"
+         }, 
+         "child" : [ 
+            "6ecd9138-1aa0-4b4e-9b80-bc6b3cf2ffb9", 
+            "07549aae-8fca-4c0d-ad49-a8c59961e43b"
+         ], 
+         "value" : "7", 
+         "stat" : "Charisma"
+      }, 
+      "6ecd9138-1aa0-4b4e-9b80-bc6b3cf2ffb9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103421", 
+            "y" : "-97854"
+         }, 
+         "child" : [ 
+            "f103eec8-75c3-4354-a05f-9d96cd6001c9"
+         ], 
+         "text" : "#BusStop_1_Man2.6ecd9138-1aa0-4b4e-9b80-bc6b3cf2ffb9"
+      }, 
+      "f103eec8-75c3-4354-a05f-9d96cd6001c9" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103426", 
+            "y" : "-97749"
+         }, 
+         "child" : [ 
+            "95a5eba9-34a4-48b3-b526-d97e2003f068"
+         ]
+      }, 
+      "95a5eba9-34a4-48b3-b526-d97e2003f068" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103428", 
+            "y" : "-97697"
+         }, 
+         "child" : [ 
+            "a9b79171-ff8e-4548-85ff-883ba5b67876", 
+            "911ad58e-16bd-40df-a69a-02f70583e7d7", 
+            "f6173e23-9496-469f-b082-c523a53ed3f4", 
+            "b7605092-1d6d-4f4e-b91b-163759f1f1d2", 
+            "08acfec9-293b-489b-8bc4-d193e2c0a809"
+         ], 
+         "text" : "#BusStop_1_Man2.95a5eba9-34a4-48b3-b526-d97e2003f068"
+      }, 
+      "a9b79171-ff8e-4548-85ff-883ba5b67876" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103837", 
+            "y" : "-97641", 
+            "comment" : "(перенос А33)"
+         }, 
+         "child" : [ 
+            "aa26f605-98ee-4257-8512-246d62cee1c8"
+         ], 
+         "text" : "#BusStop_1_Man2.a9b79171-ff8e-4548-85ff-883ba5b67876"
+      }, 
+      "aa26f605-98ee-4257-8512-246d62cee1c8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104598", 
+            "y" : "-100456", 
+            "comment" : "А33"
+         }, 
+         "child" : [ 
+            "f1c473f2-adff-475c-b483-c6da88a10176"
+         ], 
+         "text" : "#BusStop_1_Man2.aa26f605-98ee-4257-8512-246d62cee1c8"
+      }, 
+      "f1c473f2-adff-475c-b483-c6da88a10176" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104598", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+            "4e207101-91f9-49d4-bc73-df9da68048d5"
+         ]
+      }, 
+      "4e207101-91f9-49d4-bc73-df9da68048d5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104548", 
+            "y" : "-100293"
+         }, 
+         "child" : [ 
+            "b0bb72c2-8f22-4d69-96e9-6456b0a248b7", 
+            "9078dcda-73f7-4ad3-8e8d-2ee3b2538b5b", 
+            "05d5699c-d59d-47e0-a1c9-25be79e775e3"
+         ], 
+         "text" : "#BusStop_1_Man2.4e207101-91f9-49d4-bc73-df9da68048d5"
+      }, 
+      "b0bb72c2-8f22-4d69-96e9-6456b0a248b7" : { 
+         "class" : "DialogShowNameNode", 
+         "desc" : { 
+            "x" : "-104552", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9078dcda-73f7-4ad3-8e8d-2ee3b2538b5b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104917", 
+            "y" : "-100128", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+         ], 
+         "text" : "#BusStop_1_Man2.9078dcda-73f7-4ad3-8e8d-2ee3b2538b5b"
+      }, 
+      "a59facf7-6b6f-4a82-9ebc-af9d400652c7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104532", 
+            "y" : "-99624", 
+            "comment" : "А43"
+         }, 
+         "child" : [ 
+            "531fe040-0080-4b4b-a338-e6de09bc41a7", 
+            "1db4f9db-4586-4c45-a9a7-a11e570aa9b4", 
+            "04657cfc-76a8-4e91-9577-eabc234b36f0", 
+            "9e724d61-376a-423e-af9a-c325eca8d5b1", 
+            "95634575-e4f9-4f3e-8b94-382cb4b8e6e3"
+         ], 
+         "text" : "#BusStop_1_Man2.a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+      }, 
+      "531fe040-0080-4b4b-a338-e6de09bc41a7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104832", 
+            "y" : "-99524", 
+            "comment" : "(перенос А33)"
+         }, 
+         "child" : [ 
+            "aa26f605-98ee-4257-8512-246d62cee1c8"
+         ], 
+         "text" : "#BusStop_1_Man2.531fe040-0080-4b4b-a338-e6de09bc41a7"
+      }, 
+      "1db4f9db-4586-4c45-a9a7-a11e570aa9b4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104682", 
+            "y" : "-99424", 
+            "comment" : "(перенос А34)"
+         }, 
+         "child" : [ 
+            "f895ee04-afe5-4b10-8ef1-8fecffbe2f55"
+         ], 
+         "text" : "#BusStop_1_Man2.1db4f9db-4586-4c45-a9a7-a11e570aa9b4"
+      }, 
+      "f895ee04-afe5-4b10-8ef1-8fecffbe2f55" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104148", 
+            "y" : "-100366", 
+            "comment" : "А34"
+         }, 
+         "child" : [ 
+            "a2a91b2c-bcef-4e50-bdba-ddebde12dabc"
+         ], 
+         "text" : "#BusStop_1_Man2.f895ee04-afe5-4b10-8ef1-8fecffbe2f55"
+      }, 
+      "a2a91b2c-bcef-4e50-bdba-ddebde12dabc" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104146", 
+            "y" : "-100244"
+         }, 
+         "child" : [ 
+            "ea6f2929-fc81-4267-b5de-94d95e555327"
+         ]
+      }, 
+      "ea6f2929-fc81-4267-b5de-94d95e555327" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104148", 
+            "y" : "-100166"
+         }, 
+         "child" : [ 
+            "350694f2-6bd9-4276-b695-c38da6255114", 
+            "67013d39-d366-400e-9c80-2f820ff2617a", 
+            "285ba5a6-ad50-4cf6-aaa2-d06a98eb19e0"
+         ], 
+         "text" : "#BusStop_1_Man2.ea6f2929-fc81-4267-b5de-94d95e555327"
+      }, 
+      "350694f2-6bd9-4276-b695-c38da6255114" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104298", 
+            "y" : "-100066", 
+            "comment" : "(перенос А44)"
+         }, 
+         "child" : [ 
+            "53be9766-4809-483d-9c2b-f8008d2be394"
+         ], 
+         "text" : "#BusStop_1_Man2.350694f2-6bd9-4276-b695-c38da6255114"
+      }, 
+      "53be9766-4809-483d-9c2b-f8008d2be394" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104292", 
+            "y" : "-99890", 
+            "comment" : "А44"
+         }, 
+         "child" : [ 
+            "a53af73c-f23f-483e-831a-051bf4d8c84d", 
+            "ccc91a23-c81e-4e7a-9990-d3c92e3d249d"
+         ], 
+         "text" : "#BusStop_1_Man2.53be9766-4809-483d-9c2b-f8008d2be394"
+      }, 
+      "a53af73c-f23f-483e-831a-051bf4d8c84d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104430", 
+            "y" : "-99770", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+         ], 
+         "text" : "#BusStop_1_Man2.a53af73c-f23f-483e-831a-051bf4d8c84d"
+      }, 
+      "ccc91a23-c81e-4e7a-9990-d3c92e3d249d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104206", 
+            "y" : "-99744", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "4f43a89f-30b4-4af4-a43d-425388a1574b"
+         ], 
+         "text" : "#BusStop_1_Man2.ccc91a23-c81e-4e7a-9990-d3c92e3d249d"
+      }, 
+      "4f43a89f-30b4-4af4-a43d-425388a1574b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104154", 
+            "y" : "-99650"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "67013d39-d366-400e-9c80-2f820ff2617a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104148", 
+            "y" : "-99966", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+         ], 
+         "text" : "#BusStop_1_Man2.67013d39-d366-400e-9c80-2f820ff2617a"
+      }, 
+      "285ba5a6-ad50-4cf6-aaa2-d06a98eb19e0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103986", 
+            "y" : "-100046", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "cdb6ab63-53e7-457f-ab5e-96d6ca7c9b39"
+         ], 
+         "text" : "#BusStop_1_Man2.285ba5a6-ad50-4cf6-aaa2-d06a98eb19e0"
+      }, 
+      "cdb6ab63-53e7-457f-ab5e-96d6ca7c9b39" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103940", 
+            "y" : "-99958"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "04657cfc-76a8-4e91-9577-eabc234b36f0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104532", 
+            "y" : "-99524", 
+            "comment" : "(перенос А35)"
+         }, 
+         "child" : [ 
+            "ef7037a1-c2ec-4dd4-b6fa-91dc271296dc"
+         ], 
+         "text" : "#BusStop_1_Man2.04657cfc-76a8-4e91-9577-eabc234b36f0"
+      }, 
+      "ef7037a1-c2ec-4dd4-b6fa-91dc271296dc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103748", 
+            "y" : "-100164", 
+            "comment" : "А35"
+         }, 
+         "child" : [ 
+            "309577cd-6c8f-4638-847f-e3652f464a64"
+         ], 
+         "text" : "#BusStop_1_Man2.ef7037a1-c2ec-4dd4-b6fa-91dc271296dc"
+      }, 
+      "309577cd-6c8f-4638-847f-e3652f464a64" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103748", 
+            "y" : "-100064"
+         }, 
+         "child" : [ 
+            "0086bd02-72c6-401c-9bd1-d6b3c3f6d168"
+         ]
+      }, 
+      "0086bd02-72c6-401c-9bd1-d6b3c3f6d168" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103746", 
+            "y" : "-99984"
+         }, 
+         "child" : [ 
+            "e1d1f138-77f3-4a98-a2d8-443e03c7a060", 
+            "e02051b6-3d44-4c4d-a963-de04d8600b63"
+         ], 
+         "text" : "#BusStop_1_Man2.0086bd02-72c6-401c-9bd1-d6b3c3f6d168"
+      }, 
+      "e1d1f138-77f3-4a98-a2d8-443e03c7a060" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103928", 
+            "y" : "-99838", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+         ], 
+         "text" : "#BusStop_1_Man2.e1d1f138-77f3-4a98-a2d8-443e03c7a060"
+      }, 
+      "e02051b6-3d44-4c4d-a963-de04d8600b63" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103698", 
+            "y" : "-99796", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "990d2e13-fcd2-4e1d-9837-3c57ef2ba679"
+         ], 
+         "text" : "#BusStop_1_Man2.e02051b6-3d44-4c4d-a963-de04d8600b63"
+      }, 
+      "990d2e13-fcd2-4e1d-9837-3c57ef2ba679" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103704", 
+            "y" : "-99716"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9e724d61-376a-423e-af9a-c325eca8d5b1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104382", 
+            "y" : "-99424", 
+            "comment" : "(перенос А36)"
+         }, 
+         "child" : [ 
+            "b677ef5a-7d16-479e-9036-cf9d76239c99"
+         ], 
+         "text" : "#BusStop_1_Man2.9e724d61-376a-423e-af9a-c325eca8d5b1"
+      }, 
+      "b677ef5a-7d16-479e-9036-cf9d76239c99" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-100348", 
+            "comment" : "А36"
+         }, 
+         "child" : [ 
+            "fa4e67f5-8c0c-4969-8ca0-ad7bea10b9df"
+         ], 
+         "text" : "#BusStop_1_Man2.b677ef5a-7d16-479e-9036-cf9d76239c99"
+      }, 
+      "fa4e67f5-8c0c-4969-8ca0-ad7bea10b9df" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+            "8e753b81-b91f-46c8-9f46-dd5233ca5f01"
+         ]
+      }, 
+      "8e753b81-b91f-46c8-9f46-dd5233ca5f01" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-100148"
+         }, 
+         "child" : [ 
+            "95b24090-7a75-4a39-9b23-1b1997ad1525"
+         ], 
+         "text" : "#BusStop_1_Man2.8e753b81-b91f-46c8-9f46-dd5233ca5f01"
+      }, 
+      "95b24090-7a75-4a39-9b23-1b1997ad1525" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-100048"
+         }, 
+         "child" : [ 
+            "c2893f27-3658-4ed1-9f70-4ac546d81481"
+         ]
+      }, 
+      "c2893f27-3658-4ed1-9f70-4ac546d81481" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-99948"
+         }, 
+         "child" : [ 
+            "50a6e7e0-e67c-4784-83bc-4d5902e25f8b"
+         ], 
+         "text" : "#BusStop_1_Man2.c2893f27-3658-4ed1-9f70-4ac546d81481"
+      }, 
+      "50a6e7e0-e67c-4784-83bc-4d5902e25f8b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "8bc58e83-2d42-4099-b84f-13f62bf9a178"
+         ]
+      }, 
+      "8bc58e83-2d42-4099-b84f-13f62bf9a178" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+            "ba4b104c-62b7-4ef0-9cd9-f186bf77364c", 
+            "deb56d0b-e741-4f75-9a3d-f9484c8397fa"
+         ], 
+         "text" : "#BusStop_1_Man2.8bc58e83-2d42-4099-b84f-13f62bf9a178"
+      }, 
+      "ba4b104c-62b7-4ef0-9cd9-f186bf77364c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103640", 
+            "y" : "-99634", 
+            "comment" : "(перенос А43)"
+         }, 
+         "child" : [ 
+            "a59facf7-6b6f-4a82-9ebc-af9d400652c7"
+         ], 
+         "text" : "#BusStop_1_Man2.ba4b104c-62b7-4ef0-9cd9-f186bf77364c"
+      }, 
+      "deb56d0b-e741-4f75-9a3d-f9484c8397fa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103456", 
+            "y" : "-99548", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "a3586027-0d52-4fe4-93a0-3a952d4f1384"
+         ], 
+         "text" : "#BusStop_1_Man2.deb56d0b-e741-4f75-9a3d-f9484c8397fa"
+      }, 
+      "a3586027-0d52-4fe4-93a0-3a952d4f1384" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103428", 
+            "y" : "-99468"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "95634575-e4f9-4f3e-8b94-382cb4b8e6e3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104232", 
+            "y" : "-99524", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.95634575-e4f9-4f3e-8b94-382cb4b8e6e3"
+      }, 
+      "05d5699c-d59d-47e0-a1c9-25be79e775e3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104534", 
+            "y" : "-100127", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "0ee834d1-8159-4c8e-a73f-8b0aafc84863"
+         ], 
+         "text" : "#BusStop_1_Man2.05d5699c-d59d-47e0-a1c9-25be79e775e3"
+      }, 
+      "0ee834d1-8159-4c8e-a73f-8b0aafc84863" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104479", 
+            "y" : "-100034"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "911ad58e-16bd-40df-a69a-02f70583e7d7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103604", 
+            "y" : "-97516", 
+            "comment" : "(перенос А34)"
+         }, 
+         "child" : [ 
+            "f895ee04-afe5-4b10-8ef1-8fecffbe2f55"
+         ], 
+         "text" : "#BusStop_1_Man2.911ad58e-16bd-40df-a69a-02f70583e7d7"
+      }, 
+      "f6173e23-9496-469f-b082-c523a53ed3f4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103428", 
+            "y" : "-97597", 
+            "comment" : "(перенос А35)"
+         }, 
+         "child" : [ 
+            "ef7037a1-c2ec-4dd4-b6fa-91dc271296dc"
+         ], 
+         "text" : "#BusStop_1_Man2.f6173e23-9496-469f-b082-c523a53ed3f4"
+      }, 
+      "b7605092-1d6d-4f4e-b91b-163759f1f1d2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103278", 
+            "y" : "-97497", 
+            "comment" : "(перенос А36)"
+         }, 
+         "child" : [ 
+            "b677ef5a-7d16-479e-9036-cf9d76239c99"
+         ], 
+         "text" : "#BusStop_1_Man2.b7605092-1d6d-4f4e-b91b-163759f1f1d2"
+      }, 
+      "08acfec9-293b-489b-8bc4-d193e2c0a809" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103128", 
+            "y" : "-97597", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.08acfec9-293b-489b-8bc4-d193e2c0a809"
+      }, 
+      "07549aae-8fca-4c0d-ad49-a8c59961e43b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102826", 
+            "y" : "-97799"
+         }, 
+         "child" : [ 
+            "09f2e2bf-ab0e-4855-ba05-388829044a72"
+         ], 
+         "text" : "#BusStop_1_Man2.07549aae-8fca-4c0d-ad49-a8c59961e43b"
+      }, 
+      "09f2e2bf-ab0e-4855-ba05-388829044a72" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102826", 
+            "y" : "-97677"
+         }, 
+         "child" : [ 
+            "cbf15e8e-9b29-4258-93d0-8bd806e7283a"
+         ]
+      }, 
+      "cbf15e8e-9b29-4258-93d0-8bd806e7283a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102826", 
+            "y" : "-97599"
+         }, 
+         "child" : [ 
+            "2b661c54-3714-4f9c-9e4c-db1337be0c1b", 
+            "4b4d59f7-f0ef-4df0-9cc4-5aae61239a2e"
+         ], 
+         "text" : "#BusStop_1_Man2.cbf15e8e-9b29-4258-93d0-8bd806e7283a"
+      }, 
+      "2b661c54-3714-4f9c-9e4c-db1337be0c1b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102994", 
+            "y" : "-97387", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.2b661c54-3714-4f9c-9e4c-db1337be0c1b"
+      }, 
+      "4b4d59f7-f0ef-4df0-9cc4-5aae61239a2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102714", 
+            "y" : "-97485", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "8878a11c-125c-46bb-8145-0c2d24b510f1"
+         ], 
+         "text" : "#BusStop_1_Man2.4b4d59f7-f0ef-4df0-9cc4-5aae61239a2e"
+      }, 
+      "8878a11c-125c-46bb-8145-0c2d24b510f1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102704", 
+            "y" : "-97397"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "30f6a774-dd52-4a83-93ca-62cb9bed8470" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103986", 
+            "y" : "-99003"
+         }, 
+         "child" : [ 
+            "eacd8d59-6efe-477c-8904-c1ce84c1e0fb", 
+            "c2600dd8-63ac-4a43-914d-149a8e2f50fb"
+         ], 
+         "key" : "COCK"
+      }, 
+      "eacd8d59-6efe-477c-8904-c1ce84c1e0fb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104155", 
+            "y" : "-98926"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c2600dd8-63ac-4a43-914d-149a8e2f50fb" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-104128", 
+            "y" : "-98856"
+         }, 
+         "child" : [ 
+            "df5f51ac-bd62-43db-8632-6541899c0926", 
+            "4e16fed5-cd61-4deb-a25c-955c27275730"
+         ], 
+         "note_key" : "GANGUBAS_TRAFFIC"
+      }, 
+      "df5f51ac-bd62-43db-8632-6541899c0926" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104521", 
+            "y" : "-98730"
+         }, 
+         "child" : [ 
+            "3f5ca07d-474f-4384-8a56-c27728c51368", 
+            "f611baac-4f5c-4911-8358-8ff9b5ec29ed"
+         ], 
+         "key" : "COOK"
+      }, 
+      "3f5ca07d-474f-4384-8a56-c27728c51368" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104587", 
+            "y" : "-98620"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f611baac-4f5c-4911-8358-8ff9b5ec29ed" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104419", 
+            "y" : "-98622", 
+            "comment" : "(перенос А23)"
+         }, 
+         "child" : [ 
+            "89dbb124-235c-435c-9fdb-948658427955"
+         ], 
+         "text" : "#BusStop_1_Man2.f611baac-4f5c-4911-8358-8ff9b5ec29ed"
+      }, 
+      "89dbb124-235c-435c-9fdb-948658427955" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104074", 
+            "y" : "-97711", 
+            "comment" : "А23"
+         }, 
+         "child" : [ 
+            "e3010a33-ad73-4543-a28e-1d8856d74a8d"
+         ], 
+         "text" : "#BusStop_1_Man2.89dbb124-235c-435c-9fdb-948658427955"
+      }, 
+      "e3010a33-ad73-4543-a28e-1d8856d74a8d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-104070", 
+            "y" : "-97575"
+         }, 
+         "child" : [ 
+            "9b9e7987-e8b5-4238-8339-c5b4e368b457"
+         ]
+      }, 
+      "9b9e7987-e8b5-4238-8339-c5b4e368b457" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104074", 
+            "y" : "-97521"
+         }, 
+         "child" : [ 
+            "6a220775-adc8-4f81-9844-8a69aefe00a2"
+         ], 
+         "text" : "#BusStop_1_Man2.9b9e7987-e8b5-4238-8339-c5b4e368b457"
+      }, 
+      "6a220775-adc8-4f81-9844-8a69aefe00a2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104018", 
+            "y" : "-97405"
+         }, 
+         "child" : [ 
+            "abbb46ed-0c42-45e3-b338-e06996f5eb50", 
+            "90d47618-1028-4095-adab-248960f017d0", 
+            "14d00eb1-1e10-4a1c-b753-aad676aad28e"
+         ], 
+         "key" : "COOK"
+      }, 
+      "abbb46ed-0c42-45e3-b338-e06996f5eb50" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104234", 
+            "y" : "-97329", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.abbb46ed-0c42-45e3-b338-e06996f5eb50"
+      }, 
+      "90d47618-1028-4095-adab-248960f017d0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104078", 
+            "y" : "-97237", 
+            "comment" : "(перенос А32)"
+         }, 
+         "child" : [ 
+            "8a565040-cfb8-4f52-927a-40ddd4d6d821"
+         ], 
+         "text" : "#BusStop_1_Man2.90d47618-1028-4095-adab-248960f017d0"
+      }, 
+      "14d00eb1-1e10-4a1c-b753-aad676aad28e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103890", 
+            "y" : "-97321", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "b28fee01-288b-4481-acd5-29d9752ea46e"
+         ], 
+         "text" : "#BusStop_1_Man2.14d00eb1-1e10-4a1c-b753-aad676aad28e"
+      }, 
+      "b28fee01-288b-4481-acd5-29d9752ea46e" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103692", 
+            "y" : "-97223"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4e16fed5-cd61-4deb-a25c-955c27275730" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104039", 
+            "y" : "-98746"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8fdbe51c-92be-4b02-ae64-e74e3692d46c" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103927", 
+            "y" : "-98769"
+         }, 
+         "child" : [ 
+            "91337138-c4fd-45d3-9151-c0334f3fe3bf", 
+            "dce6fca7-2e9f-41c9-b3bd-c034f5ab1d6f"
+         ], 
+         "note_key" : "LAKEPIER_WHIPPED"
+      }, 
+      "91337138-c4fd-45d3-9151-c0334f3fe3bf" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103955.6", 
+            "y" : "-98620.55"
+         }, 
+         "child" : [ 
+            "87213cfb-2251-401c-a4e2-dd1cdd6b1b10", 
+            "b1cc881c-3e44-4719-93ff-acf32305e420"
+         ], 
+         "key" : "BLAME"
+      }, 
+      "87213cfb-2251-401c-a4e2-dd1cdd6b1b10" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104111", 
+            "y" : "-98488"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b1cc881c-3e44-4719-93ff-acf32305e420" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103923", 
+            "y" : "-98503", 
+            "comment" : "(перенос А24)"
+         }, 
+         "child" : [ 
+            "0ab6303a-80b8-4f86-bcae-c0d8fb45ceec"
+         ], 
+         "text" : "#BusStop_1_Man2.b1cc881c-3e44-4719-93ff-acf32305e420"
+      }, 
+      "0ab6303a-80b8-4f86-bcae-c0d8fb45ceec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103217", 
+            "y" : "-97215", 
+            "comment" : "А24"
+         }, 
+         "child" : [ 
+            "76d98303-f014-4d7a-95cd-4fa79513e3c9"
+         ], 
+         "text" : "#BusStop_1_Man2.0ab6303a-80b8-4f86-bcae-c0d8fb45ceec"
+      }, 
+      "76d98303-f014-4d7a-95cd-4fa79513e3c9" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103217", 
+            "y" : "-97085"
+         }, 
+         "child" : [ 
+            "c7e97dab-710d-4dae-938c-695c54fbf684"
+         ]
+      }, 
+      "c7e97dab-710d-4dae-938c-695c54fbf684" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103215", 
+            "y" : "-97037"
+         }, 
+         "child" : [ 
+            "580c07de-e9c9-4b2f-95ba-48bd90246e3a"
+         ], 
+         "text" : "#BusStop_1_Man2.c7e97dab-710d-4dae-938c-695c54fbf684"
+      }, 
+      "580c07de-e9c9-4b2f-95ba-48bd90246e3a" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103157", 
+            "y" : "-96909"
+         }, 
+         "child" : [ 
+            "62d95133-706f-4bee-bf3e-bfce0e8de450", 
+            "29c21ba1-672a-4ffc-b5d3-0f195bba2ed9", 
+            "758d7258-f979-41a0-b4b1-1dbd9588bfd0", 
+            "e925b958-174e-4f05-95bb-6b59bc60382f"
+         ], 
+         "key" : "BLAME"
+      }, 
+      "62d95133-706f-4bee-bf3e-bfce0e8de450" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103470", 
+            "y" : "-96826", 
+            "comment" : "(перенос А37)"
+         }, 
+         "child" : [ 
+            "ae92dcb6-0965-4012-b8a7-d62f6a0009b5"
+         ], 
+         "text" : "#BusStop_1_Man2.62d95133-706f-4bee-bf3e-bfce0e8de450"
+      }, 
+      "ae92dcb6-0965-4012-b8a7-d62f6a0009b5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103931", 
+            "y" : "-96792", 
+            "comment" : "А37"
+         }, 
+         "child" : [ 
+            "9984d2e3-de34-4b41-a13a-4bf9d97ed994", 
+            "78e04d9b-775c-4fce-bb9a-a96aef923a05", 
+            "20147bc0-c409-449f-98ea-ef21f17e8504"
+         ], 
+         "text" : "#BusStop_1_Man2.ae92dcb6-0965-4012-b8a7-d62f6a0009b5"
+      }, 
+      "9984d2e3-de34-4b41-a13a-4bf9d97ed994" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104135", 
+            "y" : "-96651", 
+            "comment" : "(перенос А38)"
+         }, 
+         "child" : [ 
+            "a6d7794e-6633-407f-aca9-2465e242e18c"
+         ], 
+         "text" : "#BusStop_1_Man2.9984d2e3-de34-4b41-a13a-4bf9d97ed994"
+      }, 
+      "a6d7794e-6633-407f-aca9-2465e242e18c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104450", 
+            "y" : "-96588", 
+            "comment" : "А38"
+         }, 
+         "child" : [ 
+            "08f2b363-07b6-46f2-8f91-3609f46a42ad"
+         ], 
+         "text" : "#BusStop_1_Man2.a6d7794e-6633-407f-aca9-2465e242e18c"
+      }, 
+      "08f2b363-07b6-46f2-8f91-3609f46a42ad" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104395", 
+            "y" : "-96478"
+         }, 
+         "child" : [ 
+            "d4fc1805-4219-4bc6-b7b7-7d0cde6d5bbb"
+         ], 
+         "key" : "CASE"
+      }, 
+      "d4fc1805-4219-4bc6-b7b7-7d0cde6d5bbb" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-104419", 
+            "y" : "-96411"
+         }, 
+         "child" : [ 
+            "a3c1bdd5-6db9-46d1-a173-d8dc23aae3d1", 
+            "b4e845b7-6961-4904-97d4-02eb377f5f7a"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "BusStop_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a3c1bdd5-6db9-46d1-a173-d8dc23aae3d1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104657", 
+            "y" : "-96316", 
+            "comment" : "(перенос А45)"
+         }, 
+         "child" : [ 
+            "abb78a0e-0e70-4900-bbc5-7a7a9215a04b"
+         ], 
+         "text" : "#BusStop_1_Man2.a3c1bdd5-6db9-46d1-a173-d8dc23aae3d1"
+      }, 
+      "abb78a0e-0e70-4900-bbc5-7a7a9215a04b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98758", 
+            "y" : "-96299", 
+            "comment" : "А45"
+         }, 
+         "child" : [ 
+            "b1abe470-11a0-46ff-88b2-d64e406d6e54"
+         ], 
+         "text" : "#BusStop_1_Man2.abb78a0e-0e70-4900-bbc5-7a7a9215a04b"
+      }, 
+      "b1abe470-11a0-46ff-88b2-d64e406d6e54" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98755", 
+            "y" : "-96094"
+         }, 
+         "child" : [ 
+            "03c52b2f-efa9-4c7d-9532-ae21dac61f98"
+         ]
+      }, 
+      "03c52b2f-efa9-4c7d-9532-ae21dac61f98" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98755", 
+            "y" : "-96020"
+         }, 
+         "child" : [ 
+            "ae37b7be-6b10-40be-9ecd-6760df1fcb2a"
+         ], 
+         "text" : "#BusStop_1_Man2.03c52b2f-efa9-4c7d-9532-ae21dac61f98"
+      }, 
+      "ae37b7be-6b10-40be-9ecd-6760df1fcb2a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98755", 
+            "y" : "-95920", 
+            "comment" : "(перенос А49)"
+         }, 
+         "child" : [ 
+            "69106c6c-037e-40a5-a59b-dbe15cc74a56"
+         ], 
+         "text" : "#BusStop_1_Man2.ae37b7be-6b10-40be-9ecd-6760df1fcb2a"
+      }, 
+      "69106c6c-037e-40a5-a59b-dbe15cc74a56" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98737", 
+            "y" : "-95740", 
+            "comment" : "А49"
+         }, 
+         "child" : [ 
+            "fbe030da-2a1a-49f2-a609-7b8cf52fb4db", 
+            "63f715a2-6de6-4d82-92b9-9a0afb9f2b2c", 
+            "89821d20-81fa-4807-875d-206c91b83f5c", 
+            "c1394ae5-a793-46ad-a2a2-2a5393a05e43", 
+            "f6afded8-064d-4cd6-b49d-b80dd2d3aeba"
+         ], 
+         "text" : "#BusStop_1_Man2.69106c6c-037e-40a5-a59b-dbe15cc74a56"
+      }, 
+      "fbe030da-2a1a-49f2-a609-7b8cf52fb4db" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99126", 
+            "y" : "-95606", 
+            "comment" : "(перенос А50)"
+         }, 
+         "child" : [ 
+            "9cdd08f2-deee-4fec-b4ef-d6512cd496ff"
+         ], 
+         "text" : "#BusStop_1_Man2.fbe030da-2a1a-49f2-a609-7b8cf52fb4db"
+      }, 
+      "9cdd08f2-deee-4fec-b4ef-d6512cd496ff" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-99017", 
+            "y" : "-95409", 
+            "comment" : "А50"
+         }, 
+         "child" : [ 
+            "d37f631f-cc2f-4161-99df-f94f890363de", 
+            "cc65a1b9-e2a0-45e2-b87b-af8c18e7badd"
+         ], 
+         "value" : "73", 
+         "skill" : "Speech"
+      }, 
+      "d37f631f-cc2f-4161-99df-f94f890363de" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99224", 
+            "y" : "-95243"
+         }, 
+         "child" : [ 
+            "91d1b88d-4097-49fe-a881-fe748baaf94e"
+         ], 
+         "text" : "#BusStop_1_Man2.d37f631f-cc2f-4161-99df-f94f890363de"
+      }, 
+      "91d1b88d-4097-49fe-a881-fe748baaf94e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99224", 
+            "y" : "-95143"
+         }, 
+         "child" : [ 
+            "f9f09b00-c0f6-4d90-bd51-14e05179fbef"
+         ]
+      }, 
+      "f9f09b00-c0f6-4d90-bd51-14e05179fbef" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99223", 
+            "y" : "-95089"
+         }, 
+         "child" : [ 
+            "afab83d4-e084-4ffb-b133-43c6b464eb5e"
+         ], 
+         "text" : "#BusStop_1_Man2.f9f09b00-c0f6-4d90-bd51-14e05179fbef"
+      }, 
+      "afab83d4-e084-4ffb-b133-43c6b464eb5e" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99183", 
+            "y" : "-94966"
+         }, 
+         "child" : [ 
+            "ad20de4c-359f-4929-95ae-92bc0433ab5f"
+         ], 
+         "exp" : "31"
+      }, 
+      "ad20de4c-359f-4929-95ae-92bc0433ab5f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99372", 
+            "y" : "-94876", 
+            "comment" : "(конец диалога, перенос А55)"
+         }, 
+         "child" : [ 
+            "bcde509e-cd0b-4fa9-ad38-97c6bf096ef7"
+         ], 
+         "text" : "#BusStop_1_Man2.ad20de4c-359f-4929-95ae-92bc0433ab5f"
+      }, 
+      "bcde509e-cd0b-4fa9-ad38-97c6bf096ef7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99502", 
+            "y" : "-94762"
+         }, 
+         "child" : [ 
+            "7e252ec2-82ca-48ad-b128-562b51badae1"
+         ]
+      }, 
+      "7e252ec2-82ca-48ad-b128-562b51badae1" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-99586", 
+            "y" : "-94707"
+         }, 
+         "child" : [ 
+            "73a4a16a-5fb9-4ae8-8000-d9fdf4b31d0a"
+         ], 
+         "key" : "CASE"
+      }, 
+      "73a4a16a-5fb9-4ae8-8000-d9fdf4b31d0a" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99616", 
+            "y" : "-94639"
+         }, 
+         "child" : [ 
+            "f14d5081-4810-40c3-ae10-57865d0091c2"
+         ], 
+         "key" : "A_55"
+      }, 
+      "f14d5081-4810-40c3-ae10-57865d0091c2" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-99692", 
+            "y" : "-94556"
+         }, 
+         "child" : [ 
+            "658ff964-8c0f-4f96-a750-07780db35314"
+         ], 
+         "stateName" : "JAIL"
+      }, 
+      "658ff964-8c0f-4f96-a750-07780db35314" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-99755", 
+            "y" : "-94449"
+         }, 
+         "child" : [ 
+            "786b806b-c633-4142-8875-6d54b96132fe"
+         ], 
+         "stopState" : "false"
+      }, 
+      "786b806b-c633-4142-8875-6d54b96132fe" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-99760", 
+            "y" : "-94376"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "BusStop_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cc65a1b9-e2a0-45e2-b87b-af8c18e7badd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98711", 
+            "y" : "-95263"
+         }, 
+         "child" : [ 
+            "bfc9bedd-a47e-4be3-9562-1c167e7a1f36"
+         ], 
+         "text" : "#BusStop_1_Man2.cc65a1b9-e2a0-45e2-b87b-af8c18e7badd"
+      }, 
+      "bfc9bedd-a47e-4be3-9562-1c167e7a1f36" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98711", 
+            "y" : "-95163"
+         }, 
+         "child" : [ 
+            "5757788b-7efc-4508-9f84-939b41e3854d"
+         ]
+      }, 
+      "5757788b-7efc-4508-9f84-939b41e3854d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98710", 
+            "y" : "-95100"
+         }, 
+         "child" : [ 
+            "d1b9c696-3c7a-4eeb-a4ad-d8d249b8accc", 
+            "11b77a2c-109f-416a-af8c-3851df776bdd", 
+            "89821d20-81fa-4807-875d-206c91b83f5c", 
+            "4978f922-e3e0-4a0b-8439-16ab47f5b808", 
+            "71101a71-c86c-467d-8b3e-2e279208c3e0"
+         ], 
+         "text" : "#BusStop_1_Man2.5757788b-7efc-4508-9f84-939b41e3854d"
+      }, 
+      "d1b9c696-3c7a-4eeb-a4ad-d8d249b8accc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99011", 
+            "y" : "-94963", 
+            "comment" : "(перенос А54)"
+         }, 
+         "child" : [ 
+            "14b9b7ad-7726-494a-8fc6-700664e5593f"
+         ], 
+         "text" : "#BusStop_1_Man2.d1b9c696-3c7a-4eeb-a4ad-d8d249b8accc"
+      }, 
+      "14b9b7ad-7726-494a-8fc6-700664e5593f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99598", 
+            "y" : "-94285", 
+            "comment" : "А54"
+         }, 
+         "child" : [ 
+            "d99a3b72-8f9e-4b89-8ed4-9bb05ce334be", 
+            "869b1865-5a2f-4beb-8925-9007335c5e04", 
+            "89821d20-81fa-4807-875d-206c91b83f5c", 
+            "5043b6ce-80bf-44b0-be0f-8eada37c1c3f", 
+            "6d25dc19-b636-4cfc-87d3-1cca878c7569"
+         ], 
+         "text" : "#BusStop_1_Man2.14b9b7ad-7726-494a-8fc6-700664e5593f"
+      }, 
+      "d99a3b72-8f9e-4b89-8ed4-9bb05ce334be" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99898", 
+            "y" : "-94185", 
+            "comment" : "(перенос А50)"
+         }, 
+         "child" : [ 
+            "9cdd08f2-deee-4fec-b4ef-d6512cd496ff"
+         ], 
+         "text" : "#BusStop_1_Man2.d99a3b72-8f9e-4b89-8ed4-9bb05ce334be"
+      }, 
+      "869b1865-5a2f-4beb-8925-9007335c5e04" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99748", 
+            "y" : "-94085", 
+            "comment" : "(перенос А51)"
+         }, 
+         "child" : [ 
+            "a56feae1-8f9a-446e-bf64-bf67aff89f32"
+         ], 
+         "text" : "#BusStop_1_Man2.869b1865-5a2f-4beb-8925-9007335c5e04"
+      }, 
+      "a56feae1-8f9a-446e-bf64-bf67aff89f32" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-98728", 
+            "y" : "-94711", 
+            "comment" : "А51"
+         }, 
+         "child" : [ 
+            "ed7056a5-5803-4efd-aad1-ab55bf47d7ab", 
+            "891c2f35-8d31-4ad2-8401-8b4feb47c36d"
+         ], 
+         "value" : "7", 
+         "stat" : "Strength"
+      }, 
+      "ed7056a5-5803-4efd-aad1-ab55bf47d7ab" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98997", 
+            "y" : "-94618"
+         }, 
+         "child" : [ 
+            "f887bd97-e4cf-4319-8ce8-281763e6aff7"
+         ], 
+         "text" : "#BusStop_1_Man2.ed7056a5-5803-4efd-aad1-ab55bf47d7ab"
+      }, 
+      "f887bd97-e4cf-4319-8ce8-281763e6aff7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98997", 
+            "y" : "-94518"
+         }, 
+         "child" : [ 
+            "71d2c061-b48e-46db-a5dd-6c78ac77935f"
+         ]
+      }, 
+      "71d2c061-b48e-46db-a5dd-6c78ac77935f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98998", 
+            "y" : "-94417"
+         }, 
+         "child" : [ 
+            "33f38abb-6fd6-48b1-a401-4a0343c70ba8"
+         ], 
+         "text" : "#BusStop_1_Man2.71d2c061-b48e-46db-a5dd-6c78ac77935f"
+      }, 
+      "33f38abb-6fd6-48b1-a401-4a0343c70ba8" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98961", 
+            "y" : "-94292"
+         }, 
+         "child" : [ 
+            "53b7e436-50e8-44c3-a4ba-3001db57634c"
+         ], 
+         "exp" : "31"
+      }, 
+      "53b7e436-50e8-44c3-a4ba-3001db57634c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99003", 
+            "y" : "-94222"
+         }, 
+         "child" : [ 
+            "bcde509e-cd0b-4fa9-ad38-97c6bf096ef7"
+         ], 
+         "text" : "#BusStop_1_Man2.53b7e436-50e8-44c3-a4ba-3001db57634c"
+      }, 
+      "891c2f35-8d31-4ad2-8401-8b4feb47c36d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98514", 
+            "y" : "-94604"
+         }, 
+         "child" : [ 
+            "44ca3172-0b40-40c5-9461-b64999ae23d1"
+         ], 
+         "text" : "#BusStop_1_Man2.891c2f35-8d31-4ad2-8401-8b4feb47c36d"
+      }, 
+      "44ca3172-0b40-40c5-9461-b64999ae23d1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98514", 
+            "y" : "-94504"
+         }, 
+         "child" : [ 
+            "27483cb2-2e29-4a52-ac0f-d18d89f094c3"
+         ]
+      }, 
+      "27483cb2-2e29-4a52-ac0f-d18d89f094c3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98510", 
+            "y" : "-94436"
+         }, 
+         "child" : [ 
+            "0a57a275-ee0b-432e-a6ca-2392e0f1efe0", 
+            "bdf70122-49a8-45dc-9cb9-b980ca6115e3", 
+            "89821d20-81fa-4807-875d-206c91b83f5c", 
+            "07c1792b-77e9-48f0-b07b-20fa00caad3a", 
+            "d0ac9e6c-d56d-4018-8562-56034fcfb13c"
+         ], 
+         "text" : "#BusStop_1_Man2.27483cb2-2e29-4a52-ac0f-d18d89f094c3"
+      }, 
+      "0a57a275-ee0b-432e-a6ca-2392e0f1efe0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98814", 
+            "y" : "-94304", 
+            "comment" : "(перенос А54)"
+         }, 
+         "child" : [ 
+            "14b9b7ad-7726-494a-8fc6-700664e5593f"
+         ], 
+         "text" : "#BusStop_1_Man2.0a57a275-ee0b-432e-a6ca-2392e0f1efe0"
+      }, 
+      "bdf70122-49a8-45dc-9cb9-b980ca6115e3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98664", 
+            "y" : "-94204", 
+            "comment" : "(перенос А50)"
+         }, 
+         "child" : [ 
+            "9cdd08f2-deee-4fec-b4ef-d6512cd496ff"
+         ], 
+         "text" : "#BusStop_1_Man2.bdf70122-49a8-45dc-9cb9-b980ca6115e3"
+      }, 
+      "89821d20-81fa-4807-875d-206c91b83f5c" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-98470", 
+            "y" : "-94086"
+         }, 
+         "child" : [ 
+            "020469bf-4fcc-4963-b7f5-65c1baf1479f", 
+            "49d5dcf8-7edb-4ecd-9788-99522196b1dd"
+         ], 
+         "value" : "6", 
+         "stat" : "Intelligence"
+      }, 
+      "020469bf-4fcc-4963-b7f5-65c1baf1479f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98594", 
+            "y" : "-93968", 
+            "comment" : "(перенос А52)"
+         }, 
+         "child" : [ 
+            "d4b90c30-1d05-4a92-a79a-f1d0378e0124"
+         ], 
+         "text" : "#BusStop_1_Man2.020469bf-4fcc-4963-b7f5-65c1baf1479f"
+      }, 
+      "d4b90c30-1d05-4a92-a79a-f1d0378e0124" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98579", 
+            "y" : "-93783", 
+            "comment" : "А52"
+         }, 
+         "child" : [ 
+            "c3412903-f7f2-4a46-abe3-d3b02bcb1d1e"
+         ], 
+         "text" : "#BusStop_1_Man2.d4b90c30-1d05-4a92-a79a-f1d0378e0124"
+      }, 
+      "c3412903-f7f2-4a46-abe3-d3b02bcb1d1e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98579", 
+            "y" : "-93683"
+         }, 
+         "child" : [ 
+            "e1398146-7912-40e2-b5bf-72cb8339b8ed"
+         ]
+      }, 
+      "e1398146-7912-40e2-b5bf-72cb8339b8ed" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98521", 
+            "y" : "-93639"
+         }, 
+         "child" : [ 
+            "eed7eac0-008b-4932-b078-8a71024f0532"
+         ], 
+         "exp" : "31"
+      }, 
+      "eed7eac0-008b-4932-b078-8a71024f0532" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98577", 
+            "y" : "-93547"
+         }, 
+         "child" : [ 
+            "e11293d7-a2b5-49a4-81aa-8af95475b5cb"
+         ], 
+         "text" : "#BusStop_1_Man2.eed7eac0-008b-4932-b078-8a71024f0532"
+      }, 
+      "e11293d7-a2b5-49a4-81aa-8af95475b5cb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98587", 
+            "y" : "-93413"
+         }, 
+         "child" : [ 
+            "bcde509e-cd0b-4fa9-ad38-97c6bf096ef7"
+         ], 
+         "text" : "#BusStop_1_Man2.e11293d7-a2b5-49a4-81aa-8af95475b5cb"
+      }, 
+      "49d5dcf8-7edb-4ecd-9788-99522196b1dd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98322", 
+            "y" : "-93938"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "07c1792b-77e9-48f0-b07b-20fa00caad3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98364", 
+            "y" : "-94204", 
+            "comment" : "(перенос А53)"
+         }, 
+         "child" : [ 
+            "0236d608-9b20-4239-a725-002ba1bac70d"
+         ], 
+         "text" : "#BusStop_1_Man2.07c1792b-77e9-48f0-b07b-20fa00caad3a"
+      }, 
+      "0236d608-9b20-4239-a725-002ba1bac70d" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-97756", 
+            "y" : "-93905", 
+            "comment" : "А53"
+         }, 
+         "child" : [ 
+            "7ec2d4b0-fe50-4b61-986f-27518484f9fb", 
+            "774cc13d-0729-4a9c-b756-c9cab454f91e"
+         ], 
+         "value" : "73", 
+         "skill" : "Barter"
+      }, 
+      "7ec2d4b0-fe50-4b61-986f-27518484f9fb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98115", 
+            "y" : "-93731"
+         }, 
+         "child" : [ 
+            "f878103a-0b99-4412-94cc-610790c6e110"
+         ], 
+         "text" : "#BusStop_1_Man2.7ec2d4b0-fe50-4b61-986f-27518484f9fb"
+      }, 
+      "f878103a-0b99-4412-94cc-610790c6e110" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-98115", 
+            "y" : "-93631"
+         }, 
+         "child" : [ 
+            "b30818e1-ae7b-41ef-a830-519c0bc04a66"
+         ]
+      }, 
+      "b30818e1-ae7b-41ef-a830-519c0bc04a66" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98119", 
+            "y" : "-93579"
+         }, 
+         "child" : [ 
+            "748f7054-600b-496a-a953-b94e896c6b98"
+         ], 
+         "text" : "#BusStop_1_Man2.b30818e1-ae7b-41ef-a830-519c0bc04a66"
+      }, 
+      "748f7054-600b-496a-a953-b94e896c6b98" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-98055", 
+            "y" : "-93457"
+         }, 
+         "child" : [ 
+            "6356c306-8e9c-48d4-972d-9c10ca10309a"
+         ], 
+         "exp" : "31"
+      }, 
+      "6356c306-8e9c-48d4-972d-9c10ca10309a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98123", 
+            "y" : "-93383"
+         }, 
+         "child" : [ 
+            "bcde509e-cd0b-4fa9-ad38-97c6bf096ef7"
+         ], 
+         "text" : "#BusStop_1_Man2.6356c306-8e9c-48d4-972d-9c10ca10309a"
+      }, 
+      "774cc13d-0729-4a9c-b756-c9cab454f91e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97551", 
+            "y" : "-93787"
+         }, 
+         "child" : [ 
+            "1bc87386-50b3-4b6c-a4d9-1cc9e57b49c8"
+         ], 
+         "text" : "#BusStop_1_Man2.774cc13d-0729-4a9c-b756-c9cab454f91e"
+      }, 
+      "1bc87386-50b3-4b6c-a4d9-1cc9e57b49c8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-97551", 
+            "y" : "-93687"
+         }, 
+         "child" : [ 
+            "b75d5166-0607-42b7-94bf-15155d0fc827"
+         ]
+      }, 
+      "b75d5166-0607-42b7-94bf-15155d0fc827" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97553", 
+            "y" : "-93613"
+         }, 
+         "child" : [ 
+            "55ae443b-bb5e-4443-884a-947f8a638919", 
+            "d4f645c5-b450-40d0-95a4-ff7f59583778", 
+            "720651bb-08c8-47f4-82f8-7990aabe5bf0", 
+            "f8dc8bb1-c722-470a-8780-d2de26130686"
+         ], 
+         "text" : "#BusStop_1_Man2.b75d5166-0607-42b7-94bf-15155d0fc827"
+      }, 
+      "55ae443b-bb5e-4443-884a-947f8a638919" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97851", 
+            "y" : "-93487", 
+            "comment" : "(перенос А54)"
+         }, 
+         "child" : [ 
+            "14b9b7ad-7726-494a-8fc6-700664e5593f"
+         ], 
+         "text" : "#BusStop_1_Man2.55ae443b-bb5e-4443-884a-947f8a638919"
+      }, 
+      "d4f645c5-b450-40d0-95a4-ff7f59583778" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97691", 
+            "y" : "-93426", 
+            "comment" : "(перенос А51)"
+         }, 
+         "child" : [ 
+            "a56feae1-8f9a-446e-bf64-bf67aff89f32"
+         ], 
+         "text" : "#BusStop_1_Man2.d4f645c5-b450-40d0-95a4-ff7f59583778"
+      }, 
+      "720651bb-08c8-47f4-82f8-7990aabe5bf0" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-97543", 
+            "y" : "-93289"
+         }, 
+         "child" : [ 
+            "a58f6a72-916a-48b9-8fc4-6bcf38b14e82", 
+            "0296b6e8-ab81-43e7-ae75-54ebb76699b6"
+         ], 
+         "value" : "6", 
+         "stat" : "Intelligence"
+      }, 
+      "a58f6a72-916a-48b9-8fc4-6bcf38b14e82" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97679", 
+            "y" : "-93155", 
+            "comment" : "(перенос А52)"
+         }, 
+         "child" : [ 
+            "d4b90c30-1d05-4a92-a79a-f1d0378e0124"
+         ], 
+         "text" : "#BusStop_1_Man2.a58f6a72-916a-48b9-8fc4-6bcf38b14e82"
+      }, 
+      "0296b6e8-ab81-43e7-ae75-54ebb76699b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97375", 
+            "y" : "-93125"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f8dc8bb1-c722-470a-8780-d2de26130686" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97251", 
+            "y" : "-93487", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "91ed0dc7-00b1-4675-82a9-5aba320aae67"
+         ], 
+         "text" : "#BusStop_1_Man2.f8dc8bb1-c722-470a-8780-d2de26130686"
+      }, 
+      "91ed0dc7-00b1-4675-82a9-5aba320aae67" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97023", 
+            "y" : "-93367"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0ac9e6c-d56d-4018-8562-56034fcfb13c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98214", 
+            "y" : "-94304", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "399ad9e8-4a75-45e2-8195-7ef62f20c32f"
+         ], 
+         "text" : "#BusStop_1_Man2.d0ac9e6c-d56d-4018-8562-56034fcfb13c"
+      }, 
+      "399ad9e8-4a75-45e2-8195-7ef62f20c32f" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97988", 
+            "y" : "-94187"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5043b6ce-80bf-44b0-be0f-8eada37c1c3f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99448", 
+            "y" : "-94085", 
+            "comment" : "(перенос А53)"
+         }, 
+         "child" : [ 
+            "0236d608-9b20-4239-a725-002ba1bac70d"
+         ], 
+         "text" : "#BusStop_1_Man2.5043b6ce-80bf-44b0-be0f-8eada37c1c3f"
+      }, 
+      "6d25dc19-b636-4cfc-87d3-1cca878c7569" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99298", 
+            "y" : "-94185", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "d0c8c8aa-c14c-4149-8294-bfeabc09d868"
+         ], 
+         "text" : "#BusStop_1_Man2.6d25dc19-b636-4cfc-87d3-1cca878c7569"
+      }, 
+      "d0c8c8aa-c14c-4149-8294-bfeabc09d868" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99113", 
+            "y" : "-94040"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "11b77a2c-109f-416a-af8c-3851df776bdd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98861", 
+            "y" : "-94863", 
+            "comment" : "(перенос А51)"
+         }, 
+         "child" : [ 
+            "a56feae1-8f9a-446e-bf64-bf67aff89f32"
+         ], 
+         "text" : "#BusStop_1_Man2.11b77a2c-109f-416a-af8c-3851df776bdd"
+      }, 
+      "4978f922-e3e0-4a0b-8439-16ab47f5b808" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98561", 
+            "y" : "-94863", 
+            "comment" : "(перенос А53)"
+         }, 
+         "child" : [ 
+            "0236d608-9b20-4239-a725-002ba1bac70d"
+         ], 
+         "text" : "#BusStop_1_Man2.4978f922-e3e0-4a0b-8439-16ab47f5b808"
+      }, 
+      "71101a71-c86c-467d-8b3e-2e279208c3e0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98411", 
+            "y" : "-94963", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "f9fa5585-94e7-4f38-ab8e-b570c526c942"
+         ], 
+         "text" : "#BusStop_1_Man2.71101a71-c86c-467d-8b3e-2e279208c3e0"
+      }, 
+      "f9fa5585-94e7-4f38-ab8e-b570c526c942" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98188", 
+            "y" : "-94823"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "63f715a2-6de6-4d82-92b9-9a0afb9f2b2c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98887", 
+            "y" : "-95540", 
+            "comment" : "(перенос А51)"
+         }, 
+         "child" : [ 
+            "a56feae1-8f9a-446e-bf64-bf67aff89f32"
+         ], 
+         "text" : "#BusStop_1_Man2.63f715a2-6de6-4d82-92b9-9a0afb9f2b2c"
+      }, 
+      "c1394ae5-a793-46ad-a2a2-2a5393a05e43" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98549", 
+            "y" : "-95535", 
+            "comment" : "(перенос А53)"
+         }, 
+         "child" : [ 
+            "0236d608-9b20-4239-a725-002ba1bac70d"
+         ], 
+         "text" : "#BusStop_1_Man2.c1394ae5-a793-46ad-a2a2-2a5393a05e43"
+      }, 
+      "f6afded8-064d-4cd6-b49d-b80dd2d3aeba" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98437", 
+            "y" : "-95640", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "4e0854fa-42e1-4143-ad34-3002d729707c"
+         ], 
+         "text" : "#BusStop_1_Man2.f6afded8-064d-4cd6-b49d-b80dd2d3aeba"
+      }, 
+      "4e0854fa-42e1-4143-ad34-3002d729707c" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98306", 
+            "y" : "-95548"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b4e845b7-6961-4904-97d4-02eb377f5f7a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104405", 
+            "y" : "-96210", 
+            "comment" : "(перенос А46)"
+         }, 
+         "child" : [ 
+            "ec7aafa1-3861-4a03-bb26-1eac48af5611"
+         ], 
+         "text" : "#BusStop_1_Man2.b4e845b7-6961-4904-97d4-02eb377f5f7a"
+      }, 
+      "ec7aafa1-3861-4a03-bb26-1eac48af5611" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103613", 
+            "y" : "-95936", 
+            "comment" : "А46"
+         }, 
+         "child" : [ 
+            "d82d2a68-1058-4cd5-8897-509c26b8d295"
+         ], 
+         "text" : "#BusStop_1_Man2.ec7aafa1-3861-4a03-bb26-1eac48af5611"
+      }, 
+      "d82d2a68-1058-4cd5-8897-509c26b8d295" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103613", 
+            "y" : "-95836", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "b6a64e1d-0156-4c6e-a09c-b3cf163350fa"
+         ], 
+         "text" : "#BusStop_1_Man2.d82d2a68-1058-4cd5-8897-509c26b8d295"
+      }, 
+      "b6a64e1d-0156-4c6e-a09c-b3cf163350fa" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103539", 
+            "y" : "-95754"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "78e04d9b-775c-4fce-bb9a-a96aef923a05" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103931", 
+            "y" : "-96559", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "570080ee-cc67-4a02-b1ed-62d4609968aa"
+         ], 
+         "text" : "#BusStop_1_Man2.78e04d9b-775c-4fce-bb9a-a96aef923a05"
+      }, 
+      "570080ee-cc67-4a02-b1ed-62d4609968aa" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103952", 
+            "y" : "-96412", 
+            "comment" : "А39"
+         }, 
+         "child" : [ 
+            "c35227c1-23e6-49a7-9952-5b01c9968091"
+         ], 
+         "text" : "#BusStop_1_Man2.570080ee-cc67-4a02-b1ed-62d4609968aa"
+      }, 
+      "c35227c1-23e6-49a7-9952-5b01c9968091" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103916", 
+            "y" : "-96283"
+         }, 
+         "child" : [ 
+            "9788ceab-9932-4eb6-87d0-46e7cec254bc"
+         ], 
+         "key" : "CASE"
+      }, 
+      "9788ceab-9932-4eb6-87d0-46e7cec254bc" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103927", 
+            "y" : "-96208"
+         }, 
+         "child" : [ 
+            "4d27566c-8862-4044-a042-fa11006adb28", 
+            "8ecf3041-6ab6-4eb5-ad26-49c43b758a84"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "BusStop_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4d27566c-8862-4044-a042-fa11006adb28" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104081", 
+            "y" : "-96059", 
+            "comment" : "(перенос А45)"
+         }, 
+         "child" : [ 
+            "abb78a0e-0e70-4900-bbc5-7a7a9215a04b"
+         ], 
+         "text" : "#BusStop_1_Man2.4d27566c-8862-4044-a042-fa11006adb28"
+      }, 
+      "8ecf3041-6ab6-4eb5-ad26-49c43b758a84" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103824", 
+            "y" : "-96021", 
+            "comment" : "(перенос А46)"
+         }, 
+         "child" : [ 
+            "ec7aafa1-3861-4a03-bb26-1eac48af5611"
+         ], 
+         "text" : "#BusStop_1_Man2.8ecf3041-6ab6-4eb5-ad26-49c43b758a84"
+      }, 
+      "20147bc0-c409-449f-98ea-ef21f17e8504" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103781", 
+            "y" : "-96659", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.20147bc0-c409-449f-98ea-ef21f17e8504"
+      }, 
+      "78fa9952-134b-4c71-9dcf-cef38f3b4ca1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100154"
+         }, 
+         "child" : [ 
+            "3f1076e2-0d6a-4849-8442-81f2b4858a07"
+         ]
+      }, 
+      "3f1076e2-0d6a-4849-8442-81f2b4858a07" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100756", 
+            "y" : "-100062"
+         }, 
+         "child" : [ 
+            "353c7f94-8fff-4c0d-92d4-79e3e91966ee"
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "Comandor"
+      }, 
+      "353c7f94-8fff-4c0d-92d4-79e3e91966ee" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100729", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "busstop_1", 
+         "value" : "0"
+      }, 
+      "29c21ba1-672a-4ffc-b5d3-0f195bba2ed9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103234", 
+            "y" : "-96726", 
+            "comment" : "(перенос А38)"
+         }, 
+         "child" : [ 
+            "a6d7794e-6633-407f-aca9-2465e242e18c"
+         ], 
+         "text" : "#BusStop_1_Man2.29c21ba1-672a-4ffc-b5d3-0f195bba2ed9"
+      }, 
+      "758d7258-f979-41a0-b4b1-1dbd9588bfd0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103100", 
+            "y" : "-96809", 
+            "comment" : "(перенос А39)"
+         }, 
+         "child" : [ 
+            "570080ee-cc67-4a02-b1ed-62d4609968aa"
+         ], 
+         "text" : "#BusStop_1_Man2.758d7258-f979-41a0-b4b1-1dbd9588bfd0"
+      }, 
+      "e925b958-174e-4f05-95bb-6b59bc60382f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102873", 
+            "y" : "-96775", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.e925b958-174e-4f05-95bb-6b59bc60382f"
+      }, 
+      "dce6fca7-2e9f-41c9-b3bd-c034f5ab1d6f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103743.5", 
+            "y" : "-98602.28"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2832248e-651f-42ae-83b0-bfb0119af905" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103757", 
+            "y" : "-99063"
+         }, 
+         "child" : [ 
+            "31888a88-88a2-40b3-980b-7ef580744534", 
+            "3837aa8e-3a5a-4212-9aef-6da48a5860e0"
+         ], 
+         "key" : "CASE"
+      }, 
+      "31888a88-88a2-40b3-980b-7ef580744534" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103594", 
+            "y" : "-98923"
+         }, 
+         "child" : [ 
+            "4daf9dc3-16c0-4bbc-a84f-4de970f343e0", 
+            "da67bde7-167d-4292-b4a5-e1a630e5a6c8"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "BusStop_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4daf9dc3-16c0-4bbc-a84f-4de970f343e0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103708", 
+            "y" : "-98764", 
+            "comment" : "(перенос А45)"
+         }, 
+         "child" : [ 
+            "abb78a0e-0e70-4900-bbc5-7a7a9215a04b"
+         ], 
+         "text" : "#BusStop_1_Man2.4daf9dc3-16c0-4bbc-a84f-4de970f343e0"
+      }, 
+      "da67bde7-167d-4292-b4a5-e1a630e5a6c8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103404", 
+            "y" : "-98784"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3837aa8e-3a5a-4212-9aef-6da48a5860e0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103515", 
+            "y" : "-98969"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6cd94f33-3d0b-4061-8505-67968308ea1d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103396", 
+            "y" : "-99004", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "a08ca4a9-29fe-4be3-a1a3-a894d686c6ee"
+         ], 
+         "text" : "#BusStop_1_Man2.6cd94f33-3d0b-4061-8505-67968308ea1d"
+      }, 
+      "a08ca4a9-29fe-4be3-a1a3-a894d686c6ee" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103380", 
+            "y" : "-98924"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "957cf716-4420-4de4-88c2-274cf823037b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103811", 
+            "y" : "-97914", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "d6babcbf-6faa-4e12-ba0d-c8c5938026b7"
+         ], 
+         "text" : "#BusStop_1_Man2.957cf716-4420-4de4-88c2-274cf823037b"
+      }, 
+      "d6babcbf-6faa-4e12-ba0d-c8c5938026b7" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103771", 
+            "y" : "-97812"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2d2831a6-a65f-4f75-924b-1153da455dc8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102494", 
+            "y" : "-100565", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "f2324460-705b-4d07-a1f9-2d6d9d974ec2"
+         ], 
+         "text" : "#BusStop_1_Man2.2d2831a6-a65f-4f75-924b-1153da455dc8"
+      }, 
+      "e2173a4e-183f-4a22-b456-b6d0a53f031f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102403", 
+            "y" : "-100771", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "77f2f9d2-d35f-4d92-b017-81bd96b63352"
+         ], 
+         "text" : "#BusStop_1_Man2.e2173a4e-183f-4a22-b456-b6d0a53f031f"
+      }, 
+      "77f2f9d2-d35f-4d92-b017-81bd96b63352" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102206", 
+            "y" : "-100678"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "30b4854e-70d4-4ea1-b6c0-1362ff0623a3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102112", 
+            "y" : "-100996", 
+            "comment" : "А25"
+         }, 
+         "child" : [ 
+            "102f301d-a119-4f35-b688-49b421dc8709", 
+            "2939ee2f-bf59-45f3-9147-11884d42ace7"
+         ], 
+         "text" : "#BusStop_1_Man2.30b4854e-70d4-4ea1-b6c0-1362ff0623a3"
+      }, 
+      "2939ee2f-bf59-45f3-9147-11884d42ace7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101854", 
+            "y" : "-100880", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "ed3a0371-130d-4427-a3de-eb6960c579e4"
+         ], 
+         "text" : "#BusStop_1_Man2.2939ee2f-bf59-45f3-9147-11884d42ace7"
+      }, 
+      "ed3a0371-130d-4427-a3de-eb6960c579e4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101804", 
+            "y" : "-100744"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "32943e44-2909-4aaf-94e1-7cdf01ff7c21" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101608", 
+            "y" : "-101180"
+         }, 
+         "child" : [ 
+            "c79d09c6-25c4-47e6-8759-2cc9422cc9e4"
+         ], 
+         "key" : "MEET"
+      }, 
+      "c79d09c6-25c4-47e6-8759-2cc9422cc9e4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101310", 
+            "y" : "-101026"
+         }, 
+         "child" : [ 
+            "37bdd774-4ce1-4d1b-9bf8-5c07b36553ec"
+         ], 
+         "text" : "#BusStop_1_Man2.c79d09c6-25c4-47e6-8759-2cc9422cc9e4"
+      }, 
+      "37bdd774-4ce1-4d1b-9bf8-5c07b36553ec" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-100857"
+         }, 
+         "child" : [ 
+            "e7003e94-6131-496d-93d7-e953deef72cd"
+         ]
+      }, 
+      "e7003e94-6131-496d-93d7-e953deef72cd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-100757"
+         }, 
+         "child" : [ 
+            "996bc4a0-8778-4d5e-8c4b-27acc703ea96"
+         ], 
+         "text" : "#BusStop_1_Man2.e7003e94-6131-496d-93d7-e953deef72cd"
+      }, 
+      "996bc4a0-8778-4d5e-8c4b-27acc703ea96" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-100657"
+         }, 
+         "child" : [ 
+            "a210da68-1516-4819-9e35-67b4b7aeefa3"
+         ]
+      }, 
+      "a210da68-1516-4819-9e35-67b4b7aeefa3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-100557"
+         }, 
+         "child" : [ 
+            "4584d57b-9354-4ca5-bd52-c37a02107633"
+         ], 
+         "text" : "#BusStop_1_Man2.a210da68-1516-4819-9e35-67b4b7aeefa3"
+      }, 
+      "4584d57b-9354-4ca5-bd52-c37a02107633" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-100457"
+         }, 
+         "child" : [ 
+            "db8be490-a7d5-488c-87c4-236abcc42dd9"
+         ]
+      }, 
+      "db8be490-a7d5-488c-87c4-236abcc42dd9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101309", 
+            "y" : "-100411"
+         }, 
+         "child" : [ 
+            "8a462772-160f-4a43-b0a5-68766995cddb", 
+            "143971c8-e7d7-482b-8bf1-7c6aba62fc44", 
+            "1356d53b-f759-4b46-b5d1-3ed34f88c4e0", 
+            "1b03e66d-d89f-4b1f-8c17-f07ebe46654a", 
+            "fd132e05-93a4-480d-9f59-73be3cf5fb2e"
+         ], 
+         "text" : "#BusStop_1_Man2.db8be490-a7d5-488c-87c4-236abcc42dd9"
+      }, 
+      "8a462772-160f-4a43-b0a5-68766995cddb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101798", 
+            "y" : "-100281", 
+            "comment" : "(перенос А1)"
+         }, 
+         "child" : [ 
+            "051196d2-0370-4854-a09d-5ff3da73fa9c"
+         ], 
+         "text" : "#BusStop_1_Man2.8a462772-160f-4a43-b0a5-68766995cddb"
+      }, 
+      "051196d2-0370-4854-a09d-5ff3da73fa9c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-100143", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "9864a3a4-a451-4308-a44a-92a7589d7559"
+         ], 
+         "text" : "#BusStop_1_Man2.051196d2-0370-4854-a09d-5ff3da73fa9c"
+      }, 
+      "9864a3a4-a451-4308-a44a-92a7589d7559" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102076", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+            "6ae8128a-5606-4fbf-9929-476bcea9f985"
+         ]
+      }, 
+      "6ae8128a-5606-4fbf-9929-476bcea9f985" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-99943"
+         }, 
+         "child" : [ 
+            "0f6fa8d5-0216-4162-8db5-02ca9342e4e5"
+         ], 
+         "text" : "#BusStop_1_Man2.6ae8128a-5606-4fbf-9929-476bcea9f985"
+      }, 
+      "0f6fa8d5-0216-4162-8db5-02ca9342e4e5" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-99843"
+         }, 
+         "child" : [ 
+            "5958e830-ea0d-47ea-a33d-f542b0b2275e"
+         ]
+      }, 
+      "5958e830-ea0d-47ea-a33d-f542b0b2275e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-99743"
+         }, 
+         "child" : [ 
+            "c4d0dcd9-dca8-43e3-87f9-d245abea69ab"
+         ], 
+         "text" : "#BusStop_1_Man2.5958e830-ea0d-47ea-a33d-f542b0b2275e"
+      }, 
+      "c4d0dcd9-dca8-43e3-87f9-d245abea69ab" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-99643"
+         }, 
+         "child" : [ 
+            "5c813e2b-7dc9-41af-a0ba-812a7ed2c481"
+         ]
+      }, 
+      "5c813e2b-7dc9-41af-a0ba-812a7ed2c481" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102074", 
+            "y" : "-99543"
+         }, 
+         "child" : [ 
+            "34b19001-fd3b-4470-af2d-26372ad1edd0", 
+            "8ee4d52a-cf9c-46ae-bde4-0f8aeeeb8bb6", 
+            "563bed8c-607c-49f4-ad7e-1ee2c951b73f"
+         ], 
+         "text" : "#BusStop_1_Man2.5c813e2b-7dc9-41af-a0ba-812a7ed2c481"
+      }, 
+      "34b19001-fd3b-4470-af2d-26372ad1edd0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102224", 
+            "y" : "-99443", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.34b19001-fd3b-4470-af2d-26372ad1edd0"
+      }, 
+      "3b732a99-24ea-49d7-96f2-eb0c2d32e22a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101545", 
+            "y" : "-98601", 
+            "comment" : "А5"
+         }, 
+         "child" : [ 
+            "e5f998cd-483f-46fc-894c-64bed74f7bd4", 
+            "dc76e48d-f762-4a91-96af-543878c4c1d7", 
+            "d4be6047-6e11-41a1-82d0-d0b411055880", 
+            "71e953a8-b88c-4bad-b3fb-8cffb10c65a0"
+         ], 
+         "text" : "#BusStop_1_Man2.3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+      }, 
+      "e5f998cd-483f-46fc-894c-64bed74f7bd4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101848", 
+            "y" : "-98479", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "a326e4ad-9e97-4e6c-ba30-b37f970942c0"
+         ], 
+         "text" : "#BusStop_1_Man2.e5f998cd-483f-46fc-894c-64bed74f7bd4"
+      }, 
+      "a326e4ad-9e97-4e6c-ba30-b37f970942c0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102344", 
+            "y" : "-98326", 
+            "comment" : "А12"
+         }, 
+         "child" : [ 
+            "a555bd1b-5d08-4914-a2e5-564dd91800d7"
+         ], 
+         "text" : "#BusStop_1_Man2.a326e4ad-9e97-4e6c-ba30-b37f970942c0"
+      }, 
+      "a555bd1b-5d08-4914-a2e5-564dd91800d7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102348", 
+            "y" : "-98210"
+         }, 
+         "child" : [ 
+            "83f8d269-e402-4236-8361-702c45c4ee58"
+         ]
+      }, 
+      "83f8d269-e402-4236-8361-702c45c4ee58" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102344", 
+            "y" : "-98148"
+         }, 
+         "child" : [ 
+            "51eb234b-99db-4d7f-9cab-327559e433bd"
+         ], 
+         "text" : "#BusStop_1_Man2.83f8d269-e402-4236-8361-702c45c4ee58"
+      }, 
+      "51eb234b-99db-4d7f-9cab-327559e433bd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102344", 
+            "y" : "-98026"
+         }, 
+         "child" : [ 
+            "ad37caa4-d6e4-49d7-b4d1-ca9ee2fb2c0e"
+         ]
+      }, 
+      "ad37caa4-d6e4-49d7-b4d1-ca9ee2fb2c0e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102344", 
+            "y" : "-97958"
+         }, 
+         "child" : [ 
+            "2e17829b-63b2-4d88-9703-b8c9ab143588"
+         ], 
+         "text" : "#BusStop_1_Man2.ad37caa4-d6e4-49d7-b4d1-ca9ee2fb2c0e"
+      }, 
+      "2e17829b-63b2-4d88-9703-b8c9ab143588" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102298", 
+            "y" : "-97828"
+         }, 
+         "child" : [ 
+            "031aedb3-e66c-4e07-a16e-51e301543f69"
+         ], 
+         "exp" : "21"
+      }, 
+      "031aedb3-e66c-4e07-a16e-51e301543f69" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102364", 
+            "y" : "-97746", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.031aedb3-e66c-4e07-a16e-51e301543f69"
+      }, 
+      "89960639-d7c5-4175-9229-fc73718b2d3c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103227", 
+            "y" : "-98602", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "dd1e8657-a51b-47ee-970e-7c6be1eb58b4"
+         ], 
+         "text" : "#BusStop_1_Man2.89960639-d7c5-4175-9229-fc73718b2d3c"
+      }, 
+      "dd1e8657-a51b-47ee-970e-7c6be1eb58b4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103227", 
+            "y" : "-98479"
+         }, 
+         "child" : [ 
+            "6b71425c-14ab-4cea-96c4-e1301f37b623"
+         ]
+      }, 
+      "6b71425c-14ab-4cea-96c4-e1301f37b623" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103226", 
+            "y" : "-98435"
+         }, 
+         "child" : [ 
+            "d3866c81-23fb-4696-93fb-099db4815a51", 
+            "717d438b-6d3f-48ef-8225-6797449ee70c", 
+            "eb27ce90-f510-478d-9b90-45a929820b51", 
+            "ecc0cedf-87e1-4d67-bbdc-d9abca6f0d66", 
+            "e4ae767e-6c8e-48e2-b4a5-d978c7d42511"
+         ], 
+         "text" : "#BusStop_1_Man2.6b71425c-14ab-4cea-96c4-e1301f37b623"
+      }, 
+      "d3866c81-23fb-4696-93fb-099db4815a51" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103619", 
+            "y" : "-98301", 
+            "comment" : "(перенос А21)"
+         }, 
+         "child" : [ 
+            "b210c4ee-822a-4120-937b-5603ddced86d"
+         ], 
+         "text" : "#BusStop_1_Man2.d3866c81-23fb-4696-93fb-099db4815a51"
+      }, 
+      "717d438b-6d3f-48ef-8225-6797449ee70c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103434", 
+            "y" : "-98182", 
+            "comment" : "(перенос А22)"
+         }, 
+         "child" : [ 
+            "f2324460-705b-4d07-a1f9-2d6d9d974ec2"
+         ], 
+         "text" : "#BusStop_1_Man2.717d438b-6d3f-48ef-8225-6797449ee70c"
+      }, 
+      "eb27ce90-f510-478d-9b90-45a929820b51" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103131", 
+            "y" : "-98295"
+         }, 
+         "child" : [ 
+            "cb3c8373-9ac7-4798-b942-ea4804eb7a60", 
+            "94fd462c-4674-4a7e-a0ef-32d34795308c"
+         ], 
+         "note_key" : "GANGUBAS_TRAFFIC"
+      }, 
+      "cb3c8373-9ac7-4798-b942-ea4804eb7a60" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103198", 
+            "y" : "-98171"
+         }, 
+         "child" : [ 
+            "50c7d502-565a-4316-95dd-162a37a83e5b", 
+            "eb185762-f785-4a24-af02-e2adb562b0de"
+         ], 
+         "key" : "COOK"
+      }, 
+      "50c7d502-565a-4316-95dd-162a37a83e5b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103335", 
+            "y" : "-98068"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "eb185762-f785-4a24-af02-e2adb562b0de" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103229", 
+            "y" : "-98052", 
+            "comment" : "(перенос А23)"
+         }, 
+         "child" : [ 
+            "89dbb124-235c-435c-9fdb-948658427955"
+         ], 
+         "text" : "#BusStop_1_Man2.eb185762-f785-4a24-af02-e2adb562b0de"
+      }, 
+      "94fd462c-4674-4a7e-a0ef-32d34795308c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103042", 
+            "y" : "-98212"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ecc0cedf-87e1-4d67-bbdc-d9abca6f0d66" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102891", 
+            "y" : "-98219"
+         }, 
+         "child" : [ 
+            "668fa4bd-b3d3-4662-afb3-69099ce98047", 
+            "226fb0f1-ef1a-4cb5-85c9-f3bbc83feebe"
+         ], 
+         "note_key" : "LAKEPIER_WHIPPED"
+      }, 
+      "668fa4bd-b3d3-4662-afb3-69099ce98047" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102926", 
+            "y" : "-98120"
+         }, 
+         "child" : [ 
+            "2765746a-22f2-4c2d-a8cb-87d5c5b657f4", 
+            "57caec40-59f6-43fe-8765-7e5216c8b560"
+         ], 
+         "key" : "BLAME"
+      }, 
+      "2765746a-22f2-4c2d-a8cb-87d5c5b657f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102936", 
+            "y" : "-98001"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "57caec40-59f6-43fe-8765-7e5216c8b560" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102798", 
+            "y" : "-98002", 
+            "comment" : "(перенос А24)"
+         }, 
+         "child" : [ 
+            "0ab6303a-80b8-4f86-bcae-c0d8fb45ceec"
+         ], 
+         "text" : "#BusStop_1_Man2.57caec40-59f6-43fe-8765-7e5216c8b560"
+      }, 
+      "226fb0f1-ef1a-4cb5-85c9-f3bbc83feebe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102682", 
+            "y" : "-98126"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e4ae767e-6c8e-48e2-b4a5-d978c7d42511" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102801", 
+            "y" : "-98320", 
+            "comment" : "(конец диалога, перенос А25)"
+         }, 
+         "child" : [ 
+            "a8b4ed4d-fc0c-4b0c-9f36-52ebe0341cf5"
+         ], 
+         "text" : "#BusStop_1_Man2.e4ae767e-6c8e-48e2-b4a5-d978c7d42511"
+      }, 
+      "a8b4ed4d-fc0c-4b0c-9f36-52ebe0341cf5" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102685", 
+            "y" : "-98226"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dc76e48d-f762-4a91-96af-543878c4c1d7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101706", 
+            "y" : "-98376", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "f7bfcaa8-6d93-4fc3-8d6a-a754c1fc7616"
+         ], 
+         "text" : "#BusStop_1_Man2.dc76e48d-f762-4a91-96af-543878c4c1d7"
+      }, 
+      "f7bfcaa8-6d93-4fc3-8d6a-a754c1fc7616" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102254", 
+            "y" : "-98801", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "05d95ea4-100d-4d8c-a75f-7efddbc654f5", 
+            "9e257252-8d43-437f-a23e-96495c855f0f", 
+            "8a20cedc-6c4f-4eff-81bb-dd1dcb88517a", 
+            "961e6052-0396-437b-8b1c-8b4bbad46913", 
+            "11da395f-ca77-4e3a-a0a7-ef82fa8b7b7b"
+         ], 
+         "text" : "#BusStop_1_Man2.f7bfcaa8-6d93-4fc3-8d6a-a754c1fc7616"
+      }, 
+      "05d95ea4-100d-4d8c-a75f-7efddbc654f5" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102571", 
+            "y" : "-98773"
+         }, 
+         "child" : [ 
+            "5c229b17-2f82-47ea-8124-9c7310f8b900", 
+            "a84d9a7b-6750-4cad-8c91-19d0c55394b6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5c229b17-2f82-47ea-8124-9c7310f8b900" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102686", 
+            "y" : "-98623", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "17f63678-3f58-467c-814d-ca9e060aa611"
+         ], 
+         "text" : "#BusStop_1_Man2.5c229b17-2f82-47ea-8124-9c7310f8b900"
+      }, 
+      "17f63678-3f58-467c-814d-ca9e060aa611" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-95777", 
+            "comment" : "А27"
+         }, 
+         "child" : [ 
+            "63809d67-9fcc-45ca-9d50-c17f516988d2"
+         ], 
+         "text" : "#BusStop_1_Man2.17f63678-3f58-467c-814d-ca9e060aa611"
+      }, 
+      "63809d67-9fcc-45ca-9d50-c17f516988d2" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102880", 
+            "y" : "-95655"
+         }, 
+         "child" : [ 
+            "dcf88b14-d862-4d17-81c2-c5d6c45619d3"
+         ]
+      }, 
+      "dcf88b14-d862-4d17-81c2-c5d6c45619d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-95577"
+         }, 
+         "child" : [ 
+            "29a14efb-1238-4b35-be7e-7f24661a3a4d"
+         ], 
+         "text" : "#BusStop_1_Man2.dcf88b14-d862-4d17-81c2-c5d6c45619d3"
+      }, 
+      "29a14efb-1238-4b35-be7e-7f24661a3a4d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-95477"
+         }, 
+         "child" : [ 
+            "ff8e631e-f2d4-478e-811e-ae076101184a"
+         ]
+      }, 
+      "ff8e631e-f2d4-478e-811e-ae076101184a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102878", 
+            "y" : "-95403"
+         }, 
+         "child" : [ 
+            "d5a6deab-3919-4fc2-9a7f-d4978fc4b885"
+         ], 
+         "text" : "#BusStop_1_Man2.ff8e631e-f2d4-478e-811e-ae076101184a"
+      }, 
+      "d5a6deab-3919-4fc2-9a7f-d4978fc4b885" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-95277"
+         }, 
+         "child" : [ 
+            "8e5f2764-47c4-4b73-8f6b-515a4ce907db"
+         ]
+      }, 
+      "8e5f2764-47c4-4b73-8f6b-515a4ce907db" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102882", 
+            "y" : "-95237"
+         }, 
+         "child" : [ 
+            "6a01c849-c97f-4f96-b697-a2f0ca88f2bb"
+         ], 
+         "text" : "#BusStop_1_Man2.8e5f2764-47c4-4b73-8f6b-515a4ce907db"
+      }, 
+      "6a01c849-c97f-4f96-b697-a2f0ca88f2bb" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102856", 
+            "y" : "-95129"
+         }, 
+         "child" : [ 
+            "4cbe412d-d79e-4a14-8841-565db409a4e7"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4cbe412d-d79e-4a14-8841-565db409a4e7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102820", 
+            "y" : "-95053"
+         }, 
+         "child" : [ 
+            "32f16abb-52e1-41b8-b00f-5187491e9620"
+         ], 
+         "exp" : "21"
+      }, 
+      "32f16abb-52e1-41b8-b00f-5187491e9620" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102880", 
+            "y" : "-94987", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.32f16abb-52e1-41b8-b00f-5187491e9620"
+      }, 
+      "a84d9a7b-6750-4cad-8c91-19d0c55394b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102480", 
+            "y" : "-98660"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9e257252-8d43-437f-a23e-96495c855f0f" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102346", 
+            "y" : "-98649"
+         }, 
+         "child" : [ 
+            "fa69de64-2e3e-4d1f-b739-5c5c99e128f0", 
+            "94d57335-42fc-46f4-99d6-d0cb681e647a"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "75", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fa69de64-2e3e-4d1f-b739-5c5c99e128f0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102496", 
+            "y" : "-98505", 
+            "comment" : "(перенос А28)"
+         }, 
+         "child" : [ 
+            "ce55deec-02fa-44b3-b5ae-7ea8eeaa767f"
+         ], 
+         "text" : "#BusStop_1_Man2.fa69de64-2e3e-4d1f-b739-5c5c99e128f0"
+      }, 
+      "ce55deec-02fa-44b3-b5ae-7ea8eeaa767f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-95730", 
+            "comment" : "А28"
+         }, 
+         "child" : [ 
+            "7fd836ed-ef4a-4822-b623-9536c5d9c897"
+         ], 
+         "text" : "#BusStop_1_Man2.ce55deec-02fa-44b3-b5ae-7ea8eeaa767f"
+      }, 
+      "7fd836ed-ef4a-4822-b623-9536c5d9c897" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-95596"
+         }, 
+         "child" : [ 
+            "0a2b1663-df53-4a97-a2db-fcd832a63763"
+         ]
+      }, 
+      "0a2b1663-df53-4a97-a2db-fcd832a63763" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-95534"
+         }, 
+         "child" : [ 
+            "a6264e31-8326-44af-850b-b7f33311b7f3"
+         ], 
+         "text" : "#BusStop_1_Man2.0a2b1663-df53-4a97-a2db-fcd832a63763"
+      }, 
+      "a6264e31-8326-44af-850b-b7f33311b7f3" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102493", 
+            "y" : "-95414"
+         }, 
+         "child" : [ 
+            "a61b4338-8c1e-43e6-bbc0-2d2c3362d908"
+         ], 
+         "exp" : "21"
+      }, 
+      "a61b4338-8c1e-43e6-bbc0-2d2c3362d908" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102529", 
+            "y" : "-95320"
+         }, 
+         "child" : [ 
+            "835680d1-df73-4f8c-b26d-c35ad9f78972"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "75", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "835680d1-df73-4f8c-b26d-c35ad9f78972" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-95196", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "019bdaf4-e18c-4200-ad6f-167cfe9b3a7f"
+         ], 
+         "text" : "#BusStop_1_Man2.835680d1-df73-4f8c-b26d-c35ad9f78972"
+      }, 
+      "019bdaf4-e18c-4200-ad6f-167cfe9b3a7f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103313", 
+            "y" : "-98682", 
+            "comment" : "к А11"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ]
+      }, 
+      "94d57335-42fc-46f4-99d6-d0cb681e647a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102270", 
+            "y" : "-98533"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8a20cedc-6c4f-4eff-81bb-dd1dcb88517a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102187", 
+            "y" : "-98669", 
+            "comment" : "(перенос А29)"
+         }, 
+         "child" : [ 
+            "197ab50d-706d-4487-944e-5fcdaae968be"
+         ], 
+         "text" : "#BusStop_1_Man2.8a20cedc-6c4f-4eff-81bb-dd1dcb88517a"
+      }, 
+      "197ab50d-706d-4487-944e-5fcdaae968be" : { 
+         "class" : "HasSkillNode", 
+         "desc" : { 
+            "x" : "-102095", 
+            "y" : "-95222"
+         }, 
+         "child" : [ 
+            "3e59ebab-473e-4eeb-8aee-940fd06f45fa", 
+            "c0f53ed1-1427-45cd-b732-964664e9bac0"
+         ], 
+         "value" : "71", 
+         "skill" : "Speech"
+      }, 
+      "3e59ebab-473e-4eeb-8aee-940fd06f45fa" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-95088", 
+            "comment" : "А29"
+         }, 
+         "child" : [ 
+            "53de89ea-27b4-46b1-bc49-0b11cfe591ec"
+         ], 
+         "text" : "#BusStop_1_Man2.3e59ebab-473e-4eeb-8aee-940fd06f45fa"
+      }, 
+      "53de89ea-27b4-46b1-bc49-0b11cfe591ec" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-94972"
+         }, 
+         "child" : [ 
+            "78b599a3-2870-40fd-bc29-b2fd5ce19a20"
+         ]
+      }, 
+      "78b599a3-2870-40fd-bc29-b2fd5ce19a20" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-94888"
+         }, 
+         "child" : [ 
+            "b8b06252-9928-42be-a21e-8d5bba9c6b54"
+         ], 
+         "text" : "#BusStop_1_Man2.78b599a3-2870-40fd-bc29-b2fd5ce19a20"
+      }, 
+      "b8b06252-9928-42be-a21e-8d5bba9c6b54" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102253", 
+            "y" : "-94764"
+         }, 
+         "child" : [ 
+            "b52e7d07-71ee-4cbd-837a-27f25e98919f"
+         ], 
+         "exp" : "21"
+      }, 
+      "b52e7d07-71ee-4cbd-837a-27f25e98919f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102333", 
+            "y" : "-94686", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.b52e7d07-71ee-4cbd-837a-27f25e98919f"
+      }, 
+      "c0f53ed1-1427-45cd-b732-964664e9bac0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-95136", 
+            "comment" : "А29"
+         }, 
+         "child" : [ 
+            "07958606-19bf-4c1c-963b-75ff7d457ab8"
+         ], 
+         "text" : "#BusStop_1_Man2.c0f53ed1-1427-45cd-b732-964664e9bac0"
+      }, 
+      "07958606-19bf-4c1c-963b-75ff7d457ab8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-95010"
+         }, 
+         "child" : [ 
+            "cfc0d71e-bd4c-4ff9-acc5-2ec30b5a1688"
+         ]
+      }, 
+      "cfc0d71e-bd4c-4ff9-acc5-2ec30b5a1688" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-94936"
+         }, 
+         "child" : [ 
+            "80d77746-fb81-4100-b73f-adbd693aa909", 
+            "4bed355a-af0b-4bdb-931e-fcf1e1694bec", 
+            "b9643331-8e81-4317-aab6-8c16c467a88d"
+         ], 
+         "text" : "#BusStop_1_Man2.cfc0d71e-bd4c-4ff9-acc5-2ec30b5a1688"
+      }, 
+      "80d77746-fb81-4100-b73f-adbd693aa909" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102048", 
+            "y" : "-94829", 
+            "comment" : "(перенос А40)"
+         }, 
+         "child" : [ 
+            "d19003cf-d310-4e1a-80b2-97648e205e01"
+         ], 
+         "text" : "#BusStop_1_Man2.80d77746-fb81-4100-b73f-adbd693aa909"
+      }, 
+      "d19003cf-d310-4e1a-80b2-97648e205e01" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102086", 
+            "y" : "-94482", 
+            "comment" : "А40"
+         }, 
+         "child" : [ 
+            "69bfe2b2-4805-4943-b305-fcf6a6416e6f"
+         ], 
+         "text" : "#BusStop_1_Man2.d19003cf-d310-4e1a-80b2-97648e205e01"
+      }, 
+      "69bfe2b2-4805-4943-b305-fcf6a6416e6f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-94368"
+         }, 
+         "child" : [ 
+            "b56a3335-0659-43a2-9fd5-b78351c4425e"
+         ]
+      }, 
+      "b56a3335-0659-43a2-9fd5-b78351c4425e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102090", 
+            "y" : "-94234"
+         }, 
+         "child" : [ 
+            "629c9456-7f28-41f2-b045-1360f381e4ce", 
+            "393253fc-6004-4769-a109-ae540add345f", 
+            "8b134d5b-ff17-4d55-be44-b308bd38cd6b"
+         ], 
+         "text" : "#BusStop_1_Man2.b56a3335-0659-43a2-9fd5-b78351c4425e"
+      }, 
+      "629c9456-7f28-41f2-b045-1360f381e4ce" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102240", 
+            "y" : "-94134", 
+            "comment" : "(перенос А47)"
+         }, 
+         "child" : [ 
+            "c1187cb2-13a1-4faa-ab29-28d1c291a308"
+         ], 
+         "text" : "#BusStop_1_Man2.629c9456-7f28-41f2-b045-1360f381e4ce"
+      }, 
+      "c1187cb2-13a1-4faa-ab29-28d1c291a308" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-102304", 
+            "y" : "-93982"
+         }, 
+         "child" : [ 
+            "a40296cc-67e5-4440-9940-9d246118dc0f", 
+            "748f2d49-b205-4f9e-8f95-8861c5aaa90f"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "a40296cc-67e5-4440-9940-9d246118dc0f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102464", 
+            "y" : "-93864", 
+            "comment" : "А47"
+         }, 
+         "child" : [ 
+            "5f73a621-1f92-4d11-b7a4-3872a3bc0e3b"
+         ], 
+         "text" : "#BusStop_1_Man2.a40296cc-67e5-4440-9940-9d246118dc0f"
+      }, 
+      "5f73a621-1f92-4d11-b7a4-3872a3bc0e3b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102468", 
+            "y" : "-93748"
+         }, 
+         "child" : [ 
+            "4e3b35b9-9451-4a29-9c93-eeb63edea80a"
+         ]
+      }, 
+      "4e3b35b9-9451-4a29-9c93-eeb63edea80a" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-102430", 
+            "y" : "-93684"
+         }, 
+         "child" : [ 
+            "ee0c5b2c-ccab-4b40-a380-bab1cdfbb4d4"
+         ], 
+         "objectName" : "Fidel", 
+         "portrait" : "Character/Fidel_Field", 
+         "mode" : "AutoName"
+      }, 
+      "ee0c5b2c-ccab-4b40-a380-bab1cdfbb4d4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102468", 
+            "y" : "-93610"
+         }, 
+         "child" : [ 
+            "5cdf6ee6-2281-4262-a05d-b7e89c2b4555"
+         ], 
+         "text" : "#BusStop_1_Man2.ee0c5b2c-ccab-4b40-a380-bab1cdfbb4d4"
+      }, 
+      "5cdf6ee6-2281-4262-a05d-b7e89c2b4555" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102472", 
+            "y" : "-93466"
+         }, 
+         "child" : [ 
+            "a83bfbdb-f635-4d95-8840-42c9f7ea590e"
+         ]
+      }, 
+      "a83bfbdb-f635-4d95-8840-42c9f7ea590e" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-102446", 
+            "y" : "-93358"
+         }, 
+         "child" : [ 
+            "e503a319-e1e8-4f24-a44e-628a9342379c"
+         ], 
+         "portrait" : "Character/BusStop_1_Man2", 
+         "mode" : "SetOwnerNameIfExist"
+      }, 
+      "e503a319-e1e8-4f24-a44e-628a9342379c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102472", 
+            "y" : "-93264"
+         }, 
+         "child" : [ 
+            "e75bc766-92f1-412d-828b-e2c870e622ae"
+         ], 
+         "text" : "#BusStop_1_Man2.e503a319-e1e8-4f24-a44e-628a9342379c"
+      }, 
+      "e75bc766-92f1-412d-828b-e2c870e622ae" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102472", 
+            "y" : "-93112", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "019bdaf4-e18c-4200-ad6f-167cfe9b3a7f"
+         ], 
+         "text" : "#BusStop_1_Man2.e75bc766-92f1-412d-828b-e2c870e622ae"
+      }, 
+      "748f2d49-b205-4f9e-8f95-8861c5aaa90f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102150", 
+            "y" : "-93872", 
+            "comment" : "А47"
+         }, 
+         "child" : [ 
+            "104d625d-5af4-49bc-9f1e-432b3d216f0a"
+         ], 
+         "text" : "#BusStop_1_Man2.748f2d49-b205-4f9e-8f95-8861c5aaa90f"
+      }, 
+      "104d625d-5af4-49bc-9f1e-432b3d216f0a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102150", 
+            "y" : "-93758"
+         }, 
+         "child" : [ 
+            "9d6b3216-a51b-4a9a-ad55-61efd74ee003"
+         ]
+      }, 
+      "9d6b3216-a51b-4a9a-ad55-61efd74ee003" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102150", 
+            "y" : "-93694"
+         }, 
+         "child" : [ 
+            "df8f4492-4c53-4aa4-a505-3a5e21ee5bfc"
+         ], 
+         "text" : "#BusStop_1_Man2.9d6b3216-a51b-4a9a-ad55-61efd74ee003"
+      }, 
+      "df8f4492-4c53-4aa4-a505-3a5e21ee5bfc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102150", 
+            "y" : "-93572", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "019bdaf4-e18c-4200-ad6f-167cfe9b3a7f"
+         ], 
+         "text" : "#BusStop_1_Man2.df8f4492-4c53-4aa4-a505-3a5e21ee5bfc"
+      }, 
+      "393253fc-6004-4769-a109-ae540add345f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102106", 
+            "y" : "-94044", 
+            "comment" : "(перенос А48)"
+         }, 
+         "child" : [ 
+            "deaf91ed-0232-4586-84cc-64b38d9df51c"
+         ], 
+         "text" : "#BusStop_1_Man2.393253fc-6004-4769-a109-ae540add345f"
+      }, 
+      "deaf91ed-0232-4586-84cc-64b38d9df51c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101239", 
+            "y" : "-94579", 
+            "comment" : "А48"
+         }, 
+         "child" : [ 
+            "eae42ced-3c32-415a-b1c8-067091d725ef"
+         ], 
+         "text" : "#BusStop_1_Man2.deaf91ed-0232-4586-84cc-64b38d9df51c"
+      }, 
+      "eae42ced-3c32-415a-b1c8-067091d725ef" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101239", 
+            "y" : "-94457"
+         }, 
+         "child" : [ 
+            "c09d8297-33a7-4fdb-bbab-0c6f62b33496"
+         ]
+      }, 
+      "c09d8297-33a7-4fdb-bbab-0c6f62b33496" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101239", 
+            "y" : "-94379"
+         }, 
+         "child" : [ 
+            "4fad6e0b-0124-4edd-9ed2-7b759a8c5806"
+         ], 
+         "text" : "#BusStop_1_Man2.c09d8297-33a7-4fdb-bbab-0c6f62b33496"
+      }, 
+      "4fad6e0b-0124-4edd-9ed2-7b759a8c5806" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101243", 
+            "y" : "-94250", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "019bdaf4-e18c-4200-ad6f-167cfe9b3a7f"
+         ], 
+         "text" : "#BusStop_1_Man2.4fad6e0b-0124-4edd-9ed2-7b759a8c5806"
+      }, 
+      "8b134d5b-ff17-4d55-be44-b308bd38cd6b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101882", 
+            "y" : "-94122", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "57fc6cb1-6d95-4eb2-a5a8-7d1e38c463f3"
+         ], 
+         "text" : "#BusStop_1_Man2.8b134d5b-ff17-4d55-be44-b308bd38cd6b"
+      }, 
+      "57fc6cb1-6d95-4eb2-a5a8-7d1e38c463f3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100634", 
+            "y" : "-100172", 
+            "comment" : "к А0"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ]
+      }, 
+      "4bed355a-af0b-4bdb-931e-fcf1e1694bec" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-94736", 
+            "comment" : "(перенос А30)"
+         }, 
+         "child" : [ 
+            "2e471e9c-e2d7-4807-8bfa-6de71b72dc31"
+         ], 
+         "text" : "#BusStop_1_Man2.4bed355a-af0b-4bdb-931e-fcf1e1694bec"
+      }, 
+      "2e471e9c-e2d7-4807-8bfa-6de71b72dc31" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-95781"
+         }, 
+         "child" : [ 
+            "4318c5c1-7651-4043-9a7c-a256829a570b", 
+            "179c1c18-e312-4172-8455-5209aacb713b"
+         ], 
+         "value" : "7", 
+         "stat" : "Strength"
+      }, 
+      "4318c5c1-7651-4043-9a7c-a256829a570b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101620", 
+            "y" : "-95671", 
+            "comment" : "А30"
+         }, 
+         "child" : [ 
+            "96794250-3e78-4ac7-9e00-e3c43c7fc5b9"
+         ], 
+         "text" : "#BusStop_1_Man2.4318c5c1-7651-4043-9a7c-a256829a570b"
+      }, 
+      "96794250-3e78-4ac7-9e00-e3c43c7fc5b9" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101626", 
+            "y" : "-95515"
+         }, 
+         "child" : [ 
+            "ee24ddbd-cf7a-4d72-9800-c565d006922f"
+         ]
+      }, 
+      "ee24ddbd-cf7a-4d72-9800-c565d006922f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101672", 
+            "y" : "-95444"
+         }, 
+         "child" : [ 
+            "2269a111-6040-4e0c-b3c2-6b2f1d68d4f4"
+         ], 
+         "text" : "#BusStop_1_Man2.ee24ddbd-cf7a-4d72-9800-c565d006922f"
+      }, 
+      "2269a111-6040-4e0c-b3c2-6b2f1d68d4f4" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101602", 
+            "y" : "-95301"
+         }, 
+         "child" : [ 
+            "8c38d56a-3562-4ef7-99a0-805abfbe8b02"
+         ], 
+         "exp" : "21"
+      }, 
+      "8c38d56a-3562-4ef7-99a0-805abfbe8b02" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101632", 
+            "y" : "-95193", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.8c38d56a-3562-4ef7-99a0-805abfbe8b02"
+      }, 
+      "179c1c18-e312-4172-8455-5209aacb713b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101276", 
+            "y" : "-95677", 
+            "comment" : "А30"
+         }, 
+         "child" : [ 
+            "a4ed0099-66a2-4aec-a802-bda592f943d1"
+         ], 
+         "text" : "#BusStop_1_Man2.179c1c18-e312-4172-8455-5209aacb713b"
+      }, 
+      "a4ed0099-66a2-4aec-a802-bda592f943d1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101276", 
+            "y" : "-95577"
+         }, 
+         "child" : [ 
+            "a5f2501d-94fd-46a7-9d05-50fceddea994"
+         ]
+      }, 
+      "a5f2501d-94fd-46a7-9d05-50fceddea994" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101277", 
+            "y" : "-95478"
+         }, 
+         "child" : [ 
+            "77af937d-5354-431d-a6b6-457b7f2e0fa9", 
+            "14b1cb4a-4203-49f0-bcd4-4dac4b446a33"
+         ], 
+         "text" : "#BusStop_1_Man2.a5f2501d-94fd-46a7-9d05-50fceddea994"
+      }, 
+      "77af937d-5354-431d-a6b6-457b7f2e0fa9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101424", 
+            "y" : "-95339", 
+            "comment" : "(перенос А41)"
+         }, 
+         "child" : [ 
+            "9e8b48f1-a57a-4496-a7d6-ac2b4100265b"
+         ], 
+         "text" : "#BusStop_1_Man2.77af937d-5354-431d-a6b6-457b7f2e0fa9"
+      }, 
+      "9e8b48f1-a57a-4496-a7d6-ac2b4100265b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-95107", 
+            "comment" : "А41"
+         }, 
+         "child" : [ 
+            "ab0ec4d0-e38b-4af0-b7f3-247d7f7af5e1"
+         ], 
+         "text" : "#BusStop_1_Man2.9e8b48f1-a57a-4496-a7d6-ac2b4100265b"
+      }, 
+      "ab0ec4d0-e38b-4af0-b7f3-247d7f7af5e1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-94986"
+         }, 
+         "child" : [ 
+            "76551ee9-05f7-469c-ae09-25ec1628f348"
+         ]
+      }, 
+      "76551ee9-05f7-469c-ae09-25ec1628f348" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101229", 
+            "y" : "-94929"
+         }, 
+         "child" : [ 
+            "03d5a6c6-d72f-4885-9c6d-b575559212f3", 
+            "92ae564f-7b7a-4f69-b921-e05cc5ff9708", 
+            "99787591-6e6e-4876-8929-60cdd0d767cc"
+         ], 
+         "text" : "#BusStop_1_Man2.76551ee9-05f7-469c-ae09-25ec1628f348"
+      }, 
+      "03d5a6c6-d72f-4885-9c6d-b575559212f3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101410", 
+            "y" : "-94793", 
+            "comment" : "(перенос А47)"
+         }, 
+         "child" : [ 
+            "c1187cb2-13a1-4faa-ab29-28d1c291a308"
+         ], 
+         "text" : "#BusStop_1_Man2.03d5a6c6-d72f-4885-9c6d-b575559212f3"
+      }, 
+      "92ae564f-7b7a-4f69-b921-e05cc5ff9708" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-94707", 
+            "comment" : "(перенос А48)"
+         }, 
+         "child" : [ 
+            "deaf91ed-0232-4586-84cc-64b38d9df51c"
+         ], 
+         "text" : "#BusStop_1_Man2.92ae564f-7b7a-4f69-b921-e05cc5ff9708"
+      }, 
+      "99787591-6e6e-4876-8929-60cdd0d767cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101077", 
+            "y" : "-94807", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "57fc6cb1-6d95-4eb2-a5a8-7d1e38c463f3"
+         ], 
+         "text" : "#BusStop_1_Man2.99787591-6e6e-4876-8929-60cdd0d767cc"
+      }, 
+      "14b1cb4a-4203-49f0-bcd4-4dac4b446a33" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101090", 
+            "y" : "-95309", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.14b1cb4a-4203-49f0-bcd4-4dac4b446a33"
+      }, 
+      "b9643331-8e81-4317-aab6-8c16c467a88d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101721", 
+            "y" : "-94811", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "57fc6cb1-6d95-4eb2-a5a8-7d1e38c463f3"
+         ], 
+         "text" : "#BusStop_1_Man2.b9643331-8e81-4317-aab6-8c16c467a88d"
+      }, 
+      "961e6052-0396-437b-8b1c-8b4bbad46913" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102095", 
+            "y" : "-98576", 
+            "comment" : "(перенос А30)"
+         }, 
+         "child" : [ 
+            "2e471e9c-e2d7-4807-8bfa-6de71b72dc31"
+         ], 
+         "text" : "#BusStop_1_Man2.961e6052-0396-437b-8b1c-8b4bbad46913"
+      }, 
+      "11da395f-ca77-4e3a-a0a7-ef82fa8b7b7b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101945", 
+            "y" : "-98676", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.11da395f-ca77-4e3a-a0a7-ef82fa8b7b7b"
+      }, 
+      "d4be6047-6e11-41a1-82d0-d0b411055880" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101548", 
+            "y" : "-98479", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "a86bf45e-5570-4c3f-940c-d3a19fee9b1e"
+         ], 
+         "text" : "#BusStop_1_Man2.d4be6047-6e11-41a1-82d0-d0b411055880"
+      }, 
+      "a86bf45e-5570-4c3f-940c-d3a19fee9b1e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99543", 
+            "y" : "-98487", 
+            "comment" : "А14"
+         }, 
+         "child" : [ 
+            "c44077ca-a4c1-4e6f-bcda-74e133eb3064"
+         ], 
+         "text" : "#BusStop_1_Man2.a86bf45e-5570-4c3f-940c-d3a19fee9b1e"
+      }, 
+      "c44077ca-a4c1-4e6f-bcda-74e133eb3064" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99543", 
+            "y" : "-98387"
+         }, 
+         "child" : [ 
+            "1936ea22-884c-40eb-a55b-4deb7e8d0994"
+         ]
+      }, 
+      "1936ea22-884c-40eb-a55b-4deb7e8d0994" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99543", 
+            "y" : "-98287"
+         }, 
+         "child" : [ 
+            "07c94b7b-b616-4d8d-9cc0-5c6d34905ab0"
+         ], 
+         "text" : "#BusStop_1_Man2.1936ea22-884c-40eb-a55b-4deb7e8d0994"
+      }, 
+      "07c94b7b-b616-4d8d-9cc0-5c6d34905ab0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99547", 
+            "y" : "-98165"
+         }, 
+         "child" : [ 
+            "fee8eb75-c976-41ef-b956-4b7b22f25e25"
+         ]
+      }, 
+      "fee8eb75-c976-41ef-b956-4b7b22f25e25" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99543", 
+            "y" : "-98087"
+         }, 
+         "child" : [ 
+            "b98537c3-5a0c-44ba-b476-f86fb865e9d5"
+         ], 
+         "text" : "#BusStop_1_Man2.fee8eb75-c976-41ef-b956-4b7b22f25e25"
+      }, 
+      "b98537c3-5a0c-44ba-b476-f86fb865e9d5" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99499", 
+            "y" : "-97985"
+         }, 
+         "child" : [ 
+            "c4f8066a-592c-4042-ba8f-dc45835e3ad5"
+         ], 
+         "exp" : "21"
+      }, 
+      "c4f8066a-592c-4042-ba8f-dc45835e3ad5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99574", 
+            "y" : "-97903", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "29de74b4-313a-4037-8a7c-11ff90134fc5"
+         ], 
+         "text" : "#BusStop_1_Man2.c4f8066a-592c-4042-ba8f-dc45835e3ad5"
+      }, 
+      "29de74b4-313a-4037-8a7c-11ff90134fc5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103132", 
+            "y" : "-98692", 
+            "comment" : "к А11"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ]
+      }, 
+      "71e953a8-b88c-4bad-b3fb-8cffb10c65a0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-98379", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "5c44a948-63e7-4db7-99fb-bf1023981ad2"
+         ], 
+         "text" : "#BusStop_1_Man2.71e953a8-b88c-4bad-b3fb-8cffb10c65a0"
+      }, 
+      "5c44a948-63e7-4db7-99fb-bf1023981ad2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99284", 
+            "y" : "-98513", 
+            "comment" : "А15"
+         }, 
+         "child" : [ 
+            "2734e920-e6fa-480f-8c17-566a82ebf072"
+         ], 
+         "text" : "#BusStop_1_Man2.5c44a948-63e7-4db7-99fb-bf1023981ad2"
+      }, 
+      "2734e920-e6fa-480f-8c17-566a82ebf072" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99289", 
+            "y" : "-98380"
+         }, 
+         "child" : [ 
+            "5478ef47-7b10-4bc6-a48e-e5f4b94b589a"
+         ]
+      }, 
+      "5478ef47-7b10-4bc6-a48e-e5f4b94b589a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99287", 
+            "y" : "-98300"
+         }, 
+         "child" : [ 
+            "fea74515-e057-4bbf-8217-5e9f9809e4a1"
+         ], 
+         "text" : "#BusStop_1_Man2.5478ef47-7b10-4bc6-a48e-e5f4b94b589a"
+      }, 
+      "fea74515-e057-4bbf-8217-5e9f9809e4a1" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-99289", 
+            "y" : "-98180"
+         }, 
+         "child" : [ 
+            "f218669d-1d58-4291-985f-b2160a5bc1dc"
+         ]
+      }, 
+      "f218669d-1d58-4291-985f-b2160a5bc1dc" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-99237", 
+            "y" : "-98142"
+         }, 
+         "child" : [ 
+            "1da91a83-f4da-43c7-a1a8-90487ded9de2"
+         ], 
+         "exp" : "21"
+      }, 
+      "1da91a83-f4da-43c7-a1a8-90487ded9de2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99290", 
+            "y" : "-98079"
+         }, 
+         "child" : [ 
+            "36ed9f9b-e15c-4060-8e8e-447504246491"
+         ], 
+         "text" : "#BusStop_1_Man2.1da91a83-f4da-43c7-a1a8-90487ded9de2"
+      }, 
+      "36ed9f9b-e15c-4060-8e8e-447504246491" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99289", 
+            "y" : "-97980", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "29de74b4-313a-4037-8a7c-11ff90134fc5"
+         ], 
+         "text" : "#BusStop_1_Man2.36ed9f9b-e15c-4060-8e8e-447504246491"
+      }, 
+      "8ee4d52a-cf9c-46ae-bde4-0f8aeeeb8bb6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102078", 
+            "y" : "-99370", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.8ee4d52a-cf9c-46ae-bde4-0f8aeeeb8bb6"
+      }, 
+      "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101224", 
+            "y" : "-98275", 
+            "comment" : "А6"
+         }, 
+         "child" : [ 
+            "7cfe8b42-19a3-4bb6-a23f-a10044a6071b", 
+            "1869633c-6cab-4c4d-8cfa-0e7f9a3017df", 
+            "c89f88a0-37ce-459e-b500-fb596e3af245"
+         ], 
+         "text" : "#BusStop_1_Man2.c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+      }, 
+      "7cfe8b42-19a3-4bb6-a23f-a10044a6071b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101431", 
+            "y" : "-98157", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "116cc7be-efd0-4c80-a8b4-c919750ee9d4"
+         ], 
+         "text" : "#BusStop_1_Man2.7cfe8b42-19a3-4bb6-a23f-a10044a6071b"
+      }, 
+      "116cc7be-efd0-4c80-a8b4-c919750ee9d4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99450", 
+            "y" : "-98868", 
+            "comment" : "А16"
+         }, 
+         "child" : [ 
+            "011b0d73-8c07-4360-9f96-b115edbbd791", 
+            "9ced1dd0-653a-4468-9665-d88551c454bf", 
+            "131d0844-cbf4-4e8e-9bda-4d039e7f4c68", 
+            "9954e287-52c5-488e-a2e6-69c7c8c98dd3"
+         ], 
+         "text" : "#BusStop_1_Man2.116cc7be-efd0-4c80-a8b4-c919750ee9d4"
+      }, 
+      "011b0d73-8c07-4360-9f96-b115edbbd791" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99750", 
+            "y" : "-98740", 
+            "comment" : "(перенос А12)"
+         }, 
+         "child" : [ 
+            "a326e4ad-9e97-4e6c-ba30-b37f970942c0"
+         ], 
+         "text" : "#BusStop_1_Man2.011b0d73-8c07-4360-9f96-b115edbbd791"
+      }, 
+      "9ced1dd0-653a-4468-9665-d88551c454bf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99600", 
+            "y" : "-98640", 
+            "comment" : "(перенос А13)"
+         }, 
+         "child" : [ 
+            "f7bfcaa8-6d93-4fc3-8d6a-a754c1fc7616"
+         ], 
+         "text" : "#BusStop_1_Man2.9ced1dd0-653a-4468-9665-d88551c454bf"
+      }, 
+      "131d0844-cbf4-4e8e-9bda-4d039e7f4c68" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99450", 
+            "y" : "-98740", 
+            "comment" : "(перенос А14)"
+         }, 
+         "child" : [ 
+            "a86bf45e-5570-4c3f-940c-d3a19fee9b1e"
+         ], 
+         "text" : "#BusStop_1_Man2.131d0844-cbf4-4e8e-9bda-4d039e7f4c68"
+      }, 
+      "9954e287-52c5-488e-a2e6-69c7c8c98dd3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99300", 
+            "y" : "-98640", 
+            "comment" : "(перенос А15)"
+         }, 
+         "child" : [ 
+            "5c44a948-63e7-4db7-99fb-bf1023981ad2"
+         ], 
+         "text" : "#BusStop_1_Man2.9954e287-52c5-488e-a2e6-69c7c8c98dd3"
+      }, 
+      "1869633c-6cab-4c4d-8cfa-0e7f9a3017df" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101225", 
+            "y" : "-98054", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "030105d0-b1da-4297-bf06-7a96c3867591"
+         ], 
+         "text" : "#BusStop_1_Man2.1869633c-6cab-4c4d-8cfa-0e7f9a3017df"
+      }, 
+      "030105d0-b1da-4297-bf06-7a96c3867591" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100115", 
+            "y" : "-99257", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "04e86423-bdc4-4637-a885-b055551f5773", 
+            "18e41ab1-c57c-4ea8-85ff-5ae7073e74b7", 
+            "6613550b-a1fb-4821-93eb-a817d33899a5"
+         ], 
+         "text" : "#BusStop_1_Man2.030105d0-b1da-4297-bf06-7a96c3867591"
+      }, 
+      "04e86423-bdc4-4637-a885-b055551f5773" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100273", 
+            "y" : "-99142", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.04e86423-bdc4-4637-a885-b055551f5773"
+      }, 
+      "18e41ab1-c57c-4ea8-85ff-5ae7073e74b7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100115", 
+            "y" : "-99057", 
+            "comment" : "(перенос А16)"
+         }, 
+         "child" : [ 
+            "116cc7be-efd0-4c80-a8b4-c919750ee9d4"
+         ], 
+         "text" : "#BusStop_1_Man2.18e41ab1-c57c-4ea8-85ff-5ae7073e74b7"
+      }, 
+      "6613550b-a1fb-4821-93eb-a817d33899a5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99962", 
+            "y" : "-99143", 
+            "comment" : "(перенос А20)"
+         }, 
+         "child" : [ 
+            "ae21c3c2-3c9e-449c-91a8-4049b9baf267"
+         ], 
+         "text" : "#BusStop_1_Man2.6613550b-a1fb-4821-93eb-a817d33899a5"
+      }, 
+      "ae21c3c2-3c9e-449c-91a8-4049b9baf267" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102501", 
+            "y" : "-96267", 
+            "comment" : "А20"
+         }, 
+         "child" : [ 
+            "3377dd40-458d-4d44-ac60-699a2dc8e083", 
+            "25bbb84b-15db-40ce-990a-508f3923e56d", 
+            "cf67510f-0c73-472e-81ba-ddee2d0d89ce", 
+            "a9daf308-cad5-41c0-a6e8-7b798b0af183", 
+            "ea99a623-fea3-4ba4-9aff-981c4b24dd44"
+         ], 
+         "text" : "#BusStop_1_Man2.ae21c3c2-3c9e-449c-91a8-4049b9baf267"
+      }, 
+      "3377dd40-458d-4d44-ac60-699a2dc8e083" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102816", 
+            "y" : "-96107"
+         }, 
+         "child" : [ 
+            "05902fbe-db32-48c4-ade9-52e0f9429499", 
+            "8fa884a9-c659-42c2-bff8-654c150c1b38"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "05902fbe-db32-48c4-ade9-52e0f9429499" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102998", 
+            "y" : "-95952", 
+            "comment" : "(перенос А27)"
+         }, 
+         "child" : [ 
+            "17f63678-3f58-467c-814d-ca9e060aa611"
+         ], 
+         "text" : "#BusStop_1_Man2.05902fbe-db32-48c4-ade9-52e0f9429499"
+      }, 
+      "8fa884a9-c659-42c2-bff8-654c150c1b38" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102744", 
+            "y" : "-95983"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "25bbb84b-15db-40ce-990a-508f3923e56d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102636", 
+            "y" : "-96090"
+         }, 
+         "child" : [ 
+            "565ebc7b-ebad-4ab6-bf66-2d69b8a38353", 
+            "f06a16be-5d83-4db6-a4c5-162548378e51"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "75", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "565ebc7b-ebad-4ab6-bf66-2d69b8a38353" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102721", 
+            "y" : "-95925", 
+            "comment" : "(перенос А28)"
+         }, 
+         "child" : [ 
+            "ce55deec-02fa-44b3-b5ae-7ea8eeaa767f"
+         ], 
+         "text" : "#BusStop_1_Man2.565ebc7b-ebad-4ab6-bf66-2d69b8a38353"
+      }, 
+      "f06a16be-5d83-4db6-a4c5-162548378e51" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102546", 
+            "y" : "-95976"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cf67510f-0c73-472e-81ba-ddee2d0d89ce" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102386", 
+            "y" : "-95950", 
+            "comment" : "(перенос А29)"
+         }, 
+         "child" : [ 
+            "197ab50d-706d-4487-944e-5fcdaae968be"
+         ], 
+         "text" : "#BusStop_1_Man2.cf67510f-0c73-472e-81ba-ddee2d0d89ce"
+      }, 
+      "a9daf308-cad5-41c0-a6e8-7b798b0af183" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102162", 
+            "y" : "-95979", 
+            "comment" : "(перенос А30)"
+         }, 
+         "child" : [ 
+            "2e471e9c-e2d7-4807-8bfa-6de71b72dc31"
+         ], 
+         "text" : "#BusStop_1_Man2.a9daf308-cad5-41c0-a6e8-7b798b0af183"
+      }, 
+      "ea99a623-fea3-4ba4-9aff-981c4b24dd44" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102030", 
+            "y" : "-96084", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.ea99a623-fea3-4ba4-9aff-981c4b24dd44"
+      }, 
+      "c89f88a0-37ce-459e-b500-fb596e3af245" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101046", 
+            "y" : "-98175", 
+            "comment" : "(перенос А17)"
+         }, 
+         "child" : [ 
+            "fed88110-0c1d-4849-b831-fb013196d79d"
+         ], 
+         "text" : "#BusStop_1_Man2.c89f88a0-37ce-459e-b500-fb596e3af245"
+      }, 
+      "fed88110-0c1d-4849-b831-fb013196d79d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100978", 
+            "y" : "-97976", 
+            "comment" : "А17"
+         }, 
+         "child" : [ 
+            "f36aaa53-d6ec-4c8d-a130-deab4de6c8d4"
+         ], 
+         "text" : "#BusStop_1_Man2.fed88110-0c1d-4849-b831-fb013196d79d"
+      }, 
+      "f36aaa53-d6ec-4c8d-a130-deab4de6c8d4" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100978", 
+            "y" : "-97876"
+         }, 
+         "child" : [ 
+            "1c1001fe-3455-4f7e-a303-f8e700a10bb9"
+         ]
+      }, 
+      "1c1001fe-3455-4f7e-a303-f8e700a10bb9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100978", 
+            "y" : "-97776"
+         }, 
+         "child" : [ 
+            "907b6529-9996-4156-9395-ea79136d1e7d"
+         ], 
+         "text" : "#BusStop_1_Man2.1c1001fe-3455-4f7e-a303-f8e700a10bb9"
+      }, 
+      "907b6529-9996-4156-9395-ea79136d1e7d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100986", 
+            "y" : "-97640"
+         }, 
+         "child" : [ 
+            "53f9bf51-cbdc-4f1a-b406-8cac8cc8917d"
+         ]
+      }, 
+      "53f9bf51-cbdc-4f1a-b406-8cac8cc8917d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100978", 
+            "y" : "-97576"
+         }, 
+         "child" : [ 
+            "fb51f915-cc19-43ca-9c9d-eed4053b5369"
+         ], 
+         "text" : "#BusStop_1_Man2.53f9bf51-cbdc-4f1a-b406-8cac8cc8917d"
+      }, 
+      "fb51f915-cc19-43ca-9c9d-eed4053b5369" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-97480"
+         }, 
+         "child" : [ 
+            "ee2cdc32-4e4f-4f82-9692-6dbe874e5f48"
+         ], 
+         "exp" : "21"
+      }, 
+      "ee2cdc32-4e4f-4f82-9692-6dbe874e5f48" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100986", 
+            "y" : "-97412", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.ee2cdc32-4e4f-4f82-9692-6dbe874e5f48"
+      }, 
+      "563bed8c-607c-49f4-ad7e-1ee2c951b73f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101924", 
+            "y" : "-99443", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "8e528c97-1ae4-45e8-a659-5b111994f398"
+         ], 
+         "text" : "#BusStop_1_Man2.563bed8c-607c-49f4-ad7e-1ee2c951b73f"
+      }, 
+      "8e528c97-1ae4-45e8-a659-5b111994f398" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101776", 
+            "y" : "-98119", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "84d98467-1667-4f16-9b78-8ee27d0b05a7", 
+            "b197f7f7-809a-4b08-b010-39bd3b32e2df", 
+            "4743a400-1147-4087-8365-1e51d126380a", 
+            "03dd7847-8613-4a68-a81f-b728803aaae6"
+         ], 
+         "text" : "#BusStop_1_Man2.8e528c97-1ae4-45e8-a659-5b111994f398"
+      }, 
+      "84d98467-1667-4f16-9b78-8ee27d0b05a7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102072", 
+            "y" : "-97994", 
+            "comment" : "(перенос А18)"
+         }, 
+         "child" : [ 
+            "07eec447-40db-4289-b65f-7385cd9031a7"
+         ], 
+         "text" : "#BusStop_1_Man2.84d98467-1667-4f16-9b78-8ee27d0b05a7"
+      }, 
+      "07eec447-40db-4289-b65f-7385cd9031a7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100980", 
+            "y" : "-97314", 
+            "comment" : "А18"
+         }, 
+         "child" : [ 
+            "9e01aa0f-8303-4787-b413-f3897541c8a2", 
+            "3d5e6292-3ad7-481f-a862-ad95f45d85c1", 
+            "2919dac9-4d19-4a13-b284-50a8e1eec132", 
+            "2c2e5fd2-9621-4a16-be4e-640dc2fd9eb9"
+         ], 
+         "text" : "#BusStop_1_Man2.07eec447-40db-4289-b65f-7385cd9031a7"
+      }, 
+      "9e01aa0f-8303-4787-b413-f3897541c8a2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101336", 
+            "y" : "-97156", 
+            "comment" : "(перенос А31)"
+         }, 
+         "child" : [ 
+            "1f296ac7-bc76-41bf-bd25-527013b480b8"
+         ], 
+         "text" : "#BusStop_1_Man2.9e01aa0f-8303-4787-b413-f3897541c8a2"
+      }, 
+      "1f296ac7-bc76-41bf-bd25-527013b480b8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102624", 
+            "y" : "-100119", 
+            "comment" : "А31"
+         }, 
+         "child" : [ 
+            "34a1239a-1854-471c-8281-89c55bc6d31e", 
+            "b8d2cc6f-97ea-4e18-be0c-d5c347c3c187", 
+            "39aefb7d-d75f-4e26-bfe6-0a9276aa4e66", 
+            "c609bb33-b271-4544-a634-953fc11d7635"
+         ], 
+         "text" : "#BusStop_1_Man2.1f296ac7-bc76-41bf-bd25-527013b480b8"
+      }, 
+      "34a1239a-1854-471c-8281-89c55bc6d31e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102926", 
+            "y" : "-99993", 
+            "comment" : "(перенос А42)"
+         }, 
+         "child" : [ 
+            "e1157014-f8c5-4a6f-a597-fc84da21e414"
+         ], 
+         "text" : "#BusStop_1_Man2.34a1239a-1854-471c-8281-89c55bc6d31e"
+      }, 
+      "e1157014-f8c5-4a6f-a597-fc84da21e414" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102990", 
+            "y" : "-99794", 
+            "comment" : "А42"
+         }, 
+         "child" : [ 
+            "4d6715c7-06de-4aa5-8b51-3f6b5ff91c9a", 
+            "2d16a576-2418-4b28-8392-44033c063809", 
+            "d61fb73a-0840-4bd7-bb98-228060c376b9"
+         ], 
+         "text" : "#BusStop_1_Man2.e1157014-f8c5-4a6f-a597-fc84da21e414"
+      }, 
+      "4d6715c7-06de-4aa5-8b51-3f6b5ff91c9a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103200", 
+            "y" : "-99679", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.4d6715c7-06de-4aa5-8b51-3f6b5ff91c9a"
+      }, 
+      "2d16a576-2418-4b28-8392-44033c063809" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103079", 
+            "y" : "-99582", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.2d16a576-2418-4b28-8392-44033c063809"
+      }, 
+      "d61fb73a-0840-4bd7-bb98-228060c376b9" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102732", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "a1617d41-6d99-4b86-aa17-0823e9fe5ec9", 
+            "105096a7-739d-404e-a145-d84233621a65"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a1617d41-6d99-4b86-aa17-0823e9fe5ec9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102820", 
+            "y" : "-99542", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "744d64d1-35cc-4303-a7c6-d2c769246462"
+         ], 
+         "text" : "#BusStop_1_Man2.a1617d41-6d99-4b86-aa17-0823e9fe5ec9"
+      }, 
+      "744d64d1-35cc-4303-a7c6-d2c769246462" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101373", 
+            "y" : "-99819", 
+            "comment" : "А3"
+         }, 
+         "child" : [ 
+            "64895b50-707e-4769-a9cd-2bcf2d05b0cc"
+         ], 
+         "text" : "#BusStop_1_Man2.744d64d1-35cc-4303-a7c6-d2c769246462"
+      }, 
+      "64895b50-707e-4769-a9cd-2bcf2d05b0cc" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-99705"
+         }, 
+         "child" : [ 
+            "5cc1da23-62e7-4c54-a880-4baac220d9ee"
+         ]
+      }, 
+      "5cc1da23-62e7-4c54-a880-4baac220d9ee" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101371", 
+            "y" : "-99648"
+         }, 
+         "child" : [ 
+            "67d44da3-308d-4b1a-8985-2ed91ab9cdd2"
+         ], 
+         "text" : "#BusStop_1_Man2.5cc1da23-62e7-4c54-a880-4baac220d9ee"
+      }, 
+      "67d44da3-308d-4b1a-8985-2ed91ab9cdd2" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101316", 
+            "y" : "-99536"
+         }, 
+         "child" : [ 
+            "f68f1aff-51cc-4fba-8b3b-2fa2994cde84"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f68f1aff-51cc-4fba-8b3b-2fa2994cde84" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101304", 
+            "y" : "-99456"
+         }, 
+         "child" : [ 
+            "b156a38c-3a58-4aea-9453-f7a56b0ed4c1"
+         ], 
+         "exp" : "21"
+      }, 
+      "b156a38c-3a58-4aea-9453-f7a56b0ed4c1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101363", 
+            "y" : "-99352", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.b156a38c-3a58-4aea-9453-f7a56b0ed4c1"
+      }, 
+      "105096a7-739d-404e-a145-d84233621a65" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102542", 
+            "y" : "-99576"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b8d2cc6f-97ea-4e18-be0c-d5c347c3c187" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102820", 
+            "y" : "-99893", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.b8d2cc6f-97ea-4e18-be0c-d5c347c3c187"
+      }, 
+      "39aefb7d-d75f-4e26-bfe6-0a9276aa4e66" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102599", 
+            "y" : "-99968", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.39aefb7d-d75f-4e26-bfe6-0a9276aa4e66"
+      }, 
+      "c609bb33-b271-4544-a634-953fc11d7635" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102322", 
+            "y" : "-99937"
+         }, 
+         "child" : [ 
+            "a6ee2b98-1838-4f48-8416-a4fadc75a252", 
+            "df33124c-57c5-42ac-89fd-abb323564314"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a6ee2b98-1838-4f48-8416-a4fadc75a252" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102448", 
+            "y" : "-99807", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "744d64d1-35cc-4303-a7c6-d2c769246462"
+         ], 
+         "text" : "#BusStop_1_Man2.a6ee2b98-1838-4f48-8416-a4fadc75a252"
+      }, 
+      "df33124c-57c5-42ac-89fd-abb323564314" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102142", 
+            "y" : "-99781"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3d5e6292-3ad7-481f-a862-ad95f45d85c1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101167", 
+            "y" : "-97055", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.3d5e6292-3ad7-481f-a862-ad95f45d85c1"
+      }, 
+      "2919dac9-4d19-4a13-b284-50a8e1eec132" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100948", 
+            "y" : "-97081"
+         }, 
+         "child" : [ 
+            "cb173fe4-879c-4983-a75c-65c94a0c0a40", 
+            "011053f8-af1a-426a-ab6d-302c4a4004da"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cb173fe4-879c-4983-a75c-65c94a0c0a40" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101047", 
+            "y" : "-96872", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "744d64d1-35cc-4303-a7c6-d2c769246462"
+         ], 
+         "text" : "#BusStop_1_Man2.cb173fe4-879c-4983-a75c-65c94a0c0a40"
+      }, 
+      "011053f8-af1a-426a-ab6d-302c4a4004da" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100790", 
+            "y" : "-96920"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2c2e5fd2-9621-4a16-be4e-640dc2fd9eb9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100772", 
+            "y" : "-97098", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.2c2e5fd2-9621-4a16-be4e-640dc2fd9eb9"
+      }, 
+      "b197f7f7-809a-4b08-b010-39bd3b32e2df" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101870", 
+            "y" : "-97857"
+         }, 
+         "child" : [ 
+            "86bdf33c-b4d1-4905-9a2a-f44520f32142", 
+            "7e1038a0-1acc-40ea-9794-91ed8df39d3e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "86bdf33c-b4d1-4905-9a2a-f44520f32142" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101974", 
+            "y" : "-97715", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "744d64d1-35cc-4303-a7c6-d2c769246462"
+         ], 
+         "text" : "#BusStop_1_Man2.86bdf33c-b4d1-4905-9a2a-f44520f32142"
+      }, 
+      "7e1038a0-1acc-40ea-9794-91ed8df39d3e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101777", 
+            "y" : "-97731"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4743a400-1147-4087-8365-1e51d126380a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101782", 
+            "y" : "-97973", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.4743a400-1147-4087-8365-1e51d126380a"
+      }, 
+      "03dd7847-8613-4a68-a81f-b728803aaae6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101622", 
+            "y" : "-97894", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.03dd7847-8613-4a68-a81f-b728803aaae6"
+      }, 
+      "143971c8-e7d7-482b-8bf1-7c6aba62fc44" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101655", 
+            "y" : "-100194", 
+            "comment" : "(перенос А2)"
+         }, 
+         "child" : [ 
+            "9a11e7e6-088c-4805-9c14-6cbb943f7554"
+         ], 
+         "text" : "#BusStop_1_Man2.143971c8-e7d7-482b-8bf1-7c6aba62fc44"
+      }, 
+      "9a11e7e6-088c-4805-9c14-6cbb943f7554" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101624", 
+            "y" : "-99430", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "89e6d841-ef60-4eae-8622-42fbf8a9eb16"
+         ], 
+         "text" : "#BusStop_1_Man2.9a11e7e6-088c-4805-9c14-6cbb943f7554"
+      }, 
+      "89e6d841-ef60-4eae-8622-42fbf8a9eb16" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101624", 
+            "y" : "-99298"
+         }, 
+         "child" : [ 
+            "f22a25ce-70c0-427c-bac8-32437f2d158b"
+         ]
+      }, 
+      "f22a25ce-70c0-427c-bac8-32437f2d158b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101618", 
+            "y" : "-99217"
+         }, 
+         "child" : [ 
+            "5bc26d78-2bc8-4c6b-bbf8-eda73f42a501", 
+            "73f4275d-c9a1-42b2-b87f-fb6c967393db", 
+            "63c5bcd0-3367-4206-9a2a-0498e3ff0067", 
+            "4c0d6686-a5dd-4038-9020-963bc55c8e54"
+         ], 
+         "text" : "#BusStop_1_Man2.f22a25ce-70c0-427c-bac8-32437f2d158b"
+      }, 
+      "5bc26d78-2bc8-4c6b-bbf8-eda73f42a501" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102018", 
+            "y" : "-99204"
+         }, 
+         "child" : [ 
+            "754dcad5-baaa-4fc8-b76e-36a094f681c7", 
+            "09e0eead-ae02-4cef-8ce2-7683a40a1e51"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "25", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "754dcad5-baaa-4fc8-b76e-36a094f681c7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102314", 
+            "y" : "-99109", 
+            "comment" : "(перенос А8)"
+         }, 
+         "child" : [ 
+            "97edeca9-d195-4cc2-9ee0-414feb0f8266"
+         ], 
+         "text" : "#BusStop_1_Man2.754dcad5-baaa-4fc8-b76e-36a094f681c7"
+      }, 
+      "97edeca9-d195-4cc2-9ee0-414feb0f8266" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102811", 
+            "y" : "-99172", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "0cf546b2-3093-4e6e-a361-1a2c4da9864e"
+         ], 
+         "text" : "#BusStop_1_Man2.97edeca9-d195-4cc2-9ee0-414feb0f8266"
+      }, 
+      "0cf546b2-3093-4e6e-a361-1a2c4da9864e" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102815", 
+            "y" : "-99061"
+         }, 
+         "child" : [ 
+            "476e5c59-13cf-40d7-ae38-8563f6234790"
+         ]
+      }, 
+      "476e5c59-13cf-40d7-ae38-8563f6234790" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102815", 
+            "y" : "-98998"
+         }, 
+         "child" : [ 
+            "466cb262-0bac-49f1-87fd-2ba8fbad3b9d"
+         ], 
+         "text" : "#BusStop_1_Man2.476e5c59-13cf-40d7-ae38-8563f6234790"
+      }, 
+      "466cb262-0bac-49f1-87fd-2ba8fbad3b9d" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-102772", 
+            "y" : "-98898"
+         }, 
+         "child" : [ 
+            "e15dbe39-c421-4051-96fd-9c1ec64d63bf"
+         ], 
+         "exp" : "21"
+      }, 
+      "e15dbe39-c421-4051-96fd-9c1ec64d63bf" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-102844", 
+            "y" : "-98830"
+         }, 
+         "child" : [ 
+            "0f0e7290-005b-44ce-8e0e-c0de7e134ae9"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "25", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0f0e7290-005b-44ce-8e0e-c0de7e134ae9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102916", 
+            "y" : "-98714", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.0f0e7290-005b-44ce-8e0e-c0de7e134ae9"
+      }, 
+      "09e0eead-ae02-4cef-8ce2-7683a40a1e51" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101910", 
+            "y" : "-99078"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "73f4275d-c9a1-42b2-b87f-fb6c967393db" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101791", 
+            "y" : "-99003", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.73f4275d-c9a1-42b2-b87f-fb6c967393db"
+      }, 
+      "63c5bcd0-3367-4206-9a2a-0498e3ff0067" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101668", 
+            "y" : "-98934", 
+            "comment" : "(перенос А9)"
+         }, 
+         "child" : [ 
+            "d5754e16-833d-4a6d-b9b5-c94da033513a"
+         ], 
+         "text" : "#BusStop_1_Man2.63c5bcd0-3367-4206-9a2a-0498e3ff0067"
+      }, 
+      "d5754e16-833d-4a6d-b9b5-c94da033513a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100364", 
+            "y" : "-99027", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "43a663d3-c6a6-43e8-8929-9fb0fd3c3620", 
+            "c1c882ab-bde5-4eeb-a9ae-08e3a76ec692", 
+            "388679b8-4a0f-48cb-bbde-b7d902417bbd", 
+            "aa0828dc-87e9-41bc-af57-d97272e7367a", 
+            "7fce5944-3677-4005-b59f-f5b9586f6fe2"
+         ], 
+         "text" : "#BusStop_1_Man2.d5754e16-833d-4a6d-b9b5-c94da033513a"
+      }, 
+      "43a663d3-c6a6-43e8-8929-9fb0fd3c3620" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100810", 
+            "y" : "-98970"
+         }, 
+         "child" : [ 
+            "f1ed8b28-36c6-4cf6-ad3e-b33bda688d2d", 
+            "57c3b7ea-a908-47d3-8e04-e17d97c280b8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f1ed8b28-36c6-4cf6-ad3e-b33bda688d2d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100760", 
+            "y" : "-98767", 
+            "comment" : "(перенос А19)"
+         }, 
+         "child" : [ 
+            "680ae4d2-c2d5-4d5e-850a-ec49287c8c5b"
+         ], 
+         "text" : "#BusStop_1_Man2.f1ed8b28-36c6-4cf6-ad3e-b33bda688d2d"
+      }, 
+      "680ae4d2-c2d5-4d5e-850a-ec49287c8c5b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-98440", 
+            "comment" : "А19"
+         }, 
+         "child" : [ 
+            "ab715af9-0f2c-48b2-8415-95d6881d334b"
+         ], 
+         "text" : "#BusStop_1_Man2.680ae4d2-c2d5-4d5e-850a-ec49287c8c5b"
+      }, 
+      "ab715af9-0f2c-48b2-8415-95d6881d334b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100604", 
+            "y" : "-98313"
+         }, 
+         "child" : [ 
+            "05677629-a701-4ae2-a3dc-53db48d24ce8"
+         ]
+      }, 
+      "05677629-a701-4ae2-a3dc-53db48d24ce8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-98240"
+         }, 
+         "child" : [ 
+            "c0c4151f-23de-4f64-b6d6-c8bfbd927f70"
+         ], 
+         "text" : "#BusStop_1_Man2.05677629-a701-4ae2-a3dc-53db48d24ce8"
+      }, 
+      "c0c4151f-23de-4f64-b6d6-c8bfbd927f70" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-98140"
+         }, 
+         "child" : [ 
+            "1801cf5e-76c4-4a54-b9c2-3f48238bbdf5"
+         ]
+      }, 
+      "1801cf5e-76c4-4a54-b9c2-3f48238bbdf5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100598", 
+            "y" : "-98071"
+         }, 
+         "child" : [ 
+            "369895a0-81ca-40bb-808a-6db5e1eea594"
+         ], 
+         "text" : "#BusStop_1_Man2.1801cf5e-76c4-4a54-b9c2-3f48238bbdf5"
+      }, 
+      "369895a0-81ca-40bb-808a-6db5e1eea594" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-97940"
+         }, 
+         "child" : [ 
+            "deb7cecb-cb69-4330-b595-26d5e13a6d89"
+         ]
+      }, 
+      "deb7cecb-cb69-4330-b595-26d5e13a6d89" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100563", 
+            "y" : "-97874"
+         }, 
+         "child" : [ 
+            "444da4f6-5533-4fd4-8f0b-f41e5bf43dcf"
+         ], 
+         "exp" : "21"
+      }, 
+      "444da4f6-5533-4fd4-8f0b-f41e5bf43dcf" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100582", 
+            "y" : "-97795"
+         }, 
+         "child" : [ 
+            "83157cc6-dfc0-4c8e-8aef-951048f7efb8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "83157cc6-dfc0-4c8e-8aef-951048f7efb8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100612", 
+            "y" : "-97663"
+         }, 
+         "child" : [ 
+            "e7fb02d4-a0b3-45fe-8c44-e574aa9b9444"
+         ], 
+         "text" : "#BusStop_1_Man2.83157cc6-dfc0-4c8e-8aef-951048f7efb8"
+      }, 
+      "e7fb02d4-a0b3-45fe-8c44-e574aa9b9444" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100606", 
+            "y" : "-97508", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.e7fb02d4-a0b3-45fe-8c44-e574aa9b9444"
+      }, 
+      "57c3b7ea-a908-47d3-8e04-e17d97c280b8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100647", 
+            "y" : "-98830"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1c882ab-bde5-4eeb-a9ae-08e3a76ec692" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100493", 
+            "y" : "-98877"
+         }, 
+         "child" : [ 
+            "ea68a875-6807-4e58-b357-6e5e14df1bc9", 
+            "8f116c12-1c1a-4591-802a-1e9a338eba23"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "50", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ea68a875-6807-4e58-b357-6e5e14df1bc9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-98711", 
+            "comment" : "(перенос А26)"
+         }, 
+         "child" : [ 
+            "5a02b3e5-2f7b-4373-8b77-ec016b1a7a19"
+         ], 
+         "text" : "#BusStop_1_Man2.ea68a875-6807-4e58-b357-6e5e14df1bc9"
+      }, 
+      "5a02b3e5-2f7b-4373-8b77-ec016b1a7a19" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100325", 
+            "y" : "-98509", 
+            "comment" : "А26"
+         }, 
+         "child" : [ 
+            "f8bd83d2-9b9b-459a-8cbc-ed588ec04ddd"
+         ], 
+         "text" : "#BusStop_1_Man2.5a02b3e5-2f7b-4373-8b77-ec016b1a7a19"
+      }, 
+      "f8bd83d2-9b9b-459a-8cbc-ed588ec04ddd" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-100334", 
+            "y" : "-98383"
+         }, 
+         "child" : [ 
+            "4e64e5fa-d7ce-4c27-a034-66b54b11b99f"
+         ]
+      }, 
+      "4e64e5fa-d7ce-4c27-a034-66b54b11b99f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100336", 
+            "y" : "-98319"
+         }, 
+         "child" : [ 
+            "8800f672-e869-46eb-97db-91d28052d6d2"
+         ], 
+         "text" : "#BusStop_1_Man2.4e64e5fa-d7ce-4c27-a034-66b54b11b99f"
+      }, 
+      "8800f672-e869-46eb-97db-91d28052d6d2" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-100272", 
+            "y" : "-98215"
+         }, 
+         "child" : [ 
+            "20045779-efd5-4359-ab07-c5ee6efee720"
+         ], 
+         "exp" : "21"
+      }, 
+      "20045779-efd5-4359-ab07-c5ee6efee720" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100269", 
+            "y" : "-98120"
+         }, 
+         "child" : [ 
+            "0caf620d-eaee-4cbb-87ab-97a725dc883e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "50", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0caf620d-eaee-4cbb-87ab-97a725dc883e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100306", 
+            "y" : "-98005", 
+            "comment" : "(перенос А11)"
+         }, 
+         "child" : [ 
+            "89960639-d7c5-4175-9229-fc73718b2d3c"
+         ], 
+         "text" : "#BusStop_1_Man2.0caf620d-eaee-4cbb-87ab-97a725dc883e"
+      }, 
+      "8f116c12-1c1a-4591-802a-1e9a338eba23" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100423", 
+            "y" : "-98766"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "388679b8-4a0f-48cb-bbde-b7d902417bbd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100310", 
+            "y" : "-98770", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.388679b8-4a0f-48cb-bbde-b7d902417bbd"
+      }, 
+      "aa0828dc-87e9-41bc-af57-d97272e7367a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100185", 
+            "y" : "-98698", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "030105d0-b1da-4297-bf06-7a96c3867591"
+         ], 
+         "text" : "#BusStop_1_Man2.aa0828dc-87e9-41bc-af57-d97272e7367a"
+      }, 
+      "7fce5944-3677-4005-b59f-f5b9586f6fe2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100076", 
+            "y" : "-98811", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.7fce5944-3677-4005-b59f-f5b9586f6fe2"
+      }, 
+      "4c0d6686-a5dd-4038-9020-963bc55c8e54" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101497", 
+            "y" : "-98985", 
+            "comment" : "(перенос А10)"
+         }, 
+         "child" : [ 
+            "030105d0-b1da-4297-bf06-7a96c3867591"
+         ], 
+         "text" : "#BusStop_1_Man2.4c0d6686-a5dd-4038-9020-963bc55c8e54"
+      }, 
+      "1356d53b-f759-4b46-b5d1-3ed34f88c4e0" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101383", 
+            "y" : "-100255"
+         }, 
+         "child" : [ 
+            "2c9011f8-d096-4391-8d24-960e585303d4", 
+            "3b79151a-0373-460e-a19c-702f910ebb8d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastepaper"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2c9011f8-d096-4391-8d24-960e585303d4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101546", 
+            "y" : "-100114", 
+            "comment" : "(перенос А3)"
+         }, 
+         "child" : [ 
+            "744d64d1-35cc-4303-a7c6-d2c769246462"
+         ], 
+         "text" : "#BusStop_1_Man2.2c9011f8-d096-4391-8d24-960e585303d4"
+      }, 
+      "3b79151a-0373-460e-a19c-702f910ebb8d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101280", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1b03e66d-d89f-4b1f-8c17-f07ebe46654a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101165", 
+            "y" : "-100157", 
+            "comment" : "(перенос А4)"
+         }, 
+         "child" : [ 
+            "3cf7a82e-f4f3-4de0-b8e6-a4ccda5a46b2"
+         ], 
+         "text" : "#BusStop_1_Man2.1b03e66d-d89f-4b1f-8c17-f07ebe46654a"
+      }, 
+      "3cf7a82e-f4f3-4de0-b8e6-a4ccda5a46b2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99661", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "36426462-c301-438f-8c5a-5a6fb9a19aa9"
+         ], 
+         "text" : "#BusStop_1_Man2.3cf7a82e-f4f3-4de0-b8e6-a4ccda5a46b2"
+      }, 
+      "36426462-c301-438f-8c5a-5a6fb9a19aa9" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99561"
+         }, 
+         "child" : [ 
+            "ba8e1e13-7553-48b4-a0c8-cd0e2e3c2493"
+         ]
+      }, 
+      "ba8e1e13-7553-48b4-a0c8-cd0e2e3c2493" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99483"
+         }, 
+         "child" : [ 
+            "fe1ab9ad-84c0-4c2b-bda1-d6fc5486fe40"
+         ], 
+         "text" : "#BusStop_1_Man2.ba8e1e13-7553-48b4-a0c8-cd0e2e3c2493"
+      }, 
+      "fe1ab9ad-84c0-4c2b-bda1-d6fc5486fe40" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99361"
+         }, 
+         "child" : [ 
+            "c3fa9372-c7ea-4f65-ba35-11b7ce804bbf"
+         ]
+      }, 
+      "c3fa9372-c7ea-4f65-ba35-11b7ce804bbf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99261"
+         }, 
+         "child" : [ 
+            "9da42499-4927-43e5-8bff-98a9eb8c2e59"
+         ], 
+         "text" : "#BusStop_1_Man2.c3fa9372-c7ea-4f65-ba35-11b7ce804bbf"
+      }, 
+      "9da42499-4927-43e5-8bff-98a9eb8c2e59" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99161"
+         }, 
+         "child" : [ 
+            "8b7156bd-9e1b-4f30-b209-76b5ef82b880"
+         ]
+      }, 
+      "8b7156bd-9e1b-4f30-b209-76b5ef82b880" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101085", 
+            "y" : "-99079"
+         }, 
+         "child" : [ 
+            "72fb46b1-6fb7-47df-8199-d9d671de7be8"
+         ], 
+         "text" : "#BusStop_1_Man2.8b7156bd-9e1b-4f30-b209-76b5ef82b880"
+      }, 
+      "72fb46b1-6fb7-47df-8199-d9d671de7be8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-98961"
+         }, 
+         "child" : [ 
+            "b31c0d69-e215-4b47-b26d-893a4ea2b897"
+         ]
+      }, 
+      "b31c0d69-e215-4b47-b26d-893a4ea2b897" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-98861"
+         }, 
+         "child" : [ 
+            "46fc2447-a633-4bf4-add5-25a70489e961", 
+            "03d77ccd-69c1-4866-a012-cacb38cf8d88", 
+            "bc696dbb-3f74-4328-a9b0-85665ffb4f69", 
+            "316dfd0f-3031-4f20-9f9c-e745cd880e5d"
+         ], 
+         "text" : "#BusStop_1_Man2.b31c0d69-e215-4b47-b26d-893a4ea2b897"
+      }, 
+      "46fc2447-a633-4bf4-add5-25a70489e961" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101381", 
+            "y" : "-98761", 
+            "comment" : "(перенос А5)"
+         }, 
+         "child" : [ 
+            "3b732a99-24ea-49d7-96f2-eb0c2d32e22a"
+         ], 
+         "text" : "#BusStop_1_Man2.46fc2447-a633-4bf4-add5-25a70489e961"
+      }, 
+      "03d77ccd-69c1-4866-a012-cacb38cf8d88" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-98661", 
+            "comment" : "(перенос А6)"
+         }, 
+         "child" : [ 
+            "c02cbbfa-449b-479c-a5b7-d31c3ff9a5c5"
+         ], 
+         "text" : "#BusStop_1_Man2.03d77ccd-69c1-4866-a012-cacb38cf8d88"
+      }, 
+      "bc696dbb-3f74-4328-a9b0-85665ffb4f69" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-98761", 
+            "comment" : "(перенос А7)"
+         }, 
+         "child" : [ 
+            "8e528c97-1ae4-45e8-a659-5b111994f398"
+         ], 
+         "text" : "#BusStop_1_Man2.bc696dbb-3f74-4328-a9b0-85665ffb4f69"
+      }, 
+      "316dfd0f-3031-4f20-9f9c-e745cd880e5d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-98661", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.316dfd0f-3031-4f20-9f9c-e745cd880e5d"
+      }, 
+      "fd132e05-93a4-480d-9f59-73be3cf5fb2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100983", 
+            "y" : "-100259", 
+            "comment" : "(начинается бой, гг ходит первый)"
+         }, 
+         "child" : [ 
+            "78fa9952-134b-4c71-9dcf-cef38f3b4ca1"
+         ], 
+         "text" : "#BusStop_1_Man2.fd132e05-93a4-480d-9f59-73be3cf5fb2e"
+      }
+   }, 
+   "entry" : "e2ad1e3a-83e7-4c68-87d3-138d7314162f"
+}

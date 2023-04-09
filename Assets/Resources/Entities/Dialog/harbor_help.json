@@ -352,7 +352,7 @@
          "item" : { 
             "class" : "Memo", 
             "count" : "1", 
-            "proto" : "craft_scorpion_m"
+            "proto" : "craft_pps43_m"
          }, 
          "objectName" : "Player"
       }, 
