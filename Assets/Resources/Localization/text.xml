@@ -22,53 +22,13 @@ xmlns:html="http://www.w3.org/TR/REC-html40">
 <Worksheet ss:Name="WorkSheet">
 <Table>
 <Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">busstop_1_man2</Data></Cell></Row>
+<Cell ss:StyleID="s74"><Data ss:Type="String">fogelevka_herbalist</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Я по поводу перегона</Data></Cell></Row>
+<Cell><Data ss:Type="String">А ты сможешь ещё изготовить зелье?</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Давай рассказывай, что там творится?</Data></Cell></Row>
+<Cell><Data ss:Type="String">Конечно! Принеси мне новый дестилят из водопада, ампула же у тебя осталась..</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">Всё плохо, но есть надежда на примерение</Data></Cell></Row>
+<Cell><Data ss:Type="String">Ок, придётся вернуться в Ущелье бед</Data></Cell></Row>
 <Row>
-<Cell><Data ss:Type="String">[Начальник крепости нервно теребит сигарету в руках] Если они не договорятся нас первыми под раздачу пустят</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Не паникуй, может удасться их усмерить</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Рассказываете всё что увидили и чем всё закончилось</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ни чего себе - подковёрные игры они затеяли, ну хорошо хоть как-то это разрешилось</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вот держи, с деньгами у нас сейчас напряжно, а конфиската у нас жопой жуй</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ясненько понятненько как вы тут зарабатываете</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Начальник крепости даже не слушает вас, он уже явно ушёл в себя и подсчитывает с кем ему выгоднее быть</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">[Уходите]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Всё плохо</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">А кто вас вообще сюда поставил?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Конечно же Перегон, они нам платят, чтобы мы всякую нечесть от основной трассы отгоняли</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">А как мне туда попасть?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Да тут рядом [отмечает у вас на карте Перегон]</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ну спасибо, я пойду</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Погоди, если будешь в тех краях, узнай что они порешили насчёт нашей заставы, у них там сейчас не шуточные политические стычки, а зарплаты нет у нас</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">И что я смогу сделать?</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Просто выясни в чём дело и сообщи мне, а если получится разрешить их спор - то будет вообще супер!</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Ох ну посмотрю что смогу сделать</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Мне это не интересно, разбирайтесь сами</Data></Cell></Row>
-<Row>
-<Cell ss:StyleID="s74"><Data ss:Type="String">rat_forest_campman2</Data></Cell></Row>
-<Row>
-<Cell><Data ss:Type="String">Вы получили чертежи ПП Скорпион</Data></Cell></Row>
+<Cell><Data ss:Type="String">Конечно! Держи ампудлу если ты старую потерял...</Data></Cell></Row>
 </Table></Worksheet></Workbook>

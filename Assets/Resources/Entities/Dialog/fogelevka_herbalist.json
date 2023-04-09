@@ -65,9 +65,9 @@
          "child" : [ 
             "0a24d903-d6c8-4d9d-b1e1-17db79439bad", 
             "780b4bbe-d906-4109-a08e-f783f73a648b", 
-            "0c9a554e-5a8f-4982-80cc-7edc1f76c504", 
+            "5365d177-55f0-4291-9f87-195da245aea4", 
             "ee4ddd76-c28d-42dc-837e-7b347aed59f6", 
-            "82dccb89-fa6d-44d3-ab68-d23ac5765c77"
+            "732fa8c8-64db-4701-8a44-38f82f1a7800"
          ], 
          "text" : "#Fogelevka_Herbalist.54b85098-c3e0-4605-9b1f-54dbbd695b5c"
       }, 
@@ -1007,8 +1007,8 @@
       "3be02b28-4321-4760-abe5-cc34a7659286" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-104445", 
-            "y" : "-99300"
+            "x" : "-104425", 
+            "y" : "-99405"
          }, 
          "child" : [ 
          ]
@@ -1016,8 +1016,8 @@
       "d99caea1-117d-4902-98af-a332f19efc1b" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-104501", 
-            "y" : "-99325"
+            "x" : "-104629", 
+            "y" : "-98655"
          }, 
          "child" : [ 
          ]
@@ -1467,8 +1467,8 @@
       "732fa8c8-64db-4701-8a44-38f82f1a7800" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102998", 
-            "y" : "-99274", 
+            "x" : "-102877", 
+            "y" : "-99219", 
             "comment" : "(конец диалога, перенос А4)"
          }, 
          "child" : [ 
@@ -1775,15 +1775,25 @@
          "child" : [ 
          ]
       }, 
+      "5365d177-55f0-4291-9f87-195da245aea4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103045", 
+            "y" : "-101573"
+         }, 
+         "child" : [ 
+            "0c9a554e-5a8f-4982-80cc-7edc1f76c504"
+         ]
+      }, 
       "0c9a554e-5a8f-4982-80cc-7edc1f76c504" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103042", 
-            "y" : "-101355"
+            "x" : "-103070", 
+            "y" : "-101516"
          }, 
          "child" : [ 
             "187db02f-3aa4-4c6e-b0c2-743419693332", 
-            "9339e504-49df-4f90-a8b9-824db3a9515e"
+            "9122e1b7-9615-4584-85d2-6094943105e5"
          ], 
          "item" : { 
             "class" : "Consumable", 
@@ -1795,8 +1805,8 @@
       "187db02f-3aa4-4c6e-b0c2-743419693332" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-103086", 
-            "y" : "-101250"
+            "x" : "-103105", 
+            "y" : "-101392"
          }, 
          "child" : [ 
             "38655b84-e082-4b0a-a0dc-a6e696516a12", 
@@ -1950,8 +1960,8 @@
       "0fdf57c0-0705-4e67-99fa-8228da408ec6" : { 
          "class" : "NotebookRemoveNoteNode", 
          "desc" : { 
-            "x" : "-103810", 
-            "y" : "-101183"
+            "x" : "-103876", 
+            "y" : "-101076"
          }, 
          "child" : [ 
          ], 
@@ -2003,8 +2013,8 @@
       "9339e504-49df-4f90-a8b9-824db3a9515e" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102720", 
-            "y" : "-100722", 
+            "x" : "-102717", 
+            "y" : "-100732", 
             "comment" : "(перенос А3)"
          }, 
          "child" : [ 
@@ -2114,29 +2124,127 @@
       "8ec103ba-2f08-47c9-a83f-184e7d5cdc99" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-104025", 
-            "y" : "-101262"
+            "x" : "-104176", 
+            "y" : "-101177"
          }, 
          "child" : [ 
          ]
       }, 
-      "82dccb89-fa6d-44d3-ab68-d23ac5765c77" : { 
-         "class" : "DialogAnswerNode", 
+      "9122e1b7-9615-4584-85d2-6094943105e5" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102529", 
-            "y" : "-100882", 
-            "comment" : "(конец диалога, перенос А4)"
+            "x" : "-104331", 
+            "y" : "-102026"
          }, 
          "child" : [ 
-            "9ac346e0-d448-4817-994b-9cd1edc30e9c"
-         ], 
-         "text" : "#Fogelevka_Herbalist.82dccb89-fa6d-44d3-ab68-d23ac5765c77"
+            "dbaad4c7-aeab-4927-8054-6ae6e5a54033"
+         ]
       }, 
-      "9ac346e0-d448-4817-994b-9cd1edc30e9c" : { 
-         "class" : "DialogEndNode", 
+      "dbaad4c7-aeab-4927-8054-6ae6e5a54033" : { 
+         "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-102418", 
-            "y" : "-100801"
+            "x" : "-104386", 
+            "y" : "-101967"
+         }, 
+         "child" : [ 
+            "4ede4ea5-f596-4f54-b974-f5fe9a01e55a", 
+            "772d86f1-7d6c-4d6f-9839-3bef9d857f64", 
+            "ba37abb6-aa8e-46a0-b937-154c8ce08bff"
+         ], 
+         "quest_key" : "OBLIVION_QUEST"
+      }, 
+      "4ede4ea5-f596-4f54-b974-f5fe9a01e55a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104521", 
+            "y" : "-101876"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "772d86f1-7d6c-4d6f-9839-3bef9d857f64" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104388", 
+            "y" : "-101827"
+         }, 
+         "child" : [ 
+            "ea417a24-28ad-4d3e-91b5-32a4f76d9049"
+         ], 
+         "text" : "#fogelevka_herbalist.772d86f1-7d6c-4d6f-9839-3bef9d857f64"
+      }, 
+      "ea417a24-28ad-4d3e-91b5-32a4f76d9049" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-104360", 
+            "y" : "-101729"
+         }, 
+         "child" : [ 
+            "650809c5-7a28-4264-961a-0480a29dc6e7", 
+            "0d94a70d-8960-42fc-a27e-608e417efe58"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "650809c5-7a28-4264-961a-0480a29dc6e7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104535", 
+            "y" : "-101589"
+         }, 
+         "child" : [ 
+            "ff13b575-0e61-46c7-82e8-edf5b4cd0f32"
+         ], 
+         "text" : "#fogelevka_herbalist.650809c5-7a28-4264-961a-0480a29dc6e7"
+      }, 
+      "ff13b575-0e61-46c7-82e8-edf5b4cd0f32" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104413", 
+            "y" : "-101372"
+         }, 
+         "child" : [ 
+            "8ec103ba-2f08-47c9-a83f-184e7d5cdc99", 
+            "0fdf57c0-0705-4e67-99fa-8228da408ec6"
+         ], 
+         "text" : "#fogelevka_herbalist.ff13b575-0e61-46c7-82e8-edf5b4cd0f32"
+      }, 
+      "0d94a70d-8960-42fc-a27e-608e417efe58" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104304", 
+            "y" : "-101577"
+         }, 
+         "child" : [ 
+            "3682ff14-416e-4df6-ba5e-872c0cf4f54a"
+         ], 
+         "text" : "#fogelevka_herbalist.0d94a70d-8960-42fc-a27e-608e417efe58"
+      }, 
+      "3682ff14-416e-4df6-ba5e-872c0cf4f54a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-104276", 
+            "y" : "-101492"
+         }, 
+         "child" : [ 
+            "ff13b575-0e61-46c7-82e8-edf5b4cd0f32"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "OblivionAmpoule_empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ba37abb6-aa8e-46a0-b937-154c8ce08bff" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104522", 
+            "y" : "-101855"
          }, 
          "child" : [ 
          ]

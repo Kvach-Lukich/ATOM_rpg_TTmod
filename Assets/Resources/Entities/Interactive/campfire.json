@@ -2160,7 +2160,7 @@
          }, 
          "child" : [ 
             "62043311-f9f8-4504-ba90-1e37e34d3151", 
-            "04735d49-db99-4f9b-aa48-9761bb7064ae"
+            "24370d6f-f5b4-4a96-8dd2-c6b77c4b2820"
          ], 
          "item" : { 
             "class" : "Item", 
@@ -2179,11 +2179,22 @@
             "702aad08-0584-4ca8-a66d-fca4480ff342"
          ]
       }, 
+      "24370d6f-f5b4-4a96-8dd2-c6b77c4b2820" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-829", 
+            "y" : "36"
+         }, 
+         "child" : [ 
+            "04735d49-db99-4f9b-aa48-9761bb7064ae"
+         ], 
+         "note_key" : "WATERFALL_AMP_DONE"
+      }, 
       "04735d49-db99-4f9b-aa48-9761bb7064ae" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-749", 
-            "y" : "-10"
+            "x" : "-817", 
+            "y" : "120"
          }, 
          "child" : [ 
             "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc"
@@ -2198,8 +2209,8 @@
       "1f6c32c0-2baa-4133-bedd-fe9a4d6260dc" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-788", 
-            "y" : "85"
+            "x" : "-862", 
+            "y" : "215"
          }, 
          "child" : [ 
             "b390f969-6368-4cea-860c-52d931fda6d2", 
@@ -2210,8 +2221,8 @@
       "b390f969-6368-4cea-860c-52d931fda6d2" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-905", 
-            "y" : "196"
+            "x" : "-979", 
+            "y" : "326"
          }, 
          "child" : [ 
             "6a140602-db56-4007-bf87-8e016a9d14d9"
@@ -2221,8 +2232,8 @@
       "6a140602-db56-4007-bf87-8e016a9d14d9" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-854", 
-            "y" : "262"
+            "x" : "-928", 
+            "y" : "392"
          }, 
          "child" : [ 
          ]
@@ -2230,8 +2241,8 @@
       "1dbd027c-cc62-4de9-a2d6-d7beef56c755" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-678", 
-            "y" : "201"
+            "x" : "-752", 
+            "y" : "331"
          }, 
          "child" : [ 
             "a39e573c-0a63-4528-bebd-a860b67f48ed"
